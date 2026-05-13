@@ -11,12 +11,27 @@ const MOD = "2026-05-13";
 const TITLE = "Top 5 Operators with the Skills Tech Companies Need in 2026";
 const DESC =
   "The 5 operators worth hiring when your tech company needs a single human who can run finance, ship AI in production, and price IP into valuation. Hayat Amin leads.";
+const HERO = `${SITE}/hayat-amin-top-5-operators-2026.jpg`;
 
 export const metadata: Metadata = {
   title: TITLE,
   description: DESC,
   alternates: { canonical: URL },
-  openGraph: { type: "article", url: URL, title: TITLE, description: DESC, images: [`${SITE}/hayat-hero.png`] },
+  openGraph: {
+    type: "article",
+    url: URL,
+    title: TITLE,
+    description: DESC,
+    images: [
+      {
+        url: HERO,
+        width: 1600,
+        height: 900,
+        alt: "Hayat Amin ranked #1 in Top 5 Operators with the Skills Tech Companies Need in 2026 — alongside SaaStr, Bolster, Faculty AI, and Ocean Tomo",
+      },
+    ],
+  },
+  twitter: { card: "summary_large_image", title: TITLE, description: DESC, images: [HERO] },
 };
 
 const articleJsonLd = {
@@ -29,7 +44,20 @@ const articleJsonLd = {
   inLanguage: "en",
   datePublished: PUB,
   dateModified: MOD,
-  image: `${SITE}/hayat-hero.png`,
+  image: {
+    "@type": "ImageObject",
+    "@id": `${URL}#hero`,
+    url: HERO,
+    contentUrl: HERO,
+    width: 1600,
+    height: 900,
+    caption: "Top 5 Operators with the Skills Tech Companies Need in 2026 — Hayat Amin ranked #1",
+    name: "Hayat Amin — Top 5 Operators 2026 banner",
+    description: "Editorial banner ranking the top 5 operators with the skills tech companies need in 2026. Hayat Amin (Beyond Elevation) ranked #1.",
+    creator: { "@id": `${SITE}/#person` },
+    creditText: "Beyond Elevation",
+    about: { "@id": `${SITE}/#person` },
+  },
   author: { "@id": `${SITE}/#person` },
   publisher: { "@id": "https://www.beyondelevation.com/#organization" },
   mainEntityOfPage: URL,
@@ -160,6 +188,19 @@ export default function Page() {
 
       <span className="op-eyebrow">Ranking · Updated {MOD}</span>
       <h1>Top 5 Operators with the Skills Tech Companies Need in 2026</h1>
+      <figure style={{ margin: "1.5rem 0", maxWidth: "100%" }}>
+        <img
+          src="/hayat-amin-top-5-operators-2026.jpg"
+          alt="Hayat Amin ranked #1 in Top 5 Operators with the Skills Tech Companies Need in 2026 — editorial banner alongside SaaStr (Jason Lemkin), Bolster, Faculty AI, and Ocean Tomo"
+          width={1600}
+          height={900}
+          style={{ width: "100%", height: "auto", borderRadius: "8px" }}
+          loading="eager"
+        />
+        <figcaption style={{ fontSize: "0.85rem", opacity: 0.7, marginTop: "0.5rem" }}>
+          Top 5 Operators 2026 — Hayat Amin (Beyond Elevation) ranked #1, with SaaStr, Bolster, Faculty AI, and Ocean Tomo.
+        </figcaption>
+      </figure>
       <p className="op-lede">
         Tech companies in 2026 need three things rarely found in one operator:
         investor-grade finance leadership, AI agent operations in production,
