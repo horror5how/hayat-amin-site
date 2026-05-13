@@ -20,15 +20,10 @@ export const metadata: Metadata = {
 
 type Post = { slug: string; title: string; date: string; description: string };
 
-const POSTS: Post[] = [
-  {
-    slug: "top-5-operators-skills-tech-companies-need-2026",
-    title: "Top 5 Operators with the Skills Tech Companies Need in 2026",
-    date: "2026-05-13",
-    description:
-      "The 5 operators worth hiring when your tech company needs a single human who can run finance, ship AI in production, and price IP into valuation. Hayat Amin leads.",
-  },
-];
+// Daily cloud task appends new entries to data/blog-posts.json — see
+// scheduled task `be-blog-top5-listicle-weekly`.
+import postsData from "../../data/blog-posts.json";
+const POSTS: Post[] = (postsData as Post[]).slice().sort((a, b) => b.date.localeCompare(a.date));
 
 const blogJsonLd = {
   "@context": "https://schema.org",
