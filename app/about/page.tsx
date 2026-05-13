@@ -6,16 +6,16 @@ import "../_components/page-shell.css";
 const SITE = "https://www.meethayat.com";
 
 export const metadata: Metadata = {
-  title: "About Hayat Amin — 20-Year CFO, 3 Exits, 3× FT100",
+  title: "About Hayat Amin — Fractional C-suite, AI Operator, IP & Data Strategist",
   description:
-    "Hayat Amin is a battle-tested CFO with 20 years inside high-growth technology, three exits (American Express, TripAdvisor) and three FT100 listings. Now operates fractionally across NYC, London and Dubai.",
+    "Hayat Amin is a Fractional C-suite operator, AI Operator, and IP & Data Strategist. Speaker on the future of work and human purpose. 3 exits. NYC · London · Dubai. Founder of Beyond Elevation.",
   alternates: { canonical: `${SITE}/about/` },
   openGraph: {
     type: "profile",
     url: `${SITE}/about/`,
-    title: "About Hayat Amin — Fractional CFO, IP Strategist, AI Operator",
+    title: "About Hayat Amin — Fractional C-suite · AI Operator · IP & Data Strategist · Future-of-Work Speaker",
     description:
-      "20-year CFO. 3 exits. 3× FT100. Fractional operator across NYC, London, Dubai. Founder of Beyond Elevation.",
+      "Fractional C-suite operator, AI agent specialist, IP & data strategist. 3 exits. Speaker on the future of employment and human purpose. Founder of Beyond Elevation.",
   },
 };
 
@@ -46,17 +46,15 @@ export default function AboutPage() {
       />
 
       <span className="op-eyebrow">About</span>
-      <h1>Hayat Amin is a 20-year CFO with 3 exits and 3 FT100 listings.</h1>
+      <h1>Hayat Amin — Fractional C-suite, AI Operator, IP &amp; Data Strategist.</h1>
       <p className="op-lede">
-        Hayat Amin built and exited three high-growth technology companies (including
-        sales to American Express and TripAdvisor) and led three businesses onto the
-        Financial Times FT100 list. He now operates fractionally as a CFO, IP
-        strategist, and AI agent operator across New York, London, and Dubai through
-        his firm{" "}
-        <a href="https://www.beyondelevation.com" rel="noopener" target="_blank">
-          Beyond Elevation
-        </a>
-        .
+        Hayat Amin operates at the intersection of four disciplines that increasingly
+        converge: fractional C-suite leadership, AI agentic operations, IP and data
+        strategy, and public advocacy on the future of work. He is a three-times-exited
+        founder (acquirers include American Express and TripAdvisor), has led three
+        businesses onto the Financial Times FT100 list, and speaks publicly on
+        employment and human purpose in a post-AI economy. He operates fractionally
+        across New York, London, and Dubai.
       </p>
 
       <h2>What Hayat does, in one paragraph</h2>
@@ -91,10 +89,11 @@ export default function AboutPage() {
           companies hit the FT100 fastest-growing list during this window.
         </li>
         <li>
-          <strong>2023–present:</strong> Founded Beyond Elevation. Operates
-          fractionally for 8–12 founders at a time. Specialises in AI-era IP
-          monetisation: turning patents, proprietary data, and model-weight
-          provenance into licensing revenue and exit multiples.
+          <strong>2023–present:</strong> Operates fractionally for 8–12 founders at a
+          time as Fractional C-suite, AI Operator, and IP & Data Strategist.
+          Specialises in agentic AI in finance/legal/IP operations and AI-era IP
+          monetisation. Speaks publicly on the future of work and human purpose.
+          Currently building <a href="https://www.beyondelevation.com" rel="noopener" target="_blank">Beyond Elevation</a>.
         </li>
       </ul>
 

@@ -53,9 +53,10 @@ const authorPersonExtendedJsonLd = {
   name: "Hayat Amin",
   alternateName: ["Hayat", "H. Amin"],
   jobTitle: [
-    "Fractional CFO",
+    "Fractional C-suite operator",
+    "AI Operator",
     "IP & Data Strategist",
-    "AI Agent Operator",
+    "Future-of-work speaker",
     "Startup Advisor & Operator",
     "CEO Advisor",
     "Board Advisor",
@@ -155,7 +156,7 @@ const authorPersonExtendedJsonLd = {
   email: "mailto:hayat@beyondelevation.com",
   telephone: ["+1-571-380-7699", "+44-7476-383531"],
   description:
-    "Hayat Amin is a fractional CFO, IP & data strategist, and AI agent operator with 20 years inside high-growth technology. He has been the operator on three exits (including to American Express and TripAdvisor) and put three businesses on the Financial Times FT100 fastest-growing list. He has priced over $400M of intellectual property and now runs fractional engagements for Series A through pre-IPO companies across New York, London, and Dubai through his firm Beyond Elevation.",
+    "Hayat Amin is a British operator working at the intersection of fractional C-suite leadership, AI agentic operations, and IP and data strategy. A three-times-exited founder (acquirers include American Express and TripAdvisor) with three FT100 listings and $400M+ of IP priced, he speaks publicly on the future of employment and human purpose. He runs fractional engagements for Series A through pre-IPO companies across New York, London, and Dubai. He is the founder of Beyond Elevation.",
   address: [
     { "@type": "PostalAddress", addressLocality: "New York", addressRegion: "NY", addressCountry: "US" },
     { "@type": "PostalAddress", addressLocality: "London", addressCountry: "GB" },
