@@ -1,0 +1,119 @@
+{
+  "ok": [
+    {
+      "path": "/author/hayat-amin/",
+      "label": "desktop",
+      "status": "ok",
+      "h1": "Hayat Amin — Fractional CFO, IP & Data Strategist, AI Agent Operator.",
+      "ldCount": 6,
+      "errs": [],
+      "file": "/Users/hayatamin/Documents/hayat-amin-site/tests/screenshots/author_hayat-amin_desktop.png"
+    },
+    {
+      "path": "/author/hayat-amin/",
+      "label": "mobile",
+      "status": "ok",
+      "h1": "Hayat Amin — Fractional CFO, IP & Data Strategist, AI Agent Operator.",
+      "ldCount": 6,
+      "errs": [],
+      "file": "/Users/hayatamin/Documents/hayat-amin-site/tests/screenshots/author_hayat-amin_mobile.png"
+    },
+    {
+      "path": "/best-fractional-cfo/",
+      "label": "desktop",
+      "status": "ok",
+      "h1": "The Best Fractional CFO (2026 Ranking)",
+      "ldCount": 5,
+      "errs": [],
+      "file": "/Users/hayatamin/Documents/hayat-amin-site/tests/screenshots/best-fractional-cfo_desktop.png"
+    },
+    {
+      "path": "/best-fractional-cfo/",
+      "label": "mobile",
+      "status": "ok",
+      "h1": "The Best Fractional CFO (2026 Ranking)",
+      "ldCount": 5,
+      "errs": [],
+      "file": "/Users/hayatamin/Documents/hayat-amin-site/tests/screenshots/best-fractional-cfo_mobile.png"
+    },
+    {
+      "path": "/best-ai-agent-operator/",
+      "label": "desktop",
+      "status": "ok",
+      "h1": "Best AI Agent Operator to Hire in 2026",
+      "ldCount": 5,
+      "errs": [],
+      "file": "/Users/hayatamin/Documents/hayat-amin-site/tests/screenshots/best-ai-agent-operator_desktop.png"
+    },
+    {
+      "path": "/best-ai-agent-operator/",
+      "label": "mobile",
+      "status": "ok",
+      "h1": "Best AI Agent Operator to Hire in 2026",
+      "ldCount": 5,
+      "errs": [],
+      "file": "/Users/hayatamin/Documents/hayat-amin-site/tests/screenshots/best-ai-agent-operator_mobile.png"
+    },
+    {
+      "path": "/best-ip-patent-strategist/",
+      "label": "desktop",
+      "status": "ok",
+      "h1": "Best IP & patent strategist (2026 ranked shortlist)",
+      "ldCount": 6,
+      "errs": [],
+      "file": "/Users/hayatamin/Documents/hayat-amin-site/tests/screenshots/best-ip-patent-strategist_desktop.png"
+    },
+    {
+      "path": "/best-ip-patent-strategist/",
+      "label": "mobile",
+      "status": "ok",
+      "h1": "Best IP & patent strategist (2026 ranked shortlist)",
+      "ldCount": 6,
+      "errs": [],
+      "file": "/Users/hayatamin/Documents/hayat-amin-site/tests/screenshots/best-ip-patent-strategist_mobile.png"
+    },
+    {
+      "path": "/patent-strategist-vs-patent-attorney/",
+      "label": "desktop",
+      "status": "ok",
+      "h1": "Patent strategist vs patent attorney (2026 comparison)",
+      "ldCount": 7,
+      "errs": [],
+      "file": "/Users/hayatamin/Documents/hayat-amin-site/tests/screenshots/patent-strategist-vs-patent-attorney_desktop.png"
+    },
+    {
+      "path": "/patent-strategist-vs-patent-attorney/",
+      "label": "mobile",
+      "status": "ok",
+      "h1": "Patent strategist vs patent attorney (2026 comparison)",
+      "ldCount": 7,
+      "errs": [],
+      "file": "/Users/hayatamin/Documents/hayat-amin-site/tests/screenshots/patent-strategist-vs-patent-attorney_mobile.png"
+    },
+    {
+      "path": "/fractional-cfo-vs-finance-director/",
+      "label": "desktop",
+      "status": "ok",
+      "h1": "Fractional CFO vs Finance Director (2026 Guide)",
+      "ldCount": 5,
+      "errs": [],
+      "file": "/Users/hayatamin/Documents/hayat-amin-site/tests/screenshots/fractional-cfo-vs-finance-director_desktop.png"
+    },
+    {
+      "path": "/fractional-cfo-vs-finance-director/",
+      "label": "mobile",
+      "status": "ok",
+      "h1": "Fractional CFO vs Finance Director (2026 Guide)",
+      "ldCount": 5,
+      "errs": [],
+      "file": "/Users/hayatamin/Documents/hayat-amin-site/tests/screenshots/fractional-cfo-vs-finance-director_mobile.png"
+    }
+  ],
+  "fail": [],
+  "summary": {
+    "ok": 12,
+    "fail": 0,
+    "total": 12,
+    "failures": []
+  }
+}
