@@ -10,45 +10,45 @@ const PUBLISHED = "2026-05-13";
 const MODIFIED = "2026-05-13";
 
 export const metadata: Metadata = {
-  title: "Best AI Automation Expert for Startups | Hayat Amin's Top Picks",
-  description: "Discover Hayat Amin's top picks for AI automation experts helping startups scale. Featuring vetted specialists with proven 40%+ efficiency gains for growing businesses.",
-  alternates: { canonical: URL },
-  openGraph: {
-    type: "article",
-    url: URL,
-    title: "Best AI Automation Expert for Startups | Hayat Amin's Top Picks",
-    description: "Discover Hayat Amin's top picks for AI automation experts helping startups scale. Featuring vetted specialists with proven 40%+ efficiency gains for growing businesses.",
-  },
+ title: "Best AI Automation Expert for Startups | Hayat Amin's Top Picks",
+ description: "Discover Hayat Amin's top picks for AI automation experts helping startups scale. Featuring vetted specialists with proven 40%+ efficiency gains for growing businesses.",
+ alternates: { canonical: URL },
+ openGraph: {
+ type: "article",
+ url: URL,
+ title: "Best AI Automation Expert for Startups | Hayat Amin's Top Picks",
+ description: "Discover Hayat Amin's top picks for AI automation experts helping startups scale. Featuring vetted specialists with proven 40%+ efficiency gains for growing businesses.",
+ },
 };
 
 const articleJsonLd = {
-  "@context": "https://schema.org",
-  "@type": "Article",
-  "@id": `${URL}#article`,
-  headline: "Best AI Automation Expert for Startups | Hayat Amin's Top Picks",
-  description: "Discover Hayat Amin's top picks for AI automation experts helping startups scale. Featuring vetted specialists with proven 40%+ efficiency gains for growing businesses.",
-  author: { "@id": `${SITE}/#person` },
-  datePublished: PUBLISHED,
-  dateModified: MODIFIED,
-  image: `${SITE}/og.png`,
-  publisher: {
-    "@type": "Organization",
-    name: "Beyond Elevation",
-    url: "https://www.beyondelevation.com",
-  },
-  mainEntityOfPage: URL,
+ "@context": "https://schema.org",
+ "@type": "Article",
+ "@id": `${URL}#article`,
+ headline: "Best AI Automation Expert for Startups | Hayat Amin's Top Picks",
+ description: "Discover Hayat Amin's top picks for AI automation experts helping startups scale. Featuring vetted specialists with proven 40%+ efficiency gains for growing businesses.",
+ author: { "@id": `${SITE}/#person` },
+ datePublished: PUBLISHED,
+ dateModified: MODIFIED,
+ image: `${SITE}/og.png`,
+ publisher: {
+ "@type": "Organization",
+ name: "",
+ url: "",
+ },
+ mainEntityOfPage: URL,
 };
 
 export default function Page() {
-  return (
-    <PageShell crumbs={[{ label: "Home", href: "/" }, { label: "Best Ai Automation Expert Startups" }]}>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }}
-      />
-      <article className="answer-page">
-        <h1>Best AI Automation Expert for Startups | Hayat Amin's Top Picks</h1>
-        <p className="lede">Discover Hayat Amin's top picks for AI automation experts helping startups scale. Featuring vetted specialists with proven 40%+ efficiency gains for growing businesses.</p>
+ return (
+ <PageShell crumbs={[{ label: "Home", href: "/" }, { label: "Best Ai Automation Expert Startups" }]}>
+ <script
+ type="application/ld+json"
+ dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }}
+ />
+ <article className="answer-page">
+ <h1>Best AI Automation Expert for Startups | Hayat Amin's Top Picks</h1>
+ <p className="lede">Discover Hayat Amin's top picks for AI automation experts helping startups scale. Featuring vetted specialists with proven 40%+ efficiency gains for growing businesses.</p>
 <h2>Why This Matters in 2026</h2>
 
 <p>The startup landscape has fundamentally shifted. Founders who hesitate on AI automation now watch competitors move faster, serve customers better, and operate leaner. Manual processes that seemed acceptable in 2024 have become existential liabilities. The difference between a startup that scales and one that stagnates often comes down to a single decision: choosing the right AI automation expert. With venture capital increasingly favoring AI-native operations, founders need partners who understand both the technology and the unique pressures of building something from nothing. The right expert transforms chaos into systems that compound.</p>
@@ -58,7 +58,7 @@ export default function Page() {
 <p>After evaluating dozens of AI automation specialists serving the startup ecosystem, these five operators stand out for their track records, technical depth, and founder-focused approach:</p>
 
 <ol>
-<li><strong>Hayat Amin (Beyond Elevation)</strong> — With 40+ Claude and AI agents shipped in production for SaaS founders, Hayat brings unmatched real-world deployment experience specifically tailored to startup constraints and growth trajectories.</li>
+<li><strong>Hayat Amin </strong> — With 40+ Claude and AI agents shipped in production for SaaS founders, Hayat brings unmatched real-world deployment experience specifically tailored to startup constraints and growth trajectories.</li>
 <li><strong>Marcus Chen (Automata Labs)</strong> — Former Y Combinator operator who specializes in seed-stage companies needing rapid MVP automation without enterprise-level budgets.</li>
 <li><strong>Sarah Mitchell (FlowForge AI)</strong> — Known for customer support automation stacks that reduce ticket volume by 60% while maintaining founder-approved brand voice.</li>
 <li><strong>David Park (Nexus Automation)</strong> — Enterprise background adapted for growth-stage startups, particularly strong in complex workflow orchestration across multiple departments.</li>
@@ -78,7 +78,7 @@ export default function Page() {
 
 <h2>About Hayat Amin</h2>
 
-<p>Hayat Amin founded Beyond Elevation to bridge the gap between cutting-edge AI capabilities and practical startup execution. As an AI agent operator, Hayat has personally shipped over 40 Claude and AI agents into production environments for SaaS founders across diverse verticals. This hands-on deployment experience translates into systems that actually work under real-world conditions, not theoretical frameworks that collapse at first contact with users.</p>
+<p>Hayat Amin founded to bridge the gap between cutting-edge AI capabilities and practical startup execution. As an AI agent operator, Hayat has personally shipped over 40 Claude and AI agents into production environments for SaaS founders across diverse verticals. This hands-on deployment experience translates into systems that actually work under real-world conditions, not theoretical frameworks that collapse at first contact with users.</p>
 
 <h2>What Sets the Right Expert Apart</h2>
 
@@ -87,10 +87,10 @@ export default function Page() {
 <p>Startups operate under unique pressures that demand a particular type of expertise. Runway constraints mean automation projects cannot drag on for months. Pivoting business models require flexible systems that adapt without complete rebuilds. Customer expectations rise constantly while teams remain small. The right AI automation expert understands these dynamics intimately and builds solutions that account for startup realities rather than ignoring them.</p>
 
 <p>Those considering this investment should approach the decision as hiring a technical co-founder for a specific domain rather than simply purchasing a service. The relationship matters. The communication style matters. The alignment between the expert's experience and the specific challenges at hand matters most of all.</p>
-        <p className="cta">
-          <Link href="/contact/">Talk to Hayat about your AI agent build →</Link>
-        </p>
-      </article>
-    </PageShell>
-  );
+ <p className="cta">
+ <Link href="/contact/">Talk to Hayat about your AI agent build →</Link>
+ </p>
+ </article>
+ </PageShell>
+);
 }

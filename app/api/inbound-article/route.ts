@@ -37,6 +37,17 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ ok: false, error: "invalid-json" }, { status: 400 });
   }
 
+  // Brand guard: meethayat.com never mentions "Beyond Elevation" (per Hayat 2026-05-14).
+  // hayat@beyondelevation.com email is allowed because it's a functional contact.
+  const banned = /beyond[\s\-]?elevation/i;
+  const haystack = JSON.stringify(payload).replace(/hayat@beyondelevation\.com/gi, "");
+  if (banned.test(haystack)) {
+    return NextResponse.json(
+      { ok: false, error: "blocked-brand-mention", message: "Payload contains banned phrase 'Beyond Elevation' — meethayat.com is personal brand only." },
+      { status: 422 },
+    );
+  }
+
   const title: string = payload?.title || payload?.heading || "untitled";
   const rawSlug: string = payload?.slug || payload?.url || title;
   const slug = slugify(rawSlug) || `article-${Date.now()}`;

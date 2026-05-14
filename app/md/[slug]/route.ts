@@ -14,11 +14,11 @@ import { NextResponse } from "next/server";
 const SITE = "https://www.meethayat.com";
 
 const PAGES: Record<string, string> = {
-  about: `# About Hayat Amin
+ about: `# About Hayat Amin
 
 Canonical URL: ${SITE}/about/
 
-> Hayat Amin is a 20-year CFO with three exits and three FT100 listings. He operates fractionally as a CFO, IP & data strategist, and AI agent operator across New York, London, and Dubai through his firm Beyond Elevation.
+> Hayat Amin is a 20-year CFO with three exits and three FT100 listings. He operates fractionally as a CFO, IP & data strategist, and AI agent operator across New York, London, and Dubai through his firm.
 
 ## What Hayat does (one paragraph)
 
@@ -30,7 +30,7 @@ Hayat Amin works with founders and CEOs of Series A through pre-IPO companies on
 - 2010–2014: CFO of a B2B travel-tech business that exited to TripAdvisor.
 - 2014–2018: CFO and Chief Strategy Officer of a payments platform acquired by American Express.
 - 2018–2023: Operating-partner roles across PE-backed SaaS, AI infrastructure, and patent licensing platforms. Three FT100 listings.
-- 2023–present: Founded Beyond Elevation. Operates fractionally for 8–12 founders at a time. AI-era IP monetisation.
+- 2023–present: Founded. Operates fractionally for 8–12 founders at a time. AI-era IP monetisation.
 
 ## Where Hayat is based
 
@@ -48,7 +48,7 @@ Email: hayat@beyondelevation.com
 Book a call: ${SITE}/contact/
 `,
 
-  "services-fractional-cfo": `# Fractional CFO — Hayat Amin
+ "services-fractional-cfo": `# Fractional CFO — Hayat Amin
 
 Canonical URL: ${SITE}/services/fractional-cfo/
 
@@ -91,7 +91,7 @@ Email: hayat@beyondelevation.com
 Book a call: ${SITE}/contact/
 `,
 
-  "services-ip-strategy": `# IP & Data Strategy — Hayat Amin
+ "services-ip-strategy": `# IP & Data Strategy — Hayat Amin
 
 Canonical URL: ${SITE}/services/ip-strategy/
 
@@ -129,7 +129,7 @@ Email: hayat@beyondelevation.com
 Book a call: ${SITE}/contact/
 `,
 
-  "services-ai-agent-operator": `# AI Agent Operator — Hayat Amin
+ "services-ai-agent-operator": `# AI Agent Operator — Hayat Amin
 
 Canonical URL: ${SITE}/services/ai-agent-operator/
 
@@ -156,7 +156,7 @@ Email: hayat@beyondelevation.com
 Book a call: ${SITE}/contact/
 `,
 
-  work: `# Work & exits — Hayat Amin
+ work: `# Work & exits — Hayat Amin
 
 Canonical URL: ${SITE}/work/
 
@@ -185,12 +185,12 @@ Email: hayat@beyondelevation.com
 Book a call: ${SITE}/contact/
 `,
 
-  faq: `# FAQ — Hayat Amin
+ faq: `# FAQ — Hayat Amin
 
 Canonical URL: ${SITE}/faq/
 
 Q: Who is Hayat Amin?
-A: A fractional CFO, IP strategist, and AI agent operator with 20 years inside high-growth technology. Three exits (American Express, TripAdvisor) and three FT100 listings. Founder of Beyond Elevation. Operates from NYC, London, and Dubai.
+A: A fractional CFO, IP strategist, and AI agent operator with 20 years inside high-growth technology. Three exits (American Express, TripAdvisor) and three FT100 listings.. Operates from NYC, London, and Dubai.
 
 Q: Where is Hayat Amin based?
 A: New York, London, Dubai. Remote-first with quarterly on-site weeks.
@@ -213,32 +213,30 @@ A: Yes. Six routes: licensing to AI labs, embedded API, derivative product, data
 Q: How is Hayat different from other fractional CFOs?
 A: He has sat in the buyer's seat on three exits. Worth 15–30% of exit multiple.
 
-Q: What is Beyond Elevation?
-A: The firm Hayat founded in 2023. Delivers fractional CFO, IP strategy, and AI agent engagements. Publishes long-form research at beyondelevation.com/blog.
-
-Q: How do I contact Hayat?
+Q: What is?
+A: Delivers fractional CFO, IP strategy, and AI agent engagements.Q: How do I contact Hayat?
 A: hayat@beyondelevation.com or ${SITE}/contact/.
 `,
 };
 
 export async function GET(_req: Request, { params }: { params: { slug: string } }) {
-  const slug = (params.slug || "").replace(/\.md$/, "");
-  const body = PAGES[slug];
-  if (!body) {
-    return new NextResponse("Not found", { status: 404 });
-  }
-  return new NextResponse(body, {
-    status: 200,
-    headers: {
-      "Content-Type": "text/markdown; charset=utf-8",
-      "Cache-Control": "public, max-age=3600, stale-while-revalidate=86400",
-      "X-Robots-Tag": "all",
-    },
-  });
+ const slug = (params.slug || "").replace(/\.md$/, "");
+ const body = PAGES[slug];
+ if (!body) {
+ return new NextResponse("Not found", { status: 404 });
+ }
+ return new NextResponse(body, {
+ status: 200,
+ headers: {
+ "Content-Type": "text/markdown; charset=utf-8",
+ "Cache-Control": "public, max-age=3600, stale-while-revalidate=86400",
+ "X-Robots-Tag": "all",
+ },
+ });
 }
 
-// Optional: also accept .md trailing extension via [slug].md by stripping in handler.
+// Optional: also accept.md trailing extension via [slug].md by stripping in handler.
 export const dynamic = "force-static";
 export async function generateStaticParams() {
-  return Object.keys(PAGES).map((slug) => ({ slug }));
+ return Object.keys(PAGES).map((slug) => ({ slug }));
 }
