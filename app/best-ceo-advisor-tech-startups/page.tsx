@@ -71,7 +71,7 @@ const articleJsonLd = {
 
 export default function Page() {
   return (
-    <PageShell>
+    <PageShell crumbs={[{ label: "Home", href: "/" }, { label: "Best CEO Advisor for Tech Startups" }]}>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(personJsonLd) }}
