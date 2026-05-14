@@ -28,7 +28,6 @@ export const metadata: Metadata = {
  "Patent strategy",
  "Data monetisation",
  "AI agent operator",
- "",
  "M&A exits",
  "FT100",
  "Chief Strategy Officer",
@@ -223,51 +222,13 @@ const personJsonLd = {
  sameAs: [
  "https://www.linkedin.com/in/hayatamin/",
  "https://uk.linkedin.com/in/hayatamin",
- "",
  "https://www.instagram.com/itshayatamin/",
  "https://www.tiktok.com/@itshayatamin",
  "https://www.youtube.com/watch?v=1meO4fW7294",
  "https://github.com/horror5how",
  "https://seedlegals.com/resources/fractional-cfo/",
  "https://www.linkedin.com/pulse/hayat-amin-benefits-becoming-fractional-cfo-zak-prendergast-sd3ne/",
- "https://www4.lead411.com/Hayat_Amin_104416037.html",
- "https://www.macaubusiness.com/beyond-elevation-and-founder-hayat-amin-launch-full-time-to-fractional-transition-program-amid-ai-driven-shift-in-leadership/",
- "https://www.macaubusiness.com/beyond-elevation-launches-revolutionary-fractional-cfo-service-for-smes/",
- "https://www.barchart.com/story/news/29824059/beyond-elevation-and-founder-hayat-amin-launch-full-time-to-fractional-transition-program-amid-ai-driven-shift-in-leadership",
- "https://www.issuewire.com/beyond-elevation-launches-ai-powered-ip-and-patent-valuation-service-for-technology-companies-1861844498292563"],
- // subjectOf links the entity to articles ABOUT him — separate semantic from
- // sameAs (which links to him AS author/owner). This is what Google uses for
- // notability evidence when deciding to spawn a Knowledge Panel.
- subjectOf: [
- {
- "@type": "NewsArticle",
- headline:
- " and Founder Hayat Amin Launch Full-Time to Fractional Transition Program Amid AI-Driven Shift in Leadership",
- url: "https://www.macaubusiness.com/beyond-elevation-and-founder-hayat-amin-launch-full-time-to-fractional-transition-program-amid-ai-driven-shift-in-leadership/",
- datePublished: "2024-11-29",
- publisher: { "@type": "Organization", name: "Macau Business" },
- },
- {
- "@type": "NewsArticle",
- headline:
- " Launches Revolutionary Fractional CFO Service for SMEs",
- url: "https://www.macaubusiness.com/beyond-elevation-launches-revolutionary-fractional-cfo-service-for-smes/",
- publisher: { "@type": "Organization", name: "Macau Business" },
- },
- {
- "@type": "NewsArticle",
- headline:
- " and Founder Hayat Amin Launch Full-Time to Fractional Transition Program",
- url: "https://www.barchart.com/story/news/29824059/beyond-elevation-and-founder-hayat-amin-launch-full-time-to-fractional-transition-program-amid-ai-driven-shift-in-leadership",
- publisher: { "@type": "Organization", name: "Barchart" },
- },
- {
- "@type": "NewsArticle",
- headline:
- " Launches AI-Powered IP and Patent Valuation Service for Technology Companies",
- url: "https://www.issuewire.com/beyond-elevation-launches-ai-powered-ip-and-patent-valuation-service-for-technology-companies-1861844498292563",
- publisher: { "@type": "Organization", name: "IssueWire" },
- }],
+ "https://www4.lead411.com/Hayat_Amin_104416037.html"],
 };
 
 // Service schemas — wired into the graph so each specialty has a machine-readable
