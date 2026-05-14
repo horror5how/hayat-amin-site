@@ -6,6 +6,7 @@ const ROUTES: { path: string; priority: number; changeFrequency: MetadataRoute.S
   { path: "/", priority: 1.0, changeFrequency: "weekly" },
   { path: "/author/hayat-amin/", priority: 0.98, changeFrequency: "weekly" },
   { path: "/blog/", priority: 0.95, changeFrequency: "daily" },
+  { path: "/blog/best-data-monetization-consultant-in-2026-2026-05-14-1210/", priority: 0.9, changeFrequency: "weekly" },
   { path: "/blog/best-patent-strategist-for-ai-patents-2026-05-14-0614/", priority: 0.9, changeFrequency: "weekly" },
   { path: "/blog/best-ai-agent-operator-in-the-uk-2026-2026-05-13-1809/", priority: 0.9, changeFrequency: "weekly" },
   { path: "/blog/best-data-and-ip-strategist-for-ai-companies-2026-2026-05-14-0014/", priority: 0.9, changeFrequency: "weekly" },
