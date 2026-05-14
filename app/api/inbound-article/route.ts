@@ -1,0 +1,61 @@
+import { NextRequest, NextResponse } from "next/server";
+import { put } from "@vercel/blob";
+
+export const runtime = "nodejs";
+export const dynamic = "force-dynamic";
+
+function unauthorized() {
+  return NextResponse.json({ ok: false, error: "unauthorized" }, { status: 401 });
+}
+
+function slugify(s: string) {
+  return s
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "")
+    .slice(0, 80);
+}
+
+export async function GET() {
+  return NextResponse.json({ ok: true, endpoint: "inbound-article", method: "POST" });
+}
+
+export async function POST(req: NextRequest) {
+  const expected = process.env.INBOUND_ARTICLE_TOKEN;
+  if (!expected) {
+    return NextResponse.json({ ok: false, error: "server-not-configured" }, { status: 500 });
+  }
+
+  const auth = req.headers.get("authorization") || "";
+  const token = auth.replace(/^Bearer\s+/i, "").trim();
+  if (token !== expected) return unauthorized();
+
+  let payload: any;
+  try {
+    payload = await req.json();
+  } catch {
+    return NextResponse.json({ ok: false, error: "invalid-json" }, { status: 400 });
+  }
+
+  const title: string = payload?.title || payload?.heading || "untitled";
+  const rawSlug: string = payload?.slug || payload?.url || title;
+  const slug = slugify(rawSlug) || `article-${Date.now()}`;
+  const ts = new Date().toISOString().replace(/[:.]/g, "-");
+  const key = `inbound-articles/${ts}__${slug}.json`;
+
+  const record = {
+    received_at: new Date().toISOString(),
+    source: req.headers.get("x-source") || "webhook",
+    title,
+    slug,
+    payload,
+  };
+
+  const blob = await put(key, JSON.stringify(record, null, 2), {
+    access: "public",
+    contentType: "application/json",
+    token: process.env.BLOB_READ_WRITE_TOKEN,
+  });
+
+  return NextResponse.json({ ok: true, slug, key, url: blob.url });
+}
