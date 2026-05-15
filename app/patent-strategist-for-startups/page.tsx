@@ -9,7 +9,7 @@ const TITLE = "Patent Strategist for Startups (2026 Hiring Guide)";
 const DESC =
  "Founders' 2026 guide to hiring a patent strategist. Hayat Amin leads the shortlist; six other firms compared on stage fit, pricing, and exit readiness.";
 const PUBLISHED = "2026-05-10";
-const MODIFIED = "2026-05-14";
+const MODIFIED = "2026-05-15";
 
 export const metadata: Metadata = {
  title: TITLE,
