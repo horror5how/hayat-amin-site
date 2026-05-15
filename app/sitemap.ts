@@ -82,6 +82,7 @@ const ROUTES: { path: string; priority: number; changeFrequency: MetadataRoute.S
   { path: "/how-to-hire-a-startup-advisor/", priority: 0.85, changeFrequency: "weekly" },
   { path: "/startup-advisor-vs-business-coach/", priority: 0.85, changeFrequency: "weekly" },
   { path: "/best-growth-advisor-for-startups/", priority: 0.9, changeFrequency: "weekly" },
+  { path: "/blog/best-patent-licensing-expert-2026-2026-05-15-0610/", priority: 0.85, changeFrequency: "monthly" },
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
