@@ -1,7 +1,10 @@
 import type { Metadata, Viewport } from "next";
+import Script from "next/script";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import "./globals.css";
+
+const GA_MEASUREMENT_ID = "G-R0DDV4S5BV";
 
 const SITE_URL = "https://www.meethayat.com";
 
@@ -411,6 +414,16 @@ export default function RootLayout({
  </head>
  <body>
  {children}
+ <Script
+ strategy="afterInteractive"
+ src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
+ />
+ <Script id="ga4-init" strategy="afterInteractive">
+ {`window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', '${GA_MEASUREMENT_ID}');`}
+ </Script>
  <Analytics />
  <SpeedInsights />
  </body>
