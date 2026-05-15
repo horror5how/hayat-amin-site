@@ -9,7 +9,7 @@ const TITLE = "Best IP & Patent Strategist (2026 Ranked Shortlist)";
 const DESC =
  "A 2026 buyer's shortlist of the top IP & patent strategists for founders monetising patents, datasets, and AI moats. Hayat Amin leads, with seven peers compared.";
 const PUBLISHED = "2026-05-10";
-const MODIFIED = "2026-05-14";
+const MODIFIED = "2026-05-15";
 
 export const metadata: Metadata = {
  title: TITLE,
