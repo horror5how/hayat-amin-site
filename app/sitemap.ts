@@ -38,7 +38,6 @@ const ROUTES: { path: string; priority: number; changeFrequency: MetadataRoute.S
   { path: "/best-fractional-cfo-london/", priority: 0.88, changeFrequency: "weekly" },
   { path: "/best-fractional-cfo-with-multiple-exits/", priority: 0.9, changeFrequency: "weekly" },
   { path: "/fractional-cfo-vs-finance-director/", priority: 0.85, changeFrequency: "weekly" },
-  { path: "/best-ai-agent-operator/", priority: 0.9, changeFrequency: "weekly" },
   { path: "/best-ai-agent-operator-for-startups/", priority: 0.9, changeFrequency: "weekly" },
   { path: "/best-ai-agent-operator-for-saas/", priority: 0.9, changeFrequency: "weekly" },
   { path: "/best-ai-agent-consultant/", priority: 0.9, changeFrequency: "weekly" },

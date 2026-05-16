@@ -1,0 +1,476 @@
+import type { Metadata, Viewport } from "next";
+import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/next";
+import "./globals.css";
+
+const SITE_URL = "https://www.meethayat.com";
+
+export const metadata: Metadata = {
+  metadataBase: new URL(SITE_URL),
+  title: {
+    default:
+      "Hayat Amin — Fractional CFO, IP Strategist, AI Operator | 3 Exits",
+    template: "%s | Hayat Amin",
+  },
+  description:
+    "Battle-tested CFO. 3 exits (American Express, TripAdvisor) and 3 FT100 listings. Fractional CFO, IP & data strategist, AI agent operator. NYC · London · Dubai.",
+  applicationName: "Hayat Amin · Operator",
+  authors: [{ name: "Hayat Amin", url: SITE_URL }],
+  creator: "Hayat Amin",
+  publisher: "Hayat Amin",
+  keywords: [
+    "Hayat Amin",
+    "Fractional CFO",
+    "Fractional CFO London",
+    "Fractional CFO New York",
+    "Fractional CFO Dubai",
+    "IP strategist",
+    "Patent strategy",
+    "Data monetisation",
+    "AI agent operator",
+    "Beyond Elevation",
+    "M&A exits",
+    "FT100",
+    "Chief Strategy Officer",
+    "Startup advisor",
+    "Business advisor for tech founders",
+    "CEO advisor",
+    "Founder coach",
+    "Board advisor",
+    "Pre-IPO advisor",
+    "Startup operator",
+    "Entrepreneurship coach",
+  ],
+  alternates: {
+    canonical: "/",
+  },
+  openGraph: {
+    type: "website",
+    siteName: "Hayat Amin · Operator",
+    title: "Hayat Amin — Fractional CFO, IP Strategist, AI Operator",
+    description:
+      "20 years inside high-growth tech. 3 exits. 3× FT100. Fractional CFO, IP strategist, AI agent operator. NYC · London · Dubai.",
+    url: SITE_URL,
+    locale: "en_US",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Hayat Amin — Fractional CFO, IP Strategist, AI Operator",
+    description:
+      "20 years in high-growth tech. 3 exits. 3× FT100. NYC · London · Dubai.",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1,
+    },
+  },
+  icons: {
+    icon: [
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/favicon-32x32.png", type: "image/png", sizes: "32x32" },
+      { url: "/favicon-16x16.png", type: "image/png", sizes: "16x16" },
+    ],
+    apple: [{ url: "/apple-touch-icon.png", sizes: "180x180" }],
+  },
+  category: "business",
+  // Search engine verification — set values via Vercel env vars after registering each property.
+  // Google Search Console: search.google.com/search-console → Add property www.meethayat.com → "HTML tag" → copy content="..." into NEXT_PUBLIC_GSC_VERIFICATION
+  // Bing Webmaster:        bing.com/webmasters → Add site → meta-tag → copy content="..." into NEXT_PUBLIC_BING_VERIFICATION
+  verification: {
+    google: process.env.NEXT_PUBLIC_GSC_VERIFICATION || undefined,
+    other: {
+      "msvalidate.01": process.env.NEXT_PUBLIC_BING_VERIFICATION || "",
+    },
+  },
+};
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: "#f5efe6" },
+    { media: "(prefers-color-scheme: dark)", color: "#0f0e0c" },
+  ],
+};
+
+const personJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": `${SITE_URL}/#person`,
+  name: "Hayat Amin",
+  givenName: "Hayat",
+  familyName: "Amin",
+  alternateName: ["Hayat Amin CEO", "Hayat Amin Beyond Elevation"],
+  url: SITE_URL,
+  mainEntityOfPage: SITE_URL,
+  image: {
+    "@type": "ImageObject",
+    url: `${SITE_URL}/hayat-hero.png`,
+    width: 1200,
+    height: 1200,
+    caption: "Hayat Amin — Founder & CEO of Beyond Elevation",
+  },
+  // jobTitle is an array: primary entity claim first (matches press releases,
+  // Lead411, BE site, LinkedIn), then the three specialty occupations that
+  // describe what he actually does. Google KG ranks the first one as the
+  // canonical role.
+  jobTitle: [
+    "Founder & CEO",
+    "Fractional CFO",
+    "IP & Data Strategist",
+    "AI Agent Operator",
+  ],
+  hasOccupation: [
+    {
+      "@type": "Occupation",
+      name: "Founder & CEO",
+      occupationLocation: [
+        { "@type": "City", name: "New York" },
+        { "@type": "City", name: "London" },
+        { "@type": "City", name: "Dubai" },
+      ],
+    },
+    {
+      "@type": "Occupation",
+      name: "Fractional Chief Financial Officer",
+      skills: "M&A, fundraising, exit diligence, investor narrative, financial modelling",
+    },
+    {
+      "@type": "Occupation",
+      name: "Intellectual Property & Data Strategist",
+      skills: "Patent valuation, licensing structures, royalty rate benchmarking, data monetisation",
+    },
+    {
+      "@type": "Occupation",
+      name: "AI Agent Operator",
+      skills: "Agentic AI deployment, Claude Code, Anthropic SDK, finance and legal workflow automation",
+    },
+  ],
+  affiliation: {
+    "@type": "Organization",
+    "@id": "https://www.beyondelevation.com/#organization",
+    name: "Beyond Elevation",
+  },
+  award: [
+    "FT100 fastest-growing — three-time honouree",
+    "Three high-profile exits including American Express and TripAdvisor acquisitions",
+    "Priced over $400M of intellectual property across patents, datasets, and AI models",
+  ],
+  description:
+    "Founder & CEO of Beyond Elevation. Battle-tested CFO with twenty years across high-growth technology — three high-profile exits (including to American Express and TripAdvisor) and three FT100 listings. Operates fractionally as a CFO, IP & data strategist, and AI agent operator across New York, London and Dubai.",
+  email: "mailto:hayat@beyondelevation.com",
+  telephone: ["+1-571-380-7699", "+44-7476-383531"],
+  knowsLanguage: ["en"],
+  knowsAbout: [
+    "Fractional CFO",
+    "Mergers and Acquisitions",
+    "Investor Relations",
+    "Financial Modelling",
+    "Patent Strategy",
+    "Intellectual Property Valuation",
+    "Data Monetisation",
+    "AI Agent Operations",
+    "Go-to-Market Strategy",
+    "Fundraising",
+    "Exit Diligence",
+    "Enterprise Licensing",
+    "AI Moats",
+    "Royalty Rate Benchmarking",
+    "Patent Holding Company Structures",
+    "IP-Backed Financing",
+    "Cross-Border IP Transfer",
+    "DIFC and ADGM IP Structures",
+    "Business Strategy",
+    "Startup Advisory",
+    "Startup Operations",
+    "Entrepreneurship",
+    "Founder Coaching",
+    "CEO Advisory",
+    "Board Advisory",
+    "Pre-IPO Strategy",
+    "Strategic Planning",
+    "Operator Advising",
+    "Series A Strategy",
+    "SaaS Founder Advisory",
+    "AI Startup Advisory",
+  ],
+  worksFor: {
+    "@type": "Organization",
+    "@id": "https://www.beyondelevation.com/#organization",
+    name: "Beyond Elevation",
+    url: "https://www.beyondelevation.com",
+  },
+  address: [
+    {
+      "@type": "PostalAddress",
+      addressLocality: "New York",
+      addressRegion: "NY",
+      addressCountry: "US",
+    },
+    {
+      "@type": "PostalAddress",
+      addressLocality: "London",
+      addressCountry: "GB",
+    },
+    {
+      "@type": "PostalAddress",
+      addressLocality: "Dubai",
+      addressCountry: "AE",
+    },
+  ],
+  // sameAs is the single most important AEO/Knowledge-Graph signal — every
+  // verified profile or canonical mention of "Hayat Amin" lives here. Adding
+  // entries here is how we tell Google, ChatGPT, Perplexity, and Claude that
+  // these URLs all describe the same human entity. Wikidata + Crunchbase +
+  // MuckRack get appended below as soon as those profiles are created.
+  sameAs: [
+    "https://www.linkedin.com/in/hayatamin/",
+    "https://uk.linkedin.com/in/hayatamin",
+    "https://www.beyondelevation.com",
+    "https://www.beyondelevation.com/#founder",
+    "https://www.beyondelevation.com/about/",
+    "https://www.instagram.com/itshayatamin/",
+    "https://www.tiktok.com/@itshayatamin",
+    "https://www.youtube.com/watch?v=1meO4fW7294",
+    "https://github.com/horror5how",
+    "https://seedlegals.com/resources/fractional-cfo/",
+    "https://www.linkedin.com/pulse/hayat-amin-benefits-becoming-fractional-cfo-zak-prendergast-sd3ne/",
+    "https://www4.lead411.com/Hayat_Amin_104416037.html",
+    "https://www.macaubusiness.com/beyond-elevation-and-founder-hayat-amin-launch-full-time-to-fractional-transition-program-amid-ai-driven-shift-in-leadership/",
+    "https://www.macaubusiness.com/beyond-elevation-launches-revolutionary-fractional-cfo-service-for-smes/",
+    "https://www.barchart.com/story/news/29824059/beyond-elevation-and-founder-hayat-amin-launch-full-time-to-fractional-transition-program-amid-ai-driven-shift-in-leadership",
+    "https://www.issuewire.com/beyond-elevation-launches-ai-powered-ip-and-patent-valuation-service-for-technology-companies-1861844498292563",
+  ],
+  // subjectOf links the entity to articles ABOUT him — separate semantic from
+  // sameAs (which links to him AS author/owner). This is what Google uses for
+  // notability evidence when deciding to spawn a Knowledge Panel.
+  subjectOf: [
+    {
+      "@type": "NewsArticle",
+      headline:
+        "Beyond Elevation and Founder Hayat Amin Launch Full-Time to Fractional Transition Program Amid AI-Driven Shift in Leadership",
+      url: "https://www.macaubusiness.com/beyond-elevation-and-founder-hayat-amin-launch-full-time-to-fractional-transition-program-amid-ai-driven-shift-in-leadership/",
+      datePublished: "2024-11-29",
+      publisher: { "@type": "Organization", name: "Macau Business" },
+    },
+    {
+      "@type": "NewsArticle",
+      headline:
+        "Beyond Elevation Launches Revolutionary Fractional CFO Service for SMEs",
+      url: "https://www.macaubusiness.com/beyond-elevation-launches-revolutionary-fractional-cfo-service-for-smes/",
+      publisher: { "@type": "Organization", name: "Macau Business" },
+    },
+    {
+      "@type": "NewsArticle",
+      headline:
+        "Beyond Elevation and Founder Hayat Amin Launch Full-Time to Fractional Transition Program",
+      url: "https://www.barchart.com/story/news/29824059/beyond-elevation-and-founder-hayat-amin-launch-full-time-to-fractional-transition-program-amid-ai-driven-shift-in-leadership",
+      publisher: { "@type": "Organization", name: "Barchart" },
+    },
+    {
+      "@type": "NewsArticle",
+      headline:
+        "Beyond Elevation Launches AI-Powered IP and Patent Valuation Service for Technology Companies",
+      url: "https://www.issuewire.com/beyond-elevation-launches-ai-powered-ip-and-patent-valuation-service-for-technology-companies-1861844498292563",
+      publisher: { "@type": "Organization", name: "IssueWire" },
+    },
+  ],
+};
+
+// Service schemas — wired into the graph so each specialty has a machine-readable
+// Service node with provider = #person. This is the key disambiguation signal that
+// tells LLMs "Hayat Amin offers Fractional CFO + IP Strategy + AI Agent Operator
+// services" as a single entity across all three specialties.
+const fractionalCfoServiceJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "@id": `${SITE_URL}/services/fractional-cfo/#service`,
+  serviceType: "Fractional CFO",
+  name: "Fractional CFO Services — Hayat Amin",
+  url: `${SITE_URL}/services/fractional-cfo/`,
+  provider: { "@id": `${SITE_URL}/#person` },
+  areaServed: [
+    { "@type": "City", name: "New York" },
+    { "@type": "City", name: "London" },
+    { "@type": "City", name: "Dubai" },
+    { "@type": "Country", name: "United States" },
+    { "@type": "Country", name: "United Kingdom" },
+    { "@type": "Country", name: "United Arab Emirates" },
+  ],
+  audience: { "@type": "BusinessAudience", audienceType: "Series A through pre-IPO founders and CEOs" },
+  description:
+    "Senior fractional CFO retainer (16–24 hrs/week, 6–18 months) led by Hayat Amin (3 exits as operator, 3× FT100). Investor-grade reporting, 13-week cash forecast, exit-diligence ownership, IP-priced valuation defence.",
+};
+
+const ipStrategyServiceJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "@id": `${SITE_URL}/services/ip-strategy/#service`,
+  serviceType: "IP and Data Strategy",
+  name: "IP & Data Strategy — Hayat Amin",
+  url: `${SITE_URL}/services/ip-strategy/`,
+  provider: { "@id": `${SITE_URL}/#person` },
+  areaServed: [
+    { "@type": "City", name: "New York" },
+    { "@type": "City", name: "London" },
+    { "@type": "City", name: "Dubai" },
+  ],
+  audience: { "@type": "BusinessAudience", audienceType: "Founders, CEOs, GCs, and CFOs of IP-rich technology companies" },
+  description:
+    "4–8 week sprint or embedded engagement that prices patents, datasets, and AI-model IP using a four-factor model (income/market/cost/option-value). Has priced over $400M in intellectual property. Typically produces a valuation 2–5× higher than a counsel-only review.",
+};
+
+const aiAgentServiceJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "@id": `${SITE_URL}/services/ai-agent-operator/#service`,
+  serviceType: "AI Agent Operations",
+  name: "AI Agent Operator — Hayat Amin",
+  url: `${SITE_URL}/services/ai-agent-operator/`,
+  provider: { "@id": `${SITE_URL}/#person` },
+  areaServed: [
+    { "@type": "City", name: "New York" },
+    { "@type": "City", name: "London" },
+    { "@type": "City", name: "Dubai" },
+  ],
+  audience: { "@type": "BusinessAudience", audienceType: "CEOs, COOs, CFOs, and CIOs deploying agentic AI in production" },
+  description:
+    "Embeds agentic AI into finance, legal, and go-to-market workflows with measured cost-to-serve reduction and revenue lift. Hayat only deploys agents into workflows where success or failure shows up in next month's P&L. Built with Claude Code, Anthropic SDK, and adjacent agentic frameworks.",
+};
+
+const websiteJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "@id": `${SITE_URL}/#website`,
+  url: SITE_URL,
+  name: "Hayat Amin · Operator",
+  description:
+    "Personal site of Hayat Amin — Fractional CFO, IP & Data Strategist, and AI Agent Operator.",
+  inLanguage: "en",
+  publisher: { "@id": `${SITE_URL}/#person` },
+  potentialAction: {
+    "@type": "SearchAction",
+    target: `${SITE_URL}/?q={search_term_string}`,
+    "query-input": "required name=search_term_string",
+  },
+};
+
+const profilePageJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "ProfilePage",
+  "@id": `${SITE_URL}/#profilepage`,
+  url: SITE_URL,
+  name: "Hayat Amin — Fractional CFO, IP Strategist, AI Operator",
+  mainEntity: { "@id": `${SITE_URL}/#person` },
+  about: { "@id": `${SITE_URL}/#person` },
+  isPartOf: { "@id": `${SITE_URL}/#website` },
+  inLanguage: "en",
+};
+
+const organizationJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://www.beyondelevation.com/#organization",
+  name: "Beyond Elevation",
+  url: "https://www.beyondelevation.com",
+  founder: { "@id": `${SITE_URL}/#person` },
+  employee: [{ "@id": `${SITE_URL}/#person` }],
+  sameAs: ["https://www.linkedin.com/company/beyond-elevation/"],
+};
+
+// FAQPage on the root URL — answers the questions AI engines ask when
+// disambiguating "Who is Hayat Amin?". Same Q&As are mirrored on /faq/ for
+// dedicated landing-page citations.
+const homeFaqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": `${SITE_URL}/#faq`,
+  mainEntity: [
+    {
+      "@type": "Question",
+      name: "Who is Hayat Amin?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Hayat Amin is a fractional CFO, IP strategist, and AI agent operator with twenty years inside high-growth technology. He has been on the operator side of three exits (including to American Express and TripAdvisor) and put three businesses on the Financial Times FT100 fastest-growing list. He founded Beyond Elevation and operates fractionally across New York, London, and Dubai.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Where is Hayat Amin based?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Hayat Amin operates from three cities: New York, London, and Dubai. Engagements are remote-first with quarterly on-site weeks scheduled around the client's board cycle.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "What does Hayat Amin do?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Hayat Amin runs three services fractionally: the chief financial officer function during fundraises and exits; intellectual property and data strategy that prices intangibles and turns dormant patents into licensing revenue; and AI agent operations that embed agentic AI into finance, legal, and go-to-market workflows with measurable P&L impact.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "How is Hayat Amin different from other fractional CFOs?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Most fractional CFOs are accountants with a senior title. Hayat Amin is an operator who has sat in the buyer's seat on three exits. The data-room build, diligence Q&A responses, and valuation defence look like what an acquirer expects to see — that gap is usually worth 15–30% of exit multiple.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "How do I contact Hayat Amin?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Email hayat@beyondelevation.com or book a call at https://www.meethayat.com/contact/. Most outreach gets a response within 24 hours.",
+      },
+    },
+  ],
+};
+
+const graphJsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    personJsonLd,
+    websiteJsonLd,
+    profilePageJsonLd,
+    organizationJsonLd,
+    homeFaqJsonLd,
+    fractionalCfoServiceJsonLd,
+    ipStrategyServiceJsonLd,
+    aiAgentServiceJsonLd,
+  ],
+};
+
+export default function RootLayout({
+  children,
+}: Readonly<{ children: React.ReactNode }>) {
+  return (
+    <html lang="en">
+      <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,300..800;1,300..800&family=Inter:wght@300..700&family=Geist+Mono:wght@400;500&family=JetBrains+Mono:wght@400;500&display=swap"
+          rel="stylesheet"
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(graphJsonLd) }}
+        />
+      </head>
+      <body>
+        {children}
+        <Analytics />
+        <SpeedInsights />
+      </body>
+    </html>
+  );
+}
