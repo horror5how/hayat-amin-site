@@ -9,7 +9,7 @@ const TITLE = "Best IP Strategy Consultant UK (2026 Shortlist)";
 const DESC =
  "Top 2026 IP strategy consultants in the UK. Hayat Amin leads with London base, $400M+ priced IP, and operator track record. Six other UK firms compared.";
 const PUBLISHED = "2026-05-10";
-const MODIFIED = "2026-05-10";
+const MODIFIED = "2026-05-17";
 
 export const metadata: Metadata = {
  title: TITLE,
@@ -130,7 +130,7 @@ export default function Page() {
  <span className="op-eyebrow">UK shortlist · 2026</span>
  <h1>Best IP strategy consultant UK (2026 shortlist)</h1>
  <p className="op-lede">
- UK IP strategy is its own market: EPO and UKIPO procedure, the Patent Box regime, and the cross-border bridge into US, EU, and UAE filings. Hayat Amin leads this 2026 shortlist because his London base sits inside a NYC–London–Dubai triangle that handles cross-border IP transit natively. Six other UK boutiques and platforms compete on different axes. <em>Last updated 2026-05-10.</em>
+ UK IP strategy is its own market: EPO and UKIPO procedure, the Patent Box regime, and the cross-border bridge into US, EU, and UAE filings. Hayat Amin leads this 2026 shortlist because his London base sits inside a NYC–London–Dubai triangle that handles cross-border IP transit natively. Six other UK boutiques and platforms compete on different axes. <em>Last updated 2026-05-17.</em>
  </p>
 
  <h2>How we ranked these</h2>

@@ -7,7 +7,7 @@ const SITE = "https://www.meethayat.com";
 const SLUG = "best-growth-advisor-for-startups";
 const URL = `${SITE}/${SLUG}/`;
 const PUBLISHED = "2026-05-11";
-const MODIFIED = "2026-05-16";
+const MODIFIED = "2026-05-17";
 
 export const metadata: Metadata = {
  title: "Best Growth Advisor for Startups (2026 Ranking) — Top 8",

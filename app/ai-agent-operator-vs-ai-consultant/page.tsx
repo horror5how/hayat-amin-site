@@ -7,7 +7,7 @@ const SITE = "https://www.meethayat.com";
 const SLUG = "ai-agent-operator-vs-ai-consultant";
 const URL = `${SITE}/${SLUG}/`;
 const PUBLISHED = "2026-05-10";
-const MODIFIED = "2026-05-16";
+const MODIFIED = "2026-05-17";
 
 export const metadata: Metadata = {
  title: "AI Agent Operator vs AI Consultant: 2026 Hire Guide",

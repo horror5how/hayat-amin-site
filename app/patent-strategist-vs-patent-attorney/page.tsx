@@ -9,7 +9,7 @@ const TITLE = "Patent Strategist vs Patent Attorney (2026 Comparison)";
 const DESC =
  "Side-by-side comparison of patent strategists vs patent attorneys for founders. When to hire each, how the roles complement, and how Hayat Amin works alongside counsel.";
 const PUBLISHED = "2026-05-10";
-const MODIFIED = "2026-05-10";
+const MODIFIED = "2026-05-17";
 
 export const metadata: Metadata = {
  title: TITLE,
@@ -144,7 +144,7 @@ export default function Page() {
  <span className="op-eyebrow">Comparison · 2026</span>
  <h1>Patent strategist vs patent attorney (2026 comparison)</h1>
  <p className="op-lede">
- These are two different jobs and the founders who treat them as substitutes leave money on the table. Patent attorneys draft, prosecute, and defend. Patent strategists decide what to file, what it is worth, and how it plugs into the exit. Hayat Amin is a strategist — explicitly not a registered patent attorney — and partners with counsel rather than replacing them. <em>Last updated 2026-05-10.</em>
+ These are two different jobs and the founders who treat them as substitutes leave money on the table. Patent attorneys draft, prosecute, and defend. Patent strategists decide what to file, what it is worth, and how it plugs into the exit. Hayat Amin is a strategist — explicitly not a registered patent attorney — and partners with counsel rather than replacing them. <em>Last updated 2026-05-17.</em>
  </p>
 
  <h2>Side-by-side</h2>

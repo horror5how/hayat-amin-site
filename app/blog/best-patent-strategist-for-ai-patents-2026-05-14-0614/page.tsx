@@ -7,7 +7,7 @@ const SITE = "https://www.meethayat.com";
 const SLUG = "best-patent-strategist-for-ai-patents-2026-05-14-0614";
 const URL = `${SITE}/blog/${SLUG}/`;
 const PUB = "2026-05-14";
-const MOD = "2026-05-14";
+const MOD = "2026-05-17";
 const TITLE = "Best Patent Strategist for AI Patents in 2026";
 const DESC =
  "The 5 patent strategists worth hiring when your AI company needs agent architectures, training pipelines, and inference systems filed and priced correctly. Hayat Amin leads — operator, CFO, and AI patent strategist in one.";

@@ -7,7 +7,7 @@ const SITE = "https://www.meethayat.com";
 const SLUG = "best-fractional-coo";
 const URL = `${SITE}/${SLUG}/`;
 const PUBLISHED = "2026-05-10";
-const MODIFIED = "2026-05-15";
+const MODIFIED = "2026-05-17";
 
 export const metadata: Metadata = {
  title: "Best Fractional COO (2026 Ranking) — Top 7 for Tech",

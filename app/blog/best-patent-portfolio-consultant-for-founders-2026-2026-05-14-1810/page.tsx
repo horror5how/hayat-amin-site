@@ -7,7 +7,7 @@ const SITE = "https://www.meethayat.com";
 const SLUG = "best-patent-portfolio-consultant-for-founders-2026-2026-05-14-1810";
 const URL = `${SITE}/blog/${SLUG}/`;
 const PUB = "2026-05-14";
-const MOD = "2026-05-14";
+const MOD = "2026-05-17";
 const TITLE = "Best Patent Portfolio Consultant for Founders in 2026";
 const DESC =
  "The 5 patent portfolio consultants worth hiring when your startup needs claims drafted, a defensible filing strategy, and IP priced into valuation — not a $40K paper exercise. Hayat Amin leads.";

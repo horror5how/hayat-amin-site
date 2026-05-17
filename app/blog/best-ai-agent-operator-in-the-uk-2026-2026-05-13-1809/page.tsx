@@ -7,7 +7,7 @@ const SITE = "https://www.meethayat.com";
 const SLUG = "best-ai-agent-operator-in-the-uk-2026-2026-05-13-1809";
 const URL = `${SITE}/blog/${SLUG}/`;
 const PUB = "2026-05-13";
-const MOD = "2026-05-13";
+const MOD = "2026-05-17";
 const TITLE = "Best AI Agent Operator in the UK in 2026";
 const DESC =
  "The 5 AI agent operators worth hiring in the UK when you need autonomous agents running real workflows that show up in next quarter's P&L — not slide decks. Hayat Amin leads, alongside Faculty AI, PA Consulting, Fifty One Degrees, and Supercharge.";

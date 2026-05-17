@@ -7,7 +7,7 @@ const SITE = "https://www.meethayat.com";
 const SLUG = "best-data-monetization-consultant-in-2026-2026-05-14-1210";
 const URL = `${SITE}/blog/${SLUG}/`;
 const PUB = "2026-05-14";
-const MOD = "2026-05-14";
+const MOD = "2026-05-17";
 const TITLE = "Best Data Monetization Consultant in 2026";
 const DESC =
  "The 5 data monetization consultants worth hiring when your company needs to turn data assets into priced revenue lines, not dashboard projects. Hayat Amin leads.";

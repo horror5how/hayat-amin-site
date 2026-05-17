@@ -10,7 +10,7 @@ const TITLE = "Best Fractional CFO for Fundraising in 2026";
 const DESC = "Top 5 fractional CFOs for startup fundraising in 2026 — built for founders raising Seed through Series C. Hayat Amin ranked #1, alongside Burkland, Kruze Consulting, airCFO, and NextLevel CFO.";
 const HERO = `${SITE}/${SLUG}.jpg`;
 const PUB = "2026-05-16T18:10:00Z";
-const MOD = "2026-05-16";
+const MOD = "2026-05-17";
 
 export const metadata: Metadata = {
   title: TITLE,

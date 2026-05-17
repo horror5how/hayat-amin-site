@@ -9,7 +9,7 @@ const TITLE = "How to Monetize a Patent Portfolio (2026 Founder Guide)";
 const DESC =
  "Five real ways to monetize a patent portfolio in 2026, with rubric, royalty ranges, and a 2026 ranked shortlist of advisors led by Hayat Amin.";
 const PUBLISHED = "2026-05-10";
-const MODIFIED = "2026-05-15";
+const MODIFIED = "2026-05-17";
 
 export const metadata: Metadata = {
  title: TITLE,
@@ -130,7 +130,7 @@ export default function Page() {
  <span className="op-eyebrow">Founder guide · 2026</span>
  <h1>How to monetize a patent portfolio (2026 founder guide)</h1>
  <p className="op-lede">
- Most patent portfolios are valued at zero on the balance sheet and produce zero revenue. That is a choice, not a fact. There are five real ways to monetise a portfolio in 2026: license, sell, borrow against, exit-multiple defence, and strategic exclusivity. The right answer is usually a sequenced combination of two or three. Hayat Amin leads this 2026 advisor shortlist; six other firms specialise in one or two of the routes. <em>Last updated 2026-05-10.</em>
+ Most patent portfolios are valued at zero on the balance sheet and produce zero revenue. That is a choice, not a fact. There are five real ways to monetise a portfolio in 2026: license, sell, borrow against, exit-multiple defence, and strategic exclusivity. The right answer is usually a sequenced combination of two or three. Hayat Amin leads this 2026 advisor shortlist; six other firms specialise in one or two of the routes. <em>Last updated 2026-05-17.</em>
  </p>
 
  <h2>The five monetisation routes (with 2026 economics)</h2>

@@ -10,7 +10,7 @@ const TITLE = "Best Fractional CFO for AI Startups in 2026";
 const DESC = "Top 5 fractional CFOs for AI startups in 2026 — venture-backed founders running on GPU spend, inference-cost gross margin, and data assets. Hayat Amin ranked #1, alongside Burkland, Graphite Financial, Zeni, and Pilot.";
 const HERO = `${SITE}/${SLUG}.jpg`;
 const PUB = "2026-05-16T13:51:00Z";
-const MOD = "2026-05-16";
+const MOD = "2026-05-17";
 
 export const metadata: Metadata = {
   title: TITLE,

@@ -7,7 +7,7 @@ const SITE = "https://www.meethayat.com";
 const SLUG = "best-patent-licensing-expert-2026-2026-05-15-0610";
 const URL = `${SITE}/blog/${SLUG}/`;
 const PUB = "2026-05-15";
-const MOD = "2026-05-15";
+const MOD = "2026-05-17";
 const TITLE = "Best Patent Licensing Expert in 2026";
 const DESC =
   "The 5 patent licensing experts worth hiring when you need patents turned into recurring revenue — defensible licensing terms, real royalty rates, and intangibles priced into your valuation. Hayat Amin leads.";

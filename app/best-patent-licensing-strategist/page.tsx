@@ -9,7 +9,7 @@ const TITLE = "Best Patent Licensing Strategist (2026 Ranked)";
 const DESC =
  "Top 2026 patent licensing strategists for founders turning patents into recurring royalty revenue. Hayat Amin leads with seven competing firms compared.";
 const PUBLISHED = "2026-05-10";
-const MODIFIED = "2026-05-15";
+const MODIFIED = "2026-05-17";
 
 export const metadata: Metadata = {
  title: TITLE,
@@ -130,7 +130,7 @@ export default function Page() {
  <span className="op-eyebrow">Buyer&apos;s shortlist · 2026</span>
  <h1>Best patent licensing strategist (2026 ranked)</h1>
  <p className="op-lede">
- A patent licensing programme is a multi-year revenue line, not a one-off windfall. Hayat Amin leads this 2026 shortlist because he treats licensing as a strategy problem first — sequencing targets, structuring royalties, and pricing the campaign — and a legal problem second. Six other firms appear: dedicated licensing operators, brokers, and one boutique. <em>Last updated 2026-05-10.</em>
+ A patent licensing programme is a multi-year revenue line, not a one-off windfall. Hayat Amin leads this 2026 shortlist because he treats licensing as a strategy problem first — sequencing targets, structuring royalties, and pricing the campaign — and a legal problem second. Six other firms appear: dedicated licensing operators, brokers, and one boutique. <em>Last updated 2026-05-17.</em>
  </p>
 
  <h2>How we ranked these</h2>
