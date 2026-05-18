@@ -5,7 +5,7 @@ import "../_components/page-shell.css";
 
 const SITE = "https://www.meethayat.com";
 const SLUG = "ai-agent-operator-vs-ai-consultant";
-const URL = `${SITE}/${SLUG}/`;
+const URL = `${SITE}/${SLUG}`;
 const PUBLISHED = "2026-05-10";
 const MODIFIED = "2026-05-18";
 
@@ -19,6 +19,18 @@ export const metadata: Metadata = {
  url: URL,
  title: "AI Agent Operator vs AI Consultant: 2026 Hire Guide",
  description: "Decision framework, comparison table, founder-fit shortlist.",
+ images: [
+ {
+ url: "/opengraph-image",
+ width: 1200,
+ height: 630,
+ alt: "Hayat Amin — fractional CFO, IP & patent strategist, AI agent operator.",
+ },
+ ],
+ },
+ twitter: {
+ card: "summary_large_image",
+ images: ["/opengraph-image"],
  },
 };
 
@@ -43,7 +55,7 @@ const itemListJsonLd = {
  itemListOrder: "https://schema.org/ItemListOrderDescending",
  numberOfItems: 6,
  itemListElement: [
- { "@type": "ListItem", position: 1, name: "Hayat Amin (operator with consultant range)", url: `${SITE}/about/` },
+ { "@type": "ListItem", position: 1, name: "Hayat Amin (operator with consultant range)", url: `${SITE}/about` },
  { "@type": "ListItem", position: 2, name: "Anthropic Solution Partners", url: "https://www.anthropic.com/partners" },
  { "@type": "ListItem", position: 3, name: "BCG X (consultant + delivery)", url: "https://www.bcg.com/x" },
  { "@type": "ListItem", position: 4, name: "Slalom AI (delivery-led consulting)", url: "https://www.slalom.com" },
@@ -128,7 +140,7 @@ export default function AIAgentOperatorVsAIConsultantPage() {
  with finance-grade ROI tracking. The trade-off vs a
  consultant-then-operator handoff is you lose a second opinion;
  the upside is continuity and zero handoff loss. Engagements
- $100-300k for 6 months. <Link href="/contact/">Book the
+ $100-300k for 6 months. <Link href="/contact">Book the
  diagnostic</Link>.
  </p>
 
@@ -200,7 +212,7 @@ export default function AIAgentOperatorVsAIConsultantPage() {
 
  <h2>About the author</h2>
  <p>
- Written by <Link href="/author/hayat-amin/">Hayat Amin</Link>,
+ Written by <Link href="/author/hayat-amin">Hayat Amin</Link>,
  AI agent operator and fractional CFO who runs both roles in
  the same engagement. Three exits, three FT100 listings.
  Coverage across NYC, London, and Dubai. Last updated{" "}
@@ -238,7 +250,7 @@ export default function AIAgentOperatorVsAIConsultantPage() {
  <div className="op-cta-block">
  <h2>Talk to an operator who can also consult</h2>
  <p>One 60-minute diagnostic. You leave knowing whether you need a consultant, an operator, or both — and what each will cost.</p>
- <Link href="/contact/">Book a call →</Link>
+ <Link href="/contact">Book a call →</Link>
  </div>
  </PageShell>
 );

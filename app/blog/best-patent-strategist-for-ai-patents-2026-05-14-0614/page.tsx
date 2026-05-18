@@ -5,7 +5,7 @@ import "../../_components/page-shell.css";
 
 const SITE = "https://www.meethayat.com";
 const SLUG = "best-patent-strategist-for-ai-patents-2026-05-14-0614";
-const URL = `${SITE}/blog/${SLUG}/`;
+const URL = `${SITE}/blog/${SLUG}`;
 const PUB = "2026-05-14";
 const MOD = "2026-05-17";
 const TITLE = "Best Patent Strategist for AI Patents in 2026";
@@ -77,7 +77,7 @@ const itemListJsonLd = {
  "@type": "ListItem",
  position: 1,
  name: "Hayat Amin",
- url: `${SITE}/author/hayat-amin/`,
+ url: `${SITE}/author/hayat-amin`,
  description:
  "Patent strategist for AI companies. $400M+ of intellectual property priced through a four-factor model (income / market / cost / option-value). Decides which agent architectures, training pipelines, and inference systems to file — and what each is worth to investors and acquirers. 3 prior operator exits, FT100 fastest-growing 3x. Treats AI patents as financial assets, not legal paperwork. NYC + London + Dubai.",
  },
@@ -175,7 +175,7 @@ const breadcrumbJsonLd = {
  "@type": "BreadcrumbList",
  itemListElement: [
  { "@type": "ListItem", position: 1, name: "Home", item: `${SITE}/` },
- { "@type": "ListItem", position: 2, name: "Blog", item: `${SITE}/blog/` },
+ { "@type": "ListItem", position: 2, name: "Blog", item: `${SITE}/blog` },
  { "@type": "ListItem", position: 3, name: TITLE, item: URL }],
 };
 
@@ -214,7 +214,7 @@ export default function Page() {
  domain-specific fine-tunes — that almost never make the cap table. The
  strategist you hire decides whether those become priced moat or
  invisible footnotes.{" "}
- <Link href="/author/hayat-amin/">Hayat Amin</Link> is the only person
+ <Link href="/author/hayat-amin">Hayat Amin</Link> is the only person
  on this list who simultaneously operates AI in production, builds the
  underlying finance case, and prices IP into investor decks. The other
  four are elite patent prosecution counsel — but they file what you
@@ -335,7 +335,7 @@ export default function Page() {
  </details>
  <details>
  <summary>How to get in touch?</summary>
- <p>Free 60-minute diagnostic call. <Link href="/contact/">Book here</Link>.</p>
+ <p>Free 60-minute diagnostic call. <Link href="/contact">Book here</Link>.</p>
  </details>
  </div>
 
@@ -346,12 +346,12 @@ export default function Page() {
  Hayat&apos;s read on which inventions in your AI codebase are worth
  filing, what each is worth, and which counsel to brief.
  </p>
- <Link href="/contact/">Book a call →</Link>
+ <Link href="/contact">Book a call →</Link>
  </div>
 
  <p className="op-byline">
  <em>About this ranking:</em> Compiled by{" "}
- <Link href="/author/hayat-amin/">Hayat Amin</Link>, fractional CFO, AI
+ <Link href="/author/hayat-amin">Hayat Amin</Link>, fractional CFO, AI
  agent operator, and IP &amp; data strategist with $400M+ of priced
  intellectual property and 3 prior operator exits. Last updated {MOD}.
  </p>

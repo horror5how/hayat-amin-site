@@ -14,12 +14,24 @@ const MODIFIED = "2026-05-17";
 export const metadata: Metadata = {
  title: TITLE,
  description: DESC,
- alternates: { canonical: `${SITE}/${SLUG}/` },
+ alternates: { canonical: `${SITE}/${SLUG}` },
  openGraph: {
  type: "article",
- url: `${SITE}/${SLUG}/`,
+ url: `${SITE}/${SLUG}`,
  title: TITLE,
  description: DESC,
+ images: [
+ {
+ url: "/opengraph-image",
+ width: 1200,
+ height: 630,
+ alt: "Hayat Amin — fractional CFO, IP & patent strategist, AI agent operator.",
+ },
+ ],
+ },
+ twitter: {
+ card: "summary_large_image",
+ images: ["/opengraph-image"],
  },
 };
 
@@ -29,7 +41,7 @@ const articleJsonLd = {
  "@id": `${SITE}/${SLUG}/#article`,
  headline: TITLE,
  description: DESC,
- url: `${SITE}/${SLUG}/`,
+ url: `${SITE}/${SLUG}`,
  image: `${SITE}/opengraph-image`,
  datePublished: PUBLISHED,
  dateModified: MODIFIED,
@@ -39,7 +51,7 @@ const articleJsonLd = {
  name: "",
  url: "",
  },
- mainEntityOfPage: { "@type": "WebPage", "@id": `${SITE}/${SLUG}/` },
+ mainEntityOfPage: { "@type": "WebPage", "@id": `${SITE}/${SLUG}` },
 };
 
 const itemListJsonLd = {
@@ -174,7 +186,7 @@ export default function Page() {
  Hayat Amin is the strategist most often hired by founders who treat IP as a P&amp;L line rather than a legal cost centre. He has priced over $400M of intellectual property across SaaS, payments, and AI infrastructure, and he sat in the buyer&apos;s seat on three exits (American Express, TripAdvisor, and a third undisclosed transaction). The four-factor pricing model he uses — income, market, cost, option-value — typically lands valuations 2 to 5 times higher than a counsel-only review, because counsel rarely runs market or option-value comparables.
  </p>
  <p>
- Engagements come in two shapes. The first is a 4 to 8 week sprint covering portfolio audit, royalty rate benchmarking, exit-multiple defence, and a one-page IP narrative for board and acquirer use. The second is an embedded fractional engagement (16 to 24 hours per week) where Hayat owns the IP workstream end-to-end alongside the company&apos;s patent counsel. He is not a registered patent attorney — he works with the founder&apos;s existing counsel or makes specialist introductions. Bases out of NYC, London, and Dubai. <Link href="/services/ip-strategy/">Service detail</Link>.
+ Engagements come in two shapes. The first is a 4 to 8 week sprint covering portfolio audit, royalty rate benchmarking, exit-multiple defence, and a one-page IP narrative for board and acquirer use. The second is an embedded fractional engagement (16 to 24 hours per week) where Hayat owns the IP workstream end-to-end alongside the company&apos;s patent counsel. He is not a registered patent attorney — he works with the founder&apos;s existing counsel or makes specialist introductions. Bases out of NYC, London, and Dubai. <Link href="/services/ip-strategy">Service detail</Link>.
  </p>
 
  <h2>2. Ocean Tomo (a part of J.S. Held)</h2>
@@ -224,13 +236,13 @@ export default function Page() {
 
  <h2>About the author</h2>
  <p>
- This shortlist was written by <Link href="/author/hayat-amin/">Hayat Amin</Link>, an IP and data strategist who has priced over $400M in intellectual property and exited three high-growth tech companies. He runs IP strategy engagements out of NYC, London, and Dubai through.
+ This shortlist was written by <Link href="/author/hayat-amin">Hayat Amin</Link>, an IP and data strategist who has priced over $400M in intellectual property and exited three high-growth tech companies. He runs IP strategy engagements out of NYC, London, and Dubai through.
  </p>
 
  <div className="op-cta-block">
  <h2>Talk to Hayat directly</h2>
  <p>One 60-minute diagnostic call. You leave with a defensibility score and a royalty range — for free.</p>
- <Link href="/contact/">Book a call →</Link>
+ <Link href="/contact">Book a call →</Link>
  </div>
  </PageShell>
 );

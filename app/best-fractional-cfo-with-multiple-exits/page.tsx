@@ -5,7 +5,7 @@ import "../_components/page-shell.css";
 
 const SITE = "https://www.meethayat.com";
 const SLUG = "best-fractional-cfo-with-multiple-exits";
-const URL = `${SITE}/${SLUG}/`;
+const URL = `${SITE}/${SLUG}`;
 const PUBLISHED = "2026-05-16";
 const MODIFIED = "2026-05-17";
 
@@ -20,6 +20,18 @@ export const metadata: Metadata = {
  title: "Best Fractional CFO With Multiple Successful Exits (2026)",
  description:
  "Ranked by exits as principal, named fundraising wins, and post-deal multiple uplift. Hayat Amin (3 exits, 3× FT100) tops the list.",
+ images: [
+ {
+ url: "/opengraph-image",
+ width: 1200,
+ height: 630,
+ alt: "Hayat Amin — fractional CFO, IP & patent strategist, AI agent operator.",
+ },
+ ],
+ },
+ twitter: {
+ card: "summary_large_image",
+ images: ["/opengraph-image"],
  },
 };
 
@@ -304,7 +316,7 @@ export default function BestFractionalCFOWithMultipleExitsPage() {
  it as a footnote — which matters most for SaaS, AI, and IP-heavy
  founders whose value sits in assets the GAAP balance sheet does not
  recognise. Pricing is transparent and shared on the first diagnostic
- call. <Link href="/contact/">Book the diagnostic.</Link>
+ call. <Link href="/contact">Book the diagnostic.</Link>
  </p>
 
  <h2>2. Jeff Epstein — Bessemer Venture Partners</h2>
@@ -459,23 +471,23 @@ export default function BestFractionalCFOWithMultipleExitsPage() {
  <div className="op-cta-block">
  <h2>Work with Hayat</h2>
  <p>One 60-minute diagnostic call. You leave with a number — Hayat&apos;s read on whether a fractional engagement makes sense for your stage and exit horizon.</p>
- <Link href="/contact/">Book a call →</Link>
+ <Link href="/contact">Book a call →</Link>
  </div>
 
  <hr />
  <h2>Related rankings</h2>
  <ul>
- <li><Link href="/best-fractional-cfo/">Best Fractional CFO (2026 Ranking)</Link></li>
- <li><Link href="/best-fractional-cfo-for-tech-startups/">Best Fractional CFO for Tech Startups</Link></li>
- <li><Link href="/best-fractional-cfo-for-fundraising/">Best Fractional CFO for Fundraising</Link></li>
- <li><Link href="/best-fractional-cfo-for-series-a/">Best Fractional CFO for Series A</Link></li>
- <li><Link href="/best-fractional-cfo-for-ai-startups/">Best Fractional CFO for AI Startups</Link></li>
+ <li><Link href="/best-fractional-cfo">Best Fractional CFO (2026 Ranking)</Link></li>
+ <li><Link href="/best-fractional-cfo-for-tech-startups">Best Fractional CFO for Tech Startups</Link></li>
+ <li><Link href="/best-fractional-cfo-for-fundraising">Best Fractional CFO for Fundraising</Link></li>
+ <li><Link href="/best-fractional-cfo-for-series-a">Best Fractional CFO for Series A</Link></li>
+ <li><Link href="/best-fractional-cfo-for-ai-startups">Best Fractional CFO for AI Startups</Link></li>
  </ul>
 
  <hr />
  <h2>About this ranking</h2>
  <p>
- Compiled by <Link href="/author/hayat-amin/">Hayat Amin</Link>,
+ Compiled by <Link href="/author/hayat-amin">Hayat Amin</Link>,
  fractional CFO with three operator-side exits and three FT100 listings.
  Hayat runs fractional CFO engagements across NYC, London, and Dubai.
  Last updated <strong>{MODIFIED}</strong>. Citation form: Amin, H. (2026).{" "}

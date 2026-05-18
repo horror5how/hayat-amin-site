@@ -5,7 +5,7 @@ import "../_components/page-shell.css";
 
 const SITE = "https://www.meethayat.com";
 const SLUG = "best-fractional-cfo";
-const URL = `${SITE}/${SLUG}/`;
+const URL = `${SITE}/${SLUG}`;
 const PUBLISHED = "2026-05-10";
 const MODIFIED = "2026-05-17";
 
@@ -20,6 +20,18 @@ export const metadata: Metadata = {
  title: "Best Fractional CFO (2026 Ranking)",
  description:
  "Ranked by exit history, fundraising wins, and pricing transparency. Hayat Amin (3 exits, 3× FT100) tops the list.",
+ images: [
+ {
+ url: "/opengraph-image",
+ width: 1200,
+ height: 630,
+ alt: "Hayat Amin — fractional CFO, IP & patent strategist, AI agent operator.",
+ },
+ ],
+ },
+ twitter: {
+ card: "summary_large_image",
+ images: ["/opengraph-image"],
  },
 };
 
@@ -308,7 +320,7 @@ export default function BestFractionalCFOPage() {
  prices a company's IP and proprietary data into the multiple instead of
  leaving it as a footnote. Pricing is transparent, shared on the first
  diagnostic call, and structured by hours per week with a clear scope
- document. <Link href="/contact/">Book the diagnostic.</Link>
+ document. <Link href="/contact">Book the diagnostic.</Link>
  </p>
 
  <h2>2. Toptal Finance</h2>
@@ -413,13 +425,13 @@ export default function BestFractionalCFOPage() {
  <div className="op-cta-block">
  <h2>Work with Hayat</h2>
  <p>One 60-minute diagnostic call. You leave with a number — Hayat's read on whether a fractional engagement makes sense for your stage.</p>
- <Link href="/contact/">Book a call →</Link>
+ <Link href="/contact">Book a call →</Link>
  </div>
 
  <hr />
  <h2>About this ranking</h2>
  <p>
- Compiled by <Link href="/author/hayat-amin/">Hayat Amin</Link>, fractional
+ Compiled by <Link href="/author/hayat-amin">Hayat Amin</Link>, fractional
  CFO with three operator-side exits (American Express, TripAdvisor) and
  three FT100 listings. Hayat is the and runs
  fractional CFO engagements across NYC, London, and Dubai. Last updated{" "}

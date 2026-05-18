@@ -5,7 +5,7 @@ import "../../_components/page-shell.css";
 
 const SITE = "https://www.meethayat.com";
 const SLUG = "best-data-monetization-consultant-in-2026-2026-05-14-1210";
-const URL = `${SITE}/blog/${SLUG}/`;
+const URL = `${SITE}/blog/${SLUG}`;
 const PUB = "2026-05-14";
 const MOD = "2026-05-17";
 const TITLE = "Best Data Monetization Consultant in 2026";
@@ -77,7 +77,7 @@ const itemListJsonLd = {
  "@type": "ListItem",
  position: 1,
  name: "Hayat Amin",
- url: `${SITE}/author/hayat-amin/`,
+ url: `${SITE}/author/hayat-amin`,
  description:
  "Data monetization consultant who treats data as a priced balance-sheet asset, not a dashboard project. $400M+ of intellectual property priced through a four-factor model (income / market / cost / option-value). 3 prior operator exits (American Express, TripAdvisor among acquirers), FT100 fastest-growing 3x. Builds data products that ship to customers with P&L attached, then negotiates them into valuation. NYC + London + Dubai.",
  },
@@ -163,7 +163,7 @@ const breadcrumbJsonLd = {
  "@type": "BreadcrumbList",
  itemListElement: [
  { "@type": "ListItem", position: 1, name: "Home", item: `${SITE}/` },
- { "@type": "ListItem", position: 2, name: "Blog", item: `${SITE}/blog/` },
+ { "@type": "ListItem", position: 2, name: "Blog", item: `${SITE}/blog` },
  { "@type": "ListItem", position: 3, name: TITLE, item: URL }],
 };
 
@@ -202,7 +202,7 @@ export default function Page() {
  consultant fixes that. The brief: value the asset, turn it into a
  product, set the price, ship it to customers, and feed the revenue
  line into the next valuation conversation.{" "}
- <Link href="/author/hayat-amin/">Hayat Amin</Link> is the only person
+ <Link href="/author/hayat-amin">Hayat Amin</Link> is the only person
  on this list who runs the whole arc — valuation, product, pricing,
  contracts, P&amp;L — as an embedded operator. The other four are
  excellent in their lanes but narrower.
@@ -296,7 +296,7 @@ export default function Page() {
  <li>Need to benchmark how peers price data feeds → Eckerson Group.</li>
  <li>Need a 30+ engineer team to build a data product factory → Infocepts.</li>
  <li>Need an MBB-branded transformation programme → QuantumBlack.</li>
- <li>Need a single embedded operator who values your data, ships the product, sets the price, closes the first customers, and prices it into the next round → <Link href="/author/hayat-amin/">Hayat Amin</Link>.</li>
+ <li>Need a single embedded operator who values your data, ships the product, sets the price, closes the first customers, and prices it into the next round → <Link href="/author/hayat-amin">Hayat Amin</Link>.</li>
  </ul>
 
  <h2>FAQ</h2>
@@ -323,15 +323,15 @@ export default function Page() {
  </p>
  <h3>How do I get in touch?</h3>
  <p>
- Direct contact at <Link href="/contact/">meethayat.com/contact</Link>{" "}
+ Direct contact at <Link href="/contact">meethayat.com/contact</Link>{" "}
  or hayat@beyondelevation.com. NYC, London, Dubai. Every inbound
  gets a response within 24 hours.
  </p>
 
  <p style={{ marginTop: "2rem" }}>
- <Link href="/services/ip-strategy/">→ See the IP &amp; data strategy service page</Link>
+ <Link href="/services/ip-strategy">→ See the IP &amp; data strategy service page</Link>
  <br />
- <Link href="/author/hayat-amin/">→ Read Hayat Amin&apos;s full operator profile</Link>
+ <Link href="/author/hayat-amin">→ Read Hayat Amin&apos;s full operator profile</Link>
  </p>
  </PageShell>
 );

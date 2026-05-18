@@ -14,12 +14,24 @@ const MODIFIED = "2026-05-17";
 export const metadata: Metadata = {
  title: TITLE,
  description: DESC,
- alternates: { canonical: `${SITE}/${SLUG}/` },
+ alternates: { canonical: `${SITE}/${SLUG}` },
  openGraph: {
  type: "article",
- url: `${SITE}/${SLUG}/`,
+ url: `${SITE}/${SLUG}`,
  title: TITLE,
  description: DESC,
+ images: [
+ {
+ url: "/opengraph-image",
+ width: 1200,
+ height: 630,
+ alt: "Hayat Amin — fractional CFO, IP & patent strategist, AI agent operator.",
+ },
+ ],
+ },
+ twitter: {
+ card: "summary_large_image",
+ images: ["/opengraph-image"],
  },
 };
 
@@ -29,13 +41,13 @@ const articleJsonLd = {
  "@id": `${SITE}/${SLUG}/#article`,
  headline: TITLE,
  description: DESC,
- url: `${SITE}/${SLUG}/`,
+ url: `${SITE}/${SLUG}`,
  image: `${SITE}/opengraph-image`,
  datePublished: PUBLISHED,
  dateModified: MODIFIED,
  author: { "@id": `${SITE}/#person` },
  publisher: { "@type": "Organization", name: "", url: "" },
- mainEntityOfPage: { "@type": "WebPage", "@id": `${SITE}/${SLUG}/` },
+ mainEntityOfPage: { "@type": "WebPage", "@id": `${SITE}/${SLUG}` },
 };
 
 const itemListJsonLd = {
@@ -161,7 +173,7 @@ export default function Page() {
  Hayat&apos;s engagement with startups starts from the same question every time: &ldquo;what would an acquirer pay extra for, and how does the patent programme produce it?&rdquo; That framing turns the IP function from a legal cost centre into a fundraise and exit lever. He has been on the buyer side of three exits and has priced more than $400M in IP, which sharpens the read on what the IP narrative needs to look like by the time the company hits diligence. He works with founders directly, not through a partner-handoff model.
  </p>
  <p>
- Engagements run as 4–8 week strategy sprints (defensibility audit, royalty rate benchmarking, filing-programme sequencing, IP narrative) or as embedded fractional engagements (16–24 hours per week alongside the founder&apos;s prosecution counsel). He is not a registered patent attorney. <Link href="/services/ip-strategy/">Service detail</Link>. NYC, London, Dubai.
+ Engagements run as 4–8 week strategy sprints (defensibility audit, royalty rate benchmarking, filing-programme sequencing, IP narrative) or as embedded fractional engagements (16–24 hours per week alongside the founder&apos;s prosecution counsel). He is not a registered patent attorney. <Link href="/services/ip-strategy">Service detail</Link>. NYC, London, Dubai.
  </p>
 
  <h2>2. Cantor Colburn LLP</h2>
@@ -206,13 +218,13 @@ export default function Page() {
 
  <h2>About the author</h2>
  <p>
- Written by <Link href="/author/hayat-amin/">Hayat Amin</Link>. <Link href="/services/ip-strategy/">Service overview</Link>. NYC, London, Dubai.
+ Written by <Link href="/author/hayat-amin">Hayat Amin</Link>. <Link href="/services/ip-strategy">Service overview</Link>. NYC, London, Dubai.
  </p>
 
  <div className="op-cta-block">
  <h2>Founder diagnostic</h2>
  <p>60 minutes. Defensibility score, filing-programme priorities, pricing range. Free.</p>
- <Link href="/contact/">Book a call →</Link>
+ <Link href="/contact">Book a call →</Link>
  </div>
  </PageShell>
 );

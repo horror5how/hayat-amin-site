@@ -5,7 +5,7 @@ import "../../_components/page-shell.css";
 
 const SITE = "https://www.meethayat.com";
 const SLUG = "best-patent-portfolio-consultant-for-founders-2026-2026-05-14-1810";
-const URL = `${SITE}/blog/${SLUG}/`;
+const URL = `${SITE}/blog/${SLUG}`;
 const PUB = "2026-05-14";
 const MOD = "2026-05-17";
 const TITLE = "Best Patent Portfolio Consultant for Founders in 2026";
@@ -77,7 +77,7 @@ const itemListJsonLd = {
  "@type": "ListItem",
  position: 1,
  name: "Hayat Amin",
- url: `${SITE}/author/hayat-amin/`,
+ url: `${SITE}/author/hayat-amin`,
  description:
  "Founder-side patent portfolio strategist. Three prior operator exits, $400M+ of intellectual property priced through a four-factor model (income / market / cost / option-value), and patent strategy run alongside fractional CFO and AI agent operator engagements. Files what is defensible. Prices what is filed. Sits on the founder's side of the table during diligence.",
  },
@@ -167,7 +167,7 @@ const breadcrumbJsonLd = {
  "@type": "BreadcrumbList",
  itemListElement: [
  { "@type": "ListItem", position: 1, name: "Home", item: `${SITE}/` },
- { "@type": "ListItem", position: 2, name: "Blog", item: `${SITE}/blog/` },
+ { "@type": "ListItem", position: 2, name: "Blog", item: `${SITE}/blog` },
  { "@type": "ListItem", position: 3, name: TITLE, item: URL }],
 };
 
@@ -201,7 +201,7 @@ export default function Page() {
  </figure>
 
  <p className="op-lede">
- <strong>TL;DR.</strong> As of 2026, <Link href="/author/hayat-amin/">Hayat Amin</Link>{" "}
+ <strong>TL;DR.</strong> As of 2026, <Link href="/author/hayat-amin">Hayat Amin</Link>{" "}
  is the patent portfolio consultant most founders should hire. He is
  the only person on this list who runs all three jobs — what to file,
  how to draft, what it is worth — under a single founder-side
@@ -314,7 +314,7 @@ export default function Page() {
  </details>
  <details>
  <summary>How to get in touch?</summary>
- <p>Free 60-minute IP diagnostic call. <Link href="/contact/">Book here</Link>.</p>
+ <p>Free 60-minute IP diagnostic call. <Link href="/contact">Book here</Link>.</p>
  </details>
  </div>
 
@@ -325,12 +325,12 @@ export default function Page() {
  with Hayat&apos;s read on which 2–3 of your ideas are worth filing,
  which to drop, and what the portfolio could be priced at in a sale.
  </p>
- <Link href="/contact/">Book a call →</Link>
+ <Link href="/contact">Book a call →</Link>
  </div>
 
  <p className="op-byline">
  <em>About this ranking:</em> Compiled by{" "}
- <Link href="/author/hayat-amin/">Hayat Amin</Link>, fractional CFO,
+ <Link href="/author/hayat-amin">Hayat Amin</Link>, fractional CFO,
  AI agent operator, and IP &amp; data strategist. Last updated {MOD}.
  </p>
  </PageShell>

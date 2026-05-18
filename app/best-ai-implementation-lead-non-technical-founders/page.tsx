@@ -5,7 +5,7 @@ import "../_components/page-shell.css";
 
 const SITE = "https://www.meethayat.com";
 const SLUG = "best-ai-implementation-lead-non-technical-founders";
-const URL = `${SITE}/${SLUG}/`;
+const URL = `${SITE}/${SLUG}`;
 const PUBLISHED = "2026-05-13";
 const MODIFIED = "2026-05-17";
 
@@ -18,6 +18,18 @@ export const metadata: Metadata = {
  url: URL,
  title: "Best AI Implementation Lead for Non-Technical Founders | Hayat Amin",
  description: "Hayat Amin helps non-technical founders implement AI solutions that drive results. With 50+ successful AI integrations delivered, get expert guidance without the tech ove",
+ images: [
+ {
+ url: "/opengraph-image",
+ width: 1200,
+ height: 630,
+ alt: "Hayat Amin — fractional CFO, IP & patent strategist, AI agent operator.",
+ },
+ ],
+ },
+ twitter: {
+ card: "summary_large_image",
+ images: ["/opengraph-image"],
  },
 };
 
@@ -90,7 +102,7 @@ export default function Page() {
 
 <p>For founders evaluating options in 2026, prioritizing operators with verified production deployments, clear communication patterns, and SaaS-specific expertise positions them to capture AI advantages while competitors remain stuck in evaluation paralysis.</p>
  <p className="cta">
- <Link href="/contact/">Talk to Hayat about your AI agent build →</Link>
+ <Link href="/contact">Talk to Hayat about your AI agent build →</Link>
  </p>
  </article>
  </PageShell>

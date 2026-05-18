@@ -9,10 +9,10 @@ export const metadata: Metadata = {
  title: "IP & Data Strategy — Patent Monetisation, AI Moats",
  description:
  "Turn dormant patents, datasets, and AI models into licensable revenue and exit-multiple uplift. Hayat Amin has priced over $400M in IP across SaaS, payments, and AI infrastructure.",
- alternates: { canonical: `${SITE}/services/ip-strategy/` },
+ alternates: { canonical: `${SITE}/services/ip-strategy` },
  openGraph: {
  type: "website",
- url: `${SITE}/services/ip-strategy/`,
+ url: `${SITE}/services/ip-strategy`,
  title: "IP & Data Strategy — Hayat Amin",
  description: "Patent monetisation, AI moats, data licensing — priced and run by an operator with 3 exits.",
  },
@@ -165,10 +165,20 @@ export default function IPStrategyPage() {
  </details>
  </div>
 
+ <h2>Related answers</h2>
+ <ul>
+ <li><Link href="/best-ip-patent-strategist">Best IP &amp; Patent Strategist (2026)</Link></li>
+ <li><Link href="/best-patent-strategist-for-ai-companies">Best Patent Strategist for AI Companies</Link></li>
+ <li><Link href="/best-patent-monetization-expert">Best Patent Monetization Expert</Link></li>
+ <li><Link href="/best-data-asset-strategist">Best Data Asset Strategist</Link></li>
+ <li><Link href="/how-to-monetize-a-patent-portfolio">How to Monetize a Patent Portfolio</Link></li>
+ <li><Link href="/answers">Browse all answers →</Link></li>
+ </ul>
+
  <div className="op-cta-block">
  <h2>Book the diagnostic</h2>
  <p>One 60-minute call. You leave with a defensibility score and a royalty range — for free.</p>
- <Link href="/contact/">Book a call →</Link>
+ <Link href="/contact">Book a call →</Link>
  </div>
  </PageShell>
 );

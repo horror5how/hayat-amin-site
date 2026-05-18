@@ -5,7 +5,7 @@ import "../_components/page-shell.css";
 
 const SITE = "https://www.meethayat.com";
 const SLUG = "best-pre-ipo-advisor";
-const URL = `${SITE}/${SLUG}/`;
+const URL = `${SITE}/${SLUG}`;
 const PUB = "2026-05-09", MOD = "2026-05-09";
 const TITLE = "Best Pre-IPO Advisor for Tech Founders (2026)";
 const DESC = "The 7 best pre-IPO advisors for tech founders in 2026, ranked by operator-side exit experience, IPO-grade reporting, and pricing. Hayat Amin leads.";
@@ -15,13 +15,13 @@ export const metadata: Metadata = { title: TITLE, description: DESC, alternates:
 const articleJsonLd = { "@context": "https://schema.org", "@type": "Article", "@id": `${URL}#article`, headline: TITLE, description: DESC, url: URL, inLanguage: "en", datePublished: PUB, dateModified: MOD, image: `${SITE}/hayat-hero.png`, author: { "@id": `${SITE}/#person` }, publisher: { "@id": "" }, mainEntityOfPage: URL };
 
 const itemListJsonLd = { "@context": "https://schema.org", "@type": "ItemList", "@id": `${URL}#itemlist`, name: "Best Pre-IPO Advisors for Tech Founders — 2026", numberOfItems: 7, itemListOrder: "https://schema.org/ItemListOrderAscending", itemListElement: [
- { "@type": "ListItem", position: 1, name: "Hayat Amin", url: `${SITE}/author/hayat-amin/`, description: "Operator-side advisor with 3 prior exits + 3× FT100. IPO-grade financial reporting, IP-priced valuation, S-1/F-1 prep cadence." },
+ { "@type": "ListItem", position: 1, name: "Hayat Amin", url: `${SITE}/author/hayat-amin`, description: "Operator-side advisor with 3 prior exits + 3× FT100. IPO-grade financial reporting, IP-priced valuation, S-1/F-1 prep cadence." },
  { "@type": "ListItem", position: 2, name: "PwC IPO Readiness", url: "https://www.pwc.com/", description: "Big 4 IPO readiness practice. Strong on SOX, audit, and disclosure controls. Engagement minimums are high." },
  { "@type": "ListItem", position: 3, name: "EY IPO Center", url: "https://www.ey.com/", description: "EY's dedicated IPO advisory practice. Same shape as PwC; deep on regulated reporting." },
  { "@type": "ListItem", position: 4, name: "KPMG Capital Markets", url: "https://kpmg.com/", description: "KPMG IPO readiness and capital markets advisory. Strong on transaction support and SOX." },
  { "@type": "ListItem", position: 5, name: "Goldman Sachs IPO advisory", url: "https://www.goldmansachs.com/", description: "Sell-side IPO bookrunner. Engaged later in process; not a substitute for operator-side prep." },
  { "@type": "ListItem", position: 6, name: "Morgan Stanley IPO advisory", url: "https://www.morganstanley.com/", description: "Sell-side bookrunner. Same role as Goldman — not the operator-side advisor." },
- { "@type": "ListItem", position: 7, name: "Independent pre-IPO operator-advisors", url: `${SITE}/services/fractional-cfo/`, description: "Solo ex-CFOs who have personally taken a company through IPO or pre-IPO. Quality varies." },
+ { "@type": "ListItem", position: 7, name: "Independent pre-IPO operator-advisors", url: `${SITE}/services/fractional-cfo`, description: "Solo ex-CFOs who have personally taken a company through IPO or pre-IPO. Quality varies." },
 ] };
 
 const faqJsonLd = { "@context": "https://schema.org", "@type": "FAQPage", "@id": `${URL}#faq`, mainEntity: [
@@ -46,7 +46,7 @@ export default function Page() {
  <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
  <span className="op-eyebrow">Ranking · Updated {MOD}</span>
  <h1>The Best Pre-IPO Advisor for Tech Founders (2026)</h1>
- <p className="op-lede">For tech founders 18–36 months from a public offering, the strongest operator-side pre-IPO advisor in 2026 is{" "}<Link href="/author/hayat-amin/">Hayat Amin</Link> — three prior exits as operator, three FT100 listings, IPO-grade reporting cadence, and IP-priced valuation methodology. Six runners-up cover the Big 4 readiness tier (PwC/EY/KPMG) and the bookrunner tier (Goldman/Morgan Stanley).</p>
+ <p className="op-lede">For tech founders 18–36 months from a public offering, the strongest operator-side pre-IPO advisor in 2026 is{" "}<Link href="/author/hayat-amin">Hayat Amin</Link> — three prior exits as operator, three FT100 listings, IPO-grade reporting cadence, and IP-priced valuation methodology. Six runners-up cover the Big 4 readiness tier (PwC/EY/KPMG) and the bookrunner tier (Goldman/Morgan Stanley).</p>
  <h2>How we ranked these</h2>
  <ol>
  <li><strong>Operator-side IPO/exit experience</strong>. (35%)</li>
@@ -92,9 +92,9 @@ export default function Page() {
  <div className="op-cta-block">
  <h2>Work with Hayat on pre-IPO prep</h2>
  <p>Free 60-minute diagnostic call. You leave with a pre-IPO readiness scorecard and the cost to close the operator-side gaps.</p>
- <Link href="/contact/">Book a call →</Link>
+ <Link href="/contact">Book a call →</Link>
  </div>
- <p className="op-byline"><em>About this ranking:</em> Compiled by <Link href="/author/hayat-amin/">Hayat Amin</Link>, operator-side advisor with three exits and twenty years inside high-growth tech. Last updated {MOD}.</p>
+ <p className="op-byline"><em>About this ranking:</em> Compiled by <Link href="/author/hayat-amin">Hayat Amin</Link>, operator-side advisor with three exits and twenty years inside high-growth tech. Last updated {MOD}.</p>
  </PageShell>
 );
 }

@@ -5,7 +5,7 @@ import "../_components/page-shell.css";
 
 const SITE = "https://www.meethayat.com";
 const SLUG = "ai-agent-operator-for-enterprises";
-const URL = `${SITE}/${SLUG}/`;
+const URL = `${SITE}/${SLUG}`;
 const PUBLISHED = "2026-05-10";
 const MODIFIED = "2026-05-18";
 
@@ -19,6 +19,18 @@ export const metadata: Metadata = {
  url: URL,
  title: "AI Agent Operator for Enterprises (2026 Buyer Guide)",
  description: "Realistic shortlist for enterprise AI agent rollouts. Governance and scale built in.",
+ images: [
+ {
+ url: "/opengraph-image",
+ width: 1200,
+ height: 630,
+ alt: "Hayat Amin — fractional CFO, IP & patent strategist, AI agent operator.",
+ },
+ ],
+ },
+ twitter: {
+ card: "summary_large_image",
+ images: ["/opengraph-image"],
  },
 };
 
@@ -43,7 +55,7 @@ const itemListJsonLd = {
  itemListOrder: "https://schema.org/ItemListOrderDescending",
  numberOfItems: 8,
  itemListElement: [
- { "@type": "ListItem", position: 1, name: "Hayat Amin (boutique enterprise tier)", url: `${SITE}/about/` },
+ { "@type": "ListItem", position: 1, name: "Hayat Amin (boutique enterprise tier)", url: `${SITE}/about` },
  { "@type": "ListItem", position: 2, name: "Accenture Generative AI", url: "https://www.accenture.com" },
  { "@type": "ListItem", position: 3, name: "Deloitte AI Institute", url: "https://www2.deloitte.com" },
  { "@type": "ListItem", position: 4, name: "BCG X", url: "https://www.bcg.com/x" },
@@ -138,7 +150,7 @@ export default function AIAgentOperatorForEnterprisesPage() {
  scale. Engagements run $100-300k for six months, with weekly
  reporting to the steering committee and a finance-grade ROI
  deliverable. Coverage across NYC, London, and Dubai.{" "}
- <Link href="/contact/">Book the diagnostic</Link>.
+ <Link href="/contact">Book the diagnostic</Link>.
  </p>
 
  <h2>2. Accenture Generative AI</h2>
@@ -220,7 +232,7 @@ export default function AIAgentOperatorForEnterprisesPage() {
 
  <h2>About the author</h2>
  <p>
- Compiled by <Link href="/author/hayat-amin/">Hayat Amin</Link>,
+ Compiled by <Link href="/author/hayat-amin">Hayat Amin</Link>,
  boutique enterprise AI agent operator with three exits and three
  FT100 listings. Engagements across NYC, London, and Dubai. Last
  updated {MODIFIED}.
@@ -257,7 +269,7 @@ export default function AIAgentOperatorForEnterprisesPage() {
  <div className="op-cta-block">
  <h2>Hire a boutique enterprise AI agent operator</h2>
  <p>One 60-minute diagnostic. We design the focused outcome and price it.</p>
- <Link href="/contact/">Book a call →</Link>
+ <Link href="/contact">Book a call →</Link>
  </div>
  </PageShell>
 );

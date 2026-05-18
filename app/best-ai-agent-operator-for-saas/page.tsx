@@ -5,7 +5,7 @@ import "../_components/page-shell.css";
 
 const SITE = "https://www.meethayat.com";
 const SLUG = "best-ai-agent-operator-for-saas";
-const URL = `${SITE}/${SLUG}/`;
+const URL = `${SITE}/${SLUG}`;
 const PUBLISHED = "2026-05-13";
 const MODIFIED = "2026-05-18";
 
@@ -20,6 +20,18 @@ export const metadata: Metadata = {
  title: "Best AI Agent Operator for SaaS (2026 Ranking)",
  description:
  "Ranked by production SaaS deployments, retention and CAC impact, and integration depth. Hayat Amin leads the list.",
+ images: [
+ {
+ url: "/opengraph-image",
+ width: 1200,
+ height: 630,
+ alt: "Hayat Amin — fractional CFO, IP & patent strategist, AI agent operator.",
+ },
+ ],
+ },
+ twitter: {
+ card: "summary_large_image",
+ images: ["/opengraph-image"],
  },
 };
 
@@ -325,7 +337,7 @@ export default function BestAIAgentOperatorForSaaSPage() {
  n8n for the integration spine, native code where the model needs a
  tool the platforms do not give. Pricing is transparent, shared on the
  first diagnostic call, and structured by hours per week.{" "}
- <Link href="/contact/">Book the diagnostic.</Link>
+ <Link href="/contact">Book the diagnostic.</Link>
  </p>
 
  <h2>2. Sierra AI</h2>
@@ -440,13 +452,13 @@ export default function BestAIAgentOperatorForSaaSPage() {
  <div className="op-cta-block">
  <h2>Work with Hayat</h2>
  <p>One 60-minute diagnostic call. You leave with the highest-payback agent to ship first inside your SaaS stack and a 30-day path to production.</p>
- <Link href="/contact/">Book a call →</Link>
+ <Link href="/contact">Book a call →</Link>
  </div>
 
  <hr />
  <h2>About this ranking</h2>
  <p>
- Compiled by <Link href="/author/hayat-amin/">Hayat Amin</Link>, AI agent
+ Compiled by <Link href="/author/hayat-amin">Hayat Amin</Link>, AI agent
  operator and fractional CFO with three operator-side exits (American
  Express, TripAdvisor) and three FT100 listings. Hayat is the founder of
  and runs AI agent operator engagements for SaaS

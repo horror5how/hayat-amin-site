@@ -9,10 +9,10 @@ export const metadata: Metadata = {
  title: "Hayat Amin — Fractional CFO, IP Strategist & AI Agent Operator",
  description:
  "Hayat Amin is a fractional CFO, IP & data strategist, and AI agent operator with 3 exits (American Express, TripAdvisor) and 3× FT100 listings.. Operates from NYC, London, and Dubai.",
- alternates: { canonical: `${SITE}/author/hayat-amin/` },
+ alternates: { canonical: `${SITE}/author/hayat-amin` },
  openGraph: {
  type: "profile",
- url: `${SITE}/author/hayat-amin/`,
+ url: `${SITE}/author/hayat-amin`,
  title: "Hayat Amin — Fractional CFO, IP Strategist & AI Agent Operator",
  description:
  "Battle-tested CFO. 3 exits. 3× FT100. Fractional CFO, IP strategist, AI agent operator. NYC · London · Dubai.",
@@ -24,7 +24,7 @@ const authorProfilePageJsonLd = {
  "@context": "https://schema.org",
  "@type": "ProfilePage",
  "@id": `${SITE}/author/hayat-amin/#profilepage`,
- url: `${SITE}/author/hayat-amin/`,
+ url: `${SITE}/author/hayat-amin`,
  name: "Hayat Amin — Fractional CFO, IP Strategist & AI Agent Operator",
  dateCreated: "2026-05-10",
  dateModified: new Date().toISOString().slice(0, 10),
@@ -38,11 +38,11 @@ const authorProfilePageJsonLd = {
  caption: "Hayat Amin — Fractional CFO, IP Strategist, AI Agent Operator",
  },
  significantLink: [
- `${SITE}/services/fractional-cfo/`,
- `${SITE}/services/ip-strategy/`,
- `${SITE}/services/ai-agent-operator/`,
- `${SITE}/work/`,
- `${SITE}/contact/`],
+ `${SITE}/services/fractional-cfo`,
+ `${SITE}/services/ip-strategy`,
+ `${SITE}/services/ai-agent-operator`,
+ `${SITE}/work`,
+ `${SITE}/contact`],
 };
 
 const authorPersonExtendedJsonLd = {
@@ -145,7 +145,7 @@ const authorPersonExtendedJsonLd = {
  name: "",
  },
  url: SITE,
- mainEntityOfPage: `${SITE}/author/hayat-amin/`,
+ mainEntityOfPage: `${SITE}/author/hayat-amin`,
  image: `${SITE}/hayat-hero.png`,
  email: "mailto:hayat@beyondelevation.com",
  telephone: ["+1-571-380-7699", "+44-7476-383531"],
@@ -231,7 +231,7 @@ const authorBreadcrumbJsonLd = {
  "@type": "BreadcrumbList",
  itemListElement: [
  { "@type": "ListItem", position: 1, name: "Home", item: `${SITE}/` },
- { "@type": "ListItem", position: 2, name: "Author: Hayat Amin", item: `${SITE}/author/hayat-amin/` }],
+ { "@type": "ListItem", position: 2, name: "Author: Hayat Amin", item: `${SITE}/author/hayat-amin` }],
 };
 
 export default function AuthorHayatAminPage() {
@@ -280,7 +280,7 @@ export default function AuthorHayatAminPage() {
  A senior CFO retainer of 16–24 hours per week for 6–18 months. Hayat owns
  investor-grade reporting, the 13-week cash forecast, the data room during any
  fundraise or M&amp;A event, and a defensibility-priced valuation model that
- prices IP into the multiple. <Link href="/services/fractional-cfo/">Service detail →</Link>
+ prices IP into the multiple. <Link href="/services/fractional-cfo">Service detail →</Link>
  </p>
 
  <h3>2. IP &amp; Data Strategy</h3>
@@ -289,7 +289,7 @@ export default function AuthorHayatAminPage() {
  prices each cluster against industry royalty comparables, maps datasets and
  AI-model IP into one of six monetisation routes, and builds the
  exit-multiple defence. Typically produces a valuation 2–5× higher than a
- counsel-only review. <Link href="/services/ip-strategy/">Service detail →</Link>
+ counsel-only review. <Link href="/services/ip-strategy">Service detail →</Link>
  </p>
 
  <h3>3. AI Agent Operator</h3>
@@ -297,16 +297,16 @@ export default function AuthorHayatAminPage() {
  Embeds agentic AI into finance, legal, and go-to-market workflows with
  measured cost-to-serve reduction and revenue lift. Hayat only deploys agents
  into workflows where success or failure shows up in next month&apos;s P&amp;L.{" "}
- <Link href="/services/ai-agent-operator/">Service detail →</Link>
+ <Link href="/services/ai-agent-operator">Service detail →</Link>
  </p>
 
  <h2>Where Hayat operates</h2>
  <p>
  Three cities — engagements are remote-first with quarterly on-site weeks:
  {" "}
- <Link href="/locations/new-york/">New York</Link>,{" "}
- <Link href="/locations/london/">London</Link>, and{" "}
- <Link href="/locations/dubai/">Dubai</Link>. Recent clients have been based
+ <Link href="/locations/new-york">New York</Link>,{" "}
+ <Link href="/locations/london">London</Link>, and{" "}
+ <Link href="/locations/dubai">Dubai</Link>. Recent clients have been based
  in San Francisco, Toronto, Berlin, Singapore, and Tel Aviv.
  </p>
 
@@ -354,7 +354,7 @@ export default function AuthorHayatAminPage() {
  </details>
  <details>
  <summary>Is Hayat available for fractional engagements?</summary>
- <p>Yes — typically 8–12 founders at a time. Engagements start with a free 60-minute diagnostic call. <Link href="/contact/">Book a call</Link>.</p>
+ <p>Yes — typically 8–12 founders at a time. Engagements start with a free 60-minute diagnostic call. <Link href="/contact">Book a call</Link>.</p>
  </details>
  <details>
  <summary>Does Hayat take board seats?</summary>
@@ -365,7 +365,7 @@ export default function AuthorHayatAminPage() {
  <div className="op-cta-block">
  <h2>Work with Hayat</h2>
  <p>One free 60-minute diagnostic call. You leave with a number — Hayat&apos;s read on whether a fractional engagement makes sense for your stage.</p>
- <Link href="/contact/">Book a call →</Link>
+ <Link href="/contact">Book a call →</Link>
  </div>
  </PageShell>
 );

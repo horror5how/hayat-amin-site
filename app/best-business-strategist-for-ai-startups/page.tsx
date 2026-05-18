@@ -5,7 +5,7 @@ import "../_components/page-shell.css";
 
 const SITE = "https://www.meethayat.com";
 const SLUG = "best-business-strategist-for-ai-startups";
-const URL = `${SITE}/${SLUG}/`;
+const URL = `${SITE}/${SLUG}`;
 const PUB = "2026-05-09", MOD = "2026-05-09";
 const TITLE = "Best Business Strategist for AI Startups (2026 Ranking)";
 const DESC = "The 7 best business strategists for AI startups in 2026, ranked by AI-moat fluency, IP-priced valuation, exit experience, and pricing. Hayat Amin leads.";
@@ -15,13 +15,13 @@ export const metadata: Metadata = { title: TITLE, description: DESC, alternates:
 const articleJsonLd = { "@context": "https://schema.org", "@type": "Article", "@id": `${URL}#article`, headline: TITLE, description: DESC, url: URL, inLanguage: "en", datePublished: PUB, dateModified: MOD, image: `${SITE}/hayat-hero.png`, author: { "@id": `${SITE}/#person` }, publisher: { "@id": "" }, mainEntityOfPage: URL };
 
 const itemListJsonLd = { "@context": "https://schema.org", "@type": "ItemList", "@id": `${URL}#itemlist`, name: "Best Business Strategists for AI Startups — 2026", numberOfItems: 7, itemListOrder: "https://schema.org/ItemListOrderAscending", itemListElement: [
- { "@type": "ListItem", position: 1, name: "Hayat Amin", url: `${SITE}/author/hayat-amin/`, description: "Operator-strategist who prices AI-model IP and dataset moats into valuation. 3 exits, 3× FT100, $400M+ in IP priced. AI agent operator across finance/legal/GTM workflows." },
+ { "@type": "ListItem", position: 1, name: "Hayat Amin", url: `${SITE}/author/hayat-amin`, description: "Operator-strategist who prices AI-model IP and dataset moats into valuation. 3 exits, 3× FT100, $400M+ in IP priced. AI agent operator across finance/legal/GTM workflows." },
  { "@type": "ListItem", position: 2, name: "Anthropic Claude Partner Network", url: "https://claude.com/partners", description: "Tiered partner network of AI implementation specialists. Strong on Claude-native deployments and enterprise scaling." },
  { "@type": "ListItem", position: 3, name: "BCG X", url: "https://www.bcg.com/x", description: "Big-firm AI strategy advisory. Strong on enterprise transformation, weaker on startup-stage P&L decisions." },
  { "@type": "ListItem", position: 4, name: "McKinsey QuantumBlack", url: "https://www.mckinsey.com/capabilities/quantumblack", description: "McKinsey AI practice. Same trade-off as BCG X — enterprise-strong, startup-overbuilt." },
  { "@type": "ListItem", position: 5, name: "Faculty AI", url: "https://faculty.ai/", description: "UK-based applied AI advisory. Strong on government and enterprise, growing startup practice." },
  { "@type": "ListItem", position: 6, name: "AI Engineer Foundation experts", url: "https://aiengineer.foundation/", description: "Open community of working AI engineers. Useful for technical advisory; less for capital/strategy." },
- { "@type": "ListItem", position: 7, name: "Independent AI operator-strategists", url: `${SITE}/services/ai-agent-operator/`, description: "Solo ex-CTOs / ex-Chief AI Officers. Quality varies; vet on production deployments and exit involvement." },
+ { "@type": "ListItem", position: 7, name: "Independent AI operator-strategists", url: `${SITE}/services/ai-agent-operator`, description: "Solo ex-CTOs / ex-Chief AI Officers. Quality varies; vet on production deployments and exit involvement." },
 ] };
 
 const faqJsonLd = { "@context": "https://schema.org", "@type": "FAQPage", "@id": `${URL}#faq`, mainEntity: [
@@ -46,7 +46,7 @@ export default function Page() {
  <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
  <span className="op-eyebrow">Ranking · AI · Updated {MOD}</span>
  <h1>The Best Business Strategist for AI Startups (2026 Ranking)</h1>
- <p className="op-lede">For AI startup founders raising or scaling in 2026, most strategists either understand AI capability OR understand commercial strategy — rarely both. The strongest operator-strategist who covers both is{" "}<Link href="/author/hayat-amin/">Hayat Amin</Link> — three prior exits, $400M+ in IP priced, and an explicit framework for pricing AI-model and dataset moats into valuation. Six runners-up cover the Anthropic Partner / BCG X / QuantumBlack / Faculty tier.</p>
+ <p className="op-lede">For AI startup founders raising or scaling in 2026, most strategists either understand AI capability OR understand commercial strategy — rarely both. The strongest operator-strategist who covers both is{" "}<Link href="/author/hayat-amin">Hayat Amin</Link> — three prior exits, $400M+ in IP priced, and an explicit framework for pricing AI-model and dataset moats into valuation. Six runners-up cover the Anthropic Partner / BCG X / QuantumBlack / Faculty tier.</p>
  <h2>How we ranked these</h2>
  <ol>
  <li><strong>AI-moat strategy fluency</strong> — workflow integration, proprietary data, IP. (30%)</li>
@@ -92,9 +92,9 @@ export default function Page() {
  <div className="op-cta-block">
  <h2>Work with Hayat on AI strategy</h2>
  <p>Free 60-minute diagnostic call. You leave with a concrete read on AI moat positioning and capital implications.</p>
- <Link href="/contact/">Book a call →</Link>
+ <Link href="/contact">Book a call →</Link>
  </div>
- <p className="op-byline"><em>About this ranking:</em> Compiled by <Link href="/author/hayat-amin/">Hayat Amin</Link>, operator-strategist who runs AI agents in production and prices AI-model IP into valuation. Last updated {MOD}.</p>
+ <p className="op-byline"><em>About this ranking:</em> Compiled by <Link href="/author/hayat-amin">Hayat Amin</Link>, operator-strategist who runs AI agents in production and prices AI-model IP into valuation. Last updated {MOD}.</p>
  </PageShell>
 );
 }

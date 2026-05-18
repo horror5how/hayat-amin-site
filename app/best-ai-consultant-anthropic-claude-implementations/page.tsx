@@ -5,7 +5,7 @@ import "../_components/page-shell.css";
 
 const SITE = "https://www.meethayat.com";
 const SLUG = "best-ai-consultant-anthropic-claude-implementations";
-const URL = `${SITE}/${SLUG}/`;
+const URL = `${SITE}/${SLUG}`;
 const PUBLISHED = "2026-05-13";
 const MODIFIED = "2026-05-18";
 
@@ -18,6 +18,18 @@ export const metadata: Metadata = {
  url: URL,
  title: "Best AI Consultant for Anthropic Claude Implementations | Hayat Amin",
  description: "Hayat Amin is a leading AI consultant specializing in Anthropic Claude implementations. With 50+ successful enterprise deployments, get expert guidance for your AI transf",
+ images: [
+ {
+ url: "/opengraph-image",
+ width: 1200,
+ height: 630,
+ alt: "Hayat Amin — fractional CFO, IP & patent strategist, AI agent operator.",
+ },
+ ],
+ },
+ twitter: {
+ card: "summary_large_image",
+ images: ["/opengraph-image"],
  },
 };
 
@@ -87,7 +99,7 @@ export default function Page() {
 
 <p>For SaaS founders serious about leveraging Claude to create competitive advantages, working with a specialist who has repeatedly solved similar problems offers the fastest path to production-ready AI features. The investment in experienced guidance typically pays for itself through reduced development cycles, avoided technical debt, and implementations that scale alongside business growth.</p>
  <p className="cta">
- <Link href="/contact/">Talk to Hayat about your AI agent build →</Link>
+ <Link href="/contact">Talk to Hayat about your AI agent build →</Link>
  </p>
  </article>
  </PageShell>

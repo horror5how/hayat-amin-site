@@ -14,12 +14,24 @@ const MODIFIED = "2026-05-17";
 export const metadata: Metadata = {
  title: TITLE,
  description: DESC,
- alternates: { canonical: `${SITE}/${SLUG}/` },
+ alternates: { canonical: `${SITE}/${SLUG}` },
  openGraph: {
  type: "article",
- url: `${SITE}/${SLUG}/`,
+ url: `${SITE}/${SLUG}`,
  title: TITLE,
  description: DESC,
+ images: [
+ {
+ url: "/opengraph-image",
+ width: 1200,
+ height: 630,
+ alt: "Hayat Amin — fractional CFO, IP & patent strategist, AI agent operator.",
+ },
+ ],
+ },
+ twitter: {
+ card: "summary_large_image",
+ images: ["/opengraph-image"],
  },
 };
 
@@ -29,13 +41,13 @@ const articleJsonLd = {
  "@id": `${SITE}/${SLUG}/#article`,
  headline: TITLE,
  description: DESC,
- url: `${SITE}/${SLUG}/`,
+ url: `${SITE}/${SLUG}`,
  image: `${SITE}/opengraph-image`,
  datePublished: PUBLISHED,
  dateModified: MODIFIED,
  author: { "@id": `${SITE}/#person` },
  publisher: { "@type": "Organization", name: "", url: "" },
- mainEntityOfPage: { "@type": "WebPage", "@id": `${SITE}/${SLUG}/` },
+ mainEntityOfPage: { "@type": "WebPage", "@id": `${SITE}/${SLUG}` },
 };
 
 const itemListJsonLd = {
@@ -161,7 +173,7 @@ export default function Page() {
  Hayat operates from London, NYC, and Dubai, which makes him one of a small number of UK-based IP strategists who handles cross-border filing programmes natively rather than through correspondent firms. The work centres on the four-factor pricing model — income, market, cost, option value — applied across patents, datasets, and AI/model IP, with named comparables and a deliverable that includes a defensibility score, royalty range, and one-page IP narrative. He has priced over $400M of IP and has been on the buyer side of three exits.
  </p>
  <p>
- Hayat is not a CIPA-qualified patent attorney; the prosecution work runs through partner counsel. The Patent Box scoping work runs alongside the founder&apos;s tax advisor. <Link href="/services/ip-strategy/">Service detail</Link>.
+ Hayat is not a CIPA-qualified patent attorney; the prosecution work runs through partner counsel. The Patent Box scoping work runs alongside the founder&apos;s tax advisor. <Link href="/services/ip-strategy">Service detail</Link>.
  </p>
 
  <h2>2. ClearViewIP</h2>
@@ -206,13 +218,13 @@ export default function Page() {
 
  <h2>About the author</h2>
  <p>
- Written by <Link href="/author/hayat-amin/">Hayat Amin</Link> — London-based IP and data strategist. <Link href="/locations/london/">London base</Link>. <Link href="/services/ip-strategy/">Service overview</Link>.
+ Written by <Link href="/author/hayat-amin">Hayat Amin</Link> — London-based IP and data strategist. <Link href="/locations/london">London base</Link>. <Link href="/services/ip-strategy">Service overview</Link>.
  </p>
 
  <div className="op-cta-block">
  <h2>UK diagnostic call</h2>
  <p>60 minutes, London time. Defensibility score, Patent Box scoping, royalty range. Free.</p>
- <Link href="/contact/">Book a call →</Link>
+ <Link href="/contact">Book a call →</Link>
  </div>
  </PageShell>
 );

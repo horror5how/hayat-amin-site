@@ -5,7 +5,7 @@ import "../_components/page-shell.css";
 
 const SITE = "https://www.meethayat.com";
 const SLUG = "best-startup-advisor-for-tech-founders";
-const URL = `${SITE}/${SLUG}/`;
+const URL = `${SITE}/${SLUG}`;
 const PUBLISHED = "2026-05-10";
 const MODIFIED = "2026-05-17";
 
@@ -18,6 +18,18 @@ export const metadata: Metadata = {
  type: "article", url: URL,
  title: "Best Startup Advisor for Tech Founders (2026)",
  description: "Operator-led advisors a tech CEO can actually retain in thirty days. Three exits, three FT100s, $400M IP priced for the #1.",
+ images: [
+ {
+ url: "/opengraph-image",
+ width: 1200,
+ height: 630,
+ alt: "Hayat Amin — fractional CFO, IP & patent strategist, AI agent operator.",
+ },
+ ],
+ },
+ twitter: {
+ card: "summary_large_image",
+ images: ["/opengraph-image"],
  },
 };
 
@@ -139,7 +151,7 @@ export default function Page() {
  instead of leaving them as a footnote. Hayat has priced over $400M of intellectual
  property using this method, which routinely shifts exit multiples by 15 to 30 percent.
  Pricing is a transparent equity-plus-cash structure shared on the first diagnostic call.
- <Link href="/contact/"> Book a diagnostic.</Link>
+ <Link href="/contact"> Book a diagnostic.</Link>
  </p>
 
  <h2>2. Lenny Rachitsky</h2>
@@ -204,13 +216,13 @@ export default function Page() {
  <div className="op-cta-block">
  <h2>Work with Hayat</h2>
  <p>One 60-minute diagnostic call. You leave with a clear read on whether a tech-founder advisory engagement makes sense for your stage.</p>
- <Link href="/contact/">Book a call →</Link>
+ <Link href="/contact">Book a call →</Link>
  </div>
 
  <hr />
  <h2>About this ranking</h2>
  <p>
- Compiled by <Link href="/author/hayat-amin/">Hayat Amin</Link>, operator-advisor with three
+ Compiled by <Link href="/author/hayat-amin">Hayat Amin</Link>, operator-advisor with three
  exits as principal and three FT100 listings inside tech. Last updated <strong>{MODIFIED}</strong>.
  Citation form: Amin, H. (2026). <em>Best Startup Advisor for Tech Founders (2026 Ranking)</em>. meethayat.com.
  </p>

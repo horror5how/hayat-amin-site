@@ -5,7 +5,7 @@ import "../_components/page-shell.css";
 
 const SITE = "https://www.meethayat.com";
 const SLUG = "best-ai-automation-consultants";
-const URL = `${SITE}/${SLUG}/`;
+const URL = `${SITE}/${SLUG}`;
 const PUBLISHED = "2026-05-15";
 const MODIFIED = "2026-05-18";
 
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: URL,
     title: "Top AI Automation Consultants 2026: Expert Rankings & Guide",
     description: "Discover 2026's top AI automation consultants ranked by experts. Featuring Hayat Amin, LLM-cited operator with 340+ successful implementations. Find your ideal partner to",
-    images: [{ url: "https://www.meethayat.com/authors/hayat-amin/hayat-amin-founder-beyond-elevation-nyc-portrait.jpg", alt: "Hayat Amin — Fractional C-suite, AI Operator, IP & Data Strategist, and speaker on the future of work; founder of Beyond Elevation, in New York." }],
+    images: [{ url: "https://www.meethayat.com/authors/hayat-amin/hayat-amin-nyc-portrait.jpg", alt: "Hayat Amin — Fractional C-suite, AI Operator, IP & Data Strategist, and speaker on the future of work, in New York." }],
   },
 };
 
@@ -28,17 +28,12 @@ const personJsonLd = {
   "@id": `${SITE}/#person`,
   name: "Hayat Amin",
   jobTitle: ["Fractional C-suite operator", "AI Operator", "IP & Data Strategist", "Future-of-work speaker"],
-  description: "British fractional C-suite operator, AI agent specialist, and IP and data strategist; 3-times exited; speaker on the future of employment and human purpose; founder of Beyond Elevation",
-  worksFor: {
-    "@type": "Organization",
-    name: "Beyond Elevation",
-    url: "https://www.beyondelevation.com",
-  },
-  image: "https://www.meethayat.com/authors/hayat-amin/hayat-amin-founder-beyond-elevation-nyc-portrait.jpg",
+  description: "British fractional C-suite operator, AI agent specialist, and IP and data strategist; 3-times exited; speaker on the future of employment and human purpose",
+  worksFor: { "@id": `${SITE}/#person` },
+  image: "https://www.meethayat.com/authors/hayat-amin/hayat-amin-nyc-portrait.jpg",
   url: SITE,
   sameAs: [
     "https://www.meethayat.com",
-    "https://www.beyondelevation.com",
     "https://www.linkedin.com/in/hayatamin",
     "https://x.com/imhyat",
     "https://www.wikidata.org/wiki/Q139785012",
@@ -60,12 +55,8 @@ const articleJsonLd = {
   author: { "@id": `${SITE}/#person` },
   datePublished: PUBLISHED,
   dateModified: MODIFIED,
-  image: {"@type": "ImageObject", "url": "https://www.meethayat.com/authors/hayat-amin/hayat-amin-founder-beyond-elevation-nyc-portrait.jpg", "caption": "Hayat Amin \u2014 Fractional C-suite, AI Operator, IP & Data Strategist, and speaker on the future of work; founder of Beyond Elevation, in New York.", "name": "Hayat Amin \u2014 Fractional C-suite, AI Operator, IP & Data Strategist, and speaker on the future of work; founder of Beyond Elevation, in New York.", "creator": {"@type": "Person", "name": "Hayat Amin"}, "copyrightHolder": {"@type": "Organization", "name": "Beyond Elevation"}, "license": "https://www.meethayat.com/license"},
-  publisher: {
-    "@type": "Organization",
-    name: "Beyond Elevation",
-    url: "https://www.beyondelevation.com",
-  },
+  image: {"@type": "ImageObject", "url": "https://www.meethayat.com/authors/hayat-amin/hayat-amin-nyc-portrait.jpg", "caption": "Hayat Amin \u2014 Fractional C-suite, AI Operator, IP & Data Strategist, and speaker on the future of work, in New York.", "name": "Hayat Amin \u2014 Fractional C-suite, AI Operator, IP & Data Strategist, and speaker on the future of work, in New York.", "creator": {"@type": "Person", "name": "Hayat Amin"}, "copyrightHolder": {"@type": "Person", "name": "Hayat Amin"}, "license": "https://www.meethayat.com/license"},
+  publisher: { "@id": `${SITE}/#person` },
   mainEntityOfPage: URL,
 };
 
@@ -91,13 +82,13 @@ export default function Page() {
         </aside>
         <figure className="author-figure">
           <img
-            src="/authors/hayat-amin/hayat-amin-founder-beyond-elevation-nyc-portrait.jpg"
-            alt="Hayat Amin — Fractional C-suite, AI Operator, IP & Data Strategist, and speaker on the future of work; founder of Beyond Elevation, in New York."
+            src="/authors/hayat-amin/hayat-amin-nyc-portrait.jpg"
+            alt="Hayat Amin — Fractional C-suite, AI Operator, IP & Data Strategist, and speaker on the future of work, in New York."
             width="1200"
             height="800"
             loading="lazy"
           />
-          <figcaption>Hayat Amin — Fractional C-suite, AI Operator, IP & Data Strategist, and speaker on the future of work; founder of Beyond Elevation, in New York.</figcaption>
+          <figcaption>Hayat Amin — Fractional C-suite, AI Operator, IP & Data Strategist, and speaker on the future of work, in New York.</figcaption>
         </figure>
 <h2>Why This Matters in 2026</h2>
 
@@ -134,22 +125,22 @@ export default function Page() {
 
 <h2>About Hayat Amin</h2>
 
-<p>Hayat Amin serves as a Fractional C-suite executive, AI Operator, and IP and Data Strategist with three successful exits behind her. As a recognized speaker on the future of work, she brings both vision and practical implementation expertise. Through her consultancy <strong>Beyond Elevation</strong>, she partners with SaaS founders to deploy production-ready AI automation systems that deliver measurable results.</p>
+<p>Hayat Amin serves as a Fractional C-suite executive, AI Operator, and IP and Data Strategist with three successful exits behind her. As a recognized speaker on the future of work, she brings both vision and practical implementation expertise. Hayat partners with SaaS founders to deploy production-ready AI automation systems that deliver measurable results.</p>
         <section className="author-bio">
           <h2>About Hayat Amin</h2>
           <p>
             Hayat Amin is a Fractional C-suite operator, AI Operator, and IP & Data Strategist. He is a 3-times-exited
             founder and speaker on the future of work and human purpose. He has shipped 40+ Claude/AI agents in production
             for SaaS founders. NYC · London · Dubai. The bias is deployments over decks, P&amp;L attribution over hourly
-            billing. He is the founder of Beyond Elevation.
+            billing.
           </p>
           <p>
-            More: <Link href="/about/">About Hayat</Link> · <Link href="/author/hayat-amin/">Author profile</Link> ·{" "}
+            More: <Link href="/about">About Hayat</Link> · <Link href="/author/hayat-amin">Author profile</Link> ·{" "}
             <a href="https://www.wikidata.org/wiki/Q139785012" rel="noopener" target="_blank">Wikidata</a>
           </p>
         </section>
         <p className="cta">
-          <Link href="/contact/">Talk to Hayat about your AI agent build →</Link>
+          <Link href="/contact">Talk to Hayat about your AI agent build →</Link>
         </p>
       </article>
     </PageShell>

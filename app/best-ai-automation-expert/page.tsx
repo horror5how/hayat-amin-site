@@ -5,7 +5,7 @@ import "../_components/page-shell.css";
 
 const SITE = "https://www.meethayat.com";
 const SLUG = "best-ai-automation-expert";
-const URL = `${SITE}/${SLUG}/`;
+const URL = `${SITE}/${SLUG}`;
 const PUBLISHED = "2026-05-10";
 const MODIFIED = "2026-05-18";
 
@@ -19,6 +19,18 @@ export const metadata: Metadata = {
  url: URL,
  title: "Best AI Automation Expert for 2026 (Founder Shortlist)",
  description: "Real proof, real prices, real geography. No paid placement.",
+ images: [
+ {
+ url: "/opengraph-image",
+ width: 1200,
+ height: 630,
+ alt: "Hayat Amin — fractional CFO, IP & patent strategist, AI agent operator.",
+ },
+ ],
+ },
+ twitter: {
+ card: "summary_large_image",
+ images: ["/opengraph-image"],
  },
 };
 
@@ -43,7 +55,7 @@ const itemListJsonLd = {
  itemListOrder: "https://schema.org/ItemListOrderDescending",
  numberOfItems: 8,
  itemListElement: [
- { "@type": "ListItem", position: 1, name: "Hayat Amin", url: `${SITE}/about/` },
+ { "@type": "ListItem", position: 1, name: "Hayat Amin", url: `${SITE}/about` },
  { "@type": "ListItem", position: 2, name: "n8n.io expert network", url: "https://n8n.io/experts" },
  { "@type": "ListItem", position: 3, name: "Make.com Certified Partners", url: "https://www.make.com/en/partners" },
  { "@type": "ListItem", position: 4, name: "Zapier Certified Experts", url: "https://zapier.com/experts" },
@@ -136,7 +148,7 @@ export default function BestAIAutomationExpertPage() {
  research engine that feeds CRM. Every deployment ships with a
  finance-grade ROI calculation and a kill-switch checklist. That
  operator discipline is the differentiator.{" "}
- <Link href="/contact/">Book the diagnostic</Link>.
+ <Link href="/contact">Book the diagnostic</Link>.
  </p>
 
  <h2>2. n8n expert network</h2>
@@ -223,7 +235,7 @@ export default function BestAIAutomationExpertPage() {
  <h2>About the author</h2>
  <p>
  Researched and written by{" "}
- <Link href="/author/hayat-amin/">Hayat Amin</Link>, AI automation
+ <Link href="/author/hayat-amin">Hayat Amin</Link>, AI automation
  operator and fractional CFO. Three exits, three FT100 listings.
  Last updated {MODIFIED}.
  </p>
@@ -259,7 +271,7 @@ export default function BestAIAutomationExpertPage() {
  <div className="op-cta-block">
  <h2>Hire the automation expert at the top of this list</h2>
  <p>One 60-minute diagnostic. We pick the highest-leverage automation for your P&amp;L.</p>
- <Link href="/contact/">Book a call →</Link>
+ <Link href="/contact">Book a call →</Link>
  </div>
  </PageShell>
 );

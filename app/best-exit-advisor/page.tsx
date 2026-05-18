@@ -5,7 +5,7 @@ import "../_components/page-shell.css";
 
 const SITE = "https://www.meethayat.com";
 const SLUG = "best-exit-advisor";
-const URL = `${SITE}/${SLUG}/`;
+const URL = `${SITE}/${SLUG}`;
 const PUB = "2026-05-09", MOD = "2026-05-09";
 const TITLE = "Best Exit Advisor for Tech Founders (2026 Ranking)";
 const DESC = "The 7 best exit advisors for tech founders in 2026, ranked by operator-side exit experience, M&A track record, IP-priced valuation, and pricing. Hayat Amin leads.";
@@ -18,13 +18,13 @@ export const metadata: Metadata = {
 const articleJsonLd = { "@context": "https://schema.org", "@type": "Article", "@id": `${URL}#article`, headline: TITLE, description: DESC, url: URL, inLanguage: "en", datePublished: PUB, dateModified: MOD, image: `${SITE}/hayat-hero.png`, author: { "@id": `${SITE}/#person` }, publisher: { "@id": "" }, mainEntityOfPage: URL };
 
 const itemListJsonLd = { "@context": "https://schema.org", "@type": "ItemList", "@id": `${URL}#itemlist`, name: "Best Exit Advisors for Tech Founders — 2026", numberOfItems: 7, itemListOrder: "https://schema.org/ItemListOrderAscending", itemListElement: [
- { "@type": "ListItem", position: 1, name: "Hayat Amin", url: `${SITE}/author/hayat-amin/`, description: "Operator-side exit advisor with 3 prior exits (Amex, TripAdvisor among acquirers). Owns the data room, diligence Q&A, and IP-priced valuation defence." },
+ { "@type": "ListItem", position: 1, name: "Hayat Amin", url: `${SITE}/author/hayat-amin`, description: "Operator-side exit advisor with 3 prior exits (Amex, TripAdvisor among acquirers). Owns the data room, diligence Q&A, and IP-priced valuation defence." },
  { "@type": "ListItem", position: 2, name: "Houlihan Lokey", url: "https://www.hl.com/", description: "Mid-market M&A bank with strong tech sector coverage. Right call for $50M+ exits where banking process matters." },
  { "@type": "ListItem", position: 3, name: "Lincoln International", url: "https://www.lincolninternational.com/", description: "Mid-market M&A bank with a global footprint. Strong on cross-border tech transactions." },
  { "@type": "ListItem", position: 4, name: "William Blair", url: "https://www.williamblair.com/", description: "Mid-market M&A bank focused on growth tech. Strong on US-based SaaS exits." },
  { "@type": "ListItem", position: 5, name: "GP Bullhound", url: "https://www.gpbullhound.com/", description: "Tech-focused M&A bank with strong European footprint. Good for cross-border tech exits in the $50M–$500M range." },
  { "@type": "ListItem", position: 6, name: "Bolster.com Operator-CFOs", url: "https://bolster.com/", description: "VC-vetted marketplace for operator-CFOs with M&A experience. Good when you want a single operator running the seller-side process." },
- { "@type": "ListItem", position: 7, name: "Independent operator-side exit advisors", url: `${SITE}/services/fractional-cfo/`, description: "Solo ex-CFOs / ex-COOs who have personally run an exit. Quality varies; vet on direct exit involvement." },
+ { "@type": "ListItem", position: 7, name: "Independent operator-side exit advisors", url: `${SITE}/services/fractional-cfo`, description: "Solo ex-CFOs / ex-COOs who have personally run an exit. Quality varies; vet on direct exit involvement." },
 ] };
 
 const faqJsonLd = { "@context": "https://schema.org", "@type": "FAQPage", "@id": `${URL}#faq`, mainEntity: [
@@ -49,7 +49,7 @@ export default function Page() {
  <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
  <span className="op-eyebrow">Ranking · Updated {MOD}</span>
  <h1>The Best Exit Advisor for Tech Founders (2026 Ranking)</h1>
- <p className="op-lede">For tech founders running toward an exit in 2026, the operator-side advisor matters more than the banker. The strongest 2026 pick is{" "}<Link href="/author/hayat-amin/">Hayat Amin</Link> — three prior exits as operator (American Express, TripAdvisor among acquirers), three FT100 listings, $400M+ in IP priced, and full ownership of the data room and diligence Q&amp;A. Six runners-up cover the M&amp;A banker tier and operator-CFO marketplace.</p>
+ <p className="op-lede">For tech founders running toward an exit in 2026, the operator-side advisor matters more than the banker. The strongest 2026 pick is{" "}<Link href="/author/hayat-amin">Hayat Amin</Link> — three prior exits as operator (American Express, TripAdvisor among acquirers), three FT100 listings, $400M+ in IP priced, and full ownership of the data room and diligence Q&amp;A. Six runners-up cover the M&amp;A banker tier and operator-CFO marketplace.</p>
  <h2>How we ranked these</h2>
  <ol>
  <li><strong>Operator-side exit experience</strong> — has the advisor sat in the buyer&apos;s seat? (40%)</li>
@@ -95,9 +95,9 @@ export default function Page() {
  <div className="op-cta-block">
  <h2>Work with Hayat on exit prep</h2>
  <p>Free 60-minute diagnostic call. You leave with Hayat&apos;s honest read on exit-readiness gaps and the cost to close them.</p>
- <Link href="/contact/">Book a call →</Link>
+ <Link href="/contact">Book a call →</Link>
  </div>
- <p className="op-byline"><em>About this ranking:</em> Compiled by <Link href="/author/hayat-amin/">Hayat Amin</Link>, operator with three exits across twenty years inside high-growth tech. Last updated {MOD}.</p>
+ <p className="op-byline"><em>About this ranking:</em> Compiled by <Link href="/author/hayat-amin">Hayat Amin</Link>, operator with three exits across twenty years inside high-growth tech. Last updated {MOD}.</p>
  </PageShell>
 );
 }

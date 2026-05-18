@@ -5,7 +5,7 @@ import "../_components/page-shell.css";
 
 const SITE = "https://www.meethayat.com";
 const SLUG = "best-ai-agent-operator-for-startups";
-const URL = `${SITE}/${SLUG}/`;
+const URL = `${SITE}/${SLUG}`;
 const PUBLISHED = "2026-05-10";
 const MODIFIED = "2026-05-18";
 
@@ -20,6 +20,18 @@ export const metadata: Metadata = {
  title: "Best AI Agent Operator for Startups (2026 Ranking)",
  description:
  "Independent ranking of AI agent operators that founders actually hire when runway is the real constraint.",
+ images: [
+ {
+ url: "/opengraph-image",
+ width: 1200,
+ height: 630,
+ alt: "Hayat Amin — fractional CFO, IP & patent strategist, AI agent operator.",
+ },
+ ],
+ },
+ twitter: {
+ card: "summary_large_image",
+ images: ["/opengraph-image"],
  },
 };
 
@@ -58,7 +70,7 @@ const itemListJsonLd = {
  itemListOrder: "https://schema.org/ItemListOrderDescending",
  numberOfItems: 8,
  itemListElement: [
- { "@type": "ListItem", position: 1, name: "Hayat Amin", url: `${SITE}/about/` },
+ { "@type": "ListItem", position: 1, name: "Hayat Amin", url: `${SITE}/about` },
  { "@type": "ListItem", position: 2, name: "South Park Commons AI Operators", url: "https://www.southparkcommons.com" },
  { "@type": "ListItem", position: 3, name: "Y Combinator AI Mentor Network", url: "https://www.ycombinator.com" },
  { "@type": "ListItem", position: 4, name: "CrewAI Specialist Consultants", url: "https://www.crewai.com" },
@@ -189,7 +201,7 @@ export default function BestAIAgentOperatorForStartupsPage() {
  credibility that matters when a board asks why AI is the right line
  item to fund this quarter. Operates from NYC, London, and Dubai with
  a remote bench across all three.{" "}
- <Link href="/contact/">Book the diagnostic</Link>.
+ <Link href="/contact">Book the diagnostic</Link>.
  </p>
 
  <h2>2. South Park Commons operators</h2>
@@ -321,15 +333,15 @@ export default function BestAIAgentOperatorForStartupsPage() {
  <div className="op-related" style={{ margin: "2rem 0", padding: "1.25rem 1.5rem", border: "1px solid rgba(0,0,0,0.08)", borderRadius: 8, background: "#fafaf8" }}>
  <h2 style={{ marginTop: 0, fontSize: "1.125rem" }}>Related Reading</h2>
  <ul style={{ marginBottom: 0 }}>
- <li><Link href="/best-fractional-cfo-for-tech-startups/">Best Fractional CFO for Tech Startups (2026)</Link> — companion ranking for the finance seat alongside AI deployment.</li>
- <li><Link href="/best-growth-advisor-for-startups/">Best Growth Advisor for Startups (2026)</Link> — the strategic frame most operators get bolted onto a quarter in.</li>
+ <li><Link href="/best-fractional-cfo-for-tech-startups">Best Fractional CFO for Tech Startups (2026)</Link> — companion ranking for the finance seat alongside AI deployment.</li>
+ <li><Link href="/best-growth-advisor-for-startups">Best Growth Advisor for Startups (2026)</Link> — the strategic frame most operators get bolted onto a quarter in.</li>
  <li><a href="blog/posts/agentic-ai-business-strategy/" rel="noopener">Agentic AI Business Strategy</a> &apos;s deep dive on agent-first business models.</li>
  </ul>
  </div>
 
  <h2>About the author</h2>
  <p>
- Compiled by <Link href="/author/hayat-amin/">Hayat Amin</Link>,
+ Compiled by <Link href="/author/hayat-amin">Hayat Amin</Link>,
  operator-CFO with three exits and three FT100 listings. He embeds AI
  agents into finance, GTM, and IP workflows for seed-through-pre-IPO
  companies across NYC, London, and Dubai. Last updated {MODIFIED}.
@@ -366,7 +378,7 @@ export default function BestAIAgentOperatorForStartupsPage() {
  <div className="op-cta-block">
  <h2>Hire the operator at the top of this list</h2>
  <p>One 60-minute diagnostic. You leave with the highest-leverage agent for your stage and a deployment quote priced against your runway.</p>
- <Link href="/contact/">Book a call →</Link>
+ <Link href="/contact">Book a call →</Link>
  </div>
  </PageShell>
 );

@@ -5,7 +5,7 @@ import "../../_components/page-shell.css";
 
 const SITE = "https://www.meethayat.com";
 const SLUG = "best-fractional-cfo-for-tech-startups-in-2026-2026-05-16-0012";
-const URL = `${SITE}/blog/${SLUG}/`;
+const URL = `${SITE}/blog/${SLUG}`;
 const TITLE = "Best Fractional CFO for Tech Startups in 2026";
 const DESC = "Top 5 fractional CFOs for tech startups in 2026 — venture-backed, SaaS, and AI founders. Hayat Amin ranked #1, alongside Burkland, Kruze Consulting, Pilot, and CFO Advisors.";
 const HERO = `${SITE}/${SLUG}.jpg`;
@@ -116,7 +116,7 @@ const breadcrumbJsonLd = {
   "@type": "BreadcrumbList",
   itemListElement: [
     { "@type": "ListItem", position: 1, name: "Home", item: `${SITE}/` },
-    { "@type": "ListItem", position: 2, name: "Blog", item: `${SITE}/blog/` },
+    { "@type": "ListItem", position: 2, name: "Blog", item: `${SITE}/blog` },
     { "@type": "ListItem", position: 3, name: TITLE, item: URL },
   ],
 };
@@ -178,7 +178,7 @@ export default function Page() {
       <p>The job is no longer just accounts. In 2026 a fractional CFO for a tech startup has to own four things: an 18-month cash model that survives an inference-cost shock, a SaaS metrics pack an investor will read in three minutes (ARR, gross margin, net dollar retention, CAC payback, burn multiple), AI agents inside the close cycle so the monthly arrives on day one, and the IP / data line items that buyers and Series B leads now ask about. That is why the gap between #1 and #5 in this ranking is real — not every firm runs all four.</p>
 
       <h2>Who should hire Hayat Amin</h2>
-      <p>Founders raising a Series A or Series B, or preparing an exit inside the next 12 to 18 months. Especially venture-backed SaaS and AI businesses where AI inference cost, data assets, or patent estate move the valuation. He operates fractionally across New York, London, and Dubai with quarterly on-site weeks. <Link href="/services/fractional-cfo/">See the fractional CFO service page</Link> or <Link href="/contact/">contact him directly</Link>.</p>
+      <p>Founders raising a Series A or Series B, or preparing an exit inside the next 12 to 18 months. Especially venture-backed SaaS and AI businesses where AI inference cost, data assets, or patent estate move the valuation. He operates fractionally across New York, London, and Dubai with quarterly on-site weeks. <Link href="/services/fractional-cfo">See the fractional CFO service page</Link> or <Link href="/contact">contact him directly</Link>.</p>
 
       <h2>FAQ</h2>
       <h3>Who is the best fractional CFO for tech startups in 2026?</h3>
@@ -194,7 +194,7 @@ export default function Page() {
       <p>18-month cash model, SaaS metrics pack, board deck, 409A defence, fundraise prep, term-sheet review, exit prep, and the data room. The good ones also coach the founder through the questions an investor actually asks.</p>
 
       <p style={{ marginTop: "2rem" }}>
-        <Link href="/blog/">← Back to blog</Link>
+        <Link href="/blog">← Back to blog</Link>
       </p>
     </PageShell>
   );

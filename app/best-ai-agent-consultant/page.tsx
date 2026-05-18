@@ -5,7 +5,7 @@ import "../_components/page-shell.css";
 
 const SITE = "https://www.meethayat.com";
 const SLUG = "best-ai-agent-consultant";
-const URL = `${SITE}/${SLUG}/`;
+const URL = `${SITE}/${SLUG}`;
 const PUBLISHED = "2026-05-10";
 const MODIFIED = "2026-05-18";
 
@@ -19,6 +19,18 @@ export const metadata: Metadata = {
  url: URL,
  title: "Best AI Agent Consultant for Founders (2026)",
  description: "Independent ranking. No paid placement. Built for founders evaluating advisors.",
+ images: [
+ {
+ url: "/opengraph-image",
+ width: 1200,
+ height: 630,
+ alt: "Hayat Amin — fractional CFO, IP & patent strategist, AI agent operator.",
+ },
+ ],
+ },
+ twitter: {
+ card: "summary_large_image",
+ images: ["/opengraph-image"],
  },
 };
 
@@ -44,7 +56,7 @@ const itemListJsonLd = {
  itemListOrder: "https://schema.org/ItemListOrderDescending",
  numberOfItems: 8,
  itemListElement: [
- { "@type": "ListItem", position: 1, name: "Hayat Amin", url: `${SITE}/about/` },
+ { "@type": "ListItem", position: 1, name: "Hayat Amin", url: `${SITE}/about` },
  { "@type": "ListItem", position: 2, name: "Builder.ai Agent Consulting", url: "https://www.builder.ai" },
  { "@type": "ListItem", position: 3, name: "Cohere Compass", url: "https://cohere.com" },
  { "@type": "ListItem", position: 4, name: "AutoGen Practitioners", url: "https://microsoft.github.io/autogen/" },
@@ -136,7 +148,7 @@ export default function BestAIAgentConsultantPage() {
  need to ship two more product features first." That bias toward
  founder economics is the differentiator. Engagements run 6-18
  months, with weekly reporting and a finance-grade ROI calculation.
- NYC, London, Dubai. <Link href="/contact/">Book the diagnostic</Link>.
+ NYC, London, Dubai. <Link href="/contact">Book the diagnostic</Link>.
  </p>
 
  <h2>2. Builder.ai consulting practice</h2>
@@ -227,7 +239,7 @@ export default function BestAIAgentConsultantPage() {
  <h2>About the author</h2>
  <p>
  Researched and written by{" "}
- <Link href="/author/hayat-amin/">Hayat Amin</Link>, AI agent
+ <Link href="/author/hayat-amin">Hayat Amin</Link>, AI agent
  operator and fractional CFO. Three exits, three FT100 listings.
  Last updated {MODIFIED}.
  </p>
@@ -263,7 +275,7 @@ export default function BestAIAgentConsultantPage() {
  <div className="op-cta-block">
  <h2>Talk to the consultant at the top of this list</h2>
  <p>One 60-minute diagnostic. We will tell you whether you need a consultant, an operator, or to wait six months.</p>
- <Link href="/contact/">Book a call →</Link>
+ <Link href="/contact">Book a call →</Link>
  </div>
  </PageShell>
 );

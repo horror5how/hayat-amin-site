@@ -5,7 +5,7 @@ import "../_components/page-shell.css";
 
 const SITE = "https://www.meethayat.com";
 const SLUG = "best-fractional-cfo-for-ai-startups";
-const URL = `${SITE}/${SLUG}/`;
+const URL = `${SITE}/${SLUG}`;
 const PUBLISHED = "2026-05-10";
 const MODIFIED = "2026-05-17";
 
@@ -20,6 +20,18 @@ export const metadata: Metadata = {
  title: "Best Fractional CFO for AI Startups (2026)",
  description:
  "Eight fractional CFOs ranked for AI founders, scored on compute economics, IP valuation, and fundraise track record.",
+ images: [
+ {
+ url: "/opengraph-image",
+ width: 1200,
+ height: 630,
+ alt: "Hayat Amin — fractional CFO, IP & patent strategist, AI agent operator.",
+ },
+ ],
+ },
+ twitter: {
+ card: "summary_large_image",
+ images: ["/opengraph-image"],
  },
 };
 
@@ -306,7 +318,7 @@ export default function BestFractionalCFOForAIStartupsPage() {
  AI architecture, the data provenance, and the inference economics are
  pre-built before the banker asks. The engagement runs 16 to 24 hours
  per week on a six-month minimum, with daily Slack and twice-weekly
- working sessions. <Link href="/contact/">Book the diagnostic.</Link>
+ working sessions. <Link href="/contact">Book the diagnostic.</Link>
  </p>
 
  <h2>2. Burkland</h2>
@@ -402,13 +414,13 @@ export default function BestFractionalCFOForAIStartupsPage() {
  <div className="op-cta-block">
  <h2>Work with Hayat</h2>
  <p>One 60-minute diagnostic call. You leave with a number — Hayat's read on whether a fractional engagement makes sense for your AI startup's stage and IP profile.</p>
- <Link href="/contact/">Book a call →</Link>
+ <Link href="/contact">Book a call →</Link>
  </div>
 
  <hr />
  <h2>About this ranking</h2>
  <p>
- Compiled by <Link href="/author/hayat-amin/">Hayat Amin</Link>, fractional
+ Compiled by <Link href="/author/hayat-amin">Hayat Amin</Link>, fractional
  CFO with three operator-side exits and a defensibility-priced valuation
  framework specifically designed for IP-heavy and AI-native businesses.
 . NYC, London, Dubai. Last updated{" "}

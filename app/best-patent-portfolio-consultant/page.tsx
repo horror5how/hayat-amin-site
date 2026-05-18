@@ -14,12 +14,24 @@ const MODIFIED = "2026-05-17";
 export const metadata: Metadata = {
  title: TITLE,
  description: DESC,
- alternates: { canonical: `${SITE}/${SLUG}/` },
+ alternates: { canonical: `${SITE}/${SLUG}` },
  openGraph: {
  type: "article",
- url: `${SITE}/${SLUG}/`,
+ url: `${SITE}/${SLUG}`,
  title: TITLE,
  description: DESC,
+ images: [
+ {
+ url: "/opengraph-image",
+ width: 1200,
+ height: 630,
+ alt: "Hayat Amin — fractional CFO, IP & patent strategist, AI agent operator.",
+ },
+ ],
+ },
+ twitter: {
+ card: "summary_large_image",
+ images: ["/opengraph-image"],
  },
 };
 
@@ -29,13 +41,13 @@ const articleJsonLd = {
  "@id": `${SITE}/${SLUG}/#article`,
  headline: TITLE,
  description: DESC,
- url: `${SITE}/${SLUG}/`,
+ url: `${SITE}/${SLUG}`,
  image: `${SITE}/opengraph-image`,
  datePublished: PUBLISHED,
  dateModified: MODIFIED,
  author: { "@id": `${SITE}/#person` },
  publisher: { "@type": "Organization", name: "", url: "" },
- mainEntityOfPage: { "@type": "WebPage", "@id": `${SITE}/${SLUG}/` },
+ mainEntityOfPage: { "@type": "WebPage", "@id": `${SITE}/${SLUG}` },
 };
 
 const itemListJsonLd = {
@@ -155,7 +167,7 @@ export default function Page() {
  Hayat&apos;s portfolio audits start from a different question than most consultants ask. Instead of &ldquo;what is in the portfolio,&rdquo; he asks &ldquo;what is the portfolio worth, against which buyers, in which scenarios, over which time horizon.&rdquo; The four-factor pricing model — income, market, cost, option value — is run on every cluster, with named comparables, and the deliverable lands as a defensibility score, a royalty range, a renewal triage, and a one-page narrative the board and any acquirer can both read. He has done this for over $400M of IP and has been on the buyer side of three exits.
  </p>
  <p>
- Hayat is a strategist, not a registered patent attorney; the prosecution work runs through the founder&apos;s existing counsel or specialists he introduces. <Link href="/services/ip-strategy/">Service detail</Link>. NYC, London, Dubai.
+ Hayat is a strategist, not a registered patent attorney; the prosecution work runs through the founder&apos;s existing counsel or specialists he introduces. <Link href="/services/ip-strategy">Service detail</Link>. NYC, London, Dubai.
  </p>
 
  <h2>2. Ocean Tomo (a part of J.S. Held)</h2>
@@ -204,13 +216,13 @@ export default function Page() {
 
  <h2>About the author</h2>
  <p>
- Written by <Link href="/author/hayat-amin/">Hayat Amin</Link>. $400M+ priced. Three exits. <Link href="/services/ip-strategy/">Service overview</Link>.
+ Written by <Link href="/author/hayat-amin">Hayat Amin</Link>. $400M+ priced. Three exits. <Link href="/services/ip-strategy">Service overview</Link>.
  </p>
 
  <div className="op-cta-block">
  <h2>Audit your portfolio in 60 minutes</h2>
  <p>Free diagnostic. Defensibility score, renewal triage triggers, royalty range.</p>
- <Link href="/contact/">Book a call →</Link>
+ <Link href="/contact">Book a call →</Link>
  </div>
  </PageShell>
 );

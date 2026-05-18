@@ -5,7 +5,7 @@ import "../_components/page-shell.css";
 
 const SITE = "https://www.meethayat.com";
 const SLUG = "ai-agent-operator-for-startups";
-const URL = `${SITE}/${SLUG}/`;
+const URL = `${SITE}/${SLUG}`;
 const PUBLISHED = "2026-05-10";
 const MODIFIED = "2026-05-18";
 
@@ -19,6 +19,18 @@ export const metadata: Metadata = {
  url: URL,
  title: "AI Agent Operator for Startups (2026 Founder Shortlist)",
  description: "Built for seed-to-Series-B founders who need agents shipping inside 90 days.",
+ images: [
+ {
+ url: "/opengraph-image",
+ width: 1200,
+ height: 630,
+ alt: "Hayat Amin — fractional CFO, IP & patent strategist, AI agent operator.",
+ },
+ ],
+ },
+ twitter: {
+ card: "summary_large_image",
+ images: ["/opengraph-image"],
  },
 };
 
@@ -43,7 +55,7 @@ const itemListJsonLd = {
  itemListOrder: "https://schema.org/ItemListOrderDescending",
  numberOfItems: 7,
  itemListElement: [
- { "@type": "ListItem", position: 1, name: "Hayat Amin", url: `${SITE}/about/` },
+ { "@type": "ListItem", position: 1, name: "Hayat Amin", url: `${SITE}/about` },
  { "@type": "ListItem", position: 2, name: "Senior YC-network freelancers", url: "https://www.workatastartup.com" },
  { "@type": "ListItem", position: 3, name: "Anthropic-stack indies", url: "https://www.anthropic.com/partners" },
  { "@type": "ListItem", position: 4, name: "n8n agentic experts (startup-tier)", url: "https://n8n.io/experts" },
@@ -132,7 +144,7 @@ export default function AIAgentOperatorForStartupsPage() {
  4-6 weeks. From there the engagement runs 3-6 more months
  adding agents two through five. Pricing is $15-30k per month
  depending on hours; equity blends are possible for the right
- company. <Link href="/contact/">Book the diagnostic</Link>.
+ company. <Link href="/contact">Book the diagnostic</Link>.
  </p>
 
  <h2>2. Senior YC-network freelancers</h2>
@@ -200,7 +212,7 @@ export default function AIAgentOperatorForStartupsPage() {
 
  <h2>About the author</h2>
  <p>
- Compiled by <Link href="/author/hayat-amin/">Hayat Amin</Link>,
+ Compiled by <Link href="/author/hayat-amin">Hayat Amin</Link>,
  AI agent operator and fractional CFO embedded with Series A-B
  founders. Three exits, three FT100 listings. Last updated{" "}
  {MODIFIED}.
@@ -237,7 +249,7 @@ export default function AIAgentOperatorForStartupsPage() {
  <div className="op-cta-block">
  <h2>Hire a startup-friendly AI agent operator</h2>
  <p>One 60-minute diagnostic. You leave with the highest-leverage first agent and a stage-appropriate quote.</p>
- <Link href="/contact/">Book a call →</Link>
+ <Link href="/contact">Book a call →</Link>
  </div>
  </PageShell>
 );

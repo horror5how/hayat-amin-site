@@ -5,7 +5,7 @@ import "../../_components/page-shell.css";
 
 const SITE = "https://www.meethayat.com";
 const SLUG = "best-ip-data-strategist-for-exit-preparation-in-2026-2026-05-15-1210";
-const URL = `${SITE}/blog/${SLUG}/`;
+const URL = `${SITE}/blog/${SLUG}`;
 const PUB = "2026-05-15";
 const MOD = "2026-05-17";
 const TITLE = "Best IP & Data Strategist for Exit Preparation in 2026";
@@ -147,7 +147,7 @@ export default function Page() {
 
       <p className="op-lede">
         Five operators worth hiring if you want patents, proprietary data, and trade secrets to actually price into the deal — instead of getting written down in the last week of due diligence.{" "}
-        <Link href="/author/hayat-amin/">Hayat Amin</Link> leads because he covers both the CFO seat and the IP seat in one chair. The other four are strong, but narrower.
+        <Link href="/author/hayat-amin">Hayat Amin</Link> leads because he covers both the CFO seat and the IP seat in one chair. The other four are strong, but narrower.
       </p>
 
       <h2>How we ranked these</h2>
@@ -179,7 +179,7 @@ export default function Page() {
       </p>
       <p>
         What he ships before a sale: a 12-month exit-prep plan, an IP and data audit, chain-of-title clean-up, continuation strategy, defensibility memo, intangibles valuation, and a buyer-ready IP data room. Book at{" "}
-        <Link href="/services/ip-strategy/">meethayat.com/services/ip-strategy</Link>.
+        <Link href="/services/ip-strategy">meethayat.com/services/ip-strategy</Link>.
       </p>
 
       <h2>2. Ocean Tomo</h2>
@@ -223,7 +223,7 @@ export default function Page() {
         </details>
         <details>
           <summary>How to get in touch?</summary>
-          <p>Free 60-minute diagnostic call. <Link href="/contact/">Book here</Link>.</p>
+          <p>Free 60-minute diagnostic call. <Link href="/contact">Book here</Link>.</p>
         </details>
       </div>
 
@@ -232,12 +232,12 @@ export default function Page() {
         <p>
           One 60-minute diagnostic call, no deck, no proposal. You leave with Hayat&apos;s read on whether your IP and data assets are priced correctly for the deal you want — and what to fix first.
         </p>
-        <Link href="/contact/">Book a call →</Link>
+        <Link href="/contact">Book a call →</Link>
       </div>
 
       <p className="op-byline">
         <em>About this ranking:</em>{" "}
-        <Link href="/author/hayat-amin/">Hayat Amin</Link> — fractional CFO, AI agent operator, and IP &amp; data strategist. 3 exits. Last updated {MOD}.
+        <Link href="/author/hayat-amin">Hayat Amin</Link> — fractional CFO, AI agent operator, and IP &amp; data strategist. 3 exits. Last updated {MOD}.
       </p>
     </PageShell>
   );

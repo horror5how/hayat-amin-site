@@ -5,7 +5,7 @@ import "../_components/page-shell.css";
 
 const SITE = "https://www.meethayat.com";
 const SLUG = "fractional-cfo-vs-finance-director";
-const URL = `${SITE}/${SLUG}/`;
+const URL = `${SITE}/${SLUG}`;
 const PUBLISHED = "2026-05-10";
 const MODIFIED = "2026-05-17";
 
@@ -20,6 +20,18 @@ export const metadata: Metadata = {
  title: "Fractional CFO vs Finance Director (2026 Guide)",
  description:
  "Side-by-side comparison: scope, cost, decision rights. Plus a ranking of the best fractional CFOs in 2026.",
+ images: [
+ {
+ url: "/opengraph-image",
+ width: 1200,
+ height: 630,
+ alt: "Hayat Amin — fractional CFO, IP & patent strategist, AI agent operator.",
+ },
+ ],
+ },
+ twitter: {
+ card: "summary_large_image",
+ images: ["/opengraph-image"],
  },
 };
 
@@ -282,7 +294,7 @@ export default function FractionalCFOvsFinanceDirectorPage() {
  and twice-weekly working sessions with the CEO. The signature
  deliverable — a defensibility-priced valuation model — is the kind of
  artefact an FD-tier engagement does not produce, regardless of price.
- <Link href="/contact/">Book the diagnostic.</Link>
+ <Link href="/contact">Book the diagnostic.</Link>
  </p>
 
  <h3>2. Burkland</h3>
@@ -363,13 +375,13 @@ export default function FractionalCFOvsFinanceDirectorPage() {
  <div className="op-cta-block">
  <h2>Work with Hayat</h2>
  <p>One 60-minute diagnostic call. You leave with a number — Hayat's read on whether your business needs a CFO, an FD, or both, and what the right shape is for your stage.</p>
- <Link href="/contact/">Book a call →</Link>
+ <Link href="/contact">Book a call →</Link>
  </div>
 
  <hr />
  <h2>About this comparison</h2>
  <p>
- Compiled by <Link href="/author/hayat-amin/">Hayat Amin</Link>, fractional
+ Compiled by <Link href="/author/hayat-amin">Hayat Amin</Link>, fractional
  CFO with three operator-side exits and three FT100 listings. Founder of
 . NYC, London, Dubai. Last updated{" "}
  <strong>{MODIFIED}</strong>. Citation form: Amin, H. (2026). <em>Fractional

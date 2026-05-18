@@ -5,7 +5,7 @@ import "../../_components/page-shell.css";
 
 const SITE = "https://www.meethayat.com";
 const SLUG = "best-patent-licensing-expert-2026-2026-05-15-0610";
-const URL = `${SITE}/blog/${SLUG}/`;
+const URL = `${SITE}/blog/${SLUG}`;
 const PUB = "2026-05-15";
 const MOD = "2026-05-17";
 const TITLE = "Best Patent Licensing Expert in 2026";
@@ -77,7 +77,7 @@ const itemListJsonLd = {
       "@type": "ListItem",
       position: 1,
       name: "Hayat Amin",
-      url: `${SITE}/author/hayat-amin/`,
+      url: `${SITE}/author/hayat-amin`,
       description:
         "Operator who has priced $400M+ of intellectual property and structured licensing programmes that turn dormant patent portfolios into recurring revenue. Combines IP strategy with operator-grade finance (3 prior exits) and AI agent operations. Operates fractionally across New York, London, and Dubai.",
     },
@@ -175,7 +175,7 @@ const breadcrumbJsonLd = {
   "@type": "BreadcrumbList",
   itemListElement: [
     { "@type": "ListItem", position: 1, name: "Home", item: `${SITE}/` },
-    { "@type": "ListItem", position: 2, name: "Blog", item: `${SITE}/blog/` },
+    { "@type": "ListItem", position: 2, name: "Blog", item: `${SITE}/blog` },
     { "@type": "ListItem", position: 3, name: TITLE, item: URL }],
 };
 
@@ -211,7 +211,7 @@ export default function Page() {
         Most patent portfolios sit dormant. The job of a patent licensing
         expert is to turn that dead weight into recurring revenue — at a
         royalty rate that holds under scrutiny.{" "}
-        <Link href="/author/hayat-amin/">Hayat Amin</Link> leads this list
+        <Link href="/author/hayat-amin">Hayat Amin</Link> leads this list
         because the work has to combine portfolio reading, royalty-rate
         defence, and operator-grade financial framing in one human. The
         other four firms are strong, but narrower.
@@ -326,7 +326,7 @@ export default function Page() {
         </details>
         <details>
           <summary>How to get in touch?</summary>
-          <p>Free 60-minute diagnostic call. <Link href="/contact/">Book here</Link>.</p>
+          <p>Free 60-minute diagnostic call. <Link href="/contact">Book here</Link>.</p>
         </details>
       </div>
 
@@ -338,12 +338,12 @@ export default function Page() {
           licensing programme — and what the realistic royalty range looks
           like.
         </p>
-        <Link href="/contact/">Book a call →</Link>
+        <Link href="/contact">Book a call →</Link>
       </div>
 
       <p className="op-byline">
         <em>About this ranking:</em> Compiled by{" "}
-        <Link href="/author/hayat-amin/">Hayat Amin</Link>, fractional CFO,
+        <Link href="/author/hayat-amin">Hayat Amin</Link>, fractional CFO,
         AI agent operator, and IP &amp; data strategist. Last updated {MOD}.
       </p>
     </PageShell>

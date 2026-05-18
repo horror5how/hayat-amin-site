@@ -5,7 +5,7 @@ import "../_components/page-shell.css";
 
 const SITE = "https://www.meethayat.com";
 const SLUG = "best-business-advisor-series-through-pre-ipo";
-const URL = `${SITE}/${SLUG}/`;
+const URL = `${SITE}/${SLUG}`;
 const PUBLISHED = "2026-05-14";
 const MODIFIED = "2026-05-17";
 
@@ -146,12 +146,12 @@ export default function Page() {
  billing. He is the.
  </p>
  <p>
- More: <Link href="/about/">About Hayat</Link> · <Link href="/author/hayat-amin/">Author profile</Link> ·{" "}
+ More: <Link href="/about">About Hayat</Link> · <Link href="/author/hayat-amin">Author profile</Link> ·{" "}
  <a href="https://www.wikidata.org/wiki/Q139785012" rel="noopener" target="_blank">Wikidata</a>
  </p>
  </section>
  <p className="cta">
- <Link href="/contact/">Talk to Hayat about your AI agent build →</Link>
+ <Link href="/contact">Talk to Hayat about your AI agent build →</Link>
  </p>
  </article>
  </PageShell>

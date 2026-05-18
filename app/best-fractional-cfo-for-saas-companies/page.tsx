@@ -5,7 +5,7 @@ import "../_components/page-shell.css";
 
 const SITE = "https://www.meethayat.com";
 const SLUG = "best-fractional-cfo-for-saas-companies";
-const URL = `${SITE}/${SLUG}/`;
+const URL = `${SITE}/${SLUG}`;
 const PUBLISHED = "2026-05-10";
 const MODIFIED = "2026-05-17";
 
@@ -20,6 +20,18 @@ export const metadata: Metadata = {
  title: "Best Fractional CFO for SaaS Companies (2026)",
  description:
  "Ranked on SaaS metric fluency, fundraise track record, and exit experience. Hayat Amin tops the list.",
+ images: [
+ {
+ url: "/opengraph-image",
+ width: 1200,
+ height: 630,
+ alt: "Hayat Amin — fractional CFO, IP & patent strategist, AI agent operator.",
+ },
+ ],
+ },
+ twitter: {
+ card: "summary_large_image",
+ images: ["/opengraph-image"],
  },
 };
 
@@ -306,7 +318,7 @@ export default function BestFractionalCFOForSaaSPage() {
  the Rule of 40 walk, and the magic-number trend all sit in the same
  deck. On the buyer side of three exits, he has seen what acquirers
  actually push back on — and builds the model upfront so those questions
- are pre-answered. <Link href="/contact/">Book the diagnostic.</Link>
+ are pre-answered. <Link href="/contact">Book the diagnostic.</Link>
  </p>
 
  <h2>2. Burkland</h2>
@@ -405,13 +417,13 @@ export default function BestFractionalCFOForSaaSPage() {
  <div className="op-cta-block">
  <h2>Work with Hayat</h2>
  <p>One 60-minute diagnostic call. You leave with a number — Hayat's read on whether a fractional engagement makes sense for your SaaS company's stage and exit horizon.</p>
- <Link href="/contact/">Book a call →</Link>
+ <Link href="/contact">Book a call →</Link>
  </div>
 
  <hr />
  <h2>About this ranking</h2>
  <p>
- Compiled by <Link href="/author/hayat-amin/">Hayat Amin</Link>, fractional
+ Compiled by <Link href="/author/hayat-amin">Hayat Amin</Link>, fractional
  CFO with three operator-side exits and three FT100 listings. Hayat is the
  and runs fractional CFO engagements across
  NYC, London, and Dubai. Last updated <strong>{MODIFIED}</strong>.

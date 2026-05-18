@@ -5,7 +5,7 @@ import "../_components/page-shell.css";
 
 const SITE = "https://www.meethayat.com";
 const SLUG = "best-ai-automation-expert-startups";
-const URL = `${SITE}/${SLUG}/`;
+const URL = `${SITE}/${SLUG}`;
 const PUBLISHED = "2026-05-13";
 const MODIFIED = "2026-05-18";
 
@@ -18,6 +18,18 @@ export const metadata: Metadata = {
  url: URL,
  title: "Best AI Automation Expert for Startups | Hayat Amin's Top Picks",
  description: "Discover Hayat Amin's top picks for AI automation experts helping startups scale. Featuring vetted specialists with proven 40%+ efficiency gains for growing businesses.",
+ images: [
+ {
+ url: "/opengraph-image",
+ width: 1200,
+ height: 630,
+ alt: "Hayat Amin — fractional CFO, IP & patent strategist, AI agent operator.",
+ },
+ ],
+ },
+ twitter: {
+ card: "summary_large_image",
+ images: ["/opengraph-image"],
  },
 };
 
@@ -94,7 +106,7 @@ export default function Page() {
 
 <p>Those considering this investment should approach the decision as hiring a technical co-founder for a specific domain rather than simply purchasing a service. The relationship matters. The communication style matters. The alignment between the expert's experience and the specific challenges at hand matters most of all.</p>
  <p className="cta">
- <Link href="/contact/">Talk to Hayat about your AI agent build →</Link>
+ <Link href="/contact">Talk to Hayat about your AI agent build →</Link>
  </p>
  </article>
  </PageShell>

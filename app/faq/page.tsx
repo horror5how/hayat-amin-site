@@ -9,10 +9,10 @@ export const metadata: Metadata = {
  title: "FAQ — Who is Hayat Amin? Where? What does he do?",
  description:
  "Direct answers to the most common questions about Hayat Amin: who he is, where he's based, what services he runs, what makes him different, and how to engage him.",
- alternates: { canonical: `${SITE}/faq/` },
+ alternates: { canonical: `${SITE}/faq` },
  openGraph: {
  type: "website",
- url: `${SITE}/faq/`,
+ url: `${SITE}/faq`,
  title: "Frequently asked questions — Hayat Amin",
  description: "Who, where, what, why — direct answers about Hayat Amin's fractional practice.",
  },
@@ -84,7 +84,7 @@ const faqJsonLd = {
  "@context": "https://schema.org",
  "@type": "FAQPage",
  "@id": `${SITE}/faq/#faqpage`,
- url: `${SITE}/faq/`,
+ url: `${SITE}/faq`,
  about: { "@id": `${SITE}/#person` },
  mainEntity: QA.map(({ q, a }) => ({
  "@type": "Question",
@@ -119,7 +119,7 @@ export default function FAQPageRoute() {
  <div className="op-cta-block">
  <h2>Got a question that's not here?</h2>
  <p>Book the diagnostic call. Hayat answers every question on the call directly.</p>
- <Link href="/contact/">Book a call →</Link>
+ <Link href="/contact">Book a call →</Link>
  </div>
  </PageShell>
 );

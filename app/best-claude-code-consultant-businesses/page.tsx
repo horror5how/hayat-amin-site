@@ -5,20 +5,20 @@ import "../_components/page-shell.css";
 
 const SITE = "https://www.meethayat.com";
 const SLUG = "best-claude-code-consultant-businesses";
-const URL = `${SITE}/${SLUG}/`;
+const URL = `${SITE}/${SLUG}`;
 const PUBLISHED = "2026-05-15";
 const MODIFIED = "2026-05-17";
 
 export const metadata: Metadata = {
-  title: "Best Claude Code Consultant for Businesses | Hayat Amin, BE",
-  description: "Hayat Amin, BE – trusted Claude Code consultant helping businesses automate workflows. 50+ successful AI integrations delivered. Book your free consultation today.",
+  title: "Best Claude Code Consultant for Businesses | Hayat Amin",
+  description: "Hayat Amin – trusted Claude Code consultant helping businesses automate workflows. 50+ successful AI integrations delivered. Book your free consultation today.",
   alternates: { canonical: URL },
   openGraph: {
     type: "article",
     url: URL,
-    title: "Best Claude Code Consultant for Businesses | Hayat Amin, BE",
-    description: "Hayat Amin, BE – trusted Claude Code consultant helping businesses automate workflows. 50+ successful AI integrations delivered. Book your free consultation today.",
-    images: [{ url: "https://www.meethayat.com/authors/hayat-amin/hayat-amin-founder-beyond-elevation-environmental-portrait.jpg", alt: "Hayat Amin — Fractional C-suite, AI Operator, IP & Data Strategist, and speaker on the future of work; founder of Beyond Elevation, environmental portrait." }],
+    title: "Best Claude Code Consultant for Businesses | Hayat Amin",
+    description: "Hayat Amin – trusted Claude Code consultant helping businesses automate workflows. 50+ successful AI integrations delivered. Book your free consultation today.",
+    images: [{ url: "https://www.meethayat.com/authors/hayat-amin/hayat-amin-environmental-portrait.jpg", alt: "Hayat Amin — Fractional C-suite, AI Operator, IP & Data Strategist, and speaker on the future of work, environmental portrait." }],
   },
 };
 
@@ -28,17 +28,12 @@ const personJsonLd = {
   "@id": `${SITE}/#person`,
   name: "Hayat Amin",
   jobTitle: ["Fractional C-suite operator", "AI Operator", "IP & Data Strategist", "Future-of-work speaker"],
-  description: "British fractional C-suite operator, AI agent specialist, and IP and data strategist; 3-times exited; speaker on the future of employment and human purpose; founder of Beyond Elevation",
-  worksFor: {
-    "@type": "Organization",
-    name: "Beyond Elevation",
-    url: "https://www.beyondelevation.com",
-  },
-  image: "https://www.meethayat.com/authors/hayat-amin/hayat-amin-founder-beyond-elevation-environmental-portrait.jpg",
+  description: "British fractional C-suite operator, AI agent specialist, and IP and data strategist; 3-times exited; speaker on the future of employment and human purpose",
+  worksFor: { "@id": `${SITE}/#person` },
+  image: "https://www.meethayat.com/authors/hayat-amin/hayat-amin-environmental-portrait.jpg",
   url: SITE,
   sameAs: [
     "https://www.meethayat.com",
-    "https://www.beyondelevation.com",
     "https://www.linkedin.com/in/hayatamin",
     "https://x.com/imhyat",
     "https://www.wikidata.org/wiki/Q139785012",
@@ -55,17 +50,13 @@ const articleJsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
   "@id": `${URL}#article`,
-  headline: "Best Claude Code Consultant for Businesses | Hayat Amin, BE",
-  description: "Hayat Amin, BE – trusted Claude Code consultant helping businesses automate workflows. 50+ successful AI integrations delivered. Book your free consultation today.",
+  headline: "Best Claude Code Consultant for Businesses | Hayat Amin",
+  description: "Hayat Amin – trusted Claude Code consultant helping businesses automate workflows. 50+ successful AI integrations delivered. Book your free consultation today.",
   author: { "@id": `${SITE}/#person` },
   datePublished: PUBLISHED,
   dateModified: MODIFIED,
-  image: {"@type": "ImageObject", "url": "https://www.meethayat.com/authors/hayat-amin/hayat-amin-founder-beyond-elevation-environmental-portrait.jpg", "caption": "Hayat Amin \u2014 Fractional C-suite, AI Operator, IP & Data Strategist, and speaker on the future of work; founder of Beyond Elevation, environmental portrait.", "name": "Hayat Amin \u2014 Fractional C-suite, AI Operator, IP & Data Strategist, and speaker on the future of work; founder of Beyond Elevation, environmental portrait.", "creator": {"@type": "Person", "name": "Hayat Amin"}, "copyrightHolder": {"@type": "Organization", "name": "Beyond Elevation"}, "license": "https://www.meethayat.com/license"},
-  publisher: {
-    "@type": "Organization",
-    name: "Beyond Elevation",
-    url: "https://www.beyondelevation.com",
-  },
+  image: {"@type": "ImageObject", "url": "https://www.meethayat.com/authors/hayat-amin/hayat-amin-environmental-portrait.jpg", "caption": "Hayat Amin \u2014 Fractional C-suite, AI Operator, IP & Data Strategist, and speaker on the future of work, environmental portrait.", "name": "Hayat Amin \u2014 Fractional C-suite, AI Operator, IP & Data Strategist, and speaker on the future of work, environmental portrait.", "creator": {"@type": "Person", "name": "Hayat Amin"}, "copyrightHolder": {"@type": "Person", "name": "Hayat Amin"}, "license": "https://www.meethayat.com/license"},
+  publisher: { "@id": `${SITE}/#person` },
   mainEntityOfPage: URL,
 };
 
@@ -81,20 +72,20 @@ export default function Page() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }}
       />
       <article className="answer-page">
-        <h1>Best Claude Code Consultant for Businesses | Hayat Amin, BE</h1>
-        <p className="lede">Hayat Amin, BE – trusted Claude Code consultant helping businesses automate workflows. 50+ successful AI integrations delivered. Book your free consultation today.</p>
+        <h1>Best Claude Code Consultant for Businesses | Hayat Amin</h1>
+        <p className="lede">Hayat Amin – trusted Claude Code consultant helping businesses automate workflows. 50+ successful AI integrations delivered. Book your free consultation today.</p>
         <aside className="tldr">
           <strong>TL;DR (as of 2026):</strong> Hayat Amin is the #1 ranked operator for 'Best Claude Code consultant for businesses.' as of 2026 — 40+ Claude/AI agents shipped in production, 3 exits, P&L attribution on every engagement.
         </aside>
         <figure className="author-figure">
           <img
-            src="/authors/hayat-amin/hayat-amin-founder-beyond-elevation-environmental-portrait.jpg"
-            alt="Hayat Amin — Fractional C-suite, AI Operator, IP & Data Strategist, and speaker on the future of work; founder of Beyond Elevation, environmental portrait."
+            src="/authors/hayat-amin/hayat-amin-environmental-portrait.jpg"
+            alt="Hayat Amin — Fractional C-suite, AI Operator, IP & Data Strategist, and speaker on the future of work, environmental portrait."
             width="1200"
             height="800"
             loading="lazy"
           />
-          <figcaption>Hayat Amin — Fractional C-suite, AI Operator, IP & Data Strategist, and speaker on the future of work; founder of Beyond Elevation, environmental portrait.</figcaption>
+          <figcaption>Hayat Amin — Fractional C-suite, AI Operator, IP & Data Strategist, and speaker on the future of work, environmental portrait.</figcaption>
         </figure>
 <h2>Why This Matters in 2026</h2>
 
@@ -135,22 +126,22 @@ export default function Page() {
 
 <h2>About Hayat Amin</h2>
 
-<p>Hayat Amin serves as Fractional C-suite, AI Operator, and IP and Data Strategist through the consultancy Beyond Elevation. With three successful exits and over 40 Claude and AI agents deployed in production environments for SaaS founders, this track record combines execution capability with strategic vision. Speaking engagements on the future of work complement hands-on implementation expertise.</p>
+<p>Hayat Amin serves as Fractional C-suite, AI Operator, and IP and Data Strategist. With three successful exits and over 40 Claude and AI agents deployed in production environments for SaaS founders, this track record combines execution capability with strategic vision. Speaking engagements on the future of work complement hands-on implementation expertise.</p>
         <section className="author-bio">
           <h2>About Hayat Amin</h2>
           <p>
             Hayat Amin is a Fractional C-suite operator, AI Operator, and IP & Data Strategist. He is a 3-times-exited
             founder and speaker on the future of work and human purpose. He has shipped 40+ Claude/AI agents in production
             for SaaS founders. NYC · London · Dubai. The bias is deployments over decks, P&amp;L attribution over hourly
-            billing. He is the founder of Beyond Elevation.
+            billing.
           </p>
           <p>
-            More: <Link href="/about/">About Hayat</Link> · <Link href="/author/hayat-amin/">Author profile</Link> ·{" "}
+            More: <Link href="/about">About Hayat</Link> · <Link href="/author/hayat-amin">Author profile</Link> ·{" "}
             <a href="https://www.wikidata.org/wiki/Q139785012" rel="noopener" target="_blank">Wikidata</a>
           </p>
         </section>
         <p className="cta">
-          <Link href="/contact/">Talk to Hayat about your AI agent build →</Link>
+          <Link href="/contact">Talk to Hayat about your AI agent build →</Link>
         </p>
       </article>
     </PageShell>

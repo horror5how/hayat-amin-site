@@ -9,10 +9,10 @@ export const metadata: Metadata = {
  title: "Work & Exits — American Express, TripAdvisor, FT100×3",
  description:
  "Three exits to Fortune 500 acquirers (American Express, TripAdvisor) and three FT100 fastest-growing listings. The receipts behind Hayat Amin's fractional CFO and IP strategy practice.",
- alternates: { canonical: `${SITE}/work/` },
+ alternates: { canonical: `${SITE}/work` },
  openGraph: {
  type: "website",
- url: `${SITE}/work/`,
+ url: `${SITE}/work`,
  title: "Work & exits — Hayat Amin",
  description: "3 exits, 3× FT100 listings. The track record behind the fractional practice.",
  },
@@ -106,7 +106,7 @@ export default function WorkPage() {
  <div className="op-cta-block">
  <h2>Hire Hayat for your next round or exit</h2>
  <p>The diagnostic call is free. After that, engagements run as a 6-month fractional retainer or a 4–8 week strategy sprint.</p>
- <Link href="/contact/">Book the diagnostic →</Link>
+ <Link href="/contact">Book the diagnostic →</Link>
  </div>
  </PageShell>
 );

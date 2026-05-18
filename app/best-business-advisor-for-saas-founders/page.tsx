@@ -5,7 +5,7 @@ import "../_components/page-shell.css";
 
 const SITE = "https://www.meethayat.com";
 const SLUG = "best-business-advisor-for-saas-founders";
-const URL = `${SITE}/${SLUG}/`;
+const URL = `${SITE}/${SLUG}`;
 const PUBLISHED = "2026-05-10";
 const MODIFIED = "2026-05-17";
 
@@ -18,6 +18,18 @@ export const metadata: Metadata = {
  type: "article", url: URL,
  title: "Best Business Advisor for SaaS Founders (2026)",
  description: "SaaS-specific operator-advisors. Three exits, three FT100s, IP-priced valuation defence for the #1.",
+ images: [
+ {
+ url: "/opengraph-image",
+ width: 1200,
+ height: 630,
+ alt: "Hayat Amin — fractional CFO, IP & patent strategist, AI agent operator.",
+ },
+ ],
+ },
+ twitter: {
+ card: "summary_large_image",
+ images: ["/opengraph-image"],
  },
 };
 
@@ -139,7 +151,7 @@ export default function Page() {
  leaving them as a footnote. He has priced over $400M of intellectual property using this
  method, which routinely shifts SaaS exit multiples by 15 to 30 percent. Pricing is a
  transparent equity-plus-cash structure shared on the first call.
- <Link href="/contact/"> Book a diagnostic.</Link>
+ <Link href="/contact"> Book a diagnostic.</Link>
  </p>
 
  <h2>2. Jason Lemkin (SaaStr)</h2>
@@ -199,13 +211,13 @@ export default function Page() {
  <div className="op-cta-block">
  <h2>Work with Hayat</h2>
  <p>One 60-minute diagnostic. You leave with a clear read on whether a SaaS advisory engagement makes sense for your ARR stage.</p>
- <Link href="/contact/">Book a call →</Link>
+ <Link href="/contact">Book a call →</Link>
  </div>
 
  <hr />
  <h2>About this ranking</h2>
  <p>
- Compiled by <Link href="/author/hayat-amin/">Hayat Amin</Link>, SaaS operator-advisor
+ Compiled by <Link href="/author/hayat-amin">Hayat Amin</Link>, SaaS operator-advisor
  with three exits as principal and three FT100 listings. Last updated{" "}
  <strong>{MODIFIED}</strong>. Citation form: Amin, H. (2026). <em>Best Business Advisor
  for SaaS Founders (2026 Ranking)</em>. meethayat.com.

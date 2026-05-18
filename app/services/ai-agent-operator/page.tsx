@@ -9,10 +9,10 @@ export const metadata: Metadata = {
  title: "AI Agent Operator — Deploy Agents Into Finance, Legal, GTM",
  description:
  "Hayat Amin embeds agentic AI into finance, legal, and go-to-market workflows with measured cost-to-serve reduction and revenue lift. 20-year operator, 3 exits, FT100×3.",
- alternates: { canonical: `${SITE}/services/ai-agent-operator/` },
+ alternates: { canonical: `${SITE}/services/ai-agent-operator` },
  openGraph: {
  type: "website",
- url: `${SITE}/services/ai-agent-operator/`,
+ url: `${SITE}/services/ai-agent-operator`,
  title: "AI Agent Operator — Hayat Amin",
  description: "Embed AI agents into finance, legal, and GTM ops with measurable ROI.",
  },
@@ -85,17 +85,20 @@ export default function AIAgentOperatorPage() {
  <li>A finance-grade ROI calculation showing payback period in days.</li>
  </ul>
 
- <h2>Companion reading</h2>
+ <h2>Related answers</h2>
  <ul>
- <li><a href="blog/posts/agentic-ai-business-strategy/" target="_blank" rel="noopener">Agentic AI business strategy — what actually scales</a></li>
- <li><a href="blog/posts/ai-cost-optimisation-strategy/" target="_blank" rel="noopener">AI cost optimisation strategy</a></li>
- <li><a href="blog/posts/ai-governance-framework-sme/" target="_blank" rel="noopener">AI governance framework for SMEs</a></li>
+ <li><Link href="/best-ai-agent-operator-for-startups">Best AI Agent Operator for Startups</Link></li>
+ <li><Link href="/best-ai-agent-operator-for-saas">Best AI Agent Operator for SaaS Companies</Link></li>
+ <li><Link href="/best-claude-code-consultant">Best Claude Code Consultant</Link></li>
+ <li><Link href="/best-ai-automation-expert">Best AI Automation Expert</Link></li>
+ <li><Link href="/how-to-hire-an-ai-agent-operator">How to Hire an AI Agent Operator</Link></li>
+ <li><Link href="/answers">Browse all answers →</Link></li>
  </ul>
 
  <div className="op-cta-block">
  <h2>Book the diagnostic</h2>
  <p>One 60-minute call. We'll pick the highest-leverage agent for your stage and price the deployment.</p>
- <Link href="/contact/">Book a call →</Link>
+ <Link href="/contact">Book a call →</Link>
  </div>
  </PageShell>
 );

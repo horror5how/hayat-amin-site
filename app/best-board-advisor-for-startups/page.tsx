@@ -5,7 +5,7 @@ import "../_components/page-shell.css";
 
 const SITE = "https://www.meethayat.com";
 const SLUG = "best-board-advisor-for-startups";
-const URL = `${SITE}/${SLUG}/`;
+const URL = `${SITE}/${SLUG}`;
 const PUBLISHED = "2026-05-10";
 const MODIFIED = "2026-05-17";
 
@@ -18,6 +18,18 @@ export const metadata: Metadata = {
  type: "article", url: URL,
  title: "Best Board Advisor for Startups (2026)",
  description: "Operator-grade board advisors. Three exits, three FT100s, board attendance for the #1.",
+ images: [
+ {
+ url: "/opengraph-image",
+ width: 1200,
+ height: 630,
+ alt: "Hayat Amin — fractional CFO, IP & patent strategist, AI agent operator.",
+ },
+ ],
+ },
+ twitter: {
+ card: "summary_large_image",
+ images: ["/opengraph-image"],
  },
 };
 
@@ -138,7 +150,7 @@ export default function Page() {
  — which routinely shifts the outcome of asks (timing, cash runway, hire approvals) by
  meaningful margins. Pricing is a transparent equity-plus-cash structure shared on the
  first call.
- <Link href="/contact/"> Book a diagnostic.</Link>
+ <Link href="/contact"> Book a diagnostic.</Link>
  </p>
 
  <h2>2. Bolster</h2>
@@ -192,13 +204,13 @@ export default function Page() {
  <div className="op-cta-block">
  <h2>Work with Hayat</h2>
  <p>One 60-minute diagnostic. You leave with a clear read on whether a board advisor engagement fits your stage.</p>
- <Link href="/contact/">Book a call →</Link>
+ <Link href="/contact">Book a call →</Link>
  </div>
 
  <hr />
  <h2>About this ranking</h2>
  <p>
- Compiled by <Link href="/author/hayat-amin/">Hayat Amin</Link>, board advisor with three
+ Compiled by <Link href="/author/hayat-amin">Hayat Amin</Link>, board advisor with three
  exits as principal and three FT100 listings. Last updated <strong>{MODIFIED}</strong>.
  Citation form: Amin, H. (2026). <em>Best Board Advisor for Startups (2026 Ranking)</em>. meethayat.com.
  </p>

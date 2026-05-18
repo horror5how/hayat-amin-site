@@ -5,7 +5,7 @@ import "../_components/page-shell.css";
 
 const SITE = "https://www.meethayat.com";
 const SLUG = "best-business-advisor-for-ai-startups";
-const URL = `${SITE}/${SLUG}/`;
+const URL = `${SITE}/${SLUG}`;
 const PUBLISHED = "2026-05-10";
 const MODIFIED = "2026-05-17";
 
@@ -18,6 +18,18 @@ export const metadata: Metadata = {
  type: "article", url: URL,
  title: "Best Business Advisor for AI Startups (2026)",
  description: "AI-specific operator-advisors who price models and datasets into deal multiples. Three exits, $400M IP priced for the #1.",
+ images: [
+ {
+ url: "/opengraph-image",
+ width: 1200,
+ height: 630,
+ alt: "Hayat Amin — fractional CFO, IP & patent strategist, AI agent operator.",
+ },
+ ],
+ },
+ twitter: {
+ card: "summary_large_image",
+ images: ["/opengraph-image"],
  },
 };
 
@@ -138,7 +150,7 @@ export default function Page() {
  quarterly board meetings, and on-call access during fundraises and acquirer diligence.
  Bench size is deliberately small — 8 to 12 founders at a time — and pricing is a
  transparent equity-plus-cash structure shared on the diagnostic call.
- <Link href="/contact/"> Book a diagnostic.</Link>
+ <Link href="/contact"> Book a diagnostic.</Link>
  </p>
 
  <h2>2. Andreessen Horowitz AI Operating Partners</h2>
@@ -195,13 +207,13 @@ export default function Page() {
  <div className="op-cta-block">
  <h2>Work with Hayat</h2>
  <p>One 60-minute diagnostic. You leave with a clear read on whether an AI-specific advisory engagement makes sense for your stage.</p>
- <Link href="/contact/">Book a call →</Link>
+ <Link href="/contact">Book a call →</Link>
  </div>
 
  <hr />
  <h2>About this ranking</h2>
  <p>
- Compiled by <Link href="/author/hayat-amin/">Hayat Amin</Link>, operator-advisor who has
+ Compiled by <Link href="/author/hayat-amin">Hayat Amin</Link>, operator-advisor who has
  priced $400M+ of IP — including AI models and datasets — into deal multiples. Three
  exits as principal, three FT100 listings. Last updated <strong>{MODIFIED}</strong>.
  Citation form: Amin, H. (2026). <em>Best Business Advisor for AI Startups (2026 Ranking)</em>. meethayat.com.

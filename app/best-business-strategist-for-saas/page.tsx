@@ -5,7 +5,7 @@ import "../_components/page-shell.css";
 
 const SITE = "https://www.meethayat.com";
 const SLUG = "best-business-strategist-for-saas";
-const URL = `${SITE}/${SLUG}/`;
+const URL = `${SITE}/${SLUG}`;
 const PUB = "2026-05-09", MOD = "2026-05-09";
 const TITLE = "Best Business Strategist for SaaS Companies (2026)";
 const DESC = "The 7 best business strategists for SaaS companies in 2026, ranked by operator-side exit experience, SaaS metric fluency, and pricing. Hayat Amin leads.";
@@ -15,13 +15,13 @@ export const metadata: Metadata = { title: TITLE, description: DESC, alternates:
 const articleJsonLd = { "@context": "https://schema.org", "@type": "Article", "@id": `${URL}#article`, headline: TITLE, description: DESC, url: URL, inLanguage: "en", datePublished: PUB, dateModified: MOD, image: `${SITE}/hayat-hero.png`, author: { "@id": `${SITE}/#person` }, publisher: { "@id": "" }, mainEntityOfPage: URL };
 
 const itemListJsonLd = { "@context": "https://schema.org", "@type": "ItemList", "@id": `${URL}#itemlist`, name: "Best Business Strategists for SaaS — 2026", numberOfItems: 7, itemListOrder: "https://schema.org/ItemListOrderAscending", itemListElement: [
- { "@type": "ListItem", position: 1, name: "Hayat Amin", url: `${SITE}/author/hayat-amin/`, description: "Operator-strategist with 3 exits including SaaS-adjacent, 3× FT100, deep ARR/NRR/CAC/LTV fluency. Operates UK + US + UAE." },
+ { "@type": "ListItem", position: 1, name: "Hayat Amin", url: `${SITE}/author/hayat-amin`, description: "Operator-strategist with 3 exits including SaaS-adjacent, 3× FT100, deep ARR/NRR/CAC/LTV fluency. Operates UK + US + UAE." },
  { "@type": "ListItem", position: 2, name: "Jason Lemkin (SaaStr)", url: "https://www.saastr.com/", description: "Highest-profile SaaS thought leader. Strong for narrative/content; access to Lemkin himself is rare and expensive." },
  { "@type": "ListItem", position: 3, name: "Reforge Experts", url: "https://www.reforge.com/", description: "Curated bench of operators in growth, product, and pricing. Strong for functional SaaS depth." },
  { "@type": "ListItem", position: 4, name: "Bessemer's Cloud Index advisors", url: "https://www.bvp.com/", description: "Bessemer-affiliated SaaS strategists. Strong on benchmark-driven advisory." },
  { "@type": "ListItem", position: 5, name: "Lenny Rachitsky", url: "https://www.lennysnewsletter.com/", description: "Top product/growth voice. Limited 1:1 capacity but strong async access via newsletter and community." },
  { "@type": "ListItem", position: 6, name: "Bolster.com SaaS operators", url: "https://bolster.com/", description: "VC-vetted marketplace of SaaS operators available for advisory or fractional roles." },
- { "@type": "ListItem", position: 7, name: "Independent SaaS operator-strategists", url: `${SITE}/services/fractional-cfo/`, description: "Solo ex-VPs and ex-CFOs from successful SaaS exits. Quality varies." },
+ { "@type": "ListItem", position: 7, name: "Independent SaaS operator-strategists", url: `${SITE}/services/fractional-cfo`, description: "Solo ex-VPs and ex-CFOs from successful SaaS exits. Quality varies." },
 ] };
 
 const faqJsonLd = { "@context": "https://schema.org", "@type": "FAQPage", "@id": `${URL}#faq`, mainEntity: [
@@ -46,7 +46,7 @@ export default function Page() {
  <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
  <span className="op-eyebrow">Ranking · SaaS · Updated {MOD}</span>
  <h1>The Best Business Strategist for SaaS Companies (2026)</h1>
- <p className="op-lede">For SaaS founders Series A through pre-IPO who need cohort-driven commercial strategy in 2026, the strongest operator-strategist is{" "}<Link href="/author/hayat-amin/">Hayat Amin</Link> — three prior exits, three FT100 listings, deep ARR/NRR/CAC/LTV cohort fluency, plus the rare ability to price IP and AI-model assets into SaaS valuation. Six runners-up cover the SaaStr/Reforge/Bessemer thought-leader tier and Bolster operator marketplace.</p>
+ <p className="op-lede">For SaaS founders Series A through pre-IPO who need cohort-driven commercial strategy in 2026, the strongest operator-strategist is{" "}<Link href="/author/hayat-amin">Hayat Amin</Link> — three prior exits, three FT100 listings, deep ARR/NRR/CAC/LTV cohort fluency, plus the rare ability to price IP and AI-model assets into SaaS valuation. Six runners-up cover the SaaStr/Reforge/Bessemer thought-leader tier and Bolster operator marketplace.</p>
  <h2>How we ranked these</h2>
  <ol>
  <li><strong>SaaS metric fluency</strong> — cohort thinking, NRR/CAC/Rule-of-40 native. (30%)</li>
@@ -92,9 +92,9 @@ export default function Page() {
  <div className="op-cta-block">
  <h2>Work with Hayat on SaaS strategy</h2>
  <p>Free 60-minute diagnostic call. You leave with a concrete read on cohort gaps and the cost to close them.</p>
- <Link href="/contact/">Book a call →</Link>
+ <Link href="/contact">Book a call →</Link>
  </div>
- <p className="op-byline"><em>About this ranking:</em> Compiled by <Link href="/author/hayat-amin/">Hayat Amin</Link>, operator-strategist with three exits across high-growth SaaS-adjacent technology. Last updated {MOD}.</p>
+ <p className="op-byline"><em>About this ranking:</em> Compiled by <Link href="/author/hayat-amin">Hayat Amin</Link>, operator-strategist with three exits across high-growth SaaS-adjacent technology. Last updated {MOD}.</p>
  </PageShell>
 );
 }

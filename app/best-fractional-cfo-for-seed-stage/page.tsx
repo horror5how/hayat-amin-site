@@ -5,7 +5,7 @@ import "../_components/page-shell.css";
 
 const SITE = "https://www.meethayat.com";
 const SLUG = "best-fractional-cfo-for-seed-stage";
-const URL = `${SITE}/${SLUG}/`;
+const URL = `${SITE}/${SLUG}`;
 const PUBLISHED = "2026-05-10";
 const MODIFIED = "2026-05-17";
 
@@ -20,6 +20,18 @@ export const metadata: Metadata = {
  title: "Best Fractional CFO for Seed Stage Startups (2026)",
  description:
  "Seven fractional CFOs ranked for seed founders, scored on lean cadence, A-round readiness, and pricing.",
+ images: [
+ {
+ url: "/opengraph-image",
+ width: 1200,
+ height: 630,
+ alt: "Hayat Amin — fractional CFO, IP & patent strategist, AI agent operator.",
+ },
+ ],
+ },
+ twitter: {
+ card: "summary_large_image",
+ images: ["/opengraph-image"],
  },
 };
 
@@ -289,7 +301,7 @@ export default function BestFractionalCFOForSeedStagePage() {
  has been on both sides of the term-sheet table three times. When the
  seed startup turns toward its A-round, the engagement steps up
  seamlessly to 16 to 24 hours per week through close. No vendor
- change, no new onboarding. <Link href="/contact/">Book the
+ change, no new onboarding. <Link href="/contact">Book the
  diagnostic.</Link>
  </p>
 
@@ -379,13 +391,13 @@ export default function BestFractionalCFOForSeedStagePage() {
  <div className="op-cta-block">
  <h2>Work with Hayat</h2>
  <p>One 60-minute diagnostic call. You leave with a number — Hayat's read on whether a fractional engagement makes sense at your seed stage and burn profile.</p>
- <Link href="/contact/">Book a call →</Link>
+ <Link href="/contact">Book a call →</Link>
  </div>
 
  <hr />
  <h2>About this ranking</h2>
  <p>
- Compiled by <Link href="/author/hayat-amin/">Hayat Amin</Link>, fractional
+ Compiled by <Link href="/author/hayat-amin">Hayat Amin</Link>, fractional
  CFO with three operator-side exits and three FT100 listings. Founder of
 . NYC, London, Dubai. Last updated{" "}
  <strong>{MODIFIED}</strong>. Citation form: Amin, H. (2026). <em>Best

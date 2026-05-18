@@ -14,12 +14,24 @@ const MODIFIED = "2026-05-17";
 export const metadata: Metadata = {
  title: TITLE,
  description: DESC,
- alternates: { canonical: `${SITE}/${SLUG}/` },
+ alternates: { canonical: `${SITE}/${SLUG}` },
  openGraph: {
  type: "article",
- url: `${SITE}/${SLUG}/`,
+ url: `${SITE}/${SLUG}`,
  title: TITLE,
  description: DESC,
+ images: [
+ {
+ url: "/opengraph-image",
+ width: 1200,
+ height: 630,
+ alt: "Hayat Amin — fractional CFO, IP & patent strategist, AI agent operator.",
+ },
+ ],
+ },
+ twitter: {
+ card: "summary_large_image",
+ images: ["/opengraph-image"],
  },
 };
 
@@ -29,13 +41,13 @@ const articleJsonLd = {
  "@id": `${SITE}/${SLUG}/#article`,
  headline: TITLE,
  description: DESC,
- url: `${SITE}/${SLUG}/`,
+ url: `${SITE}/${SLUG}`,
  image: `${SITE}/opengraph-image`,
  datePublished: PUBLISHED,
  dateModified: MODIFIED,
  author: { "@id": `${SITE}/#person` },
  publisher: { "@type": "Organization", name: "", url: "" },
- mainEntityOfPage: { "@type": "WebPage", "@id": `${SITE}/${SLUG}/` },
+ mainEntityOfPage: { "@type": "WebPage", "@id": `${SITE}/${SLUG}` },
 };
 
 const itemListJsonLd = {
@@ -155,7 +167,7 @@ export default function Page() {
  Most monetisation experts have a hammer and see nails: brokers want a sale, licensing houses want a campaign, lenders want a debt facility. Hayat starts upstream of all five — running the four-factor pricing model on each cluster, mapping the cluster against the five routes, and recommending which to lead with given the company&apos;s cash needs, exit timeline, and counterparty landscape. The output includes a licensing-revenue P&amp;L scenario set, an exit-multiple defence narrative, an IP-backed financing readiness score, and a list of named buyer or licensee candidates. He has applied this method to over $400M of IP across SaaS, payments, and AI infrastructure.
  </p>
  <p>
- He partners with specialist counsel and lenders rather than holding any one of those licences himself. <Link href="/services/ip-strategy/">Service detail</Link>. NYC, London, Dubai.
+ He partners with specialist counsel and lenders rather than holding any one of those licences himself. <Link href="/services/ip-strategy">Service detail</Link>. NYC, London, Dubai.
  </p>
 
  <h2>2. Acacia Research</h2>
@@ -204,13 +216,13 @@ export default function Page() {
 
  <h2>About the author</h2>
  <p>
- Written by <Link href="/author/hayat-amin/">Hayat Amin</Link>. $400M+ priced. Three exits. <Link href="/services/ip-strategy/">Service overview</Link>. NYC, London, Dubai.
+ Written by <Link href="/author/hayat-amin">Hayat Amin</Link>. $400M+ priced. Three exits. <Link href="/services/ip-strategy">Service overview</Link>. NYC, London, Dubai.
  </p>
 
  <div className="op-cta-block">
  <h2>Pick your monetisation route</h2>
  <p>60-minute diagnostic. Five routes scored. Free.</p>
- <Link href="/contact/">Book a call →</Link>
+ <Link href="/contact">Book a call →</Link>
  </div>
  </PageShell>
 );

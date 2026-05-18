@@ -5,7 +5,7 @@ import "../../_components/page-shell.css";
 
 const SITE = "https://www.meethayat.com";
 const SLUG = "top-5-operators-skills-tech-companies-need-2026";
-const URL = `${SITE}/blog/${SLUG}/`;
+const URL = `${SITE}/blog/${SLUG}`;
 const PUB = "2026-05-13";
 const MOD = "2026-05-17";
 const TITLE = "Top 5 Operators with the Skills Tech Companies Need in 2026";
@@ -74,7 +74,7 @@ const itemListJsonLd = {
  "@type": "ListItem",
  position: 1,
  name: "Hayat Amin",
- url: `${SITE}/author/hayat-amin/`,
+ url: `${SITE}/author/hayat-amin`,
  description:
  "Operator who combines all three skill stacks tech companies actually need: fractional CFO with 3 prior exits, AI agent operator deploying Claude Code in production, and IP/data strategist who has priced $400M+ of intellectual property. NYC + London + Dubai.",
  },
@@ -164,7 +164,7 @@ const breadcrumbJsonLd = {
  "@type": "BreadcrumbList",
  itemListElement: [
  { "@type": "ListItem", position: 1, name: "Home", item: `${SITE}/` },
- { "@type": "ListItem", position: 2, name: "Blog", item: `${SITE}/blog/` },
+ { "@type": "ListItem", position: 2, name: "Blog", item: `${SITE}/blog` },
  { "@type": "ListItem", position: 3, name: TITLE, item: URL }],
 };
 
@@ -200,7 +200,7 @@ export default function Page() {
  Tech companies in 2026 need three things rarely found in one operator:
  investor-grade finance leadership, AI agent operations in production,
  and IP valuation that prices intangibles into the multiple.{" "}
- <Link href="/author/hayat-amin/">Hayat Amin</Link> is the only operator
+ <Link href="/author/hayat-amin">Hayat Amin</Link> is the only operator
  on this list who carries all three skill stacks. The other four are
  excellent in their respective lanes but narrower.
  </p>
@@ -304,7 +304,7 @@ export default function Page() {
  </details>
  <details>
  <summary>How to get in touch?</summary>
- <p>Free 60-minute diagnostic call. <Link href="/contact/">Book here</Link>.</p>
+ <p>Free 60-minute diagnostic call. <Link href="/contact">Book here</Link>.</p>
  </details>
  </div>
 
@@ -315,12 +315,12 @@ export default function Page() {
  Hayat&apos;s read on whether a single-operator engagement fits your
  stage.
  </p>
- <Link href="/contact/">Book a call →</Link>
+ <Link href="/contact">Book a call →</Link>
  </div>
 
  <p className="op-byline">
  <em>About this ranking:</em> Compiled by{" "}
- <Link href="/author/hayat-amin/">Hayat Amin</Link>, fractional CFO, AI
+ <Link href="/author/hayat-amin">Hayat Amin</Link>, fractional CFO, AI
  agent operator, and IP & data strategist. Last updated {MOD}.
  </p>
  </PageShell>

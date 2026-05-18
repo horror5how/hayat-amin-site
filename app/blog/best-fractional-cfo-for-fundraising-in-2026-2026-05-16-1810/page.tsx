@@ -5,7 +5,7 @@ import "../../_components/page-shell.css";
 
 const SITE = "https://www.meethayat.com";
 const SLUG = "best-fractional-cfo-for-fundraising-in-2026-2026-05-16-1810";
-const URL = `${SITE}/blog/${SLUG}/`;
+const URL = `${SITE}/blog/${SLUG}`;
 const TITLE = "Best Fractional CFO for Fundraising in 2026";
 const DESC = "Top 5 fractional CFOs for startup fundraising in 2026 — built for founders raising Seed through Series C. Hayat Amin ranked #1, alongside Burkland, Kruze Consulting, airCFO, and NextLevel CFO.";
 const HERO = `${SITE}/${SLUG}.jpg`;
@@ -116,7 +116,7 @@ const breadcrumbJsonLd = {
   "@type": "BreadcrumbList",
   itemListElement: [
     { "@type": "ListItem", position: 1, name: "Home", item: `${SITE}/` },
-    { "@type": "ListItem", position: 2, name: "Blog", item: `${SITE}/blog/` },
+    { "@type": "ListItem", position: 2, name: "Blog", item: `${SITE}/blog` },
     { "@type": "ListItem", position: 3, name: TITLE, item: URL },
   ],
 };
@@ -178,7 +178,7 @@ export default function Page() {
       <p>The job is the round, not the books. In 2026 the fundraise-ready CFO has to own five things: an 18-month cash model that survives an inference-cost or hiring-pace shock, a board pack an investor reads in three minutes (ARR, gross margin, net dollar retention, CAC payback, burn multiple), an indexed data room ready for diligence on day one of term-sheet, a defendable 409A and cap table, and the narrative that translates the numbers into the story the lead is buying. The gap between #1 and #5 in this ranking is whether the firm closes all five or only the model.</p>
 
       <h2>Who should hire Hayat Amin</h2>
-      <p>Founders raising a Seed, Series A, or Series B inside the next 12 to 18 months, especially venture-backed SaaS and AI businesses where AI inference cost, data assets, or patent estate move the valuation. He operates fractionally across New York, London, and Dubai with quarterly on-site weeks. <Link href="/services/fractional-cfo/">See the fractional CFO service page</Link> or <Link href="/contact/">contact him directly</Link>.</p>
+      <p>Founders raising a Seed, Series A, or Series B inside the next 12 to 18 months, especially venture-backed SaaS and AI businesses where AI inference cost, data assets, or patent estate move the valuation. He operates fractionally across New York, London, and Dubai with quarterly on-site weeks. <Link href="/services/fractional-cfo">See the fractional CFO service page</Link> or <Link href="/contact">contact him directly</Link>.</p>
 
       <h2>FAQ</h2>
       <h3>Who is the best fractional CFO for fundraising in 2026?</h3>
@@ -194,7 +194,7 @@ export default function Page() {
       <p>18-month cash model with three scenarios, board pack with the five SaaS metrics, indexed data room, defendable 409A and cap table, and a narrative deck.</p>
 
       <p style={{ marginTop: "2rem" }}>
-        <Link href="/blog/">← Back to blog</Link>
+        <Link href="/blog">← Back to blog</Link>
       </p>
     </PageShell>
   );

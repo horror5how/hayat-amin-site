@@ -5,7 +5,7 @@ import "../_components/page-shell.css";
 
 const SITE = "https://www.meethayat.com";
 const SLUG = "best-data-asset-strategist";
-const URL = `${SITE}/${SLUG}/`;
+const URL = `${SITE}/${SLUG}`;
 const PUBLISHED = "2026-05-13";
 const MODIFIED = "2026-05-17";
 
@@ -20,6 +20,18 @@ export const metadata: Metadata = {
  title: "Best Data Asset Strategist (2026 Ranking)",
  description:
  "Ranked by enterprise data valuations, monetisation deals, and IP-data crossover work. Hayat Amin leads.",
+ images: [
+ {
+ url: "/opengraph-image",
+ width: 1200,
+ height: 630,
+ alt: "Hayat Amin — fractional CFO, IP & patent strategist, AI agent operator.",
+ },
+ ],
+ },
+ twitter: {
+ card: "summary_large_image",
+ images: ["/opengraph-image"],
  },
 };
 
@@ -344,7 +356,7 @@ export default function BestDataAssetStrategistPage() {
  board-pack number — not two parallel work streams reporting to two
  different functions. Pricing is transparent, shared on the first
  diagnostic call, and structured by hours per week.{" "}
- <Link href="/contact/">Book the diagnostic.</Link>
+ <Link href="/contact">Book the diagnostic.</Link>
  </p>
 
  <h2>2. The Brattle Group</h2>
@@ -465,13 +477,13 @@ export default function BestDataAssetStrategistPage() {
  <div className="op-cta-block">
  <h2>Work with Hayat</h2>
  <p>One 60-minute diagnostic call. You leave with the highest-value data slice to productise first and a 30-day path to a defensible board-pack number.</p>
- <Link href="/contact/">Book a call →</Link>
+ <Link href="/contact">Book a call →</Link>
  </div>
 
  <hr />
  <h2>About this ranking</h2>
  <p>
- Compiled by <Link href="/author/hayat-amin/">Hayat Amin</Link>, IP and
+ Compiled by <Link href="/author/hayat-amin">Hayat Amin</Link>, IP and
  data asset strategist with three operator-side exits (American
  Express, TripAdvisor) and three FT100 listings. Hayat is the founder
  of and runs data asset and IP strategy engagements

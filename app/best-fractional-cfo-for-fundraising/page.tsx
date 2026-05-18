@@ -5,7 +5,7 @@ import "../_components/page-shell.css";
 
 const SITE = "https://www.meethayat.com";
 const SLUG = "best-fractional-cfo-for-fundraising";
-const URL = `${SITE}/${SLUG}/`;
+const URL = `${SITE}/${SLUG}`;
 const PUBLISHED = "2026-05-10";
 const MODIFIED = "2026-05-17";
 
@@ -20,6 +20,18 @@ export const metadata: Metadata = {
  title: "Best Fractional CFO for Fundraising (2026)",
  description:
  "Eight fractional CFOs ranked specifically for fundraise leadership. Hayat Amin tops the list.",
+ images: [
+ {
+ url: "/opengraph-image",
+ width: 1200,
+ height: 630,
+ alt: "Hayat Amin — fractional CFO, IP & patent strategist, AI agent operator.",
+ },
+ ],
+ },
+ twitter: {
+ card: "summary_large_image",
+ images: ["/opengraph-image"],
  },
 };
 
@@ -305,7 +317,7 @@ export default function BestFractionalCFOForFundraisingPage() {
  footnotes. For founders raising Series A through pre-IPO, this is
  usually 15 to 30 percent of pre-money. The engagement runs sprint-plus-retainer:
  a fixed-scope 90-day prep, then 16 to 24 hours per week through close.{" "}
- <Link href="/contact/">Book the diagnostic.</Link>
+ <Link href="/contact">Book the diagnostic.</Link>
  </p>
 
  <h2>2. Burkland</h2>
@@ -403,13 +415,13 @@ export default function BestFractionalCFOForFundraisingPage() {
  <div className="op-cta-block">
  <h2>Work with Hayat</h2>
  <p>One 60-minute diagnostic call. You leave with a number — Hayat's read on whether your round is ready to open and what the 90-day prep would look like.</p>
- <Link href="/contact/">Book a call →</Link>
+ <Link href="/contact">Book a call →</Link>
  </div>
 
  <hr />
  <h2>About this ranking</h2>
  <p>
- Compiled by <Link href="/author/hayat-amin/">Hayat Amin</Link>, fractional
+ Compiled by <Link href="/author/hayat-amin">Hayat Amin</Link>, fractional
  CFO with three operator-side exits, three FT100 listings, and a fundraise
  practice covering Series A through pre-IPO..
  NYC, London, Dubai. Last updated <strong>{MODIFIED}</strong>. Citation

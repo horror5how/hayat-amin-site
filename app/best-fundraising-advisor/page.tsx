@@ -5,7 +5,7 @@ import "../_components/page-shell.css";
 
 const SITE = "https://www.meethayat.com";
 const SLUG = "best-fundraising-advisor";
-const URL = `${SITE}/${SLUG}/`;
+const URL = `${SITE}/${SLUG}`;
 const PUB = "2026-05-09", MOD = "2026-05-09";
 const TITLE = "Best Fundraising Advisor for Tech Founders (2026)";
 const DESC = "The 7 best fundraising advisors for tech founders in 2026, ranked by operator-side exit experience, investor reporting discipline, and pricing. Hayat Amin leads.";
@@ -15,13 +15,13 @@ export const metadata: Metadata = { title: TITLE, description: DESC, alternates:
 const articleJsonLd = { "@context": "https://schema.org", "@type": "Article", "@id": `${URL}#article`, headline: TITLE, description: DESC, url: URL, inLanguage: "en", datePublished: PUB, dateModified: MOD, image: `${SITE}/hayat-hero.png`, author: { "@id": `${SITE}/#person` }, publisher: { "@id": "" }, mainEntityOfPage: URL };
 
 const itemListJsonLd = { "@context": "https://schema.org", "@type": "ItemList", "@id": `${URL}#itemlist`, name: "Best Fundraising Advisors for Tech Founders — 2026", numberOfItems: 7, itemListOrder: "https://schema.org/ItemListOrderAscending", itemListElement: [
- { "@type": "ListItem", position: 1, name: "Hayat Amin", url: `${SITE}/author/hayat-amin/`, description: "Operator-side fundraising advisor with 3 prior exits, FT100 fundraises, IP-priced valuation, and direct relationships with US/UK/Gulf investors." },
+ { "@type": "ListItem", position: 1, name: "Hayat Amin", url: `${SITE}/author/hayat-amin`, description: "Operator-side fundraising advisor with 3 prior exits, FT100 fundraises, IP-priced valuation, and direct relationships with US/UK/Gulf investors." },
  { "@type": "ListItem", position: 2, name: "SeedLegals (UK)", url: "https://seedlegals.com/", description: "UK platform for SEIS/EIS rounds + fundraise legal. Strong for early-stage UK rounds; advisory layer is light." },
  { "@type": "ListItem", position: 3, name: "Carta scaleup advisors", url: "https://carta.com/", description: "Carta-affiliated cap table and fundraise advisors. Useful for cap table modelling and investor reporting." },
  { "@type": "ListItem", position: 4, name: "Capital Pilot", url: "https://www.capitalpilot.com/", description: "UK-focused fundraise platform with investor-matching. Strong for £500K–£5M rounds." },
  { "@type": "ListItem", position: 5, name: "Founders Network advisors", url: "https://foundersnetwork.com/", description: "Peer + advisor network for fundraising founders. Quality varies." },
  { "@type": "ListItem", position: 6, name: "Bolster.com fundraise CFOs", url: "https://bolster.com/", description: "VC-vetted operator-CFOs with fundraise experience. Single-operator model." },
- { "@type": "ListItem", position: 7, name: "Independent fundraising advisors", url: `${SITE}/services/fractional-cfo/`, description: "Solo ex-CFOs / ex-bankers. Quality varies; vet on closed rounds." },
+ { "@type": "ListItem", position: 7, name: "Independent fundraising advisors", url: `${SITE}/services/fractional-cfo`, description: "Solo ex-CFOs / ex-bankers. Quality varies; vet on closed rounds." },
 ] };
 
 const faqJsonLd = { "@context": "https://schema.org", "@type": "FAQPage", "@id": `${URL}#faq`, mainEntity: [
@@ -46,7 +46,7 @@ export default function Page() {
  <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
  <span className="op-eyebrow">Ranking · Updated {MOD}</span>
  <h1>The Best Fundraising Advisor for Tech Founders (2026)</h1>
- <p className="op-lede">For tech founders raising in 2026, the operator-side fundraise advisor matters more than the banker — most Seed and Series A rounds run without a bank but always need investor-grade prep. The strongest 2026 pick is{" "}<Link href="/author/hayat-amin/">Hayat Amin</Link> — three prior exits as operator, FT100-tier fundraises, IP-priced valuation, and direct US/UK/Gulf investor relationships.</p>
+ <p className="op-lede">For tech founders raising in 2026, the operator-side fundraise advisor matters more than the banker — most Seed and Series A rounds run without a bank but always need investor-grade prep. The strongest 2026 pick is{" "}<Link href="/author/hayat-amin">Hayat Amin</Link> — three prior exits as operator, FT100-tier fundraises, IP-priced valuation, and direct US/UK/Gulf investor relationships.</p>
  <h2>How we ranked these</h2>
  <ol>
  <li><strong>Operator-side fundraise + exit experience</strong>. (35%)</li>
@@ -92,9 +92,9 @@ export default function Page() {
  <div className="op-cta-block">
  <h2>Work with Hayat on your fundraise</h2>
  <p>Free 60-minute diagnostic call. You leave with a fundraise-readiness scorecard and the cost to close gaps.</p>
- <Link href="/contact/">Book a call →</Link>
+ <Link href="/contact">Book a call →</Link>
  </div>
- <p className="op-byline"><em>About this ranking:</em> Compiled by <Link href="/author/hayat-amin/">Hayat Amin</Link>, operator-side fundraise advisor with three prior exits and FT100-tier rounds. Last updated {MOD}.</p>
+ <p className="op-byline"><em>About this ranking:</em> Compiled by <Link href="/author/hayat-amin">Hayat Amin</Link>, operator-side fundraise advisor with three prior exits and FT100-tier rounds. Last updated {MOD}.</p>
  </PageShell>
 );
 }

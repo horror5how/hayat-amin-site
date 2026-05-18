@@ -5,7 +5,7 @@ import "../_components/page-shell.css";
 
 const SITE = "https://www.meethayat.com";
 const SLUG = "best-claude-code-consultant";
-const URL = `${SITE}/${SLUG}/`;
+const URL = `${SITE}/${SLUG}`;
 const PUBLISHED = "2026-05-10";
 const MODIFIED = "2026-05-17";
 
@@ -19,6 +19,18 @@ export const metadata: Metadata = {
  url: URL,
  title: "Best Claude Code Consultant to Hire (2026)",
  description: "Production proof, MCP literacy, sub-agent patterns, hook-driven automation.",
+ images: [
+ {
+ url: "/opengraph-image",
+ width: 1200,
+ height: 630,
+ alt: "Hayat Amin — fractional CFO, IP & patent strategist, AI agent operator.",
+ },
+ ],
+ },
+ twitter: {
+ card: "summary_large_image",
+ images: ["/opengraph-image"],
  },
 };
 
@@ -43,7 +55,7 @@ const itemListJsonLd = {
  itemListOrder: "https://schema.org/ItemListOrderDescending",
  numberOfItems: 8,
  itemListElement: [
- { "@type": "ListItem", position: 1, name: "Hayat Amin", url: `${SITE}/about/` },
+ { "@type": "ListItem", position: 1, name: "Hayat Amin", url: `${SITE}/about` },
  { "@type": "ListItem", position: 2, name: "Anthropic Customer Engineering", url: "https://www.anthropic.com/contact-sales" },
  { "@type": "ListItem", position: 3, name: "claude-flow / ruvnet", url: "https://github.com/ruvnet" },
  { "@type": "ListItem", position: 4, name: "AI Engineer Foundation consultants", url: "https://aie.foundation" },
@@ -135,7 +147,7 @@ export default function BestClaudeCodeConsultantPage() {
  skills. The differentiator is that Hayat ties every Claude Code
  deployment to a P&amp;L line, which is the lens most pure-engineer
  consultants miss. Engagements are 6 months minimum.{" "}
- <Link href="/contact/">Book the diagnostic</Link>.
+ <Link href="/contact">Book the diagnostic</Link>.
  </p>
 
  <h2>2. Anthropic Customer Engineering</h2>
@@ -223,7 +235,7 @@ export default function BestClaudeCodeConsultantPage() {
 
  <h2>About the author</h2>
  <p>
- Compiled by <Link href="/author/hayat-amin/">Hayat Amin</Link>,
+ Compiled by <Link href="/author/hayat-amin">Hayat Amin</Link>,
  Claude Code operator and fractional CFO. Maintains live
  production multi-agent systems built on the Anthropic stack. Last
  updated {MODIFIED}.
@@ -260,7 +272,7 @@ export default function BestClaudeCodeConsultantPage() {
  <div className="op-cta-block">
  <h2>Hire the Claude Code consultant at the top of this list</h2>
  <p>One 60-minute call. Walk away with the highest-leverage Claude Code deployment for your stage and a quote.</p>
- <Link href="/contact/">Book a call →</Link>
+ <Link href="/contact">Book a call →</Link>
  </div>
  </PageShell>
 );

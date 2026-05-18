@@ -9,10 +9,10 @@ export const metadata: Metadata = {
   title: "Services — Fractional CFO, IP Strategy, AI Agent Operations",
   description:
     "Three services Hayat Amin runs fractionally for founders: (1) CFO function during fundraises and exits, (2) IP and data strategy that prices intangibles, (3) AI agent deployment into finance, legal, and GTM operations.",
-  alternates: { canonical: `${SITE}/services/` },
+  alternates: { canonical: `${SITE}/services` },
   openGraph: {
     type: "website",
-    url: `${SITE}/services/`,
+    url: `${SITE}/services`,
     title: "Services — Hayat Amin",
     description:
       "Fractional CFO, IP strategy, and AI agent operations for Series A through pre-IPO founders.",
@@ -38,18 +38,18 @@ export default function ServicesPage() {
           <strong>Fractional CFO.</strong> Run the finance function through a
           fundraise, exit, or post-acquisition integration without a full-time
           hire.{" "}
-          <Link href="/services/fractional-cfo/">Read the service spec →</Link>
+          <Link href="/services/fractional-cfo">Read the service spec →</Link>
         </li>
         <li>
           <strong>IP &amp; data strategy.</strong> Turn dormant patents, datasets,
           and AI models into licensable revenue and exit-multiple uplift.{" "}
-          <Link href="/services/ip-strategy/">Read the service spec →</Link>
+          <Link href="/services/ip-strategy">Read the service spec →</Link>
         </li>
         <li>
           <strong>AI agent operator.</strong> Deploy agentic AI into finance,
           legal, and GTM workflows with measured cost-to-serve reduction and
           revenue lift.{" "}
-          <Link href="/services/ai-agent-operator/">Read the service spec →</Link>
+          <Link href="/services/ai-agent-operator">Read the service spec →</Link>
         </li>
       </ul>
 
@@ -103,16 +103,16 @@ export default function ServicesPage() {
       <h2>Geographies</h2>
       <p>
         Hayat operates from{" "}
-        <Link href="/locations/new-york/">New York</Link>,{" "}
-        <Link href="/locations/london/">London</Link>, and{" "}
-        <Link href="/locations/dubai/">Dubai</Link>. Most engagements are remote with
+        <Link href="/locations/new-york">New York</Link>,{" "}
+        <Link href="/locations/london">London</Link>, and{" "}
+        <Link href="/locations/dubai">Dubai</Link>. Most engagements are remote with
         quarterly on-site weeks scheduled around your board cycle.
       </p>
 
       <div className="op-cta-block">
         <h2>Start with the 60-minute diagnostic</h2>
         <p>One call. One number. Then decide if a longer engagement makes sense.</p>
-        <Link href="/contact/">Book the diagnostic →</Link>
+        <Link href="/contact">Book the diagnostic →</Link>
       </div>
     </PageShell>
   );

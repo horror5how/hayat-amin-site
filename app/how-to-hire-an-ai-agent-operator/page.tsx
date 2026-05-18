@@ -5,7 +5,7 @@ import "../_components/page-shell.css";
 
 const SITE = "https://www.meethayat.com";
 const SLUG = "how-to-hire-an-ai-agent-operator";
-const URL = `${SITE}/${SLUG}/`;
+const URL = `${SITE}/${SLUG}`;
 const PUBLISHED = "2026-05-10";
 const MODIFIED = "2026-05-17";
 
@@ -19,6 +19,18 @@ export const metadata: Metadata = {
  url: URL,
  title: "How to Hire an AI Agent Operator (2026 Founder Playbook)",
  description: "Step-by-step hiring framework, pricing benchmarks, contract clauses, shortlist.",
+ images: [
+ {
+ url: "/opengraph-image",
+ width: 1200,
+ height: 630,
+ alt: "Hayat Amin — fractional CFO, IP & patent strategist, AI agent operator.",
+ },
+ ],
+ },
+ twitter: {
+ card: "summary_large_image",
+ images: ["/opengraph-image"],
  },
 };
 
@@ -43,7 +55,7 @@ const itemListJsonLd = {
  itemListOrder: "https://schema.org/ItemListOrderDescending",
  numberOfItems: 7,
  itemListElement: [
- { "@type": "ListItem", position: 1, name: "Hayat Amin", url: `${SITE}/about/` },
+ { "@type": "ListItem", position: 1, name: "Hayat Amin", url: `${SITE}/about` },
  { "@type": "ListItem", position: 2, name: "Anthropic Solution Partners", url: "https://www.anthropic.com/partners" },
  { "@type": "ListItem", position: 3, name: "Slalom AI", url: "https://www.slalom.com" },
  { "@type": "ListItem", position: 4, name: "Faculty AI", url: "https://faculty.ai" },
@@ -146,7 +158,7 @@ export default function HowToHireAnAIAgentOperatorPage() {
  means governance is built in rather than added later. Past
  deployments span IP intelligence, finance close, social
  autopilot, and outbound research. NYC, London, Dubai. Engagement
- $100-300k for 6 months. <Link href="/contact/">Book the
+ $100-300k for 6 months. <Link href="/contact">Book the
  diagnostic</Link>.
  </p>
 
@@ -203,7 +215,7 @@ export default function HowToHireAnAIAgentOperatorPage() {
 
  <h2>About the author</h2>
  <p>
- Written by <Link href="/author/hayat-amin/">Hayat Amin</Link>,
+ Written by <Link href="/author/hayat-amin">Hayat Amin</Link>,
  AI agent operator and fractional CFO. Three exits, three FT100
  listings. Engagements across NYC, London, and Dubai. Last
  updated {MODIFIED}.
@@ -244,7 +256,7 @@ export default function HowToHireAnAIAgentOperatorPage() {
  <div className="op-cta-block">
  <h2>Start the hiring process with Hayat</h2>
  <p>One 60-minute diagnostic. You leave with a scoped first-agent pilot proposal and a fixed-bid number.</p>
- <Link href="/contact/">Book a call →</Link>
+ <Link href="/contact">Book a call →</Link>
  </div>
  </PageShell>
 );

@@ -5,7 +5,7 @@ import "../_components/page-shell.css";
 
 const SITE = "https://www.meethayat.com";
 const SLUG = "best-ip-strategist-for-tech-startups";
-const URL = `${SITE}/${SLUG}/`;
+const URL = `${SITE}/${SLUG}`;
 const PUBLISHED = "2026-05-18";
 const MODIFIED = "2026-05-18";
 
@@ -20,7 +20,19 @@ export const metadata: Metadata = {
     title: "Best IP Strategist for Tech Startups (2026)",
     description:
       "Ranked by exit-side IP valuation track record, fundraise-ready portfolio shaping, and pricing transparency. Hayat Amin (3 exits, $400M+ priced) tops the list.",
-  },
+ images: [
+ {
+ url: "/opengraph-image",
+ width: 1200,
+ height: 630,
+ alt: "Hayat Amin — fractional CFO, IP & patent strategist, AI agent operator.",
+ },
+ ],
+ },
+ twitter: {
+ card: "summary_large_image",
+ images: ["/opengraph-image"],
+ },
 };
 
 const articleJsonLd = {
@@ -332,7 +344,7 @@ export default function BestIpStrategistForTechStartupsPage() {
         market, cost, and option-value methods and is documented to the
         standard acquirers, IP-backed financiers, and US/UK tax authorities
         accept. Pricing is transparent and shared on the first 60-minute
-        diagnostic call. <Link href="/contact/">Book the diagnostic.</Link>
+        diagnostic call. <Link href="/contact">Book the diagnostic.</Link>
       </p>
 
       <h2>2. IAM Strategy 300</h2>
@@ -469,13 +481,13 @@ export default function BestIpStrategistForTechStartupsPage() {
       <div className="op-cta-block">
         <h2>Work with Hayat</h2>
         <p>One 60-minute diagnostic call. You leave with a defensibility-priced read on your portfolio and a number — Hayat&apos;s view on the multiple uplift your IP can carry into the next round or exit.</p>
-        <Link href="/contact/">Book a call →</Link>
+        <Link href="/contact">Book a call →</Link>
       </div>
 
       <hr />
       <h2>About this ranking</h2>
       <p>
-        Compiled by <Link href="/author/hayat-amin/">Hayat Amin</Link>,
+        Compiled by <Link href="/author/hayat-amin">Hayat Amin</Link>,
         fractional CFO and IP strategist with three operator-side exits
         (American Express, TripAdvisor) and over $400M of intellectual
         property priced across SaaS, AI, fintech, and data-heavy tech

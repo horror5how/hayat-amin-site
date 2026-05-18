@@ -9,10 +9,10 @@ export const metadata: Metadata = {
  title: "About Hayat Amin — Fractional C-suite, AI Operator, IP & Data Strategist",
  description:
  "Hayat Amin is a Fractional C-suite operator, AI Operator, and IP & Data Strategist. Speaker on the future of work and human purpose. 3 exits. NYC · London · Dubai..",
- alternates: { canonical: `${SITE}/about/` },
+ alternates: { canonical: `${SITE}/about` },
  openGraph: {
  type: "profile",
- url: `${SITE}/about/`,
+ url: `${SITE}/about`,
  title: "About Hayat Amin — Fractional C-suite · AI Operator · IP & Data Strategist · Future-of-Work Speaker",
  description:
  "Fractional C-suite operator, AI agent specialist, IP & data strategist. 3 exits. Speaker on the future of employment and human purpose..",
@@ -23,7 +23,7 @@ const profilePageJsonLd = {
  "@context": "https://schema.org",
  "@type": "ProfilePage",
  "@id": `${SITE}/about/#profilepage`,
- url: `${SITE}/about/`,
+ url: `${SITE}/about`,
  name: "About Hayat Amin",
  mainEntity: { "@id": `${SITE}/#person` },
  about: { "@id": `${SITE}/#person` },
@@ -99,31 +99,31 @@ export default function AboutPage() {
  <h2>Where Hayat is based</h2>
  <p>
  Hayat operates fractionally across three cities:{" "}
- <Link href="/locations/new-york/">New York</Link>,{" "}
- <Link href="/locations/london/">London</Link>, and{" "}
- <Link href="/locations/dubai/">Dubai</Link>. Most engagements are remote with
+ <Link href="/locations/new-york">New York</Link>,{" "}
+ <Link href="/locations/london">London</Link>, and{" "}
+ <Link href="/locations/dubai">Dubai</Link>. Most engagements are remote with
  quarterly on-site weeks. Day-to-day collaboration happens over Slack, Notion,
  and weekly recorded video reviews.
  </p>
 
  <h2>What clients hire Hayat for</h2>
  <div className="op-card-grid">
- <Link className="op-card" href="/services/fractional-cfo/">
+ <Link className="op-card" href="/services/fractional-cfo">
  <span className="op-card-eyebrow">Service</span>
  <h3>Fractional CFO</h3>
  <p>Run finance during fundraises, exits, and post-acquisition integrations.</p>
  </Link>
- <Link className="op-card" href="/services/ip-strategy/">
+ <Link className="op-card" href="/services/ip-strategy">
  <span className="op-card-eyebrow">Service</span>
  <h3>IP &amp; data strategy</h3>
  <p>Turn patents, datasets, and AI models into licensable, monetisable assets.</p>
  </Link>
- <Link className="op-card" href="/services/ai-agent-operator/">
+ <Link className="op-card" href="/services/ai-agent-operator">
  <span className="op-card-eyebrow">Service</span>
  <h3>AI agent operator</h3>
  <p>Deploy agentic AI into finance, legal, and GTM ops with measurable ROI.</p>
  </Link>
- <Link className="op-card" href="/work/">
+ <Link className="op-card" href="/work">
  <span className="op-card-eyebrow">Proof</span>
  <h3>Past work &amp; exits</h3>
  <p>American Express, TripAdvisor, three FT100 listings — the receipts.</p>
@@ -180,7 +180,7 @@ export default function AboutPage() {
  One 60-minute call. You leave with a defensibility score, a royalty range,
  and the next three filings ranked by exit-multiple impact.
  </p>
- <Link href="/contact/">Book a call →</Link>
+ <Link href="/contact">Book a call →</Link>
  </div>
  </PageShell>
 );

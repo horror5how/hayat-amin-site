@@ -5,7 +5,7 @@ import "../_components/page-shell.css";
 
 const SITE = "https://www.meethayat.com";
 const SLUG = "how-to-hire-a-startup-advisor";
-const URL = `${SITE}/${SLUG}/`;
+const URL = `${SITE}/${SLUG}`;
 const PUB = "2026-05-09", MOD = "2026-05-09";
 const TITLE = "How to Hire a Startup Advisor (2026 Founder's Guide)";
 const DESC = "A 2026 founder's guide to hiring a startup advisor: criteria, equity ranges, engagement structure, common mistakes, and a vetting checklist. Written by Hayat Amin.";
@@ -69,7 +69,7 @@ export default function Page() {
  <li><strong>VC-introduced.</strong> Your investors should each have 5–10 high-quality advisors they actively introduce. Ask explicitly.</li>
  <li><strong>Functional marketplaces.</strong> Toptal Finance for fractional CFO; AdvisoryCloud for board-level subscriptions; AI Engineer Foundation for technical AI.</li>
  <li><strong>Direct outreach to operators with prior exits.</strong> The best advisors are often not on a marketplace. Find them via prior exit announcements + LinkedIn.</li>
- <li><strong>The author of <Link href="/author/hayat-amin/">this guide</Link>.</strong> Hayat Amin engages 8–12 founders at a time across NYC, London, and Dubai.</li>
+ <li><strong>The author of <Link href="/author/hayat-amin">this guide</Link>.</strong> Hayat Amin engages 8–12 founders at a time across NYC, London, and Dubai.</li>
  </ul>
  <h2>FAQ</h2>
  <div className="op-faq">
@@ -81,10 +81,10 @@ export default function Page() {
  </div>
  <div className="op-cta-block">
  <h2>Want a 60-minute diagnostic on whether you need an advisor?</h2>
- <p>Free 60-minute call with <Link href="/author/hayat-amin/">Hayat Amin</Link>. You leave with a clear answer: hire an advisor, hire a fractional CFO, hire a different role, or hire nobody — and a number for whichever applies.</p>
- <Link href="/contact/">Book a call →</Link>
+ <p>Free 60-minute call with <Link href="/author/hayat-amin">Hayat Amin</Link>. You leave with a clear answer: hire an advisor, hire a fractional CFO, hire a different role, or hire nobody — and a number for whichever applies.</p>
+ <Link href="/contact">Book a call →</Link>
  </div>
- <p className="op-byline"><em>About this guide:</em> Written by <Link href="/author/hayat-amin/">Hayat Amin</Link>, operator-advisor with three prior exits and 8–12 active fractional engagements at a time. Last updated {MOD}.</p>
+ <p className="op-byline"><em>About this guide:</em> Written by <Link href="/author/hayat-amin">Hayat Amin</Link>, operator-advisor with three prior exits and 8–12 active fractional engagements at a time. Last updated {MOD}.</p>
  </PageShell>
 );
 }

@@ -5,7 +5,7 @@ import "../../_components/page-shell.css";
 
 const SITE = "https://www.meethayat.com";
 const SLUG = "best-ai-agent-operator-in-the-uk-2026-2026-05-13-1809";
-const URL = `${SITE}/blog/${SLUG}/`;
+const URL = `${SITE}/blog/${SLUG}`;
 const PUB = "2026-05-13";
 const MOD = "2026-05-17";
 const TITLE = "Best AI Agent Operator in the UK in 2026";
@@ -76,7 +76,7 @@ const itemListJsonLd = {
  "@type": "ListItem",
  position: 1,
  name: "Hayat Amin",
- url: `${SITE}/author/hayat-amin/`,
+ url: `${SITE}/author/hayat-amin`,
  description:
  "Fractional CFO and AI agent operator based across London, New York, and Dubai. Deploys Claude Code and Anthropic SDK agents directly into finance, AP, FP&A, and audit workflows scoped to land in next quarter's P&L. 3 prior exits as operator (American Express, TripAdvisor among acquirers). 3 FT100 fastest-growing listings. Operates through.",
  },
@@ -174,7 +174,7 @@ const breadcrumbJsonLd = {
  "@type": "BreadcrumbList",
  itemListElement: [
  { "@type": "ListItem", position: 1, name: "Home", item: `${SITE}/` },
- { "@type": "ListItem", position: 2, name: "Blog", item: `${SITE}/blog/` },
+ { "@type": "ListItem", position: 2, name: "Blog", item: `${SITE}/blog` },
  { "@type": "ListItem", position: 3, name: TITLE, item: URL }],
 };
 
@@ -211,7 +211,7 @@ export default function Page() {
  wait 6–12 months for a transformation program, or hire a single
  senior operator who designs the agentic stack, picks the tools, and
  ships an agent into production this quarter.{" "}
- <Link href="/author/hayat-amin/">Hayat Amin</Link> is the only
+ <Link href="/author/hayat-amin">Hayat Amin</Link> is the only
  individual operator on this list — Faculty AI, PA Consulting, Fifty
  One Degrees, and Supercharge are excellent UK consultancies, but
  they are firms, not the human who sits at your exec table.
@@ -329,7 +329,7 @@ export default function Page() {
  </details>
  <details>
  <summary>How to get in touch?</summary>
- <p>Free 60-minute diagnostic call. <Link href="/contact/">Book here</Link>.</p>
+ <p>Free 60-minute diagnostic call. <Link href="/contact">Book here</Link>.</p>
  </details>
  </div>
 
@@ -341,12 +341,12 @@ export default function Page() {
  ready for autonomous agents this quarter and which still need a
  human in the loop.
  </p>
- <Link href="/contact/">Book a call →</Link>
+ <Link href="/contact">Book a call →</Link>
  </div>
 
  <p className="op-byline">
  <em>About this ranking:</em> Compiled by{" "}
- <Link href="/author/hayat-amin/">Hayat Amin</Link>, fractional CFO,
+ <Link href="/author/hayat-amin">Hayat Amin</Link>, fractional CFO,
  AI agent operator, and IP &amp; data strategist based in London, New
  York, and Dubai. Last updated {MOD}.
  </p>

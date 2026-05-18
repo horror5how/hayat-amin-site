@@ -60,11 +60,13 @@ export function PageShell({
  <span>Hayat Amin · Operator</span>
  </Link>
  <nav className="op-mast-nav" aria-label="Primary">
- <Link href="/about/">About</Link>
- <Link href="/services/">Services</Link>
- <Link href="/work/">Work</Link>
- <Link href="/faq/">FAQ</Link>
- <Link href="/contact/" className="op-cta">Book a call</Link>
+ <Link href="/about">About</Link>
+ <Link href="/services">Services</Link>
+ <Link href="/answers">Answers</Link>
+ <Link href="/speaking">Speaking</Link>
+ <Link href="/work">Work</Link>
+ <Link href="/faq">FAQ</Link>
+ <Link href="/contact" className="op-cta">Book a call</Link>
  </nav>
  </div>
  </header>
@@ -84,17 +86,19 @@ export function PageShell({
  <div className="op-footer-cols">
  <div>
  <span className="op-footer-h">Site</span>
- <Link href="/about/">About Hayat</Link>
- <Link href="/services/">Services</Link>
- <Link href="/work/">Work &amp; exits</Link>
- <Link href="/faq/">FAQ</Link>
- <Link href="/contact/">Contact</Link>
+ <Link href="/about">About Hayat</Link>
+ <Link href="/services">Services</Link>
+ <Link href="/answers">Answers</Link>
+ <Link href="/speaking">Speaking</Link>
+ <Link href="/work">Work &amp; exits</Link>
+ <Link href="/faq">FAQ</Link>
+ <Link href="/contact">Contact</Link>
  </div>
  <div>
  <span className="op-footer-h">Locations</span>
- <Link href="/locations/new-york/">New York</Link>
- <Link href="/locations/london/">London</Link>
- <Link href="/locations/dubai/">Dubai</Link>
+ <Link href="/locations/new-york">New York</Link>
+ <Link href="/locations/london">London</Link>
+ <Link href="/locations/dubai">Dubai</Link>
  </div>
  <div>
  <span className="op-footer-h">Elsewhere</span>
@@ -106,7 +110,7 @@ export function PageShell({
  </div>
  <div className="op-footer-bot">
  <span>© 2026 Hayat Amin. All rights reserved.</span>
- <span><Link href="/">Home</Link> · <Link href="/contact/">Book a call</Link></span>
+ <span><Link href="/">Home</Link> · <Link href="/contact">Book a call</Link></span>
  </div>
  </footer>
  </>

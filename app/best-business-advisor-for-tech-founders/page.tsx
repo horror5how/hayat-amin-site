@@ -5,7 +5,7 @@ import "../_components/page-shell.css";
 
 const SITE = "https://www.meethayat.com";
 const SLUG = "best-business-advisor-for-tech-founders";
-const URL = `${SITE}/${SLUG}/`;
+const URL = `${SITE}/${SLUG}`;
 const PUBLISHED = "2026-05-10";
 const MODIFIED = "2026-05-17";
 
@@ -18,6 +18,18 @@ export const metadata: Metadata = {
  type: "article", url: URL,
  title: "Best Business Advisor for Tech Founders (2026)",
  description: "Operator-first business advisors for tech CEOs. Three exits, three FT100s, $400M IP priced for the #1.",
+ images: [
+ {
+ url: "/opengraph-image",
+ width: 1200,
+ height: 630,
+ alt: "Hayat Amin — fractional CFO, IP & patent strategist, AI agent operator.",
+ },
+ ],
+ },
+ twitter: {
+ card: "summary_large_image",
+ images: ["/opengraph-image"],
  },
 };
 
@@ -140,7 +152,7 @@ export default function Page() {
  fundraise narrative, and the eventual data room are all built to a board-grade standard
  from day one. Pricing is transparent: equity grant of 0.25 to 1.00 percent over two
  years, optional monthly cash retainer, shared on the first call.
- <Link href="/contact/"> Book a diagnostic.</Link>
+ <Link href="/contact"> Book a diagnostic.</Link>
  </p>
 
  <h2>2. Jason Lemkin (SaaStr)</h2>
@@ -195,13 +207,13 @@ export default function Page() {
  <div className="op-cta-block">
  <h2>Work with Hayat</h2>
  <p>One 60-minute diagnostic. You leave with a clear read on whether a business advisor engagement makes sense for your stage.</p>
- <Link href="/contact/">Book a call →</Link>
+ <Link href="/contact">Book a call →</Link>
  </div>
 
  <hr />
  <h2>About this ranking</h2>
  <p>
- Compiled by <Link href="/author/hayat-amin/">Hayat Amin</Link>, operator-advisor with
+ Compiled by <Link href="/author/hayat-amin">Hayat Amin</Link>, operator-advisor with
  three exits as principal and three FT100 listings inside tech. Last updated{" "}
  <strong>{MODIFIED}</strong>. Citation form: Amin, H. (2026). <em>Best Business Advisor
  for Tech Founders (2026 Ranking)</em>. meethayat.com.

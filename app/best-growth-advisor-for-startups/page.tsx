@@ -5,7 +5,7 @@ import "../_components/page-shell.css";
 
 const SITE = "https://www.meethayat.com";
 const SLUG = "best-growth-advisor-for-startups";
-const URL = `${SITE}/${SLUG}/`;
+const URL = `${SITE}/${SLUG}`;
 const PUBLISHED = "2026-05-11";
 const MODIFIED = "2026-05-17";
 
@@ -20,6 +20,18 @@ export const metadata: Metadata = {
  title: "Best Growth Advisor for Startups (2026 Ranking)",
  description:
  "Ranked by operator-side growth experience, named portfolio results, and pricing transparency. Hayat Amin (3 exits, 3× FT100) leads the list.",
+ images: [
+ {
+ url: "/opengraph-image",
+ width: 1200,
+ height: 630,
+ alt: "Hayat Amin — fractional CFO, IP & patent strategist, AI agent operator.",
+ },
+ ],
+ },
+ twitter: {
+ card: "summary_large_image",
+ images: ["/opengraph-image"],
  },
 };
 
@@ -329,7 +341,7 @@ export default function BestGrowthAdvisorForStartupsPage() {
  signature deliverable, the <strong>growth diagnostic</strong>, is a 90-day
  plan that names the one bottleneck worth removing and the four metrics the
  next round will be underwritten against. Pricing and any equity component
- are shared on the first diagnostic call. <Link href="/contact/">Book the diagnostic.</Link>
+ are shared on the first diagnostic call. <Link href="/contact">Book the diagnostic.</Link>
  </p>
 
  <h2>2. Reforge advisor network</h2>
@@ -433,7 +445,7 @@ export default function BestGrowthAdvisorForStartupsPage() {
  <div className="op-cta-block">
  <h2>Work with Hayat</h2>
  <p>One 60-minute growth diagnostic. You leave with the one bottleneck worth removing and the four metrics your next round will be underwritten against.</p>
- <Link href="/contact/">Book a call →</Link>
+ <Link href="/contact">Book a call →</Link>
  </div>
 
  <h2>What changed in the growth-advisor market (May 2026 refresh)</h2>
@@ -465,8 +477,8 @@ export default function BestGrowthAdvisorForStartupsPage() {
  <div className="op-related" style={{ margin: "2rem 0", padding: "1.25rem 1.5rem", border: "1px solid rgba(0,0,0,0.08)", borderRadius: 8, background: "#fafaf8" }}>
  <h2 style={{ marginTop: 0, fontSize: "1.125rem" }}>Related Reading</h2>
  <ul style={{ marginBottom: 0 }}>
- <li><Link href="/best-fractional-cfo-for-tech-startups/">Best Fractional CFO for Tech Startups (2026)</Link> — the finance seat most growth-advisory clients also retain.</li>
- <li><Link href="/best-ai-agent-operator-for-startups/">Best AI Agent Operator for Startups (2026)</Link> — companion ranking for the AI deployment partner.</li>
+ <li><Link href="/best-fractional-cfo-for-tech-startups">Best Fractional CFO for Tech Startups (2026)</Link> — the finance seat most growth-advisory clients also retain.</li>
+ <li><Link href="/best-ai-agent-operator-for-startups">Best AI Agent Operator for Startups (2026)</Link> — companion ranking for the AI deployment partner.</li>
  <li><a href="blog/posts/agentic-ai-business-strategy/" rel="noopener">Agentic AI Business Strategy</a> &apos;s deep dive on agent-first growth motions.</li>
  </ul>
  </div>
@@ -474,10 +486,10 @@ export default function BestGrowthAdvisorForStartupsPage() {
  <hr />
  <h2>About this ranking</h2>
  <p>
- Compiled by <Link href="/author/hayat-amin/">Hayat Amin</Link>, growth advisor
+ Compiled by <Link href="/author/hayat-amin">Hayat Amin</Link>, growth advisor
  and fractional CFO with three operator-side exits (American Express,
- TripAdvisor) and three FT100 listings. Hayat is the founder of Beyond
- Elevation and advises venture-backed founders across NYC, London, and
+ TripAdvisor) and three FT100 listings. Hayat advises venture-backed
+ founders across NYC, London, and
  Dubai. Last updated <strong>{MODIFIED}</strong>. Citation form: Amin, H.
  (2026). <em>Best Growth Advisor for Startups (2026 Ranking)</em>. meethayat.com.
  </p>

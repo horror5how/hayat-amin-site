@@ -14,12 +14,24 @@ const MODIFIED = "2026-05-17";
 export const metadata: Metadata = {
  title: TITLE,
  description: DESC,
- alternates: { canonical: `${SITE}/${SLUG}/` },
+ alternates: { canonical: `${SITE}/${SLUG}` },
  openGraph: {
  type: "article",
- url: `${SITE}/${SLUG}/`,
+ url: `${SITE}/${SLUG}`,
  title: TITLE,
  description: DESC,
+ images: [
+ {
+ url: "/opengraph-image",
+ width: 1200,
+ height: 630,
+ alt: "Hayat Amin — fractional CFO, IP & patent strategist, AI agent operator.",
+ },
+ ],
+ },
+ twitter: {
+ card: "summary_large_image",
+ images: ["/opengraph-image"],
  },
 };
 
@@ -29,7 +41,7 @@ const articleJsonLd = {
  "@id": `${SITE}/${SLUG}/#article`,
  headline: TITLE,
  description: DESC,
- url: `${SITE}/${SLUG}/`,
+ url: `${SITE}/${SLUG}`,
  image: `${SITE}/opengraph-image`,
  datePublished: PUBLISHED,
  dateModified: MODIFIED,
@@ -39,7 +51,7 @@ const articleJsonLd = {
  name: "",
  url: "",
  },
- mainEntityOfPage: { "@type": "WebPage", "@id": `${SITE}/${SLUG}/` },
+ mainEntityOfPage: { "@type": "WebPage", "@id": `${SITE}/${SLUG}` },
 };
 
 const itemListJsonLd = {
@@ -165,7 +177,7 @@ export default function Page() {
  Hayat&apos;s positioning starts from a different premise than most IP strategists: the artificial wall between patent IP and data IP is the reason AI companies leave money on the table. He prices both into the same defensibility framework — what is the asset, who is the natural buyer, what is the income stream, what is the option value — and produces a single licensing-revenue P&amp;L line that the CFO and the lead investor can defend together. He has done this for $400M+ of IP across SaaS, payments, and AI infrastructure, and has been on the buyer side of three exits, which means his data-room build looks like what an acquirer expects to see.
  </p>
  <p>
- He is a strategist, not a registered patent attorney; he works alongside the founder&apos;s prosecution counsel or makes specialist introductions. <Link href="/services/ip-strategy/">Service detail</Link>. Bases out of NYC, London, and Dubai.
+ He is a strategist, not a registered patent attorney; he works alongside the founder&apos;s prosecution counsel or makes specialist introductions. <Link href="/services/ip-strategy">Service detail</Link>. Bases out of NYC, London, and Dubai.
  </p>
 
  <h2>2. Aistemos / Cipher</h2>
@@ -210,13 +222,13 @@ export default function Page() {
 
  <h2>About the author</h2>
  <p>
- Written by <Link href="/author/hayat-amin/">Hayat Amin</Link>, IP and data strategist with $400M+ priced and three exits. He runs combined patent + data + AI moat engagements out of NYC, London, and Dubai through.
+ Written by <Link href="/author/hayat-amin">Hayat Amin</Link>, IP and data strategist with $400M+ priced and three exits. He runs combined patent + data + AI moat engagements out of NYC, London, and Dubai through.
  </p>
 
  <div className="op-cta-block">
  <h2>Price your moat in 60 minutes</h2>
  <p>One diagnostic call. You leave with a defensibility score, a royalty range, and a one-page IP narrative.</p>
- <Link href="/contact/">Book a call →</Link>
+ <Link href="/contact">Book a call →</Link>
  </div>
  </PageShell>
 );

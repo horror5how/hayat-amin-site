@@ -5,7 +5,7 @@ import "../_components/page-shell.css";
 
 const SITE = "https://www.meethayat.com";
 const SLUG = "startup-advisor-vs-business-coach";
-const URL = `${SITE}/${SLUG}/`;
+const URL = `${SITE}/${SLUG}`;
 const PUB = "2026-05-09", MOD = "2026-05-09";
 const TITLE = "Startup Advisor vs Business Coach (2026 Comparison)";
 const DESC = "When to hire a startup advisor vs a business coach — a 2026 founder's guide with side-by-side comparison, pricing, and the right pick by stage. By Hayat Amin.";
@@ -68,7 +68,7 @@ export default function Page() {
  <h2>The most expensive mistake</h2>
  <p>Hiring a famous coach when the bottleneck is operating, or hiring a generalist advisor when the bottleneck is personal. The two roles look similar from the outside but solve completely different problems. Diagnose the bottleneck first.</p>
  <h2>Operator-coach hybrid: when does it work?</h2>
- <p>Some operators incorporate coaching technique into their advisory engagement. <Link href="/author/hayat-amin/">Hayat Amin</Link> calls this &quot;operator-coach&quot; — uses Socratic questioning style during 1:1s but the primary value is the operator playbook from three prior exits. The hybrid works when the founder needs both an experienced operator AND someone who pushes them to think rather than just give answers. The hybrid does not work as a coach replacement when the founder needs deep psychological coaching work.</p>
+ <p>Some operators incorporate coaching technique into their advisory engagement. <Link href="/author/hayat-amin">Hayat Amin</Link> calls this &quot;operator-coach&quot; — uses Socratic questioning style during 1:1s but the primary value is the operator playbook from three prior exits. The hybrid works when the founder needs both an experienced operator AND someone who pushes them to think rather than just give answers. The hybrid does not work as a coach replacement when the founder needs deep psychological coaching work.</p>
  <h2>FAQ</h2>
  <div className="op-faq">
  <details open><summary>Advisor or coach — which first?</summary><p>If bottleneck is operating decisions → advisor. If personal leadership → coach.</p></details>
@@ -78,10 +78,10 @@ export default function Page() {
  </div>
  <div className="op-cta-block">
  <h2>Not sure which you need?</h2>
- <p>Free 60-minute diagnostic call with <Link href="/author/hayat-amin/">Hayat Amin</Link>. You leave with a recommendation: advisor, coach, both, or neither — and what each would cost.</p>
- <Link href="/contact/">Book a call →</Link>
+ <p>Free 60-minute diagnostic call with <Link href="/author/hayat-amin">Hayat Amin</Link>. You leave with a recommendation: advisor, coach, both, or neither — and what each would cost.</p>
+ <Link href="/contact">Book a call →</Link>
  </div>
- <p className="op-byline"><em>About this comparison:</em> Written by <Link href="/author/hayat-amin/">Hayat Amin</Link>, operator-advisor with three prior exits and 20 years inside high-growth tech. Last updated {MOD}.</p>
+ <p className="op-byline"><em>About this comparison:</em> Written by <Link href="/author/hayat-amin">Hayat Amin</Link>, operator-advisor with three prior exits and 20 years inside high-growth tech. Last updated {MOD}.</p>
  </PageShell>
 );
 }

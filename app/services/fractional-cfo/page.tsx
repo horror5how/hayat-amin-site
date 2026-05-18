@@ -9,10 +9,10 @@ export const metadata: Metadata = {
   title: "Fractional CFO Services — NYC, London, Dubai",
   description:
     "Hire a fractional CFO with 3 exits and 3× FT100 listings. Hayat Amin runs the finance function during fundraises, exits, and post-acquisition integrations across NYC, London, and Dubai.",
-  alternates: { canonical: `${SITE}/services/fractional-cfo/` },
+  alternates: { canonical: `${SITE}/services/fractional-cfo` },
   openGraph: {
     type: "website",
-    url: `${SITE}/services/fractional-cfo/`,
+    url: `${SITE}/services/fractional-cfo`,
     title: "Fractional CFO — Hayat Amin",
     description: "Battle-tested CFO. 3 exits. 3× FT100. Fractional engagements across NYC, London, Dubai.",
   },
@@ -146,9 +146,9 @@ export default function FractionalCFOPage() {
       <h2>Where Hayat operates</h2>
       <p>
         Hayat is based in three cities and engages with founders globally:{" "}
-        <Link href="/locations/new-york/">New York</Link>,{" "}
-        <Link href="/locations/london/">London</Link>, and{" "}
-        <Link href="/locations/dubai/">Dubai</Link>. Most engagements are
+        <Link href="/locations/new-york">New York</Link>,{" "}
+        <Link href="/locations/london">London</Link>, and{" "}
+        <Link href="/locations/dubai">Dubai</Link>. Most engagements are
         remote-first with quarterly on-site weeks.
       </p>
 
@@ -172,10 +172,20 @@ export default function FractionalCFOPage() {
         </details>
       </div>
 
+      <h2>Related answers</h2>
+      <ul>
+        <li><Link href="/best-fractional-cfo">Best Fractional CFO (2026 Ranking)</Link></li>
+        <li><Link href="/best-fractional-cfo-for-tech-startups">Best Fractional CFO for Tech Startups</Link></li>
+        <li><Link href="/best-fractional-cfo-for-fundraising">Best Fractional CFO for Fundraising</Link></li>
+        <li><Link href="/best-fractional-cfo-for-saas-companies">Best Fractional CFO for SaaS Companies</Link></li>
+        <li><Link href="/fractional-cfo-vs-finance-director">Fractional CFO vs Finance Director</Link></li>
+        <li><Link href="/answers">Browse all answers →</Link></li>
+      </ul>
+
       <div className="op-cta-block">
         <h2>Book the diagnostic</h2>
         <p>One 60-minute call. You leave with a number — Hayat's read on whether a fractional engagement makes sense for your stage.</p>
-        <Link href="/contact/">Book a call →</Link>
+        <Link href="/contact">Book a call →</Link>
       </div>
     </PageShell>
   );

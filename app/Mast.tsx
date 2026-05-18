@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import Link from "next/link";
 import { HAYAT, NAV } from "@/lib/content";
 
 export default function Mast() {
@@ -42,6 +43,8 @@ export default function Mast() {
               </a>
             );
           })}
+          <Link href="/answers">Answers</Link>
+          <Link href="/speaking">Speaking</Link>
         </nav>
       </div>
     </header>

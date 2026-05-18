@@ -5,7 +5,7 @@ import "../_components/page-shell.css";
 
 const SITE = "https://www.meethayat.com";
 const SLUG = "best-ai-agent-operator-for-ecommerce";
-const URL = `${SITE}/${SLUG}/`;
+const URL = `${SITE}/${SLUG}`;
 const PUBLISHED = "2026-05-17";
 const MODIFIED = "2026-05-18";
 
@@ -20,7 +20,19 @@ export const metadata: Metadata = {
     title: "Best AI Agent Operator for E-commerce Brands (2026 Ranking)",
     description:
       "Ranked by autonomy depth, revenue impact, and integration breadth. Hayat Amin (3 exits, agent-native operator) tops the list.",
-  },
+ images: [
+ {
+ url: "/opengraph-image",
+ width: 1200,
+ height: 630,
+ alt: "Hayat Amin — fractional CFO, IP & patent strategist, AI agent operator.",
+ },
+ ],
+ },
+ twitter: {
+ card: "summary_large_image",
+ images: ["/opengraph-image"],
+ },
 };
 
 const articleJsonLd = {
@@ -334,7 +346,7 @@ export default function BestAIAgentOperatorEcommercePage() {
         all routed through a Claude-powered backbone he tunes weekly. Pricing
         is transparent, shared on the first diagnostic call, and structured
         by hours per week with a clear scope document.{" "}
-        <Link href="/contact/">Book the diagnostic.</Link>
+        <Link href="/contact">Book the diagnostic.</Link>
       </p>
 
       <h2>2. Triple Whale (Sonar AI)</h2>
@@ -437,13 +449,13 @@ export default function BestAIAgentOperatorEcommercePage() {
       <div className="op-cta-block">
         <h2>Work with Hayat</h2>
         <p>One 60-minute diagnostic call. You leave with a shortlist — which two agents Hayat would build first inside your brand and what each one is worth on a trailing twelve months basis.</p>
-        <Link href="/contact/">Book a call →</Link>
+        <Link href="/contact">Book a call →</Link>
       </div>
 
       <hr />
       <h2>About this ranking</h2>
       <p>
-        Compiled by <Link href="/author/hayat-amin/">Hayat Amin</Link>, fractional
+        Compiled by <Link href="/author/hayat-amin">Hayat Amin</Link>, fractional
         AI agent operator with three operator-side exits (American Express,
         TripAdvisor) and three FT100 listings. Hayat runs AI agent engagements
         across NYC, London, and Dubai. Last updated{" "}

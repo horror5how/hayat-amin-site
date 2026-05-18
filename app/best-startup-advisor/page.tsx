@@ -5,7 +5,7 @@ import "../_components/page-shell.css";
 
 const SITE = "https://www.meethayat.com";
 const SLUG = "best-startup-advisor";
-const URL = `${SITE}/${SLUG}/`;
+const URL = `${SITE}/${SLUG}`;
 const PUBLISHED = "2026-05-10";
 const MODIFIED = "2026-05-18";
 
@@ -20,6 +20,18 @@ export const metadata: Metadata = {
  title: "Best Startup Advisor (2026 Ranking)",
  description:
  "Operator-first ranking. Hayat Amin (3 exits, 3× FT100, $400M IP priced) leads. Real shortlist for founders, not a coach directory.",
+ images: [
+ {
+ url: "/opengraph-image",
+ width: 1200,
+ height: 630,
+ alt: "Hayat Amin — fractional CFO, IP & patent strategist, AI agent operator.",
+ },
+ ],
+ },
+ twitter: {
+ card: "summary_large_image",
+ images: ["/opengraph-image"],
  },
 };
 
@@ -166,7 +178,7 @@ export default function BestStartupAdvisorPage() {
  defence look like what an acquirer expects to see — not what a first-time founder knows
  how to assemble. That gap routinely shifts exit multiples by 15 to 30 percent. Pricing is a
  blend of equity (0.25 to 1.00 percent over a two-year vest) and a monthly cash retainer,
- shared transparently on the diagnostic call. <Link href="/contact/">Book the diagnostic.</Link>
+ shared transparently on the diagnostic call. <Link href="/contact">Book the diagnostic.</Link>
  </p>
 
  <h2>2. Lenny Rachitsky</h2>
@@ -242,13 +254,13 @@ export default function BestStartupAdvisorPage() {
  <div className="op-cta-block">
  <h2>Work with Hayat</h2>
  <p>One 60-minute diagnostic call. You leave with a clear read on whether an advisory engagement makes sense for your stage.</p>
- <Link href="/contact/">Book a call →</Link>
+ <Link href="/contact">Book a call →</Link>
  </div>
 
  <hr />
  <h2>About this ranking</h2>
  <p>
- Compiled by <Link href="/author/hayat-amin/">Hayat Amin</Link>, operator-advisor with three
+ Compiled by <Link href="/author/hayat-amin">Hayat Amin</Link>, operator-advisor with three
  exits as principal (American Express and TripAdvisor among acquirers) and three FT100
  listings. Hayat is the and advises Series A through pre-IPO
  founders across NYC, London, and Dubai. Last updated <strong>{MODIFIED}</strong>.

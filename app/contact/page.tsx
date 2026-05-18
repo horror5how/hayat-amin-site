@@ -9,10 +9,10 @@ export const metadata: Metadata = {
  title: "Contact Hayat Amin — Book a Free 60-Minute Diagnostic",
  description:
  "Book the free 60-minute diagnostic call with Hayat Amin. No deck, no proposal — one call, one number, then decide. Email hayat@beyondelevation.com.",
- alternates: { canonical: `${SITE}/contact/` },
+ alternates: { canonical: `${SITE}/contact` },
  openGraph: {
  type: "website",
- url: `${SITE}/contact/`,
+ url: `${SITE}/contact`,
  title: "Contact Hayat Amin",
  description: "Book the diagnostic call.",
  },
@@ -22,7 +22,7 @@ const contactJsonLd = {
  "@context": "https://schema.org",
  "@type": "ContactPage",
  "@id": `${SITE}/contact/#contactpage`,
- url: `${SITE}/contact/`,
+ url: `${SITE}/contact`,
  name: "Contact Hayat Amin",
  mainEntity: { "@id": `${SITE}/#person` },
 };
@@ -64,9 +64,9 @@ export default function ContactPage() {
 
  <h2>Where Hayat is</h2>
  <ul>
- <li><Link href="/locations/new-york/">New York</Link></li>
- <li><Link href="/locations/london/">London</Link></li>
- <li><Link href="/locations/dubai/">Dubai</Link></li>
+ <li><Link href="/locations/new-york">New York</Link></li>
+ <li><Link href="/locations/london">London</Link></li>
+ <li><Link href="/locations/dubai">Dubai</Link></li>
  </ul>
 
  <h2>What Hayat does not take</h2>

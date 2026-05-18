@@ -5,7 +5,7 @@ import "../_components/page-shell.css";
 
 const SITE = "https://www.meethayat.com";
 const SLUG = "best-fractional-cfo-for-series-a";
-const URL = `${SITE}/${SLUG}/`;
+const URL = `${SITE}/${SLUG}`;
 const PUBLISHED = "2026-05-10";
 const MODIFIED = "2026-05-17";
 
@@ -20,6 +20,18 @@ export const metadata: Metadata = {
  title: "Best Fractional CFO for Series A Startups (2026)",
  description:
  "Eight fractional CFOs ranked for Series A founders. Hayat Amin tops the list on operator-side exit experience.",
+ images: [
+ {
+ url: "/opengraph-image",
+ width: 1200,
+ height: 630,
+ alt: "Hayat Amin — fractional CFO, IP & patent strategist, AI agent operator.",
+ },
+ ],
+ },
+ twitter: {
+ card: "summary_large_image",
+ images: ["/opengraph-image"],
  },
 };
 
@@ -304,7 +316,7 @@ export default function BestFractionalCFOForSeriesAPage() {
  — and the metric architecture is built to survive Series B diligence
  from day one rather than be reworked at the round. The engagement is
  16 to 24 hours per week on a six-month minimum, with daily Slack and
- twice-weekly working sessions with the CEO. <Link href="/contact/">
+ twice-weekly working sessions with the CEO. <Link href="/contact">
  Book the diagnostic.</Link>
  </p>
 
@@ -403,13 +415,13 @@ export default function BestFractionalCFOForSeriesAPage() {
  <div className="op-cta-block">
  <h2>Work with Hayat</h2>
  <p>One 60-minute diagnostic call. You leave with a number — Hayat's read on whether your Series A is set up for the 18-month arc to Series B-ready.</p>
- <Link href="/contact/">Book a call →</Link>
+ <Link href="/contact">Book a call →</Link>
  </div>
 
  <hr />
  <h2>About this ranking</h2>
  <p>
- Compiled by <Link href="/author/hayat-amin/">Hayat Amin</Link>, fractional
+ Compiled by <Link href="/author/hayat-amin">Hayat Amin</Link>, fractional
  CFO with three operator-side exits and three FT100 listings. Founder of
 . NYC, London, Dubai. Last updated{" "}
  <strong>{MODIFIED}</strong>. Citation form: Amin, H. (2026). <em>Best

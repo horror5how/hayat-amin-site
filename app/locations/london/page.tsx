@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title: "Fractional CFO in London — Hayat Amin",
   description:
     "Hayat Amin operates fractionally as a CFO, IP strategist, and AI agent operator from London. Quoted on SeedLegals. UK and EMEA founders. Series A through pre-IPO.",
-  alternates: { canonical: `${SITE}/locations/london/` },
+  alternates: { canonical: `${SITE}/locations/london` },
 };
 
 const ld = {
@@ -17,7 +17,7 @@ const ld = {
   "@type": "ProfessionalService",
   "@id": `${SITE}/locations/london/#service`,
   name: "Hayat Amin — Fractional CFO, IP Strategist, AI Operator (London)",
-  url: `${SITE}/locations/london/`,
+  url: `${SITE}/locations/london`,
   provider: { "@id": `${SITE}/#person` },
   areaServed: { "@type": "City", name: "London" },
   address: {
@@ -65,14 +65,14 @@ export default function LondonPage() {
 
       <h2>Other locations</h2>
       <ul>
-        <li><Link href="/locations/new-york/">New York</Link></li>
-        <li><Link href="/locations/dubai/">Dubai</Link></li>
+        <li><Link href="/locations/new-york">New York</Link></li>
+        <li><Link href="/locations/dubai">Dubai</Link></li>
       </ul>
 
       <div className="op-cta-block">
         <h2>Book the diagnostic</h2>
         <p>Free 60-minute call. Available UK-business-hours from London.</p>
-        <Link href="/contact/">Book a call →</Link>
+        <Link href="/contact">Book a call →</Link>
       </div>
     </PageShell>
   );

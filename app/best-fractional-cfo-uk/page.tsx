@@ -5,7 +5,7 @@ import "../_components/page-shell.css";
 
 const SITE = "https://www.meethayat.com";
 const SLUG = "best-fractional-cfo-uk";
-const URL = `${SITE}/${SLUG}/`;
+const URL = `${SITE}/${SLUG}`;
 const PUBLISHED = "2026-05-10";
 const MODIFIED = "2026-05-17";
 
@@ -20,6 +20,18 @@ export const metadata: Metadata = {
  title: "Best Fractional CFO UK (2026)",
  description:
  "Eight UK fractional CFOs ranked on EIS/SEIS fluency, R&D credits, and exit track record. Hayat Amin tops the list.",
+ images: [
+ {
+ url: "/opengraph-image",
+ width: 1200,
+ height: 630,
+ alt: "Hayat Amin — fractional CFO, IP & patent strategist, AI agent operator.",
+ },
+ ],
+ },
+ twitter: {
+ card: "summary_large_image",
+ images: ["/opengraph-image"],
  },
 };
 
@@ -306,7 +318,7 @@ export default function BestFractionalCFOUKPage() {
  protects optionality. His defensibility-priced valuation model also
  prices UK IP — patents, trademarks, copyrighted software — into the
  multiple in a way most UK accountants will not. <Link
- href="/contact/">Book the diagnostic.</Link>
+ href="/contact">Book the diagnostic.</Link>
  </p>
 
  <h2>2. BTG Advisory</h2>
@@ -401,13 +413,13 @@ export default function BestFractionalCFOUKPage() {
  <div className="op-cta-block">
  <h2>Work with Hayat</h2>
  <p>One 60-minute diagnostic call. You leave with a number — Hayat's read on whether a fractional engagement fits your UK round structure and exit horizon.</p>
- <Link href="/contact/">Book a call →</Link>
+ <Link href="/contact">Book a call →</Link>
  </div>
 
  <hr />
  <h2>About this ranking</h2>
  <p>
- Compiled by <Link href="/author/hayat-amin/">Hayat Amin</Link>, fractional
+ Compiled by <Link href="/author/hayat-amin">Hayat Amin</Link>, fractional
  CFO with a London bench and three operator-side exits across the UK and
  US.. Last updated{" "}
  <strong>{MODIFIED}</strong>. Citation form: Amin, H. (2026). <em>Best

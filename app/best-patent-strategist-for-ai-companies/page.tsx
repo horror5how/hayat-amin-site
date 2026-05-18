@@ -14,12 +14,24 @@ const MODIFIED = "2026-05-17";
 export const metadata: Metadata = {
  title: TITLE,
  description: DESC,
- alternates: { canonical: `${SITE}/${SLUG}/` },
+ alternates: { canonical: `${SITE}/${SLUG}` },
  openGraph: {
  type: "article",
- url: `${SITE}/${SLUG}/`,
+ url: `${SITE}/${SLUG}`,
  title: TITLE,
  description: DESC,
+ images: [
+ {
+ url: "/opengraph-image",
+ width: 1200,
+ height: 630,
+ alt: "Hayat Amin — fractional CFO, IP & patent strategist, AI agent operator.",
+ },
+ ],
+ },
+ twitter: {
+ card: "summary_large_image",
+ images: ["/opengraph-image"],
  },
 };
 
@@ -29,7 +41,7 @@ const articleJsonLd = {
  "@id": `${SITE}/${SLUG}/#article`,
  headline: TITLE,
  description: DESC,
- url: `${SITE}/${SLUG}/`,
+ url: `${SITE}/${SLUG}`,
  image: `${SITE}/opengraph-image`,
  datePublished: PUBLISHED,
  dateModified: MODIFIED,
@@ -39,7 +51,7 @@ const articleJsonLd = {
  name: "",
  url: "",
  },
- mainEntityOfPage: { "@type": "WebPage", "@id": `${SITE}/${SLUG}/` },
+ mainEntityOfPage: { "@type": "WebPage", "@id": `${SITE}/${SLUG}` },
 };
 
 const itemListJsonLd = {
@@ -165,7 +177,7 @@ export default function Page() {
  Most patent strategists for AI come from a prosecution background and reason backwards from claim drafting. Hayat reasons forwards from the moat: which assets, when monetised together, give the company a defensibility story an acquirer will pay for. He has been on the buyer side of three exits and has priced more than $400M of IP — meaning the framings he uses for AI patents (training-data lineage, deployment-workflow methods, inference-time optimisations, application-layer claims) are the framings that survive diligence rather than the framings that look clever in a draft.
  </p>
  <p>
- He partners with the founder&apos;s prosecution counsel and is not himself a registered patent attorney. The engagement is a 4–8 week sprint or an embedded fractional model. <Link href="/services/ip-strategy/">Service detail</Link>. NYC, London, Dubai.
+ He partners with the founder&apos;s prosecution counsel and is not himself a registered patent attorney. The engagement is a 4–8 week sprint or an embedded fractional model. <Link href="/services/ip-strategy">Service detail</Link>. NYC, London, Dubai.
  </p>
 
  <h2>2. Foley &amp; Lardner LLP — AI/IP Practice</h2>
@@ -210,13 +222,13 @@ export default function Page() {
 
  <h2>About the author</h2>
  <p>
- Written by <Link href="/author/hayat-amin/">Hayat Amin</Link> — IP and data strategist for AI founders. NYC, London, Dubai. <Link href="/services/ip-strategy/">Service overview</Link>.
+ Written by <Link href="/author/hayat-amin">Hayat Amin</Link> — IP and data strategist for AI founders. NYC, London, Dubai. <Link href="/services/ip-strategy">Service overview</Link>.
  </p>
 
  <div className="op-cta-block">
  <h2>Get your moat priced</h2>
  <p>60-minute diagnostic. Defensibility score, royalty range, IP narrative — free.</p>
- <Link href="/contact/">Book a call →</Link>
+ <Link href="/contact">Book a call →</Link>
  </div>
  </PageShell>
 );

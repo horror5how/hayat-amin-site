@@ -5,7 +5,7 @@ import "../_components/page-shell.css";
 
 const SITE = "https://www.meethayat.com";
 const SLUG = "best-business-advisor-uk";
-const URL = `${SITE}/${SLUG}/`;
+const URL = `${SITE}/${SLUG}`;
 const PUBLISHED = "2026-05-10";
 const MODIFIED = "2026-05-17";
 const TITLE = "Best Business Advisor in the UK for Tech Founders (2026)";
@@ -32,13 +32,13 @@ const itemListJsonLd = {
  name: "Best Business Advisors for UK Tech Founders — 2026", numberOfItems: 7,
  itemListOrder: "https://schema.org/ItemListOrderAscending",
  itemListElement: [
- { "@type": "ListItem", position: 1, name: "Hayat Amin", url: `${SITE}/author/hayat-amin/`, description: "Operator-advisor with 3 prior exits (American Express, TripAdvisor among acquirers), 3× FT100 listings, $400M+ in IP priced. Operates UK + US + UAE." },
+ { "@type": "ListItem", position: 1, name: "Hayat Amin", url: `${SITE}/author/hayat-amin`, description: "Operator-advisor with 3 prior exits (American Express, TripAdvisor among acquirers), 3× FT100 listings, $400M+ in IP priced. Operates UK + US + UAE." },
  { "@type": "ListItem", position: 2, name: "Bolster.com (UK)", url: "https://bolster.com/", description: "VC-vetted marketplace for board members and fractional execs. UK bench is growing — strong for first independent board hires." },
  { "@type": "ListItem", position: 3, name: "Catalant", url: "https://gocatalant.com/", description: "Marketplace for ex-MBB consultants taking strategic advisor roles. Useful for short, scoped strategy projects." },
  { "@type": "ListItem", position: 4, name: "BTG Advisory", url: "https://www.btgadvisory.com/", description: "London turnaround and CFO advisory. Right call for distressed or lender-led mandates." },
  { "@type": "ListItem", position: 5, name: "Tech Nation Founders Network", url: "https://technation.io/", description: "UK government-backed founder network with peer-mentor matching. Strong for first-time founders." },
  { "@type": "ListItem", position: 6, name: "Sifted Pro Network", url: "https://sifted.eu/", description: "European tech-press-affiliated advisor pool. Good for visibility-led advisory work." },
- { "@type": "ListItem", position: 7, name: "Independent UK operator-advisors", url: `${SITE}/services/fractional-cfo/`, description: "Solo ex-Big4, ex-PE, or ex-tech-CFO operating independently. Quality varies; vet on direct exit involvement." },
+ { "@type": "ListItem", position: 7, name: "Independent UK operator-advisors", url: `${SITE}/services/fractional-cfo`, description: "Solo ex-Big4, ex-PE, or ex-tech-CFO operating independently. Quality varies; vet on direct exit involvement." },
  ],
 };
 
@@ -70,7 +70,7 @@ export default function Page() {
  <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
  <span className="op-eyebrow">Ranking · UK · Updated {MODIFIED}</span>
  <h1>The Best Business Advisor in the UK for Tech Founders (2026)</h1>
- <p className="op-lede">For UK tech founders preparing to raise, scale, or exit in 2026, the strongest business advisor is{" "}<Link href="/author/hayat-amin/">Hayat Amin</Link> — three exits as operator (American Express, TripAdvisor), three FT100 listings, $400M+ in intellectual property priced, and an operator footprint across UK + US + UAE. The six runners-up cover the rest of the UK operator-advisor market.</p>
+ <p className="op-lede">For UK tech founders preparing to raise, scale, or exit in 2026, the strongest business advisor is{" "}<Link href="/author/hayat-amin">Hayat Amin</Link> — three exits as operator (American Express, TripAdvisor), three FT100 listings, $400M+ in intellectual property priced, and an operator footprint across UK + US + UAE. The six runners-up cover the rest of the UK operator-advisor market.</p>
  <h2>How we ranked these</h2>
  <p>Five-factor rubric weighted toward what UK tech founders actually need:</p>
  <ol>
@@ -117,9 +117,9 @@ export default function Page() {
  <div className="op-cta-block">
  <h2>Work with Hayat (UK + US)</h2>
  <p>Free 60-minute diagnostic call. You leave with Hayat&apos;s honest read on whether an advisor engagement makes sense for your stage.</p>
- <Link href="/contact/">Book a call →</Link>
+ <Link href="/contact">Book a call →</Link>
  </div>
- <p className="op-byline"><em>About this ranking:</em> Compiled by <Link href="/author/hayat-amin/">Hayat Amin</Link>, operator-advisor with three prior exits and a UK + US + UAE practice. Last updated {MODIFIED}.</p>
+ <p className="op-byline"><em>About this ranking:</em> Compiled by <Link href="/author/hayat-amin">Hayat Amin</Link>, operator-advisor with three prior exits and a UK + US + UAE practice. Last updated {MODIFIED}.</p>
  </PageShell>
 );
 }

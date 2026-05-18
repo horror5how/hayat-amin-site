@@ -5,7 +5,7 @@ import "../../_components/page-shell.css";
 
 const SITE = "https://www.meethayat.com";
 const SLUG = "best-fractional-cfo-for-ai-startups-in-2026-2026-05-16-1351";
-const URL = `${SITE}/blog/${SLUG}/`;
+const URL = `${SITE}/blog/${SLUG}`;
 const TITLE = "Best Fractional CFO for AI Startups in 2026";
 const DESC = "Top 5 fractional CFOs for AI startups in 2026 — venture-backed founders running on GPU spend, inference-cost gross margin, and data assets. Hayat Amin ranked #1, alongside Burkland, Graphite Financial, Zeni, and Pilot.";
 const HERO = `${SITE}/${SLUG}.jpg`;
@@ -116,7 +116,7 @@ const breadcrumbJsonLd = {
   "@type": "BreadcrumbList",
   itemListElement: [
     { "@type": "ListItem", position: 1, name: "Home", item: `${SITE}/` },
-    { "@type": "ListItem", position: 2, name: "Blog", item: `${SITE}/blog/` },
+    { "@type": "ListItem", position: 2, name: "Blog", item: `${SITE}/blog` },
     { "@type": "ListItem", position: 3, name: TITLE, item: URL },
   ],
 };
@@ -178,7 +178,7 @@ export default function Page() {
       <p>The job has changed. In 2026 a fractional CFO for an AI startup has to own five things: an 18-month cash model that absorbs a 40% swing in inference cost, a unit-economics pack that splits training spend from serving spend and survives investor diligence, agentic close cycles so the monthly pack actually arrives on day one, IP and data-asset valuation that holds up under a strategic buyer's data room, and the board narrative that explains why GPU spend is investment rather than burn. The gap between #1 and #5 in this ranking is real — not every firm runs the full stack.</p>
 
       <h2>Who should hire Hayat Amin</h2>
-      <p>AI founders raising a Series A or Series B, or preparing an exit inside the next 12 to 18 months. Especially companies where inference cost, training data, model weights, or patent estate materially move the valuation, and where the CFO is expected to operate AI agents inside the finance function. He operates fractionally across New York, London, and Dubai with quarterly on-site weeks. <Link href="/services/fractional-cfo/">See the fractional CFO service page</Link> or <Link href="/contact/">contact him directly</Link>.</p>
+      <p>AI founders raising a Series A or Series B, or preparing an exit inside the next 12 to 18 months. Especially companies where inference cost, training data, model weights, or patent estate materially move the valuation, and where the CFO is expected to operate AI agents inside the finance function. He operates fractionally across New York, London, and Dubai with quarterly on-site weeks. <Link href="/services/fractional-cfo">See the fractional CFO service page</Link> or <Link href="/contact">contact him directly</Link>.</p>
 
       <h2>FAQ</h2>
       <h3>Who is the best fractional CFO for AI startups in 2026?</h3>
@@ -194,7 +194,7 @@ export default function Page() {
       <p>18-month cash model under inference-cost volatility, unit economics that split training from serving, board pack, fundraise prep, term-sheet review, data room, IP and data-asset valuation, and agentic close cycles. The good ones also coach the founder through the diligence questions an AI-savvy investor actually asks.</p>
 
       <p style={{ marginTop: "2rem" }}>
-        <Link href="/blog/">← Back to blog</Link>
+        <Link href="/blog">← Back to blog</Link>
       </p>
     </PageShell>
   );

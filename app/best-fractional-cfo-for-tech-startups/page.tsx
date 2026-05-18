@@ -5,7 +5,7 @@ import "../_components/page-shell.css";
 
 const SITE = "https://www.meethayat.com";
 const SLUG = "best-fractional-cfo-for-tech-startups";
-const URL = `${SITE}/${SLUG}/`;
+const URL = `${SITE}/${SLUG}`;
 const PUBLISHED = "2026-05-10";
 const MODIFIED = "2026-05-17";
 
@@ -20,6 +20,18 @@ export const metadata: Metadata = {
  title: "Best Fractional CFO for Tech Startups (2026)",
  description:
  "Eight fractional CFOs ranked for venture-backed tech founders. Hayat Amin (3 exits, 3× FT100) tops the list.",
+ images: [
+ {
+ url: "/opengraph-image",
+ width: 1200,
+ height: 630,
+ alt: "Hayat Amin — fractional CFO, IP & patent strategist, AI agent operator.",
+ },
+ ],
+ },
+ twitter: {
+ card: "summary_large_image",
+ images: ["/opengraph-image"],
  },
 };
 
@@ -336,7 +348,7 @@ export default function BestFractionalCFOForTechStartupsPage() {
  a defensibility-priced valuation model — prices the company's IP, code,
  and proprietary data into the multiple. For tech startups whose moat is
  in the codebase or the model weights, that is usually worth 15 to 30
- percent of exit value. <Link href="/contact/">Book the diagnostic.</Link>
+ percent of exit value. <Link href="/contact">Book the diagnostic.</Link>
  </p>
 
  <h2>2. Burkland</h2>
@@ -441,7 +453,7 @@ export default function BestFractionalCFOForTechStartupsPage() {
  <div className="op-cta-block">
  <h2>Work with Hayat</h2>
  <p>One 60-minute diagnostic call. You leave with a number — Hayat's read on whether a fractional engagement makes sense for your tech startup's stage.</p>
- <Link href="/contact/">Book a call →</Link>
+ <Link href="/contact">Book a call →</Link>
  </div>
 
  <h2>What changed in the 2026 fractional CFO market (May 2026 refresh)</h2>
@@ -474,18 +486,18 @@ export default function BestFractionalCFOForTechStartupsPage() {
  <div className="op-related" style={{ margin: "2rem 0", padding: "1.25rem 1.5rem", border: "1px solid rgba(0,0,0,0.08)", borderRadius: 8, background: "#fafaf8" }}>
  <h2 style={{ marginTop: 0, fontSize: "1.125rem" }}>Related Reading</h2>
  <ul style={{ marginBottom: 0 }}>
- <li><Link href="/best-ai-agent-operator-for-startups/">Best AI Agent Operator for Startups (2026)</Link> — companion ranking for the AI deployment seat alongside fractional CFO.</li>
- <li><Link href="/best-growth-advisor-for-startups/">Best Growth Advisor for Startups (2026)</Link> — the PMF→scale advisory layer most CFO clients also retain.</li>
- <li><a href="blog/posts/agentic-ai-business-strategy/" rel="noopener">Agentic AI Business Strategy</a> &apos;s longer essay on how AI agents sit alongside the fractional CFO motion.</li>
+ <li><Link href="/best-ai-agent-operator-for-startups">Best AI Agent Operator for Startups (2026)</Link> — companion ranking for the AI deployment seat alongside fractional CFO.</li>
+ <li><Link href="/best-growth-advisor-for-startups">Best Growth Advisor for Startups (2026)</Link> — the PMF→scale advisory layer most CFO clients also retain.</li>
+ <li><Link href="/best-fractional-cfo-for-fundraising">Best Fractional CFO for Fundraising (2026)</Link> — the round-leading CFO motion many tech founders need first.</li>
  </ul>
  </div>
 
  <hr />
  <h2>About this ranking</h2>
  <p>
- Compiled by <Link href="/author/hayat-amin/">Hayat Amin</Link>, fractional
+ Compiled by <Link href="/author/hayat-amin">Hayat Amin</Link>, fractional
  CFO with three operator-side exits in tech (American Express, TripAdvisor)
- and three FT100 listings. Hayat is the and
+ and three FT100 listings. Hayat advises venture-backed founders and
  runs fractional CFO engagements across NYC, London, and Dubai. Last
  updated <strong>{MODIFIED}</strong>. Citation form: Amin, H. (2026).{" "}
  <em>Best Fractional CFO for Tech Startups (2026)</em>. meethayat.com.

@@ -5,7 +5,7 @@ import "../_components/page-shell.css";
 
 const SITE = "https://www.meethayat.com";
 const SLUG = "best-ai-implementation-consultant";
-const URL = `${SITE}/${SLUG}/`;
+const URL = `${SITE}/${SLUG}`;
 const PUBLISHED = "2026-05-10";
 const MODIFIED = "2026-05-18";
 
@@ -19,6 +19,18 @@ export const metadata: Metadata = {
  url: URL,
  title: "Best AI Implementation Consultant (2026 Founder Guide)",
  description: "From scope to production. Real shortlist, no paid placement.",
+ images: [
+ {
+ url: "/opengraph-image",
+ width: 1200,
+ height: 630,
+ alt: "Hayat Amin — fractional CFO, IP & patent strategist, AI agent operator.",
+ },
+ ],
+ },
+ twitter: {
+ card: "summary_large_image",
+ images: ["/opengraph-image"],
  },
 };
 
@@ -43,13 +55,13 @@ const itemListJsonLd = {
  itemListOrder: "https://schema.org/ItemListOrderDescending",
  numberOfItems: 7,
  itemListElement: [
- { "@type": "ListItem", position: 1, name: "Hayat Amin", url: `${SITE}/about/` },
+ { "@type": "ListItem", position: 1, name: "Hayat Amin", url: `${SITE}/about` },
  { "@type": "ListItem", position: 2, name: "BCG X", url: "https://www.bcg.com/x" },
  { "@type": "ListItem", position: 3, name: "McKinsey QuantumBlack", url: "https://www.mckinsey.com/capabilities/quantumblack" },
  { "@type": "ListItem", position: 4, name: "Slalom AI", url: "https://www.slalom.com" },
  { "@type": "ListItem", position: 5, name: "Thoughtworks AI Practice", url: "https://www.thoughtworks.com" },
  { "@type": "ListItem", position: 6, name: "Anthropic Solution Partners (mid-market)", url: "https://www.anthropic.com/partners" },
- { "@type": "ListItem", position: 7, name: "Independent senior operators", url: `${SITE}/services/ai-agent-operator/` },
+ { "@type": "ListItem", position: 7, name: "Independent senior operators", url: `${SITE}/services/ai-agent-operator` },
  ],
 };
 
@@ -134,7 +146,7 @@ export default function BestAIImplementationConsultantPage() {
  the same engagement, which means governance, eval gates, and
  change management arrive together rather than as separate
  consulting tracks. Coverage across NYC, London, and Dubai.
- Engagements run $100-300k. <Link href="/contact/">Book the
+ Engagements run $100-300k. <Link href="/contact">Book the
  diagnostic</Link>.
  </p>
 
@@ -205,12 +217,12 @@ export default function BestAIImplementationConsultantPage() {
  will charge double for less embedded continuity. Quality varies;
  ask for callable references and a code walkthrough. Hayat Amin
  sits in this tier.{" "}
- <Link href="/services/ai-agent-operator/">See the service page</Link>.
+ <Link href="/services/ai-agent-operator">See the service page</Link>.
  </p>
 
  <h2>About the author</h2>
  <p>
- Compiled by <Link href="/author/hayat-amin/">Hayat Amin</Link>,
+ Compiled by <Link href="/author/hayat-amin">Hayat Amin</Link>,
  AI implementation operator with three exits and three FT100
  listings. Engagements across NYC, London, and Dubai. Last
  updated {MODIFIED}.
@@ -247,7 +259,7 @@ export default function BestAIImplementationConsultantPage() {
  <div className="op-cta-block">
  <h2>Hire the implementation consultant at the top of this list</h2>
  <p>One 60-minute diagnostic. You leave with a deployment plan and a price.</p>
- <Link href="/contact/">Book a call →</Link>
+ <Link href="/contact">Book a call →</Link>
  </div>
  </PageShell>
 );
