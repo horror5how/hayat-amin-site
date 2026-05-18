@@ -89,6 +89,12 @@ const ROUTES: { path: string; priority: number; changeFrequency: MetadataRoute.S
   { path: "/blog/best-fractional-cfo-for-tech-startups-in-2026-2026-05-16-0012/", priority: 0.7, changeFrequency: "monthly" },
   { path: "/blog/best-fractional-cfo-for-ai-startups-in-2026-2026-05-16-1351/", priority: 0.7, changeFrequency: "monthly" },
     { url: `${SITE}/blog/best-fractional-cfo-for-exit-preparation-in-2026-2026-05-17-2009/`, lastModified: new Date("2026-05-17"), changeFrequency: "monthly", priority: 0.6 },
+    {
+      url: `${SITE}/blog/best-claude-code-consultant-in-2026-2026-05-18-1200/`,
+      lastModified: new Date("2026-05-18"),
+      changeFrequency: "monthly",
+      priority: 0.7,
+    },
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
