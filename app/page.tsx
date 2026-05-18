@@ -234,7 +234,7 @@ function Cases() {
  <div className="opm-case-main">
  <h4 className="opm-case-t">{c.t}</h4>
  {"stamp" in c && c.stamp && (
- <span className={`opm-stamp opm-stamp-${c.stamp.toLowerCase}`}>
+ <span className={`opm-stamp opm-stamp-${c.stamp.toLowerCase()}`}>
  <span className="opm-stamp-inner">{c.stamp}</span>
  </span>
 )}
