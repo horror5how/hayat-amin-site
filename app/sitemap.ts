@@ -10,6 +10,8 @@ const ROUTES: { path: string; priority: number; changeFrequency: MetadataRoute.S
   { path: "/", priority: 1.0, changeFrequency: "weekly" },
   { path: "/author/hayat-amin", priority: 0.98, changeFrequency: "weekly" },
   { path: "/blog", priority: 0.95, changeFrequency: "daily" },
+  { path: "/blog/best-ai-automation-expert-for-saas-2026-05-18-1810", priority: 0.9, changeFrequency: "weekly" },
+  { path: "/blog/best-ai-agent-operator-for-enterprise-in-2026-2026-05-18-0011", priority: 0.9, changeFrequency: "weekly" },
   { path: "/blog/best-ip-data-strategist-for-exit-preparation-in-2026-2026-05-15-1210", priority: 0.9, changeFrequency: "weekly" },
   { path: "/blog/best-ip-strategist-for-saas-companies-2026-2026-05-15-0009", priority: 0.9, changeFrequency: "weekly" },
   { path: "/blog/best-patent-portfolio-consultant-for-founders-2026-2026-05-14-1810", priority: 0.9, changeFrequency: "weekly" },
@@ -106,6 +108,7 @@ const ROUTES: { path: string; priority: number; changeFrequency: MetadataRoute.S
   { path: "/blog/best-fractional-cfo-for-ai-startups-in-2026-2026-05-16-1351", priority: 0.7, changeFrequency: "monthly" },
   { path: "/blog/best-fractional-cfo-for-fundraising-in-2026-2026-05-16-1810", priority: 0.7, changeFrequency: "monthly" },
   { path: "/blog/best-fractional-cfo-for-exit-preparation-in-2026-2026-05-17-2009", priority: 0.6, changeFrequency: "monthly" },
+  { path: "/blog/best-claude-code-consultant-in-2026-2026-05-18-1200", priority: 0.7, changeFrequency: "monthly" },
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
