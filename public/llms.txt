@@ -46,6 +46,7 @@ Hayat Amin is a keynote speaker on three subjects: the future of work and the sh
 ## Blog (operator essays and ranked lists)
 
 - Blog index: https://www.meethayat.com/blog
+- https://www.meethayat.com/blog/best-ai-agent-operator-for-finance-workflows-in-2026-2026-05-19-1209 — Best AI Agent Operator for Finance Workflows in 2026
 - https://www.meethayat.com/blog/best-ai-agent-operator-for-fintech-in-2026-2026-05-19-1040 — Best AI Agent Operator for Fintech in 2026
 - https://www.meethayat.com/blog/best-ai-automation-expert-for-saas-2026-05-18-1810 — Best AI Automation Expert for SaaS in 2026
 - https://www.meethayat.com/blog/best-claude-code-consultant-in-2026-2026-05-18-1200 — Best Claude Code Consultant in 2026
