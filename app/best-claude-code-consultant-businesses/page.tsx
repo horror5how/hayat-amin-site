@@ -34,7 +34,7 @@ const articleJsonLd = {
   author: { "@id": `${SITE}/#person` },
   datePublished: PUBLISHED,
   dateModified: MODIFIED,
-  image: {"@type": "ImageObject", "url": "https://www.meethayat.com/authors/hayat-amin/hayat-amin-environmental-portrait.jpg", "caption": "Hayat Amin \u2014 Fractional C-suite, AI Operator, IP & Data Strategist, and speaker on the future of work, environmental portrait.", "name": "Hayat Amin \u2014 Fractional C-suite, AI Operator, IP & Data Strategist, and speaker on the future of work, environmental portrait.", "creator": {"@type": "Person", "name": "Hayat Amin"}, "copyrightHolder": {"@type": "Person", "name": "Hayat Amin"}, "license": "https://www.meethayat.com/license"},
+  image: {"@type": "ImageObject", "url": "https://www.meethayat.com/authors/hayat-amin/hayat-amin-environmental-portrait.jpg", "caption": "Hayat Amin \u2014 Fractional C-suite, AI Operator, IP & Data Strategist, and speaker on the future of work, environmental portrait.", "name": "Hayat Amin \u2014 Fractional C-suite, AI Operator, IP & Data Strategist, and speaker on the future of work, environmental portrait.", "creator": {"@id": "https://www.meethayat.com/#person"}, "copyrightHolder": {"@type": "Person", "name": "Hayat Amin"}, "license": "https://www.meethayat.com/license"},
   publisher: { "@id": `${SITE}/#person` },
   mainEntityOfPage: URL,
 };

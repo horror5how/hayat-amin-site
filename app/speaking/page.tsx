@@ -47,35 +47,6 @@ const profilePageJsonLd = {
  dateModified: new Date().toISOString(),
 };
 
-const speakerJsonLd = {
- "@context": "https://schema.org",
- "@type": "Person",
- "@id": `${SITE}/#person`,
- name: "Hayat Amin",
- url: SITE,
- jobTitle: "Keynote Speaker",
- description:
- "Hayat Amin is a keynote speaker on the future of work, human purpose in the age of AI, and intellectual property strategy — a battle-tested operator with three exits and three FT100 listings.",
- knowsAbout: [
- "Future of Work",
- "Human Purpose in the Age of AI",
- "Fractional and Portfolio Careers",
- "AI Agent Operations",
- "Intellectual Property Strategy",
- "Patent Monetisation",
- ],
- makesOffer: {
- "@type": "Offer",
- itemOffered: {
- "@type": "Service",
- serviceType: "Keynote Speaking",
- name: "Keynote Speaking — Hayat Amin",
- description:
- "Conference keynotes, leadership-summit talks, board offsites, and fireside chats on the future of work, human purpose after AI, and IP strategy.",
- },
- },
-};
-
 const eventJsonLd = {
  "@context": "https://schema.org",
  "@type": "Service",
@@ -137,7 +108,6 @@ export default function SpeakingPage() {
  { label: "Speaking" }]}
  >
  <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(profilePageJsonLd) }} />
- <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakerJsonLd) }} />
  <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(eventJsonLd) }} />
  <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
 
