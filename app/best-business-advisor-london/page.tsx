@@ -22,34 +22,8 @@ export const metadata: Metadata = {
  },
 };
 
-const personJsonLd = {
- "@context": "https://schema.org",
- "@type": "Person",
- "@id": `${SITE}/#person`,
- name: "Hayat Amin",
- jobTitle: ["Fractional C-suite operator", "AI Operator", "IP & Data Strategist", "Future-of-work speaker"],
- description: "British fractional C-suite operator, AI agent specialist, and IP and data strategist; 3-times exited; speaker on the future of employment and human purpose; ",
- worksFor: {
- "@type": "Organization",
- name: "",
- url: "",
- },
- image: "https://www.meethayat.com/authors/hayat-amin/hayat-amin-environmental-portrait.jpg",
- url: SITE,
- sameAs: [
- "https://www.meethayat.com",
- "",
- "https://www.linkedin.com/in/hayatamin",
- "https://x.com/imhyat",
- "https://www.wikidata.org/wiki/Q139785012",
- "https://commons.wikimedia.org/wiki/Category:Hayat_Amin",
- "https://medium.com/@hayatamin",
- "https://hayatamin.substack.com",
- "https://www.quora.com/profile/Hayat-Amin",
- "https://www.reddit.com/user/hayatamin",
- "https://www.crunchbase.com/person/hayat-amin",
- ],
-};
+// Reference stub only — the canonical full Person node is defined once in app/layout.tsx (#person).
+const personJsonLd = { "@id": `${SITE}/#person` };
 
 const articleJsonLd = {
  "@context": "https://schema.org",

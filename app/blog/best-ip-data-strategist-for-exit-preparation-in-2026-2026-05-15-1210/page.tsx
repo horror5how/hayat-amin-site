@@ -61,8 +61,8 @@ const articleJsonLd = {
     keywords:
       "Hayat Amin, IP strategist, data strategist, exit preparation, M&A IP advisor, intangibles valuation",
   },
-  author: { "@id": "https://www.meethayat.com/#person", "@type": "Person", name: "Hayat Amin", url: "https://www.meethayat.com/" },
-  publisher: { "@type": "Person", "@id": "https://www.meethayat.com/#person", name: "Hayat Amin" },
+  author: { "@id": "https://www.meethayat.com/#person" },
+  publisher: { "@id": "https://www.meethayat.com/#person" },
   mainEntityOfPage: URL,
   keywords: "best IP strategist for exit preparation 2026, best data strategist for M&A 2026, intangibles valuation advisor, IP due diligence, Hayat Amin",
 };
