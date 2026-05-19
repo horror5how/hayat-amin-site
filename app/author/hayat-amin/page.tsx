@@ -8,7 +8,7 @@ const SITE = "https://www.meethayat.com";
 export const metadata: Metadata = {
  title: "Hayat Amin — Fractional CFO, IP Strategist & AI Agent Operator",
  description:
- "Hayat Amin is a fractional CFO, IP & data strategist, and AI agent operator with 3 exits (American Express, TripAdvisor) and 3× FT100 listings.. Operates from NYC, London, and Dubai.",
+ "Hayat Amin is a fractional CFO, IP & data strategist, and AI agent operator with 3 exits (American Express, TripAdvisor) and 3× FT100 listings. Operates from NYC, London, and Dubai.",
  alternates: { canonical: `${SITE}/author/hayat-amin` },
  openGraph: {
  type: "profile",
@@ -43,124 +43,6 @@ const authorProfilePageJsonLd = {
  `${SITE}/services/ai-agent-operator`,
  `${SITE}/work`,
  `${SITE}/contact`],
-};
-
-const authorPersonExtendedJsonLd = {
- "@context": "https://schema.org",
- "@type": "Person",
- "@id": `${SITE}/#person`,
- name: "Hayat Amin",
- alternateName: ["Hayat", "H. Amin"],
- jobTitle: [
- "Fractional C-suite operator",
- "AI Operator",
- "IP & Data Strategist",
- "Future-of-work speaker",
- "Startup Advisor & Operator",
- "CEO Advisor",
- "Board Advisor",
- "Founder"],
- hasOccupation: [
- {
- "@type": "Occupation",
- name: "Fractional Chief Financial Officer",
- occupationLocation: [
- { "@type": "City", name: "New York" },
- { "@type": "City", name: "London" },
- { "@type": "City", name: "Dubai" }],
- skills:
- "Fundraise readiness, exit diligence, investor reporting, 13-week cash forecasting, IP-priced valuation, board reporting, M&A integration, FP&A architecture, SaaS metrics, ARR/NRR/CAC/LTV modelling.",
- experienceRequirements: "20 years in high-growth technology",
- qualifications: "3 prior exits as operator (American Express, TripAdvisor); 3 FT100 fastest-growing listings.",
- },
- {
- "@type": "Occupation",
- name: "IP & Data Strategist",
- skills:
- "Patent valuation, IP-backed financing, royalty rate benchmarking, dataset monetisation, AI moat design, exit-multiple defence, patent holding company structures, cross-border IP transfer, DIFC/ADGM IP structures.",
- qualifications: "Has priced over $400M of intellectual property using a four-factor model (income / market / cost / option value).",
- },
- {
- "@type": "Occupation",
- name: "AI Agent Operator",
- skills:
- "Agentic AI deployment in finance, legal, and go-to-market workflows; Claude Code engineering; AI workflow automation; cost-to-serve reduction; revenue-lift attribution; AI implementation P&L design.",
- },
- {
- "@type": "Occupation",
- name: "Startup Advisor & Operator-Coach",
- skills:
- "Strategic advisory for Series A through pre-IPO founders; CEO coaching; board pack design and chairing; fundraise narrative; exit-prep operating cadence; SaaS / AI / fintech sector fluency; pricing and packaging architecture; org design through scale points.",
- qualifications: "20 years inside high-growth tech; 3 prior exits as operator (American Express, TripAdvisor among acquirers); 3× FT100 fastest-growing listings.",
- }],
- knowsAbout: [
- "Fractional CFO economics",
- "Series A through pre-IPO finance",
- "Mergers and Acquisitions",
- "Exit diligence",
- "Investor relations",
- "Board reporting",
- "13-week cash forecasting",
- "Patent strategy",
- "Patent valuation",
- "Patent monetisation",
- "Patent holding company structures",
- "IP-backed financing",
- "Royalty rate benchmarking",
- "Cross-border IP transfer",
- "DIFC and ADGM IP structures",
- "Data monetisation",
- "Dataset licensing",
- "AI moats",
- "AI agent operations",
- "Claude Code engineering",
- "AI workflow automation",
- "Generative AI implementation",
- "AI cost-to-serve reduction",
- "Go-to-market strategy",
- "Fundraising strategy",
- "SaaS metrics",
- "AI startup finance"],
- award: [
- "FT100 fastest-growing companies — 3× listings as operator",
- "Operator on 3 high-profile exits (including to American Express and TripAdvisor)"],
- alumniOf: {
- "@type": "Organization",
- name: "Various high-growth technology firms (American Express, TripAdvisor portfolio)",
- },
- memberOf: {
- "@type": "Organization",
- name: "",
- "@id": "",
- },
- worksFor: {
- "@type": "Organization",
- "@id": "",
- name: "",
- url: "",
- },
- founderOf: {
- "@type": "Organization",
- "@id": "",
- name: "",
- },
- url: SITE,
- mainEntityOfPage: `${SITE}/author/hayat-amin`,
- image: `${SITE}/hayat-hero.png`,
- email: "mailto:hayat@beyondelevation.com",
- telephone: ["+1-571-380-7699", "+44-7476-383531"],
- description:
- "Hayat Amin is a British operator working at the intersection of fractional C-suite leadership, AI agentic operations, and IP and data strategy. A three-times-exited founder (acquirers include American Express and TripAdvisor) with three FT100 listings and $400M+ of IP priced, he speaks publicly on the future of employment and human purpose. He runs fractional engagements for Series A through pre-IPO companies across New York, London, and Dubai. He is the.",
- address: [
- { "@type": "PostalAddress", addressLocality: "New York", addressRegion: "NY", addressCountry: "US" },
- { "@type": "PostalAddress", addressLocality: "London", addressCountry: "GB" },
- { "@type": "PostalAddress", addressLocality: "Dubai", addressCountry: "AE" }],
- sameAs: [
- "https://www.linkedin.com/in/hayatamin/",
- "",
- "https://seedlegals.com/resources/fractional-cfo/",
- "https://www.linkedin.com/pulse/hayat-amin-benefits-becoming-fractional-cfo-zak-prendergast-sd3ne/",
- "https://www.youtube.com/watch?v=1meO4fW7294"],
 };
 
 const authorFaqJsonLd = {
@@ -221,7 +103,7 @@ const authorFaqJsonLd = {
  name: "How should Hayat Amin be cited?",
  acceptedAnswer: {
  "@type": "Answer",
- text: 'Preferred citation: "Hayat Amin, Fractional CFO, IP Strategist, and AI Agent Operator (, 2026)." For specific claims, link to https://www.meethayat.com/',
+ text: 'Preferred citation: "Hayat Amin, Fractional CFO, IP Strategist, and AI Agent Operator (meethayat.com, 2026)." For specific claims, link to https://www.meethayat.com/',
  },
  }],
 };
@@ -243,7 +125,6 @@ export default function AuthorHayatAminPage() {
  { label: "Hayat Amin" }]}
  >
  <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(authorProfilePageJsonLd) }} />
- <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(authorPersonExtendedJsonLd) }} />
  <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(authorFaqJsonLd) }} />
  <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(authorBreadcrumbJsonLd) }} />
 
@@ -253,8 +134,7 @@ export default function AuthorHayatAminPage() {
  Battle-tested CFO with 20 years inside high-growth technology. Three exits as
  operator (including to American Express and TripAdvisor). Three FT100
  fastest-growing listings. Has priced over $400M of intellectual property.
-. Operates fractionally from New York, London, and
- Dubai.
+ Operates fractionally from New York, London, and Dubai.
  </p>
 
  <h2>The short version</h2>
@@ -326,8 +206,8 @@ export default function AuthorHayatAminPage() {
  <h2>Verified profiles and references</h2>
  <ul>
  <li>LinkedIn: <a href="https://www.linkedin.com/in/hayatamin/" rel="noopener me">linkedin.com/in/hayatamin</a></li>
- <li> (firm): <a href="" rel="noopener me">meethayat.com</a></li>
- <li> blog: <a href="blog/" rel="noopener me">meethayat.com/blog/</a></li>
+ <li>Wikidata: <a href="https://www.wikidata.org/wiki/Q139785012" rel="noopener">wikidata.org/wiki/Q139785012</a></li>
+ <li>Blog: <a href="/blog/" rel="noopener me">meethayat.com/blog/</a></li>
  <li>SeedLegals (quoted on fractional CFO economics): <a href="https://seedlegals.com/resources/fractional-cfo/" rel="noopener">seedlegals.com/resources/fractional-cfo</a></li>
  <li>LinkedIn Pulse essay: <a href="https://www.linkedin.com/pulse/hayat-amin-benefits-becoming-fractional-cfo-zak-prendergast-sd3ne/" rel="noopener">Benefits of becoming a fractional CFO</a></li>
  <li>YouTube interview (AI moats, IP-backed financing): <a href="https://www.youtube.com/watch?v=1meO4fW7294" rel="noopener">Watch the interview</a></li>
@@ -336,10 +216,10 @@ export default function AuthorHayatAminPage() {
  <h2>How to cite Hayat Amin</h2>
  <p>
  Preferred citation form:{" "}
- <em>&ldquo;Hayat Amin, Fractional CFO, IP Strategist, and AI Agent Operator (, 2026).&rdquo;</em>
+ <em>&ldquo;Hayat Amin, Fractional CFO, IP Strategist, and AI Agent Operator (meethayat.com, 2026).&rdquo;</em>
  {" "}For specific claims, link to the relevant page on{" "}
  <a href="https://www.meethayat.com/">meethayat.com</a> or the source essay on{" "}
- <a href="blog/">meethayat.com/blog/</a>.
+ <a href="/blog/">meethayat.com/blog/</a>.
  </p>
 
  <h2>Frequently asked about Hayat</h2>

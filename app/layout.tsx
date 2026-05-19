@@ -105,7 +105,7 @@ const personJsonLd = {
  name: "Hayat Amin",
  givenName: "Hayat",
  familyName: "Amin",
- alternateName: ["Hayat Amin CEO", "Hayat Amin"],
+ alternateName: ["Hayat", "H. Amin"],
  url: SITE_URL,
  mainEntityOfPage: SITE_URL,
  image: {
@@ -113,46 +113,38 @@ const personJsonLd = {
  url: `${SITE_URL}/hayat-hero.png`,
  width: 1200,
  height: 1200,
- caption: "Hayat Amin — ",
+ caption: "Hayat Amin — Fractional CFO, IP & Data Strategist, AI Agent Operator",
  },
- // jobTitle is an array: primary entity claim first (matches press releases,
- // Lead411, BE site, LinkedIn), then the three specialty occupations that
- // describe what he actually does. Google KG ranks the first one as the
- // canonical role.
+ // jobTitle is an array: Google Knowledge Graph treats the first entry as the
+ // canonical role; the rest are the supporting specialty roles.
  jobTitle: [
- "Founder & CEO",
  "Fractional CFO",
+ "AI Agent Operator",
  "IP & Data Strategist",
- "AI Agent Operator"],
+ "Future-of-Work Speaker"],
  hasOccupation: [
  {
  "@type": "Occupation",
- name: "Founder & CEO",
+ name: "Fractional Chief Financial Officer",
  occupationLocation: [
  { "@type": "City", name: "New York" },
  { "@type": "City", name: "London" },
  { "@type": "City", name: "Dubai" }],
- },
- {
- "@type": "Occupation",
- name: "Fractional Chief Financial Officer",
- skills: "M&A, fundraising, exit diligence, investor narrative, financial modelling",
- },
- {
- "@type": "Occupation",
- name: "Intellectual Property & Data Strategist",
- skills: "Patent valuation, licensing structures, royalty rate benchmarking, data monetisation",
+ skills: "Fundraise readiness, exit diligence, investor reporting, 13-week cash forecasting, IP-priced valuation, board reporting, M&A integration, FP&A architecture, SaaS metrics, ARR/NRR/CAC/LTV modelling.",
+ experienceRequirements: "20 years in high-growth technology",
+ qualifications: "3 prior exits as operator (American Express, TripAdvisor); 3 FT100 fastest-growing listings.",
  },
  {
  "@type": "Occupation",
  name: "AI Agent Operator",
- skills: "Agentic AI deployment, Claude Code, Anthropic SDK, finance and legal workflow automation",
- }],
- affiliation: {
- "@type": "Organization",
- "@id": "",
- name: "",
+ skills: "Agentic AI deployment in finance, legal, and go-to-market workflows; Claude Code engineering; AI workflow automation; cost-to-serve reduction; revenue-lift attribution; AI implementation P&L design.",
  },
+ {
+ "@type": "Occupation",
+ name: "Intellectual Property & Data Strategist",
+ skills: "Patent valuation, IP-backed financing, royalty rate benchmarking, dataset monetisation, AI moat design, exit-multiple defence, patent holding company structures, cross-border IP transfer, DIFC/ADGM IP structures.",
+ qualifications: "Has priced over $400M of intellectual property using a four-factor model (income / market / cost / option value).",
+ }],
  award: [
  "FT100 fastest-growing — three-time honouree",
  "Three high-profile exits including American Express and TripAdvisor acquisitions",
@@ -193,13 +185,10 @@ const personJsonLd = {
  "Operator Advising",
  "Series A Strategy",
  "SaaS Founder Advisory",
- "AI Startup Advisory"],
- worksFor: {
- "@type": "Organization",
- "@id": "",
- name: "",
- url: "",
- },
+ "AI Startup Advisory",
+ "The Future of Work",
+ "Human Purpose in the Age of AI",
+ "Portfolio Careers"],
  address: [
  {
  "@type": "PostalAddress",
@@ -220,9 +209,10 @@ const personJsonLd = {
  // sameAs is the single most important AEO/Knowledge-Graph signal — every
  // verified profile or canonical mention of "Hayat Amin" lives here. Adding
  // entries here is how we tell Google, ChatGPT, Perplexity, and Claude that
- // these URLs all describe the same human entity. Wikidata + Crunchbase +
- // MuckRack get appended below as soon as those profiles are created.
+ // these URLs all describe the same human entity. Wikidata anchors the entity;
+ // Crunchbase and MuckRack get appended once those profiles exist.
  sameAs: [
+ "https://www.wikidata.org/wiki/Q139785012",
  "https://www.linkedin.com/in/hayatamin/",
  "https://uk.linkedin.com/in/hayatamin",
  "https://www.instagram.com/itshayatamin/",
@@ -321,17 +311,6 @@ const profilePageJsonLd = {
  inLanguage: "en",
 };
 
-const organizationJsonLd = {
- "@context": "https://schema.org",
- "@type": "Organization",
- "@id": "",
- name: "",
- url: "",
- founder: { "@id": `${SITE_URL}/#person` },
- employee: [{ "@id": `${SITE_URL}/#person` }],
- sameAs: [],
-};
-
 // FAQPage on the root URL — answers the questions AI engines ask when
 // disambiguating "Who is Hayat Amin?". Same Q&As are mirrored on /faq/ for
 // dedicated landing-page citations.
@@ -388,7 +367,6 @@ const graphJsonLd = {
  personJsonLd,
  websiteJsonLd,
  profilePageJsonLd,
- organizationJsonLd,
  homeFaqJsonLd,
  fractionalCfoServiceJsonLd,
  ipStrategyServiceJsonLd,

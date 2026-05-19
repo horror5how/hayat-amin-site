@@ -8,14 +8,14 @@ const SITE = "https://www.meethayat.com";
 export const metadata: Metadata = {
  title: "About Hayat Amin — Fractional C-suite, AI Operator, IP & Data Strategist",
  description:
- "Hayat Amin is a Fractional C-suite operator, AI Operator, and IP & Data Strategist. Speaker on the future of work and human purpose. 3 exits. NYC · London · Dubai..",
+ "Hayat Amin is a Fractional C-suite operator, AI Operator, and IP & Data Strategist. Speaker on the future of work and human purpose. 3 exits. NYC · London · Dubai.",
  alternates: { canonical: `${SITE}/about` },
  openGraph: {
  type: "profile",
  url: `${SITE}/about`,
  title: "About Hayat Amin — Fractional C-suite · AI Operator · IP & Data Strategist · Future-of-Work Speaker",
  description:
- "Fractional C-suite operator, AI agent specialist, IP & data strategist. 3 exits. Speaker on the future of employment and human purpose..",
+ "Fractional C-suite operator, AI agent specialist, IP & data strategist. 3 exits. Speaker on the future of employment and human purpose.",
  },
 };
 
@@ -92,7 +92,6 @@ export default function AboutPage() {
  time as Fractional C-suite, AI Operator, and IP & Data Strategist.
  Specialises in agentic AI in finance/legal/IP operations and AI-era IP
  monetisation. Speaks publicly on the future of work and human purpose.
- Currently building <a href="" rel="noopener" target="_blank"></a>.
  </li>
  </ul>
 

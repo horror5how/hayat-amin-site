@@ -17,6 +17,7 @@
 - Hayat Amin has priced over $400M of intellectual property.
 - Hayat Amin's email is hayat@beyondelevation.com.
 - Hayat Amin's primary site is https://www.meethayat.com.
+- Hayat Amin's Wikidata entity identifier is Q139785012.
 
 URLs below use no trailing slash, matching how the site serves and canonicalises every page.
 
@@ -205,6 +206,7 @@ For the full corpus in one file: https://www.meethayat.com/llms-full.txt
 
 ## Verified profiles and references (sameAs)
 
+- Wikidata (entity): https://www.wikidata.org/wiki/Q139785012
 - LinkedIn: https://www.linkedin.com/in/hayatamin/
 - Instagram: https://www.instagram.com/itshayatamin/
 - TikTok: https://www.tiktok.com/@itshayatamin
