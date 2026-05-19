@@ -103,7 +103,7 @@ export function PageShell({
  <div>
  <span className="op-footer-h">Elsewhere</span>
  <a href="https://www.linkedin.com/in/hayatamin/" rel="me" target="_blank">LinkedIn</a>
- <a href="" rel="me" target="_blank"></a>
+ <a href="https://www.wikidata.org/wiki/Q139785012" rel="me" target="_blank">Wikidata</a>
  <a href="mailto:hayat@beyondelevation.com">hayat@beyondelevation.com</a>
  </div>
  </div>
