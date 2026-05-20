@@ -1,9 +1,16 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import { PageShell } from "../_components/PageShell";
 import "../_components/page-shell.css";
 
 const SITE = "https://www.meethayat.com";
+const PORTRAIT = "/authors/hayat-amin/hayat-amin-fractional-cfo-headshot.jpg";
+const PORTRAIT_ABS = `${SITE}${PORTRAIT}`;
+const PORTRAIT_ALT =
+ "Hayat Amin — Fractional CFO, AI Operator, IP & Data Strategist. NYC · London · Dubai.";
+const PORTRAIT_CAPTION =
+ "Hayat Amin — Fractional C-suite operator, AI Operator, IP & Data Strategist, and speaker on the future of work and human purpose. Three exits (American Express, TripAdvisor) and three FT100 listings.";
 
 export const metadata: Metadata = {
  title: "About Hayat Amin — Fractional C-suite & AI Operator",
@@ -16,7 +23,93 @@ export const metadata: Metadata = {
  title: "About Hayat Amin — Fractional C-suite · AI Operator · IP & Data Strategist · Future-of-Work Speaker",
  description:
  "Fractional C-suite operator, AI agent specialist, IP & data strategist. 3 exits. Speaker on the future of employment and human purpose.",
+ images: [
+ {
+ url: PORTRAIT_ABS,
+ width: 768,
+ height: 1024,
+ alt: PORTRAIT_ALT,
+ type: "image/jpeg",
+ }],
  },
+ twitter: {
+ card: "summary_large_image",
+ title: "About Hayat Amin — Fractional CFO, IP Strategist, AI Operator",
+ description:
+ "Fractional C-suite · AI Operator · IP & Data Strategist · Speaker on the future of work. 3 exits. NYC · London · Dubai.",
+ images: [
+ {
+ url: PORTRAIT_ABS,
+ alt: PORTRAIT_ALT,
+ width: 768,
+ height: 1024,
+ }],
+ },
+};
+
+const portraitImageObject = {
+ "@context": "https://schema.org",
+ "@type": "ImageObject",
+ "@id": `${SITE}/about/#portrait`,
+ contentUrl: PORTRAIT_ABS,
+ url: PORTRAIT_ABS,
+ width: 768,
+ height: 1024,
+ encodingFormat: "image/jpeg",
+ name: "Hayat Amin — Fractional CFO headshot",
+ caption: PORTRAIT_CAPTION,
+ description: PORTRAIT_CAPTION,
+ representativeOfPage: true,
+ creator: { "@id": `${SITE}/#person` },
+ copyrightHolder: { "@type": "Person", name: "Hayat Amin" },
+ license: `${SITE}/license`,
+ acquireLicensePage: `${SITE}/contact`,
+ creditText: "Hayat Amin",
+ about: { "@id": `${SITE}/#person` },
+};
+
+const personJsonLd = {
+ "@context": "https://schema.org",
+ "@type": "Person",
+ "@id": `${SITE}/#person`,
+ name: "Hayat Amin",
+ givenName: "Hayat",
+ familyName: "Amin",
+ alternateName: ["Hayat", "H. Amin"],
+ url: SITE,
+ mainEntityOfPage: `${SITE}/about`,
+ image: { "@id": `${SITE}/about/#portrait` },
+ jobTitle: [
+ "Fractional C-suite",
+ "AI Operator",
+ "IP & Data Strategist",
+ "Future-of-Work Speaker",
+ ],
+ description:
+ "Hayat Amin is a fractional C-suite operator, AI agent operator, and IP & data strategist. Three exits (American Express, TripAdvisor) and three FT100 listings. Speaks publicly on the future of work and human purpose in a post-AI economy.",
+ worksFor: { "@type": "Organization", name: "Beyond Elevation" },
+ knowsAbout: [
+ "Fractional CFO",
+ "IP strategy",
+ "Patent valuation",
+ "Data monetisation",
+ "AI agent operations",
+ "M&A and exits",
+ "Future of work",
+ ],
+ sameAs: [
+ "https://www.wikidata.org/wiki/Q139785012",
+ "https://en.wikipedia.org/wiki/Draft:Hayat_Amin",
+ "https://www.linkedin.com/in/hayatamin/",
+ "https://x.com/itshayatamin",
+ "https://www.instagram.com/itshayatamin/",
+ "https://www.tiktok.com/@itshayatamin",
+ "https://medium.com/@hayatamin",
+ "https://hayatamin.substack.com",
+ "https://www.quora.com/profile/Hayat-Amin",
+ "https://www.crunchbase.com/person/hayat-amin",
+ "https://www.youtube.com/watch?v=1meO4fW7294",
+ ],
 };
 
 const profilePageJsonLd = {
@@ -27,6 +120,8 @@ const profilePageJsonLd = {
  name: "About Hayat Amin",
  mainEntity: { "@id": `${SITE}/#person` },
  about: { "@id": `${SITE}/#person` },
+ primaryImageOfPage: { "@id": `${SITE}/about/#portrait` },
+ image: { "@id": `${SITE}/about/#portrait` },
  inLanguage: "en",
  isPartOf: { "@id": `${SITE}/#website` },
  dateModified: new Date().toISOString(),
@@ -43,9 +138,48 @@ export default function AboutPage() {
  type="application/ld+json"
  dangerouslySetInnerHTML={{ __html: JSON.stringify(profilePageJsonLd) }}
  />
+ <script
+ type="application/ld+json"
+ dangerouslySetInnerHTML={{ __html: JSON.stringify(personJsonLd) }}
+ />
+ <script
+ type="application/ld+json"
+ dangerouslySetInnerHTML={{ __html: JSON.stringify(portraitImageObject) }}
+ />
 
  <span className="op-eyebrow">About</span>
  <h1>Hayat Amin — Fractional C-suite, AI Operator, IP &amp; Data Strategist.</h1>
+
+ <figure
+ className="op-portrait"
+ itemScope
+ itemType="https://schema.org/ImageObject"
+ style={{ margin: "1.5rem 0 2rem", maxWidth: "420px" }}
+ >
+ <Image
+ src={PORTRAIT}
+ alt={PORTRAIT_ALT}
+ title="Hayat Amin — Fractional CFO, AI Operator, IP & Data Strategist"
+ width={768}
+ height={1024}
+ priority
+ sizes="(max-width: 640px) 100vw, 420px"
+ itemProp="contentUrl"
+ style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }}
+ />
+ <figcaption
+ itemProp="caption"
+ style={{
+ fontSize: "0.875rem",
+ color: "var(--op-muted, #6b6760)",
+ marginTop: "0.5rem",
+ lineHeight: 1.4,
+ }}
+ >
+ Hayat Amin — Fractional CFO, AI Operator, IP &amp; Data Strategist, speaking publicly on the future of work and human purpose. NYC · London · Dubai.
+ </figcaption>
+ </figure>
+
  <p className="op-lede">
  Hayat Amin operates at the intersection of four disciplines that increasingly
  converge: fractional C-suite leadership, AI agentic operations, IP and data
