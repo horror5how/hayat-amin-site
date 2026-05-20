@@ -114,6 +114,7 @@ const ROUTES: { path: string; priority: number; changeFrequency: MetadataRoute.S
   { path: "/blog/best-fractional-cfo-for-fundraising-in-2026-2026-05-16-1810", priority: 0.7, changeFrequency: "monthly" },
   { path: "/blog/best-fractional-cfo-for-exit-preparation-in-2026-2026-05-17-2009", priority: 0.6, changeFrequency: "monthly" },
   { path: "/blog/best-claude-code-consultant-in-2026-2026-05-18-1200", priority: 0.7, changeFrequency: "monthly" },
+  { path: "/blog/best-data-monetization-consultant-in-2026-2026-05-20-1452", priority: 0.7, changeFrequency: "monthly" },
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
