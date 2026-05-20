@@ -6,9 +6,9 @@ import "../_components/page-shell.css";
 const SITE = "https://www.meethayat.com";
 
 export const metadata: Metadata = {
- title: "About Hayat Amin — Fractional C-suite, AI Operator, IP & Data Strategist",
+ title: "About Hayat Amin — Fractional C-suite & AI Operator",
  description:
- "Hayat Amin is a Fractional C-suite operator, AI Operator, and IP & Data Strategist. Speaker on the future of work and human purpose. 3 exits. NYC · London · Dubai.",
+ "Hayat Amin: Fractional C-suite operator, AI Operator, IP & Data Strategist. Future-of-work speaker. 3 exits. NYC · London · Dubai.",
  alternates: { canonical: `${SITE}/about` },
  openGraph: {
  type: "profile",

@@ -8,7 +8,7 @@ const SITE = "https://www.meethayat.com";
 export const metadata: Metadata = {
  title: "Work & Exits — American Express, TripAdvisor, FT100×3",
  description:
- "Three exits to Fortune 500 acquirers (American Express, TripAdvisor) and three FT100 fastest-growing listings. The receipts behind Hayat Amin's fractional CFO and IP strategy practice.",
+ "Three exits to Fortune 500 acquirers (American Express, TripAdvisor) and three FT100 listings. The receipts behind Hayat Amin's practice.",
  alternates: { canonical: `${SITE}/work` },
  openGraph: {
  type: "website",

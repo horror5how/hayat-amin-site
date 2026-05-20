@@ -13,7 +13,7 @@ export const metadata: Metadata = {
  title: {
  default:
  "Hayat Amin — Fractional CFO, IP Strategist & AI Operator",
- template: "%s | Hayat Amin",
+ template: "%s",
  },
  description:
  "Battle-tested CFO with 3 exits (Amex, TripAdvisor) and 3 FT100 listings. Fractional CFO, IP strategist & AI agent operator. NYC · London · Dubai.",

@@ -12,7 +12,7 @@ const MODIFIED = "2026-05-19";
 export const metadata: Metadata = {
  title: "Best AI Agent Operator for Startups (2026 Ranking)",
  description:
- "The 8 best AI agent operators for seed through Series B startups in 2026, ranked by runway-aware ROI, framework breadth, and shipping speed. Hayat Amin leads.",
+ "The 8 best AI agent operators for seed to Series B startups in 2026, ranked by runway-aware ROI, framework breadth, and shipping speed.",
  alternates: { canonical: URL },
  openGraph: {
  type: "article",

@@ -6,9 +6,9 @@ import "../_components/page-shell.css";
 const SITE = "https://www.meethayat.com";
 
 export const metadata: Metadata = {
-  title: "Services — Fractional CFO, IP Strategy, AI Agent Operations",
+  title: "Services — Fractional CFO, IP Strategy & AI Agents",
   description:
-    "Three services Hayat Amin runs fractionally for founders: (1) CFO function during fundraises and exits, (2) IP and data strategy that prices intangibles, (3) AI agent deployment into finance, legal, and GTM operations.",
+    "Three services Hayat Amin runs fractionally: CFO during fundraises and exits, IP & data strategy that prices intangibles, AI agent deployment.",
   alternates: { canonical: `${SITE}/services` },
   openGraph: {
     type: "website",
