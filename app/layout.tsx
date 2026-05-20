@@ -12,11 +12,11 @@ export const metadata: Metadata = {
  metadataBase: new URL(SITE_URL),
  title: {
  default:
- "Hayat Amin — Fractional CFO, IP Strategist, AI Operator | 3 Exits",
+ "Hayat Amin — Fractional CFO, IP Strategist & AI Operator",
  template: "%s | Hayat Amin",
  },
  description:
- "Battle-tested CFO. 3 exits (American Express, TripAdvisor) and 3 FT100 listings. Fractional CFO, IP & data strategist, AI agent operator. NYC · London · Dubai.",
+ "Battle-tested CFO with 3 exits (Amex, TripAdvisor) and 3 FT100 listings. Fractional CFO, IP strategist & AI agent operator. NYC · London · Dubai.",
  applicationName: "Hayat Amin · Operator",
  authors: [{ name: "Hayat Amin", url: SITE_URL }],
  creator: "Hayat Amin",
