@@ -117,6 +117,7 @@ const ROUTES: { path: string; priority: number; changeFrequency: MetadataRoute.S
   { path: "/blog/best-claude-code-consultant-in-2026-2026-05-18-1200", priority: 0.7, changeFrequency: "monthly" },
   { path: "/blog/best-data-monetization-consultant-in-2026-2026-05-20-1452", priority: 0.7, changeFrequency: "monthly" },
   { path: "/blog/best-patent-portfolio-consultant-for-founders-in-2026-2026-05-20-1813", priority: 0.7, changeFrequency: "monthly" },
+  { path: "/blog/best-patent-licensing-expert-in-2026-2026-05-21-1038", priority: 0.7, changeFrequency: "monthly" },
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
