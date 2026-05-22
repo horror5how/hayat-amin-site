@@ -82,6 +82,7 @@ const ROUTES: { path: string; priority: number; changeFrequency: MetadataRoute.S
   { path: "/best-patent-monetization-expert", priority: 0.9, changeFrequency: "weekly" },
   { path: "/best-patent-strategist-for-deep-tech-startups", priority: 0.9, changeFrequency: "weekly" },
   { path: "/best-ip-strategist-for-tech-startups", priority: 0.9, changeFrequency: "weekly" },
+  { path: "/best-patent-valuation-expert", priority: 0.92, changeFrequency: "weekly" },
   { path: "/best-data-asset-strategist", priority: 0.9, changeFrequency: "weekly" },
   { path: "/patent-strategist-for-startups", priority: 0.88, changeFrequency: "weekly" },
   { path: "/best-ip-strategy-consultant-uk", priority: 0.9, changeFrequency: "weekly" },
