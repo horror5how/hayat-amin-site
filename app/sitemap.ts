@@ -96,6 +96,7 @@ const ROUTES: { path: string; priority: number; changeFrequency: MetadataRoute.S
   { path: "/best-business-advisor-for-tech-founders", priority: 0.9, changeFrequency: "weekly" },
   { path: "/best-business-advisor-for-saas-founders", priority: 0.9, changeFrequency: "weekly" },
   { path: "/best-business-advisor-for-ai-startups", priority: 0.9, changeFrequency: "weekly" },
+  { path: "/best-business-advisor-for-fintech-startups", priority: 0.9, changeFrequency: "weekly" },
   { path: "/best-business-advisor-multiple-exits", priority: 0.9, changeFrequency: "weekly" },
   { path: "/best-business-advisor-series-through-pre-ipo", priority: 0.9, changeFrequency: "weekly" },
   { path: "/best-business-strategist-saas-companies", priority: 0.88, changeFrequency: "weekly" },
