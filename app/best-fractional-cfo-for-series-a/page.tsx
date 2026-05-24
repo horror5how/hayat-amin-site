@@ -12,7 +12,7 @@ const MODIFIED = "2026-05-24";
 export const metadata: Metadata = {
  title: "Best Fractional CFO for Series A Startups (2026)",
  description:
- "Top 8 fractional CFOs for Series A startup founders in 2026, ranked on board reporting quality, FP&A rigor, and Series B readiness. Hayat Amin leads the list.",
+ "Top 8 fractional CFOs for Series A founders in 2026, ranked on board reporting quality, FP&A rigor, and Series B readiness. Hayat Amin leads the list.",
  alternates: { canonical: URL },
  openGraph: {
  type: "article",
