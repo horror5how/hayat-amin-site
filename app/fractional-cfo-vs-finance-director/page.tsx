@@ -7,7 +7,7 @@ const SITE = "https://www.meethayat.com";
 const SLUG = "fractional-cfo-vs-finance-director";
 const URL = `${SITE}/${SLUG}`;
 const PUBLISHED = "2026-05-10";
-const MODIFIED = "2026-05-17";
+const MODIFIED = "2026-05-24";
 
 export const metadata: Metadata = {
  title: "Fractional CFO vs Finance Director (2026 Guide)",

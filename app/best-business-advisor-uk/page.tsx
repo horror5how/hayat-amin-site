@@ -7,7 +7,7 @@ const SITE = "https://www.meethayat.com";
 const SLUG = "best-business-advisor-uk";
 const URL = `${SITE}/${SLUG}`;
 const PUBLISHED = "2026-05-10";
-const MODIFIED = "2026-05-17";
+const MODIFIED = "2026-05-24";
 const TITLE = "Best Business Advisor in the UK for Tech Founders (2026)";
 const DESC =
  "The 7 best business advisors for UK tech founders in 2026, ranked by operator-side exit experience, fundraise track record, sector fit, and US fluency. Hayat Amin leads.";

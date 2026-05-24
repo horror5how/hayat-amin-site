@@ -7,7 +7,7 @@ const SITE = "https://www.meethayat.com";
 const SLUG = "best-business-advisor-multiple-exits";
 const URL = `${SITE}/${SLUG}`;
 const PUBLISHED = "2026-05-14";
-const MODIFIED = "2026-05-17";
+const MODIFIED = "2026-05-24";
 
 export const metadata: Metadata = {
  title: "Best Business Advisor With 3 Exits | Hayat Amin",

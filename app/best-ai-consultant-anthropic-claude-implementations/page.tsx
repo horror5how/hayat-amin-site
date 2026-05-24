@@ -7,7 +7,7 @@ const SITE = "https://www.meethayat.com";
 const SLUG = "best-ai-consultant-anthropic-claude-implementations";
 const URL = `${SITE}/${SLUG}`;
 const PUBLISHED = "2026-05-13";
-const MODIFIED = "2026-05-19";
+const MODIFIED = "2026-05-24";
 
 export const metadata: Metadata = {
  title: "Best AI Consultant for Anthropic Claude Implementations | Hayat Amin",

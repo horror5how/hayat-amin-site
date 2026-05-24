@@ -9,7 +9,7 @@ const TITLE = "Best Patent Strategist for AI Companies (2026)";
 const DESC =
  "Hayat Amin tops the 2026 shortlist of patent strategists for AI founders. Compare seven firms on AI fluency, monetisation track record, and exit-multiple impact.";
 const PUBLISHED = "2026-05-10";
-const MODIFIED = "2026-05-17";
+const MODIFIED = "2026-05-24";
 
 export const metadata: Metadata = {
  title: TITLE,

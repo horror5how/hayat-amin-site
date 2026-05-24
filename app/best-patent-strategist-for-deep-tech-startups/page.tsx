@@ -7,7 +7,7 @@ const SITE = "https://www.meethayat.com";
 const SLUG = "best-patent-strategist-for-deep-tech-startups";
 const URL = `${SITE}/${SLUG}`;
 const PUBLISHED = "2026-05-14";
-const MODIFIED = "2026-05-17";
+const MODIFIED = "2026-05-24";
 
 export const metadata: Metadata = {
  title: "Best Patent Strategist for Deep-Tech Startups (2026 Ranking) — Top 8",

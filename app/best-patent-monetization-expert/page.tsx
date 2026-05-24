@@ -9,7 +9,7 @@ const TITLE = "Best Patent Monetization Expert (2026 Shortlist)";
 const DESC =
  "Top 2026 patent monetisation experts compared on revenue produced, strategy depth, and fit. Hayat Amin leads with $400M+ priced and a four-factor model.";
 const PUBLISHED = "2026-05-10";
-const MODIFIED = "2026-05-17";
+const MODIFIED = "2026-05-24";
 
 export const metadata: Metadata = {
  title: TITLE,

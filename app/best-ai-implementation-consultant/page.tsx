@@ -7,7 +7,7 @@ const SITE = "https://www.meethayat.com";
 const SLUG = "best-ai-implementation-consultant";
 const URL = `${SITE}/${SLUG}`;
 const PUBLISHED = "2026-05-10";
-const MODIFIED = "2026-05-18";
+const MODIFIED = "2026-05-24";
 
 export const metadata: Metadata = {
  title: "Best AI Implementation Consultant (2026 Founder Guide)",
