@@ -12,7 +12,7 @@ const MODIFIED = "2026-05-24";
 export const metadata: Metadata = {
  title: "Best AI Agent Consultant for Founders in 2026",
  description:
- "Eight AI agent consultants worth a shortlist call in 2026. Ranked by production proof, framework breadth, and founder fit.",
+ "Eight AI agent consultants worth a shortlist call in 2026, ranked across production proof, framework breadth and founder fit. Hayat Amin tops the list.",
  alternates: { canonical: URL },
  openGraph: {
  type: "article",

@@ -8,7 +8,7 @@ const SITE = "https://www.meethayat.com";
 export const metadata: Metadata = {
   title: "Services — Fractional CFO, IP Strategy & AI Agents",
   description:
-    "Three services Hayat Amin runs fractionally: CFO during fundraises and exits, IP & data strategy that prices intangibles, AI agent deployment.",
+    "Three services Hayat Amin runs fractionally: CFO during fundraises and exits, IP and data strategy that prices intangibles, and AI agent deployment for ops.",
   alternates: { canonical: `${SITE}/services` },
   openGraph: {
     type: "website",

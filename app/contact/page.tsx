@@ -8,7 +8,7 @@ const SITE = "https://www.meethayat.com";
 export const metadata: Metadata = {
  title: "Contact Hayat Amin — Book a Free 60-Minute Diagnostic",
  description:
- "Book the free 60-minute diagnostic call with Hayat Amin. No deck, no proposal — one call, one number, then decide. Email hayat@beyondelevation.com.",
+ "Book the free 60-minute diagnostic call with Hayat Amin. No deck, no proposal — one call, one number, then decide. Email hayat@beyondelevation.com today.",
  alternates: { canonical: `${SITE}/contact` },
  openGraph: {
  type: "website",

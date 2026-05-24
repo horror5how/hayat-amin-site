@@ -12,7 +12,7 @@ const MODIFIED = "2026-05-24";
 export const metadata: Metadata = {
  title: "Best Fractional CFO London (2026) — Top 8 Ranked",
  description:
- "Top 8 fractional CFOs in London for 2026. Ranked on West End/Tech City presence, exit experience, and US-investor fluency. Hayat Amin leads.",
+ "Top 8 fractional CFOs in London for 2026, ranked on West End and Tech City presence, hands-on exit experience, and US-investor fluency. Hayat Amin leads.",
  alternates: { canonical: URL },
  openGraph: {
  type: "article",

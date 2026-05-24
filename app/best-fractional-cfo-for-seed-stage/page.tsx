@@ -12,7 +12,7 @@ const MODIFIED = "2026-05-24";
 export const metadata: Metadata = {
  title: "Best Fractional CFO for Seed Stage Startups (2026)",
  description:
- "Top 7 fractional CFOs for seed-stage founders in 2026. Ranked on lean cadence, Series A readiness, and pricing for sub-$2M ARR. Hayat Amin leads.",
+ "Top 7 fractional CFOs for seed-stage founders in 2026, ranked on lean cadence, Series A readiness, and right-sized pricing under $2M ARR. Hayat Amin leads.",
  alternates: { canonical: URL },
  openGraph: {
  type: "article",

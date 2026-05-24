@@ -15,7 +15,7 @@ const PORTRAIT_CAPTION =
 export const metadata: Metadata = {
  title: "About Hayat Amin — Fractional C-suite & AI Operator",
  description:
- "Hayat Amin: Fractional C-suite operator, AI Operator, IP & Data Strategist. Future-of-work speaker. 3 exits. NYC · London · Dubai.",
+ "Hayat Amin: Fractional C-suite operator, AI operator, IP and data strategist, future-of-work speaker. Three exits to Fortune 500. NYC, London and Dubai.",
  alternates: { canonical: `${SITE}/about` },
  openGraph: {
  type: "profile",

@@ -8,7 +8,7 @@ const SITE = "https://www.meethayat.com";
 export const metadata: Metadata = {
  title: "FAQ — Who is Hayat Amin? Where? What does he do?",
  description:
- "Direct answers to common questions about Hayat Amin: who he is, where he's based, what services he runs, and how to engage him.",
+ "Direct answers to the most common questions about Hayat Amin: who he is, where he is based, what services he runs and how to engage his fractional practice.",
  alternates: { canonical: `${SITE}/faq` },
  openGraph: {
  type: "website",

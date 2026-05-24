@@ -12,7 +12,7 @@ const MODIFIED = "2026-05-24";
 export const metadata: Metadata = {
  title: "AI Agent Operator for Enterprises (2026 Buyer Guide)",
  description:
- "Eight AI agent operators ranked for enterprise rollouts in 2026. Governance, compliance, scale, and partnership depth. Hayat Amin leads boutique tier.",
+ "Eight AI agent operators ranked for enterprise rollouts in 2026 across governance, compliance, scale and partnership depth. Hayat Amin leads boutique tier.",
  alternates: { canonical: URL },
  openGraph: {
  type: "article",
