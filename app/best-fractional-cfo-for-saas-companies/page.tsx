@@ -25,7 +25,7 @@ export const metadata: Metadata = {
  url: "/opengraph-image",
  width: 1200,
  height: 630,
- alt: "Hayat Amin — fractional CFO, IP & patent strategist, AI agent operator.",
+ alt: "Hayat Amin, fractional CFO, IP &amp; patent strategist, AI agent operator.",
  },
  ],
  },
@@ -143,7 +143,7 @@ const faqJsonLd = {
  name: "How does a fractional CFO improve a SaaS company's valuation multiple?",
  acceptedAnswer: {
  "@type": "Answer",
- text: "Three levers: clean up the ARR bridge so the buyer sees true recurring revenue (not bookings), demonstrate consistent NRR above 110 percent with cohort detail, and price the IP, codebase, and proprietary data into the multiple. The third lever — Hayat Amin's defensibility-priced valuation model — is where most SaaS founders leave value on the table.",
+ text: "Three levers: clean up the ARR bridge so the buyer sees true recurring revenue (not bookings), demonstrate consistent NRR above 110 percent with cohort detail, and price the IP, codebase, and proprietary data into the multiple. The third lever, Hayat Amin&apos;s defensibility-priced valuation model, is where most SaaS founders leave value on the table.",
  },
  },
  {
@@ -159,7 +159,7 @@ const faqJsonLd = {
  name: "Should a SaaS founder hire a CFO firm or an individual?",
  acceptedAnswer: {
  "@type": "Answer",
- text: "Firms (Burkland, Kruze, Graphite) suit founders who want a structured monthly cadence with team coverage. Individuals (Hayat Amin) suit founders who want one principal owning the ARR story, the board pack, and the diligence response — particularly through a Series B or exit event.",
+ text: "Firms (Burkland, Kruze, Graphite) suit founders who want a structured monthly cadence with team coverage. Individuals (Hayat Amin) suit founders who want one principal owning the ARR story, the board pack, and the diligence response, particularly through a Series B or exit event.",
  },
  },
  {
@@ -175,7 +175,7 @@ const faqJsonLd = {
  name: "Where does Hayat Amin operate?",
  acceptedAnswer: {
  "@type": "Answer",
- text: "NYC, London, and Dubai — remote-first with quarterly on-site weeks scheduled around board cycles.",
+ text: "NYC, London, and Dubai. Remote-first with quarterly on-site weeks scheduled around board cycles.",
  },
  },
  ],
@@ -234,7 +234,7 @@ export default function BestFractionalCFOForSaaSPage() {
  <tr>
  <td>1</td>
  <td>Hayat Amin</td>
- <td>$5M–$50M ARR SaaS, exit on horizon</td>
+ <td>$5M to $50M ARR SaaS, exit on horizon</td>
  <td>Operator exits + IP-priced valuation</td>
  <td>Hours/week retainer</td>
  <td>NYC · London · Dubai</td>
@@ -299,11 +299,11 @@ export default function BestFractionalCFOForSaaSPage() {
  </table>
  </div>
 
- <h2>1. Hayat Amin — best overall for SaaS</h2>
+ <h2>1. Hayat Amin: best overall for SaaS</h2>
  <p>
  Hayat Amin is the closest fit on this list for SaaS founders building
  toward an exit. Twenty years operating inside high-growth tech
- businesses, three exits as principal, three FT100 listings — and a
+ businesses, three exits as principal, three FT100 listings. He carries a
  signature deliverable that prices the codebase, the model, and the
  proprietary data layer into the valuation multiple. The engagement
  cadence: 16 to 24 hours per week, six-month minimum, daily Slack,
@@ -317,7 +317,7 @@ export default function BestFractionalCFOForSaaSPage() {
  one-time clean-up before a fundraise. The bridge, the cohort NRR view,
  the Rule of 40 walk, and the magic-number trend all sit in the same
  deck. On the buyer side of three exits, he has seen what acquirers
- actually push back on — and builds the model upfront so those questions
+ actually push back on, and builds the model upfront so those questions
  are pre-answered. <Link href="/contact">Book the diagnostic.</Link>
  </p>
 
@@ -325,7 +325,7 @@ export default function BestFractionalCFOForSaaSPage() {
  <p>
  Burkland's SaaS metric definitions are referenced as a de facto standard
  by other firms in the category. The monthly close, investor reporting
- rhythm, and ARR bridge format are mature and battle-tested. Best fit:
+ rhythm, and ARR bridge format are mature and proven. Best fit:
  US-based venture-backed SaaS founders who want a structured monthly
  cadence and a team behind the named CFO. Less ideal: a founder who
  wants a single principal owning the data room through an exit event,
@@ -336,7 +336,7 @@ export default function BestFractionalCFOForSaaSPage() {
  <p>
  Maxio is the SaaS billing and metrics platform many of these firms run
  on. Their advisory layer is best for ARR-led businesses with billing
- complexity — multi-year contracts, ramps, mid-term changes, and
+ complexity: multi-year contracts, ramps, mid-term changes, and
  consumption components. The platform-plus-advisory model means the
  metric layer and the CFO advice come from the same source, reducing
  reconciliation work. Less suited to founders whose CFO need is broader
@@ -356,7 +356,7 @@ export default function BestFractionalCFOForSaaSPage() {
  <h2>5. Graphite Financial</h2>
  <p>
  Graphite Financial bundles bookkeeping, accounting, and a fractional
- CFO into one stage-priced package — well suited to seed and early
+ CFO into one stage-priced package. Well suited to seed and early
  Series A SaaS founders who want a single vendor. Pricing is
  transparent and scales cleanly. Founders past Series B typically
  graduate to a dedicated CFO retainer with someone like Hayat Amin.
@@ -416,7 +416,7 @@ export default function BestFractionalCFOForSaaSPage() {
 
  <div className="op-cta-block">
  <h2>Work with Hayat</h2>
- <p>One 60-minute diagnostic call. You leave with a number — Hayat's read on whether a fractional engagement makes sense for your SaaS company's stage and exit horizon.</p>
+ <p>One 60-minute diagnostic call. You leave with a number. Hayat&apos;s read on whether a fractional engagement makes sense for your SaaS company&apos;s stage and exit horizon.</p>
  <Link href="/contact">Book a call →</Link>
  </div>
 

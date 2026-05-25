@@ -6,15 +6,15 @@ import "../../_components/page-shell.css";
 const SITE = "https://www.meethayat.com";
 
 export const metadata: Metadata = {
- title: "IP & Data Strategy — Patent Monetisation, AI Moats",
+ title: "IP & Data Strategy: Patent Monetisation, AI Moats",
  description:
  "Turn dormant patents, datasets, and AI models into licensable revenue and exit-multiple uplift. Hayat Amin has priced over $400M in IP across SaaS, payments, and AI infrastructure.",
  alternates: { canonical: `${SITE}/services/ip-strategy` },
  openGraph: {
  type: "website",
  url: `${SITE}/services/ip-strategy`,
- title: "IP & Data Strategy — Hayat Amin",
- description: "Patent monetisation, AI moats, data licensing — priced and run by an operator with 3 exits.",
+ title: "IP & Data Strategy by Hayat Amin",
+ description: "Patent monetisation, AI moats, and data licensing, priced and run by an operator with 3 exits.",
  },
 };
 
@@ -43,7 +43,7 @@ const faqJsonLd = {
  name: "What is IP strategy for AI companies?",
  acceptedAnswer: {
  "@type": "Answer",
- text: "IP strategy for AI companies is the process of identifying, protecting, and monetising the intangible assets that make an AI business defensible: training-data rights, model-weight provenance, prompt-engineering techniques, fine-tuning workflows, inference optimisations, and the patentable methods that wrap them. In an AI-saturated market, the moat is no longer the model — it is the IP and advantage around it.",
+ text: "IP strategy for AI companies is the process of identifying, protecting, and monetising the intangible assets that make an AI business defensible: training-data rights, model-weight provenance, prompt-engineering techniques, fine-tuning workflows, inference optimisations, and the patentable methods that wrap them. In an AI-saturated market, the moat is the IP and advantage around the model, not the model itself.",
  },
  },
  {
@@ -51,7 +51,7 @@ const faqJsonLd = {
  name: "How much is my patent portfolio worth?",
  acceptedAnswer: {
  "@type": "Answer",
- text: "A patent portfolio's worth depends on three factors: which markets the claims read on, what royalty rate comparables exist in those markets, and how much non-infringing-alternative value sits on the table. Hayat Amin uses a four-factor pricing model that combines income, market, cost, and option-value approaches, then triangulates against industry comparables. Most founders discover their portfolio is worth 2–5x what their patent counsel has told them.",
+ text: "A patent portfolio's worth depends on three factors: which markets the claims read on, what royalty rate comparables exist in those markets, and how much non-infringing-alternative value sits on the table. Hayat Amin uses a four-factor pricing model that combines income, market, cost, and option-value approaches, then triangulates against industry comparables. Most founders discover their portfolio is worth 2 to 5x what their patent counsel has told them.",
  },
  },
  {
@@ -83,27 +83,27 @@ export default function IPStrategyPage() {
  Hayat Amin has priced over $400M of intellectual property across SaaS,
  payments, and AI infrastructure. He helps founders convert patents,
  datasets, and AI-model IP from dormant cost centres into licensable
- revenue and exit-multiple uplift. The work runs as a 4–8 week sprint or as
+ revenue and exit-multiple uplift. The work runs as a 4 to 8 week sprint or as
  an embedded fractional engagement.
  </p>
 
  <h2>What this service does</h2>
  <ul>
  <li>Audits your patent portfolio against your real product roadmap and your real competitor set.</li>
- <li>Prices each cluster against industry royalty comparables — using income, market, cost, and option-value approaches.</li>
+ <li>Prices each cluster against industry royalty comparables using income, market, cost, and option-value approaches.</li>
  <li>Maps your dataset and AI-model IP into one of the six monetisation routes.</li>
  <li>Builds the exit-multiple defence: the IP narrative an acquirer's diligence team is looking for.</li>
  <li>Drafts the licensing-revenue P&amp;L line item with conservative, base, and aggressive scenarios.</li>
  </ul>
 
- <h2>The thesis: in AI, the moat is not the model</h2>
+ <h2>In AI, the moat is the IP around the model</h2>
  <p>
  Open-weight models commodified the AI core. What makes an AI business
- defensible in 2026 is no longer model performance — it is the data
- provenance, the workflow embedding, the patent claims around the method,
- and the proof of monetisable, non-replicable advantage. Founders who can
- name that moat in one sentence raise faster, exit higher, and do not get
- squeezed at term sheet.
+ defensible in 2026 is the data provenance, the workflow embedding, the
+ patent claims around the method, and the proof of monetisable,
+ non-replicable advantage. Model performance alone no longer does it.
+ Founders who can name that moat in one sentence raise faster, exit higher,
+ and hold their valuation at term sheet.
  </p>
  <p>
  Hayat helps founders build that one-sentence moat, then builds the legal
@@ -115,10 +115,10 @@ export default function IPStrategyPage() {
  <li><strong>Income approach.</strong> What does the IP earn (or save) over the next 7 years on a discounted basis?</li>
  <li><strong>Market approach.</strong> What have comparable patents and datasets transacted for in the last 24 months?</li>
  <li><strong>Cost approach.</strong> What would it cost a sophisticated competitor to recreate the IP from scratch?</li>
- <li><strong>Option value.</strong> What strategic optionality does the IP unlock — defensive, licensing, or M&amp;A?</li>
+ <li><strong>Option value.</strong> What strategic optionality does the IP carry: defensive, licensing, or M&amp;A?</li>
  </ol>
  <p>
- Triangulating across all four typically produces a valuation 2–5× higher
+ Triangulating across all four typically produces a valuation 2 to 5× higher
  than a counsel-only review.
  </p>
 
@@ -134,7 +134,7 @@ export default function IPStrategyPage() {
 
  <h2>What you walk away with</h2>
  <ul>
- <li>A defensibility score (1–10) covering patents, data, and model IP.</li>
+ <li>A defensibility score (1 to 10) covering patents, data, and model IP.</li>
  <li>A royalty rate range with named comparables.</li>
  <li>The next three filings ranked by exit-multiple impact.</li>
  <li>A licensing-revenue P&amp;L scenario set (conservative / base / aggressive).</li>
@@ -145,19 +145,19 @@ export default function IPStrategyPage() {
  <ul>
  <li><a href="blog/posts/how-does-ip-make-money/" target="_blank" rel="noopener">How does IP make money? 4 mechanisms with 2026 royalty rates</a></li>
  <li><a href="blog/posts/30-percent-rule-ai-valuation/" target="_blank" rel="noopener">The 30% rule in AI valuation: what investors actually mean</a></li>
- <li><a href="blog/posts/ai-moat-not-just-the-model/" target="_blank" rel="noopener">In AI, the moat is not just the model — it is the IP around it</a></li>
- <li><a href="blog/posts/4-types-of-intellectual-property/" target="_blank" rel="noopener">The 4 types of intellectual property — and why founders only care about 2</a></li>
+ <li><a href="blog/posts/ai-moat-not-just-the-model/" target="_blank" rel="noopener">In AI, the moat is the IP around the model, not the model itself</a></li>
+ <li><a href="blog/posts/4-types-of-intellectual-property/" target="_blank" rel="noopener">The 4 types of intellectual property, and why founders only care about 2</a></li>
  </ul>
 
  <h2>FAQ</h2>
  <div className="op-faq">
  <details open>
  <summary>What is IP strategy for AI companies?</summary>
- <p>The process of identifying, protecting, and monetising the intangible assets that make an AI business defensible — training-data rights, model-weight provenance, fine-tuning workflows, inference optimisations, and the patentable methods that wrap them.</p>
+ <p>The process of identifying, protecting, and monetising the intangible assets that make an AI business defensible: training-data rights, model-weight provenance, fine-tuning workflows, inference optimisations, and the patentable methods that wrap them.</p>
  </details>
  <details>
  <summary>How much is my patent portfolio worth?</summary>
- <p>Most founders discover their portfolio is worth 2–5× what their patent counsel has told them, because counsel does not run market or option-value approaches. Hayat does.</p>
+ <p>Most founders discover their portfolio is worth 2 to 5× what their patent counsel has told them, because counsel does not run market or option-value approaches. Hayat does.</p>
  </details>
  <details>
  <summary>Can I monetise my dataset without selling it?</summary>
@@ -177,7 +177,7 @@ export default function IPStrategyPage() {
 
  <div className="op-cta-block">
  <h2>Book the diagnostic</h2>
- <p>One 60-minute call. You leave with a defensibility score and a royalty range — for free.</p>
+ <p>One 60-minute call. You leave with a defensibility score and a royalty range, for free.</p>
  <Link href="/contact">Book a call →</Link>
  </div>
  </PageShell>

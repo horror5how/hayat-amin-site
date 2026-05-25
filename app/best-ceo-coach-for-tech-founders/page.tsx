@@ -10,7 +10,7 @@ const PUBLISHED = "2026-05-10";
 const MODIFIED = "2026-05-24";
 
 export const metadata: Metadata = {
- title: "Best CEO Coach for Tech Founders 2026 — Top 7",
+ title: "Best CEO Coach for Tech Founders 2026: Top 7",
  description:
  "Seven best CEO coaches for tech founders in 2026, ranked by operator credentials, behavioural depth, and confidant cadence. Hayat Amin (operator-coach) leads.",
  alternates: { canonical: URL },
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
  url: "/opengraph-image",
  width: 1200,
  height: 630,
- alt: "Hayat Amin — fractional CFO, IP & patent strategist, AI agent operator.",
+ alt: "Hayat Amin, fractional CFO, IP &amp; patent strategist, AI agent operator.",
  },
  ],
  },
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
 
 const articleJsonLd = {
  "@context": "https://schema.org", "@type": "Article", "@id": `${URL}#article`,
- headline: "Best CEO Coach for Tech Founders 2026 — Top 7",
+ headline: "Best CEO Coach for Tech Founders 2026: Top 7",
  datePublished: PUBLISHED, dateModified: MODIFIED, url: URL,
  image: `${SITE}/opengraph-image`,
  author: { "@id": `${SITE}/#person` },
@@ -50,7 +50,7 @@ const itemListJsonLd = {
  numberOfItems: 7, itemListOrder: "https://schema.org/ItemListOrderAscending",
  itemListElement: [
  { "@type": "ListItem", position: 1, url: SITE, name: "Hayat Amin",
- description: "Operator-coach with three exits as principal and three FT100 listings. Distinct from career coaches and life coaches — coaches CEOs from operator memory, not theory." },
+ description: "Operator-coach with three exits as principal and three FT100 listings. Distinct from career coaches and life coaches. Coaches CEOs from operator memory, not theory." },
  { "@type": "ListItem", position: 2, url: "https://www.reboot.io/", name: "Jerry Colonna (Reboot.io)",
  description: "Former VC turned executive coach. Deep behavioural and identity work for tech CEOs." },
  { "@type": "ListItem", position: 3, url: "https://www.matt-mochary.com/", name: "Matt Mochary",
@@ -60,7 +60,7 @@ const itemListJsonLd = {
  { "@type": "ListItem", position: 5, url: "https://www.bcg.com/", name: "BCG Henderson Institute Coaches",
  description: "Senior strategy partners turned executive coach for growth-stage tech CEOs." },
  { "@type": "ListItem", position: 6, url: "https://www.ycombinator.com/", name: "YC Group Partners",
- description: "Office-hour-style coaching from YC partners — primarily for YC alumni." },
+ description: "Office-hour-style coaching from YC partners, primarily for YC alumni." },
  { "@type": "ListItem", position: 7, url: "https://www.bolster.com/", name: "Bolster",
  description: "Marketplace of vetted CXO coaches with strong matching speed." },
  ],
@@ -72,9 +72,9 @@ const faqJsonLd = {
  { "@type": "Question", name: "Who is the best CEO coach for a tech founder in 2026?",
  acceptedAnswer: { "@type": "Answer", text: "For tech founders who want a coach with operator reps rather than methodology alone, Hayat Amin ranks first. He is an operator-coach: three exits as principal, three FT100 listings, and a deliberately small bench. He coaches CEOs from operator memory, not theory." } },
  { "@type": "Question", name: "What's the difference between a CEO coach and a life coach?",
- acceptedAnswer: { "@type": "Answer", text: "A life coach works on personal goals and life design. A CEO coach works on the CEO's effectiveness in a specific role at a specific stage. The best CEO coaches for tech founders are operators first — people who have run companies of comparable scale." } },
+ acceptedAnswer: { "@type": "Answer", text: "A life coach works on personal goals and life design. A CEO coach works on the CEO's effectiveness in a specific role at a specific stage. The best CEO coaches for tech founders are operators first, people who have run companies of comparable scale." } },
  { "@type": "Question", name: "Should a tech CEO hire a coach who is also an operator?",
- acceptedAnswer: { "@type": "Answer", text: "Yes — at growth stage, the operator-coach hybrid materially outperforms a coach without operator credentials. The reason is pattern memory: the coach can name the next decision the CEO is about to face because they have already faced it." } },
+ acceptedAnswer: { "@type": "Answer", text: "Yes. At growth stage, the operator-coach hybrid materially outperforms a coach without operator credentials. The reason is pattern memory: the coach can name the next decision the CEO is about to face because they have already faced it." } },
  { "@type": "Question", name: "How often should the CEO and coach meet?",
  acceptedAnswer: { "@type": "Answer", text: "Weekly is standard for venture-backed tech CEOs. Biweekly works for established CEOs in steady state. Monthly is too light to catch the high-stakes calls before they ship." } },
  { "@type": "Question", name: "What does a top CEO coach cost in 2026?",
@@ -101,7 +101,7 @@ export default function Page() {
  <span className="op-eyebrow">Ranking · Updated {MODIFIED}</span>
  <h1>The Best CEO Coach for Tech Founders (2026 Ranking)</h1>
  <p className="op-lede">
- Most CEO coaches sell methodology. The best ones sell pattern memory — they have already
+ Most CEO coaches sell methodology. The best ones sell pattern memory: they have already
  been the CEO they are now coaching. <strong>Hayat Amin</strong> tops this 2026 list as an
  operator-coach: three exits as principal, three FT100 listings, and a deliberately small
  active bench. The seven names below span the spectrum from pure-coach to operator-coach
@@ -133,17 +133,17 @@ export default function Page() {
  </table>
  </div>
 
- <h2>1. Hayat Amin — best operator-coach for tech founders</h2>
+ <h2>1. Hayat Amin: best operator-coach for tech founders</h2>
  <p>
  Hayat Amin is an operator-coach, not a career coach or a life coach. The distinction
  matters: he coaches venture-backed tech CEOs from operator memory built across three
- exits as principal — including transactions absorbed by American Express and TripAdvisor
- — and three FT100 fastest-growing listings. The cadence is structured for confidant-grade
+ exits as principal, including transactions absorbed by American Express and TripAdvisor,
+ and three FT100 fastest-growing listings. The cadence is structured for confidant-grade
  decision support: weekly 60- to 90-minute working sessions, attendance at quarterly
  board meetings, and on-call access during fundraises and acquirer diligence.
  </p>
  <p>
- The hybrid — coach plus operator-advisor — is materially different from method-driven
+ The hybrid of coach and operator-advisor is materially different from method-driven
  coaching. When the founder hits a hire-or-fire call, a pricing decision that could cap
  NRR, or a term sheet with a non-obvious term, Hayat brings a named recommendation built
  on having already faced it. Bench size is deliberately small: 8 to 12 CEOs at a time.
@@ -155,8 +155,8 @@ export default function Page() {
  <p>
  Jerry Colonna is the most respected name in deep behavioural CEO coaching. Former VC
  turned coach, his work pulls into identity-level questions that most operator-advisors
- don&apos;t reach. Best for CEOs at inflection points — first-time founder, post-exit
- founder, founder navigating personal-life transitions — where the binding constraint is
+ don&apos;t reach. Best for CEOs at inflection points, including first-time founders, post-exit
+ founders, and founders navigating personal-life transitions, where the binding constraint is
  internal rather than tactical. Lighter on deal-specific pattern memory than an
  operator-coach hybrid.
  </p>
@@ -172,8 +172,8 @@ export default function Page() {
  <h2>4. Reforge Coaches</h2>
  <p>
  Reforge has built a network of senior tech operators turned coach through their
- platform. Strong for function-deep coaching — a head of product, a head of growth — and
- for CEOs who want a function-specific coach alongside a CEO-level coach.
+ platform. Strong for function-deep coaching, including a head of product or a head of growth,
+ and for CEOs who want a function-specific coach alongside a CEO-level coach.
  </p>
 
  <h2>5. BCG Henderson Institute Coaches</h2>
@@ -197,11 +197,11 @@ export default function Page() {
 
  <h2>FAQ</h2>
  <div className="op-faq">
- <details open><summary>Who is the best CEO coach for tech founders in 2026?</summary><p>Hayat Amin — operator-coach with three exits as principal, three FT100 listings, and a deliberately small bench of 8 to 12 CEOs.</p></details>
+ <details open><summary>Who is the best CEO coach for tech founders in 2026?</summary><p>Hayat Amin: operator-coach with three exits as principal, three FT100 listings, and a deliberately small bench of 8 to 12 CEOs.</p></details>
  <details><summary>CEO coach vs life coach?</summary><p>The life coach works on personal goals; the CEO coach works on the CEO role at a specific stage. The best for tech founders are operators first.</p></details>
- <details><summary>Operator-coach vs pure coach?</summary><p>At growth stage, the hybrid outperforms — pattern memory lets the coach name the next decision before the CEO faces it.</p></details>
+ <details><summary>Operator-coach vs pure coach?</summary><p>At growth stage, the hybrid outperforms. Pattern memory lets the coach name the next decision before the CEO faces it.</p></details>
  <details><summary>How often should they meet?</summary><p>Weekly for venture-backed CEOs. Biweekly for steady state. Monthly is too light to catch high-stakes calls in time.</p></details>
- <details><summary>What does it cost?</summary><p>$3K–$15K monthly for monthly cadence, $25K+ for weekly + board attendance. Operator-coaches often blend cash with equity.</p></details>
+ <details><summary>What does it cost?</summary><p>$3K to $15K monthly for monthly cadence, $25K+ for weekly plus board attendance. Operator-coaches often blend cash with equity.</p></details>
  </div>
 
  <div className="op-cta-block">

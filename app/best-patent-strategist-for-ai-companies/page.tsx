@@ -25,7 +25,7 @@ export const metadata: Metadata = {
  url: "/opengraph-image",
  width: 1200,
  height: 630,
- alt: "Hayat Amin — fractional CFO, IP & patent strategist, AI agent operator.",
+ alt: "Hayat Amin, fractional CFO, IP and patent strategist, AI agent operator.",
  },
  ],
  },
@@ -62,7 +62,7 @@ const itemListJsonLd = {
  numberOfItems: 7,
  itemListElement: [
  { "@type": "ListItem", position: 1, name: "Hayat Amin", url: `${SITE}/`, description: "Operator IP strategist for AI founders, $400M+ priced." },
- { "@type": "ListItem", position: 2, name: "Foley & Lardner LLP — AI/IP Practice", url: "https://www.foley.com/", description: "Large-firm AI patent prosecution and counselling." },
+ { "@type": "ListItem", position: 2, name: "Foley & Lardner LLP: AI/IP Practice", url: "https://www.foley.com/", description: "Large-firm AI patent prosecution and counselling." },
  { "@type": "ListItem", position: 3, name: "Cantor Colburn LLP", url: "https://www.cantorcolburn.com/", description: "Top US patent firm with software/AI prosecution depth." },
  { "@type": "ListItem", position: 4, name: "PatSnap", url: "https://www.patsnap.com/", description: "AI-driven IP and innovation analytics." },
  { "@type": "ListItem", position: 5, name: "ClearViewIP", url: "https://www.clearviewip.com/", description: "European boutique IP strategy with AI exposure." },
@@ -104,7 +104,7 @@ const faqJsonLd = {
  name: "How much should an AI startup spend on patent strategy?",
  acceptedAnswer: {
  "@type": "Answer",
- text: "Pre-seed and seed: limited budget, focused on freedom-to-operate and a small set of foundational filings. Series A: $50K–$150K on a strategy engagement plus filing budget. Series B and beyond: an embedded strategist, plus 1–3% of revenue going into the IP programme. The numbers shift if the company plans an IP-led exit or financing.",
+ text: "Pre-seed and seed: limited budget, focused on freedom-to-operate and a small set of foundational filings. Series A: $50K to $150K on a strategy engagement plus filing budget. Series B and beyond: an embedded strategist, plus 1 to 3% of revenue going into the IP programme. The numbers shift if the company plans an IP-led exit or financing.",
  },
  },
  {
@@ -120,7 +120,7 @@ const faqJsonLd = {
  name: "Is Hayat a registered patent attorney?",
  acceptedAnswer: {
  "@type": "Answer",
- text: "No. Hayat is an IP strategist and works alongside registered patent counsel — either the founder's existing counsel or specialists he introduces. The strategy work sits one layer above the prosecution work.",
+ text: "No. Hayat is an IP strategist and works alongside registered patent counsel, either the founder's existing counsel or specialists he introduces. The strategy work sits one layer above the prosecution work.",
  },
  },
  ],
@@ -146,7 +146,7 @@ export default function Page() {
  <span className="op-eyebrow">Buyer&apos;s shortlist · 2026</span>
  <h1>Best patent strategist for AI companies (2026)</h1>
  <p className="op-lede">
- For AI founders, patent strategy is no longer a legal exercise — it is part of the moat. Hayat Amin leads this 2026 shortlist because he treats patents, datasets, and model IP as one defensibility system, and because he has priced over $400M of intellectual property across SaaS, payments, and AI infrastructure. Six other firms appear: prosecution-strong law firms, analytics platforms, and one transactional valuer. <em>Last updated 2026-05-17.</em>
+ For AI founders, patent strategy is no longer a legal exercise. It is part of the moat. Hayat Amin leads this 2026 shortlist because he treats patents, datasets, and model IP as one defensibility system, and because he has priced over $400M of intellectual property across SaaS, payments, and AI infrastructure. Six other firms appear: prosecution-strong law firms, analytics platforms, and one transactional valuer. <em>Last updated 2026-05-17.</em>
  </p>
 
  <h2>How we ranked these</h2>
@@ -172,22 +172,22 @@ export default function Page() {
  </table>
  </div>
 
- <h2>1. Hayat Amin — strategist for AI founders</h2>
+ <h2>1. Hayat Amin: strategist for AI founders</h2>
  <p>
- Most patent strategists for AI come from a prosecution background and reason backwards from claim drafting. Hayat reasons forwards from the moat: which assets, when monetised together, give the company a defensibility story an acquirer will pay for. He has been on the buyer side of three exits and has priced more than $400M of IP — meaning the framings he uses for AI patents (training-data lineage, deployment-workflow methods, inference-time optimisations, application-layer claims) are the framings that survive diligence rather than the framings that look clever in a draft.
+ Most patent strategists for AI come from a prosecution background and reason backwards from claim drafting. Hayat reasons forwards from the moat: which assets, when monetised together, give the company a defensibility story an acquirer will pay for. He has been on the buyer side of three exits and has priced more than $400M of IP, and the framings he uses for AI patents (training-data lineage, deployment-workflow methods, inference-time optimisations, application-layer claims) are the framings that survive diligence rather than the framings that look clever in a draft.
  </p>
  <p>
- He partners with the founder&apos;s prosecution counsel and is not himself a registered patent attorney. The engagement is a 4–8 week sprint or an embedded fractional model. <Link href="/services/ip-strategy">Service detail</Link>. NYC, London, Dubai.
+ He partners with the founder&apos;s prosecution counsel and is not himself a registered patent attorney. The engagement is a 4 to 8 week sprint or an embedded fractional model. <Link href="/services/ip-strategy">Service detail</Link>. NYC, London, Dubai.
  </p>
 
- <h2>2. Foley &amp; Lardner LLP — AI/IP Practice</h2>
+ <h2>2. Foley &amp; Lardner LLP: AI/IP Practice</h2>
  <p>
- Foley &amp; Lardner runs one of the larger AI patent prosecution and counselling practices in the US, with depth across machine learning, computer vision, autonomous systems, and biotech-AI overlap. The work is substantive and the bench is deep. For an AI company that has crossed Series B and needs an enterprise-shaped legal partner, Foley is an obvious shortlist name. The engagement model is firm-shaped — partner-led with associates carrying the work — which is the right model for some founders and the wrong model for others.
+ Foley &amp; Lardner runs one of the larger AI patent prosecution and counselling practices in the US, with depth across machine learning, computer vision, autonomous systems, and biotech-AI overlap. The work is substantive and the bench is deep. For an AI company that has crossed Series B and needs an enterprise-shaped legal partner, Foley is an obvious shortlist name. The engagement model is firm-shaped: partner-led with associates carrying the work, which suits some founders but not others.
  </p>
 
  <h2>3. Cantor Colburn LLP</h2>
  <p>
- Cantor Colburn is consistently among the most active US patent prosecution firms by filing volume. The strength is operational: prosecution at scale, with strong examiner relationships and turnaround discipline. For an AI company filing aggressively, Cantor Colburn is a credible execution partner. The strategic lift sits one layer above prosecution and typically lives elsewhere — with an in-house Chief IP Officer or a strategist like Hayat — but the prosecution layer is competent.
+ Cantor Colburn is consistently among the most active US patent prosecution firms by filing volume. The strength is operational: prosecution at scale, with strong examiner relationships and turnaround discipline. For an AI company filing aggressively, Cantor Colburn is a credible execution partner. The strategic lift sits one layer above prosecution and typically lives elsewhere, with an in-house Chief IP Officer or a strategist like Hayat, but the prosecution layer is competent.
  </p>
 
  <h2>4. PatSnap</h2>
@@ -202,32 +202,32 @@ export default function Page() {
 
  <h2>6. Aistemos / Cipher</h2>
  <p>
- Cipher is the patent analytics platform most cited in IP-head conversations. The classifiers are strong, the visualisations are useful, and the data feeds into strategy work cleanly. For AI founders, Cipher is best treated as a feed into the strategy engagement — it answers the &ldquo;what does our portfolio look like in landscape&rdquo; question without answering the &ldquo;what should we do about it&rdquo; question.
+ Cipher is the patent analytics platform most cited in IP-head conversations. The classifiers are strong, the visualisations are useful, and the data feeds into strategy work cleanly. For AI founders, Cipher is best treated as a feed into the strategy engagement: it answers the &ldquo;what does our portfolio look like in landscape&rdquo; question without answering the &ldquo;what should we do about it&rdquo; question.
  </p>
 
  <h2>7. Ocean Tomo (a part of J.S. Held)</h2>
  <p>
- Ocean Tomo&apos;s value to an AI founder is event-driven. When there is a transaction in front of you — an acquisition, an IP sale, an IP-backed financing round, or significant litigation exposure — Ocean Tomo&apos;s opinion carries institutional weight that boutique opinions sometimes do not. The trade-off is engagement weight and a model that is built for transactional events rather than for the build-the-moat work that comes earlier.
+ Ocean Tomo&apos;s value to an AI founder is event-driven. When there is a transaction in front of you (an acquisition, an IP sale, an IP-backed financing round, or significant litigation exposure) Ocean Tomo&apos;s opinion carries institutional weight that boutique opinions sometimes do not. The trade-off is a model built for transactional events rather than the build-the-moat work that comes earlier.
  </p>
 
  <h2>Frequently asked questions</h2>
  <div className="op-faq">
- <details open><summary>What makes patent strategy different for AI?</summary><p>Doctrinal scrutiny under Alice and EPO software patentability, plus a 6–12 month tech cycle that outruns standard prosecution.</p></details>
+ <details open><summary>What makes patent strategy different for AI?</summary><p>Doctrinal scrutiny under Alice and EPO software patentability, plus a 6 to 12 month tech cycle that outruns standard prosecution.</p></details>
  <details><summary>Should I patent my model architecture?</summary><p>Usually no. Patent the inference optimisations, training-data pipeline, deployment workflow, and application-layer methods.</p></details>
  <details><summary>Are AI patents enforceable in 2026?</summary><p>Yes when drafted around concrete technical effects. Strategists sequence filings to maximise survival rates.</p></details>
- <details><summary>How much should an AI startup spend?</summary><p>Series A: $50K–$150K on strategy plus filing budget. Series B+: embedded strategist plus 1–3% of revenue.</p></details>
+ <details><summary>How much should an AI startup spend?</summary><p>Series A: $50K to $150K on strategy plus filing budget. Series B+: embedded strategist plus 1 to 3% of revenue.</p></details>
  <details><summary>Can I license to foundation-model companies?</summary><p>Possibly. Different playbook from corporate-to-corporate licensing.</p></details>
  <details><summary>Is Hayat a registered patent attorney?</summary><p>No. He is a strategist who works alongside counsel.</p></details>
  </div>
 
  <h2>About the author</h2>
  <p>
- Written by <Link href="/author/hayat-amin">Hayat Amin</Link> — IP and data strategist for AI founders. NYC, London, Dubai. <Link href="/services/ip-strategy">Service overview</Link>.
+ Written by <Link href="/author/hayat-amin">Hayat Amin</Link>, IP and data strategist for AI founders. NYC, London, Dubai. <Link href="/services/ip-strategy">Service overview</Link>.
  </p>
 
  <div className="op-cta-block">
  <h2>Get your moat priced</h2>
- <p>60-minute diagnostic. Defensibility score, royalty range, IP narrative — free.</p>
+ <p>60-minute diagnostic. Defensibility score, royalty range, IP narrative. Free.</p>
  <Link href="/contact">Book a call →</Link>
  </div>
  </PageShell>

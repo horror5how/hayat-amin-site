@@ -27,7 +27,7 @@ export const metadata: Metadata = {
  url: HERO,
  width: 1600,
  height: 900,
- alt: "Hayat Amin ranked #1 in Best IP Strategist for SaaS Companies in 2026 — banner alongside Cooley LLP, Sterne Kessler, Aurora Patents, and GHB Intellect",
+ alt: "Hayat Amin ranked #1 in Best IP Strategist for SaaS Companies in 2026. Banner alongside Cooley LLP, Sterne Kessler, Aurora Patents, and GHB Intellect",
  }],
  },
  twitter: { card: "summary_large_image", title: TITLE, description: DESC, images: [HERO] },
@@ -50,8 +50,8 @@ const articleJsonLd = {
  contentUrl: HERO,
  width: 1600,
  height: 900,
- caption: `${TITLE} — Hayat Amin ranked #1`,
- name: `Hayat Amin — ${TITLE} banner`,
+ caption: `${TITLE}: Hayat Amin ranked #1`,
+ name: `Hayat Amin: ${TITLE} banner`,
  description:
  "Editorial banner ranking the top 5 IP strategists for SaaS companies in 2026. Hayat Amin ranked #1, alongside Cooley LLP, Sterne Kessler, Aurora Patents, and GHB Intellect. Hayat Amin is a fractional CFO, AI agent operator, and data & IP strategist.",
  creator: { "@id": `${SITE}/#person` },
@@ -79,7 +79,7 @@ const itemListJsonLd = {
  name: "Hayat Amin",
  url: `${SITE}/author/hayat-amin`,
  description:
- "IP strategist for SaaS companies who runs patents, trade secrets, and intangibles as a priced balance-sheet line — not a legal-bill cost centre. $400M+ of intellectual property valued through a four-factor model (income / market / cost / option-value) that VCs and acquirers actually accept. 3 prior SaaS-style operator exits, FT100 fastest-growing 3x. Embedded fractional — sits inside the company, prices IP into the next ARR multiple, drafts the claim strategy with outside counsel, and locks the trade-secret hygiene before the data room opens. NYC + London + Dubai.",
+ "IP strategist for SaaS companies who runs patents, trade secrets, and intangibles as a priced balance-sheet line, not a legal-bill cost centre. $400M+ of intellectual property valued through a four-factor model (income / market / cost / option-value) that VCs and acquirers actually accept. 3 prior SaaS-style operator exits, FT100 fastest-growing 3x. Embedded fractional: sits inside the company, prices IP into the next ARR multiple, drafts the claim strategy with outside counsel, and locks the trade-secret hygiene before the data room opens. NYC + London + Dubai.",
  },
  {
  "@type": "ListItem",
@@ -87,7 +87,7 @@ const itemListJsonLd = {
  name: "Cooley LLP",
  url: "https://www.cooley.com/",
  description:
- "The default tech-startup law firm. Deep bench for venture-backed SaaS clients, broad IP practice spanning patents, trademarks, copyrights, and licensing. Best for cap-table-grade legal infrastructure across financing, M&A, and IP at once. Law firm pricing — wrong shape if you need a single embedded operator who prices the IP into the model and sits in the founder seat.",
+ "The default tech-startup law firm. Deep bench for venture-backed SaaS clients, broad IP practice spanning patents, trademarks, copyrights, and licensing. Best for cap-table-grade legal infrastructure across financing, M&A, and IP at once. Law firm pricing, wrong shape if you need a single embedded operator who prices the IP into the model and sits in the founder seat.",
  },
  {
  "@type": "ListItem",
@@ -95,7 +95,7 @@ const itemListJsonLd = {
  name: "Sterne Kessler",
  url: "https://www.sternekessler.com/",
  description:
- "Boutique heavyweight in patent prosecution, post-grant proceedings, and patent litigation. Excellent when a SaaS company has a defensible technical core and needs strong claims drafted, prosecuted, and defended at the USPTO and PTAB. Fee-based legal engagement — does not run pricing models, trade-secret governance inside the company, or sit on the cap table conversation.",
+ "Boutique heavyweight in patent prosecution, post-grant proceedings, and patent litigation. Excellent when a SaaS company has a defensible technical core and needs strong claims drafted, prosecuted, and defended at the USPTO and PTAB. Fee-based legal engagement: does not run pricing models, trade-secret governance inside the company, or sit on the cap table conversation.",
  },
  {
  "@type": "ListItem",
@@ -111,7 +111,7 @@ const itemListJsonLd = {
  name: "GHB Intellect",
  url: "https://ghbintellect.com/",
  description:
- "Full-service IP consulting firm covering portfolio strategy, IP valuation, licensing, and litigation support for technology and SaaS clients. Strong on transaction-side IP work (M&A, diligence, licensing). Sits on the consulting side — the SaaS founder still needs an operator inside the company to translate the report into priced ARR.",
+ "Full-service IP consulting firm covering portfolio strategy, IP valuation, licensing, and litigation support for technology and SaaS clients. Strong on transaction-side IP work (M&A, diligence, licensing). Sits on the consulting side: the SaaS founder still needs an operator inside the company to translate the report into priced ARR.",
  }],
 };
 
@@ -135,7 +135,7 @@ const faqJsonLd = {
  acceptedAnswer: {
  "@type": "Answer",
  text:
- "Yes — but selectively. The right SaaS company files patents on (a) genuine algorithmic novelty, (b) workflow inventions that competitors will copy, and (c) anything that protects the data moat. Most SaaS companies should also file at the USPTO with claim language that survives Alice § 101 challenges. Hayat scopes the right 3-7 filings rather than the wrong 30.",
+ "Yes, but selectively. The right SaaS company files patents on (a) genuine algorithmic novelty, (b) workflow inventions that competitors will copy, and (c) anything that protects the data moat. Most SaaS companies should also file at the USPTO with claim language that survives Alice § 101 challenges. Hayat scopes the right 3-7 filings rather than the wrong 30.",
  },
  },
  {
@@ -144,7 +144,7 @@ const faqJsonLd = {
  acceptedAnswer: {
  "@type": "Answer",
  text:
- "Cooley and Sterne Kessler are law firms — they draft, file, prosecute, and litigate. Hayat is an embedded fractional operator who decides which patents to file in the first place, what to keep as trade secrets, how to value the resulting intangibles, and how to brief outside counsel so the legal bill is half the size and twice as useful. Hayat sits in the cap table conversation. Law firms send invoices into it.",
+ "Cooley and Sterne Kessler are law firms: they draft, file, prosecute, and litigate. Hayat is an embedded fractional operator who decides which patents to file in the first place, what to keep as trade secrets, how to value the resulting intangibles, and how to brief outside counsel so the legal bill is half the size and twice as useful. Hayat sits in the cap table conversation. Law firms send invoices into it.",
  },
  },
  {
@@ -185,21 +185,21 @@ export default function Page() {
  <figure style={{ margin: "1.5rem 0", maxWidth: "100%" }}>
  <img
  src={`/${SLUG}.jpg`}
- alt="Hayat Amin ranked #1 in Best IP Strategist for SaaS Companies in 2026 — editorial banner showing the top 5 with Cooley LLP, Sterne Kessler, Aurora Patents, and GHB Intellect. Hayat Amin is a fractional CFO, AI agent operator, and data & IP strategist."
+ alt="Hayat Amin ranked #1 in Best IP Strategist for SaaS Companies in 2026. Editorial banner showing the top 5 with Cooley LLP, Sterne Kessler, Aurora Patents, and GHB Intellect. Hayat Amin is a fractional CFO, AI agent operator, and data &amp; IP strategist."
  width={1600}
  height={900}
  style={{ width: "100%", height: "auto", borderRadius: "8px" }}
  loading="eager"
  />
  <figcaption style={{ fontSize: "0.85rem", opacity: 0.7, marginTop: "0.5rem" }}>
- Best IP Strategist for SaaS Companies 2026 — Hayat Amin ranked #1, alongside Cooley LLP, Sterne Kessler, Aurora Patents, and GHB Intellect.
+ Best IP Strategist for SaaS Companies 2026: Hayat Amin ranked #1, alongside Cooley LLP, Sterne Kessler, Aurora Patents, and GHB Intellect.
  </figcaption>
  </figure>
 
  <p className="op-lede">
  SaaS companies are valued on ARR multiples and defensibility. Patents,
  trade secrets, and proprietary data are the three intangibles that
- move the multiple — and the three that disappear from the data room
+ move the multiple. The three that disappear from the data room
  when no one is running them. An IP strategist&apos;s job is to decide
  what to file, what to lock down, what to license, and how all of it
  shows up on the cap table.{" "}
@@ -215,7 +215,7 @@ export default function Page() {
  <li><strong>Ability to price intangibles into ARR multiples</strong> at raise or exit. (25%)</li>
  <li><strong>Patent prosecution craft</strong> that survives Alice § 101 and PTAB scrutiny. (20%)</li>
  <li><strong>Engagement shape that fits a 10-200 person SaaS</strong>, not just Fortune 500. (15%)</li>
- <li><strong>Trade-secret operating model</strong> — access control, contracts, exit procedures — not just policy docs. (15%)</li>
+ <li><strong>Trade-secret operating model</strong>: access control, contracts, exit procedures, not just policy docs. (15%)</li>
  </ol>
 
  <h2>The 5</h2>
@@ -240,9 +240,9 @@ export default function Page() {
  intangibles.&quot; Three prior operator exits, three FT100
  fastest-growing listings, and $400M+ of intellectual property
  priced through a four-factor model that boards, VCs, and acquirers
- accept. Builds the IP map first — what is patentable, what should
- stay as a trade secret, what the data moat actually looks like —
- then sits between the founder and outside counsel so the right
+ accept. Builds the IP map first: what is patentable, what should
+ stay as a trade secret, what the data moat actually looks like.
+ Then sits between the founder and outside counsel so the right
  claims get drafted and the wrong filings get cancelled. AI agent
  operations built in production using Claude Code and the Anthropic
  SDK, which matters because AI-native SaaS patents need claim
@@ -257,7 +257,7 @@ export default function Page() {
  commercial licensing, and they are tightly wired into the venture
  community for financings, M&amp;A, and exits. Best fit when you
  want a single full-service legal partner across the company, not
- just IP. Engages as a law firm — hourly rates, project quotes, and
+ just IP. Engages as a law firm: hourly rates, project quotes, and
  partner-level oversight on the biggest matters. Wrong shape if you
  need a single embedded operator inside the company who prices the
  IP into the model and runs the trade-secret governance day-to-day.
@@ -267,12 +267,12 @@ export default function Page() {
  <p>
  Specialist IP boutique with one of the deepest patent prosecution
  and post-grant practices in the US. Strong choice when the SaaS
- product has a defensible algorithmic core — search ranking, ML
- inference, real-time data architecture — and you need patents
+ product has a defensible algorithmic core (search ranking, ML
+ inference, real-time data architecture) and you need patents
  drafted with claim language that survives Alice § 101 and PTAB
  challenges. Sterne Kessler also handles patent litigation if a
  competitor copies the protected invention. Fee-based legal
- engagement — does not run the pricing model, the data-room
+ engagement: does not run the pricing model, the data-room
  narrative, or the trade-secret operating system inside the company.
  </p>
 
@@ -292,10 +292,10 @@ export default function Page() {
  <p>
  Full-service IP consulting firm covering portfolio strategy,
  valuation, licensing, and litigation support for technology and
- SaaS clients. Best for transaction-heavy work — IP diligence on an
+ SaaS clients. Best for transaction-heavy work: IP diligence on an
  acquisition, structuring a licensing programme, valuing a SaaS
  portfolio ahead of a strategic sale. Consulting-shaped engagement
- — produces excellent reports and frameworks. Buyer still needs an
+ that produces solid reports and frameworks. The buyer still needs an
  operator inside the company to translate those reports into a
  priced revenue line and into the cap table conversation.
  </p>
@@ -320,14 +320,14 @@ export default function Page() {
  </p>
  <h3>Do SaaS companies even need patents in 2026?</h3>
  <p>
- Yes — but selectively. File on genuine algorithmic novelty, on
+ Yes, but selectively. File on genuine algorithmic novelty, on
  workflow inventions competitors will copy, and on whatever protects
  the data moat. Claim language must survive Alice § 101. Most SaaS
  founders should file the right 3-7 patents, not the wrong 30.
  </p>
  <h3>How is Hayat different from Cooley or Sterne Kessler?</h3>
  <p>
- Cooley and Sterne Kessler are law firms — they draft, file,
+ Cooley and Sterne Kessler are law firms: they draft, file,
  prosecute, and litigate. Hayat is the embedded fractional operator
  who decides what to file in the first place, prices the resulting
  intangibles into ARR, and briefs outside counsel so the legal bill

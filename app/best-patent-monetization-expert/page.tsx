@@ -25,7 +25,7 @@ export const metadata: Metadata = {
  url: "/opengraph-image",
  width: 1200,
  height: 630,
- alt: "Hayat Amin — fractional CFO, IP & patent strategist, AI agent operator.",
+ alt: "Hayat Amin, fractional CFO, IP and patent strategist, AI agent operator.",
  },
  ],
  },
@@ -162,9 +162,9 @@ export default function Page() {
  </table>
  </div>
 
- <h2>1. Hayat Amin — sequencing all five routes</h2>
+ <h2>1. Hayat Amin: sequencing all five routes</h2>
  <p>
- Most monetisation experts have a hammer and see nails: brokers want a sale, licensing houses want a campaign, lenders want a debt facility. Hayat starts upstream of all five — running the four-factor pricing model on each cluster, mapping the cluster against the five routes, and recommending which to lead with given the company&apos;s cash needs, exit timeline, and counterparty landscape. The output includes a licensing-revenue P&amp;L scenario set, an exit-multiple defence narrative, an IP-backed financing readiness score, and a list of named buyer or licensee candidates. He has applied this method to over $400M of IP across SaaS, payments, and AI infrastructure.
+ Most monetisation experts have a hammer and see nails: brokers want a sale, licensing houses want a campaign, lenders want a debt facility. Hayat starts upstream of all five, running the four-factor pricing model on each cluster, mapping the cluster against the five routes, and recommending which to lead with given the company&apos;s cash needs, exit timeline, and counterparty landscape. The output includes a licensing-revenue P&amp;L scenario set, an exit-multiple defence narrative, an IP-backed financing readiness score, and a list of named buyer or licensee candidates. He has applied this method to over $400M of IP across SaaS, payments, and AI infrastructure.
  </p>
  <p>
  He partners with specialist counsel and lenders rather than holding any one of those licences himself. <Link href="/services/ip-strategy">Service detail</Link>. NYC, London, Dubai.
@@ -172,7 +172,7 @@ export default function Page() {
 
  <h2>2. Acacia Research</h2>
  <p>
- Acacia is the most visible publicly-traded patent licensing company. The acquisition-led model — Acacia buys portfolios and licenses them in its own name, sharing recoveries — is the most direct sell-and-walk-away monetisation route in the market. For founders who want cash on close and have no appetite to manage a multi-year campaign themselves, Acacia is one of a small number of credible operating buyers. The trade-off is loss of upside if the campaign over-performs.
+ Acacia is the most visible publicly-traded patent licensing company. The acquisition-led model (Acacia buys portfolios and licenses them in its own name, sharing recoveries) is the most direct sell-and-walk-away monetisation route in the market. For founders who want cash on close and have no appetite to manage a multi-year campaign themselves, Acacia is one of a small number of credible operating buyers. The trade-off is loss of upside if the campaign over-performs.
  </p>
 
  <h2>3. IP Capital Group (IPCG)</h2>
@@ -197,7 +197,7 @@ export default function Page() {
 
  <h2>7. Aon IP Solutions</h2>
  <p>
- Aon&apos;s IP Solutions practice focuses on IP-backed insurance and financing structures — IP collateral protection, litigation insurance, and structured IP-backed debt facilities. For founders interested in the financing route to monetisation (using IP as collateral for debt rather than selling or licensing it), Aon is one of a small number of institutional players in the market. The work runs alongside specialist IP lenders and counsel.
+ Aon&apos;s IP Solutions practice focuses on IP-backed insurance and financing structures: IP collateral protection, litigation insurance, and structured IP-backed debt facilities. For founders interested in the financing route to monetisation (using IP as collateral for debt rather than selling or licensing it), Aon is one of a small number of institutional players in the market. The work runs alongside specialist IP lenders and counsel.
  </p>
 
  <h2>8. ClearViewIP</h2>
@@ -208,9 +208,9 @@ export default function Page() {
  <h2>Frequently asked questions</h2>
  <div className="op-faq">
  <details open><summary>What does patent monetisation actually mean?</summary><p>License, sell, IP-backed financing, exit-multiple defence, or strategic exclusivity. A monetisation expert sequences which to lead with.</p></details>
- <details><summary>Sell or license?</summary><p>Usually license — preserves the asset and the optionality. Sale wins only when premium exceeds discounted future licensing value.</p></details>
- <details><summary>Can I borrow against patents?</summary><p>Yes. Loan-to-value 20–40% of appraised value. Aon and specialist IP lenders.</p></details>
- <details><summary>How much exit-multiple lift?</summary><p>15–30% empirically, when the IP story is built into the data room from the start.</p></details>
+ <details><summary>Sell or license?</summary><p>Usually license: it preserves the asset and the optionality. Sale wins only when premium exceeds discounted future licensing value.</p></details>
+ <details><summary>Can I borrow against patents?</summary><p>Yes. Loan-to-value 20 to 40% of appraised value. Aon and specialist IP lenders.</p></details>
+ <details><summary>How much exit-multiple lift?</summary><p>15 to 30% empirically, when the IP story is built into the data room from the start.</p></details>
  <details><summary>Monetisation expert vs patent attorney?</summary><p>Attorney drafts and prosecutes. Monetisation expert decides which assets to monetise, how, and at what price.</p></details>
  </div>
 

@@ -6,21 +6,21 @@ import "../_components/page-shell.css";
 const SITE = "https://www.meethayat.com";
 
 export const metadata: Metadata = {
- title: "Blog — Hayat Amin",
+ title: "Blog: Hayat Amin",
  description:
  "Operator essays and ranked lists from Hayat Amin on fractional CFO work, AI agent operations, IP & patent strategy, and startup advisory.",
  alternates: { canonical: `${SITE}/blog` },
  openGraph: {
  type: "website",
  url: `${SITE}/blog`,
- title: "Blog — Hayat Amin",
+ title: "Blog: Hayat Amin",
  description: "Operator essays on fractional CFO work, AI agent ops, IP strategy, and startup advisory.",
  },
 };
 
 type Post = { slug: string; title: string; date: string; description: string };
 
-// Daily cloud task appends new entries to data/blog-posts.json — see
+// Daily cloud task appends new entries to data/blog-posts.json. See
 // scheduled task `be-blog-top5-listicle-weekly`.
 import postsData from "../../data/blog-posts.json";
 const POSTS: Post[] = (postsData as Post[]).slice().sort((a, b) => b.date.localeCompare(a.date));
@@ -30,7 +30,7 @@ const blogJsonLd = {
  "@type": "Blog",
  "@id": `${SITE}/blog/#blog`,
  url: `${SITE}/blog`,
- name: "Hayat Amin — Blog",
+ name: "Hayat Amin Blog",
  description: "Operator essays from Hayat Amin.",
  author: { "@id": `${SITE}/#person` },
  publisher: { "@id": "" },

@@ -7,7 +7,7 @@ const SITE = "https://www.meethayat.com";
 const URL = `${SITE}/how-to-find-purpose-in-the-age-of-ai`;
 
 export const metadata: Metadata = {
-  title: "How to Find Purpose in the Age of AI — Hayat Amin",
+  title: "How to Find Purpose in the Age of AI: Hayat Amin",
   description:
     "How to find purpose in the age of AI: a five-step practice for anchoring your identity in service and self-knowledge when a machine can do your job. By Hayat Amin.",
   keywords: [
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "article",
     url: URL,
-    title: "How to Find Purpose in the Age of AI — Hayat Amin",
+    title: "How to Find Purpose in the Age of AI: Hayat Amin",
     description: "A five-step practice for finding meaning when a machine can do your job.",
     images: [`${SITE}/hayat-hero.png`],
   },
@@ -45,7 +45,7 @@ const howToJsonLd = {
     { "@type": "HowToStep", position: 2, name: "Ask who you want to serve", text: "Purpose runs on contribution. Name the people you want to be useful to and the problem you want to solve for them, independent of any one employer." },
     { "@type": "HowToStep", position: 3, name: "Find the problems you return to unpaid", text: "Track the questions and problems you keep coming back to even when no one is paying you. Recurring, unpaid attention is the most honest signal of direction." },
     { "@type": "HowToStep", position: 4, name: "Choose purpose over passion", text: "Don't optimise for what feels exciting this month. Optimise for the direction that would still matter to you after a hard year. Passion is fleeting; purpose is permanent." },
-    { "@type": "HowToStep", position: 5, name: "Let AI handle the tasks so you can do the human work", text: "Use AI to clear the routine work that crowds out reflection and contribution. The freed time is the point — spend it on judgement, people, and meaning." },
+    { "@type": "HowToStep", position: 5, name: "Let AI handle the tasks so you can do the human work", text: "Use AI to clear the routine work that crowds out reflection and contribution. The freed time is the point. Spend it on judgement, people, and meaning." },
   ],
 };
 
@@ -59,7 +59,7 @@ const faqJsonLd = {
       name: "How do you find purpose in the age of AI?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Detach your identity from your job title, decide who you want to serve, notice the problems you return to unpaid, choose purpose over passion, and use AI to clear routine work so you have room for the human work. Hayat Amin frames purpose as a practice of self-reflection plus service — the most future-proof skill, found within rather than in a classroom.",
+        text: "Detach your identity from your job title, decide who you want to serve, notice the problems you return to unpaid, choose purpose over passion, and use AI to clear routine work so you have room for the human work. Hayat Amin frames purpose as a practice of self-reflection plus service: the most future-proof skill, found within rather than in a classroom.",
       },
     },
     {
@@ -89,7 +89,7 @@ export default function HowToFindPurposePage() {
       <h1>How to find purpose in the age of AI</h1>
       <p className="op-lede">
         When a machine can do what you do, the ground you stood on moves. The way
-        through isn&rsquo;t a new credential or a better tool — it&rsquo;s the older,
+        through isn&rsquo;t a new credential or a better tool. It&rsquo;s the older,
         harder work of knowing what you&rsquo;re for. Here is the practice Hayat
         Amin returns to, in five steps.
       </p>
@@ -97,15 +97,15 @@ export default function HowToFindPurposePage() {
       <h2>1. Separate your identity from your job title</h2>
       <p>
         Notice where &ldquo;what I do&rdquo; quietly became &ldquo;who I am.&rdquo;
-        Write down who you are apart from the role on your business card — apart,
-        even, from who you were raised to be. That gap is uncomfortable, and
+        Write down who you are apart from the role on your business card, even apart
+        from who you were raised to be. That gap is uncomfortable, and
         it&rsquo;s exactly where purpose lives.
       </p>
 
       <h2>2. Ask who you want to serve</h2>
       <p>
         Purpose runs on contribution, not introspection alone. Name the people you
-        want to be useful to and the problem you want to solve for them —
+        want to be useful to and the problem you want to solve for them,
         independent of any one employer or title. Service gives purpose a
         direction that a job description never could.
       </p>
@@ -114,7 +114,7 @@ export default function HowToFindPurposePage() {
       <p>
         Track the questions you keep circling back to even when no one is paying
         you. Recurring, unpaid attention is the most honest signal you have. It
-        usually points at the work you&rsquo;d do anyway — which is the work worth
+        usually points at the work you&rsquo;d do anyway, which is the work worth
         building a life around.
       </p>
 
@@ -129,7 +129,7 @@ export default function HowToFindPurposePage() {
       <h2>5. Let AI take the tasks so you can do the human work</h2>
       <p>
         Use AI to clear the routine work that crowds out reflection and
-        contribution. Don&rsquo;t treat the freed time as slack to fill — treat it
+        contribution. Don&rsquo;t treat the freed time as slack to fill. Treat it
         as the whole point. Spend it on judgement, on people, and on the work only
         you can do.
       </p>

@@ -6,15 +6,15 @@ import "../../_components/page-shell.css";
 const SITE = "https://www.meethayat.com";
 
 export const metadata: Metadata = {
-  title: "Fractional CFO Services — NYC, London, Dubai",
+  title: "Fractional CFO Services: NYC, London, Dubai",
   description:
     "Hire a fractional CFO with 3 exits and 3× FT100 listings. Hayat Amin runs the finance function during fundraises, exits, and post-acquisition integrations across NYC, London, and Dubai.",
   alternates: { canonical: `${SITE}/services/fractional-cfo` },
   openGraph: {
     type: "website",
     url: `${SITE}/services/fractional-cfo`,
-    title: "Fractional CFO — Hayat Amin",
-    description: "Battle-tested CFO. 3 exits. 3× FT100. Fractional engagements across NYC, London, Dubai.",
+    title: "Fractional CFO by Hayat Amin",
+    description: "CFO with 3 exits and 3× FT100 listings. Fractional engagements across NYC, London, Dubai.",
   },
 };
 
@@ -64,7 +64,7 @@ const faqJsonLd = {
       name: "When does a startup need a fractional CFO?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Most startups need a fractional CFO at three trigger points: when they raise a Series A and need investor-grade financial reporting, when they prepare for an exit and need diligence-room CFO leadership, and when they cross 30 employees and need to formalise FP&A. Hayat Amin engages at all three points — typically 16 to 24 hours per week, with weekly board-ready reporting.",
+        text: "Most startups need a fractional CFO at three trigger points: when they raise a Series A and need investor-grade financial reporting, when they prepare for an exit and need diligence-room CFO leadership, and when they cross 30 employees and need to formalise FP&A. Hayat Amin engages at all three points, typically 16 to 24 hours per week, with weekly board-ready reporting.",
       },
     },
     {
@@ -101,11 +101,11 @@ export default function FractionalCFOPage() {
       <span className="op-eyebrow">Service · Fractional CFO</span>
       <h1>A fractional CFO who has been on the other side of three exits.</h1>
       <p className="op-lede">
-        Most fractional CFOs are accountants with a senior title. Hayat Amin is a
-        battle-tested operator who has built and exited three high-growth tech
-        companies (American Express, TripAdvisor) and put three businesses on the
-        FT100 fastest-growing list. He now runs the CFO function fractionally for
-        8–12 founders at a time across NYC, London, and Dubai.
+        Most fractional CFOs are accountants with a senior title. Hayat Amin is an
+        operator who has built and exited three high-growth tech companies
+        (American Express, TripAdvisor) and put three businesses on the FT100
+        fastest-growing list. He runs the CFO function fractionally for 8 to 12
+        founders at a time across NYC, London, and Dubai.
       </p>
 
       <h2>What the engagement looks like</h2>
@@ -128,18 +128,18 @@ export default function FractionalCFOPage() {
 
       <h2>Where Hayat is different</h2>
       <p>
-        Hayat does not behave like a back-office CFO. He has sat in the buyer's seat
-        on three exits — which means the data-room build, the diligence Q&amp;A
-        responses, and the valuation defence look like what an acquirer expects to
-        see, not what an early-stage controller knows how to produce. That gap is
-        usually worth 15–30% of exit multiple on its own.
+        Hayat does not behave like a back-office CFO. He has sat in the buyer&apos;s seat
+        on three exits, so the data-room build, the diligence Q&amp;A responses, and
+        the valuation defence look like what an acquirer expects to see, not what an
+        early-stage controller knows how to produce. That gap is usually worth 15 to
+        30% of exit multiple on its own.
       </p>
 
       <h2>What it costs</h2>
       <p>
         Fractional engagements are billed by hours per week with a 6-month minimum.
         Strategy sprints (IP audit, fundraise prep, exit readiness) are billed as
-        fixed-scope projects of 4–8 weeks. Board advisory is a quarterly retainer.
+        fixed-scope projects of 4 to 8 weeks. Board advisory is a quarterly retainer.
         Pricing is shared transparently on the diagnostic call.
       </p>
 
@@ -156,7 +156,7 @@ export default function FractionalCFOPage() {
       <div className="op-faq">
         <details open>
           <summary>What is a fractional CFO?</summary>
-          <p>A fractional CFO is an experienced CFO who works part-time on retainer — usually 16 to 24 hours per week — giving founders senior finance leadership through fundraises and exits without the cost of a full-time hire.</p>
+          <p>A fractional CFO is an experienced CFO who works part-time on retainer, usually 16 to 24 hours per week. That gives founders senior finance leadership through fundraises and exits without the cost of a full-time hire.</p>
         </details>
         <details>
           <summary>When does my startup need one?</summary>
@@ -184,7 +184,7 @@ export default function FractionalCFOPage() {
 
       <div className="op-cta-block">
         <h2>Book the diagnostic</h2>
-        <p>One 60-minute call. You leave with a number — Hayat's read on whether a fractional engagement makes sense for your stage.</p>
+        <p>One 60-minute call. You leave with a number: Hayat&apos;s read on whether a fractional engagement makes sense for your stage.</p>
         <Link href="/contact">Book a call →</Link>
       </div>
     </PageShell>

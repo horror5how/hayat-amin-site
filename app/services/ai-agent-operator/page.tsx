@@ -6,14 +6,14 @@ import "../../_components/page-shell.css";
 const SITE = "https://www.meethayat.com";
 
 export const metadata: Metadata = {
- title: "AI Agent Operator — Deploy Agents Into Finance, Legal, GTM",
+ title: "AI Agent Operator: Deploy Agents Into Finance, Legal, GTM",
  description:
  "Hayat Amin embeds agentic AI into finance, legal, and go-to-market workflows with measured cost-to-serve reduction and revenue lift. 20-year operator, 3 exits, FT100×3.",
  alternates: { canonical: `${SITE}/services/ai-agent-operator` },
  openGraph: {
  type: "website",
  url: `${SITE}/services/ai-agent-operator`,
- title: "AI Agent Operator — Hayat Amin",
+ title: "AI Agent Operator by Hayat Amin",
  description: "Embed AI agents into finance, legal, and GTM ops with measurable ROI.",
  },
 };
@@ -44,19 +44,19 @@ export default function AIAgentOperatorPage() {
  <h1>Deploy AI agents that show up on the P&amp;L.</h1>
  <p className="op-lede">
  Most companies are still pitching AI agents in a deck. Hayat Amin embeds
- them into live workflows in finance, legal, and go-to-market — then
- measures the cost-to-serve reduction and revenue lift on the next month's
+ them into live workflows in finance, legal, and go-to-market, then
+ measures the cost-to-serve reduction and revenue lift on the next month&apos;s
  P&amp;L. The work runs alongside the fractional CFO function so the
  finance number proves the AI number.
  </p>
 
  <h2>What an AI agent operator actually does</h2>
  <ul>
- <li>Maps the workflow in detail — every handoff, every rule, every exception.</li>
+ <li>Maps the workflow in detail: every handoff, every rule, every exception.</li>
  <li>Picks the smallest agent that solves the highest-leverage step.</li>
  <li>Builds it on the model and infrastructure stack you already pay for.</li>
  <li>Sets up evaluation gates: accuracy, latency, hallucination rate, cost per task.</li>
- <li>Wraps governance — audit logs, role-based access, kill switches.</li>
+ <li>Wraps governance around it: audit logs, role-based access, kill switches.</li>
  <li>Measures the ROI on month 1, month 3, and month 6.</li>
  </ul>
 
@@ -67,12 +67,12 @@ export default function AIAgentOperatorPage() {
  <li><strong>GTM:</strong> outbound research, lead qualification, sales-call coaching, post-call CRM hygiene.</li>
  </ol>
 
- <h2>The thesis: agents that touch revenue or cost lines win</h2>
+ <h2>Agents that touch revenue or cost lines win</h2>
  <p>
- Most AI agent deployments fail because they're built around tasks that don't
+ Most AI agent deployments fail because they are built around tasks that never
  appear on the P&amp;L. Hayat only deploys agents into workflows where
- success or failure shows up in next month's numbers. That makes the ROI
- argument self-evident — and the kill-switch decision easy when an agent
+ success or failure shows up in next month&apos;s numbers. That makes the ROI
+ argument self-evident, and the kill-switch decision easy when an agent
  underperforms.
  </p>
 

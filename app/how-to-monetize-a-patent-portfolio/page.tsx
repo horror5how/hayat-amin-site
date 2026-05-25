@@ -25,7 +25,7 @@ export const metadata: Metadata = {
  url: "/opengraph-image",
  width: 1200,
  height: 630,
- alt: "Hayat Amin — fractional CFO, IP & patent strategist, AI agent operator.",
+ alt: "Hayat Amin, fractional CFO, IP and patent strategist, AI agent operator.",
  },
  ],
  },
@@ -100,7 +100,7 @@ const faqJsonLd = {
  name: "Can I monetize without filing litigation?",
  acceptedAnswer: {
  "@type": "Answer",
- text: "Almost always yes — and almost always better. Licensing campaigns settle without litigation in 60 to 80 percent of cases when the patents are strong, the infringement is clear, and the campaign is well-funded. Litigation is the path of last resort and adds 12 to 36 months plus material legal cost. The strategist's job is to maximise the share of campaigns that settle without litigation while keeping litigation credible enough that the licensee takes the negotiation seriously.",
+ text: "Almost always yes, and almost always better. Licensing campaigns settle without litigation in 60 to 80 percent of cases when the patents are strong, the infringement is clear, and the campaign is well-funded. Litigation is the path of last resort and adds 12 to 36 months plus material legal cost. The strategist's job is to maximise the share of campaigns that settle without litigation while keeping litigation credible enough that the licensee takes the negotiation seriously.",
  },
  },
  {
@@ -116,7 +116,7 @@ const faqJsonLd = {
  name: "How does IP narrative produce exit-multiple lift?",
  acceptedAnswer: {
  "@type": "Answer",
- text: "Acquirers pay for defensibility. Defensibility is what an IP narrative quantifies — which assets, what they cover, how they read on revenue, what they would cost to recreate, what they block competitors from doing. A well-built IP narrative typically lifts the headline exit multiple by 15 to 30 percent, because it moves the multiple band the acquirer's investment committee is willing to underwrite. Built into the data room from the start, this is the highest-leverage monetisation route.",
+ text: "Acquirers pay for defensibility. Defensibility is what an IP narrative quantifies: which assets, what they cover, how they read on revenue, what they would cost to recreate, what they block competitors from doing. A well-built IP narrative typically lifts the headline exit multiple by 15 to 30 percent, because it moves the multiple band the acquirer's investment committee is willing to underwrite. Built into the data room from the start, this is the highest-leverage monetisation route.",
  },
  },
  ],
@@ -147,16 +147,16 @@ export default function Page() {
 
  <h2>The five monetisation routes (with 2026 economics)</h2>
  <ol>
- <li><strong>License.</strong> Recurring royalty from third parties. Software 2–5%, consumer hardware 3–6%, telecom 1–4% running plus lump-sum, pharma low-single to double digit. First royalty payment typically 9–18 months from campaign launch.</li>
- <li><strong>Sell.</strong> Transfer ownership to an operating buyer or assertion entity for cash on close. Process runs 6–12 months. Best when the company cannot or will not run a campaign itself.</li>
- <li><strong>Borrow against.</strong> Use IP as collateral for debt. LTV 20–40% of appraised value. Tenor 3–7 years. Specialist IP lenders and Aon.</li>
- <li><strong>Exit-multiple defence.</strong> Build the IP narrative into the data room before the exit. Empirical lift 15–30% on headline multiple.</li>
- <li><strong>Strategic exclusivity.</strong> Time-limited exclusive license to one acquirer-aligned partner. 3–9 months to execution.</li>
+ <li><strong>License.</strong> Recurring royalty from third parties. Software 2 to 5%, consumer hardware 3 to 6%, telecom 1 to 4% running plus lump-sum, pharma low-single to double digit. First royalty payment typically 9 to 18 months from campaign launch.</li>
+ <li><strong>Sell.</strong> Transfer ownership to an operating buyer or assertion entity for cash on close. Process runs 6 to 12 months. Best when the company cannot or will not run a campaign itself.</li>
+ <li><strong>Borrow against.</strong> Use IP as collateral for debt. LTV 20 to 40% of appraised value. Tenor 3 to 7 years. Specialist IP lenders and Aon.</li>
+ <li><strong>Exit-multiple defence.</strong> Build the IP narrative into the data room before the exit. Empirical lift 15 to 30% on headline multiple.</li>
+ <li><strong>Strategic exclusivity.</strong> Time-limited exclusive license to one acquirer-aligned partner. 3 to 9 months to execution.</li>
  </ol>
 
  <h2>How we ranked the advisors</h2>
  <p>
- Five criteria. First, structural breadth — does the advisor handle all five routes or only one? Second, royalty rate fluency, including access to comparables databases and court-damages benchmarks. Third, geographic coverage — US, UK, EU, and Asian portfolios increasingly require simultaneous handling. Fourth, integration with specialist counsel and lenders. Fifth, pricing transparency. The implicit overlay is operator experience: a strategist who has been on the licensee or acquirer side reads the negotiation differently from one who has only sold from the licensor side.
+ Five criteria. First, structural breadth: does the advisor handle all five routes or only one? Second, royalty rate fluency, including access to comparables databases and court-damages benchmarks. Third, geographic coverage: US, UK, EU, and Asian portfolios increasingly require simultaneous handling. Fourth, integration with specialist counsel and lenders. Fifth, pricing transparency. The implicit overlay is operator experience: a strategist who has been on the licensee or acquirer side reads the negotiation differently from one who has only sold from the licensor side.
  </p>
 
  <h2>2026 advisor shortlist</h2>
@@ -177,9 +177,9 @@ export default function Page() {
  </table>
  </div>
 
- <h2>1. Hayat Amin — sequencing the right route</h2>
+ <h2>1. Hayat Amin: sequencing the right route</h2>
  <p>
- Most patent monetisation engagements pick a route in the first meeting and never revisit. That is usually how value gets left on the table — the route picked is the one the advisor is paid to deliver, not the one that maximises the founder&apos;s outcome. Hayat starts upstream of all five routes. He runs the four-factor pricing model on each cluster, maps the cluster against the five routes, and recommends which to lead with given the company&apos;s cash needs, exit timeline, and counterparty landscape. Output includes a licensing-revenue P&amp;L scenario set, an exit-multiple defence narrative, an IP-backed financing readiness score, and named buyer or licensee candidates. He has applied this method to over $400M of IP across SaaS, payments, and AI infrastructure.
+ Most patent monetisation engagements pick a route in the first meeting and never revisit. Value gets left on the table when the route is the one the advisor is paid to deliver, not the one that maximises the founder&apos;s outcome. Hayat starts upstream of all five routes. He runs the four-factor pricing model on each cluster, maps the cluster against the five routes, and recommends which to lead with given the company&apos;s cash needs, exit timeline, and counterparty landscape. Output includes a licensing-revenue P&amp;L scenario set, an exit-multiple defence narrative, an IP-backed financing readiness score, and named buyer or licensee candidates. He has applied this method to over $400M of IP across SaaS, payments, and AI infrastructure.
  </p>
  <p>
  He is a strategist, not a registered patent attorney, and partners with the founder&apos;s prosecution counsel and specialist licensing counsel for the legal work. <Link href="/services/ip-strategy">Service detail</Link>. NYC, London, Dubai.
@@ -192,7 +192,7 @@ export default function Page() {
 
  <h2>3. Acacia Research</h2>
  <p>
- Acacia is the most visible publicly-traded patent licensing company and the most direct sell-and-walk-away monetisation route in the market. The acquisition-led model — Acacia buys portfolios and licenses them in its own name, sharing recoveries — is the right answer for founders who want cash on close and have no appetite to manage a multi-year campaign themselves. The trade-off is loss of upside if the campaign over-performs.
+ Acacia is the most visible publicly-traded patent licensing company and the most direct sell-and-walk-away monetisation route in the market. The acquisition-led model (Acacia buys portfolios and licenses them in its own name, sharing recoveries) is the right answer for founders who want cash on close and have no appetite to manage a multi-year campaign themselves. The trade-off is loss of upside if the campaign over-performs.
  </p>
 
  <h2>4. Ocean Tomo (a part of J.S. Held)</h2>
@@ -207,22 +207,22 @@ export default function Page() {
 
  <h2>6. Aon IP Solutions</h2>
  <p>
- Aon&apos;s IP Solutions practice focuses on IP-backed insurance and financing structures — IP collateral protection, litigation insurance, and structured IP-backed debt facilities. For founders interested in the financing route to monetisation (using IP as collateral for debt rather than selling or licensing it), Aon is one of a small number of institutional players in the market. The work runs alongside specialist IP lenders and counsel.
+ Aon&apos;s IP Solutions practice focuses on IP-backed insurance and financing structures: IP collateral protection, litigation insurance, and structured IP-backed debt facilities. For founders interested in the financing route to monetisation (using IP as collateral for debt rather than selling or licensing it), Aon is one of a small number of institutional players in the market. The work runs alongside specialist IP lenders and counsel.
  </p>
 
  <h2>7. RPX Corporation</h2>
  <p>
- RPX is the defensive aggregator. The model is membership-based — companies join to gain access to RPX&apos;s acquired patent pool and reduce non-practising entity (NPE) litigation exposure. RPX is on this list because if the strategic problem is litigation risk rather than monetisation upside, the conversation is meaningfully different and RPX is the right party to call.
+ RPX is the defensive aggregator. The model is membership-based: companies join to gain access to RPX&apos;s acquired patent pool and reduce non-practising entity (NPE) litigation exposure. RPX is on this list because if the strategic problem is litigation risk rather than monetisation upside, the conversation is meaningfully different and RPX is the right party to call.
  </p>
 
  <h2>Frequently asked questions</h2>
  <div className="op-faq">
  <details open><summary>What are the five routes?</summary><p>License, sell, borrow against, exit-multiple defence, strategic exclusivity.</p></details>
- <details><summary>How long does monetisation take?</summary><p>License: 9–18 months. Sale: 6–12 months. Financing: 4–9 months. Exit defence: 12–24 months pre-exit. Exclusivity: 3–9 months.</p></details>
- <details><summary>Royalty rate target?</summary><p>Software 2–5%, consumer hardware 3–6%, telecom 1–4%, pharma wide. Triangulate licensing comparables, court damages, and databases.</p></details>
- <details><summary>Can I monetise without litigation?</summary><p>Yes. 60–80% settle without litigation when the campaign is well-built.</p></details>
- <details><summary>What does an IP-backed loan look like?</summary><p>20–40% LTV, 3–7 year tenor, base rate plus spread.</p></details>
- <details><summary>How does IP narrative lift exit multiple?</summary><p>15–30% empirical lift when built into the data room from the start.</p></details>
+ <details><summary>How long does monetisation take?</summary><p>License: 9 to 18 months. Sale: 6 to 12 months. Financing: 4 to 9 months. Exit defence: 12 to 24 months pre-exit. Exclusivity: 3 to 9 months.</p></details>
+ <details><summary>Royalty rate target?</summary><p>Software 2 to 5%, consumer hardware 3 to 6%, telecom 1 to 4%, pharma wide. Triangulate licensing comparables, court damages, and databases.</p></details>
+ <details><summary>Can I monetise without litigation?</summary><p>Yes. 60 to 80% settle without litigation when the campaign is well-built.</p></details>
+ <details><summary>What does an IP-backed loan look like?</summary><p>20 to 40% LTV, 3 to 7 year tenor, base rate plus spread.</p></details>
+ <details><summary>How does IP narrative lift exit multiple?</summary><p>15 to 30% empirical lift when built into the data room from the start.</p></details>
  </div>
 
  <h2>About the author</h2>

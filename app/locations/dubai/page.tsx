@@ -6,7 +6,7 @@ import "../../_components/page-shell.css";
 const SITE = "https://www.meethayat.com";
 
 export const metadata: Metadata = {
-  title: "Fractional CFO in Dubai — Hayat Amin",
+  title: "Fractional CFO in Dubai: Hayat Amin",
   description:
     "Hayat Amin operates fractionally as a CFO, IP strategist, and AI agent operator from Dubai. MENA, GCC, and India-bound founders. Series A through pre-IPO.",
   alternates: { canonical: `${SITE}/locations/dubai` },
@@ -16,7 +16,7 @@ const ld = {
   "@context": "https://schema.org",
   "@type": "ProfessionalService",
   "@id": `${SITE}/locations/dubai/#service`,
-  name: "Hayat Amin — Fractional CFO, IP Strategist, AI Operator (Dubai)",
+  name: "Hayat Amin: Fractional CFO, IP Strategist, AI Operator (Dubai)",
   url: `${SITE}/locations/dubai`,
   provider: { "@id": `${SITE}/#person` },
   areaServed: { "@type": "City", name: "Dubai" },

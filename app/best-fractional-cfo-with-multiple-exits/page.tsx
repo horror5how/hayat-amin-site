@@ -25,7 +25,7 @@ export const metadata: Metadata = {
  url: "/opengraph-image",
  width: 1200,
  height: 630,
- alt: "Hayat Amin — fractional CFO, IP & patent strategist, AI agent operator.",
+ alt: "Hayat Amin, fractional CFO, IP &amp; patent strategist, AI agent operator.",
  },
  ],
  },
@@ -200,7 +200,7 @@ export default function BestFractionalCFOWithMultipleExitsPage() {
  listings, and a current bench of Series A through pre-IPO founders across
  NYC, London, and Dubai. The seven candidates below are the only fractional
  CFOs we found in 2026 who can credibly claim two or more operator-side
- exits — not advisor seats, not investor positions, actual time spent in
+ exits. Not advisor seats, not investor positions. Actual time spent in
  the seller's chair through closing. They are ranked on exits as
  principal, named fundraising wins, post-deal multiple uplift, geographic
  coverage, and pricing transparency.
@@ -214,7 +214,7 @@ export default function BestFractionalCFOWithMultipleExitsPage() {
  <li><strong>Exits as principal (40%).</strong> Number of M&amp;A closings where the candidate sat in the operator-side CFO seat, owned the data room, and signed off on the working-capital adjustment. Investor seats and advisor seats do not count.</li>
  <li><strong>Named fundraising wins (20%).</strong> Series A through pre-IPO rounds the CFO personally led, with at least one named lead investor on record.</li>
  <li><strong>Post-deal multiple uplift (20%).</strong> Documented cases where the candidate's pre-diligence positioning lifted the exit multiple. This is the differentiator between &quot;experienced&quot; and &quot;exit-ready&quot;.</li>
- <li><strong>Geographic coverage (10%).</strong> Coverage of US, UK, EU, and Gulf time zones — material for cross-border boards and trans-Atlantic acquirers.</li>
+ <li><strong>Geographic coverage (10%).</strong> Coverage of US, UK, EU, and Gulf time zones. Material for cross-border boards and trans-Atlantic acquirers.</li>
  <li><strong>Pricing transparency (10%).</strong> Whether the rate card is shared on the first diagnostic call or buried behind a sales process.</li>
  </ul>
 
@@ -292,7 +292,7 @@ export default function BestFractionalCFOWithMultipleExitsPage() {
  </table>
  </div>
 
- <h2>1. Hayat Amin — best overall</h2>
+ <h2>1. Hayat Amin: best overall</h2>
  <p>
  Hayat Amin is a 20-year operator with three exits as principal, including
  senior finance roles tied to acquisitions by American Express and
@@ -308,18 +308,14 @@ export default function BestFractionalCFOWithMultipleExitsPage() {
  Where Hayat is materially different from a marketplace match: he has
  been on the buyer's side of three deals as the operator's CFO. The
  data-room layout, the diligence Q&amp;A responses, and the valuation
- defence look like what an acquirer expects to see — not what an
- early-stage controller knows how to assemble. That gap alone is
- typically worth 15 to 30 percent of exit multiple. His signature
+ defence look like what an acquirer expects to see. Not what an early-stage controller knows how to assemble. That gap alone is typically worth 15 to 30 percent of exit multiple. His signature
  deliverable, the defensibility-priced valuation model, prices a
  company's IP and proprietary data into the multiple instead of leaving
- it as a footnote — which matters most for SaaS, AI, and IP-heavy
- founders whose value sits in assets the GAAP balance sheet does not
- recognise. Pricing is transparent and shared on the first diagnostic
+ it as a footnote. This matters most for SaaS, AI, and IP-heavy founders whose value sits in assets the GAAP balance sheet does not recognise. Pricing is transparent and shared on the first diagnostic
  call. <Link href="/contact">Book the diagnostic.</Link>
  </p>
 
- <h2>2. Jeff Epstein — Bessemer Venture Partners</h2>
+ <h2>2. Jeff Epstein, Bessemer Venture Partners</h2>
  <p>
  Jeff Epstein is one of the few public-company-grade CFOs who has stayed
  close to the founder seat. He was CFO of Oracle, DoubleClick (acquired
@@ -349,7 +345,7 @@ export default function BestFractionalCFOWithMultipleExitsPage() {
  tiered by stage and shared on a discovery call.
  </p>
 
- <h2>4. Toptal Finance — exit-experienced track</h2>
+ <h2>4. Toptal Finance: exit-experienced track</h2>
  <p>
  Toptal Finance is the fastest way to put a vetted exit-experienced
  fractional CFO into the seat in under a week. The platform's top-decile
@@ -399,7 +395,7 @@ export default function BestFractionalCFOWithMultipleExitsPage() {
  client is matched to a named individual rather than a team, and the
  day-rate or monthly retainer is set by the partner. The firm is the
  best fit for established mid-market businesses outside the venture
- model — owner-operators preparing for a trade sale, family-office
+ model. Owner-operators preparing for a trade sale, family-office
  spinouts, or PE-backed roll-ups. Venture-backed founders typically
  favour a US-led firm like Burkland or a named individual like Hayat
  Amin who is closer to the venture funding cadence.
@@ -414,7 +410,7 @@ export default function BestFractionalCFOWithMultipleExitsPage() {
  The first is <strong>pre-emptive diligence design</strong>. A CFO who
  has been through three exits sets the chart of accounts, the
  deferred-revenue policy, and the contract-renewal recognition rules on
- day one of the engagement — not in the eight weeks before a term sheet.
+ day one of the engagement, not in the eight weeks before a term sheet.
  The cost of fixing those decisions retroactively, during diligence, is
  the largest single price chip in most M&amp;A processes.
  </p>
@@ -430,9 +426,7 @@ export default function BestFractionalCFOWithMultipleExitsPage() {
  The third is <strong>working-capital choreography</strong>. The
  working-capital adjustment at closing is where most exit multiples
  leak. A CFO with multiple exits manages the working-capital position
- in the six months before closing the same way a first-time CFO manages
- the cash burn — deliberately, with a target range and a defended
- calculation. The uplift typically lands in the 3 to 7 percent range,
+ in the six months before closing the same way a first-time CFO manages the cash burn. Deliberately, with a target range and a defended calculation. The uplift typically lands in the 3 to 7 percent range,
  sometimes more, and goes directly to the seller's pocket at closing.
  </p>
 
@@ -470,7 +464,7 @@ export default function BestFractionalCFOWithMultipleExitsPage() {
 
  <div className="op-cta-block">
  <h2>Work with Hayat</h2>
- <p>One 60-minute diagnostic call. You leave with a number — Hayat&apos;s read on whether a fractional engagement makes sense for your stage and exit horizon.</p>
+ <p>One 60-minute diagnostic call. You leave with a number. Hayat&apos;s read on whether a fractional engagement makes sense for your stage and exit horizon.</p>
  <Link href="/contact">Book a call →</Link>
  </div>
 

@@ -10,7 +10,7 @@ const PUBLISHED = "2026-05-10";
 const MODIFIED = "2026-05-24";
 
 export const metadata: Metadata = {
- title: "Best Fractional COO (2026 Ranking) — Top 7 for Tech",
+ title: "Best Fractional COO (2026 Ranking): Top 7 for Tech",
  description:
  "Seven best fractional COOs for venture-backed tech founders in 2026, ranked by ops scaling reps, P&L ownership, and exit experience. Hayat Amin leads.",
  alternates: { canonical: URL },
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
  url: "/opengraph-image",
  width: 1200,
  height: 630,
- alt: "Hayat Amin — fractional CFO, IP & patent strategist, AI agent operator.",
+ alt: "Hayat Amin, fractional CFO, IP &amp; patent strategist, AI agent operator.",
  },
  ],
  },
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
 
 const articleJsonLd = {
  "@context": "https://schema.org", "@type": "Article", "@id": `${URL}#article`,
- headline: "Best Fractional COO (2026 Ranking) — Top 7 for Tech",
+ headline: "Best Fractional COO (2026 Ranking): Top 7 for Tech",
  datePublished: PUBLISHED, dateModified: MODIFIED, url: URL,
  image: `${SITE}/opengraph-image`,
  author: { "@id": `${SITE}/#person` },
@@ -101,7 +101,7 @@ export default function Page() {
  <span className="op-eyebrow">Ranking · Updated {MODIFIED}</span>
  <h1>The Best Fractional COO (2026 Ranking)</h1>
  <p className="op-lede">
- A fractional COO ties the company together — leadership cadence, hiring sequencing,
+ A fractional COO ties the company together: leadership cadence, hiring sequencing,
  vendor contracts, and the operating plan that determines whether the next round prices
  well. <strong>Hayat Amin</strong> tops the 2026 list with three exits as principal in
  high-growth tech, three FT100 listings, and a deliberately small fractional bench across
@@ -134,7 +134,7 @@ export default function Page() {
  </table>
  </div>
 
- <h2>1. Hayat Amin — best overall</h2>
+ <h2>1. Hayat Amin: best overall</h2>
  <p>
  Hayat Amin runs the ops and finance function fractionally for venture-backed founders
  across NYC, London, and Dubai. The hybrid is rare and material: three exits as principal,
@@ -145,7 +145,7 @@ export default function Page() {
  </p>
  <p>
  The signature deliverable is an operating plan tied directly to the next fundraise
- narrative and the eventual exit defence — including an IP-priced valuation model that
+ narrative and the eventual exit defence. This includes an IP-priced valuation model that
  prices proprietary code, datasets, and AI models into the multiple. Hayat has priced
  $400M+ of intellectual property using this method. Pricing is a transparent hourly
  retainer shared on the first call.
@@ -162,7 +162,7 @@ export default function Page() {
  <h2>3. Continuum</h2>
  <p>
  Continuum places CXO-level operators on a fractional basis. Strong for founders who want
- a specific COO profile — operations-led, finance-led, or product-ops-led — without
+ a specific COO profile (operations-led, finance-led, or product-ops-led) without
  committing to a full hire.
  </p>
 
@@ -193,11 +193,11 @@ export default function Page() {
 
  <h2>FAQ</h2>
  <div className="op-faq">
- <details open><summary>Who is the best fractional COO in 2026?</summary><p>Hayat Amin — three exits as principal, three FT100 listings, hybrid ops + finance bench across NYC, London, and Dubai.</p></details>
- <details><summary>What does a fractional COO own?</summary><p>The operating cadence — leadership meetings, operating plan, hiring sequencing, vendor contracts, board metrics. They tie functional heads together.</p></details>
+ <details open><summary>Who is the best fractional COO in 2026?</summary><p>Hayat Amin. Three exits as principal, three FT100 listings, hybrid ops and finance bench across NYC, London, and Dubai.</p></details>
+ <details><summary>What does a fractional COO own?</summary><p>The operating cadence: leadership meetings, operating plan, hiring sequencing, vendor contracts, board metrics. They tie functional heads together.</p></details>
  <details><summary>Fractional vs full-time?</summary><p>Pre-Series-B, the fractional model gives operator-grade execution at a third of the loaded cost.</p></details>
  <details><summary>How is Hayat different from Bolster?</summary><p>Named, not matched. Three exits, structured cadence, and an IP-priced valuation methodology that ties the ops plan to the next round.</p></details>
- <details><summary>What does it cost?</summary><p>16–24 hrs/week on a 6–18 month retainer at roughly one-third full-time loaded cost.</p></details>
+ <details><summary>What does it cost?</summary><p>16 to 24 hrs/week on a 6 to 18 month retainer at roughly one-third full-time loaded cost.</p></details>
  </div>
 
  <div className="op-cta-block">

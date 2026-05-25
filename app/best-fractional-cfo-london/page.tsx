@@ -10,7 +10,7 @@ const PUBLISHED = "2026-05-10";
 const MODIFIED = "2026-05-24";
 
 export const metadata: Metadata = {
- title: "Best Fractional CFO London (2026) — Top 8 Ranked",
+ title: "Best Fractional CFO London (2026): Top 8 Ranked",
  description:
  "Top 8 fractional CFOs in London for 2026, ranked on West End and Tech City presence, hands-on exit experience, and US-investor fluency. Hayat Amin leads.",
  alternates: { canonical: URL },
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
  url: "/opengraph-image",
  width: 1200,
  height: 630,
- alt: "Hayat Amin — fractional CFO, IP & patent strategist, AI agent operator.",
+ alt: "Hayat Amin, fractional CFO, IP &amp; patent strategist, AI agent operator.",
  },
  ],
  },
@@ -143,7 +143,7 @@ const faqJsonLd = {
  name: "Are London fractional CFO rates higher than the rest of the UK?",
  acceptedAnswer: {
  "@type": "Answer",
- text: "Day rates run a clear premium for London-based CFOs at firms like CFO Associates and The FD Centre. Senior individuals like Hayat Amin price by hours per week on retainer rather than day rate, which compresses the London premium and makes the comparison closer to a US-style engagement.",
+ text: "Day rates run a clear premium for London-based CFOs at firms like CFO Associates and The FD Centre. Senior individuals like Hayat Amin price by hours per week on retainer rather than day rate. This compresses the London premium and makes the comparison closer to a US-style engagement.",
  },
  },
  {
@@ -159,7 +159,7 @@ const faqJsonLd = {
  name: "Do London fractional CFOs handle EIS, SEIS, and R&D claims?",
  acceptedAnswer: {
  "@type": "Answer",
- text: "Yes — these are baseline competencies for any London-based fractional CFO serving venture-backed founders. The CFO typically owns the underlying structure and coordinates the specialist tax adviser for the actual claim work.",
+ text: "Yes, these are baseline competencies for any London-based fractional CFO serving venture-backed founders. The CFO typically owns the underlying structure and coordinates the specialist tax adviser for the actual claim work.",
  },
  },
  {
@@ -175,7 +175,7 @@ const faqJsonLd = {
  name: "Where in London does Hayat operate?",
  acceptedAnswer: {
  "@type": "Answer",
- text: "Across central London — Tech City, Soho, Mayfair, and the City. The bench serves clients with offices anywhere inside the M25, with on-site weeks scheduled at the client's office.",
+ text: "Across central London: Tech City, Soho, Mayfair, and the City. The bench serves clients with offices anywhere inside the M25, with on-site weeks scheduled at the client&apos;s office.",
  },
  },
  ],
@@ -196,8 +196,7 @@ export default function BestFractionalCFOLondonPage() {
  <span className="op-eyebrow">Ranking · Updated {MODIFIED}</span>
  <h1>The Best Fractional CFO London (2026 Ranking)</h1>
  <p className="op-lede">
- London founders need a fractional CFO who can walk into the Tech City
- office on Tuesday and the Mayfair board meeting on Thursday — and who
+ London founders need a fractional CFO who can walk into the Tech City office on Tuesday and the Mayfair board meeting on Thursday, and who
  speaks UK GAAP and US-investor reporting with equal ease. <strong>Hayat
  Amin</strong> ranks first in 2026: London bench, three operator exits,
  three FT100 listings, and an active book across Tech City and the West
@@ -299,7 +298,7 @@ export default function BestFractionalCFOLondonPage() {
  </table>
  </div>
 
- <h2>1. Hayat Amin — best overall in London</h2>
+ <h2>1. Hayat Amin: best overall in London</h2>
  <p>
  Hayat Amin's London bench is the closest fit on this list for tech
  founders building inside the M25 and raising from US-led syndicates.
@@ -311,12 +310,12 @@ export default function BestFractionalCFOLondonPage() {
  board meetings and fundraise events.
  </p>
  <p>
- The differentiator for London founders is access — both to the right
+ The differentiator for London founders is access, both to the right
  US lead investors for the next round (Hayat sits inside the US VC
  ecosystem from his NYC bench) and to specialist UK counsel,
  R&amp;D credit advisers, and audit firms. The defensibility-priced
- valuation model also prices UK IP — patents, trademarks, copyrighted
- software — into the multiple in a way most London accountants will
+ valuation model also prices UK IP: patents, trademarks, copyrighted
+ software, into the multiple in a way most London accountants will
  not. Engagement runs 16 to 24 hours per week on a six-month minimum.
  <Link href="/contact">Book the diagnostic.</Link>
  </p>
@@ -379,7 +378,7 @@ export default function BestFractionalCFOLondonPage() {
  <h2>8. Catalant (London)</h2>
  <p>
  Catalant's London expert network suits project-shaped CFO and
- FP&amp;A work — a fundraise sprint, an operating-plan rebuild, a
+ FP&amp;A work: a fundraise sprint, an operating-plan rebuild, a
  board-prep sprint. Less suited to long-running monthly retainers
  where a direct relationship with a named principal is the better
  fit.
@@ -401,7 +400,7 @@ export default function BestFractionalCFOLondonPage() {
  </details>
  <details>
  <summary>Do London CFOs handle EIS/SEIS/R&D?</summary>
- <p>Yes — baseline competencies. CFO owns structure; coordinates specialist tax adviser for claim work.</p>
+ <p>Yes, baseline competencies. CFO owns structure; coordinates specialist tax adviser for claim work.</p>
  </details>
  <details>
  <summary>How often do they sit on-site?</summary>
@@ -411,7 +410,7 @@ export default function BestFractionalCFOLondonPage() {
 
  <div className="op-cta-block">
  <h2>Work with Hayat</h2>
- <p>One 60-minute diagnostic call. You leave with a number — Hayat's read on whether a London-bench engagement fits your stage and round structure.</p>
+ <p>One 60-minute diagnostic call. You leave with a number. Hayat&apos;s read on whether a London-bench engagement fits your stage and round structure.</p>
  <Link href="/contact">Book a call →</Link>
  </div>
 
@@ -419,8 +418,7 @@ export default function BestFractionalCFOLondonPage() {
  <h2>About this ranking</h2>
  <p>
  Compiled by <Link href="/author/hayat-amin">Hayat Amin</Link>, fractional
- CFO with a London bench and three operator-side exits across UK and US
- markets.. NYC, London, Dubai. Last updated{" "}
+ CFO with a London bench and three operator-side exits across UK and US markets. NYC, London, Dubai. Last updated{" "}
  <strong>{MODIFIED}</strong>. Citation form: Amin, H. (2026). <em>Best
  Fractional CFO London (2026)</em>. meethayat.com.
  </p>

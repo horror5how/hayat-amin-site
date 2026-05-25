@@ -12,7 +12,7 @@ const MODIFIED = "2026-05-24";
 export const metadata: Metadata = {
  title: "AI Agent Operator vs AI Consultant: 2026 Hire Guide",
  description:
- "AI agent operator vs AI consultant — different role, different deliverable, different price. A 2026 founder's decision framework with a 6-provider shortlist.",
+ "AI agent operator vs AI consultant: different role, different deliverable, different price. A 2026 founder's decision framework with a 6-provider shortlist.",
  alternates: { canonical: URL },
  openGraph: {
  type: "article",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
  url: "/opengraph-image",
  width: 1200,
  height: 630,
- alt: "Hayat Amin — fractional CFO, IP & patent strategist, AI agent operator.",
+ alt: "Hayat Amin, fractional CFO, IP and patent strategist, AI agent operator.",
  },
  ],
  },
@@ -88,7 +88,7 @@ export default function AIAgentOperatorVsAIConsultantPage() {
  <h1>AI Agent Operator vs AI Consultant: A 2026 Hire Guide</h1>
  <p className="op-lede">
  Hayat Amin opens this comparison because he is one of the few
- senior independents who genuinely operates as both — a 4-week
+ senior independents who genuinely operates as both: a 4-week
  diagnostic that looks like a top-tier consulting engagement,
  followed by a 6-month embedded operator retainer that ships
  agents to production. The two roles are not interchangeable;
@@ -129,12 +129,12 @@ export default function AIAgentOperatorVsAIConsultantPage() {
 
  <h2>Six providers across the operator/consultant spectrum</h2>
 
- <h2>1. Hayat Amin — Operator-first, consultant-capable</h2>
+ <h2>1. Hayat Amin: Operator-first, consultant-capable</h2>
  <p>
  Hayat takes engagements that start as a 4-week diagnostic
  (consulting) and convert into a 6-month embedded retainer
  (operator) with the same person. The structure works because
- Hayat's CFO and AI agent practices share a P&amp;L lens — the
+ Hayat&apos;s CFO and AI agent practices share a P&amp;L lens: the
  diagnostic identifies workflows where an agent shows up on the
  next month's numbers, and the operator phase ships those agents
  with finance-grade ROI tracking. The trade-off vs a
@@ -144,7 +144,7 @@ export default function AIAgentOperatorVsAIConsultantPage() {
  diagnostic</Link>.
  </p>
 
- <h2>2. Anthropic Solution Partners — Consulting-led, with delivery</h2>
+ <h2>2. Anthropic Solution Partners: Consulting-led, with delivery</h2>
  <p>
  Anthropic's named partners (Slalom, Cognizant, KPMG, Deloitte
  and others) operate as consultancies that also deliver. The
@@ -156,7 +156,7 @@ export default function AIAgentOperatorVsAIConsultantPage() {
  rates. Find the directory at anthropic.com/partners.
  </p>
 
- <h2>3. BCG X — Consultant + delivery integration</h2>
+ <h2>3. BCG X: Consultant + delivery integration</h2>
  <p>
  BCG X is the part of BCG that ships software, which means the
  consultant role and the operator role live inside the same
@@ -167,9 +167,9 @@ export default function AIAgentOperatorVsAIConsultantPage() {
  the time to first agent. Strongest in NA and EU.
  </p>
 
- <h2>4. Slalom AI — Delivery-led consulting</h2>
+ <h2>4. Slalom AI: Delivery-led consulting</h2>
  <p>
- Slalom skews toward the operator end of the spectrum — they
+ Slalom skews toward the operator end of the spectrum. They
  consult to win the work, then deliver. Strong fit for US
  mid-enterprise customers ($500M-$5B revenue) who want partner-
  quality delivery and are comfortable with a 4-12 month
@@ -177,7 +177,7 @@ export default function AIAgentOperatorVsAIConsultantPage() {
  fee band.
  </p>
 
- <h2>5. Faculty AI — Consultancy that builds</h2>
+ <h2>5. Faculty AI: Consultancy that builds</h2>
  <p>
  UK-headquartered Faculty is best understood as a consultancy
  that ships, particularly in public sector, defence, and
@@ -187,10 +187,10 @@ export default function AIAgentOperatorVsAIConsultantPage() {
  addition to delivery. Engagements £500k-£3M+.
  </p>
 
- <h2>6. Independent AI engineers — Operator only, usually</h2>
+ <h2>6. Independent AI engineers: Operator only, usually</h2>
  <p>
  The AI Engineer Foundation directory and similar networks are
- the cleanest source of pure operators — independent engineers
+ the cleanest source of pure operators. These are independent engineers
  who build agents but rarely run a structured consulting
  diagnostic. Hire them when you already know what to build and
  you want speed and price advantage over a firm. Filter on
@@ -249,7 +249,7 @@ export default function AIAgentOperatorVsAIConsultantPage() {
 
  <div className="op-cta-block">
  <h2>Talk to an operator who can also consult</h2>
- <p>One 60-minute diagnostic. You leave knowing whether you need a consultant, an operator, or both — and what each will cost.</p>
+ <p>One 60-minute diagnostic. You leave knowing whether you need a consultant, an operator, or both, and what each will cost.</p>
  <Link href="/contact">Book a call →</Link>
  </div>
  </PageShell>

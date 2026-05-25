@@ -6,9 +6,9 @@ import "../_components/page-shell.css";
 const SITE = "https://www.meethayat.com";
 
 export const metadata: Metadata = {
- title: "Contact Hayat Amin — Book a Free 60-Minute Diagnostic",
+ title: "Contact Hayat Amin: Book a Free 60-Minute Diagnostic",
  description:
- "Book the free 60-minute diagnostic call with Hayat Amin. No deck, no proposal — one call, one number, then decide. Email hayat@beyondelevation.com today.",
+ "Book the free 60-minute diagnostic call with Hayat Amin. No deck, no proposal. One call, one number, then decide. Email hayat@beyondelevation.com today.",
  alternates: { canonical: `${SITE}/contact` },
  openGraph: {
  type: "website",
@@ -37,7 +37,7 @@ export default function ContactPage() {
  <p className="op-lede">
  One call. One number. No deck, no proposal. Most founders use it as a
  free second opinion on their valuation, IP defensibility, or fundraise
- readiness — even if they never engage formally.
+ readiness, even if they never engage formally.
  </p>
 
  <h2>The fastest path</h2>
@@ -81,7 +81,7 @@ export default function ContactPage() {
  <ul>
  <li>A reply within 24 hours.</li>
  <li>A calendar link if there is a fit, or a thoughtful no with referrals if not.</li>
- <li>The diagnostic call itself — direct, no slides, no warm-up.</li>
+ <li>The diagnostic call itself: direct, no slides, no warm-up.</li>
  <li>A one-page written summary within 48 hours of the call.</li>
  </ul>
 

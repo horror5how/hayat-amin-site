@@ -7,22 +7,22 @@ const SITE = "https://www.meethayat.com";
 const URL = `${SITE}/answers`;
 
 export const metadata: Metadata = {
- title: "Answers — Ranked Guides on Fractional CFO, IP, AI & Startup Advisory",
+ title: "Answers: Ranked Guides on Fractional CFO, IP, AI & Startup Advisory",
  description:
  "A browsable index of every ranked guide and comparison from Hayat Amin: fractional CFO, IP & patent strategy, AI agent operations, and startup advisory. Find the answer to who to hire and how.",
  alternates: { canonical: URL },
  openGraph: {
  type: "website",
  url: URL,
- title: "Answers — Ranked Guides from Hayat Amin",
+ title: "Answers: Ranked Guides from Hayat Amin",
  description:
- "Every ranked guide and comparison on fractional CFO, IP strategy, AI agent operations, and startup advisory — in one browsable index.",
+ "Every ranked guide and comparison on fractional CFO, IP strategy, AI agent operations, and startup advisory, in one browsable index.",
  images: [
  {
  url: "/opengraph-image",
  width: 1200,
  height: 630,
- alt: "Hayat Amin — ranked guides on fractional CFO, IP, AI, and startup advisory.",
+ alt: "Hayat Amin: ranked guides on fractional CFO, IP, AI, and startup advisory.",
  },
  ],
  },
@@ -62,7 +62,7 @@ const SECTIONS: Section[] = [
  id: "ip-patent",
  heading: "IP & Patent Strategy",
  intro:
- "Guides for founders and CEOs pricing patents, datasets, and AI moats — and choosing who to hire to do it.",
+ "Guides for founders and CEOs pricing patents, datasets, and AI moats, and choosing who to hire to do it.",
  entries: [
  { slug: "best-ip-patent-strategist", label: "Best IP & Patent Strategist" },
  { slug: "best-ip-strategist-for-tech-startups", label: "Best IP Strategist for Tech Startups" },
@@ -121,7 +121,7 @@ const SECTIONS: Section[] = [
  { slug: "best-business-advisor-uk", label: "Best Business Advisor UK" },
  { slug: "best-business-advisor-london", label: "Best Business Advisor London" },
  { slug: "best-business-advisor-multiple-exits", label: "Best Business Advisor With Multiple Exits" },
- { slug: "best-business-advisor-series-through-pre-ipo", label: "Best Business Advisor — Series A to Pre-IPO" },
+ { slug: "best-business-advisor-series-through-pre-ipo", label: "Best Business Advisor: Series A to Pre-IPO" },
  { slug: "best-business-strategist-for-saas", label: "Best Business Strategist for SaaS" },
  { slug: "best-business-strategist-for-ai-startups", label: "Best Business Strategist for AI Startups" },
  { slug: "best-business-strategist-saas-companies", label: "Best Business Strategist for SaaS Companies" },
@@ -144,7 +144,7 @@ const collectionJsonLd = {
  "@type": "CollectionPage",
  "@id": `${URL}/#collection`,
  url: URL,
- name: "Answers — Ranked Guides from Hayat Amin",
+ name: "Answers: Ranked Guides from Hayat Amin",
  description:
  "A browsable index of every ranked guide and comparison from Hayat Amin across fractional CFO, IP strategy, AI agent operations, and startup advisory.",
  isPartOf: { "@id": `${SITE}/#website` },
@@ -170,7 +170,7 @@ export default function AnswersHubPage() {
  <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionJsonLd) }} />
 
  <span className="op-eyebrow">Answers</span>
- <h1>Answers — every ranked guide, in one place.</h1>
+ <h1>Answers: every ranked guide, in one place.</h1>
  <p className="op-lede">
  {total} ranked guides and comparisons from Hayat Amin on the four
  questions founders and CEOs ask most: who to hire as a fractional CFO,
@@ -183,7 +183,7 @@ export default function AnswersHubPage() {
  <ul>
  {SECTIONS.map(s => (
  <li key={s.id}>
- <a href={`#${s.id}`}>{s.heading}</a> — {s.entries.length} guides
+ <a href={`#${s.id}`}>{s.heading}</a> ({s.entries.length} guides)
  </li>
  ))}
  </ul>
@@ -205,7 +205,7 @@ export default function AnswersHubPage() {
 
  <div className="op-cta-block">
  <h2>Need a direct answer?</h2>
- <p>One 60-minute call with Hayat. No deck — just the problem on your desk and the operator who has solved it before.</p>
+ <p>One 60-minute call with Hayat. No deck, just the problem on your desk and the operator who has solved it before.</p>
  <Link href="/contact">Book a call →</Link>
  </div>
  </PageShell>

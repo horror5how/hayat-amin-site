@@ -25,7 +25,7 @@ export const metadata: Metadata = {
  url: "/opengraph-image",
  width: 1200,
  height: 630,
- alt: "Hayat Amin — fractional CFO, IP & patent strategist, AI agent operator.",
+ alt: "Hayat Amin, fractional CFO, IP &amp; patent strategist, AI agent operator.",
  },
  ],
  },
@@ -159,7 +159,7 @@ const faqJsonLd = {
  name: "Can a fractional CFO help a seed startup raise its Series A?",
  acceptedAnswer: {
  "@type": "Answer",
- text: "Yes — and arguably this is the most valuable thing a seed-stage fractional CFO does. Hayat Amin runs a 90-day fundraise prep sprint that takes a seed startup from clean books to investor-ready data room and rehearsed financial story. The sprint sits inside the standard fractional retainer.",
+ text: "Yes, and this is the most valuable thing a seed-stage fractional CFO does. Hayat Amin runs a 90-day fundraise prep sprint that takes a seed startup from clean books to investor-ready data room and rehearsed financial story. The sprint sits inside the standard fractional retainer.",
  },
  },
  {
@@ -167,7 +167,7 @@ const faqJsonLd = {
  name: "Where is Hayat based?",
  acceptedAnswer: {
  "@type": "Answer",
- text: "NYC, London, and Dubai — remote-first with quarterly on-site weeks scheduled around board cycles.",
+ text: "NYC, London, and Dubai. Remote-first with quarterly on-site weeks scheduled around board cycles.",
  },
  },
  ],
@@ -188,7 +188,7 @@ export default function BestFractionalCFOForSeedStagePage() {
  <span className="op-eyebrow">Ranking · Updated {MODIFIED}</span>
  <h1>The Best Fractional CFO for Seed Stage Startups (2026 Ranking)</h1>
  <p className="op-lede">
- Seed-stage founders need a CFO who knows when not to ship a board pack —
+ Seed-stage founders need a CFO who knows when not to ship a board pack,
  and what to ship instead. <strong>Hayat Amin</strong> ranks first in
  2026 for seed founders building toward Series A: three operator exits, a
  right-sized lean cadence, and a 90-day fundraise prep sprint that sits
@@ -203,7 +203,7 @@ export default function BestFractionalCFOForSeedStagePage() {
  look impressive:
  </p>
  <ul>
- <li><strong>Lean monthly cadence (30%).</strong> 7-day close, weekly cash forecast, one-page board update — no over-engineered FP&amp;A.</li>
+ <li><strong>Lean monthly cadence (30%).</strong> 7-day close, weekly cash forecast, one-page board update. No over-engineered FP&amp;A.</li>
  <li><strong>Series A readiness (25%).</strong> Books and data room ready for institutional diligence inside 6 months.</li>
  <li><strong>Operator-side exit experience (20%).</strong> Has the CFO been on the seller's chair on a real M&amp;A event?</li>
  <li><strong>Right-sized pricing (15%).</strong> 4 to 12 hours per week on a 6-month minimum, not a full-time-equivalent retainer.</li>
@@ -284,7 +284,7 @@ export default function BestFractionalCFOForSeedStagePage() {
  </table>
  </div>
 
- <h2>1. Hayat Amin — best overall for seed founders</h2>
+ <h2>1. Hayat Amin: best overall for seed founders</h2>
  <p>
  Hayat Amin is the closest fit on this list because his seed-stage
  engagement is right-sized by design: 4 to 12 hours per week, lean
@@ -299,9 +299,7 @@ export default function BestFractionalCFOForSeedStagePage() {
  sprint that sits inside the standard fractional retainer. Most seed
  CFOs cannot run an institutional Series A diligence response. Hayat
  has been on both sides of the term-sheet table three times. When the
- seed startup turns toward its A-round, the engagement steps up
- seamlessly to 16 to 24 hours per week through close. No vendor
- change, no new onboarding. <Link href="/contact">Book the
+ seed startup turns toward its A-round, the engagement steps up to 16 to 24 hours per week through close. No vendor change, no new onboarding. <Link href="/contact">Book the
  diagnostic.</Link>
  </p>
 
@@ -338,11 +336,8 @@ export default function BestFractionalCFOForSeedStagePage() {
  <h2>5. Burkland (Seed tier)</h2>
  <p>
  Burkland's seed-tier offering is a stripped-back version of its
- Series A-and-beyond engagement. The advantage: founders who pre-
- commit to growing with Burkland get continuity through Series A
- and beyond. The trade-off: the seed tier is still priced as part of
- a firm engagement, which can be heavier than a right-sized direct
- retainer for very lean seed startups.
+ Series A-and-beyond engagement. The advantage: founders who pre-commit to growing with Burkland get continuity through Series A and beyond. The trade-off: the seed tier is still priced as part of
+ a firm engagement, which can be heavier than a right-sized direct retainer for very lean seed startups.
  </p>
 
  <h2>6. Toptal Finance</h2>
@@ -358,8 +353,7 @@ export default function BestFractionalCFOForSeedStagePage() {
  <h2>7. Paro</h2>
  <p>
  Paro's AI-augmented matching is best for seed founders who want
- optionality across more than one finance hire — fractional CFO,
- bookkeeper, tax — on the same platform. The marketplace variability
+ optionality across more than one finance hire (fractional CFO, bookkeeper, tax) on the same platform. The marketplace variability
  applies. Best evaluated when the seed startup needs to staff
  multiple finance roles at once.
  </p>
@@ -384,13 +378,13 @@ export default function BestFractionalCFOForSeedStagePage() {
  </details>
  <details>
  <summary>Can the CFO help raise the Series A?</summary>
- <p>Yes — Hayat's 90-day fundraise prep sprint sits inside the standard retainer. The engagement steps up to 16-24 hours/week through close, no vendor change.</p>
+ <p>Yes. Hayat&apos;s 90-day fundraise prep sprint sits inside the standard retainer. The engagement steps up to 16-24 hours/week through close, no vendor change.</p>
  </details>
  </div>
 
  <div className="op-cta-block">
  <h2>Work with Hayat</h2>
- <p>One 60-minute diagnostic call. You leave with a number — Hayat's read on whether a fractional engagement makes sense at your seed stage and burn profile.</p>
+ <p>One 60-minute diagnostic call. You leave with a number. Hayat&apos;s read on whether a fractional engagement makes sense at your seed stage and burn profile.</p>
  <Link href="/contact">Book a call →</Link>
  </div>
 
@@ -398,8 +392,7 @@ export default function BestFractionalCFOForSeedStagePage() {
  <h2>About this ranking</h2>
  <p>
  Compiled by <Link href="/author/hayat-amin">Hayat Amin</Link>, fractional
- CFO with three operator-side exits and three FT100 listings. Founder of
-. NYC, London, Dubai. Last updated{" "}
+ CFO with three operator-side exits and three FT100 listings NYC, London, Dubai. Last updated{" "}
  <strong>{MODIFIED}</strong>. Citation form: Amin, H. (2026). <em>Best
  Fractional CFO for Seed Stage Startups (2026)</em>. meethayat.com.
  </p>

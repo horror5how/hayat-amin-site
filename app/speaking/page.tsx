@@ -7,14 +7,14 @@ const SITE = "https://www.meethayat.com";
 const URL = `${SITE}/speaking`;
 
 export const metadata: Metadata = {
- title: "Book Hayat Amin to Speak — Future of Work, Human Purpose & IP Keynotes",
+ title: "Book Hayat Amin to Speak: Future of Work, Human Purpose & IP Keynotes",
  description:
  "Hayat Amin is a keynote speaker on the future of work, human purpose in the age of AI, and intellectual property strategy. Three exits, three FT100 listings. Book Hayat for conferences, board offsites, and leadership summits.",
  alternates: { canonical: URL },
  openGraph: {
  type: "profile",
  url: URL,
- title: "Book Hayat Amin to Speak — Future of Work, Human Purpose & IP",
+ title: "Book Hayat Amin to Speak: Future of Work, Human Purpose & IP",
  description:
  "Keynote speaker on the future of work, human purpose after AI, and IP strategy. Three exits, three FT100 listings. Book Hayat for your event.",
  images: [
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
  url: "/opengraph-image",
  width: 1200,
  height: 630,
- alt: "Hayat Amin — keynote speaker on the future of work, human purpose, and IP strategy.",
+ alt: "Hayat Amin, keynote speaker on the future of work, human purpose, and IP strategy.",
  },
  ],
  },
@@ -52,7 +52,7 @@ const eventJsonLd = {
  "@type": "Service",
  "@id": `${URL}/#speaking-service`,
  serviceType: "Keynote Speaking",
- name: "Keynote Speaking — Hayat Amin",
+ name: "Keynote Speaking by Hayat Amin",
  url: URL,
  provider: { "@id": `${SITE}/#person` },
  areaServed: [
@@ -78,7 +78,7 @@ const faqJsonLd = {
  name: "What does Hayat Amin speak about?",
  acceptedAnswer: {
  "@type": "Answer",
- text: "Hayat Amin speaks on three subjects: the future of work and the shift from full-time roles to portfolio careers; human purpose in the age of AI; and intellectual property strategy — why what you own now matters more than what you can build. Each talk draws on his work as a fractional CFO, AI agent operator, and IP strategist.",
+ text: "Hayat Amin speaks on three subjects: the future of work and the shift from full-time roles to portfolio careers; human purpose in the age of AI; and intellectual property strategy, meaning why what you own now matters more than what you can build. Each talk draws on his work as a fractional CFO, AI agent operator, and IP strategist.",
  },
  },
  {
@@ -118,9 +118,9 @@ export default function SpeakingPage() {
  <strong>human purpose in the age of AI</strong>, and{" "}
  <strong>intellectual property strategy</strong>. He brings twenty years
  inside high-growth technology, three exits, and three FT100 listings to
- the stage — not theory, a track record. Audiences leave with a clear,
- unsentimental read on what AI changes, what it does not, and what to do
- next.
+ the stage. That is a track record talking, not theory. Audiences leave with
+ a clear, unsentimental read on what AI changes, what it does not, and what
+ to do next.
  </p>
 
  <div className="op-cta-block">
@@ -134,9 +134,9 @@ export default function SpeakingPage() {
 
  <h2>Why book Hayat</h2>
  <ul>
- <li><strong>Operator, not commentator.</strong> Three exits and three FT100 fastest-growing listings — every talk is grounded in work he has actually done.</li>
+ <li><strong>Operator, not commentator.</strong> Three exits and three FT100 fastest-growing listings. Every talk is grounded in work he has actually done.</li>
  <li><strong>Built for the room.</strong> Talks are shaped to the audience and the outcome the organiser wants, not delivered off a shelf.</li>
- <li><strong>Plain-spoken on AI.</strong> No hype, no doom — a clear-eyed account of what AI takes, what it leaves, and where human work compounds.</li>
+ <li><strong>Plain-spoken on AI.</strong> No hype, no doom. A clear-eyed account of what AI takes, what it leaves, and where human work compounds.</li>
  <li><strong>Three cities.</strong> In-person across New York, London, and Dubai; remote worldwide.</li>
  </ul>
 
@@ -155,7 +155,7 @@ export default function SpeakingPage() {
  <span className="op-card-eyebrow">Keynote B</span>
  <h3>Human Purpose in the Age of AI</h3>
  <p>
- AI did not take the job — it took the story people told about their
+ AI did not take the job. It took the story people told about their
  work. Where meaning, judgement, and purpose actually live once the
  routine layer is automated.
  </p>
@@ -174,7 +174,7 @@ export default function SpeakingPage() {
  <h3>Fireside chat &amp; panels</h3>
  <p>
  Moderated conversations and panel appearances on AI, the future of
- work, and IP strategy — calibrated to the audience and the host.
+ work, and IP strategy, calibrated to the audience and the host.
  </p>
  </div>
  </div>

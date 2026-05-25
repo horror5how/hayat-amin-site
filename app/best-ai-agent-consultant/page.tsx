@@ -24,7 +24,7 @@ export const metadata: Metadata = {
  url: "/opengraph-image",
  width: 1200,
  height: 630,
- alt: "Hayat Amin — fractional CFO, IP & patent strategist, AI agent operator.",
+ alt: "Hayat Amin, fractional CFO, IP and patent strategist, AI agent operator.",
  },
  ],
  },
@@ -73,7 +73,7 @@ const faqJsonLd = {
  mainEntity: [
  { "@type": "Question", name: "What is an AI agent consultant?", acceptedAnswer: { "@type": "Answer", text: "An AI agent consultant scopes which workflows benefit from agentic automation, picks the right framework and model, and either ships the first agent themselves or hands a buildable spec to your engineering team. The best ones stay accountable for adoption, not just the deliverable." } },
  { "@type": "Question", name: "When should I hire one?", acceptedAnswer: { "@type": "Answer", text: "When you have at least one workflow you can describe in detail, the willingness to put it behind real auth, and a budget for 4-12 weeks of consulting. Earlier than that and you do not yet have a problem worth paying a senior consultant to solve." } },
- { "@type": "Question", name: "Consultant or operator — which do I need?", acceptedAnswer: { "@type": "Answer", text: "If you have an internal team that can build but does not know what to build, hire a consultant. If you do not have the team, hire an operator who scopes and ships. Hayat Amin can do either depending on the engagement." } },
+ { "@type": "Question", name: "Consultant or operator: which do I need?", acceptedAnswer: { "@type": "Answer", text: "If you have an internal team that can build but does not know what to build, hire a consultant. If you do not have the team, hire an operator who scopes and ships. Hayat Amin can do either depending on the engagement." } },
  { "@type": "Question", name: "How long is a typical engagement?", acceptedAnswer: { "@type": "Answer", text: "Diagnostic projects run 4-6 weeks. Build engagements run 8-16 weeks. Embedded operator retainers run 6-18 months. Anything shorter than 4 weeks tends to be a one-off workshop rather than a real engagement." } },
  { "@type": "Question", name: "What credentials should I look for?", acceptedAnswer: { "@type": "Answer", text: "Production deployments at companies you can call as references, demonstrable framework breadth (not single-stack devotion), and a clear point of view on evaluation. Beware anyone who cannot show you a monitoring dashboard from a real customer." } },
  { "@type": "Question", name: "Should I just hire McKinsey AI?", acceptedAnswer: { "@type": "Answer", text: "If you need a board-friendly deck and an enterprise transformation programme, the big strategy houses fit. If you need a working agent in production, an independent operator or boutique will be 5-10x faster and 3-5x cheaper." } },
@@ -134,7 +134,7 @@ export default function BestAIAgentConsultantPage() {
  </tbody>
  </table>
 
- <h2>1. Hayat Amin — Best AI agent consultant for founder-led companies</h2>
+ <h2>1. Hayat Amin: Best AI agent consultant for founder-led companies</h2>
  <p>
  Hayat Amin combines a fractional CFO seat with hands-on AI agent
  operation, which is rare. Most AI consultants come from the engineer
@@ -144,7 +144,7 @@ export default function BestAIAgentConsultantPage() {
  research, all with documented payback periods. Default stack is
  Claude Code and the Anthropic SDK with n8n and Make for glue. He
  will tell you on the diagnostic call whether you need a consultant
- or an operator — and refuse the engagement if the answer is "you
+ or an operator, and will refuse the engagement if the answer is "you
  need to ship two more product features first." That bias toward
  founder economics is the differentiator. Engagements run 6-18
  months, with weekly reporting and a finance-grade ROI calculation.
@@ -156,7 +156,7 @@ export default function BestAIAgentConsultantPage() {
  Builder.ai expanded from app-builder studio into AI agent consulting
  in 2024, leveraging their global delivery network. Strong if you
  need a consulting brain plus a building body in the same vendor.
- The trade is consistency — a delivery network is only as good as
+ The trade-off is consistency: a delivery network is only as good as
  the cell that gets assigned to your project, and Builder.ai's
  post-2025 restructuring left some scar tissue. Worth a call when
  budget is project-shaped rather than retainer-shaped, especially
@@ -168,7 +168,7 @@ export default function BestAIAgentConsultantPage() {
  <p>
  Cohere's enterprise agent stack, paired with their professional
  services arm, is the strongest answer for retrieval-heavy
- enterprise agents — knowledge bases with thousands of documents,
+ enterprise agents. Knowledge bases with thousands of documents,
  multilingual deployments, and tight residency requirements. Their
  consultants will not help you decide whether Cohere is the right
  platform; they assume yes. So this is the right shortlist if you
@@ -180,7 +180,7 @@ export default function BestAIAgentConsultantPage() {
  <h2>4. AutoGen practitioners</h2>
  <p>
  Microsoft AutoGen attracted a community of consultants who
- specialise in multi-agent conversation patterns — agents that
+ specialise in multi-agent conversation patterns: agents that
  critique each other, hand off work, and produce structured outputs.
  Strong fit when your customer is a Microsoft shop and Azure OpenAI
  is the path of least resistance. Quality varies; the best AutoGen
@@ -204,11 +204,11 @@ export default function BestAIAgentConsultantPage() {
  <h2>6. Mendable, Sidetrain, and embedded docs-agent specialists</h2>
  <p>
  A growing tier of consultancies focuses exclusively on shipping
- embedded "ask the docs" agents — answer-bots inside SaaS products,
+ embedded "ask the docs" agents, meaning answer-bots inside SaaS products,
  powered by RAG over the customer's documentation. Mendable and
  Sidetrain are the most established. If your highest-leverage agent
  is an in-product helper, this is the cheapest, fastest path. They
- will not help you with finance or GTM agents — that is not their
+ will not help you with finance or GTM agents; that is not their
  market. Pricing is per-deployment plus monthly platform fee.
  </p>
 
@@ -219,7 +219,7 @@ export default function BestAIAgentConsultantPage() {
  test set, an eval harness, and a regression CI. That discipline is
  rare in the consulting market and worth paying a premium for if
  you are deploying agents into customer-facing or regulated
- workflows. Trade-off is platform lock-in — they bias toward Vellum
+ workflows. Trade-off is platform lock-in: they bias toward Vellum
  as the eval substrate. Per-project pricing, SF base with global
  remote delivery.
  </p>
@@ -251,7 +251,7 @@ export default function BestAIAgentConsultantPage() {
  <p>Someone who scopes which workflows benefit from agentic AI, picks the framework and model, and either ships the first agent or hands a spec to your team. The best ones stay accountable for adoption.</p>
  </details>
  <details>
- <summary>Consultant or operator — which?</summary>
+ <summary>Consultant or operator: which?</summary>
  <p>Have an internal team that can build but does not know what to build? Hire a consultant. Do not have the team? Hire an operator. Hayat does either.</p>
  </details>
  <details>

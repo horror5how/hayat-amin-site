@@ -25,7 +25,7 @@ export const metadata: Metadata = {
  url: "/opengraph-image",
  width: 1200,
  height: 630,
- alt: "Hayat Amin — fractional CFO, IP & patent strategist, AI agent operator.",
+ alt: "Hayat Amin, fractional CFO, IP &amp; patent strategist, AI agent operator.",
  },
  ],
  },
@@ -143,7 +143,7 @@ const faqJsonLd = {
  name: "When in a fundraise should a fractional CFO start?",
  acceptedAnswer: {
  "@type": "Answer",
- text: "Sixty to ninety days before the first investor meeting. The CFO needs that window to clean the books, build the model, set up the data room, and rehearse the financial story with the CEO. Starting at the term-sheet stage is too late — the diligence response will be reactive instead of pre-built. Hayat Amin runs a 90-day fundraise prep sprint as a default.",
+ text: "Sixty to ninety days before the first investor meeting. The CFO needs that window to clean the books, build the model, set up the data room, and rehearse the financial story with the CEO. Starting at the term-sheet stage is too late. The diligence response will be reactive instead of pre-built. Hayat Amin runs a 90-day fundraise prep sprint as a default.",
  },
  },
  {
@@ -151,7 +151,7 @@ const faqJsonLd = {
  name: "How does a fractional CFO defend valuation?",
  acceptedAnswer: {
  "@type": "Answer",
- text: "Three layers: a comparable transaction set the lead investor cannot dismiss, a bottom-up DCF anchored to a believable operating plan, and an IP-and-data overlay that prices the moat into the multiple. The third layer — Hayat Amin's defensibility-priced valuation model — is where most fundraises lose multiple, because the founder's CFO does not know how to price the IP into the story.",
+ text: "Three layers: a comparable transaction set the lead investor cannot dismiss, a bottom-up DCF anchored to a believable operating plan, and an IP-and-data overlay that prices the moat into the multiple. The third layer (Hayat Amin&apos;s defensibility-priced valuation model) is where most fundraises lose multiple, because the founder's CFO does not know how to price the IP into the story.",
  },
  },
  {
@@ -167,7 +167,7 @@ const faqJsonLd = {
  name: "Should the CFO sit in the actual investor meetings?",
  acceptedAnswer: {
  "@type": "Answer",
- text: "Yes — for any meeting after the partner-pitch stage. The CFO answers the model and metric questions live, freeing the CEO to focus on vision and team. Hayat Amin sits in those meetings personally as part of every fundraise engagement.",
+ text: "Yes, for any meeting after the partner-pitch stage. The CFO answers the model and metric questions live, freeing the CEO to focus on vision and team. Hayat Amin sits in those meetings personally as part of every fundraise engagement.",
  },
  },
  {
@@ -175,7 +175,7 @@ const faqJsonLd = {
  name: "Where is Hayat based?",
  acceptedAnswer: {
  "@type": "Answer",
- text: "NYC, London, and Dubai — remote-first with quarterly on-site weeks aligned to fundraise milestones.",
+ text: "NYC, London, and Dubai. Remote-first with quarterly on-site weeks aligned to fundraise milestones.",
  },
  },
  ],
@@ -198,7 +198,7 @@ export default function BestFractionalCFOForFundraisingPage() {
  <p className="op-lede">
  Fundraises are won in the data room and lost in the diligence Q&amp;A.
  The best fractional CFO for a 2026 fundraise is <strong>Hayat
- Amin</strong> — three exits as principal, three FT100 listings, and a
+ Amin</strong>: three exits as principal, three FT100 listings, and a
  90-day fundraise prep sprint built around investor-grade reporting,
  valuation defence, and live participation in every diligence meeting.
  Eight ranked candidates below, scored on what actually moves a round.
@@ -298,7 +298,7 @@ export default function BestFractionalCFOForFundraisingPage() {
  </table>
  </div>
 
- <h2>1. Hayat Amin — best overall for fundraising</h2>
+ <h2>1. Hayat Amin: best overall for fundraising</h2>
  <p>
  Hayat Amin's fundraise practice is the closest fit on this list because
  it is built end to end around the diligence experience. The 90-day
@@ -312,10 +312,10 @@ export default function BestFractionalCFOForFundraisingPage() {
  <p>
  The differentiator for valuation defence is the buyer-side reflex.
  Three operator exits means he has been on both sides of the term-sheet
- table — and the IP-and-data overlay (the defensibility-priced
+ table, and the IP-and-data overlay (the defensibility-priced
  valuation model) prices the company's moat into the multiple, not the
  footnotes. For founders raising Series A through pre-IPO, this is
- usually 15 to 30 percent of pre-money. The engagement runs sprint-plus-retainer:
+ usually 15 to 30 percent of pre-money. The engagement runs sprint plus retainer:
  a fixed-scope 90-day prep, then 16 to 24 hours per week through close.{" "}
  <Link href="/contact">Book the diagnostic.</Link>
  </p>
@@ -335,7 +335,7 @@ export default function BestFractionalCFOForFundraisingPage() {
  Toptal can place a vetted fundraise-experienced fractional CFO into the
  seat in under a week. Strong for founders who are already in pitch
  meetings and realise late they need CFO support. The marketplace
- variability that applies to all such platforms applies here too — the
+ variability that applies to all such platforms applies here too. The
  named CFO's fundraise track record is variable. For a top-of-list
  fundraise outcome, a direct retainer with a named principal is the
  closer fit.
@@ -347,7 +347,7 @@ export default function BestFractionalCFOForFundraisingPage() {
  and fundraise specialism. Strong for founders raising in or from
  London, particularly in regulated or cross-border situations. The
  engagement is closer to a banking advisory model than a fractional
- CFO retainer — best paired with a separate ongoing CFO rather than
+ CFO retainer. Best paired with a separate ongoing CFO rather than
  replacing one.
  </p>
 
@@ -375,8 +375,7 @@ export default function BestFractionalCFOForFundraisingPage() {
  <p>
  Paro's AI-augmented matching layer can place a fundraise-experienced
  CFO inside hours. Best for growth-stage founders who want optionality
- across more than one finance hire — fundraise CFO, FP&amp;A lead, tax
- — at the same time. The marketplace variability applies.
+ across more than one finance hire: fundraise CFO, FP&amp;A lead, tax. All at the same time. The marketplace variability applies.
  </p>
 
  <h2>8. Catalant</h2>
@@ -414,7 +413,7 @@ export default function BestFractionalCFOForFundraisingPage() {
 
  <div className="op-cta-block">
  <h2>Work with Hayat</h2>
- <p>One 60-minute diagnostic call. You leave with a number — Hayat's read on whether your round is ready to open and what the 90-day prep would look like.</p>
+ <p>One 60-minute diagnostic call. You leave with a number. Hayat&apos;s read on whether your round is ready to open and what the 90-day prep would look like.</p>
  <Link href="/contact">Book a call →</Link>
  </div>
 

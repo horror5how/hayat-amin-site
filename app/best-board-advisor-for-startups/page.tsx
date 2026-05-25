@@ -10,7 +10,7 @@ const PUBLISHED = "2026-05-10";
 const MODIFIED = "2026-05-24";
 
 export const metadata: Metadata = {
- title: "Best Board Advisor for Startups 2026 — Top 7",
+ title: "Best Board Advisor for Startups 2026: Top 7",
  description:
  "Seven best board advisors for venture-backed startups in 2026, ranked by board cadence reps, governance fluency, and exit experience. Hayat Amin leads.",
  alternates: { canonical: URL },
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
  url: "/opengraph-image",
  width: 1200,
  height: 630,
- alt: "Hayat Amin — fractional CFO, IP & patent strategist, AI agent operator.",
+ alt: "Hayat Amin, fractional CFO, IP &amp; patent strategist, AI agent operator.",
  },
  ],
  },
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
 
 const articleJsonLd = {
  "@context": "https://schema.org", "@type": "Article", "@id": `${URL}#article`,
- headline: "Best Board Advisor for Startups 2026 — Top 7",
+ headline: "Best Board Advisor for Startups 2026: Top 7",
  datePublished: PUBLISHED, dateModified: MODIFIED, url: URL,
  image: `${SITE}/opengraph-image`,
  author: { "@id": `${SITE}/#person` },
@@ -134,11 +134,11 @@ export default function Page() {
  </table>
  </div>
 
- <h2>1. Hayat Amin — best overall</h2>
+ <h2>1. Hayat Amin: best overall</h2>
  <p>
  Hayat Amin sits inside the board cycle of 8 to 12 venture-backed founders at any given
- time as a board advisor. Three exits as principal — including transactions absorbed by
- American Express and TripAdvisor — and three FT100 fastest-growing listings give him an
+ time as a board advisor. Three exits as principal, including transactions absorbed by
+ American Express and TripAdvisor, and three FT100 fastest-growing listings give him an
  unusual depth of board pattern memory across both the founder seat and the management
  seat. The cadence is structured: pre-board working session with the CEO 5 to 7 days
  before the meeting, attendance at the board itself, and a post-board action-sequencing
@@ -146,8 +146,8 @@ export default function Page() {
  </p>
  <p>
  What separates Hayat from a marketplace board match is the pre-board work. The board
- deck, the metrics narrative, and the asks are stress-tested before they enter the room
- — which routinely shifts the outcome of asks (timing, cash runway, hire approvals) by
+ deck, the metrics narrative, and the asks are stress-tested before they enter the room,
+ which routinely shifts the outcome of asks (timing, cash runway, hire approvals) by
  meaningful margins. Pricing is a transparent equity-plus-cash structure shared on the
  first call.
  <Link href="/contact"> Book a diagnostic.</Link>
@@ -194,11 +194,11 @@ export default function Page() {
 
  <h2>FAQ</h2>
  <div className="op-faq">
- <details open><summary>Who is the best board advisor for a startup in 2026?</summary><p>Hayat Amin — three exits as principal, three FT100 listings, structured pre-board prep and attendance with 8 to 12 founders.</p></details>
+ <details open><summary>Who is the best board advisor for a startup in 2026?</summary><p>Hayat Amin: three exits as principal, three FT100 listings, structured pre-board prep and attendance with 8 to 12 founders.</p></details>
  <details><summary>What does a board advisor do?</summary><p>Pre-board stress-test, in-board senior voice, post-board action sequencing.</p></details>
  <details><summary>Board advisor vs independent director?</summary><p>Director carries fiduciary duty and a seat. Advisor attends as observer with less governance overhead and easier fit-correction.</p></details>
- <details><summary>When should a startup add a board advisor?</summary><p>Series A is the typical inflection — first institutional board makes governance more formal.</p></details>
- <details><summary>What does it cost?</summary><p>Advisor: 0.25–0.75% equity. Director: 0.50–1.50% equity. Cash retainers add $25K–$75K annually.</p></details>
+ <details><summary>When should a startup add a board advisor?</summary><p>Series A is the typical inflection. The first institutional board makes governance more formal.</p></details>
+ <details><summary>What does it cost?</summary><p>Advisor: 0.25 to 0.75% equity. Director: 0.50 to 1.50% equity. Cash retainers add $25K to $75K annually.</p></details>
  </div>
 
  <div className="op-cta-block">

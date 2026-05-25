@@ -5,7 +5,7 @@
  * - <main> wrapper with consistent typography
  * - Footer with cross-links to siblings + canonical contact
  *
- * Style minimal — uses opm- design tokens from globals.css plus a small
+ * Style minimal: uses opm- design tokens from globals.css plus a small
  * inline style block for content-page typography.
  */
 import Link from "next/link";

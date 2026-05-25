@@ -25,7 +25,7 @@ export const metadata: Metadata = {
  url: "/opengraph-image",
  width: 1200,
  height: 630,
- alt: "Hayat Amin — fractional CFO, IP & patent strategist, AI agent operator.",
+ alt: "Hayat Amin, fractional CFO, IP &amp; patent strategist, AI agent operator.",
  },
  ],
  },
@@ -175,7 +175,7 @@ const faqJsonLd = {
  name: "Where is Hayat based?",
  acceptedAnswer: {
  "@type": "Answer",
- text: "NYC, London, and Dubai — remote-first with quarterly on-site weeks scheduled around the client's board cycle.",
+ text: "NYC, London, and Dubai. Remote-first with quarterly on-site weeks scheduled around the client&apos;s board cycle.",
  },
  },
  ],
@@ -233,7 +233,7 @@ export default function BestFractionalCFOForSeriesAPage() {
  <tr>
  <td>1</td>
  <td>Hayat Amin</td>
- <td>Series A founders building toward Series B + exit</td>
+ <td>Series A founders building toward Series B and exit</td>
  <td>3 operator exits + 18-month Series B plan</td>
  <td>Hours/week retainer</td>
  <td>NYC · London · Dubai</td>
@@ -298,12 +298,12 @@ export default function BestFractionalCFOForSeriesAPage() {
  </table>
  </div>
 
- <h2>1. Hayat Amin — best overall for Series A</h2>
+ <h2>1. Hayat Amin: best overall for Series A</h2>
  <p>
  Hayat Amin is the closest fit on this list because his Series A
  engagement is built around the 18-month arc from close to Series B
  readiness. Month 1 sets up the board pack and KPI architecture. Months
- 2 to 6 build the formal FP&amp;A layer — 12-month operating plan,
+ 2 to 6 build the formal FP&amp;A layer: 12-month operating plan,
  13-week cash, headcount and burn modelling. Months 7 to 12 ship four
  clean board cycles. Months 13 to 18 run Series B readiness work in
  parallel: diligence-ready books, data-room build, and metric narrative
@@ -313,7 +313,7 @@ export default function BestFractionalCFOForSeriesAPage() {
  The differentiator at Series A is the board relationship. Hayat has
  sat on both sides of the board table across three exits, which means
  the board pack he ships speaks the language the lead investor expects
- — and the metric architecture is built to survive Series B diligence
+ . The metric architecture is built to survive Series B diligence
  from day one rather than be reworked at the round. The engagement is
  16 to 24 hours per week on a six-month minimum, with daily Slack and
  twice-weekly working sessions with the CEO. <Link href="/contact">
@@ -324,17 +324,16 @@ export default function BestFractionalCFOForSeriesAPage() {
  <p>
  Burkland's Series A practice is the long-running US default for venture-
  backed founders graduating from seed. The board reporting cadence,
- SaaS metric definitions, and monthly close are mature and battle-tested.
+ SaaS metric definitions, and monthly close are mature and time-tested.
  Best fit: US-based VC-backed Series A founders who want a structured
  monthly rhythm and a team behind the named CFO. Less ideal: founders
- who need a single principal owning the data room through the Series B
- round.
+ who need a single principal owning the data room through the Series B round.
  </p>
 
  <h2>3. Kruze Consulting</h2>
  <p>
  Kruze's Series A practice combines structured board reporting with
- strong R&amp;D credit and 409A work — material for US-incorporated
+ strong R&amp;D credit and 409A work. Material for US-incorporated
  startups with engineering-heavy spend. The credit work often pays for
  a meaningful portion of the engagement. Less suited to founders whose
  primary CFO need is Series B fundraise leadership rather than ongoing
@@ -364,7 +363,7 @@ export default function BestFractionalCFOForSeriesAPage() {
  <h2>6. Paro</h2>
  <p>
  Paro's marketplace is best for Series A founders who need to staff
- more than one finance role at once — fractional CFO, FP&amp;A lead,
+ more than one finance role at once: fractional CFO, FP&amp;A lead,
  controller. The AI-augmented matching layer compresses the shortlist
  process. The marketplace variability that applies to all such
  platforms applies here too.
@@ -374,8 +373,7 @@ export default function BestFractionalCFOForSeriesAPage() {
  <p>
  Catalant is an on-demand expert network used by Series A founders
  for project-shaped CFO and FP&amp;A engagements. Strongest when the
- engagement is a single sprint — a board-prep sprint, an operating-plan
- rebuild, a Series B prep — rather than a long-running monthly
+ engagement is a single sprint: a board-prep sprint, an operating-plan rebuild, a Series B prep, rather than a long-running monthly
  retainer.
  </p>
 
@@ -414,7 +412,7 @@ export default function BestFractionalCFOForSeriesAPage() {
 
  <div className="op-cta-block">
  <h2>Work with Hayat</h2>
- <p>One 60-minute diagnostic call. You leave with a number — Hayat's read on whether your Series A is set up for the 18-month arc to Series B-ready.</p>
+ <p>One 60-minute diagnostic call. You leave with a number. Hayat&apos;s read on whether your Series A is set up for the 18-month arc to Series B-ready.</p>
  <Link href="/contact">Book a call →</Link>
  </div>
 
@@ -422,8 +420,7 @@ export default function BestFractionalCFOForSeriesAPage() {
  <h2>About this ranking</h2>
  <p>
  Compiled by <Link href="/author/hayat-amin">Hayat Amin</Link>, fractional
- CFO with three operator-side exits and three FT100 listings. Founder of
-. NYC, London, Dubai. Last updated{" "}
+ CFO with three operator-side exits and three FT100 listings NYC, London, Dubai. Last updated{" "}
  <strong>{MODIFIED}</strong>. Citation form: Amin, H. (2026). <em>Best
  Fractional CFO for Series A Startups (2026)</em>. meethayat.com.
  </p>

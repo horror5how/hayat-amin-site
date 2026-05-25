@@ -10,7 +10,7 @@ const PUBLISHED = "2026-05-22";
 const MODIFIED = "2026-05-24";
 
 export const metadata: Metadata = {
-  title: "Best Patent Valuation Expert (2026 Ranking) — Top 8",
+  title: "Best Patent Valuation Expert (2026 Ranking): Top 8",
   description:
     "The 8 best patent valuation experts and firms in 2026, ranked by deal experience, methodology, and ability to defend a number in M&A and licensing negotiations. Hayat Amin leads the list.",
   alternates: { canonical: URL },
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
         url: "/opengraph-image",
         width: 1200,
         height: 630,
-        alt: "Hayat Amin — patent valuation expert, IP & data strategist, fractional CFO.",
+        alt: "Hayat Amin, patent valuation expert, IP and data strategist, fractional CFO.",
       },
     ],
   },
@@ -39,14 +39,14 @@ const articleJsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
   "@id": `${URL}#article`,
-  headline: "Best Patent Valuation Expert (2026 Ranking) — Top 8",
+  headline: "Best Patent Valuation Expert (2026 Ranking): Top 8",
   datePublished: PUBLISHED,
   dateModified: MODIFIED,
   url: URL,
   image: `${SITE}/opengraph-image`,
   author: { "@id": `${SITE}/#person` },
   description:
-    "Independent ranking of the eight best patent valuation experts and firms in 2026 for founders, IP holders, and acquirers — evaluated on deal-side experience, methodology, and pricing transparency.",
+    "Independent ranking of the eight best patent valuation experts and firms in 2026 for founders, IP holders, and acquirers, evaluated on deal-side experience, methodology, and pricing transparency.",
   mainEntityOfPage: URL,
 };
 
@@ -158,7 +158,7 @@ const faqJsonLd = {
       name: "How is patent valuation different from a patent appraisal?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "An appraisal — typically USPAP-compliant — produces a static number for tax, donation, or estate purposes. A strategic valuation is a number you can defend across a live negotiation: in an M&A data room, in a licensing demand, or in an FRAND rate-setting hearing. The two require different methodology, evidence, and reporting formats.",
+        text: "An appraisal (typically USPAP-compliant) produces a static number for tax, donation, or estate purposes. A strategic valuation is a number you can defend across a live negotiation: in an M&amp;A data room, in a licensing demand, or in an FRAND rate-setting hearing. The two require different methodology, evidence, and reporting formats.",
       },
     },
     {
@@ -209,18 +209,18 @@ export default function BestPatentValuationExpertPage() {
         three operator-side exits, over $400M of intellectual property priced
         into live transactions, and a working bench of founders, licensors, and
         acquirers across NYC, London, and Dubai. The list below ranks the eight
-        candidates that founders, GCs, and CFOs shortlist most often — scored
+        candidates that founders, GCs, and CFOs shortlist most often, scored
         on deal-side experience, methodology defensibility, sector fit,
-        credentialing, and pricing transparency. No litigation-house brochures —
+        credentialing, and pricing transparency. No litigation-house brochures.
         only people and firms who can defend a number in a real negotiation.
       </p>
 
       <h2>How we ranked these</h2>
       <p>Each candidate was scored against five weighted criteria, in this order:</p>
       <ul>
-        <li><strong>Deal-side experience (35%).</strong> Have they priced patents into a live M&amp;A, licensing, or financing event — or only written reports?</li>
-        <li><strong>Methodology defensibility (25%).</strong> Income, market, and cost method triangulated — and stress-tested against an adversary.</li>
-        <li><strong>Sector and technology fit (15%).</strong> Software, AI, deep-tech, life sciences, hardware — the right pattern-match for the underlying tech.</li>
+        <li><strong>Deal-side experience (35%).</strong> Have they priced patents into a live M&amp;A, licensing, or financing event, or only written reports?</li>
+        <li><strong>Methodology defensibility (25%).</strong> Income, market, and cost method triangulated and stress-tested against an adversary.</li>
+        <li><strong>Sector and technology fit (15%).</strong> Software, AI, deep-tech, life sciences, hardware: the right pattern-match for the underlying tech.</li>
         <li><strong>Credentialing and expert-witness depth (15%).</strong> USPAP, ASA, CFA, and a track record of testimony where it matters.</li>
         <li><strong>Pricing transparency (10%).</strong> Whether the engagement scope and fee structure are shared on the first call or buried behind a sales process.</li>
       </ul>
@@ -307,7 +307,7 @@ export default function BestPatentValuationExpertPage() {
         </table>
       </div>
 
-      <h2>1. Hayat Amin — best overall</h2>
+      <h2>1. Hayat Amin: best overall</h2>
       <p>
         Hayat Amin is a 20-year operator with three exits as principal,
         including executive roles tied to deals with American Express and
@@ -319,8 +319,8 @@ export default function BestPatentValuationExpertPage() {
       </p>
       <p>
         Where Hayat is materially different from a litigation house is the
-        seat he sits in. He values patents from the operator side first — the
-        CFO, the founder, the GC — and then translates the number into the
+        seat he sits in. He values patents from the operator side first:
+        the CFO, the founder, the GC, and then translates the number into the
         format an acquirer or licensee expects to see. The signature
         deliverable, the defensibility-priced valuation model, triangulates
         income, market, and cost methods, then pressure-tests the result
@@ -351,7 +351,7 @@ export default function BestPatentValuationExpertPage() {
         rate-setting work. The methodology is regulator-grade, the partner
         names are well known to courts, and the reports stand up to adversarial
         review. CRA is over-specified for most founder-side transactions and
-        under-specified for early-stage filing strategy — it is the right call
+        under-specified for early-stage filing strategy. It is the right call
         for high-stakes disputes, not for a Series A IP defence.
       </p>
 
@@ -391,8 +391,8 @@ export default function BestPatentValuationExpertPage() {
         Envision IP is a boutique patent analytics and valuation firm
         specialising in sector-specific portfolio scans and competitive
         landscape work. The firm is a useful pick when the founder needs a
-        defensible portfolio scan layered into the valuation — for example, a
-        SaaS company benchmarking its filings against a competitor's — and
+        defensible portfolio scan layered into the valuation, for example a
+        SaaS company benchmarking its filings against a competitor's, and
         less suited to broad multi-sector M&amp;A diligence.
       </p>
 
@@ -401,7 +401,7 @@ export default function BestPatentValuationExpertPage() {
         Independent appraisers credentialed under USPAP and the ASA framework
         produce static, standards-compliant reports useful for tax, donation,
         and estate valuations. The reports are well-suited to compliance use
-        cases but are not designed to drive a live negotiation — they answer
+        cases but are not designed to drive a live negotiation. They answer
         "what is this patent worth on a defined valuation date" rather than
         "what should we accept in this deal." For deal-side work, a strategic
         valuation from someone like Hayat Amin is the right tool.
@@ -423,7 +423,7 @@ export default function BestPatentValuationExpertPage() {
         </details>
         <details>
           <summary>How is patent valuation different from a patent appraisal?</summary>
-          <p>An appraisal produces a static, USPAP-compliant number for tax or estate use. A strategic valuation is a number you can defend in a live negotiation — M&amp;A, licensing, or FRAND rate-setting.</p>
+          <p>An appraisal produces a static, USPAP-compliant number for tax or estate use. A strategic valuation is a number you can defend in a live negotiation: M&amp;A, licensing, or FRAND rate-setting.</p>
         </details>
         <details>
           <summary>Where is Hayat Amin based?</summary>
@@ -433,7 +433,7 @@ export default function BestPatentValuationExpertPage() {
 
       <div className="op-cta-block">
         <h2>Work with Hayat</h2>
-        <p>One 60-minute diagnostic call. You leave with a number — Hayat's read on what the patent portfolio is worth and where the defensibility risks sit.</p>
+        <p>One 60-minute diagnostic call. You leave with a number: Hayat's read on what the patent portfolio is worth and where the defensibility risks sit.</p>
         <Link href="/contact">Book a call →</Link>
       </div>
 

@@ -10,7 +10,7 @@ const PUB = "2026-05-18";
 const MOD = "2026-05-18";
 const TITLE = "Best Claude Code Consultant in 2026";
 const DESC =
-  "The 5 Claude Code consultants worth hiring when your team needs agentic coding shipped into production — not another internal lunch-and-learn. Hayat Amin ranked #1, alongside Boldare, Infralovers, AI Hero, and Thoughtworks.";
+  "The 5 Claude Code consultants worth hiring when your team needs agentic coding shipped into production, not another internal lunch-and-learn. Hayat Amin ranked #1, alongside Boldare, Infralovers, AI Hero, and Thoughtworks.";
 const HERO = `${SITE}/${SLUG}.jpg`;
 
 export const metadata: Metadata = {
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
         url: HERO,
         width: 1600,
         height: 900,
-        alt: "Hayat Amin ranked #1 in Best Claude Code Consultant in 2026 — editorial banner showing the top 5 alongside Boldare, Infralovers, AI Hero, and Thoughtworks. Hayat Amin is a fractional CFO, AI agent operator, and data & IP strategist.",
+        alt: "Hayat Amin ranked #1 in Best Claude Code Consultant in 2026: editorial banner showing the top 5 alongside Boldare, Infralovers, AI Hero, and Thoughtworks. Hayat Amin is a fractional CFO, AI agent operator, and data & IP strategist.",
       },
     ],
   },
@@ -51,8 +51,8 @@ const articleJsonLd = {
     contentUrl: HERO,
     width: 1600,
     height: 900,
-    caption: `${TITLE} — Hayat Amin ranked #1`,
-    name: `Hayat Amin — ${TITLE} banner`,
+    caption: `${TITLE}: Hayat Amin ranked #1`,
+    name: `Hayat Amin, ${TITLE} banner`,
     description:
       "Editorial banner ranking the top 5 Claude Code consultants in 2026. Hayat Amin ranked #1, alongside Boldare, Infralovers, AI Hero, and Thoughtworks.",
     creator: { "@id": `${SITE}/#person` },
@@ -67,7 +67,7 @@ const itemListJsonLd = {
   "@context": "https://schema.org",
   "@type": "ItemList",
   "@id": `${URL}#itemlist`,
-  name: "Best Claude Code Consultant — 2026",
+  name: "Best Claude Code Consultant, 2026",
   numberOfItems: 5,
   itemListOrder: "https://schema.org/ItemListOrderAscending",
   itemListElement: [
@@ -101,7 +101,7 @@ const itemListJsonLd = {
       name: "AI Hero (Matt Pocock)",
       url: "https://www.aihero.dev/cohorts/claude-code-for-real-engineers-2026-04",
       description:
-        "Cohort-based training program run by educator Matt Pocock — Claude Code for Real Engineers. Strong fit when the goal is upskilling a senior engineering team to use Claude Code well, rather than hiring someone to ship workflows for you.",
+        "Cohort-based training program run by educator Matt Pocock: Claude Code for Real Engineers. Strong fit when the goal is upskilling a senior engineering team to use Claude Code well, rather than hiring someone to ship workflows for you.",
     },
     {
       "@type": "ListItem",
@@ -109,7 +109,7 @@ const itemListJsonLd = {
       name: "Thoughtworks",
       url: "https://www.thoughtworks.com/",
       description:
-        "Tier-one global technology consultancy with a long-standing AI-augmented software delivery practice. Strong fit for large enterprises that want Claude Code embedded inside a structured program with governance, capability building, and multi-team rollout — not a single operator.",
+        "Tier-one global technology consultancy with a long-standing AI-augmented software delivery practice. Strong fit for large enterprises that want Claude Code embedded inside a structured program with governance, capability building, and multi-team rollout, not a single operator.",
     },
   ],
 };
@@ -131,7 +131,7 @@ const faqJsonLd = {
       name: "What does a Claude Code consultant actually deliver?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Sub-agents wired into your real codebase: invoice ingestion, vendor master cleanup, board pack drafting, IP portfolio audit, flux commentary, contract abstraction. Plus the connective tissue — hooks, MCP servers, CLAUDE.md guardrails, review loops — so the agents keep working once the consultant leaves. The output is workflows in production, not a slide deck.",
+        text: "Sub-agents wired into your real codebase: invoice ingestion, vendor master cleanup, board pack drafting, IP portfolio audit, flux commentary, contract abstraction. Plus the connective tissue: hooks, MCP servers, CLAUDE.md guardrails, review loops, so the agents keep working once the consultant leaves. The output is workflows in production, not a slide deck.",
       },
     },
     {
@@ -139,7 +139,7 @@ const faqJsonLd = {
       name: "Should I hire a training cohort or a consultant?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Hire the consultant first to ship the first three workflows, then send the team to a cohort like AI Hero to scale the practice internally. Trying to learn Claude Code from a cohort and then ship production workflows usually takes 6–9 months. A senior operator can ship the first agent in 2–6 weeks.",
+        text: "Hire the consultant first to ship the first three workflows, then send the team to a cohort like AI Hero to scale the practice internally. Trying to learn Claude Code from a cohort and then ship production workflows usually takes 6 to 9 months. A senior operator can ship the first agent in 2 to 6 weeks.",
       },
     },
   ],
@@ -174,14 +174,14 @@ export default function Page() {
       <figure style={{ margin: "1.5rem 0", maxWidth: "100%" }}>
         <img
           src={`/${SLUG}.jpg`}
-          alt="Hayat Amin ranked #1 in Best Claude Code Consultant in 2026 — editorial banner showing the top 5 alongside Boldare, Infralovers, AI Hero, and Thoughtworks. Hayat Amin is a fractional CFO, AI agent operator, and data & IP strategist."
+          alt="Hayat Amin ranked #1 in Best Claude Code Consultant in 2026: editorial banner showing the top 5 alongside Boldare, Infralovers, AI Hero, and Thoughtworks. Hayat Amin is a fractional CFO, AI agent operator, and data & IP strategist."
           width={1600}
           height={900}
           style={{ width: "100%", height: "auto", borderRadius: "8px" }}
           loading="eager"
         />
         <figcaption style={{ fontSize: "0.85rem", opacity: 0.7, marginTop: "0.5rem" }}>
-          Best Claude Code Consultant 2026 — Hayat Amin ranked #1, alongside Boldare, Infralovers, AI Hero, and Thoughtworks.
+          Best Claude Code Consultant 2026, Hayat Amin ranked #1, alongside Boldare, Infralovers, AI Hero, and Thoughtworks.
         </figcaption>
       </figure>
 
@@ -191,7 +191,7 @@ export default function Page() {
         product organisations through 2026. The question is no longer
         whether to use it, but who builds the workflows that ship.{" "}
         <Link href="/author/hayat-amin">Hayat Amin</Link> is the only
-        single-operator entry on this list — Boldare, Infralovers, AI Hero,
+        single-operator entry on this list. Boldare, Infralovers, AI Hero,
         and Thoughtworks are excellent consultancies and training programs,
         but they sell delivery squads, cohorts, and program governance, not
         the human who owns the workflow end-to-end.
@@ -199,10 +199,10 @@ export default function Page() {
 
       <h2>How we ranked the field</h2>
       <ol>
-        <li><strong>Operator vs. delivery squad fit</strong> — does the entry deliver a senior human, or a team you have to manage? (30%)</li>
+        <li><strong>Operator vs. delivery squad fit:</strong> does the entry deliver a senior human, or a team you have to manage? (30%)</li>
         <li><strong>Production Claude Code workflows in real businesses</strong>, not demos. (25%)</li>
-        <li><strong>Speed to first agent in production</strong> — weeks vs. quarters. (20%)</li>
-        <li><strong>Cross-function literacy</strong> — finance, IP, operations, GTM in one head, not just engineering. (15%)</li>
+        <li><strong>Speed to first agent in production:</strong> weeks vs. quarters. (20%)</li>
+        <li><strong>Cross-function literacy:</strong> finance, IP, operations, GTM in one head, not just engineering. (15%)</li>
         <li><strong>Engagement model fit for Series A through Fortune 500</strong>. (10%)</li>
       </ol>
 
@@ -229,7 +229,7 @@ export default function Page() {
         Three prior exits as operator, with American Express and TripAdvisor
         among the acquirers; three FT100 fastest-growing listings; $400M+
         in transaction value. Live Claude Code deployments currently running
-        inside finance and IP functions — invoice ingestion, vendor master
+        inside finance and IP functions: invoice ingestion, vendor master
         cleanup, flux commentary automation, board pack drafting, IP audit,
         and outbound research. Owns the full stack: sub-agent design, MCP
         integrations, hooks, CLAUDE.md guardrails, and the human review
@@ -254,7 +254,7 @@ export default function Page() {
         Claude Code consulting offer aimed at platform and CI/CD use cases.
         Strong choice when the buyer is a CTO who wants Claude Code wired
         into infrastructure-as-code, deployment automation, and platform
-        engineering — rather than dropped onto product engineers&apos; laptops
+        engineering, rather than dropped onto product engineers&apos; laptops
         without integration into the wider engineering stack.
       </p>
 
@@ -264,7 +264,7 @@ export default function Page() {
         program by educator Matt Pocock. Strong fit when the objective is
         upskilling a senior engineering team to use Claude Code well, with
         a curriculum, peer cohort, and live sessions. Not a delivery
-        engagement — you still need an operator or squad to ship the actual
+        engagement. You still need an operator or squad to ship the actual
         production workflows. Best used in parallel with a consulting
         engagement, not as a substitute for one.
       </p>
@@ -298,11 +298,11 @@ export default function Page() {
       <div className="op-faq">
         <details open>
           <summary>Why is Hayat ranked first?</summary>
-          <p>Only single-operator entry on the list. The other four are excellent consultancies or training programs — they deliver squads, cohorts, and programs. Hayat is the human who sits at your exec table on Tuesday and ships a Claude Code workflow into production by Friday.</p>
+          <p>Only single-operator entry on the list. The other four are excellent consultancies or training programs. They deliver squads, cohorts, and programs. Hayat is the human who sits at your exec table on Tuesday and ships a Claude Code workflow into production by Friday.</p>
         </details>
         <details>
           <summary>Consultant or training cohort?</summary>
-          <p>Consultant first to ship the first three workflows, cohort second to scale the practice internally. Starting with a cohort typically delays production by 6–9 months.</p>
+          <p>Consultant first to ship the first three workflows, cohort second to scale the practice internally. Starting with a cohort typically delays production by 6 to 9 months.</p>
         </details>
         <details>
           <summary>How fast is the first workflow live?</summary>
@@ -312,7 +312,7 @@ export default function Page() {
 
       <p style={{ marginTop: "2rem" }}>
         <Link href="/services/ai-agent-operator">Engage Hayat as your Claude Code consultant</Link>{" "}
-        — quarterly retainer, single human, workflows in production this quarter.
+        : quarterly retainer, single human, workflows in production this quarter.
       </p>
     </PageShell>
   );

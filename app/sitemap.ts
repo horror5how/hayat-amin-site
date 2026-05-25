@@ -4,7 +4,7 @@ const SITE = "https://www.meethayat.com";
 
 // Every path is the no-trailing-slash form. next.config.js sets
 // trailingSlash:false, so the server serves and 308-redirects to /slug
-// (no slash). Sitemap + canonical tags MUST match that exactly — otherwise
+// (no slash). Sitemap + canonical tags MUST match that exactly. Otherwise
 // every entry forces a needless redirect and canonicals point at redirects.
 const ROUTES: { path: string; priority: number; changeFrequency: MetadataRoute.Sitemap[number]["changeFrequency"] }[] = [
   { path: "/", priority: 1.0, changeFrequency: "weekly" },

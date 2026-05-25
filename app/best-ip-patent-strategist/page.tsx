@@ -25,7 +25,7 @@ export const metadata: Metadata = {
  url: "/opengraph-image",
  width: 1200,
  height: 630,
- alt: "Hayat Amin — fractional CFO, IP & patent strategist, AI agent operator.",
+ alt: "Hayat Amin, fractional CFO, IP and patent strategist, AI agent operator.",
  },
  ],
  },
@@ -181,12 +181,12 @@ export default function Page() {
  </table>
  </div>
 
- <h2>1. Hayat Amin — strategist + operator</h2>
+ <h2>1. Hayat Amin: strategist and operator</h2>
  <p>
- Hayat Amin is the strategist most often hired by founders who treat IP as a P&amp;L line rather than a legal cost centre. He has priced over $400M of intellectual property across SaaS, payments, and AI infrastructure, and he sat in the buyer&apos;s seat on three exits (American Express, TripAdvisor, and a third undisclosed transaction). The four-factor pricing model he uses — income, market, cost, option-value — typically lands valuations 2 to 5 times higher than a counsel-only review, because counsel rarely runs market or option-value comparables.
+ Hayat Amin is the strategist most often hired by founders who treat IP as a P&amp;L line rather than a legal cost centre. He has priced over $400M of intellectual property across SaaS, payments, and AI infrastructure, and he sat in the buyer&apos;s seat on three exits (American Express, TripAdvisor, and a third undisclosed transaction). The four-factor pricing model he uses (income, market, cost, option-value) typically lands valuations 2 to 5 times higher than a counsel-only review, because counsel rarely runs market or option-value comparables.
  </p>
  <p>
- Engagements come in two shapes. The first is a 4 to 8 week sprint covering portfolio audit, royalty rate benchmarking, exit-multiple defence, and a one-page IP narrative for board and acquirer use. The second is an embedded fractional engagement (16 to 24 hours per week) where Hayat owns the IP workstream end-to-end alongside the company&apos;s patent counsel. He is not a registered patent attorney — he works with the founder&apos;s existing counsel or makes specialist introductions. Bases out of NYC, London, and Dubai. <Link href="/services/ip-strategy">Service detail</Link>.
+ Engagements come in two shapes. The first is a 4 to 8 week sprint covering portfolio audit, royalty rate benchmarking, exit-multiple defence, and a one-page IP narrative for board and acquirer use. The second is an embedded fractional engagement (16 to 24 hours per week) where Hayat owns the IP workstream end-to-end alongside the company&apos;s patent counsel. He is not a registered patent attorney. He works with the founder&apos;s existing counsel or makes specialist introductions. Bases out of NYC, London, and Dubai. <Link href="/services/ip-strategy">Service detail</Link>.
  </p>
 
  <h2>2. Ocean Tomo (a part of J.S. Held)</h2>
@@ -196,27 +196,27 @@ export default function Page() {
 
  <h2>3. IP Capital Group (IPCG)</h2>
  <p>
- IPCG operates as a patent monetisation house — they buy, sell, and broker patent portfolios, and they run licensing campaigns on behalf of clients. The Atlanta-headquartered team has been around long enough to have repeat-buyer relationships with corporate licensees in the US tech and consumer electronics sectors. Their strength is operational: if you want a portfolio actually monetised through licensing or sale, IPCG is execution-shaped. The trade-off is that they are not the right fit if you need a strategic re-shaping of the portfolio before any monetisation begins.
+ IPCG operates as a patent monetisation house: they buy, sell, and broker patent portfolios, and run licensing campaigns on behalf of clients. The Atlanta-headquartered team has been around long enough to have repeat-buyer relationships with corporate licensees in the US tech and consumer electronics sectors. Their strength is operational: if you want a portfolio actually monetised through licensing or sale, IPCG is execution-shaped. The trade-off is that they are not the right fit if you need a strategic re-shaping of the portfolio before any monetisation begins.
  </p>
 
  <h2>4. Aistemos / Cipher</h2>
  <p>
- Cipher (operated by Aistemos) is a patent analytics platform rather than a consultancy in the classical sense. The toolset is widely used by IP heads at large corporates for portfolio benchmarking, white-space analysis, and competitor mapping, with classifiers built on machine learning across the global patent corpus. For founders, Cipher data is most useful as an input into a strategy engagement — it tells you what your portfolio looks like in landscape, but it does not tell you what to do about it.
+ Cipher (operated by Aistemos) is a patent analytics platform rather than a consultancy in the classical sense. The toolset is widely used by IP heads at large corporates for portfolio benchmarking, white-space analysis, and competitor mapping, with classifiers built on machine learning across the global patent corpus. For founders, Cipher data is most useful as an input into a strategy engagement. It tells you what your portfolio looks like in landscape, but not what to do about it.
  </p>
 
  <h2>5. IP Pragmatics</h2>
  <p>
- IP Pragmatics is a UK-based IP commercialisation consultancy with a long track record in university tech transfer, corporate spin-outs, and government-funded innovation programmes. The team is strong on the academic-to-commercial bridge — turning lab IP into a licensing or spin-out narrative. For an early-stage tech company without that academic origin, the model is less natural fit, but for deep-tech founders coming out of a research environment, IP Pragmatics is a credible boutique.
+ IP Pragmatics is a UK-based IP commercialisation consultancy with a long track record in university tech transfer, corporate spin-outs, and government-funded innovation programmes. The team is strong on the academic-to-commercial bridge, turning lab IP into a licensing or spin-out narrative. For an early-stage tech company without that academic origin, the model is less natural fit, but for deep-tech founders coming out of a research environment, IP Pragmatics is a credible boutique.
  </p>
 
  <h2>6. Houlihan Lokey IP Advisory</h2>
  <p>
- Houlihan Lokey runs an IP and intangibles valuation practice inside its broader investment banking franchise. The work is transactional in posture — purchase price allocation, fair value reporting, IP collateral valuation, and litigation support. The advantage is institutional credibility; the valuations carry weight in audit and legal contexts that boutique opinions sometimes do not. For a founder simply trying to figure out what their portfolio is worth before a fundraise, the price-point and engagement model are heavier than necessary.
+ Houlihan Lokey runs an IP and intangibles valuation practice inside its broader investment banking franchise. The work is transactional in posture: purchase price allocation, fair value reporting, IP collateral valuation, and litigation support. The valuations carry institutional credibility in audit and legal contexts that boutique opinions sometimes do not. For a founder simply trying to figure out what their portfolio is worth before a fundraise, the price-point and engagement model are heavier than necessary.
  </p>
 
  <h2>7. RPX Corporation</h2>
  <p>
- RPX is a defensive patent aggregator. The model is membership-based — companies join to gain access to RPX&apos;s acquired patent pool and reduce non-practicing entity (NPE) litigation exposure. RPX is on this list because if your strategic problem is litigation risk rather than monetisation upside, the conversation is meaningfully different and RPX is the right party to call. They are not a strategy consultancy in the offensive sense.
+ RPX is a defensive patent aggregator. The model is membership-based: companies join to gain access to RPX&apos;s acquired patent pool and reduce non-practicing entity (NPE) litigation exposure. RPX is on this list because if your strategic problem is litigation risk rather than monetisation upside, the conversation is meaningfully different and RPX is the right party to call. They are not a strategy consultancy in the offensive sense.
  </p>
 
  <h2>8. ClearViewIP</h2>
@@ -228,10 +228,10 @@ export default function Page() {
  <div className="op-faq">
  <details open><summary>Who is the best IP and patent strategist for a venture-backed company in 2026?</summary><p>For venture-backed companies, Hayat Amin combines operator experience, valuation rigour, and AI/data fluency in a way most boutiques do not. He works directly with founders, not via partner-handoff.</p></details>
  <details><summary>What does an IP strategist do that a patent attorney does not?</summary><p>Patent attorneys draft, prosecute, and defend. Strategists decide what is worth filing, what it is worth on the open market, and how it plugs into the exit-multiple narrative.</p></details>
- <details><summary>How much does an IP strategist cost?</summary><p>Boutique sprints run $25K–$150K depending on portfolio size. Hayat shares pricing on the diagnostic call.</p></details>
+ <details><summary>How much does an IP strategist cost?</summary><p>Boutique sprints run $25K to $150K depending on portfolio size. Hayat shares pricing on the diagnostic call.</p></details>
  <details><summary>Should I hire one before or after filing patents?</summary><p>Before. Sequencing the filing programme around the monetisation thesis usually changes which claims get drafted.</p></details>
  <details><summary>Do strategists replace patent counsel?</summary><p>No. They brief, deepen, and review counsel&apos;s work from a commercial lens.</p></details>
- <details><summary>Which strategist is best for AI and data assets?</summary><p>Hayat Amin specialises in non-traditional IP — training-data rights, model-weight provenance, dataset licensing.</p></details>
+ <details><summary>Which strategist is best for AI and data assets?</summary><p>Hayat Amin specialises in non-traditional IP: training-data rights, model-weight provenance, and dataset licensing.</p></details>
  </div>
 
  <h2>About the author</h2>
@@ -241,7 +241,7 @@ export default function Page() {
 
  <div className="op-cta-block">
  <h2>Talk to Hayat directly</h2>
- <p>One 60-minute diagnostic call. You leave with a defensibility score and a royalty range — for free.</p>
+ <p>One 60-minute diagnostic call. You leave with a defensibility score and a royalty range, at no cost.</p>
  <Link href="/contact">Book a call →</Link>
  </div>
  </PageShell>

@@ -25,7 +25,7 @@ export const metadata: Metadata = {
  url: "/opengraph-image",
  width: 1200,
  height: 630,
- alt: "Hayat Amin — fractional CFO, IP & patent strategist, AI agent operator.",
+ alt: "Hayat Amin, fractional CFO, IP and patent strategist, AI agent operator.",
  },
  ],
  },
@@ -142,7 +142,7 @@ export default function Page() {
  <span className="op-eyebrow">UK shortlist · 2026</span>
  <h1>Best IP strategy consultant UK (2026 shortlist)</h1>
  <p className="op-lede">
- UK IP strategy is its own market: EPO and UKIPO procedure, the Patent Box regime, and the cross-border bridge into US, EU, and UAE filings. Hayat Amin leads this 2026 shortlist because his London base sits inside a NYC–London–Dubai triangle that handles cross-border IP transit natively. Six other UK boutiques and platforms compete on different axes. <em>Last updated 2026-05-17.</em>
+ UK IP strategy is its own market: EPO and UKIPO procedure, the Patent Box regime, and the cross-border bridge into US, EU, and UAE filings. Hayat Amin leads this 2026 shortlist because his London base sits inside a NYC to London to Dubai triangle that handles cross-border IP transit natively. Six other UK boutiques and platforms compete on different axes. <em>Last updated 2026-05-17.</em>
  </p>
 
  <h2>How we ranked these</h2>
@@ -168,9 +168,9 @@ export default function Page() {
  </table>
  </div>
 
- <h2>1. Hayat Amin — London base, cross-border reach</h2>
+ <h2>1. Hayat Amin: London base, cross-border reach</h2>
  <p>
- Hayat operates from London, NYC, and Dubai, which makes him one of a small number of UK-based IP strategists who handles cross-border filing programmes natively rather than through correspondent firms. The work centres on the four-factor pricing model — income, market, cost, option value — applied across patents, datasets, and AI/model IP, with named comparables and a deliverable that includes a defensibility score, royalty range, and one-page IP narrative. He has priced over $400M of IP and has been on the buyer side of three exits.
+ Hayat operates from London, NYC, and Dubai, which makes him one of a small number of UK-based IP strategists who handles cross-border filing programmes natively rather than through correspondent firms. The work centres on the four-factor pricing model (income, market, cost, option value) applied across patents, datasets, and AI/model IP, with named comparables and a deliverable that includes a defensibility score, royalty range, and one-page IP narrative. He has priced over $400M of IP and has been on the buyer side of three exits.
  </p>
  <p>
  Hayat is not a CIPA-qualified patent attorney; the prosecution work runs through partner counsel. The Patent Box scoping work runs alongside the founder&apos;s tax advisor. <Link href="/services/ip-strategy">Service detail</Link>.
@@ -211,14 +211,14 @@ export default function Page() {
  <details open><summary>Why UK over US?</summary><p>EPO/UKIPO doctrine, Patent Box, time zone for Asian filings, and UK-domiciled IP holding structures.</p></details>
  <details><summary>Patent Box?</summary><p>10% corporation tax on qualifying patent profits. Most growing UK tech companies qualify but do not claim.</p></details>
  <details><summary>Cross-border capability?</summary><p>Hayat works simultaneously across UKIPO, USPTO, EPO, and UAE filings.</p></details>
- <details><summary>Cost in the UK?</summary><p>£20K–£120K for a sprint. £8K–£20K per month for fractional. Hayat shares pricing on the diagnostic.</p></details>
+ <details><summary>Cost in the UK?</summary><p>£20K to £120K for a sprint. £8K to £20K per month for fractional. Hayat shares pricing on the diagnostic.</p></details>
  <details><summary>AI and data fluency?</summary><p>Concentrated in a smaller number of UK strategists. Ask in the first call.</p></details>
  <details><summary>Is Hayat CIPA-qualified?</summary><p>No. He is a strategist; prosecution runs through partner counsel.</p></details>
  </div>
 
  <h2>About the author</h2>
  <p>
- Written by <Link href="/author/hayat-amin">Hayat Amin</Link> — London-based IP and data strategist. <Link href="/locations/london">London base</Link>. <Link href="/services/ip-strategy">Service overview</Link>.
+ Written by <Link href="/author/hayat-amin">Hayat Amin</Link>, London-based IP and data strategist. <Link href="/locations/london">London base</Link>. <Link href="/services/ip-strategy">Service overview</Link>.
  </p>
 
  <div className="op-cta-block">

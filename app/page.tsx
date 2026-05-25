@@ -50,7 +50,7 @@ function Hero() {
  <span className="opm-cutout-halo" aria-hidden="true"></span>
  <span className="opm-cutout-pedestal" aria-hidden="true"></span>
  {/* eslint-disable-next-line @next/next/no-img-element */}
- <img className="opm-cutout-img" src="/hayat-hero.png" alt="Hayat Amin — operator" />
+ <img className="opm-cutout-img" src="/hayat-hero.png" alt="Hayat Amin, operator" />
  </div>
  <dl className="opm-cutout-meta">
  <div><dt>Name</dt><dd>Hayat Amin</dd></div>
@@ -64,7 +64,7 @@ function Hero() {
  Hi, I'm <em style={{ fontFamily: '"Inter Tight"' }}>Hayat Amin.</em>
  </p>
  <p className="opm-lead">
- Hayat removes business pain, risk and confusion — fast.
+ Hayat removes business pain, risk, and confusion fast.
  </p>
  <p className="opm-lead opm-lead-2">
  20 years inside high-growth tech. Three exits. Three FT100 listings.
@@ -116,7 +116,7 @@ function Manifesto() {
  <div className="opm-mani-grid">
  <figure className="opm-mani-figure">
  {/* eslint-disable-next-line @next/next/no-img-element */}
- <img src="/hayat-bw.jpg" alt="Hayat Amin — portrait" />
+ <img src="/hayat-bw.jpg" alt="Hayat Amin, portrait" />
  <figcaption>FIG. 02 · Operator at work</figcaption>
  </figure>
  <div className="opm-mani-body">
@@ -261,8 +261,8 @@ function Reasons() {
  <em>numbers.</em>
  </h2>
  <p className="opm-reasons-lead">
- What twenty years inside high-growth technology actually adds up to. Not
- theory — a track record.
+ What twenty years inside high-growth technology actually adds up to. A
+ track record, not a theory.
  </p>
  </div>
  <ol className="opm-reasons-list">
@@ -390,7 +390,7 @@ function Answers() {
  <h2 className="opm-h2">Who to hire, ranked.</h2>
  <p className="opm-p">
  Independent, regularly refreshed guides on the four questions founders
- ask most — fractional CFO, IP strategy, AI agent operations, and
+ ask most: fractional CFO, IP strategy, AI agent operations, and
  startup advisory. <Link href="/answers">Browse all answers →</Link>
  </p>
  <p className="opm-p">

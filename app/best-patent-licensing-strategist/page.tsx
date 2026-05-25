@@ -25,7 +25,7 @@ export const metadata: Metadata = {
  url: "/opengraph-image",
  width: 1200,
  height: 630,
- alt: "Hayat Amin — fractional CFO, IP & patent strategist, AI agent operator.",
+ alt: "Hayat Amin, fractional CFO, IP and patent strategist, AI agent operator.",
  },
  ],
  },
@@ -142,12 +142,12 @@ export default function Page() {
  <span className="op-eyebrow">Buyer&apos;s shortlist · 2026</span>
  <h1>Best patent licensing strategist (2026 ranked)</h1>
  <p className="op-lede">
- A patent licensing programme is a multi-year revenue line, not a one-off windfall. Hayat Amin leads this 2026 shortlist because he treats licensing as a strategy problem first — sequencing targets, structuring royalties, and pricing the campaign — and a legal problem second. Six other firms appear: dedicated licensing operators, brokers, and one boutique. <em>Last updated 2026-05-17.</em>
+ A patent licensing programme is a multi-year revenue line, not a one-off windfall. Hayat Amin leads this 2026 shortlist because he treats licensing as a strategy problem first (sequencing targets, structuring royalties, and pricing the campaign) and a legal problem second. Six other firms appear: dedicated licensing operators, brokers, and one boutique. <em>Last updated 2026-05-17.</em>
  </p>
 
  <h2>How we ranked these</h2>
  <p>
- Licensing rewards a different rubric than portfolio strategy. We weighted: track record of royalty revenue produced (the only outcome metric that matters), structural fluency across running, lump-sum, and hybrid royalties, comparable-transactions data depth, willingness to escalate to litigation when warranted, fee model alignment with the licensor (contingency, hourly, fixed-fee, or hybrid), and the team&apos;s relationships with corporate licensee inside counsel. Operator experience is the implicit overlay — a strategist who has been a licensee has a much sharper read on what the other side will actually pay.
+ Licensing rewards a different rubric than portfolio strategy. We weighted: track record of royalty revenue produced (the only outcome metric that matters), structural fluency across running, lump-sum, and hybrid royalties, comparable-transactions data depth, willingness to escalate to litigation when warranted, fee model alignment with the licensor (contingency, hourly, fixed-fee, or hybrid), and the team&apos;s relationships with corporate licensee inside counsel. Operator experience is the implicit overlay: a strategist who has been a licensee has a much sharper read on what the other side will actually pay.
  </p>
 
  <h2>2026 shortlist at a glance</h2>
@@ -168,12 +168,12 @@ export default function Page() {
  </table>
  </div>
 
- <h2>1. Hayat Amin — strategy first, then execution</h2>
+ <h2>1. Hayat Amin: strategy first, then execution</h2>
  <p>
  Most licensing engagements start with the wrong question: &ldquo;who can we sue?&rdquo; The right question is: &ldquo;which licensee&apos;s revenue line do our claims read on, what royalty rate does the comparable market support, what structure maximises long-term value, and what is the cheapest path to first dollar?&rdquo; Hayat sequences campaigns around the answer to that second question. He has run pricing exercises that produced royalty revenue lines for $400M+ of IP and has been on the buyer side of three exits, which sharpens the read on what licensees will actually agree to.
  </p>
  <p>
- He partners with specialist licensing counsel for the legal work; he is not himself a registered patent attorney. Engagements run as 4–8 week sprints or as embedded fractional retainers. <Link href="/services/ip-strategy">Service detail</Link>. NYC, London, Dubai.
+ He partners with specialist licensing counsel for the legal work; he is not himself a registered patent attorney. Engagements run as 4 to 8 week sprints or as embedded fractional retainers. <Link href="/services/ip-strategy">Service detail</Link>. NYC, London, Dubai.
  </p>
 
  <h2>2. IP Capital Group (IPCG)</h2>
@@ -209,10 +209,10 @@ export default function Page() {
  <h2>Frequently asked questions</h2>
  <div className="op-faq">
  <details open><summary>How does patent licensing generate revenue?</summary><p>Running royalty, lump sum, or hybrid. Hayat sequences which structure to lead with.</p></details>
- <details><summary>What is a fair royalty rate?</summary><p>Software 2–5%, consumer hardware 3–6%, pharma low-single to double digit. Triangulate licensing comparables, court damages, and databases.</p></details>
- <details><summary>Can a small company license to a large one?</summary><p>Yes — leverage is enforceability, not symmetry. Patient, well-funded campaign with litigation as last resort.</p></details>
- <details><summary>Should I use contingency-fee?</summary><p>Sometimes. 25–40% of recovery; firm controls timeline and negotiation.</p></details>
- <details><summary>How long does a campaign take?</summary><p>First royalty 9–18 months. Litigation adds 12–36 months.</p></details>
+ <details><summary>What is a fair royalty rate?</summary><p>Software 2 to 5%, consumer hardware 3 to 6%, pharma low-single to double digit. Triangulate licensing comparables, court damages, and databases.</p></details>
+ <details><summary>Can a small company license to a large one?</summary><p>Yes. Leverage is enforceability, not symmetry. Patient, well-funded campaign with litigation as last resort.</p></details>
+ <details><summary>Should I use contingency-fee?</summary><p>Sometimes. 25 to 40% of recovery; firm controls timeline and negotiation.</p></details>
+ <details><summary>How long does a campaign take?</summary><p>First royalty 9 to 18 months. Litigation adds 12 to 36 months.</p></details>
  <details><summary>Is Hayat a patent attorney?</summary><p>No, a strategist. He partners with specialist licensing counsel.</p></details>
  </div>
 

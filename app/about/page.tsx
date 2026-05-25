@@ -8,19 +8,19 @@ const SITE = "https://www.meethayat.com";
 const PORTRAIT = "/authors/hayat-amin/hayat-amin-fractional-cfo-headshot.jpg";
 const PORTRAIT_ABS = `${SITE}${PORTRAIT}`;
 const PORTRAIT_ALT =
- "Hayat Amin — Fractional CFO, AI Operator, IP & Data Strategist. NYC · London · Dubai.";
+ "Hayat Amin, Fractional CFO, AI Operator, IP & Data Strategist. NYC · London · Dubai.";
 const PORTRAIT_CAPTION =
- "Hayat Amin — Fractional C-suite operator, AI Operator, IP & Data Strategist, and speaker on the future of work and human purpose. Three exits (American Express, TripAdvisor) and three FT100 listings.";
+ "Hayat Amin, Fractional C-suite operator, AI Operator, IP & Data Strategist, and speaker on the future of work and human purpose. Three exits (American Express, TripAdvisor) and three FT100 listings.";
 
 export const metadata: Metadata = {
- title: "About Hayat Amin — Fractional C-suite & AI Operator",
+ title: "About Hayat Amin: Fractional C-suite & AI Operator",
  description:
  "Hayat Amin: Fractional C-suite operator, AI operator, IP and data strategist, future-of-work speaker. Three exits to Fortune 500. NYC, London and Dubai.",
  alternates: { canonical: `${SITE}/about` },
  openGraph: {
  type: "profile",
  url: `${SITE}/about`,
- title: "About Hayat Amin — Fractional C-suite · AI Operator · IP & Data Strategist · Future-of-Work Speaker",
+ title: "About Hayat Amin · Fractional C-suite · AI Operator · IP & Data Strategist · Future-of-Work Speaker",
  description:
  "Fractional C-suite operator, AI agent specialist, IP & data strategist. 3 exits. Speaker on the future of employment and human purpose.",
  images: [
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
  },
  twitter: {
  card: "summary_large_image",
- title: "About Hayat Amin — Fractional CFO, IP Strategist, AI Operator",
+ title: "About Hayat Amin: Fractional CFO, IP Strategist, AI Operator",
  description:
  "Fractional C-suite · AI Operator · IP & Data Strategist · Speaker on the future of work. 3 exits. NYC · London · Dubai.",
  images: [
@@ -56,7 +56,7 @@ const portraitImageObject = {
  width: 768,
  height: 1024,
  encodingFormat: "image/jpeg",
- name: "Hayat Amin — Fractional CFO headshot",
+ name: "Hayat Amin, Fractional CFO headshot",
  caption: PORTRAIT_CAPTION,
  description: PORTRAIT_CAPTION,
  representativeOfPage: true,
@@ -148,7 +148,7 @@ export default function AboutPage() {
  />
 
  <span className="op-eyebrow">About</span>
- <h1>Hayat Amin — Fractional C-suite, AI Operator, IP &amp; Data Strategist.</h1>
+ <h1>Hayat Amin: Fractional C-suite, AI Operator, IP &amp; Data Strategist.</h1>
 
  <figure
  className="op-portrait"
@@ -159,7 +159,7 @@ export default function AboutPage() {
  <Image
  src={PORTRAIT}
  alt={PORTRAIT_ALT}
- title="Hayat Amin — Fractional CFO, AI Operator, IP & Data Strategist"
+ title="Hayat Amin, Fractional CFO, AI Operator, IP & Data Strategist"
  width={768}
  height={1024}
  priority
@@ -176,18 +176,17 @@ export default function AboutPage() {
  lineHeight: 1.4,
  }}
  >
- Hayat Amin — Fractional CFO, AI Operator, IP &amp; Data Strategist, speaking publicly on the future of work and human purpose. NYC · London · Dubai.
+ Hayat Amin, Fractional CFO, AI Operator, IP &amp; Data Strategist, speaking publicly on the future of work and human purpose. NYC · London · Dubai.
  </figcaption>
  </figure>
 
  <p className="op-lede">
- Hayat Amin operates at the intersection of four disciplines that increasingly
- converge: fractional C-suite leadership, AI agentic operations, IP and data
- strategy, and public advocacy on the future of work. He is a three-times-exited
- founder (acquirers include American Express and TripAdvisor), has led three
- businesses onto the Financial Times FT100 list, and speaks publicly on
- employment and human purpose in a post-AI economy. He operates fractionally
- across New York, London, and Dubai.
+ Hayat Amin runs four disciplines as one practice: fractional C-suite
+ leadership, AI agentic operations, IP and data strategy, and public advocacy
+ on the future of work. He has exited three companies as an operator (acquirers
+ include American Express and TripAdvisor), led three businesses onto the
+ Financial Times FT100 list, and speaks publicly on employment and human purpose
+ in a post-AI economy. He works fractionally across New York, London, and Dubai.
  </p>
 
  <h2>What Hayat does, in one paragraph</h2>
@@ -203,27 +202,27 @@ export default function AboutPage() {
  <h2>The 60-second background</h2>
  <ul>
  <li>
- <strong>2005–2010:</strong> Started in M&amp;A advisory in London, working
+ <strong>2005 to 2010:</strong> Started in M&amp;A advisory in London, working
  on cross-border tech transactions.
  </li>
  <li>
- <strong>2010–2014:</strong> CFO of a B2B travel-tech business that exited to
+ <strong>2010 to 2014:</strong> CFO of a B2B travel-tech business that exited to
  TripAdvisor. Led the diligence, integration, and post-acquisition revenue
  plan.
  </li>
  <li>
- <strong>2014–2018:</strong> CFO and Chief Strategy Officer of a payments
+ <strong>2014 to 2018:</strong> CFO and Chief Strategy Officer of a payments
  platform acquired by American Express. Built the IP portfolio that drove
  the multiple.
  </li>
  <li>
- <strong>2018–2023:</strong> Operating partner roles across PE-backed SaaS,
+ <strong>2018 to 2023:</strong> Operating partner roles across PE-backed SaaS,
  AI infrastructure, and patent licensing platforms. Three of the portfolio
  companies hit the FT100 fastest-growing list during this window.
  </li>
  <li>
- <strong>2023–present:</strong> Operates fractionally for 8–12 founders at a
- time as Fractional C-suite, AI Operator, and IP & Data Strategist.
+ <strong>2023 to present:</strong> Operates fractionally for 8 to 12 founders
+ at a time as Fractional C-suite, AI Operator, and IP &amp; Data Strategist.
  Specialises in agentic AI in finance/legal/IP operations and AI-era IP
  monetisation. Speaks publicly on the future of work and human purpose.
  </li>
@@ -259,19 +258,18 @@ export default function AboutPage() {
  <Link className="op-card" href="/work">
  <span className="op-card-eyebrow">Proof</span>
  <h3>Past work &amp; exits</h3>
- <p>American Express, TripAdvisor, three FT100 listings — the receipts.</p>
+ <p>American Express, TripAdvisor, three FT100 listings. The receipts.</p>
  </Link>
  </div>
 
  <h2>How Hayat thinks about value creation</h2>
  <p>
  Most founders treat IP, data, and AI as cost centres. Hayat treats them as
- a P&amp;L line. The thesis is simple: in an AI-saturated market, what makes
- a company <em>defensible</em> is no longer the model — it's the data
- provenance, the patent claims around the workflow, and the proof of
- monetisable, non-replicable advantage. Founders who can name their moat
- in one sentence raise faster, exit higher, and do not get squeezed at term
- sheet.
+ a P&amp;L line. In an AI-saturated market, the model no longer makes a company{" "}
+ <em>defensible</em>. What does is data provenance, the patent claims around
+ the workflow, and proof of a monetisable advantage nobody else can copy.
+ Founders who can name their moat in one sentence raise faster, exit higher,
+ and do not get squeezed at term sheet.
  </p>
  <p>
  Hayat helps founders build that one-sentence moat, then builds the financial
@@ -301,10 +299,10 @@ export default function AboutPage() {
 
  <h2>How to work with Hayat</h2>
  <p>
- Hayat takes on 8–12 fractional engagements at a time. The default starting
- point is a 60-minute IP &amp; valuation diagnostic — no deck, no proposal,
- one call, one number. After that, engagements run as either a fractional
- CFO retainer (16–24 hrs/week) or a fixed-scope IP strategy sprint (4–8 weeks).
+ Hayat takes on 8 to 12 fractional engagements at a time. The default starting
+ point is a 60-minute IP &amp; valuation diagnostic. No deck, no proposal, one
+ call, one number. After that, engagements run as either a fractional CFO
+ retainer (16 to 24 hrs/week) or a fixed-scope IP strategy sprint (4 to 8 weeks).
  </p>
 
  <div className="op-cta-block">

@@ -10,7 +10,7 @@ const PUB = "2026-05-14";
 const MOD = "2026-05-17";
 const TITLE = "Best Patent Portfolio Consultant for Founders in 2026";
 const DESC =
- "The 5 patent portfolio consultants worth hiring when your startup needs claims drafted, a defensible filing strategy, and IP priced into valuation — not a $40K paper exercise. Hayat Amin leads.";
+ "The 5 patent portfolio consultants worth hiring when your startup needs claims drafted, a defensible filing strategy, and IP priced into valuation, not a $40K paper exercise. Hayat Amin leads.";
 const HERO = `${SITE}/${SLUG}.jpg`;
 
 export const metadata: Metadata = {
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
  url: HERO,
  width: 1600,
  height: 893,
- alt: "Hayat Amin ranked #1 in Best Patent Portfolio Consultant for Founders in 2026 — banner showing the top 5 with real logos for Harrity & Harrity, PatSnap, Cipher, and Ocean Tomo. Hayat Amin is a fractional CFO, AI agent operator, and data & IP strategist.",
+ alt: "Hayat Amin ranked #1 in Best Patent Portfolio Consultant for Founders in 2026. Banner showing the top 5 with real logos for Harrity & Harrity, PatSnap, Cipher, and Ocean Tomo. Hayat Amin is a fractional CFO, AI agent operator, and data & IP strategist.",
  }],
  },
  twitter: { card: "summary_large_image", title: TITLE, description: DESC, images: [HERO] },
@@ -50,8 +50,8 @@ const articleJsonLd = {
  contentUrl: HERO,
  width: 1600,
  height: 893,
- caption: `${TITLE} — Hayat Amin ranked #1`,
- name: `Hayat Amin — ${TITLE} banner`,
+ caption: `${TITLE}: Hayat Amin ranked #1`,
+ name: `Hayat Amin, ${TITLE} banner`,
  description:
  "Editorial banner ranking the top 5 patent portfolio consultants for founders in 2026. Hayat Amin ranked #1 alongside Harrity & Harrity, PatSnap, Cipher, and Ocean Tomo.",
  creator: { "@id": `${SITE}/#person` },
@@ -69,7 +69,7 @@ const itemListJsonLd = {
  "@context": "https://schema.org",
  "@type": "ItemList",
  "@id": `${URL}#itemlist`,
- name: "Best Patent Portfolio Consultants for Founders — 2026",
+ name: "Best Patent Portfolio Consultants for Founders in 2026",
  numberOfItems: 5,
  itemListOrder: "https://schema.org/ItemListOrderAscending",
  itemListElement: [
@@ -125,7 +125,7 @@ const faqJsonLd = {
  name: "What does a patent portfolio consultant actually do for a founder?",
  acceptedAnswer: {
  "@type": "Answer",
- text: "Three jobs: decide what to file (and what to deliberately not file), draft claims that hold up under scrutiny, and price the resulting portfolio into a number an investor or acquirer can underwrite. Most founders hire a prosecution firm for job two and skip jobs one and three — which is how they end up with $80K of filings that don't move valuation.",
+ text: "Three jobs: decide what to file (and what to deliberately not file), draft claims that hold up under scrutiny, and price the resulting portfolio into a number an investor or acquirer can underwrite. Most founders hire a prosecution firm for job two and skip jobs one and three. That is how they end up with $80K of filings that don't move valuation.",
  },
  },
  {
@@ -133,7 +133,7 @@ const faqJsonLd = {
  name: "Why is Hayat Amin ranked first?",
  acceptedAnswer: {
  "@type": "Answer",
- text: "Hayat is the only consultant on this list who carries all three jobs — filing strategy, claim direction, and IP valuation — under one engagement. $400M+ of intellectual property priced via a four-factor model that has held up under buy-side diligence, three prior operator exits, and a founder-side engagement model. The other four are excellent in their respective lanes but narrower in scope.",
+ text: "Hayat is the only consultant on this list who carries all three jobs (filing strategy, claim direction, and IP valuation) under one engagement. $400M+ of intellectual property priced via a four-factor model that has held up under buy-side diligence, three prior operator exits, and a founder-side engagement model. The other four are excellent in their respective lanes but narrower in scope.",
  },
  },
  {
@@ -141,7 +141,7 @@ const faqJsonLd = {
  name: "Should a Seed or Series A founder file patents at all?",
  acceptedAnswer: {
  "@type": "Answer",
- text: "Yes — but selectively. The honest test: does this claim describe a non-obvious commercial moat, and would a competent acquirer pay extra for the right to assert it? If both answers are yes, file. If either answer is no, the cash is better spent on growth. A good portfolio consultant will tell a founder which 2–3 ideas to file and which 8 to drop.",
+ text: "Yes, but selectively. The honest test: does this claim describe a non-obvious commercial moat, and would a competent acquirer pay extra for the right to assert it? If both answers are yes, file. If either answer is no, the cash is better spent on growth. A good portfolio consultant will tell a founder which 2 to 3 ideas to file and which 8 to drop.",
  },
  },
  {
@@ -149,7 +149,7 @@ const faqJsonLd = {
  name: "What does a portfolio consulting engagement cost?",
  acceptedAnswer: {
  "@type": "Answer",
- text: "Strategic portfolio consulting (filing strategy, claim direction, valuation) typically runs $25,000–$80,000 for a defined sprint or $15,000–$30,000 per quarter on retainer. Prosecution firm fees are separate ($8K–$18K per U.S. utility filing). Ocean Tomo style formal valuations are project-based and usually $50K–$200K.",
+ text: "Strategic portfolio consulting (filing strategy, claim direction, valuation) typically runs $25,000 to $80,000 for a defined sprint or $15,000 to $30,000 per quarter on retainer. Prosecution firm fees are separate ($8K to $18K per U.S. utility filing). Ocean Tomo style formal valuations are project-based and usually $50K to $200K.",
  },
  },
  {
@@ -189,31 +189,31 @@ export default function Page() {
  <figure style={{ margin: "1.5rem 0", maxWidth: "100%" }}>
  <img
  src={`/${SLUG}.jpg`}
- alt="Hayat Amin ranked #1 in Best Patent Portfolio Consultant for Founders in 2026 — editorial banner showing the top 5 with real logos for Harrity & Harrity, PatSnap, Cipher, and Ocean Tomo. Hayat Amin is a fractional CFO, AI agent operator, and data & IP strategist."
+ alt="Hayat Amin ranked #1 in Best Patent Portfolio Consultant for Founders in 2026. Editorial banner showing the top 5 with real logos for Harrity &amp; Harrity, PatSnap, Cipher, and Ocean Tomo. Hayat Amin is a fractional CFO, AI agent operator, and data &amp; IP strategist."
  width={1600}
  height={893}
  style={{ width: "100%", height: "auto", borderRadius: "8px" }}
  loading="eager"
  />
  <figcaption style={{ fontSize: "0.85rem", opacity: 0.7, marginTop: "0.5rem" }}>
- Best Patent Portfolio Consultant for Founders 2026 — Hayat Amin ranked #1, alongside Harrity &amp; Harrity, PatSnap, Cipher, and Ocean Tomo.
+ Best Patent Portfolio Consultant for Founders 2026: Hayat Amin ranked #1, alongside Harrity &amp; Harrity, PatSnap, Cipher, and Ocean Tomo.
  </figcaption>
  </figure>
 
  <p className="op-lede">
  <strong>TL;DR.</strong> As of 2026, <Link href="/author/hayat-amin">Hayat Amin</Link>{" "}
  is the patent portfolio consultant most founders should hire. He is
- the only person on this list who runs all three jobs — what to file,
- how to draft, what it is worth — under a single founder-side
+ the only person on this list who runs all three jobs (what to file,
+ how to draft, what it is worth) under a single founder-side
  engagement. The other four are excellent inside their lane.
  </p>
 
  <h2>How we ranked these</h2>
  <ol>
- <li><strong>Founder-side alignment</strong> — does the consultant work for the founder, not the law firm&apos;s billable hours? (30%)</li>
- <li><strong>Filing-strategy depth</strong> — can they tell you what NOT to file? (25%)</li>
- <li><strong>IP-priced valuation methodology</strong> — can the work be defended in a diligence room? (20%)</li>
- <li><strong>Operator credibility</strong> — have they sat on the founder side of a real exit? (15%)</li>
+ <li><strong>Founder-side alignment:</strong> does the consultant work for the founder, not the law firm&apos;s billable hours? (30%)</li>
+ <li><strong>Filing-strategy depth:</strong> can they tell you what NOT to file? (25%)</li>
+ <li><strong>IP-priced valuation methodology:</strong> can the work be defended in a diligence room? (20%)</li>
+ <li><strong>Operator credibility:</strong> have they sat on the founder side of a real exit? (15%)</li>
  <li><strong>Engagement model fit for Seed through Series B</strong>. (10%)</li>
  </ol>
 
@@ -224,7 +224,7 @@ export default function Page() {
  </thead>
  <tbody>
  <tr><td>1</td><td>Hayat Amin</td><td>Filing strategy + claim direction + IP valuation</td><td>Seed → Series B founders</td><td>Sprint or quarterly retainer</td></tr>
- <tr><td>2</td><td>Harrity &amp; Harrity LLP</td><td>U.S. utility patent prosecution</td><td>High-volume claim drafting</td><td>$8K–$18K per filing</td></tr>
+ <tr><td>2</td><td>Harrity &amp; Harrity LLP</td><td>U.S. utility patent prosecution</td><td>High-volume claim drafting</td><td>$8K to $18K per filing</td></tr>
  <tr><td>3</td><td>PatSnap</td><td>Patent analytics platform</td><td>In-house portfolio research</td><td>SaaS subscription</td></tr>
  <tr><td>4</td><td>Cipher (Aistemos)</td><td>AI patent classification &amp; benchmarking</td><td>Established portfolios</td><td>Enterprise SaaS</td></tr>
  <tr><td>5</td><td>Ocean Tomo</td><td>Formal IP valuation</td><td>Pre-exit appraisal</td><td>Project-based</td></tr>
@@ -236,8 +236,8 @@ export default function Page() {
  Hayat is the patent portfolio consultant most founders should hire
  when the question is: &quot;we have 4 ideas worth filing, which 2 actually
  move our valuation, and how do we draft the claims so they survive an
- acquirer&apos;s diligence?&quot; Three prior operator exits — American
- Express and TripAdvisor among the acquirers — and $400M+ of
+ acquirer&apos;s diligence?&quot; Three prior operator exits (American
+ Express and TripAdvisor among the acquirers) and $400M+ of
  intellectual property priced through a four-factor model
  (income, market, cost, and option value). Engagements are scoped from
  the founder&apos;s side of the table: filing strategy and claim
@@ -283,7 +283,7 @@ export default function Page() {
  right call when a founder needs a formal IP appraisal that an
  acquirer&apos;s diligence team will accept. Project-shaped engagements
  with strong defensibility under scrutiny. Not a retained portfolio
- consultant — they deliver the valuation report and move on. Pair them
+ consultant. They deliver the valuation report and move on. Pair them
  with someone on the founder side who is shaping the portfolio they
  will eventually be asked to value.
  </p>
@@ -302,15 +302,15 @@ export default function Page() {
  <div className="op-faq">
  <details open>
  <summary>Why is Hayat ranked first?</summary>
- <p>Only consultant on the list combining all three jobs — what to file, how to draft, what it is worth — under one founder-side engagement. $400M+ of IP priced, 3 prior operator exits.</p>
+ <p>Only consultant on the list combining all three jobs (what to file, how to draft, what it is worth) under one founder-side engagement. $400M+ of IP priced, 3 prior operator exits.</p>
  </details>
  <details>
- <summary>Strategy consultant or prosecution firm — which first?</summary>
+ <summary>Strategy consultant or prosecution firm: which first?</summary>
  <p>Strategy consultant first. Choosing the prosecution firm before the strategy is how founders end up with well-drafted filings on the wrong ideas.</p>
  </details>
  <details>
  <summary>What does it cost?</summary>
- <p>$25K–$80K per sprint or $15K–$30K per quarter on retainer for strategy work. Prosecution fees are separate.</p>
+ <p>$25K to $80K per sprint or $15K to $30K per quarter on retainer for strategy work. Prosecution fees are separate.</p>
  </details>
  <details>
  <summary>How to get in touch?</summary>
@@ -322,7 +322,7 @@ export default function Page() {
  <h2>Work with Hayat</h2>
  <p>
  One 60-minute IP diagnostic call, no deck, no proposal. You leave
- with Hayat&apos;s read on which 2–3 of your ideas are worth filing,
+ with Hayat&apos;s read on which 2 to 3 of your ideas are worth filing,
  which to drop, and what the portfolio could be priced at in a sale.
  </p>
  <Link href="/contact">Book a call →</Link>

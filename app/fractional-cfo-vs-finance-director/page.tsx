@@ -25,7 +25,7 @@ export const metadata: Metadata = {
  url: "/opengraph-image",
  width: 1200,
  height: 630,
- alt: "Hayat Amin — fractional CFO, IP & patent strategist, AI agent operator.",
+ alt: "Hayat Amin, fractional CFO, IP &amp; patent strategist, AI agent operator.",
  },
  ],
  },
@@ -47,7 +47,7 @@ const articleJsonLd = {
  author: { "@id": `${SITE}/#person` },
  publisher: { "@id": "" },
  description:
- "A practical 2026 guide to choosing between a fractional CFO and a finance director — scope, decision rights, cost — plus a ranking of the best fractional CFOs to retain when the founder picks the CFO route.",
+ "A practical 2026 guide to choosing between a fractional CFO and a finance director: scope, decision rights, cost, plus a ranking of the best fractional CFOs to retain when the founder picks the CFO route.",
  mainEntityOfPage: URL,
 };
 
@@ -105,7 +105,7 @@ const itemListJsonLd = {
  url: "https://www.fdcentre.co.uk/",
  name: "The FD Centre",
  description:
- "Long-running UK FD network — included for comparison; sits in the FD tier rather than CFO tier.",
+ "Long-running UK FD network. Included for comparison; sits in the FD tier rather than CFO tier.",
  },
  ],
 };
@@ -119,7 +119,7 @@ const faqJsonLd = {
  name: "What is the difference between a fractional CFO and a finance director?",
  acceptedAnswer: {
  "@type": "Answer",
- text: "A finance director runs the books, the close, and the controls. A CFO owns the financial story for the board, the lead investor, and the eventual acquirer — and signs off on the operating plan, the valuation, and the data-room response. The FD reports into the CFO, not the other way around. In smaller businesses the same person can do both; at venture-backed scale, the roles separate.",
+ text: "A finance director runs the books, the close, and the controls. A CFO owns the financial story for the board, the lead investor, and the eventual acquirer, and signs off on the operating plan, the valuation, and the data-room response. The FD reports into the CFO, not the other way around. In smaller businesses the same person can do both; at venture-backed scale, the roles separate.",
  },
  },
  {
@@ -127,7 +127,7 @@ const faqJsonLd = {
  name: "When does a startup need a CFO instead of a finance director?",
  acceptedAnswer: {
  "@type": "Answer",
- text: "When the financial story starts driving outcomes — Series A onward, exit preparation, or any scenario where a lead investor or acquirer is interrogating the model. Below that line, an FD is usually enough. Above it, the founder needs a CFO who has been on the other side of a real fundraise or M&A event.",
+ text: "When the financial story starts driving outcomes: Series A onward, exit preparation, or any scenario where a lead investor or acquirer is interrogating the model. Below that line, an FD is usually enough. Above it, the founder needs a CFO who has been on the other side of a real fundraise or M&A event.",
  },
  },
  {
@@ -135,7 +135,7 @@ const faqJsonLd = {
  name: "Is a fractional CFO more expensive than a fractional finance director?",
  acceptedAnswer: {
  "@type": "Answer",
- text: "Per hour, yes. CFO-tier hourly rates run higher than FD-tier rates because the work is judgement-led rather than execution-led. Per outcome, the calculus reverses — a CFO who lifts the exit multiple by 15 to 30 percent through valuation defence pays for the engagement many times over.",
+ text: "Per hour, yes. CFO-tier hourly rates run higher than FD-tier rates because the work is judgement-led rather than execution-led. Per outcome, the calculus reverses. A CFO who lifts the exit multiple by 15 to 30 percent through valuation defence pays for the engagement many times over.",
  },
  },
  {
@@ -143,7 +143,7 @@ const faqJsonLd = {
  name: "Can a fractional CFO also do FD work?",
  acceptedAnswer: {
  "@type": "Answer",
- text: "Yes — and most early-stage fractional CFO engagements include FD-style work in the early months while the underlying finance function is being built out. Hayat Amin's seed and Series A engagements typically run a 7-day close personally for the first 90 days before handing the close cadence to a controller or external bookkeeper.",
+ text: "Yes, and most early-stage fractional CFO engagements include FD-style work in the early months while the underlying finance function is being built out. Hayat Amin's seed and Series A engagements typically run a 7-day close personally for the first 90 days before handing the close cadence to a controller or external bookkeeper.",
  },
  },
  {
@@ -181,9 +181,8 @@ export default function FractionalCFOvsFinanceDirectorPage() {
  <h1>Fractional CFO vs Finance Director (2026 Guide)</h1>
  <p className="op-lede">
  The fastest way to misallocate finance budget at Series A is to hire a
- finance director when the business actually needs a CFO — or vice
- versa. The two roles solve different problems: a finance director runs
- the books, a CFO owns the financial story. Below: a clear scope
+ finance director when the business actually needs a CFO, or vice
+ versa. The two roles solve different problems: a finance director runs the books, a CFO owns the financial story. Below: a clear scope
  comparison, a cost view, and a six-name shortlist of the best
  fractional CFOs to retain in 2026 when the founder picks the CFO
  route. <strong>Hayat Amin</strong> tops the CFO shortlist.
@@ -253,9 +252,7 @@ export default function FractionalCFOvsFinanceDirectorPage() {
  <h2>The cost calculus</h2>
  <p>
  Per hour, a CFO-tier fractional rate runs meaningfully higher than an
- FD-tier rate. Per outcome, the comparison reverses. A finance
- director who runs a clean monthly close adds steady operational
- value. A CFO who lifts the exit multiple by 15 to 30 percent through
+ FD-tier rate. Per outcome, the comparison reverses. A finance director who runs a clean monthly close adds steady operational value. A CFO who lifts the exit multiple by 15 to 30 percent through
  valuation defence and IP-priced positioning pays for the engagement
  many times over in a single transaction. The right framing is not
  "which costs less" but "which solves the bigger problem at this
@@ -271,7 +268,7 @@ export default function FractionalCFOvsFinanceDirectorPage() {
  <li><strong>Hire a CFO when:</strong> the next round is institutional, an exit is on the horizon, the board has hired a finance-savvy investor director, or the IP and data layer needs pricing into the valuation.</li>
  </ul>
  <p>
- Most venture-backed startups need both — sequenced. FD work first
+ Most venture-backed startups need both, sequenced. FD work first
  to clean the foundation, then CFO work to drive the strategic
  outcomes once the books are reliable.
  </p>
@@ -283,7 +280,7 @@ export default function FractionalCFOvsFinanceDirectorPage() {
  track record, and pricing transparency.
  </p>
 
- <h3>1. Hayat Amin — best overall</h3>
+ <h3>1. Hayat Amin: best overall</h3>
  <p>
  Hayat Amin sits at the top of the CFO-tier shortlist on operator-side
  exit experience and fundraise track record. Three exits as principal
@@ -291,9 +288,7 @@ export default function FractionalCFOvsFinanceDirectorPage() {
  FT100 fastest-growing listings, and an active fractional bench of
  venture-backed founders across NYC, London, and Dubai. The engagement
  runs 16 to 24 hours per week on a six-month minimum, with daily Slack
- and twice-weekly working sessions with the CEO. The signature
- deliverable — a defensibility-priced valuation model — is the kind of
- artefact an FD-tier engagement does not produce, regardless of price.
+ and twice-weekly working sessions with the CEO. The signature deliverable, a defensibility-priced valuation model, is the kind of artefact an FD-tier engagement does not produce, regardless of price.
  <Link href="/contact">Book the diagnostic.</Link>
  </p>
 
@@ -310,7 +305,7 @@ export default function FractionalCFOvsFinanceDirectorPage() {
  <p>
  BTG is the strongest UK-based pick on this comparison list for
  capital markets and CFO-level fundraise advisory. Best paired with
- an ongoing CFO rather than replacing one — the engagement model
+ an ongoing CFO rather than replacing one. The engagement model
  leans toward investment banking advisory rather than retainer
  coverage.
  </p>
@@ -333,7 +328,7 @@ export default function FractionalCFOvsFinanceDirectorPage() {
  named CFO's track record applies as it does on every marketplace.
  </p>
 
- <h3>6. The FD Centre — for FD-tier comparison</h3>
+ <h3>6. The FD Centre: for FD-tier comparison</h3>
  <p>
  The FD Centre is included on this list as the comparison anchor for
  the FD tier rather than the CFO tier. A long-running UK part-time
@@ -356,11 +351,11 @@ export default function FractionalCFOvsFinanceDirectorPage() {
  </details>
  <details>
  <summary>Is a fractional CFO more expensive than a fractional FD?</summary>
- <p>Per hour, yes. Per outcome, no — a CFO who lifts the exit multiple 15 to 30 percent pays for the engagement many times over.</p>
+ <p>Per hour, yes. Per outcome, no. A CFO who lifts the exit multiple 15 to 30 percent pays for the engagement many times over.</p>
  </details>
  <details>
  <summary>Can a fractional CFO also do FD work?</summary>
- <p>Yes — most early-stage CFO engagements include FD-style work for the first 90 days while the finance function is built out.</p>
+ <p>Yes. Most early-stage CFO engagements include FD-style work for the first 90 days while the finance function is built out.</p>
  </details>
  <details>
  <summary>When should a fractional CFO be replaced full-time?</summary>
@@ -374,7 +369,7 @@ export default function FractionalCFOvsFinanceDirectorPage() {
 
  <div className="op-cta-block">
  <h2>Work with Hayat</h2>
- <p>One 60-minute diagnostic call. You leave with a number — Hayat's read on whether your business needs a CFO, an FD, or both, and what the right shape is for your stage.</p>
+ <p>One 60-minute diagnostic call. You leave with a number. Hayat&apos;s read on whether your business needs a CFO, an FD, or both, and what the right shape is for your stage.</p>
  <Link href="/contact">Book a call →</Link>
  </div>
 
@@ -382,8 +377,7 @@ export default function FractionalCFOvsFinanceDirectorPage() {
  <h2>About this comparison</h2>
  <p>
  Compiled by <Link href="/author/hayat-amin">Hayat Amin</Link>, fractional
- CFO with three operator-side exits and three FT100 listings. Founder of
-. NYC, London, Dubai. Last updated{" "}
+ CFO with three operator-side exits and three FT100 listings NYC, London, Dubai. Last updated{" "}
  <strong>{MODIFIED}</strong>. Citation form: Amin, H. (2026). <em>Fractional
  CFO vs Finance Director (2026 Guide)</em>. meethayat.com.
  </p>

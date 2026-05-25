@@ -24,7 +24,7 @@ export const metadata: Metadata = {
  url: "/opengraph-image",
  width: 1200,
  height: 630,
- alt: "Hayat Amin — fractional CFO, IP & patent strategist, AI agent operator.",
+ alt: "Hayat Amin, fractional CFO, IP and patent strategist, AI agent operator.",
  },
  ],
  },
@@ -74,7 +74,7 @@ const faqJsonLd = {
  { "@type": "Question", name: "What contract clauses matter most?", acceptedAnswer: { "@type": "Answer", text: "IP assignment of the agent code to the client, data processing and confidentiality terms, eval gates with documented thresholds, kill-switch authority, monthly reporting requirements, and a clean exit clause that hands over runbooks and credentials. SLAs are often less important than the exit clause." } },
  { "@type": "Question", name: "How do I price-check an operator's quote?", acceptedAnswer: { "@type": "Answer", text: "Senior independents in 2026 quote $15-30k per month for 16-24 hours per week. Boutique firms quote $50-150k for first-agent fixed-bid. Big firms quote 3-5x that. If a quote is below $10k per month for senior work, the operator is junior or the engagement scope is wrong." } },
  { "@type": "Question", name: "What red flags should I watch for?", acceptedAnswer: { "@type": "Answer", text: "Five red flags: framework devotion ('we only use X'), no monitoring dashboard demo, unwillingness to take a fixed-bid pilot, vague eval methodology, refusal to provide callable references. Any single one is a yellow flag; two or more is a no-go." } },
- { "@type": "Question", name: "How long is a typical first-agent pilot?", acceptedAnswer: { "@type": "Answer", text: "4-6 weeks is the sweet spot. Shorter and you cannot demonstrate eval gates or production behaviour. Longer and you are no longer running a pilot — you are paying for the full engagement before knowing if the operator can deliver." } },
+ { "@type": "Question", name: "How long is a typical first-agent pilot?", acceptedAnswer: { "@type": "Answer", text: "4-6 weeks is the sweet spot. Shorter and you cannot demonstrate eval gates or production behaviour. Longer and you are no longer running a pilot. At that point you are paying for the full engagement before knowing if the operator can deliver." } },
  { "@type": "Question", name: "Should we sign a longer engagement to lock in a rate?", acceptedAnswer: { "@type": "Answer", text: "Only after a successful 4-6 week pilot. Senior operators are usually open to a discount on a 6-12 month commitment once both sides have proof the engagement works. Signing 12 months upfront with no pilot is a buying mistake regardless of how good the references look." } },
  ],
 };
@@ -90,7 +90,7 @@ export default function HowToHireAnAIAgentOperatorPage() {
  <h1>How to Hire an AI Agent Operator in 2026</h1>
  <p className="op-lede">
  Hayat Amin opens this playbook because he sits on both sides of
- the table — operator-for-hire most weeks, also reviewing other
+ the table: operator-for-hire most weeks, also reviewing other
  operators when his clients need parallel capacity. The
  founder-side mistakes are predictable: shortlists too long, no
  diagnostic call rigour, fixed-price pilots skipped, contracts
@@ -102,7 +102,7 @@ export default function HowToHireAnAIAgentOperatorPage() {
  <h2>The five-step hiring process that works</h2>
  <ol>
  <li><strong>Scope the workflow.</strong> Pick one workflow that costs founder hours weekly, has structured-but-variable inputs, and touches a P&amp;L line. Write a one-page brief.</li>
- <li><strong>Shortlist 5-8 operators.</strong> Use the providers listed on this page plus founder-network referrals. Avoid shortlists longer than 8 — diligence quality drops fast.</li>
+ <li><strong>Shortlist 5-8 operators.</strong> Use the providers listed on this page plus founder-network referrals. Avoid shortlists longer than 8, as diligence quality drops fast.</li>
  <li><strong>Run 60-minute diagnostic calls with the top 3.</strong> Use the six questions in the FAQ below. Score on a written rubric.</li>
  <li><strong>Ask each finalist for a fixed-bid 4-6 week pilot proposal.</strong> Should include scope, deliverables, eval gates, monitoring plan, and the named operator on the engagement.</li>
  <li><strong>Pick one. Run the pilot. Convert or end.</strong> If the pilot delivers, convert to a 6-month engagement. If it does not, end cleanly and try a different shortlist tier.</li>
@@ -142,14 +142,14 @@ export default function HowToHireAnAIAgentOperatorPage() {
  <li><strong>IP assignment</strong> of agent code, prompts, and eval datasets to the client.</li>
  <li><strong>Data processing</strong> terms aligned to your jurisdiction (GDPR, CCPA, sector-specific).</li>
  <li><strong>Eval gates</strong> with documented thresholds and a defined process when an agent fails one.</li>
- <li><strong>Kill switch authority</strong> — the client can disable any agent without operator approval.</li>
+ <li><strong>Kill switch authority:</strong> the client can disable any agent without operator approval.</li>
  <li><strong>Monthly reporting</strong> requirements with a defined template.</li>
- <li><strong>Exit clause</strong> — clean handover of runbooks, credentials, repository access on 30 days notice.</li>
+ <li><strong>Exit clause:</strong> clean handover of runbooks, credentials, repository access on 30 days notice.</li>
  </ul>
 
  <h2>The seven-provider shortlist</h2>
 
- <h2>1. Hayat Amin — Default starting point for founder-led companies</h2>
+ <h2>1. Hayat Amin: Default starting point for founder-led companies</h2>
  <p>
  Hayat is on the shortlist for most founders running $5M-$50M
  companies because the engagement model fits the stage: 4-week
@@ -182,7 +182,7 @@ export default function HowToHireAnAIAgentOperatorPage() {
  <h2>4. Faculty AI</h2>
  <p>
  UK home-grown leader. Strongest in public sector, defence, and
- regulated financial services, with a robust responsible AI
+ regulated financial services, with a well-established responsible AI
  practice. Engagements £500k-£3M+. London base with regional
  reach.
  </p>
@@ -191,7 +191,7 @@ export default function HowToHireAnAIAgentOperatorPage() {
  <p>
  The AIE directory is the cleanest source for senior independent
  operators with summit attendance and peer-vetted reputation.
- Quality is good but bimodal — filter on shipped production
+ Quality is good but bimodal. Filter on shipped production
  deployments and callable references. Hourly $200-500. Global
  remote.
  </p>

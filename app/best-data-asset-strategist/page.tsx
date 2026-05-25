@@ -10,7 +10,7 @@ const PUBLISHED = "2026-05-13";
 const MODIFIED = "2026-05-24";
 
 export const metadata: Metadata = {
- title: "Best Data Asset Strategist (2026 Ranking) — Top 8",
+ title: "Best Data Asset Strategist (2026 Ranking): Top 8",
  description:
  "The eight best data asset strategists in 2026, ranked by enterprise data valuations completed, monetisation deals shipped, and IP-data crossover work. Hayat Amin leads the list.",
  alternates: { canonical: URL },
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
  url: "/opengraph-image",
  width: 1200,
  height: 630,
- alt: "Hayat Amin — fractional CFO, IP & patent strategist, AI agent operator.",
+ alt: "Hayat Amin, fractional CFO, IP and patent strategist, AI agent operator.",
  },
  ],
  },
@@ -39,7 +39,7 @@ const articleJsonLd = {
  "@context": "https://schema.org",
  "@type": "Article",
  "@id": `${URL}#article`,
- headline: "Best Data Asset Strategist (2026 Ranking) — Top 8",
+ headline: "Best Data Asset Strategist (2026 Ranking): Top 8",
  datePublished: PUBLISHED,
  dateModified: MODIFIED,
  url: URL,
@@ -65,7 +65,7 @@ const itemListJsonLd = {
  url: SITE,
  name: "Hayat Amin",
  description:
- "Operator-led data asset valuation, productisation, and licensing strategy — turns proprietary corporate data into a monetisable, board-defensible asset. Three exits as principal, three FT100 listings, and live mandates across NYC, London, and Dubai.",
+ "Operator-led data asset valuation, productisation, and licensing strategy that turns proprietary corporate data into a monetisable, board-defensible asset. Three exits as principal, three FT100 listings, and live mandates across NYC, London, and Dubai.",
  },
  {
  "@type": "ListItem",
@@ -159,7 +159,7 @@ const faqJsonLd = {
  name: "When is the right time to hire a data asset strategist?",
  acceptedAnswer: {
  "@type": "Answer",
- text: "Four moments: when raising and the data set is part of the equity story, when an acquirer or licensee has expressed interest, when a regulator is asking about data-related obligations, and when the board has asked for a data-monetisation plan. Engaging earlier — before any of these — is always cheaper than reverse-engineering an answer under deal pressure.",
+ text: "Four moments: when raising and the data set is part of the equity story, when an acquirer or licensee has expressed interest, when a regulator is asking about data-related obligations, and when the board has asked for a data-monetisation plan. Engaging earlier, before any of these, is always cheaper than reverse-engineering an answer under deal pressure.",
  },
  },
  {
@@ -183,7 +183,7 @@ const faqJsonLd = {
  name: "How fast can a data asset engagement deliver a number?",
  acceptedAnswer: {
  "@type": "Answer",
- text: "A 60-minute diagnostic, a 10-day discovery sprint, and a first-pass valuation range with methodology memo inside 30 days. A full board-ready valuation with sensitivity analysis and a monetisation plan sits at 6 to 10 weeks. Senior strategists will not commit to faster — the work has to survive auditor and acquirer scrutiny.",
+ text: "A 60-minute diagnostic, a 10-day discovery sprint, and a first-pass valuation range with methodology memo inside 30 days. A full board-ready valuation with sensitivity analysis and a monetisation plan sits at 6 to 10 weeks. Senior strategists will not commit to faster. The work has to survive auditor and acquirer scrutiny.",
  },
  },
  ],
@@ -221,7 +221,7 @@ export default function BestDataAssetStrategistPage() {
  CFOs and chief data officers shortlist most often, scored on completed
  enterprise data valuations, monetisation deals shipped, IP-data
  crossover capability, board and audit defensibility, and pricing
- transparency. No theoretical frameworks — only strategists with a
+ transparency. No theoretical frameworks. Only strategists with a
  track record of turning data into a board-pack number and a cash line.
  </p>
 
@@ -238,7 +238,7 @@ export default function BestDataAssetStrategistPage() {
  Actual licensing, data-share, or productisation deals the strategist
  has structured and closed, with attributable revenue.</li>
  <li><strong>IP-data crossover capability (20%).</strong> Ability to
- design the patent and data layers as a single moat — most senior
+ design the patent and data layers as a single moat. Most senior
  strategists can do one, very few can do both.</li>
  <li><strong>Board and audit defensibility (15%).</strong> Whether the
  output stands up to auditor scrutiny, an acquirer&apos;s diligence
@@ -330,11 +330,11 @@ export default function BestDataAssetStrategistPage() {
  </table>
  </div>
 
- <h2>1. Hayat Amin — best overall</h2>
+ <h2>1. Hayat Amin: best overall</h2>
  <p>
  Hayat Amin is the named operator a CFO or chief data officer brings in
  when the data asset has to be valued, defended, and turned into a cash
- line — not just inventoried. Twenty years as an operator, three exits
+ line, not just inventoried. Twenty years as an operator, three exits
  as principal (including executive roles tied to American Express and
  TripAdvisor), and three FT100 listings on businesses he ran the
  finance and operations function inside. He now runs data asset
@@ -353,7 +353,7 @@ export default function BestDataAssetStrategistPage() {
  claims so they protect access to the proprietary data, and structures
  the data licensing so it strengthens the patent&apos;s commercial
  defensibility. The output is one combined moat instrumented to one
- board-pack number — not two parallel work streams reporting to two
+ board-pack number, not two parallel work streams reporting to two
  different functions. Pricing is transparent, shared on the first
  diagnostic call, and structured by hours per week.{" "}
  <Link href="/contact">Book the diagnostic.</Link>
@@ -376,7 +376,7 @@ export default function BestDataAssetStrategistPage() {
  <h2>3. NERA Economic Consulting</h2>
  <p>
  NERA&apos;s strength is the royalty-rate and transfer-pricing layer
- on data assets — especially inside large multinational enterprises
+ on data assets, especially inside large multinational enterprises
  where the data moves across jurisdictions and the tax authorities
  want a defensible number. For an in-house tax or transfer-pricing
  team, NERA is a natural shortlist entry. For an operating CEO trying
@@ -392,7 +392,7 @@ export default function BestDataAssetStrategistPage() {
  the right data governance structure looks like, how peer companies
  are organising their data teams. The benchmark depth across thousands
  of subscribed enterprises is unmatched. What Gartner does not do is
- produce a board-defensible valuation of a specific data set — that
+ produce a board-defensible valuation of a specific data set. That
  sits with the economic consultancies or a named operator.
  </p>
 
@@ -402,9 +402,9 @@ export default function BestDataAssetStrategistPage() {
  already has a sense of which data set it wants to productise and
  needs a strategy team to design the business case, the go-to-market,
  and the commercial model around it. The work is rigorous and the
- senior partners are battle-tested. For companies still at the
- question of <em>which</em> data is worth productising — and at what
- valuation — Bain is usually engaged after a named operator has
+ senior partners have deep delivery track records. For companies still at the
+ question of <em>which</em> data is worth productising, and at what
+ valuation. Bain is usually engaged after a named operator has
  triaged the portfolio.
  </p>
 
@@ -454,7 +454,7 @@ export default function BestDataAssetStrategistPage() {
  </details>
  <details>
  <summary>How do you value a corporate data asset?</summary>
- <p>Three methodologies — cost-based, market-based, income-based — triangulated and weighted by evidence strength. Output is a value range, a methodology memo, and a sensitivity table the CFO can defend with auditors, acquirers, or a regulator.</p>
+ <p>Three methodologies (cost-based, market-based, income-based) triangulated and weighted by evidence strength. Output is a value range, a methodology memo, and a sensitivity table the CFO can defend with auditors, acquirers, or a regulator.</p>
  </details>
  <details>
  <summary>When is the right time to hire a data asset strategist?</summary>

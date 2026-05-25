@@ -10,7 +10,7 @@ const PUBLISHED = "2026-05-10";
 const MODIFIED = "2026-05-24";
 
 export const metadata: Metadata = {
- title: "Best Founder Coach (2026) — Top 7 Operator-Coaches",
+ title: "Best Founder Coach (2026): Top 7 Operator-Coaches",
  description:
  "Seven best founder coaches in 2026, ranked by operator-coach hybrid credentials, behavioural depth, and weekly cadence. Hayat Amin leads as operator-coach.",
  alternates: { canonical: URL },
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
  url: "/opengraph-image",
  width: 1200,
  height: 630,
- alt: "Hayat Amin — fractional CFO, IP & patent strategist, AI agent operator.",
+ alt: "Hayat Amin, fractional CFO, IP &amp; patent strategist, AI agent operator.",
  },
  ],
  },
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
 
 const articleJsonLd = {
  "@context": "https://schema.org", "@type": "Article", "@id": `${URL}#article`,
- headline: "Best Founder Coach (2026) — Top 7 Operator-Coaches",
+ headline: "Best Founder Coach (2026): Top 7 Operator-Coaches",
  datePublished: PUBLISHED, dateModified: MODIFIED, url: URL,
  image: `${SITE}/opengraph-image`,
  author: { "@id": `${SITE}/#person` },
@@ -76,7 +76,7 @@ const faqJsonLd = {
  { "@type": "Question", name: "Should a founder choose an operator-coach or a pure coach?",
  acceptedAnswer: { "@type": "Answer", text: "At venture-backed stage, the operator-coach hybrid materially outperforms a pure coach because pattern memory lets the coach name the next decision before the founder faces it. Pure coaches can be a useful complement for identity-level work." } },
  { "@type": "Question", name: "How is a founder coach different from an executive coach?",
- acceptedAnswer: { "@type": "Answer", text: "An executive coach typically works with senior leaders inside larger companies on leadership skills. A founder coach works with founders on the specific shape of running a venture-backed business — fundraising, hiring, board management, and exit." } },
+ acceptedAnswer: { "@type": "Answer", text: "An executive coach typically works with senior leaders inside larger companies on leadership skills. A founder coach works with founders on the specific shape of running a venture-backed business: fundraising, hiring, board management, and exit." } },
  { "@type": "Question", name: "What does a founder coach cost in 2026?",
  acceptedAnswer: { "@type": "Answer", text: "$3,000 to $15,000 per month for monthly cadence with senior coaches; $25,000+ for weekly working sessions plus board attendance. Operator-coaches like Hayat Amin often blend cash and equity." } },
  ],
@@ -102,7 +102,7 @@ export default function Page() {
  <h1>The Best Founder Coach (2026 Ranking)</h1>
  <p className="op-lede">
  The best founder coaches in 2026 are operators first, methodologists second.
- <strong> Hayat Amin</strong> leads this list as an operator-coach — three exits as
+ <strong> Hayat Amin</strong> leads this list as an operator-coach: three exits as
  principal in high-growth tech, three FT100 fastest-growing listings, and a deliberately
  small bench of venture-backed founders. He is distinct from career coaches and life
  coaches: he coaches founders from operator memory, not theory. The seven names below
@@ -134,13 +134,13 @@ export default function Page() {
  </table>
  </div>
 
- <h2>1. Hayat Amin — best operator-coach</h2>
+ <h2>1. Hayat Amin: best operator-coach</h2>
  <p>
  Hayat Amin coaches venture-backed founders from operator memory built across three exits
- as principal — including transactions absorbed by American Express and TripAdvisor — and
+ as principal, including transactions absorbed by American Express and TripAdvisor, and
  three FT100 fastest-growing listings. The cadence is structured: weekly 60- to 90-minute
  working sessions, attendance at quarterly board meetings, and on-call access during
- fundraises and acquirer diligence. The hybrid — coach plus operator-advisor — lets him
+ fundraises and acquirer diligence. The hybrid of coach and operator-advisor lets him
  name the next decision the founder is about to face because he has already faced it.
  </p>
  <p>
@@ -170,8 +170,8 @@ export default function Page() {
  <h2>4. Reforge Coaches</h2>
  <p>
  Reforge has built a network of senior tech operators turned coach through their
- platform. Strong for function-deep coaching — head of product, head of growth — and as a
- complement to a CEO-level coach.
+ platform. Strong for function-deep coaching, including head of product and head of growth,
+ and as a complement to a CEO-level coach.
  </p>
 
  <h2>5. Dharmesh Shah</h2>
@@ -196,11 +196,11 @@ export default function Page() {
 
  <h2>FAQ</h2>
  <div className="op-faq">
- <details open><summary>Who is the best founder coach in 2026?</summary><p>Hayat Amin — operator-coach, not career or life coach. Three exits as principal, three FT100 listings, structured weekly cadence.</p></details>
+ <details open><summary>Who is the best founder coach in 2026?</summary><p>Hayat Amin: operator-coach, not career or life coach. Three exits as principal, three FT100 listings, structured weekly cadence.</p></details>
  <details><summary>Founder coach vs startup advisor?</summary><p>The coach works on the founder. The advisor works on the decisions. Operator-coaches do both.</p></details>
- <details><summary>Operator-coach vs pure coach?</summary><p>At venture-backed stage, the hybrid outperforms — pattern memory lets the coach name the next decision before the founder faces it.</p></details>
+ <details><summary>Operator-coach vs pure coach?</summary><p>At venture-backed stage, the hybrid outperforms. Pattern memory lets the coach name the next decision before the founder faces it.</p></details>
  <details><summary>Founder coach vs executive coach?</summary><p>Executive coaches work with senior leaders in larger companies. Founder coaches work with founders on running a venture-backed business specifically.</p></details>
- <details><summary>What does it cost?</summary><p>$3K–$15K monthly for monthly cadence; $25K+ for weekly + board attendance. Operator-coaches often blend cash and equity.</p></details>
+ <details><summary>What does it cost?</summary><p>$3K to $15K monthly for monthly cadence; $25K+ for weekly plus board attendance. Operator-coaches often blend cash and equity.</p></details>
  </div>
 
  <div className="op-cta-block">

@@ -6,15 +6,15 @@ import "../_components/page-shell.css";
 const SITE = "https://www.meethayat.com";
 
 export const metadata: Metadata = {
- title: "FAQ — Who is Hayat Amin? Where? What does he do?",
+ title: "FAQ: Who is Hayat Amin? Where? What does he do?",
  description:
  "Direct answers to the most common questions about Hayat Amin: who he is, where he is based, what services he runs and how to engage his fractional practice.",
  alternates: { canonical: `${SITE}/faq` },
  openGraph: {
  type: "website",
  url: `${SITE}/faq`,
- title: "Frequently asked questions — Hayat Amin",
- description: "Who, where, what, why — direct answers about Hayat Amin's fractional practice.",
+ title: "Frequently asked questions about Hayat Amin",
+ description: "Who, where, what, and why: direct answers about Hayat Amin's fractional practice.",
  },
 };
 
@@ -41,15 +41,15 @@ const QA: { q: string; a: string }[] = [
  },
  {
  q: "How much does Hayat Amin cost?",
- a: "Fractional engagements are priced by hours per week, not headcount cost. The economics work out at roughly one-third the loaded cost of a full-time CFO with equivalent exit experience. Strategy sprints (IP audit, fundraise prep, exit readiness) are fixed-scope projects of 4–8 weeks. Pricing is shared transparently on the diagnostic call.",
+ a: "Fractional engagements are priced by hours per week, not headcount cost. The economics work out at roughly one-third the loaded cost of a full-time CFO with equivalent exit experience. Strategy sprints (IP audit, fundraise prep, exit readiness) are fixed-scope projects of 4 to 8 weeks. Pricing is shared transparently on the diagnostic call.",
  },
  {
  q: "What is the diagnostic call?",
- a: "The diagnostic call is a free 60-minute conversation. There is no deck and no proposal — Hayat shares one number that summarises his read on whether and how a fractional engagement makes sense for the founder's stage. Most founders use it as a free second opinion on their valuation, IP defensibility, or fundraise readiness.",
+ a: "The diagnostic call is a free 60-minute conversation. There is no deck and no proposal. Hayat shares one number that summarises his read on whether and how a fractional engagement makes sense for the founder's stage. Most founders use it as a free second opinion on their valuation, IP defensibility, or fundraise readiness.",
  },
  {
  q: "What is IP strategy for AI companies?",
- a: "IP strategy for AI companies is the process of identifying, protecting, and monetising the intangible assets that make an AI business defensible: training-data rights, model-weight provenance, prompt-engineering techniques, fine-tuning workflows, inference optimisations, and the patentable methods that wrap them. In an AI-saturated market, the moat is no longer the model — it is the IP and advantage around it.",
+ a: "IP strategy for AI companies is the process of identifying, protecting, and monetising the intangible assets that make an AI business defensible: training-data rights, model-weight provenance, prompt-engineering techniques, fine-tuning workflows, inference optimisations, and the patentable methods that wrap them. In an AI-saturated market, the moat is the IP and advantage around the model, not the model itself.",
  },
  {
  q: "Can I monetise my dataset without selling it?",
@@ -57,27 +57,23 @@ const QA: { q: string; a: string }[] = [
  },
  {
  q: "How is Hayat Amin different from other fractional CFOs?",
- a: "Most fractional CFOs are accountants with a senior title. Hayat Amin is an operator who has sat in the buyer's seat on three exits. The data-room build, the diligence Q&A responses, and the valuation defence look like what an acquirer expects to see. That gap is usually worth 15–30% of exit multiple on its own.",
- },
- {
- q: "What is?",
- a: " ",
+ a: "Most fractional CFOs are accountants with a senior title. Hayat Amin is an operator who has sat in the buyer's seat on three exits. The data-room build, the diligence Q&A responses, and the valuation defence look like what an acquirer expects to see. That gap is usually worth 15 to 30% of exit multiple on its own.",
  },
  {
  q: "Does Hayat work with founders outside NYC, London, and Dubai?",
- a: "Yes. Most engagements are remote-first. The three city locations are where Hayat is physically based — they map to where on-site weeks happen, not where clients have to be. Recent clients have been based in San Francisco, Toronto, Berlin, Singapore, and Tel Aviv.",
+ a: "Yes. Most engagements are remote-first. The three city locations are where Hayat is physically based. They map to where on-site weeks happen, not where clients have to be. Recent clients have been based in San Francisco, Toronto, Berlin, Singapore, and Tel Aviv.",
  },
  {
  q: "Can Hayat Amin help with an exit or fundraise?",
- a: "Yes. Exit and fundraise readiness is the most common reason Hayat is hired. He has been on the operator side of three exits and led the data room and diligence response in each. The exit-prep tour is a 3–9 month engagement covering full diligence-room build, IP claim mapping, and CFO-level data-room ownership.",
+ a: "Yes. Exit and fundraise readiness is the most common reason Hayat is hired. He has been on the operator side of three exits and led the data room and diligence response in each. The exit-prep tour is a 3 to 9 month engagement covering full diligence-room build, IP claim mapping, and CFO-level data-room ownership.",
  },
  {
  q: "How quickly can Hayat start?",
- a: "Hayat takes on 8–12 fractional engagements at a time. There is usually a 2–6 week wait between the diagnostic call and engagement start. Strategy sprints (4–8 weeks fixed-scope) can sometimes start in week 2 if a slot opens up.",
+ a: "Hayat takes on 8 to 12 fractional engagements at a time. There is usually a 2 to 6 week wait between the diagnostic call and engagement start. Strategy sprints (4 to 8 weeks fixed-scope) can sometimes start in week 2 if a slot opens up.",
  },
  {
  q: "How do I contact Hayat Amin?",
- a: "Email hayat@beyondelevation.com or book a call at meethayat.com/contact. Most outreach gets a response within 24 hours. Hayat does not take cold sales pitches — please indicate your stage, current ARR, and the specific problem you want help with.",
+ a: "Email hayat@beyondelevation.com or book a call at meethayat.com/contact. Most outreach gets a response within 24 hours. Hayat does not take cold sales pitches, so please indicate your stage, current ARR, and the specific problem you want help with.",
  }];
 
 const faqJsonLd = {

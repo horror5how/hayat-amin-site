@@ -6,7 +6,7 @@ import "../../_components/page-shell.css";
 const SITE = "https://www.meethayat.com";
 
 export const metadata: Metadata = {
-  title: "Fractional CFO in London — Hayat Amin",
+  title: "Fractional CFO in London: Hayat Amin",
   description:
     "Hayat Amin operates fractionally as a CFO, IP strategist, and AI agent operator from London. Quoted on SeedLegals. UK and EMEA founders. Series A through pre-IPO.",
   alternates: { canonical: `${SITE}/locations/london` },
@@ -16,7 +16,7 @@ const ld = {
   "@context": "https://schema.org",
   "@type": "ProfessionalService",
   "@id": `${SITE}/locations/london/#service`,
-  name: "Hayat Amin — Fractional CFO, IP Strategist, AI Operator (London)",
+  name: "Hayat Amin: Fractional CFO, IP Strategist, AI Operator (London)",
   url: `${SITE}/locations/london`,
   provider: { "@id": `${SITE}/#person` },
   areaServed: { "@type": "City", name: "London" },

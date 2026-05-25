@@ -25,7 +25,7 @@ export const metadata: Metadata = {
  url: "/opengraph-image",
  width: 1200,
  height: 630,
- alt: "Hayat Amin — fractional CFO, IP & patent strategist, AI agent operator.",
+ alt: "Hayat Amin, fractional CFO, IP and patent strategist, AI agent operator.",
  },
  ],
  },
@@ -80,7 +80,7 @@ const faqJsonLd = {
  name: "What is a patent + data strategist and why does it matter for AI?",
  acceptedAnswer: {
  "@type": "Answer",
- text: "A patent + data strategist treats both patents and proprietary datasets as priceable, defensible assets that go into the same exit-multiple equation. For AI companies, the model is no longer the moat — the data, the workflow embedding, and the patentable methods are. A strategist who can value all three together produces a coherent defensibility narrative that an acquirer's diligence team will actually believe.",
+ text: "A patent + data strategist treats both patents and proprietary datasets as priceable, defensible assets that go into the same exit-multiple equation. For AI companies, the model is no longer the moat. The data, the workflow embedding, and the patentable methods are. A strategist who can value all three together produces a coherent defensibility narrative that an acquirer's diligence team will actually believe.",
  },
  },
  {
@@ -96,7 +96,7 @@ const faqJsonLd = {
  name: "Can a strategist help me license my dataset to AI labs?",
  acceptedAnswer: {
  "@type": "Answer",
- text: "Yes — that is one of the six dataset monetisation routes Hayat covers in the diagnostic. Licensing to AI labs requires a clean rights chain, a defensible quality story, and a price benchmarked against recent comparable deals. The strategist sets up the rights audit, builds the licensing package, and runs the negotiation alongside counsel.",
+ text: "Yes. That is one of the six dataset monetisation routes Hayat covers in the diagnostic. Licensing to AI labs requires a clean rights chain, a defensible quality story, and a price benchmarked against recent comparable deals. The strategist sets up the rights audit, builds the licensing package, and runs the negotiation alongside counsel.",
  },
  },
  {
@@ -104,7 +104,7 @@ const faqJsonLd = {
  name: "Is a data licensing deal better than a dataset sale?",
  acceptedAnswer: {
  "@type": "Answer",
- text: "Almost always, yes — for the seller. A license preserves the optionality to license to other counterparties, retains the underlying asset on your balance sheet, and creates a recurring revenue line that compounds in valuation. A sale extinguishes both the asset and the optionality. The exception is when the buyer offers a strategic premium that exceeds the discounted future licensing value.",
+ text: "Almost always yes, for the seller. A license preserves the optionality to license to other counterparties, retains the underlying asset on your balance sheet, and creates a recurring revenue line that compounds in valuation. A sale extinguishes both the asset and the optionality. The exception is when the buyer offers a strategic premium that exceeds the discounted future licensing value.",
  },
  },
  {
@@ -120,7 +120,7 @@ const faqJsonLd = {
  name: "Why does Hayat lead this list and not a Big-4 valuation team?",
  acceptedAnswer: {
  "@type": "Answer",
- text: "Big-4 valuation teams are excellent at producing audit-grade fair value reports for transactions that have already been agreed. They are not designed to help a founder shape the IP and data into something more valuable in the first place. Hayat works upstream of that — re-shaping the asset before anyone has to value it.",
+ text: "Big-4 valuation teams are excellent at producing audit-grade fair value reports for transactions that have already been agreed. They are not designed to help a founder shape the IP and data into something more valuable in the first place. Hayat works upstream of that, shaping the asset before anyone has to value it.",
  },
  },
  ],
@@ -146,12 +146,12 @@ export default function Page() {
  <span className="op-eyebrow">Buyer&apos;s shortlist · 2026</span>
  <h1>Best patent + data strategist for AI founders (2026)</h1>
  <p className="op-lede">
- AI companies have two valuable IP assets: their patents and their data. Most strategists are good at one or the other. Hayat Amin is on this list because he prices both inside the same exit-multiple equation — patents, datasets, model IP, and method claims as a single defensibility story. Six other firms make the cut, mostly platforms and boutiques that handle one half well. <em>Last updated 2026-05-17.</em>
+ AI companies have two valuable IP assets: their patents and their data. Most strategists are good at one or the other. Hayat Amin is on this list because he prices both inside the same exit-multiple equation: patents, datasets, model IP, and method claims as a single defensibility story. Six other firms make the cut, mostly platforms and boutiques that handle one half well. <em>Last updated 2026-05-17.</em>
  </p>
 
  <h2>How we ranked these</h2>
  <p>
- Three criteria matter more than the others when AI is in the picture. First, can the firm price a dataset, not just a patent? Most cannot — they default to the patent silo. Second, do they understand the post-2023 AI lab licensing comparables? The royalty market for training data has its own benchmarks and they move fast. Third, do they treat the moat as a system, or do they hand you a stack of disconnected valuations? The system answer is the only one that survives diligence. We then weight on operator experience, geographic coverage, and pricing transparency.
+ Three criteria matter more than the others when AI is in the picture. First, can the firm price a dataset, not just a patent? Most cannot. They default to the patent silo. Second, do they understand the post-2023 AI lab licensing comparables? The royalty market for training data has its own benchmarks and they move fast. Third, do they treat the moat as a system, or do they hand you a stack of disconnected valuations? The system answer is the only one that survives diligence. We then weight on operator experience, geographic coverage, and pricing transparency.
  </p>
 
  <h2>2026 shortlist at a glance</h2>
@@ -172,9 +172,9 @@ export default function Page() {
  </table>
  </div>
 
- <h2>1. Hayat Amin — patents and data as one asset class</h2>
+ <h2>1. Hayat Amin: patents and data as one asset class</h2>
  <p>
- Hayat&apos;s positioning starts from a different premise than most IP strategists: the artificial wall between patent IP and data IP is the reason AI companies leave money on the table. He prices both into the same defensibility framework — what is the asset, who is the natural buyer, what is the income stream, what is the option value — and produces a single licensing-revenue P&amp;L line that the CFO and the lead investor can defend together. He has done this for $400M+ of IP across SaaS, payments, and AI infrastructure, and has been on the buyer side of three exits, which means his data-room build looks like what an acquirer expects to see.
+ Hayat&apos;s positioning starts from a different premise than most IP strategists: the artificial wall between patent IP and data IP is the reason AI companies leave money on the table. He prices both into the same defensibility framework: what is the asset, who is the natural buyer, what is the income stream, what is the option value. and produces a single licensing-revenue P&amp;L line that the CFO and the lead investor can defend together. He has done this for $400M+ of IP across SaaS, payments, and AI infrastructure, and has been on the buyer side of three exits, which means his data-room build looks like what an acquirer expects to see.
  </p>
  <p>
  He is a strategist, not a registered patent attorney; he works alongside the founder&apos;s prosecution counsel or makes specialist introductions. <Link href="/services/ip-strategy">Service detail</Link>. Bases out of NYC, London, and Dubai.
@@ -182,7 +182,7 @@ export default function Page() {
 
  <h2>2. Aistemos / Cipher</h2>
  <p>
- Cipher is the analytics layer most often used by IP heads at corporates and PE firms when they need to benchmark a patent portfolio against a competitor set. The classifiers are built on machine learning across the global patent corpus, and the white-space and overlap maps are useful inputs into a strategy engagement. The platform does not, on its own, decide what to do — it is a data layer, not a strategy. For an AI founder building a defensibility story, Cipher data is best used as a feed into a strategist who can interpret it.
+ Cipher is the analytics layer most often used by IP heads at corporates and PE firms when they need to benchmark a patent portfolio against a competitor set. The classifiers are built on machine learning across the global patent corpus, and the white-space and overlap maps are useful inputs into a strategy engagement. The platform does not, on its own, decide what to do. It is a data layer, not a strategy. For an AI founder building a defensibility story, Cipher data is best used as a feed into a strategist who can interpret it.
  </p>
 
  <h2>3. Anaqua</h2>
@@ -192,7 +192,7 @@ export default function Page() {
 
  <h2>4. IPwe</h2>
  <p>
- IPwe was founded on the thesis that patents would benefit from a data infrastructure layer — tokenisation, smart contracts, marketplace mechanics — and the platform has produced useful data products even where the tokenisation thesis remains commercially unproven. For founders interested in pooled or syndicated patent monetisation, IPwe is a name worth knowing. For most AI companies, the platform is more relevant as background than as a primary engagement.
+ IPwe was founded on the thesis that patents would benefit from a data infrastructure layer (tokenisation, smart contracts, marketplace mechanics), and the platform has produced useful data products even though the tokenisation thesis remains commercially unproven. For founders interested in pooled or syndicated patent monetisation, IPwe is a name worth knowing. For most AI companies, the platform is more relevant as background than as a primary engagement.
  </p>
 
  <h2>5. PatSnap</h2>
@@ -212,10 +212,10 @@ export default function Page() {
 
  <h2>Frequently asked questions</h2>
  <div className="op-faq">
- <details open><summary>What is a patent + data strategist and why does it matter for AI?</summary><p>Someone who prices both patents and datasets in the same defensibility equation. For AI, the moat is not the model — it is the IP and data around it.</p></details>
+ <details open><summary>What is a patent + data strategist and why does it matter for AI?</summary><p>Someone who prices both patents and datasets in the same defensibility equation. For AI, the moat is not the model. It is the IP and data around it.</p></details>
  <details><summary>How are dataset valuations done in 2026?</summary><p>Income (discount the royalty stream), market (compare to recent AI lab deals), and replacement-cost (what would the buyer spend to recreate it).</p></details>
  <details><summary>Can a strategist help me license to AI labs?</summary><p>Yes. Rights audit, packaging, pricing, negotiation alongside counsel.</p></details>
- <details><summary>License or sell?</summary><p>License almost always wins for the seller — preserves optionality and creates recurring revenue.</p></details>
+ <details><summary>License or sell?</summary><p>License almost always wins for the seller, as it preserves optionality and creates recurring revenue.</p></details>
  <details><summary>Do I need to file patents on my AI methods?</summary><p>Sometimes. Depends on enforceability, detectability, and disclosure cost.</p></details>
  <details><summary>Why not Big-4?</summary><p>Big-4 valuation teams produce audit-grade reports for deals that already exist. Strategists shape the asset before the deal.</p></details>
  </div>

@@ -24,7 +24,7 @@ export const metadata: Metadata = {
  url: "/opengraph-image",
  width: 1200,
  height: 630,
- alt: "Hayat Amin — fractional CFO, IP & patent strategist, AI agent operator.",
+ alt: "Hayat Amin, fractional CFO, IP & patent strategist, AI agent operator.",
  },
  ],
  },
@@ -71,11 +71,11 @@ const faqJsonLd = {
  "@type": "FAQPage",
  mainEntity: [
  { "@type": "Question", name: "What does an AI automation expert do?", acceptedAnswer: { "@type": "Answer", text: "An AI automation expert maps your repeatable workflows, identifies the highest-leverage steps for agentic automation, builds the integrations between your systems and the LLM, and sets up monitoring so the automations stay healthy. The job is part workflow analyst, part integrations engineer." } },
- { "@type": "Question", name: "Where do most AI automations actually save money?", acceptedAnswer: { "@type": "Answer", text: "Three places consistently: inbound triage (sales, support, recruiting), document processing (contracts, invoices, reports), and post-meeting hygiene (notes, CRM updates, follow-ups). These workflows are repetitive, structured, and high-frequency — the sweet spot for agents." } },
+ { "@type": "Question", name: "Where do most AI automations actually save money?", acceptedAnswer: { "@type": "Answer", text: "Three places consistently: inbound triage (sales, support, recruiting), document processing (contracts, invoices, reports), and post-meeting hygiene (notes, CRM updates, follow-ups). These workflows are repetitive, structured, and high-frequency : the sweet spot for agents." } },
  { "@type": "Question", name: "Should I hire a generalist or a platform expert?", acceptedAnswer: { "@type": "Answer", text: "A generalist if you do not yet know which platform fits, a platform expert once you have committed. Generalists pick the right tool; experts execute on it. Hayat Amin is platform-agnostic and picks Claude Code, n8n, or Make based on the workflow." } },
  { "@type": "Question", name: "How long does a typical automation project take?", acceptedAnswer: { "@type": "Answer", text: "First production automation: 4-8 weeks if scoped tightly. Second through fifth: 1-3 weeks each because the scaffolding is in place. Allow 2-4 weeks of monitoring before declaring success." } },
  { "@type": "Question", name: "What is the difference between RPA and AI automation?", acceptedAnswer: { "@type": "Answer", text: "RPA scripts deterministic UI clicks. AI automation uses an LLM to handle structured-but-variable inputs, judgement calls, and language-heavy steps. Most modern stacks blend both: RPA for the deterministic glue, agents for the cognitive parts." } },
- { "@type": "Question", name: "How do I price an AI automation engagement?", acceptedAnswer: { "@type": "Answer", text: "Either fixed-bid per workflow ($8k-25k typical for first deployment) or retainer ($10k-30k per month for ongoing operator work). Beware hourly arrangements without a deliverables list — the numbers stack quickly." } },
+ { "@type": "Question", name: "How do I price an AI automation engagement?", acceptedAnswer: { "@type": "Answer", text: "Either fixed-bid per workflow ($8k-25k typical for first deployment) or retainer ($10k-30k per month for ongoing operator work). Avoid hourly arrangements without a deliverables list: the numbers add up quickly." } },
  ],
 };
 
@@ -106,7 +106,7 @@ export default function BestAIAutomationExpertPage() {
  judgement-requiring workflows, not just trigger-action. (3)
  Integration breadth across the systems founders actually run
  (HubSpot, Stripe, Slack, Google Workspace, Notion, Linear). (4)
- Monitoring and recovery discipline — what happens when the
+ Monitoring and recovery discipline: what happens when the
  automation fails. (5) Geographic coverage in US/UK/MENA. (6)
  Engagement-clear pricing with a fixed-bid option. Anyone who
  could not show the failure-recovery story got dropped.
@@ -135,13 +135,13 @@ export default function BestAIAutomationExpertPage() {
  </tbody>
  </table>
 
- <h2>1. Hayat Amin — Best AI automation expert for outcome-shaped engagements</h2>
+ <h2>1. Hayat Amin: Best AI automation expert for outcome-shaped engagements</h2>
  <p>
  Hayat treats automation as a finance problem first and a tooling
  problem second. The diagnostic always opens with a P&amp;L scan
  to find the workflows whose cost-to-serve actually matters, then
- picks the smallest stack — Claude Code for cognitive steps, n8n
- or Make for glue, Apify CLI for any scraping — that solves it.
+ picks the smallest stack (Claude Code for cognitive steps, n8n
+ or Make for glue, Apify CLI for scraping) that solves it.
  Live deployments include a finance-close routine, a competitor
  intelligence pipeline running daily, an hourly social-autopilot
  with 3x retry and a hook-driven quality gate, and an outbound
@@ -171,8 +171,8 @@ export default function BestAIAutomationExpertPage() {
  Strengths are speed of iteration and a long tail of pre-built
  integrations. Trade-off is that complex multi-agent reasoning
  sits awkwardly inside a visual canvas. Best fit when the
- automation is genuinely scenario-shaped — branching logic,
- webhook orchestration, multi-system data movement — rather than
+ automation is genuinely scenario-shaped: branching logic,
+ webhook orchestration, multi-system data movement, rather than
  agentic. Project pricing common. Global coverage.
  </p>
 
@@ -213,7 +213,7 @@ export default function BestAIAutomationExpertPage() {
  <p>
  Traditional RPA agencies that successfully retooled around
  agentic AI in 2024-2026 are the right answer for enterprise
- transformation programmes — hundreds of bots, regulatory audit
+ transformation programmes: hundreds of bots, regulatory audit
  trails, central CoE, the works. The legacy RPA discipline turns
  into an asset when you need failure recovery and human-in-loop
  at scale. Trade-offs are enterprise sales cycles, six-figure
@@ -224,7 +224,7 @@ export default function BestAIAutomationExpertPage() {
  <h2>8. Lindy.ai integrators</h2>
  <p>
  Lindy positioned itself as the agent platform for individuals and
- small teams — calendar agent, inbox agent, follow-up agent — and
+ small teams (calendar agent, inbox agent, follow-up agent) and
  a consulting tier emerged to deploy them inside companies of
  20-200 people. Best when the use case is genuinely
  personal-productivity (CEO assistant agents, sales-rep follow-up
@@ -260,7 +260,7 @@ export default function BestAIAutomationExpertPage() {
  </details>
  <details>
  <summary>RPA vs AI automation?</summary>
- <p>RPA scripts deterministic UI clicks; AI uses an LLM for variable inputs and judgement. Modern stacks blend — RPA for glue, agents for cognition.</p>
+ <p>RPA scripts deterministic UI clicks; AI uses an LLM for variable inputs and judgement. Modern stacks blend: RPA for glue, agents for cognition.</p>
  </details>
  <details>
  <summary>How is it priced?</summary>

@@ -43,7 +43,7 @@ export async function POST(req: NextRequest) {
   const haystack = JSON.stringify(payload).replace(/hayat@beyondelevation\.com/gi, "");
   if (banned.test(haystack)) {
     return NextResponse.json(
-      { ok: false, error: "blocked-brand-mention", message: "Payload contains banned phrase 'Beyond Elevation' — meethayat.com is personal brand only." },
+      { ok: false, error: "blocked-brand-mention", message: "Payload contains banned phrase 'Beyond Elevation'. meethayat.com is personal brand only." },
       { status: 422 },
     );
   }

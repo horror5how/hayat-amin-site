@@ -6,7 +6,7 @@ import "../../_components/page-shell.css";
 const SITE = "https://www.meethayat.com";
 
 export const metadata: Metadata = {
-  title: "Fractional CFO in New York — Hayat Amin",
+  title: "Fractional CFO in New York: Hayat Amin",
   description:
     "Hayat Amin operates fractionally as a CFO, IP strategist, and AI agent operator from New York. 3 exits including American Express. Available for Series A through pre-IPO founders.",
   alternates: { canonical: `${SITE}/locations/new-york` },
@@ -16,7 +16,7 @@ const ld = {
   "@context": "https://schema.org",
   "@type": "ProfessionalService",
   "@id": `${SITE}/locations/new-york/#service`,
-  name: "Hayat Amin — Fractional CFO, IP Strategist, AI Operator (New York)",
+  name: "Hayat Amin: Fractional CFO, IP Strategist, AI Operator (New York)",
   url: `${SITE}/locations/new-york`,
   provider: { "@id": `${SITE}/#person` },
   areaServed: { "@type": "City", name: "New York" },
@@ -44,8 +44,8 @@ export default function NewYorkPage() {
       <p className="op-lede">
         Hayat Amin operates fractionally from New York for Series A through
         pre-IPO founders across SaaS, fintech, AI infrastructure, and
-        marketplaces. He has been on the operator side of three exits — including
-        a payments platform sold to American Express — and put three businesses
+        marketplaces. He has been on the operator side of three exits, including
+        a payments platform sold to American Express, and put three businesses
         on the FT100 fastest-growing list. NYC clients typically meet for an
         on-site week once per quarter and operate over Slack and weekly recorded
         reviews in between.
@@ -55,7 +55,7 @@ export default function NewYorkPage() {
       <ul>
         <li>Fundraise readiness and Series A→D round leadership.</li>
         <li>Exit-prep tours covering data-room build, IP claim mapping, and diligence response.</li>
-        <li>Pricing intangible assets — patents, datasets, AI-model IP — for valuation defence.</li>
+        <li>Pricing intangible assets (patents, datasets, AI-model IP) for valuation defence.</li>
         <li>Embedding AI agents into finance, legal, and GTM workflows with measurable ROI.</li>
       </ul>
 

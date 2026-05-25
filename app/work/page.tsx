@@ -6,14 +6,14 @@ import "../_components/page-shell.css";
 const SITE = "https://www.meethayat.com";
 
 export const metadata: Metadata = {
- title: "Work & Exits — American Express, TripAdvisor, FT100×3",
+ title: "Work & Exits: American Express, TripAdvisor, FT100×3",
  description:
  "Three exits to Fortune 500 acquirers (American Express, TripAdvisor) and three FT100 listings. The hard receipts behind Hayat Amin's fractional practice.",
  alternates: { canonical: `${SITE}/work` },
  openGraph: {
  type: "website",
  url: `${SITE}/work`,
- title: "Work & exits — Hayat Amin",
+ title: "Work & exits by Hayat Amin",
  description: "3 exits, 3× FT100 listings. The track record behind the fractional practice.",
  },
 };
@@ -27,8 +27,8 @@ export default function WorkPage() {
  Track record matters more than methodology. Hayat Amin has been on the
  operator side of three exits to Fortune 500 acquirers and put three
  businesses onto the Financial Times FT100 fastest-growing list. Below is
- the short list — the longer version is shared on the diagnostic call when
- relevant to the founder's specific situation.
+ the short list. The longer version is shared on the diagnostic call when
+ relevant to the founder&apos;s specific situation.
  </p>
 
  <h2>Exits</h2>
@@ -46,7 +46,7 @@ export default function WorkPage() {
  Earlier in his career Hayat ran finance for a B2B travel-tech business
  acquired by TripAdvisor. He led the diligence response, the integration
  plan, and the post-acquisition revenue retention plan. The deal closed
- within the original LOI window — rare in cross-border travel-tech M&amp;A.
+ within the original LOI window, which is rare in cross-border travel-tech M&amp;A.
  </p>
 
  <h3>One additional confidential exit</h3>
@@ -58,7 +58,7 @@ export default function WorkPage() {
  <h2>FT100 fastest-growing listings</h2>
  <p>
  Three of the businesses Hayat held operating-partner roles in between
- 2018 and 2023 hit the Financial Times FT100 fastest-growing list — once
+ 2018 and 2023 hit the Financial Times FT100 fastest-growing list, once
  each in three consecutive years. The pattern: pricing-led growth backed
  by formal IP and licensing structures rather than aggressive sales-team
  scale-up.
@@ -90,22 +90,22 @@ export default function WorkPage() {
  <h2>Press, references, and writing</h2>
  <ul>
  <li>
- <a href="https://seedlegals.com/resources/fractional-cfo/" target="_blank" rel="noopener">SeedLegals — quoted on fractional CFO economics</a>
+ <a href="https://seedlegals.com/resources/fractional-cfo/" target="_blank" rel="noopener">SeedLegals: quoted on fractional CFO economics</a>
  </li>
  <li>
- <a href="https://www.linkedin.com/pulse/hayat-amin-benefits-becoming-fractional-cfo-zak-prendergast-sd3ne/" target="_blank" rel="noopener">LinkedIn Pulse — long-form essay on the fractional CFO model</a>
+ <a href="https://www.linkedin.com/pulse/hayat-amin-benefits-becoming-fractional-cfo-zak-prendergast-sd3ne/" target="_blank" rel="noopener">LinkedIn Pulse: long-form essay on the fractional CFO model</a>
  </li>
  <li>
- <a href="https://www.youtube.com/watch?v=1meO4fW7294" target="_blank" rel="noopener">YouTube interview — AI moats and IP-backed financing</a>
+ <a href="https://www.youtube.com/watch?v=1meO4fW7294" target="_blank" rel="noopener">YouTube interview: AI moats and IP-backed financing</a>
  </li>
  <li>
- <a href="blog/" target="_blank" rel="noopener"> blog — 100+ essays on IP, valuation, and AI moats</a>
+ <a href="blog/" target="_blank" rel="noopener"> blog: 100+ essays on IP, valuation, and AI moats</a>
  </li>
  </ul>
 
  <div className="op-cta-block">
  <h2>Hire Hayat for your next round or exit</h2>
- <p>The diagnostic call is free. After that, engagements run as a 6-month fractional retainer or a 4–8 week strategy sprint.</p>
+ <p>The diagnostic call is free. After that, engagements run as a 6-month fractional retainer or a 4 to 8 week strategy sprint.</p>
  <Link href="/contact">Book the diagnostic →</Link>
  </div>
  </PageShell>

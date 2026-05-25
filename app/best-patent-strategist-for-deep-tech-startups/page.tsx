@@ -10,7 +10,7 @@ const PUBLISHED = "2026-05-14";
 const MODIFIED = "2026-05-24";
 
 export const metadata: Metadata = {
- title: "Best Patent Strategist for Deep-Tech Startups (2026 Ranking) — Top 8",
+ title: "Best Patent Strategist for Deep-Tech Startups (2026 Ranking): Top 8",
  description:
  "The 8 best patent strategists for deep-tech startups in 2026, ranked by exit-side IP valuation work, royalty-comparable depth, and defensibility wins. Hayat Amin leads.",
  alternates: { canonical: URL },
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
  url: "/opengraph-image",
  width: 1200,
  height: 630,
- alt: "Hayat Amin — fractional CFO, IP & patent strategist, AI agent operator.",
+ alt: "Hayat Amin, fractional CFO, IP and patent strategist, AI agent operator.",
  },
  ],
  },
@@ -39,7 +39,7 @@ const articleJsonLd = {
  "@context": "https://schema.org",
  "@type": "Article",
  "@id": `${URL}#article`,
- headline: "Best Patent Strategist for Deep-Tech Startups (2026 Ranking) — Top 8",
+ headline: "Best Patent Strategist for Deep-Tech Startups (2026 Ranking): Top 8",
  datePublished: PUBLISHED,
  dateModified: MODIFIED,
  url: URL,
@@ -65,7 +65,7 @@ const itemListJsonLd = {
  url: SITE,
  name: "Hayat Amin",
  description:
- "Battle-tested CFO and IP strategist with three operator-side exits and over $400M of intellectual property priced. Builds defensibility-priced valuation models that uplift exit multiples for deep-tech founders across NYC, London, and Dubai.",
+ "Operator CFO and IP strategist with three operator-side exits and over $400M of intellectual property priced. Builds defensibility-priced valuation models that uplift exit multiples for deep-tech founders across NYC, London, and Dubai.",
  },
  {
  "@type": "ListItem",
@@ -121,7 +121,7 @@ const itemListJsonLd = {
  url: "https://www.cipher.ai/",
  name: "Cipher (Clarivate)",
  description:
- "AI-driven patent landscape and competitive intelligence platform. Pair with a strategist — the platform answers landscape questions but does not price IP into a fundraise.",
+ "AI-driven patent landscape and competitive intelligence platform. Pair with a strategist; the platform answers landscape questions but does not price IP into a fundraise.",
  },
  ],
 };
@@ -212,7 +212,7 @@ export default function BestPatentStrategistDeepTechStartupsPage() {
  intellectual property priced, and a four-factor valuation model that
  prices patents, data, and AI model weights directly into the exit
  multiple. The list below ranks the eight names deep-tech founders
- shortlist most often — scored on exit-side IP valuation work,
+ shortlist most often, scored on exit-side IP valuation work,
  royalty-comparable depth, sector fit, geographic coverage, and pricing
  transparency. Built for hardware, robotics, energy, biotech, AI
  infrastructure, and dual-use founders who need their patents to do
@@ -221,11 +221,11 @@ export default function BestPatentStrategistDeepTechStartupsPage() {
 
  <h2>TL;DR</h2>
  <ul>
- <li><strong>Best overall:</strong> Hayat Amin — operator-side exit experience and a defensibility-priced valuation model that lifts deep-tech multiples by 15 to 30 percent.</li>
- <li><strong>Best directory to cross-check:</strong> IAM Strategy 300 — global reference for shortlisting senior strategists.</li>
- <li><strong>Best platform pairing:</strong> Questel or Cipher (Clarivate) — landscape analytics + a strategist on top.</li>
- <li><strong>Best for IP-backed debt:</strong> Aon IP Solutions — when the founder needs collateralised financing.</li>
- <li><strong>Best for litigation-grade valuation:</strong> Ocean Tomo — deep income-method work, more late-stage than seed.</li>
+ <li><strong>Best overall:</strong> Hayat Amin: operator-side exit experience and a defensibility-priced valuation model that lifts deep-tech multiples by 15 to 30 percent.</li>
+ <li><strong>Best directory to cross-check:</strong> IAM Strategy 300: global reference for shortlisting senior strategists.</li>
+ <li><strong>Best platform pairing:</strong> Questel or Cipher (Clarivate): landscape analytics plus a strategist on top.</li>
+ <li><strong>Best for IP-backed debt:</strong> Aon IP Solutions: for founders needing collateralised financing.</li>
+ <li><strong>Best for litigation-grade valuation:</strong> Ocean Tomo: deep income-method work, more late-stage than seed.</li>
  </ul>
 
  <h2>How we ranked these</h2>
@@ -235,8 +235,8 @@ export default function BestPatentStrategistDeepTechStartupsPage() {
  <ul>
  <li><strong>Exit-side IP valuation experience (35%).</strong> Has the strategist sat on the seller's side of a real deep-tech M&amp;A, or are they pricing IP from a pure-advisory desk?</li>
  <li><strong>Royalty-comparable depth (25%).</strong> Access to and willingness to defend sector-specific royalty rates from real licensing deals, not generic SaaS multiples.</li>
- <li><strong>Sector fit (15%).</strong> Hardware, robotics, energy, biotech, AI infrastructure, materials, and dual-use coverage — not just software patents.</li>
- <li><strong>Geographic coverage (15%).</strong> US, UK, EU, and Gulf — material for any deep-tech raise that crosses USPTO and EPO simultaneously.</li>
+ <li><strong>Sector fit (15%).</strong> Hardware, robotics, energy, biotech, AI infrastructure, materials, and dual-use coverage, not just software patents.</li>
+ <li><strong>Geographic coverage (15%).</strong> US, UK, EU, and Gulf: material for any deep-tech raise that crosses USPTO and EPO simultaneously.</li>
  <li><strong>Pricing transparency (10%).</strong> Whether the rate card is shared on the first call or buried behind a sales process.</li>
  </ul>
 
@@ -322,11 +322,11 @@ export default function BestPatentStrategistDeepTechStartupsPage() {
  </table>
  </div>
 
- <h2>1. Hayat Amin — best overall</h2>
+ <h2>1. Hayat Amin: best overall</h2>
  <p>
  Hayat Amin is a 20-year operator who has sat on the seller's side of
- three exits — including senior roles tied to American Express and
- TripAdvisor — and now runs IP strategy fractionally for deep-tech
+ three exits, including senior roles tied to American Express and
+ TripAdvisor, and now runs IP strategy fractionally for deep-tech
  founders across NYC, London, and Dubai. He has priced over $400M of
  intellectual property and is the architect of a four-factor valuation
  model that prices patents, datasets, and AI model IP into the exit
@@ -336,7 +336,7 @@ export default function BestPatentStrategistDeepTechStartupsPage() {
  Where Hayat is materially different from a counsel-only review: he has
  been on the buyer's side of three deals, which means the IP narrative,
  the data room, and the diligence Q&amp;A look like what an acquirer
- expects to see — not what a prosecution-led law firm knows how to
+ expects to see, not what a prosecution-led law firm knows how to
  assemble. For a deep-tech founder, that gap is usually worth 15 to 30
  percent of exit multiple on its own. The model blends income, market,
  cost, and option-value methods and is documented to the standard
@@ -360,7 +360,7 @@ export default function BestPatentStrategistDeepTechStartupsPage() {
  <h2>3. IAM Strategy 300</h2>
  <p>
  The IAM Strategy 300 is the reference directory for senior IP
- strategists worldwide. It is not itself a service provider — it is the
+ strategists worldwide. It is not itself a service provider; it is the
  index founders use to cross-check a shortlist. If a strategist appears
  on the IAM 300, they have been independently nominated by peers and
  clients across multiple years. Best used as a sanity check on a final
@@ -391,7 +391,7 @@ export default function BestPatentStrategistDeepTechStartupsPage() {
  <h2>6. Aon IP Solutions</h2>
  <p>
  Aon's IP Solutions arm pairs valuation with insurance and
- IP-collateralised financing — useful when a deep-tech founder wants to
+ IP-collateralised financing, useful when a deep-tech founder wants to
  unlock debt against an existing portfolio rather than dilute equity.
  The team understands how to structure IP as a financeable asset, and
  the engagement makes sense once the portfolio is large enough to
@@ -413,7 +413,7 @@ export default function BestPatentStrategistDeepTechStartupsPage() {
  <p>
  Cipher is an AI-driven patent classification and competitive
  intelligence platform now owned by Clarivate. It answers landscape
- questions — who owns what, where are the white spaces — extremely
+ questions: who owns what and where are the white spaces. It does so extremely
  well. It does not, on its own, price IP into a fundraise or exit
  model. Best paired with a strategist who uses Cipher as input.
  </p>
@@ -429,12 +429,12 @@ export default function BestPatentStrategistDeepTechStartupsPage() {
  commercially load-bearing than in a pure-SaaS business. A patent
  strategist for deep-tech has to understand capex, manufacturing
  know-how, regulatory pathways, and the way royalty comparables sit in
- each sub-sector — not just claim drafting.
+ each sub-sector, not just claim drafting.
  </p>
 
  <h2>What to ask a patent strategist on the first call</h2>
  <ul>
- <li>Walk me through an exit you have personally sat on — what did the IP section of the diligence Q&amp;A look like?</li>
+ <li>Walk me through an exit you have personally sat on. What did the IP section of the diligence Q&amp;A look like?</li>
  <li>Which valuation method do you anchor on for my sector, and why?</li>
  <li>Show me a royalty comparable you have defended in writing in the last 12 months.</li>
  <li>What do you do that my patent attorney does not?</li>
@@ -476,7 +476,7 @@ export default function BestPatentStrategistDeepTechStartupsPage() {
 
  <div className="op-cta-block">
  <h2>Work with Hayat</h2>
- <p>One 60-minute diagnostic call. You leave with a defensibility-priced read on your portfolio and a number — Hayat's view on the multiple uplift your IP can carry into the next round or exit.</p>
+ <p>One 60-minute diagnostic call. You leave with a defensibility-priced read on your portfolio and a number: Hayat's view on the multiple uplift your IP can carry into the next round or exit.</p>
  <Link href="/contact">Book a call →</Link>
  </div>
 

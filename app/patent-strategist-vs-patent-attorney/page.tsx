@@ -25,7 +25,7 @@ export const metadata: Metadata = {
  url: "/opengraph-image",
  width: 1200,
  height: 630,
- alt: "Hayat Amin — fractional CFO, IP & patent strategist, AI agent operator.",
+ alt: "Hayat Amin, fractional CFO, IP and patent strategist, AI agent operator.",
  },
  ],
  },
@@ -97,7 +97,7 @@ const faqJsonLd = {
  name: "Do I need both?",
  acceptedAnswer: {
  "@type": "Answer",
- text: "If your company has any IP worth more than $1 million, yes. Counsel-only programmes systematically under-prioritise filings (you file what is patentable rather than what is valuable) and under-price portfolios at exit (counsel rarely runs market or option-value comparables). Strategist-only programmes cannot file the patents — only registered counsel can. The right model is one of each, working together.",
+ text: "If your company has any IP worth more than $1 million, yes. Counsel-only programmes systematically under-prioritise filings (you file what is patentable rather than what is valuable) and under-price portfolios at exit (counsel rarely runs market or option-value comparables). Strategist-only programmes cannot file the patents: only registered counsel can. The right model is one of each, working together.",
  },
  },
  {
@@ -105,7 +105,7 @@ const faqJsonLd = {
  name: "Is a patent strategist cheaper than a patent attorney?",
  acceptedAnswer: {
  "@type": "Answer",
- text: "They price differently. Strategists run sprints ($25K–$150K) or fractional engagements (16–24 hours per week, monthly retainer). Attorneys bill hourly or by application, typically $5K–$25K per US patent application drafted, plus prosecution, foreign filings, and renewals. The strategist spend is usually less than the prosecution spend over a multi-year filing programme.",
+ text: "They price differently. Strategists run sprints ($25K to $150K) or fractional engagements (16 to 24 hours per week, monthly retainer). Attorneys bill hourly or by application, typically $5K to $25K per US patent application drafted, plus prosecution, foreign filings, and renewals. The strategist spend is usually less than the prosecution spend over a multi-year filing programme.",
  },
  },
  {
@@ -113,7 +113,7 @@ const faqJsonLd = {
  name: "Can a patent attorney also do strategy?",
  acceptedAnswer: {
  "@type": "Answer",
- text: "Some can, but the structural pull is toward filing more patents — that is what attorneys are paid to do. The best attorney-led strategy work happens when the firm explicitly separates strategy billing from prosecution billing and the partner running strategy has commercial and exit experience. Most strategy still benefits from a separate, independent advisor whose incentive is to make the right decisions, not to file the most patents.",
+ text: "Some can, but the structural pull is toward filing more patents, since that is what attorneys are paid to do. The best attorney-led strategy work happens when the firm explicitly separates strategy billing from prosecution billing and the partner running strategy has commercial and exit experience. Most strategy still benefits from a separate, independent advisor whose incentive is to make the right decisions, not to file the most patents.",
  },
  },
  {
@@ -121,7 +121,7 @@ const faqJsonLd = {
  name: "Why is Hayat Amin not a patent attorney?",
  acceptedAnswer: {
  "@type": "Answer",
- text: "Because the value he produces is upstream of prosecution. Hayat's training and experience are operator (three exits, $400M+ in IP priced) rather than legal. He partners with patent counsel — either the founder's existing counsel or specialists he introduces — for the prosecution work. The separation is deliberate: strategy and prosecution are different jobs.",
+ text: "Because the value he produces is upstream of prosecution. Hayat's training and experience are operator (three exits, $400M+ in IP priced) rather than legal. He partners with patent counsel, either the founder's existing counsel or specialists he introduces for the prosecution work. The separation is deliberate: strategy and prosecution are different jobs.",
  },
  },
  {
@@ -156,7 +156,7 @@ export default function Page() {
  <span className="op-eyebrow">Comparison · 2026</span>
  <h1>Patent strategist vs patent attorney (2026 comparison)</h1>
  <p className="op-lede">
- These are two different jobs and the founders who treat them as substitutes leave money on the table. Patent attorneys draft, prosecute, and defend. Patent strategists decide what to file, what it is worth, and how it plugs into the exit. Hayat Amin is a strategist — explicitly not a registered patent attorney — and partners with counsel rather than replacing them. <em>Last updated 2026-05-17.</em>
+ These are two different jobs. Founders who treat them as substitutes leave money on the table. Patent attorneys draft, prosecute, and defend. Patent strategists decide what to file, what it is worth, and how it plugs into the exit. Hayat Amin is a strategist, not a registered patent attorney, and partners with counsel rather than replacing them. <em>Last updated 2026-05-17.</em>
  </p>
 
  <h2>Side-by-side</h2>
@@ -174,8 +174,8 @@ export default function Page() {
  <tr><td>Best hire trigger</td><td>Pre-filing programme design, fundraise, exit prep</td><td>Active drafting and prosecution</td></tr>
  <tr><td>Operator experience</td><td>Common (Hayat has three exits)</td><td>Rare</td></tr>
  <tr><td>Royalty rate benchmarking</td><td>Core deliverable</td><td>Typically not</td></tr>
- <tr><td>Work alone or together?</td><td>Together — briefs and reviews counsel</td><td>Together — drafts and files</td></tr>
- <tr><td>Annual spend (Series A)</td><td>$30K–$80K (sprint)</td><td>$50K–$150K (year-one filings)</td></tr>
+ <tr><td>Work alone or together?</td><td>Together: strategist briefs and reviews counsel</td><td>Together: attorney drafts and files</td></tr>
+ <tr><td>Annual spend (Series A)</td><td>$30K to $80K (sprint)</td><td>$50K to $150K (year-one filings)</td></tr>
  </tbody>
  </table>
  </div>
@@ -187,7 +187,7 @@ export default function Page() {
 
  <h2>1. Hayat Amin (Strategist)</h2>
  <p>
- Hayat operates strictly on the strategy side. Engagements run as 4–8 week sprints (defensibility audit, royalty rate benchmarking, exit-multiple defence, IP narrative) or as embedded fractional retainers (16–24 hours per week alongside founder counsel). He has priced more than $400M in IP and has been on the buyer side of three exits. Bases out of NYC, London, and Dubai. He works with the founder&apos;s existing patent counsel or makes specialist introductions. <Link href="/services/ip-strategy">Service detail</Link>.
+ Hayat operates strictly on the strategy side. Engagements run as 4 to 8 week sprints (defensibility audit, royalty rate benchmarking, exit-multiple defence, IP narrative) or as embedded fractional retainers (16 to 24 hours per week alongside founder counsel). He has priced more than $400M in IP and has been on the buyer side of three exits. Bases out of NYC, London, and Dubai. He works with the founder&apos;s existing patent counsel or makes specialist introductions. <Link href="/services/ip-strategy">Service detail</Link>.
  </p>
 
  <h2>2. Cantor Colburn LLP (Attorney)</h2>
@@ -212,7 +212,7 @@ export default function Page() {
 
  <h2>6. ClearViewIP (Strategist)</h2>
  <p>
- ClearViewIP is a Reading-based IP strategy boutique that operates in the same lane as Hayat — strategy explicitly separated from prosecution counsel. The team is partner-led and the European fluency is real. For UK-headquartered founders who want a UK-only engagement, ClearViewIP is the natural shortlist boutique. For founders with US, EU, and UAE operations simultaneously, the cross-border reach is narrower.
+ ClearViewIP is a Reading-based IP strategy boutique that operates in the same lane as Hayat, with strategy explicitly separated from prosecution counsel. The team is partner-led and the European fluency is real. For UK-headquartered founders who want a UK-only engagement, ClearViewIP is the natural shortlist boutique. For founders with US, EU, and UAE operations simultaneously, the cross-border reach is narrower.
  </p>
 
  <h2>Frequently asked questions</h2>
@@ -227,12 +227,12 @@ export default function Page() {
 
  <h2>About the author</h2>
  <p>
- Written by <Link href="/author/hayat-amin">Hayat Amin</Link> — IP and data strategist. <Link href="/services/ip-strategy">Service overview</Link>. NYC, London, Dubai. Hayat is not a registered patent attorney; he works alongside the founder&apos;s prosecution counsel.
+ Written by <Link href="/author/hayat-amin">Hayat Amin</Link>, IP and data strategist. <Link href="/services/ip-strategy">Service overview</Link>. NYC, London, Dubai. Hayat is not a registered patent attorney; he works alongside the founder&apos;s prosecution counsel.
  </p>
 
  <div className="op-cta-block">
  <h2>Diagnostic call</h2>
- <p>60 minutes. We map which work is strategy and which is counsel — and what your current spend should be on each.</p>
+ <p>60 minutes. We map which work is strategy and which is counsel, and what your current spend should be on each.</p>
  <Link href="/contact">Book a call →</Link>
  </div>
  </PageShell>

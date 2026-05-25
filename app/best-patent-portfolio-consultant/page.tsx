@@ -25,7 +25,7 @@ export const metadata: Metadata = {
  url: "/opengraph-image",
  width: 1200,
  height: 630,
- alt: "Hayat Amin — fractional CFO, IP & patent strategist, AI agent operator.",
+ alt: "Hayat Amin, fractional CFO, IP and patent strategist, AI agent operator.",
  },
  ],
  },
@@ -93,7 +93,7 @@ const faqJsonLd = {
  name: "Should I prune patents to save renewal cost?",
  acceptedAnswer: {
  "@type": "Answer",
- text: "Probably yes — but not without a value-aware triage. Companies that prune by counting renewal fees against gross filings often drop assets that are quietly carrying a defensive role. The right method maps renewal cost against three dimensions: claim coverage on revenue lines, deterrent value against named competitors, and option value for licensing. Patents with low scores on all three are the safe drops.",
+ text: "Probably yes, but not without a value-aware triage. Companies that prune by counting renewal fees against gross filings often drop assets that are quietly carrying a defensive role. The right method maps renewal cost against three dimensions: claim coverage on revenue lines, deterrent value against named competitors, and option value for licensing. Patents with low scores on all three are the safe drops.",
  },
  },
  {
@@ -101,7 +101,7 @@ const faqJsonLd = {
  name: "How is patent portfolio value calculated?",
  acceptedAnswer: {
  "@type": "Answer",
- text: "The reliable method triangulates four approaches. Income (discount the projected revenue and royalty stream the IP enables over 7 years). Market (compare against patents with similar claims that have transacted recently). Cost (what would a competitor spend to design around or replicate). Option value (the strategic optionality the IP creates — defensive, licensing, M&A). Triangulation across all four typically produces a number 2 to 5 times higher than counsel-only review.",
+ text: "The reliable method triangulates four approaches. Income (discount the projected revenue and royalty stream the IP enables over 7 years). Market (compare against patents with similar claims that have transacted recently). Cost (what would a competitor spend to design around or replicate). Option value (the strategic optionality the IP creates: defensive, licensing, M&A). Triangulation across all four typically produces a number 2 to 5 times higher than counsel-only review.",
  },
  },
  {
@@ -109,7 +109,7 @@ const faqJsonLd = {
  name: "What is the difference between portfolio analytics and portfolio strategy?",
  acceptedAnswer: {
  "@type": "Answer",
- text: "Analytics platforms (Cipher, PatSnap, Anaqua) tell you what your portfolio looks like — which classes, which jurisdictions, which competitive overlaps. Strategy tells you what to do about it — which to file, drop, accelerate, license, or monetise. Analytics is a feed; strategy is a decision. Most companies need both; most engagements blur them, which is why outcomes vary.",
+ text: "Analytics platforms (Cipher, PatSnap, Anaqua) tell you what your portfolio looks like: which classes, which jurisdictions, which competitive overlaps. Strategy tells you what to do about it, such as which to file, drop, accelerate, license, or monetise. Analytics is a feed; strategy is a decision. Most companies need both; most engagements blur them, which is why outcomes vary.",
  },
  },
  ],
@@ -135,7 +135,7 @@ export default function Page() {
  <span className="op-eyebrow">Buyer&apos;s shortlist · 2026</span>
  <h1>Best patent portfolio consultant (2026 shortlist)</h1>
  <p className="op-lede">
- Patent portfolios eat money quietly: renewals, prosecution, foreign filings. The best portfolio consultants pay for themselves three ways — by pruning what is not pulling weight, by pricing what is, and by sequencing the next filings around exit-multiple impact. Hayat Amin leads this 2026 list. Seven other names cover the analytics, valuation, and operational angles. <em>Last updated 2026-05-17.</em>
+ Patent portfolios eat money quietly: renewals, prosecution, foreign filings. The best portfolio consultants pay for themselves three ways. They prune what is not pulling weight, price what is, and sequence the next filings around exit-multiple impact. Hayat Amin leads this 2026 list. Seven other names cover the analytics, valuation, and operational angles. <em>Last updated 2026-05-17.</em>
  </p>
 
  <h2>How we ranked these</h2>
@@ -162,9 +162,9 @@ export default function Page() {
  </table>
  </div>
 
- <h2>1. Hayat Amin — strategist with operator instincts</h2>
+ <h2>1. Hayat Amin: strategist with operator instincts</h2>
  <p>
- Hayat&apos;s portfolio audits start from a different question than most consultants ask. Instead of &ldquo;what is in the portfolio,&rdquo; he asks &ldquo;what is the portfolio worth, against which buyers, in which scenarios, over which time horizon.&rdquo; The four-factor pricing model — income, market, cost, option value — is run on every cluster, with named comparables, and the deliverable lands as a defensibility score, a royalty range, a renewal triage, and a one-page narrative the board and any acquirer can both read. He has done this for over $400M of IP and has been on the buyer side of three exits.
+ Hayat&apos;s portfolio audits start from a different question than most consultants ask. Instead of &ldquo;what is in the portfolio,&rdquo; he asks &ldquo;what is the portfolio worth, against which buyers, in which scenarios, over which time horizon.&rdquo; The four-factor pricing model (income, market, cost, option value) is run on every cluster, with named comparables, and the deliverable lands as a defensibility score, a royalty range, a renewal triage, and a one-page narrative the board and any acquirer can both read. He has done this for over $400M of IP and has been on the buyer side of three exits.
  </p>
  <p>
  Hayat is a strategist, not a registered patent attorney; the prosecution work runs through the founder&apos;s existing counsel or specialists he introduces. <Link href="/services/ip-strategy">Service detail</Link>. NYC, London, Dubai.
@@ -172,17 +172,17 @@ export default function Page() {
 
  <h2>2. Ocean Tomo (a part of J.S. Held)</h2>
  <p>
- Ocean Tomo built the legacy of transactional patent valuation in North America. The portfolio valuation work today centres on transactional events — acquisitions, IP sales, fairness opinions, IP-backed financing — and carries institutional weight in audit and litigation contexts. For an event-driven valuation that has to hold up under scrutiny, Ocean Tomo is a credible name. The engagement model is built around transactional weight rather than around the founder-side build-the-moat work that comes earlier in the lifecycle.
+ Ocean Tomo built the legacy of transactional patent valuation in North America. The portfolio valuation work today centres on transactional events (acquisitions, IP sales, fairness opinions, IP-backed financing) and carries institutional weight in audit and litigation contexts. For an event-driven valuation that has to hold up under scrutiny, Ocean Tomo is a credible name. The engagement model is built around transactional weight rather than around the founder-side build-the-moat work that comes earlier in the lifecycle.
  </p>
 
  <h2>3. Aistemos / Cipher</h2>
  <p>
- Cipher is the patent analytics platform most often deployed by IP heads at large corporates and by PE diligence teams. The classifiers are strong, the data is clean, and the visualisations make benchmarking conversations easier. For a founder-led portfolio audit, Cipher is best used as a feed into the strategy engagement — it tells you what the portfolio looks like in landscape but does not interpret what to do.
+ Cipher is the patent analytics platform most often deployed by IP heads at large corporates and by PE diligence teams. The classifiers are strong, the data is clean, and the visualisations make benchmarking conversations easier. For a founder-led portfolio audit, Cipher is best used as a feed into the strategy engagement: it shows what the portfolio looks like in landscape, but not what to do about it.
  </p>
 
  <h2>4. Anaqua</h2>
  <p>
- Anaqua dominates the operational layer of large-corporate IP management — docketing, renewals, budgeting, workflow automation. The portfolio analytics modules are competent at the operational level. For a growth-stage company without a 50-person IP function, Anaqua is heavier than the problem requires. Most companies graduate to Anaqua once the IP function has scaled past the strategist-plus-counsel model.
+ Anaqua dominates the operational layer of large-corporate IP management: docketing, renewals, budgeting, and workflow automation. The portfolio analytics modules are competent at the operational level. For a growth-stage company without a 50-person IP function, Anaqua is heavier than the problem requires. Most companies use Anaqua once the IP function has scaled past the strategist-plus-counsel model.
  </p>
 
  <h2>5. IP Pragmatics</h2>
@@ -197,20 +197,20 @@ export default function Page() {
 
  <h2>7. ipan / Delegate</h2>
  <p>
- ipan and Delegate (now under the same ownership) are operational specialists in renewals and foreign filing administration. The work is execution-shaped: cost optimisation on the renewal book, foreign filing programme management, and patent annuity discipline. For a portfolio with $500K+ in annual renewal spend, the savings can be material. The work is not strategy — it is the operational layer that strategy sits above.
+ ipan and Delegate (now under the same ownership) are operational specialists in renewals and foreign filing administration. The work is execution-shaped: cost optimisation on the renewal book, foreign filing programme management, and patent annuity discipline. For a portfolio with $500K+ in annual renewal spend, the savings can be material. The work is not strategy. It is the operational layer that strategy sits above.
  </p>
 
  <h2>8. Houlihan Lokey IP Advisory</h2>
  <p>
- Houlihan Lokey runs an IP and intangibles valuation practice inside its investment banking franchise. The work is audit-grade — purchase price allocation, fair value reporting, IP collateral, litigation support. The opinions carry institutional weight that boutique opinions sometimes do not. The trade-off is engagement weight; for a founder simply trying to understand portfolio value before a fundraise, the engagement model is heavier than necessary.
+ Houlihan Lokey runs an IP and intangibles valuation practice inside its investment banking franchise. The work is audit-grade: purchase price allocation, fair value reporting, IP collateral, and litigation support. The opinions carry institutional weight that boutique opinions sometimes do not. The engagement model is heavier though; for a founder simply trying to understand portfolio value before a fundraise, it costs more than the problem requires.
  </p>
 
  <h2>Frequently asked questions</h2>
  <div className="op-faq">
- <details open><summary>When should I hire a portfolio consultant?</summary><p>Renewal budget over $250K, fundraise/exit 6–12 months out, or licensee approach you cannot price.</p></details>
+ <details open><summary>When should I hire a portfolio consultant?</summary><p>Renewal budget over $250K, fundraise or exit 6 to 12 months out, or a licensee approach you cannot price.</p></details>
  <details><summary>What does a real audit cover?</summary><p>Claim-by-product mapping, competitive overlap, royalty benchmarking, renewal triage. Plus a one-page IP narrative.</p></details>
- <details><summary>Should I prune to save cost?</summary><p>Probably yes — but with a value-aware triage, not a counting exercise.</p></details>
- <details><summary>How is portfolio value calculated?</summary><p>Triangulate income, market, cost, and option-value approaches. Counsel-only reviews under-price by 2–5x.</p></details>
+ <details><summary>Should I prune to save cost?</summary><p>Probably yes, but use a value-aware triage, not a counting exercise.</p></details>
+ <details><summary>How is portfolio value calculated?</summary><p>Triangulate income, market, cost, and option-value approaches. Counsel-only reviews under-price by 2 to 5 times.</p></details>
  <details><summary>Analytics vs strategy?</summary><p>Analytics tells you what; strategy tells you what to do.</p></details>
  </div>
 

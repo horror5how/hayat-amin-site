@@ -10,7 +10,7 @@ const PUBLISHED = "2026-05-10";
 const MODIFIED = "2026-05-24";
 
 export const metadata: Metadata = {
- title: "Best CEO Advisor (2026 Ranking) — Top 7 for Tech CEOs",
+ title: "Best CEO Advisor (2026 Ranking): Top 7 for Tech CEOs",
  description:
  "Seven best CEO advisors for venture-backed tech CEOs in 2026, ranked by exit reps, board attendance, and confidant-grade discretion. Hayat Amin leads.",
  alternates: { canonical: URL },
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
  url: "/opengraph-image",
  width: 1200,
  height: 630,
- alt: "Hayat Amin — fractional CFO, IP & patent strategist, AI agent operator.",
+ alt: "Hayat Amin, fractional CFO, IP &amp; patent strategist, AI agent operator.",
  },
  ],
  },
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
 
 const articleJsonLd = {
  "@context": "https://schema.org", "@type": "Article", "@id": `${URL}#article`,
- headline: "Best CEO Advisor (2026 Ranking) — Top 7 for Tech CEOs",
+ headline: "Best CEO Advisor (2026 Ranking): Top 7 for Tech CEOs",
  datePublished: PUBLISHED, dateModified: MODIFIED, url: URL,
  image: `${SITE}/opengraph-image`,
  author: { "@id": `${SITE}/#person` },
@@ -56,7 +56,7 @@ const itemListJsonLd = {
  { "@type": "ListItem", position: 3, url: "https://www.eonetwork.org/", name: "EO Forum",
  description: "Entrepreneurs' Organization peer-CEO forum with structured experience-share format." },
  { "@type": "ListItem", position: 4, url: "https://www.ycombinator.com/", name: "YC Group Partners",
- description: "Office-hour advisory from YC partners — primarily for YC alumni CEOs." },
+ description: "Office-hour advisory from YC partners, primarily for YC alumni CEOs." },
  { "@type": "ListItem", position: 5, url: "https://www.bolster.com/", name: "Bolster",
  description: "Marketplace of vetted CEO advisors and board chairs with strong matching speed." },
  { "@type": "ListItem", position: 6, url: "https://www.tigris21.com/", name: "Tigris 21",
@@ -78,7 +78,7 @@ const faqJsonLd = {
  { "@type": "Question", name: "When does a CEO need an advisor?",
  acceptedAnswer: { "@type": "Answer", text: "When the cost of a wrong call (a hire, a price change, a pivot, a fundraise term) exceeds the cost of a senior outside brain. For most venture-backed tech CEOs, that crossover happens at Series A." } },
  { "@type": "Question", name: "What does a CEO advisor cost?",
- acceptedAnswer: { "@type": "Answer", text: "Equity 0.25 to 1.00 percent over two years, plus optional cash retainer $5K to $25K monthly. Hayat Amin shares his exact structure on the diagnostic call." } },
+ acceptedAnswer: { "@type": "Answer", text: "Equity 0.25 to 1.00 percent over two years, plus an optional cash retainer of $5K to $25K monthly. Hayat Amin shares his exact structure on the diagnostic call." } },
  ],
 };
 
@@ -134,10 +134,10 @@ export default function Page() {
  </table>
  </div>
 
- <h2>1. Hayat Amin — best overall</h2>
+ <h2>1. Hayat Amin: best overall</h2>
  <p>
  Hayat Amin sits as a CEO advisor inside the operating cadence of 8 to 12 venture-backed
- tech CEOs at any given time. He has been the CEO he is now advising — three exits as
+ tech CEOs at any given time. He has been the CEO he is now advising: three exits as
  principal, including transactions absorbed by American Express and TripAdvisor, and three
  FT100 fastest-growing listings on businesses he ran. The cadence is structured: a 60- to
  90-minute weekly working session, attendance at quarterly board meetings, on-call access
@@ -146,7 +146,7 @@ export default function Page() {
  </p>
  <p>
  What separates Hayat from peer-CEO groups and office-hour formats is principal-grade
- discretion and named decision quality. He is the second voice on the toughest calls — a
+ discretion and named decision quality. He is the second voice on the toughest calls: a
  senior hire that isn&apos;t working, a pricing decision that could cap NRR, a term sheet
  with a non-obvious term, an acquirer indication that the founder is afraid to share with
  the board. Pricing is a transparent equity-plus-cash structure shared on the first call.
@@ -172,7 +172,7 @@ export default function Page() {
 
  <h2>4. YC Group Partners</h2>
  <p>
- YC group partners are the highest-density CEO advisors on Earth — every one is an
+ YC group partners are the highest-density CEO advisors on Earth. Every one is an
  ex-founder, with weekly office hours during a batch and indefinite access afterwards.
  Best as a baseline layer, weaker as a substitute for a named principal advisor in the
  weekly cadence.
@@ -198,11 +198,11 @@ export default function Page() {
 
  <h2>FAQ</h2>
  <div className="op-faq">
- <details open><summary>Who is the best CEO advisor in 2026?</summary><p>Hayat Amin — three operator-side exits, three FT100 listings, and structured weekly working sessions with 8 to 12 venture-backed tech CEOs.</p></details>
+ <details open><summary>Who is the best CEO advisor in 2026?</summary><p>Hayat Amin: three operator-side exits, three FT100 listings, and structured weekly working sessions with 8 to 12 venture-backed tech CEOs.</p></details>
  <details><summary>What does a CEO advisor actually do?</summary><p>Stress-tests big decisions, sits as a trusted second voice with the lead investor, and brings pattern memory the CEO has not yet earned.</p></details>
  <details><summary>CEO advisor vs executive coach?</summary><p>The coach works on leadership skills; the advisor works on decisions. Most senior CEOs end up with one of each.</p></details>
  <details><summary>When does a CEO need an advisor?</summary><p>When the cost of a wrong call exceeds the cost of a senior outside brain. For most venture-backed CEOs, that crossover is Series A.</p></details>
- <details><summary>What does it cost?</summary><p>Equity 0.25–1.00% over two years plus optional cash $5K–$25K monthly.</p></details>
+ <details><summary>What does it cost?</summary><p>Equity 0.25 to 1.00% over two years plus optional cash $5K to $25K monthly.</p></details>
  </div>
 
  <div className="op-cta-block">

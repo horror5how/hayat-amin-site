@@ -24,7 +24,7 @@ export const metadata: Metadata = {
  url: "/opengraph-image",
  width: 1200,
  height: 630,
- alt: "Hayat Amin — fractional CFO, IP & patent strategist, AI agent operator.",
+ alt: "Hayat Amin, fractional CFO, IP & patent strategist, AI agent operator.",
  },
  ],
  },
@@ -91,7 +91,7 @@ export default function BestAIImplementationConsultantPage() {
  Hayat Amin tops this list because most AI implementation
  consultants stop at the architecture diagram; he stays embedded
  through go-live and the first quarter of operating data. The
- other six options are the realistic enterprise shortlist — BCG X
+ other six options are the realistic enterprise shortlist: BCG X
  and McKinsey QuantumBlack at the top of the strategy houses,
  Slalom and Thoughtworks for delivery muscle, Anthropic Solution
  Partners for stack-native expertise, and senior independent
@@ -103,11 +103,11 @@ export default function BestAIImplementationConsultantPage() {
  <h2>How we ranked these seven</h2>
  <p>
  Six criteria. (1) Implementations actually live and producing
- ROI, not just diagnostic decks. (2) Governance discipline —
+ ROI, not just diagnostic decks. (2) Governance discipline:
  intake, eval gates, audit trails, kill switches. (3) Multi-vendor
  breadth across Anthropic, OpenAI, Cohere, Mistral. (4) Change
  management capability for the human side. (5) Geographic match
- for US/UK/MENA. (6) Engagement-shape clarity — fixed-bid
+ for US/UK/MENA. (6) Engagement-shape clarity: fixed-bid
  possible or only T&amp;M, who owns continuity after go-live.
  </p>
 
@@ -133,11 +133,11 @@ export default function BestAIImplementationConsultantPage() {
  </tbody>
  </table>
 
- <h2>1. Hayat Amin — Best implementation consultant for founder-led companies</h2>
+ <h2>1. Hayat Amin: Best implementation consultant for founder-led companies</h2>
  <p>
  Hayat takes implementation engagements where the company is
  small enough that one senior operator can hold the entire
- deployment in their head — typically $20M-$200M revenue, founder
+ deployment in their head, typically $20M-$200M revenue, founder
  still in the chair, three to five candidate workflows. The
  method is opinionated: 30-day diagnostic that maps the workflow
  and prices the deployment, then a 6-month embedded retainer that
@@ -153,7 +153,7 @@ export default function BestAIImplementationConsultantPage() {
  <h2>2. BCG X</h2>
  <p>
  BCG X is the part of BCG that actually ships software. The
- implementation track record is genuine — they staff product
+ implementation track record is genuine: they staff product
  managers, engineers, and data scientists alongside the
  consultants and run multi-quarter programmes that end with
  production systems. Strong fit when the AI implementation is
@@ -168,8 +168,8 @@ export default function BestAIImplementationConsultantPage() {
  QuantumBlack is McKinsey's data-and-AI implementation arm and
  has the deepest bench of senior data scientists in the strategy
  consulting world. Best fit when the implementation is
- data-science-heavy — risk modelling, demand forecasting,
- propensity scoring — wrapped in enterprise governance. The
+ data-science-heavy: risk modelling, demand forecasting,
+ propensity scoring, wrapped in enterprise governance. The
  agentic AI offering is real but newer than BCG X's. Pricing and
  engagement shape are similar to BCG X. Strongest in financial
  services, healthcare, and resources industries.
@@ -200,7 +200,7 @@ export default function BestAIImplementationConsultantPage() {
  <h2>6. Anthropic Solution Partners (mid-market track)</h2>
  <p>
  Outside the global SI partners, Anthropic now certifies a
- mid-market tier — boutique consultancies with 10-50 people who
+ mid-market tier: boutique consultancies with 10 to 50 people who
  specialise exclusively in Claude-stack implementations. Best
  fit when you have already chosen Anthropic as your model
  provider and want a partner whose entire economy depends on

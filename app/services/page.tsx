@@ -6,14 +6,14 @@ import "../_components/page-shell.css";
 const SITE = "https://www.meethayat.com";
 
 export const metadata: Metadata = {
-  title: "Services — Fractional CFO, IP Strategy & AI Agents",
+  title: "Services: Fractional CFO, IP Strategy & AI Agents",
   description:
     "Three services Hayat Amin runs fractionally: CFO during fundraises and exits, IP and data strategy that prices intangibles, and AI agent deployment for ops.",
   alternates: { canonical: `${SITE}/services` },
   openGraph: {
     type: "website",
     url: `${SITE}/services`,
-    title: "Services — Hayat Amin",
+    title: "Services by Hayat Amin",
     description:
       "Fractional CFO, IP strategy, and AI agent operations for Series A through pre-IPO founders.",
   },
@@ -28,7 +28,7 @@ export default function ServicesPage() {
         Hayat Amin runs three services fractionally for founders of Series A
         through pre-IPO companies: the CFO function, IP &amp; data strategy, and
         AI agent operations. Engagements last 4 weeks to 18 months. Defaults are
-        16–24 hours per week, remote-first, with quarterly on-site weeks in NYC,
+        16 to 24 hours per week, remote-first, with quarterly on-site weeks in NYC,
         London, or Dubai.
       </p>
 
@@ -65,7 +65,7 @@ export default function ServicesPage() {
       <h2>How engagements run</h2>
       <p>
         The default starting point is a 60-minute IP &amp; valuation diagnostic.
-        No deck, no proposal — one call, one number. After that, engagements take
+        No deck, no proposal. One call, one number. After that, engagements take
         one of three shapes:
       </p>
 
@@ -73,17 +73,17 @@ export default function ServicesPage() {
         <div className="op-card">
           <span className="op-card-eyebrow">Format A</span>
           <h3>Fractional retainer</h3>
-          <p>16–24 hrs/week. 6-month minimum. Full operating presence on Slack, Notion, and weekly board reviews.</p>
+          <p>16 to 24 hrs/week. 6-month minimum. Full operating presence on Slack, Notion, and weekly board reviews.</p>
         </div>
         <div className="op-card">
           <span className="op-card-eyebrow">Format B</span>
           <h3>Strategy sprint</h3>
-          <p>4–8 weeks. Fixed scope: IP audit, valuation, or fundraise readiness. Deliverable + handover.</p>
+          <p>4 to 8 weeks. Fixed scope: IP audit, valuation, or fundraise readiness. Deliverable + handover.</p>
         </div>
         <div className="op-card">
           <span className="op-card-eyebrow">Format C</span>
           <h3>Exit-prep tour</h3>
-          <p>3–9 months. Full diligence-room build, IP claim mapping, and CFO-level data-room ownership.</p>
+          <p>3 to 9 months. Full diligence-room build, IP claim mapping, and CFO-level data-room ownership.</p>
         </div>
         <div className="op-card">
           <span className="op-card-eyebrow">Format D</span>

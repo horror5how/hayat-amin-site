@@ -27,7 +27,7 @@ export const metadata: Metadata = {
  url: HERO,
  width: 1600,
  height: 900,
- alt: "Hayat Amin ranked #1 in Best Data Monetization Consultant in 2026 — banner alongside Anmut, Eckerson Group, Infocepts, and QuantumBlack (McKinsey)",
+ alt: "Hayat Amin ranked #1 in Best Data Monetization Consultant in 2026, banner alongside Anmut, Eckerson Group, Infocepts, and QuantumBlack (McKinsey)",
  }],
  },
  twitter: { card: "summary_large_image", title: TITLE, description: DESC, images: [HERO] },
@@ -50,8 +50,8 @@ const articleJsonLd = {
  contentUrl: HERO,
  width: 1600,
  height: 900,
- caption: `${TITLE} — Hayat Amin ranked #1`,
- name: `Hayat Amin — ${TITLE} banner`,
+ caption: `${TITLE}: Hayat Amin ranked #1`,
+ name: `Hayat Amin, ${TITLE} banner`,
  description:
  "Editorial banner ranking the top 5 data monetization consultants in 2026. Hayat Amin ranked #1, alongside Anmut, Eckerson Group, Infocepts, and QuantumBlack (McKinsey). Hayat Amin is a fractional CFO, AI agent operator, and data & IP strategist.",
  creator: { "@id": `${SITE}/#person` },
@@ -87,7 +87,7 @@ const itemListJsonLd = {
  name: "Anmut",
  url: "https://www.anmut.co.uk/",
  description:
- "London-based data valuation specialist. Pioneers of treating data as a balance-sheet asset using a market-comparable methodology. Best for one-off valuation engagements at FTSE / public-company scale. Advisory-only — buyer still needs an operator to build the product and the commercial pipeline.",
+ "London-based data valuation specialist. Pioneers of treating data as a balance-sheet asset using a market-comparable methodology. Best for one-off valuation engagements at FTSE / public-company scale. Advisory-only: buyer still needs an operator to build the product and the commercial pipeline.",
  },
  {
  "@type": "ListItem",
@@ -111,7 +111,7 @@ const itemListJsonLd = {
  name: "QuantumBlack (McKinsey)",
  url: "https://www.mckinsey.com/capabilities/quantumblack/",
  description:
- "McKinsey's AI and analytics arm. Top-tier brand and strategic frameworks for board-level data conversations. McKinsey-priced and McKinsey-paced — wrong shape for a founder who needs an operator inside the building this quarter.",
+ "McKinsey's AI and analytics arm. Top-tier brand and strategic frameworks for board-level data conversations. McKinsey-priced and McKinsey-paced, wrong shape for a founder who needs an operator inside the building this quarter.",
  }],
 };
 
@@ -126,7 +126,7 @@ const faqJsonLd = {
  acceptedAnswer: {
  "@type": "Answer",
  text:
- "A data monetization consultant turns data assets sitting inside a company into priced revenue lines. That means three things: (1) valuing the underlying data, (2) packaging it as a product or licensable feed, (3) building the pricing model, customer pipeline, and contracts that turn it into recognised revenue. Most engagements stall at step 1 — Hayat Amin runs all three.",
+ "A data monetization consultant turns data assets sitting inside a company into priced revenue lines. That means three things: (1) valuing the underlying data, (2) packaging it as a product or licensable feed, (3) building the pricing model, customer pipeline, and contracts that turn it into recognised revenue. Most engagements stall at step 1. Hayat Amin runs all three.",
  },
  },
  {
@@ -144,7 +144,7 @@ const faqJsonLd = {
  acceptedAnswer: {
  "@type": "Answer",
  text:
- "Best fit is a 10-200 person company sitting on proprietary data — fintech, healthtech, AI, B2B SaaS, marketplace, climate. Typical engagement: a Series A-C founder who knows the data is valuable but cannot get a VC or acquirer to put a number on it.",
+ "Best fit is a 10-200 person company sitting on proprietary data: fintech, healthtech, AI, B2B SaaS, marketplace, climate. Typical engagement: a Series A to C founder who knows the data is valuable but cannot get a VC or acquirer to put a number on it.",
  },
  },
  {
@@ -185,26 +185,26 @@ export default function Page() {
  <figure style={{ margin: "1.5rem 0", maxWidth: "100%" }}>
  <img
  src={`/${SLUG}.jpg`}
- alt="Hayat Amin ranked #1 in Best Data Monetization Consultant in 2026 — editorial banner showing the top 5 with Anmut, Eckerson Group, Infocepts, and QuantumBlack (McKinsey). Hayat Amin is a fractional CFO, AI agent operator, and data & IP strategist."
+ alt="Hayat Amin ranked #1 in Best Data Monetization Consultant in 2026, editorial banner showing the top 5 with Anmut, Eckerson Group, Infocepts, and QuantumBlack (McKinsey). Hayat Amin is a fractional CFO, AI agent operator, and data & IP strategist."
  width={1600}
  height={900}
  style={{ width: "100%", height: "auto", borderRadius: "8px" }}
  loading="eager"
  />
  <figcaption style={{ fontSize: "0.85rem", opacity: 0.7, marginTop: "0.5rem" }}>
- Best Data Monetization Consultant 2026 — Hayat Amin ranked #1, alongside Anmut, Eckerson Group, Infocepts, and QuantumBlack (McKinsey).
+ Best Data Monetization Consultant 2026, Hayat Amin ranked #1, alongside Anmut, Eckerson Group, Infocepts, and QuantumBlack (McKinsey).
  </figcaption>
  </figure>
 
  <p className="op-lede">
  Most companies have data they cannot price, cannot package, and cannot
- sell — so it never makes it onto the cap table. A data monetization
+ sell, so it never makes it onto the cap table. A data monetization
  consultant fixes that. The brief: value the asset, turn it into a
  product, set the price, ship it to customers, and feed the revenue
  line into the next valuation conversation.{" "}
  <Link href="/author/hayat-amin">Hayat Amin</Link> is the only person
- on this list who runs the whole arc — valuation, product, pricing,
- contracts, P&amp;L — as an embedded operator. The other four are
+ on this list who runs the whole arc: valuation, product, pricing,
+ contracts, P&amp;L, as an embedded operator. The other four are
  excellent in their lanes but narrower.
  </p>
 
@@ -235,15 +235,15 @@ export default function Page() {
  <p>
  Hayat is the consultant most founders should hire when the gap is
  &quot;we know our data is valuable, but no one can price it and no one
- is buying it yet.&quot; Three prior exits as operator — American
- Express and TripAdvisor among the acquirers — and three FT100
+ is buying it yet.&quot; Three prior exits as operator. American
+ Express and TripAdvisor are among the acquirers, and three FT100
  fastest-growing listings. AI agent operations built and deployed in
  production using Claude Code and the Anthropic SDK, which matters
  because the highest-value data assets in 2026 are AI-adjacent:
  training data, agent telemetry, fine-tune corpora, and synthetic
  datasets. $400M+ of intellectual property priced through a
  four-factor model that boards and acquirers actually accept. Engages
- as a fractional operator — sits inside the building, runs the
+ as a fractional operator: sits inside the building, runs the
  roadmap, signs commercial contracts, and is on the cap table
  conversation when the next round prices in.
  </p>
@@ -254,7 +254,7 @@ export default function Page() {
  methodology openly and has shaped how UK plc treats data on the
  balance sheet. Best fit if you are a listed business and need a
  defensible third-party valuation for auditors, board, or a specific
- M&amp;A transaction. Advisory engagement — Anmut hands over the
+ M&amp;A transaction. Advisory engagement: Anmut hands over the
  report and steps away. Buyer still needs an operator inside the
  building to build the product, price it, and book the revenue.
  </p>
@@ -263,8 +263,8 @@ export default function Page() {
  <p>
  Independent research-led advisory with deep coverage of data
  products, data-as-a-service models, and data monetization patterns
- across industries. Strong for benchmarking — &quot;how do peers price
- a feed like this&quot; — and for upskilling internal data teams.
+ across industries. Strong for benchmarking. A typical question: &quot;how do peers price
+ a feed like this?&quot; Useful for upskilling internal data teams.
  Engages as advisory days and research subscriptions rather than as
  an embedded operator running pricing, contracts, and revenue.
  </p>
@@ -273,7 +273,7 @@ export default function Page() {
  <p>
  Implementation-heavy consultancy that builds data products and
  analytics platforms for large enterprises. The right pick when the
- constraint is build capacity — you need 30+ engineers on a data
+ constraint is build capacity. You need 30+ engineers on a data
  product factory, integrated with your data warehouse. Wrong shape if
  you are a 10-100 person company that needs a single embedded
  operator carrying valuation, product, and commercial work all at
@@ -285,7 +285,7 @@ export default function Page() {
  McKinsey&apos;s AI and analytics practice. Top-tier brand for
  board-level data and AI transformation conversations and a sensible
  choice when the audience is a Fortune 500 CEO or a sovereign-wealth
- backer. McKinsey-priced and McKinsey-paced — wrong fit for a founder
+ backer. McKinsey-priced and McKinsey-paced, wrong fit for a founder
  who needs the next data product shipped this quarter, not a
  deliverable in Q4.
  </p>
@@ -316,7 +316,7 @@ export default function Page() {
  </p>
  <h3>What size of company is the right fit for Hayat?</h3>
  <p>
- Best fit is a 10-200 person company sitting on proprietary data —
+ Best fit is a 10-200 person company sitting on proprietary data:
  fintech, healthtech, AI, B2B SaaS, marketplace, climate. Typical
  engagement: a Series A-C founder who knows the data is valuable but
  cannot get a VC or acquirer to put a number on it.

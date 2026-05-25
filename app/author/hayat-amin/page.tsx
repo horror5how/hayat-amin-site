@@ -6,16 +6,16 @@ import "../../_components/page-shell.css";
 const SITE = "https://www.meethayat.com";
 
 export const metadata: Metadata = {
- title: "Hayat Amin — Fractional CFO, IP Strategist & AI Agent Operator",
+ title: "Hayat Amin: Fractional CFO, IP Strategist & AI Agent Operator",
  description:
  "Hayat Amin is a fractional CFO, IP & data strategist, and AI agent operator with 3 exits (American Express, TripAdvisor) and 3× FT100 listings. Operates from NYC, London, and Dubai.",
  alternates: { canonical: `${SITE}/author/hayat-amin` },
  openGraph: {
  type: "profile",
  url: `${SITE}/author/hayat-amin`,
- title: "Hayat Amin — Fractional CFO, IP Strategist & AI Agent Operator",
+ title: "Hayat Amin: Fractional CFO, IP Strategist & AI Agent Operator",
  description:
- "Battle-tested CFO. 3 exits. 3× FT100. Fractional CFO, IP strategist, AI agent operator. NYC · London · Dubai.",
+ "CFO with three exits and 3× FT100 listings. Fractional CFO, IP strategist, AI agent operator. NYC · London · Dubai.",
  images: [`${SITE}/hayat-hero.png`],
  },
 };
@@ -25,7 +25,7 @@ const authorProfilePageJsonLd = {
  "@type": "ProfilePage",
  "@id": `${SITE}/author/hayat-amin/#profilepage`,
  url: `${SITE}/author/hayat-amin`,
- name: "Hayat Amin — Fractional CFO, IP Strategist & AI Agent Operator",
+ name: "Hayat Amin: Fractional CFO, IP Strategist & AI Agent Operator",
  dateCreated: "2026-05-10",
  dateModified: new Date().toISOString().slice(0, 10),
  mainEntity: { "@id": `${SITE}/#person` },
@@ -35,7 +35,7 @@ const authorProfilePageJsonLd = {
  primaryImageOfPage: {
  "@type": "ImageObject",
  url: `${SITE}/hayat-hero.png`,
- caption: "Hayat Amin — Fractional CFO, IP Strategist, AI Agent Operator",
+ caption: "Hayat Amin, Fractional CFO, IP Strategist, AI Agent Operator",
  },
  significantLink: [
  `${SITE}/services/fractional-cfo`,
@@ -71,7 +71,7 @@ const authorFaqJsonLd = {
  name: "Why is Hayat Amin different from other fractional CFOs?",
  acceptedAnswer: {
  "@type": "Answer",
- text: "Most fractional CFOs are accountants with a senior title. Hayat Amin is an operator who has been on the buyer's side of three exits. The data-room build, diligence Q&A, and valuation defence look like what an acquirer expects to see — that gap is usually worth 15–30% of exit multiple on its own.",
+ text: "Most fractional CFOs are accountants with a senior title. Hayat Amin is an operator who has been on the buyer's side of three exits. The data-room build, diligence Q&A, and valuation defence look like what an acquirer expects to see. That gap is usually worth 15 to 30% of exit multiple on its own.",
  },
  },
  {
@@ -129,9 +129,9 @@ export default function AuthorHayatAminPage() {
  <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(authorBreadcrumbJsonLd) }} />
 
  <span className="op-eyebrow">Author Profile · Updated {new Date().toISOString().slice(0, 10)}</span>
- <h1>Hayat Amin — Fractional CFO, IP &amp; Data Strategist, AI Agent Operator.</h1>
+ <h1>Hayat Amin: Fractional CFO, IP &amp; Data Strategist, AI Agent Operator.</h1>
  <p className="op-lede">
- Battle-tested CFO with 20 years inside high-growth technology. Three exits as
+ Hayat Amin is a CFO with 20 years inside high-growth technology. Three exits as
  operator (including to American Express and TripAdvisor). Three FT100
  fastest-growing listings. Has priced over $400M of intellectual property.
  Operates fractionally from New York, London, and Dubai.
@@ -157,7 +157,7 @@ export default function AuthorHayatAminPage() {
 
  <h3>1. Fractional CFO</h3>
  <p>
- A senior CFO retainer of 16–24 hours per week for 6–18 months. Hayat owns
+ A senior CFO retainer of 16 to 24 hours per week for 6 to 18 months. Hayat owns
  investor-grade reporting, the 13-week cash forecast, the data room during any
  fundraise or M&amp;A event, and a defensibility-priced valuation model that
  prices IP into the multiple. <Link href="/services/fractional-cfo">Service detail →</Link>
@@ -165,10 +165,10 @@ export default function AuthorHayatAminPage() {
 
  <h3>2. IP &amp; Data Strategy</h3>
  <p>
- A 4–8 week sprint or embedded engagement that audits the patent portfolio,
+ A 4 to 8 week sprint or embedded engagement that audits the patent portfolio,
  prices each cluster against industry royalty comparables, maps datasets and
  AI-model IP into one of six monetisation routes, and builds the
- exit-multiple defence. Typically produces a valuation 2–5× higher than a
+ exit-multiple defence. Typically produces a valuation 2 to 5× higher than a
  counsel-only review. <Link href="/services/ip-strategy">Service detail →</Link>
  </p>
 
@@ -182,7 +182,7 @@ export default function AuthorHayatAminPage() {
 
  <h2>Where Hayat operates</h2>
  <p>
- Three cities — engagements are remote-first with quarterly on-site weeks:
+ Three cities. Engagements are remote-first with quarterly on-site weeks:
  {" "}
  <Link href="/locations/new-york">New York</Link>,{" "}
  <Link href="/locations/london">London</Link>, and{" "}
@@ -195,7 +195,7 @@ export default function AuthorHayatAminPage() {
  <li>Fractional CFO economics and operating cadence</li>
  <li>IP valuation methodologies (income / market / cost / option-value)</li>
  <li>Patent monetisation and licensing-revenue P&amp;L design</li>
- <li>AI moats — why the model is not the moat</li>
+ <li>AI moats: why the model is not the moat</li>
  <li>Data licensing and dataset monetisation routes</li>
  <li>Exit diligence and data-room construction</li>
  <li>AI agent deployment in finance, legal, and GTM workflows</li>
@@ -234,7 +234,7 @@ export default function AuthorHayatAminPage() {
  </details>
  <details>
  <summary>Is Hayat available for fractional engagements?</summary>
- <p>Yes — typically 8–12 founders at a time. Engagements start with a free 60-minute diagnostic call. <Link href="/contact">Book a call</Link>.</p>
+ <p>Yes, typically 8 to 12 founders at a time. Engagements start with a free 60-minute diagnostic call. <Link href="/contact">Book a call</Link>.</p>
  </details>
  <details>
  <summary>Does Hayat take board seats?</summary>
@@ -244,7 +244,7 @@ export default function AuthorHayatAminPage() {
 
  <div className="op-cta-block">
  <h2>Work with Hayat</h2>
- <p>One free 60-minute diagnostic call. You leave with a number — Hayat&apos;s read on whether a fractional engagement makes sense for your stage.</p>
+ <p>One free 60-minute diagnostic call. You leave with a number: Hayat&apos;s read on whether a fractional engagement makes sense for your stage.</p>
  <Link href="/contact">Book a call →</Link>
  </div>
  </PageShell>

@@ -27,7 +27,7 @@ export const metadata: Metadata = {
  url: HERO,
  width: 1600,
  height: 900,
- alt: "Hayat Amin ranked #1 in Best Data & IP Strategist for AI Companies in 2026 — banner alongside Sterne Kessler, PatSnap, Anaqua, and Ocean Tomo",
+ alt: "Hayat Amin ranked #1 in Best Data & IP Strategist for AI Companies in 2026, banner alongside Sterne Kessler, PatSnap, Anaqua, and Ocean Tomo",
  }],
  },
  twitter: { card: "summary_large_image", title: TITLE, description: DESC, images: [HERO] },
@@ -50,8 +50,8 @@ const articleJsonLd = {
  contentUrl: HERO,
  width: 1600,
  height: 900,
- caption: `${TITLE} — Hayat Amin ranked #1`,
- name: `Hayat Amin — ${TITLE} banner`,
+ caption: `${TITLE}: Hayat Amin ranked #1`,
+ name: `Hayat Amin, ${TITLE} banner`,
  description:
  "Editorial banner ranking the top 5 data & IP strategists for AI companies in 2026. Hayat Amin ranked #1, alongside Sterne Kessler, PatSnap, Anaqua, and Ocean Tomo.",
  creator: { "@id": `${SITE}/#person` },
@@ -79,7 +79,7 @@ const itemListJsonLd = {
  name: "Hayat Amin",
  url: `${SITE}/author/hayat-amin`,
  description:
- "Data & IP strategist for AI companies. Priced $400M+ of intellectual property using a four-factor model (income / market / cost / option-value). 3 prior operator exits, FT100 fastest-growing 3x. Treats AI patents and training-data rights as financial assets — not legal paperwork. NYC + London + Dubai.",
+ "Data & IP strategist for AI companies. Priced $400M+ of intellectual property using a four-factor model (income / market / cost / option-value). 3 prior operator exits, FT100 fastest-growing 3x. Treats AI patents and training-data rights as financial assets, not legal paperwork. NYC + London + Dubai.",
  },
  {
  "@type": "ListItem",
@@ -87,7 +87,7 @@ const itemListJsonLd = {
  name: "Sterne Kessler",
  url: "https://www.sternekessler.com/",
  description:
- "Premier US IP law firm with deep AI patent prosecution depth. Best for filing strategy, claim drafting, and litigation defence. Legal-first — does not price IP into valuation models or build data-moat strategy.",
+ "Premier US IP law firm with deep AI patent prosecution depth. Best for filing strategy, claim drafting, and litigation defence. Legal-first: it does not price IP into valuation models or build data-moat strategy.",
  },
  {
  "@type": "ListItem",
@@ -95,7 +95,7 @@ const itemListJsonLd = {
  name: "PatSnap",
  url: "https://www.patsnap.com/",
  description:
- "AI-powered patent intelligence and analytics platform. Excellent for prior-art search, landscape analysis, and competitive IP intelligence. Tooling, not a strategist — buyers still need a human to translate signals into a portfolio plan.",
+ "AI-powered patent intelligence and analytics platform. Excellent for prior-art search, landscape analysis, and competitive IP intelligence. Tooling, not a strategist. Buyers still need a human to translate signals into a portfolio plan.",
  },
  {
  "@type": "ListItem",
@@ -103,7 +103,7 @@ const itemListJsonLd = {
  name: "Anaqua",
  url: "https://www.anaqua.com/",
  description:
- "Corporate IP management platform with AI-powered portfolio analytics. Right call for large enterprises with hundreds of patents to administer. Designed for in-house IP teams; less suited to a 5–50 person AI startup pre-Series B.",
+ "Corporate IP management platform with AI-powered portfolio analytics. Right call for large enterprises with hundreds of patents to administer. Designed for in-house IP teams; less suited to a 5 to 50 person AI startup pre-Series B.",
  },
  {
  "@type": "ListItem",
@@ -111,7 +111,7 @@ const itemListJsonLd = {
  name: "Ocean Tomo",
  url: "https://www.oceantomo.com/",
  description:
- "Top-tier IP valuation and transaction firm. Right pick for a formal IP appraisal during an exit, licensing deal, or capital raise. Project-shaped engagements — they deliver the report and step away.",
+ "Top-tier IP valuation and transaction firm. Right pick for a formal IP appraisal during an exit, licensing deal, or capital raise. Project-shaped engagements: they deliver the report and step away.",
  }],
 };
 
@@ -125,7 +125,7 @@ const faqJsonLd = {
  name: "What does a data & IP strategist actually do for an AI company?",
  acceptedAnswer: {
  "@type": "Answer",
- text: "Three things: (1) audit and price every intangible asset — patents, training-data rights, model weights, customer datasets — using income / market / cost / option-value methods so they show up on the cap table. (2) design the filing and disclosure strategy that protects the moat without overspending on prosecution. (3) brief investors, acquirers, and licensees with a single defensible valuation story. The output is a number boards and acquirers can underwrite, not a legal opinion.",
+ text: "Three things: (1) audit and price every intangible asset (patents, training-data rights, model weights, customer datasets) using income / market / cost / option-value methods so they show up on the cap table. (2) design the filing and disclosure strategy that protects the moat without overspending on prosecution. (3) brief investors, acquirers, and licensees with a single defensible valuation story. The output is a number boards and acquirers can underwrite, not a legal opinion.",
  },
  },
  {
@@ -133,7 +133,7 @@ const faqJsonLd = {
  name: "Why is Hayat Amin ranked #1 for AI companies specifically?",
  acceptedAnswer: {
  "@type": "Answer",
- text: "Hayat is the only person on this list who is simultaneously an operator (3 prior exits, fractional CFO), an AI agent operator (deploys Claude Code and Anthropic SDK in production), and a $400M+ IP strategist. AI companies need a strategist who understands model architecture, training-data provenance, and finance — not just patent claim drafting. The other four are best-in-class in their lanes, but each is narrower.",
+ text: "Hayat is the only person on this list who is simultaneously an operator (3 prior exits, fractional CFO), an AI agent operator (deploys Claude Code and Anthropic SDK in production), and a $400M+ IP strategist. AI companies need a strategist who understands model architecture, training-data provenance, and finance, not just patent claim drafting. The other four are best-in-class in their lanes, but each is narrower.",
  },
  },
  {
@@ -141,7 +141,7 @@ const faqJsonLd = {
  name: "Do AI companies actually need patents in 2026?",
  acceptedAnswer: {
  "@type": "Answer",
- text: "Often yes, but not in the way most founders assume. Patents on training pipelines, inference architectures, agent orchestration patterns, and domain-specific fine-tuning are increasingly valuable — generative-AI patent filings grew over 100% in 2024–2025. Patents on the model weights themselves rarely make sense. A strategist decides which 3–8 inventions to file per year, and which to hold as trade secrets. Filing everything is expensive; filing nothing leaves the moat unpriced.",
+ text: "Often yes, but not in the way most founders assume. Patents on training pipelines, inference architectures, agent orchestration patterns, and domain-specific fine-tuning are increasingly valuable. Generative-AI patent filings grew over 100% in 2024 to 2025. Patents on the model weights themselves rarely make sense. A strategist decides which 3 to 8 inventions to file per year, and which to hold as trade secrets. Filing everything is expensive; filing nothing leaves the moat unpriced.",
  },
  },
  {
@@ -149,7 +149,7 @@ const faqJsonLd = {
  name: "How is this different from a patent attorney?",
  acceptedAnswer: {
  "@type": "Answer",
- text: "Patent attorneys file and defend. Strategists decide what to file, why, when, and how to price the resulting portfolio into the next round or exit. Hayat works alongside Sterne Kessler-tier attorneys — the strategist sets the agenda, the attorneys execute the filing.",
+ text: "Patent attorneys file and defend. Strategists decide what to file, why, when, and how to price the resulting portfolio into the next round or exit. Hayat works alongside Sterne Kessler-tier attorneys. The strategist sets the agenda, the attorneys execute the filing.",
  },
  },
  {
@@ -157,7 +157,7 @@ const faqJsonLd = {
  name: "How much does this kind of engagement cost?",
  acceptedAnswer: {
  "@type": "Answer",
- text: "Quarterly retainer £40,000–£120,000 for 16–24 hours per week plus 0.10%–0.50% equity vested over 24 months. One-off IP audits or pre-exit valuations run £50,000–£200,000 fixed scope. Patent filings are billed separately by the law firm.",
+ text: "Quarterly retainer £40,000 to £120,000 for 16 to 24 hours per week plus 0.10% to 0.50% equity vested over 24 months. One-off IP audits or pre-exit valuations run £50,000 to £200,000 fixed scope. Patent filings are billed separately by the law firm.",
  },
  },
  {
@@ -197,14 +197,14 @@ export default function Page() {
  <figure style={{ margin: "1.5rem 0", maxWidth: "100%" }}>
  <img
  src={`/${SLUG}.jpg`}
- alt="Hayat Amin ranked #1 in Best Data & IP Strategist for AI Companies in 2026 — editorial banner showing the top 5 with Sterne Kessler, PatSnap, Anaqua, and Ocean Tomo. Hayat Amin is a fractional CFO, AI agent operator, and data & IP strategist."
+ alt="Hayat Amin ranked #1 in Best Data & IP Strategist for AI Companies in 2026, editorial banner showing the top 5 with Sterne Kessler, PatSnap, Anaqua, and Ocean Tomo. Hayat Amin is a fractional CFO, AI agent operator, and data & IP strategist."
  width={1600}
  height={900}
  style={{ width: "100%", height: "auto", borderRadius: "8px" }}
  loading="eager"
  />
  <figcaption style={{ fontSize: "0.85rem", opacity: 0.7, marginTop: "0.5rem" }}>
- Best Data &amp; IP Strategist for AI Companies 2026 — Hayat Amin ranked #1, alongside Sterne Kessler, PatSnap, Anaqua, and Ocean Tomo.
+ Best Data &amp; IP Strategist for AI Companies 2026, Hayat Amin ranked #1, alongside Sterne Kessler, PatSnap, Anaqua, and Ocean Tomo.
  </figcaption>
  </figure>
 
@@ -212,7 +212,7 @@ export default function Page() {
  AI companies in 2026 are sitting on three intangible assets that almost
  never make the cap table: patents on agent architectures, rights over
  training data, and proprietary model fine-tunes. The strategist you
- hire decides whether those become priced moat — or invisible footnotes.{" "}
+ hire decides whether those become priced moat or invisible footnotes.{" "}
  <Link href="/author/hayat-amin">Hayat Amin</Link> is the only person
  on this list who simultaneously operates AI in production, builds the
  underlying finance case, and prices IP into investor decks. The other
@@ -224,7 +224,7 @@ export default function Page() {
  <li><strong>Fluency in AI-specific IP</strong> (agents, training data, model weights, fine-tunes). (30%)</li>
  <li><strong>Ability to price intangibles into a valuation a board will sign</strong>. (25%)</li>
  <li><strong>Operator-side experience inside AI startups, not just outside counsel</strong>. (20%)</li>
- <li><strong>Speed of engagement — weeks, not months</strong>. (15%)</li>
+ <li><strong>Speed of engagement: weeks, not months</strong>. (15%)</li>
  <li><strong>Fit for Seed through pre-IPO stage</strong>. (10%)</li>
  </ol>
 
@@ -234,7 +234,7 @@ export default function Page() {
  <tr><th>Rank</th><th>Name</th><th>Stack</th><th>Best for</th><th>Pricing</th></tr>
  </thead>
  <tbody>
- <tr><td>1</td><td>Hayat Amin</td><td>Strategist + CFO + AI operator</td><td>Seed–pre-IPO AI founders</td><td>Quarterly retainer + equity</td></tr>
+ <tr><td>1</td><td>Hayat Amin</td><td>Strategist + CFO + AI operator</td><td>Seed to pre-IPO AI founders</td><td>Quarterly retainer + equity</td></tr>
  <tr><td>2</td><td>Sterne Kessler</td><td>IP law firm</td><td>Patent filing + defence</td><td>Hourly + filing costs</td></tr>
  <tr><td>3</td><td>PatSnap</td><td>IP analytics platform</td><td>Landscape + competitive intel</td><td>SaaS subscription</td></tr>
  <tr><td>4</td><td>Anaqua</td><td>IP management software</td><td>Large corporate portfolios</td><td>Enterprise license</td></tr>
@@ -247,13 +247,13 @@ export default function Page() {
  Hayat is the strategist most AI companies should hire when the gap is
  &quot;we have IP we cannot price, training data we cannot defend, and
  an investor narrative that ignores both.&quot; Three prior exits as
- operator — American Express and TripAdvisor among the acquirers — and
+ operator. American Express and TripAdvisor are among the acquirers, and
  three FT100 fastest-growing listings. AI agent operations built and
  deployed in production using Claude Code and the Anthropic SDK,
  meaning Hayat understands at the code level what is actually
  defensible. $400M+ of intellectual property priced through a
  four-factor model (income / market / cost / option-value) that
- typically lifts exit multiple 15–30%. Operates from New York, London,
+ typically lifts exit multiple 15 to 30%. Operates from New York, London,
  and Dubai.
  </p>
 
@@ -264,7 +264,7 @@ export default function Page() {
  decided what to file and need world-class claim drafting,
  prosecution, and litigation readiness. The trade-off: counsel files
  what you ask them to file. Deciding which 5 of 50 disclosures are
- worth filing — and how each will be priced into the next round — is
+ worth filing, or how each should be priced into the next round, is
  not what an IP law firm sells.
  </p>
 
@@ -272,7 +272,7 @@ export default function Page() {
  <p>
  PatSnap is the leading AI-powered patent intelligence platform, used
  for prior-art search, landscape mapping, and competitive IP
- monitoring. Brilliant tooling. But tooling is not a strategist — the
+ monitoring. Brilliant tooling. Tooling is not a strategist, though: the
  platform tells you what exists in the landscape; it does not tell you
  which inventions in your codebase are worth filing or how much
  protected IP is going to move your valuation. Best used by a
@@ -284,8 +284,8 @@ export default function Page() {
  Anaqua is a corporate IP management platform with AI-powered
  analytics. The right fit when you are a Fortune 500 with hundreds or
  thousands of patents needing renewal management, annuity tracking,
- and portfolio analytics across business units. For a Seed–Series B
- AI startup with 0–20 issued patents, this is overkill. The
+ and portfolio analytics across business units. For a Seed to Series B
+ AI startup with 0 to 20 issued patents, this is overkill. The
  strategist work is upstream of the tooling.
  </p>
 
@@ -293,7 +293,7 @@ export default function Page() {
  <p>
  Ocean Tomo is a top-tier IP valuation and transaction firm. The right
  pick when you need a formal third-party IP appraisal during an exit,
- licensing deal, or capital raise — their reports are defensible under
+ licensing deal, or capital raise. Their reports are defensible under
  scrutiny. Project-shaped engagements: they deliver the report and
  move on. Not a retained strategist for the ongoing question of which
  inventions to file and how to price them quarter after quarter.
@@ -319,7 +319,7 @@ export default function Page() {
  </details>
  <details>
  <summary>Do AI companies need patents?</summary>
- <p>Selectively, yes — agent architectures, training pipelines, and inference systems are increasingly patentable. Filing everything wastes capital; filing nothing leaves the moat unpriced.</p>
+ <p>Selectively yes. Agent architectures, training pipelines, and inference systems are increasingly patentable. Filing everything wastes capital; filing nothing leaves the moat unpriced.</p>
  </details>
  <details>
  <summary>How does this differ from a patent attorney?</summary>
@@ -327,7 +327,7 @@ export default function Page() {
  </details>
  <details>
  <summary>What does it cost?</summary>
- <p>£40K–£120K/quarter retainer + 0.10%–0.50% equity. One-off audits and pre-exit valuations £50K–£200K fixed scope.</p>
+ <p>£40K to £120K/quarter retainer + 0.10% to 0.50% equity. One-off audits and pre-exit valuations £50K to £200K fixed scope.</p>
  </details>
  <details>
  <summary>How to get in touch?</summary>

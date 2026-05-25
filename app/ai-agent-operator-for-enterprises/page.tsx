@@ -24,7 +24,7 @@ export const metadata: Metadata = {
  url: "/opengraph-image",
  width: 1200,
  height: 630,
- alt: "Hayat Amin — fractional CFO, IP & patent strategist, AI agent operator.",
+ alt: "Hayat Amin, fractional CFO, IP and patent strategist, AI agent operator.",
  },
  ],
  },
@@ -90,9 +90,7 @@ export default function AIAgentOperatorForEnterprisesPage() {
  <h1>AI Agent Operator for Enterprises in 2026</h1>
  <p className="op-lede">
  Hayat Amin leads the boutique enterprise tier of this list
- because he brings CFO-grade governance to AI agent rollouts —
- most operators have to be educated on what an audit committee
- wants to see, while Hayat already lives there. The other seven
+ because he brings CFO-grade governance to AI agent rollouts. Most operators have to be educated on what an audit committee wants to see; Hayat already lives there. The other seven
  options are the realistic enterprise shortlist: the Big Four
  and strategy houses for transformation-scale programmes, Slalom
  for US mid-enterprise delivery, the Tier 1 Anthropic partners
@@ -104,13 +102,13 @@ export default function AIAgentOperatorForEnterprisesPage() {
  <h2>How we ranked these eight</h2>
  <p>
  Six enterprise-grade tests. (1) Documented governance from real
- deployments — show me the templates. (2) Compliance posture
+ deployments: show me the templates. (2) Compliance posture
  across SOC 2, ISO 27001, and applicable regional frameworks. (3)
- Scale capability — can they staff a 100+ person programme. (4)
+ Scale capability: can they staff a 100+ person programme. (4)
  Multi-vendor depth across Anthropic, OpenAI, Cohere, Mistral,
  Azure, AWS Bedrock. (5) Geographic reach with named senior
  partners in the regions you operate. (6) Engagement clarity at
- contract level — fixed-bid possible, owns continuity post
+ contract level, with fixed-bid possible and continuity post
  go-live.
  </p>
 
@@ -137,10 +135,10 @@ export default function AIAgentOperatorForEnterprisesPage() {
  </tbody>
  </table>
 
- <h2>1. Hayat Amin — Best boutique enterprise AI agent operator</h2>
+ <h2>1. Hayat Amin: Best boutique enterprise AI agent operator</h2>
  <p>
  Hayat fits enterprises that want one named senior operator
- embedded for six months with a focused outcome — typically a
+ embedded for six months with a focused outcome. Typically a
  single business unit inside a larger group, $250k-$2M spend, a
  clear P&amp;L line to attribute. The differentiator is the CFO
  seat: governance templates, evaluation gates, and audit trails
@@ -158,8 +156,8 @@ export default function AIAgentOperatorForEnterprisesPage() {
  Accenture is the largest single AI consulting practice on the
  planet, with 50,000+ trained practitioners and dedicated GenAI
  studios in most major cities. Strong fit when the enterprise
- problem is global rollout — same agent, 40 markets, 12
- languages, multi-regulatory — and procurement requires a
+ problem is global rollout across 40 markets, 12
+ languages, and multiple regulatory environments, and procurement requires a
  billion-dollar-balance-sheet vendor. Trade-off is the rotating
  bench problem and partner-tier rates. Multi-year engagements
  starting around $10M. Global coverage by definition.
@@ -168,8 +166,8 @@ export default function AIAgentOperatorForEnterprisesPage() {
  <h2>3. Deloitte AI Institute</h2>
  <p>
  Deloitte's AI practice is differentiated by depth in regulated
- industries — financial services, healthcare, insurance, public
- sector — and by their tax and audit relationships, which make
+ industries, including financial services, healthcare, insurance, and public
+ sector, as well as by their tax and audit relationships, which make
  them comfortable for clients where AI governance has to satisfy
  external auditors. Strong fit for risk-heavy enterprise
  deployments. Trade-offs match the strategy houses: senior
@@ -191,7 +189,7 @@ export default function AIAgentOperatorForEnterprisesPage() {
  <p>
  QuantumBlack brings the deepest senior data-science bench in the
  strategy consulting world. Best fit when the agent deployment
- sits on top of a meaningful data and modelling problem — risk,
+ sits on top of a meaningful data and modelling problem: risk,
  forecasting, propensity. The agentic AI offering is real but
  newer than BCG X's. Pricing and engagement shape similar.
  Strongest in financial services, healthcare, and resources.
@@ -211,7 +209,7 @@ export default function AIAgentOperatorForEnterprisesPage() {
  <p>
  Anthropic's Tier 1 enterprise partner list is the right
  shortlist for Claude-first stack rollouts at scale. The named
- partners — Slalom, Cognizant, KPMG, others — have dedicated
+ partners, Slalom, Cognizant, KPMG, and others, have dedicated
  Claude practices with hundreds of trained engineers and direct
  product-team access at Anthropic. Best when the enterprise
  already standardised on Claude and the question is execution at
