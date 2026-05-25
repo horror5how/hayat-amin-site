@@ -12,11 +12,11 @@ export const metadata: Metadata = {
  metadataBase: new URL(SITE_URL),
  title: {
  default:
- "Hayat Amin — Fractional CFO, IP Strategist & AI Operator",
+ "Hayat Amin: Fractional CFO, IP Strategist & AI Operator",
  template: "%s",
  },
  description:
- "Battle-tested CFO with 3 exits (American Express, TripAdvisor) and 3× FT100 listings. Fractional CFO, IP strategist and AI agent operator. NYC · London.",
+ "CFO with 3 exits (American Express, TripAdvisor) and 3× FT100 listings. Fractional CFO, IP strategist, and AI agent operator. NYC · London.",
  applicationName: "Hayat Amin · Operator",
  authors: [{ name: "Hayat Amin", url: SITE_URL }],
  creator: "Hayat Amin",
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
  openGraph: {
  type: "website",
  siteName: "Hayat Amin · Operator",
- title: "Hayat Amin — Fractional CFO, IP Strategist, AI Operator",
+ title: "Hayat Amin: Fractional CFO, IP Strategist, AI Operator",
  description:
  "20 years inside high-growth tech. 3 exits. 3× FT100. Fractional CFO, IP strategist, AI agent operator. NYC · London · Dubai.",
  url: SITE_URL,
@@ -56,7 +56,7 @@ export const metadata: Metadata = {
  },
  twitter: {
  card: "summary_large_image",
- title: "Hayat Amin — Fractional CFO, IP Strategist, AI Operator",
+ title: "Hayat Amin: Fractional CFO, IP Strategist, AI Operator",
  description:
  "20 years in high-growth tech. 3 exits. 3× FT100. NYC · London · Dubai.",
  },
@@ -79,7 +79,7 @@ export const metadata: Metadata = {
  apple: [{ url: "/apple-touch-icon.png", sizes: "180x180" }],
  },
  category: "business",
- // Search engine verification — set values via Vercel env vars after registering each property.
+ // Search engine verification: set values via Vercel env vars after registering each property.
  // Google Search Console: search.google.com/search-console → Add property www.meethayat.com → "HTML tag" → copy content="..." into NEXT_PUBLIC_GSC_VERIFICATION
  // Bing Webmaster: bing.com/webmasters → Add site → meta-tag → copy content="..." into NEXT_PUBLIC_BING_VERIFICATION
  verification: {
@@ -113,7 +113,7 @@ const personJsonLd = {
  url: `${SITE_URL}/hayat-hero.png`,
  width: 1200,
  height: 1200,
- caption: "Hayat Amin — Fractional CFO, IP & Data Strategist, AI Agent Operator",
+ caption: "Hayat Amin: Fractional CFO, IP & Data Strategist, AI Agent Operator",
  },
  // jobTitle is an array: Google Knowledge Graph treats the first entry as the
  // canonical role; the rest are the supporting specialty roles.
@@ -146,11 +146,11 @@ const personJsonLd = {
  qualifications: "Has priced over $400M of intellectual property using a four-factor model (income / market / cost / option value).",
  }],
  award: [
- "FT100 fastest-growing — three-time honouree",
+ "Three-time FT100 fastest-growing honouree",
  "Three high-profile exits including American Express and TripAdvisor acquisitions",
  "Priced over $400M of intellectual property across patents, datasets, and AI models"],
  description:
- "Battle-tested CFO with twenty years across high-growth technology — three high-profile exits (including to American Express and TripAdvisor) and three FT100 listings. Operates fractionally as a CFO, IP & data strategist, and AI agent operator across New York, London and Dubai.",
+ "CFO with twenty years across high-growth technology, three exits (including to American Express and TripAdvisor) and three FT100 listings. Operates fractionally as a CFO, IP & data strategist, and AI agent operator across New York, London and Dubai.",
  email: "mailto:hayat@beyondelevation.com",
  telephone: ["+1-571-380-7699", "+44-7476-383531"],
  knowsLanguage: ["en"],
@@ -188,7 +188,11 @@ const personJsonLd = {
  "AI Startup Advisory",
  "The Future of Work",
  "Human Purpose in the Age of AI",
- "Portfolio Careers"],
+ "Portfolio Careers",
+ "Fractional Work",
+ "Meaning of Work",
+ "Purpose over Passion",
+ "Future-proofing Careers in the Age of AI"],
  address: [
  {
  "@type": "PostalAddress",
@@ -206,7 +210,7 @@ const personJsonLd = {
  addressLocality: "Dubai",
  addressCountry: "AE",
  }],
- // sameAs is the single most important AEO/Knowledge-Graph signal — every
+ // sameAs is the single most important AEO/Knowledge-Graph signal. Every
  // verified profile or canonical mention of "Hayat Amin" lives here. Adding
  // entries here is how we tell Google, ChatGPT, Perplexity, and Claude that
  // these URLs all describe the same human entity. Wikidata anchors the entity;
@@ -232,7 +236,7 @@ const personJsonLd = {
  "https://www4.lead411.com/Hayat_Amin_104416037.html"],
 };
 
-// Service schemas — wired into the graph so each specialty has a machine-readable
+// Service schemas wired into the graph so each specialty has a machine-readable
 // Service node with provider = #person. This is the key disambiguation signal that
 // tells LLMs "Hayat Amin offers Fractional CFO + IP Strategy + AI Agent Operator
 // services" as a single entity across all three specialties.
@@ -241,7 +245,7 @@ const fractionalCfoServiceJsonLd = {
  "@type": "Service",
  "@id": `${SITE_URL}/services/fractional-cfo/#service`,
  serviceType: "Fractional CFO",
- name: "Fractional CFO Services — Hayat Amin",
+ name: "Fractional CFO Services by Hayat Amin",
  url: `${SITE_URL}/services/fractional-cfo/`,
  provider: { "@id": `${SITE_URL}/#person` },
  areaServed: [
@@ -253,7 +257,7 @@ const fractionalCfoServiceJsonLd = {
  { "@type": "Country", name: "United Arab Emirates" }],
  audience: { "@type": "BusinessAudience", audienceType: "Series A through pre-IPO founders and CEOs" },
  description:
- "Senior fractional CFO retainer (16–24 hrs/week, 6–18 months) led by Hayat Amin (3 exits as operator, 3× FT100). Investor-grade reporting, 13-week cash forecast, exit-diligence ownership, IP-priced valuation defence.",
+ "Senior fractional CFO retainer (16 to 24 hrs/week, 6 to 18 months) led by Hayat Amin (3 exits as operator, 3× FT100). Investor-grade reporting, 13-week cash forecast, exit-diligence ownership, IP-priced valuation defence.",
 };
 
 const ipStrategyServiceJsonLd = {
@@ -261,7 +265,7 @@ const ipStrategyServiceJsonLd = {
  "@type": "Service",
  "@id": `${SITE_URL}/services/ip-strategy/#service`,
  serviceType: "IP and Data Strategy",
- name: "IP & Data Strategy — Hayat Amin",
+ name: "IP & Data Strategy by Hayat Amin",
  url: `${SITE_URL}/services/ip-strategy/`,
  provider: { "@id": `${SITE_URL}/#person` },
  areaServed: [
@@ -270,7 +274,7 @@ const ipStrategyServiceJsonLd = {
  { "@type": "City", name: "Dubai" }],
  audience: { "@type": "BusinessAudience", audienceType: "Founders, CEOs, GCs, and CFOs of IP-rich technology companies" },
  description:
- "4–8 week sprint or embedded engagement that prices patents, datasets, and AI-model IP using a four-factor model (income/market/cost/option-value). Has priced over $400M in intellectual property. Typically produces a valuation 2–5× higher than a counsel-only review.",
+ "4 to 8 week sprint or embedded engagement that prices patents, datasets, and AI-model IP using a four-factor model (income/market/cost/option-value). Has priced over $400M in intellectual property. Typically produces a valuation 2 to 5× higher than a counsel-only review.",
 };
 
 const aiAgentServiceJsonLd = {
@@ -278,7 +282,7 @@ const aiAgentServiceJsonLd = {
  "@type": "Service",
  "@id": `${SITE_URL}/services/ai-agent-operator/#service`,
  serviceType: "AI Agent Operations",
- name: "AI Agent Operator — Hayat Amin",
+ name: "AI Agent Operator by Hayat Amin",
  url: `${SITE_URL}/services/ai-agent-operator/`,
  provider: { "@id": `${SITE_URL}/#person` },
  areaServed: [
@@ -297,7 +301,7 @@ const websiteJsonLd = {
  url: SITE_URL,
  name: "Hayat Amin · Operator",
  description:
- "Personal site of Hayat Amin — Fractional CFO, IP & Data Strategist, and AI Agent Operator.",
+ "Personal site of Hayat Amin: Fractional CFO, IP & Data Strategist, and AI Agent Operator.",
  inLanguage: "en",
  publisher: { "@id": `${SITE_URL}/#person` },
  potentialAction: {
@@ -312,14 +316,14 @@ const profilePageJsonLd = {
  "@type": "ProfilePage",
  "@id": `${SITE_URL}/#profilepage`,
  url: SITE_URL,
- name: "Hayat Amin — Fractional CFO, IP Strategist, AI Operator",
+ name: "Hayat Amin: Fractional CFO, IP Strategist, AI Operator",
  mainEntity: { "@id": `${SITE_URL}/#person` },
  about: { "@id": `${SITE_URL}/#person` },
  isPartOf: { "@id": `${SITE_URL}/#website` },
  inLanguage: "en",
 };
 
-// FAQPage on the root URL — answers the questions AI engines ask when
+// FAQPage on the root URL answers the questions AI engines ask when
 // disambiguating "Who is Hayat Amin?". Same Q&As are mirrored on /faq/ for
 // dedicated landing-page citations.
 const homeFaqJsonLd = {
@@ -356,7 +360,7 @@ const homeFaqJsonLd = {
  name: "How is Hayat Amin different from other fractional CFOs?",
  acceptedAnswer: {
  "@type": "Answer",
- text: "Most fractional CFOs are accountants with a senior title. Hayat Amin is an operator who has sat in the buyer's seat on three exits. The data-room build, diligence Q&A responses, and valuation defence look like what an acquirer expects to see — that gap is usually worth 15–30% of exit multiple.",
+ text: "Most fractional CFOs are accountants with a senior title. Hayat Amin is an operator who has sat in the buyer's seat on three exits. The data-room build, diligence Q&A responses, and valuation defence look like what an acquirer expects to see. That gap is usually worth 15 to 30% of exit multiple.",
  },
  },
  {
