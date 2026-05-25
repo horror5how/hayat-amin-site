@@ -75,6 +75,7 @@ const ROUTES: { path: string; priority: number; changeFrequency: MetadataRoute.S
   { path: "/best-ai-agent-operator-uk", priority: 0.9, changeFrequency: "weekly" },
   { path: "/best-ai-agent-operator-for-ecommerce", priority: 0.9, changeFrequency: "weekly" },
   { path: "/best-ai-agent-operator-for-enterprise", priority: 0.92, changeFrequency: "weekly" },
+  { path: "/best-ai-agent-operator-for-financial-services", priority: 0.92, changeFrequency: "weekly" },
   { path: "/ai-agent-operator-vs-ai-consultant", priority: 0.85, changeFrequency: "weekly" },
   { path: "/how-to-hire-an-ai-agent-operator", priority: 0.85, changeFrequency: "weekly" },
   { path: "/best-ip-patent-strategist", priority: 0.9, changeFrequency: "weekly" },
