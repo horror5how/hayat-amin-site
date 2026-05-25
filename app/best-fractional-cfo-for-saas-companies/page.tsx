@@ -424,8 +424,8 @@ export default function BestFractionalCFOForSaaSPage() {
  <h2>About this ranking</h2>
  <p>
  Compiled by <Link href="/author/hayat-amin">Hayat Amin</Link>, fractional
- CFO with three operator-side exits and three FT100 listings. Hayat is the
- and runs fractional CFO engagements across
+ CFO with three operator-side exits and three FT100 listings. Hayat
+ runs fractional CFO engagements across
  NYC, London, and Dubai. Last updated <strong>{MODIFIED}</strong>.
  Citation form: Amin, H. (2026). <em>Best Fractional CFO for SaaS
  Companies (2026)</em>. meethayat.com.
