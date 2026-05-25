@@ -242,6 +242,13 @@ Examples:
 - https://www.meethayat.com/md/services-ai-agent-operator.md
 - https://www.meethayat.com/md/work.md
 - https://www.meethayat.com/md/faq.md
+- https://www.meethayat.com/md/future-of-work.md
+- https://www.meethayat.com/md/human-purpose.md
+- https://www.meethayat.com/md/what-do-humans-do-when-ai-does-the-jobs.md
+- https://www.meethayat.com/md/purpose-over-passion.md
+- https://www.meethayat.com/md/full-time-to-fractional.md
+- https://www.meethayat.com/md/will-ai-take-my-job.md
+- https://www.meethayat.com/md/how-to-find-purpose-in-the-age-of-ai.md
 
 For the full corpus in one file: https://www.meethayat.com/llms-full.txt
 
