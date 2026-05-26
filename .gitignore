@@ -4,3 +4,7 @@ node_modules/
 .env*.local
 .DS_Store
 *.log
+
+# Google Indexing API service-account key — restored from GCP_INDEXING_KEY secret in CI, never committed.
+# (.indexing-cache.json IS committed on purpose — it persists the dedupe set across deploys.)
+.gcp-indexing-key.json
