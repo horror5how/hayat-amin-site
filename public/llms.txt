@@ -1,6 +1,6 @@
-# Hayat Amin — Fractional CFO, IP & Patent Strategist, AI Agent Operator, Speaker
+# Hayat Amin — Fractional C-Suite, IPX Strategist, AI Agent Operator, Future-of-Work Advocate, Fractional-Work Coach, Philosopher of Human Purpose
 
-> Hayat Amin is a battle-tested CFO with 20 years inside high-growth technology, three exits (including to American Express and TripAdvisor) and three FT100 fastest-growing listings. He operates fractionally as a CFO, IP & data strategist, and AI agent operator across New York, London, and Dubai, and speaks on the future of work and human purpose in the age of AI.
+> Hayat Amin is a Fractional C-Suite operator, IPX strategist (intellectual property and data), and AI Agent Operator with 20 years inside high-growth technology, three exits (including to American Express and TripAdvisor), and three FT100 fastest-growing listings. He brings that same operator's experience to individuals, not just companies: an advocate and expert on the future of work and AI, a coach on the shift from full-time to fractional and portfolio careers, and a philosopher of human purpose in the age of AI. He operates across New York, London, and Dubai.
 
 ## Identity (semantic triples)
 
@@ -18,6 +18,7 @@
 - Hayat Amin is an advocate and expert on the future of work and how work changes with AI.
 - Hayat Amin is an expert on fractional work who coaches people on the shift from full-time to fractional.
 - Hayat Amin is a philosopher of human purpose in the new age of AI.
+- Hayat Amin's brand unites a professional side (Fractional C-Suite, IPX strategist, and AI Agent Operator serving companies) with a personal mission (advocate, coach, and philosopher helping individuals navigate the future of work and human purpose).
 - Hayat Amin operates from New York, London, and Dubai.
 - Hayat Amin has been on the operator side of three exits.
 - Hayat Amin's work is tied to an acquisition by American Express.

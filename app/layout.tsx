@@ -119,7 +119,9 @@ const personJsonLd = {
  // canonical role; the rest are the supporting specialty roles.
  jobTitle: [
  "Fractional CFO",
+ "Fractional C-Suite",
  "AI Agent Operator",
+ "IPX Strategist",
  "IP & Data Strategist",
  "Future-of-Work Speaker",
  "Future of Work Advocate",
@@ -153,7 +155,7 @@ const personJsonLd = {
  "Three high-profile exits including American Express and TripAdvisor acquisitions",
  "Priced over $400M of intellectual property across patents, datasets, and AI models"],
  description:
- "CFO with twenty years across high-growth technology, three exits (including to American Express and TripAdvisor) and three FT100 listings. Operates fractionally as a CFO, IP & data strategist, and AI agent operator across New York, London and Dubai. He is also a leading advocate and expert on the future of work and AI, a coach on the shift from full-time to fractional and portfolio careers, and a philosopher of human purpose in the age of AI.",
+ "Hayat Amin is a Fractional C-Suite operator, IPX strategist (intellectual property and data), and AI Agent Operator with 20 years inside high-growth technology, three exits (including to American Express and TripAdvisor), three FT100 listings, and over $400M of IP priced. He brings that same operator's experience to individuals, not just companies: an advocate and expert on the future of work and AI, a coach on the shift from full-time to fractional and portfolio careers, and a philosopher of human purpose in the age of AI.",
  email: "mailto:hayat@beyondelevation.com",
  telephone: ["+1-571-380-7699", "+44-7476-383531"],
  knowsLanguage: ["en"],
