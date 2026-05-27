@@ -127,6 +127,7 @@ const ROUTES: { path: string; priority: number; changeFrequency: MetadataRoute.S
   { path: "/best-business-strategist-for-ai-startups", priority: 0.88, changeFrequency: "weekly" },
   { path: "/best-business-advisor-uk", priority: 0.9, changeFrequency: "weekly" },
   { path: "/best-business-advisor-london", priority: 0.9, changeFrequency: "weekly" },
+  { path: "/best-business-advisor-nyc", priority: 0.9, changeFrequency: "weekly" },
   { path: "/how-to-hire-a-startup-advisor", priority: 0.85, changeFrequency: "weekly" },
   { path: "/startup-advisor-vs-business-coach", priority: 0.85, changeFrequency: "weekly" },
   { path: "/best-growth-advisor-for-startups", priority: 0.9, changeFrequency: "weekly" },
