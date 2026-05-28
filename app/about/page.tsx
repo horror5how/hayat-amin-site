@@ -262,6 +262,78 @@ export default function AboutPage() {
  </Link>
  </div>
 
+ <h2>Three roles in one operator</h2>
+ <p>
+ Hayat&rsquo;s unfair advantage is not finance. It is not strategy and GTM. It is
+ not IP, data, or investor relations. It is not even execution. The real asset
+ is the combination of all four, run by the same operator inside the same
+ engagement. Every Beyond Elevation mandate is a Technical CFO + Growth &amp;
+ Analysis lead + Chief Strategy Officer rolled into one.
+ </p>
+
+ <div className="op-card-grid">
+ <div className="op-card">
+ <span className="op-card-eyebrow">Bucket 1</span>
+ <h3>Technical CFO</h3>
+ <ul style={{ margin: 0, paddingLeft: "1rem", lineHeight: 1.55 }}>
+ <li>Fundraises from VC, PE and Angels</li>
+ <li>Financial modelling &amp; exit-model ROI quantification</li>
+ <li>IP, data and patent valuation strategies</li>
+ <li>SQL, business analysis &amp; modern reporting</li>
+ <li>M&amp;A technicals and exit DD</li>
+ <li>Taxation, treasury, IFRS / UK &amp; US GAAP / FRS 102</li>
+ <li>Clean data rooms and forecasts CEOs can trust</li>
+ </ul>
+ </div>
+ <div className="op-card">
+ <span className="op-card-eyebrow">Bucket 2</span>
+ <h3>Growth &amp; Analysis</h3>
+ <ul style={{ margin: 0, paddingLeft: "1rem", lineHeight: 1.55 }}>
+ <li>Pricing strategies &amp; unit economics that scale</li>
+ <li>OKRs, KPI culture and tailored dashboards</li>
+ <li>Market entry &amp; expansion across EU, US, Sub-Saharan Africa</li>
+ <li>Sales intelligence and key negotiation strategies</li>
+ <li>Cost optimisation and margin improvement playbooks</li>
+ <li>EBITDA forecasting for acquirers</li>
+ <li>Investor acquisition, funnelling and FOMO design</li>
+ </ul>
+ </div>
+ <div className="op-card">
+ <span className="op-card-eyebrow">Bucket 3</span>
+ <h3>Chief Strategy</h3>
+ <ul style={{ margin: 0, paddingLeft: "1rem", lineHeight: 1.55 }}>
+ <li>Turning chaos into priorities &mdash; knowing what NOT to do</li>
+ <li>Strategy that survives execution</li>
+ <li>Org design that supports growth</li>
+ <li>Hiring plans linked to outcomes</li>
+ <li>Market expansion with discipline</li>
+ <li>Pricing decisions backed by data</li>
+ <li>Calm leadership in hard moments &mdash; CEO becomes decision-maker, not firefighter</li>
+ </ul>
+ </div>
+ </div>
+
+ <h2>How this shows up for the founder</h2>
+ <ul>
+ <li>Fundraises that actually close, on a story that makes sense.</li>
+ <li>Cash visibility at all times; spend discipline without killing speed.</li>
+ <li>Valuation defence under pressure; unit economics that scale.</li>
+ <li>IP and data turned into commercial value, with metrics that drive behaviour.</li>
+ <li>Timing the raise correctly; structuring rounds for control.</li>
+ <li>Sales and finance fully aligned; no surprises at board level.</li>
+ <li>Exit strategy built in from day one, not bolted on at term sheet.</li>
+ <li>AI systems built into the operating model so finance, strategy and execution compound rather than compete.</li>
+ </ul>
+
+ <h2>Spotlights</h2>
+ <ul>
+ <li>~300% y/y growth average across portfolio companies.</li>
+ <li>20 years of global leadership experience (EU, US, Sub-Saharan Africa).</li>
+ <li>3 high-profile exits (Cake &rarr; American Express; Tripbod &rarr; TripAdvisor; iHorizon &rarr; Cooper Parry).</li>
+ <li>3 Financial Times Top-100 listings under finance leadership.</li>
+ <li>Trusted partner of Andreessen Horowitz, Bill &amp; Melinda Gates Foundation and Techstars (Lead Mentor).</li>
+ </ul>
+
  <h2>How Hayat thinks about value creation</h2>
  <p>
  Most founders treat IP, data, and AI as cost centres. Hayat treats them as
