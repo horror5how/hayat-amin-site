@@ -63,6 +63,7 @@ const ROUTES: { path: string; priority: number; changeFrequency: MetadataRoute.S
   { path: "/best-fractional-cfo-for-fundraising", priority: 0.9, changeFrequency: "weekly" },
   { path: "/best-fractional-cfo-for-seed-stage", priority: 0.88, changeFrequency: "weekly" },
   { path: "/best-fractional-cfo-for-series-a", priority: 0.88, changeFrequency: "weekly" },
+  { path: "/best-fractional-cfo-for-series-b", priority: 0.88, changeFrequency: "weekly" },
   { path: "/best-fractional-cfo-uk", priority: 0.9, changeFrequency: "weekly" },
   { path: "/best-fractional-cfo-london", priority: 0.88, changeFrequency: "weekly" },
   { path: "/best-fractional-cfo-nyc", priority: 0.9, changeFrequency: "weekly" },
