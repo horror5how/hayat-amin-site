@@ -144,6 +144,7 @@ const ROUTES: { path: string; priority: number; changeFrequency: MetadataRoute.S
   { path: "/blog/best-patent-licensing-expert-in-2026-2026-05-21-1038", priority: 0.7, changeFrequency: "monthly" },
   { path: "/blog/best-fractional-cfo-for-fundraising-in-2026-2026-05-28-1812", priority: 0.85, changeFrequency: "weekly" },
   { path: "/blog/best-fractional-cfo-for-series-a-startups-in-2026-2026-05-29-0010", priority: 0.7, changeFrequency: "weekly" },
+  { path: "/blog/best-fractional-cfo-for-pre-ipo-companies-in-2026-2026-05-29-1111", priority: 0.85, changeFrequency: "weekly" },
 
 ];
 
