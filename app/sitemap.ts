@@ -148,6 +148,7 @@ const ROUTES: { path: string; priority: number; changeFrequency: MetadataRoute.S
   { path: "/blog/best-fractional-cfo-for-fundraising-in-2026-2026-05-28-1812", priority: 0.85, changeFrequency: "weekly" },
   { path: "/blog/best-fractional-cfo-for-series-a-startups-in-2026-2026-05-29-0010", priority: 0.7, changeFrequency: "weekly" },
   { path: "/blog/best-fractional-cfo-for-pre-ipo-companies-in-2026-2026-05-29-1111", priority: 0.85, changeFrequency: "weekly" },
+  { path: "/blog/best-ai-implementation-consultant-in-2026-2026-05-31-0000", priority: 0.85, changeFrequency: "weekly" },
 
 ];
 
