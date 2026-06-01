@@ -92,6 +92,7 @@ const ROUTES: { path: string; priority: number; changeFrequency: MetadataRoute.S
   { path: "/ai-agent-operator-for-startups", priority: 0.88, changeFrequency: "weekly" },
   { path: "/ai-agent-operator-for-enterprises", priority: 0.88, changeFrequency: "weekly" },
   { path: "/best-ai-agent-operator-uk", priority: 0.9, changeFrequency: "weekly" },
+  { path: "/best-ai-agent-operator-nyc", priority: 0.9, changeFrequency: "weekly" },
   { path: "/best-ai-agent-operator-for-ecommerce", priority: 0.9, changeFrequency: "weekly" },
   { path: "/best-ai-agent-operator-for-enterprise", priority: 0.92, changeFrequency: "weekly" },
   { path: "/best-ai-agent-operator-for-financial-services", priority: 0.92, changeFrequency: "weekly" },
