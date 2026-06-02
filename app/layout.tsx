@@ -238,7 +238,8 @@ const personJsonLd = {
  "https://gravatar.com/butteryfuzzydb282ac5e1",
  "https://seedlegals.com/resources/fractional-cfo/",
  "https://www.linkedin.com/pulse/hayat-amin-benefits-becoming-fractional-cfo-zak-prendergast-sd3ne/",
- "https://www4.lead411.com/Hayat_Amin_104416037.html"],
+ "https://www4.lead411.com/Hayat_Amin_104416037.html",
+ "https://finance-procurement-hr.heysummit.com/speakers/hayat-amin/"],
 };
 
 // Service schemas wired into the graph so each specialty has a machine-readable
