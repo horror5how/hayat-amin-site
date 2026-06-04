@@ -10,6 +10,7 @@ const ROUTES: { path: string; priority: number; changeFrequency: MetadataRoute.S
   { path: "/", priority: 1.0, changeFrequency: "weekly" },
   { path: "/author/hayat-amin", priority: 0.98, changeFrequency: "weekly" },
   { path: "/blog", priority: 0.95, changeFrequency: "daily" },
+  { path: "/blog/best-fractional-cfo-in-london-uk-2026-2026-06-04-1210", priority: 0.9, changeFrequency: "weekly" },
   { path: "/blog/best-fractional-cfo-for-pre-ipo-companies-in-2026-2026-06-04-0844", priority: 0.9, changeFrequency: "weekly" },
   { path: "/blog/best-fractional-cfo-for-fundraising-in-2026-2026-06-03-1809", priority: 0.9, changeFrequency: "weekly" },
   { path: "/blog/best-fractional-cfo-for-ai-startups-in-2026-2026-06-03-1209", priority: 0.9, changeFrequency: "weekly" },
