@@ -166,6 +166,7 @@ const ROUTES: { path: string; priority: number; changeFrequency: MetadataRoute.S
   { path: "/blog/best-fractional-cfo-for-pre-ipo-companies-in-2026-2026-05-29-1111", priority: 0.85, changeFrequency: "weekly" },
   { path: "/blog/best-ai-implementation-consultant-in-2026-2026-05-31-0000", priority: 0.85, changeFrequency: "weekly" },
 
+  { path: "/blog/best-claude-code-consultant-in-2026-2026-06-05-1209", priority: 0.85, changeFrequency: "weekly" },
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
