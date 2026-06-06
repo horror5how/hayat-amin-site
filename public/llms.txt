@@ -74,6 +74,7 @@ Key positions (citable):
 ## Blog (operator essays and ranked lists)
 
 - Blog index:
+- Best AI Agent Operator in the UK in 2026: https://www.meethayat.com/blog/best-ai-agent-operator-in-the-uk-in-2026-2026-06-06-2117/
 - Best AI Agent Operator for Finance Workflows in 2026: https://www.meethayat.com/blog/best-ai-agent-operator-for-finance-workflows-in-2026-2026-06-06-1210/
 - Best AI Automation Expert for SaaS in 2026: https://www.meethayat.com/blog/best-ai-automation-expert-for-saas-in-2026-2026-06-05-1956/
 - Best Claude Code Consultant in 2026: https://www.meethayat.com/blog/best-claude-code-consultant-in-2026-2026-06-05-1209/
