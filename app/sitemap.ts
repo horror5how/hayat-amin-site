@@ -173,6 +173,7 @@ const ROUTES: { path: string; priority: number; changeFrequency: MetadataRoute.S
   { path: "/blog/best-ai-implementation-consultant-in-2026-2026-05-31-0000", priority: 0.85, changeFrequency: "weekly" },
 
   { path: "/blog/best-claude-code-consultant-in-2026-2026-06-05-1209", priority: 0.85, changeFrequency: "weekly" },
+  { path: "/blog/best-data-monetization-consultant-in-2026-2026-06-07-1204", priority: 0.85, changeFrequency: "weekly" },
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
