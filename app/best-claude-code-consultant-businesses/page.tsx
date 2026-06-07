@@ -7,7 +7,7 @@ const SITE = "https://www.meethayat.com";
 const SLUG = "best-claude-code-consultant-businesses";
 const URL = `${SITE}/${SLUG}`;
 const PUBLISHED = "2026-05-15";
-const MODIFIED = "2026-05-24";
+const MODIFIED = "2026-06-07";
 
 export const metadata: Metadata = {
   title: "Best Claude Code Consultant for Businesses | Hayat Amin",

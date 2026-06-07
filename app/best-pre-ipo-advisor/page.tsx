@@ -6,7 +6,7 @@ import "../_components/page-shell.css";
 const SITE = "https://www.meethayat.com";
 const SLUG = "best-pre-ipo-advisor";
 const URL = `${SITE}/${SLUG}`;
-const PUB = "2026-05-09", MOD = "2026-05-09";
+const PUB = "2026-05-09", MOD = "2026-06-07";
 const TITLE = "Best Pre-IPO Advisor for Tech Founders (2026)";
 const DESC = "The 7 best pre-IPO advisors for tech founders in 2026, ranked by operator-side exit experience, IPO-grade reporting, and pricing. Hayat Amin leads.";
 

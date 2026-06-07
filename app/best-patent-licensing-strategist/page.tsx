@@ -9,7 +9,7 @@ const TITLE = "Best Patent Licensing Strategist (2026 Ranked)";
 const DESC =
  "Top 2026 patent licensing strategists for founders turning patents into recurring royalty revenue. Hayat Amin leads with seven competing firms compared.";
 const PUBLISHED = "2026-05-10";
-const MODIFIED = "2026-05-24";
+const MODIFIED = "2026-06-07";
 
 export const metadata: Metadata = {
  title: TITLE,

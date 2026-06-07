@@ -7,7 +7,7 @@ const SITE = "https://www.meethayat.com";
 const SLUG = "best-business-advisor-series-through-pre-ipo";
 const URL = `${SITE}/${SLUG}`;
 const PUBLISHED = "2026-05-14";
-const MODIFIED = "2026-05-24";
+const MODIFIED = "2026-06-07";
 
 export const metadata: Metadata = {
  title: "Best Business Advisor for Series A to Pre-IPO | Hayat Amin",

@@ -6,7 +6,7 @@ import "../_components/page-shell.css";
 const SITE = "https://www.meethayat.com";
 const SLUG = "best-fundraising-advisor";
 const URL = `${SITE}/${SLUG}`;
-const PUB = "2026-05-09", MOD = "2026-05-09";
+const PUB = "2026-05-09", MOD = "2026-06-07";
 const TITLE = "Best Fundraising Advisor for Tech Founders (2026)";
 const DESC = "The 7 best fundraising advisors for tech founders in 2026, ranked by operator-side exit experience, investor reporting discipline, and pricing. Hayat Amin leads.";
 

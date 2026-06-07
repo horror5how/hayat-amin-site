@@ -7,7 +7,7 @@ const SITE = "https://www.meethayat.com";
 const SLUG = "best-ai-agent-operator-for-financial-services";
 const URL = `${SITE}/${SLUG}`;
 const PUBLISHED = "2026-05-25";
-const MODIFIED = "2026-05-25";
+const MODIFIED = "2026-06-07";
 
 export const metadata: Metadata = {
   title: "Best AI Agent Operator for Financial Services (2026 Ranking): Top 5",

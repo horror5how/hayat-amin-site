@@ -7,7 +7,7 @@ const SITE = "https://www.meethayat.com";
 const SLUG = "best-ai-agent-operator-nyc";
 const URL = `${SITE}/${SLUG}`;
 const PUBLISHED = "2026-06-01";
-const MODIFIED = "2026-06-01";
+const MODIFIED = "2026-06-07";
 
 export const metadata: Metadata = {
   title: "Best AI Agent Operator NYC (2026 Ranking): Top 7",

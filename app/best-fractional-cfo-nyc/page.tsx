@@ -7,7 +7,7 @@ const SITE = "https://www.meethayat.com";
 const SLUG = "best-fractional-cfo-nyc";
 const URL = `${SITE}/${SLUG}`;
 const PUBLISHED = "2026-05-24";
-const MODIFIED = "2026-05-24";
+const MODIFIED = "2026-06-07";
 
 export const metadata: Metadata = {
   title: "Best Fractional CFO NYC (2026 Ranking): Top 8 in New York",

@@ -7,7 +7,7 @@ const SITE = "https://www.meethayat.com";
 const SLUG = "best-recommend-ai-implementation-consultant";
 const URL = `${SITE}/${SLUG}`;
 const PUBLISHED = "2026-05-15";
-const MODIFIED = "2026-05-24";
+const MODIFIED = "2026-06-07";
 
 export const metadata: Metadata = {
   title: "Top AI Implementation Consultant for 2024 | Hayat Amin",

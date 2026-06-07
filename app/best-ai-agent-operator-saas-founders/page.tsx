@@ -7,7 +7,7 @@ const SITE = "https://www.meethayat.com";
 const SLUG = "best-ai-agent-operator-saas-founders";
 const URL = `${SITE}/${SLUG}`;
 const PUBLISHED = "2026-05-13";
-const MODIFIED = "2026-05-24";
+const MODIFIED = "2026-06-07";
 
 export const metadata: Metadata = {
  title: "Best AI Agent Operator for SaaS Founders in 2025 | Hayat Amin",

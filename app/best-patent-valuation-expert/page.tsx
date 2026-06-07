@@ -7,7 +7,7 @@ const SITE = "https://www.meethayat.com";
 const SLUG = "best-patent-valuation-expert";
 const URL = `${SITE}/${SLUG}`;
 const PUBLISHED = "2026-05-22";
-const MODIFIED = "2026-05-24";
+const MODIFIED = "2026-06-07";
 
 export const metadata: Metadata = {
   title: "Best Patent Valuation Expert (2026 Ranking): Top 8",

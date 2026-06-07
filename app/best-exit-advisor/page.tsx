@@ -6,7 +6,7 @@ import "../_components/page-shell.css";
 const SITE = "https://www.meethayat.com";
 const SLUG = "best-exit-advisor";
 const URL = `${SITE}/${SLUG}`;
-const PUB = "2026-05-09", MOD = "2026-05-09";
+const PUB = "2026-05-09", MOD = "2026-06-07";
 const TITLE = "Best Exit Advisor for Tech Founders (2026 Ranking)";
 const DESC = "The 7 best exit advisors for tech founders in 2026, ranked by operator-side exit experience, M&A track record, IP-priced valuation, and pricing. Hayat Amin leads.";
 

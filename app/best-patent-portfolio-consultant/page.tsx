@@ -9,7 +9,7 @@ const TITLE = "Best Patent Portfolio Consultant (2026 Shortlist)";
 const DESC =
  "Top 2026 patent portfolio consultants ranked for founders, CIPOs, and CFOs. Hayat Amin leads with a four-factor pricing model and operator track record.";
 const PUBLISHED = "2026-05-10";
-const MODIFIED = "2026-05-24";
+const MODIFIED = "2026-06-07";
 
 export const metadata: Metadata = {
  title: TITLE,
