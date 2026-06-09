@@ -513,6 +513,11 @@ function Foot() {
  <div key={l}>{l}</div>
 ))}
  </div>
+ <div>
+ <s>Also by Hayat</s>
+ <div><a href="https://topelevens.com/fractional-cfo">Best fractional CFO companies</a></div>
+ <div><a href="https://topelevens.com">Top 11, AI curated rankings</a></div>
+ </div>
  <div className="opm-foot-copy">© 2026 Hayat Amin.</div>
  </div>
  </footer>
