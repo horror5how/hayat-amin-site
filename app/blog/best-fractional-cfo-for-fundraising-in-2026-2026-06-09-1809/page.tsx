@@ -318,8 +318,8 @@ export default function Page() {
  <h2>Work with Hayat</h2>
  <p>
  One 60-minute diagnostic call, no deck, no proposal. You leave with
- Hayat&apos;s read on your model, your raise story, and whether your data
- room will survive diligence.
+ Hayat&apos;s read on your model, your raise story, and a verdict on
+ your data room before diligence.
  </p>
  <Link href="/contact">Book a call →</Link>
  </div>
