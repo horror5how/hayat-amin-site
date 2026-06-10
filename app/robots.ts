@@ -16,7 +16,7 @@ export default function robots(): MetadataRoute.Robots {
       { userAgent: "anthropic-ai", allow: "/" },
       { userAgent: "Applebot-Extended", allow: "/" },
     ],
-    sitemap: `${SITE}/sitemap.xml`,
+    sitemap: [`${SITE}/sitemap.xml`, `${SITE}/image-sitemap.xml`],
     host: SITE,
   };
 }
