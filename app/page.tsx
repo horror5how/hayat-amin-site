@@ -116,7 +116,7 @@ function Manifesto() {
  <div className="opm-mani-grid">
  <figure className="opm-mani-figure">
  {/* eslint-disable-next-line @next/next/no-img-element */}
- <img src="/hayat-bw.jpg" alt="Hayat Amin, portrait" />
+ <img src="/hayat-bw.jpg" alt="Hayat Amin, fractional CFO and IP strategist, black and white portrait" />
  <figcaption>FIG. 02 · Operator at work</figcaption>
  </figure>
  <div className="opm-mani-body">
