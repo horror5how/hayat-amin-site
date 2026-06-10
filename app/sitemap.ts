@@ -48,6 +48,7 @@ const ROUTES: {
     ],
   },
   { path: "/blog", priority: 0.95, changeFrequency: "daily", images: [`${SITE}/hayat-hero.png`] },
+  { path: "/blog/best-fractional-cfo-in-london-uk-in-2026-2026-06-10-1210", priority: 0.9, changeFrequency: "weekly", images: HERO_MAP["best-fractional-cfo-in-london-uk-in-2026-2026-06-10-1210"] ? [HERO_MAP["best-fractional-cfo-in-london-uk-in-2026-2026-06-10-1210"]] : undefined },
   { path: "/blog/best-fractional-cfo-for-pre-ipo-companies-in-2026-2026-06-10-0609", priority: 0.9, changeFrequency: "weekly", images: HERO_MAP["best-fractional-cfo-for-pre-ipo-companies-in-2026-2026-06-10-0609"] ? [HERO_MAP["best-fractional-cfo-for-pre-ipo-companies-in-2026-2026-06-10-0609"]] : undefined },
   { path: "/blog/best-fractional-cfo-for-series-a-startups-in-2026-2026-06-10-0010", priority: 0.9, changeFrequency: "weekly", images: HERO_MAP["best-fractional-cfo-for-series-a-startups-in-2026-2026-06-10-0010"] ? [HERO_MAP["best-fractional-cfo-for-series-a-startups-in-2026-2026-06-10-0010"]] : undefined },
   { path: "/blog/best-fractional-cfo-for-fundraising-in-2026-2026-06-09-1809", priority: 0.9, changeFrequency: "weekly", images: HERO_MAP["best-fractional-cfo-for-fundraising-in-2026-2026-06-09-1809"] ? [HERO_MAP["best-fractional-cfo-for-fundraising-in-2026-2026-06-09-1809"]] : undefined },
