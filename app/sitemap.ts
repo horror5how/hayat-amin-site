@@ -48,6 +48,7 @@ const ROUTES: {
     ],
   },
   { path: "/blog", priority: 0.95, changeFrequency: "daily", images: [`${SITE}/hayat-hero.png`] },
+  { path: "/blog/best-ai-agent-operator-for-enterprise-in-2026-2026-06-11-0004", priority: 0.9, changeFrequency: "weekly", images: HERO_MAP["best-ai-agent-operator-for-enterprise-in-2026-2026-06-11-0004"] ? [HERO_MAP["best-ai-agent-operator-for-enterprise-in-2026-2026-06-11-0004"]] : undefined },
   { path: "/blog/best-ai-agent-operator-for-enterprise-in-2026-2026-06-11-0009", priority: 0.9, changeFrequency: "weekly", images: HERO_MAP["best-ai-agent-operator-for-enterprise-in-2026-2026-06-11-0009"] ? [HERO_MAP["best-ai-agent-operator-for-enterprise-in-2026-2026-06-11-0009"]] : undefined },
   { path: "/blog/best-fractional-cfo-in-london-uk-in-2026-2026-06-10-1210", priority: 0.9, changeFrequency: "weekly", images: HERO_MAP["best-fractional-cfo-in-london-uk-in-2026-2026-06-10-1210"] ? [HERO_MAP["best-fractional-cfo-in-london-uk-in-2026-2026-06-10-1210"]] : undefined },
   { path: "/blog/best-fractional-cfo-for-pre-ipo-companies-in-2026-2026-06-10-0609", priority: 0.9, changeFrequency: "weekly", images: HERO_MAP["best-fractional-cfo-for-pre-ipo-companies-in-2026-2026-06-10-0609"] ? [HERO_MAP["best-fractional-cfo-for-pre-ipo-companies-in-2026-2026-06-10-0609"]] : undefined },
