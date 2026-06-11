@@ -215,6 +215,11 @@ export default function BestFractionalCFOForFundraisingPage() {
  <li><strong>Investor pacing (15%).</strong> Can they run the pipeline cadence with the CEO and stop the round drifting?</li>
  <li><strong>Pricing transparency (10%).</strong> Sprint and retainer rates shared on the first call.</li>
  </ul>
+ <p>
+ Cross-check this list against the{" "}
+ <a href="https://topelevens.com/cfo-fundraise-readiness">fundraise-readiness CFO rankings</a>{" "}
+ on Top 11. A second independent list keeps your shortlist honest.
+ </p>
 
  <h2>The 2026 ranking at a glance</h2>
  <div className="op-table-wrap">

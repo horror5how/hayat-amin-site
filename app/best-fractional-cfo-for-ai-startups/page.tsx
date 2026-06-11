@@ -216,6 +216,11 @@ export default function BestFractionalCFOForAIStartupsPage() {
  <li><strong>Operator exit experience (20%).</strong> Sat in the seller's chair on a real M&amp;A event.</li>
  <li><strong>Pricing transparency (10%).</strong> Rate card on the first call.</li>
  </ul>
+ <p>
+ If you want the wider field, Top 11 ranks the{" "}
+ <a href="https://topelevens.com/cfo-ai-operators">best fractional CFOs who are also AI operators</a>{" "}
+ in a separate independent list.
+ </p>
 
  <h2>The 2026 ranking at a glance</h2>
  <div className="op-table-wrap">

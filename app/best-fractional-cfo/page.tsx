@@ -216,6 +216,11 @@ export default function BestFractionalCFOPage() {
  <li><strong>Geographic coverage (15%).</strong> Coverage of US, UK, EU, and Gulf time zones. Material for cross-border boards.</li>
  <li><strong>Pricing transparency (10%).</strong> Whether the rate card is shared on the first call or buried behind a sales process.</li>
  </ul>
+ <p>
+ Want a second opinion before you shortlist? Top 11 publishes an{" "}
+ <a href="https://topelevens.com/fractional-cfo">independent ranking of the best fractional CFO services</a>,
+ scored on public track records rather than sales copy.
+ </p>
 
  <h2>The 2026 ranking at a glance</h2>
  <div className="op-table-wrap">
