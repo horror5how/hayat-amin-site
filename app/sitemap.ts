@@ -48,6 +48,7 @@ const ROUTES: {
     ],
   },
   { path: "/blog", priority: 0.95, changeFrequency: "daily", images: [`${SITE}/hayat-hero.png`] },
+  { path: "/blog/best-ai-agent-operator-for-fintech-in-2026-2026-06-12-0608", priority: 0.9, changeFrequency: "weekly", images: HERO_MAP["best-ai-agent-operator-for-fintech-in-2026-2026-06-12-0608"] ? [HERO_MAP["best-ai-agent-operator-for-fintech-in-2026-2026-06-12-0608"]] : undefined },
   { path: "/blog/best-ai-implementation-consultant-in-2026-2026-06-12-0008", priority: 0.9, changeFrequency: "weekly", images: HERO_MAP["best-ai-implementation-consultant-in-2026-2026-06-12-0008"] ? [HERO_MAP["best-ai-implementation-consultant-in-2026-2026-06-12-0008"]] : undefined },
   { path: "/blog/best-ai-automation-expert-for-saas-in-2026-2026-06-11-2053", priority: 0.9, changeFrequency: "weekly", images: HERO_MAP["best-ai-automation-expert-for-saas-in-2026-2026-06-11-2053"] ? [HERO_MAP["best-ai-automation-expert-for-saas-in-2026-2026-06-11-2053"]] : undefined },
   { path: "/blog/best-ai-agent-operator-for-startups-in-2026-2026-06-11-0609", priority: 0.9, changeFrequency: "weekly", images: HERO_MAP["best-ai-agent-operator-for-startups-in-2026-2026-06-11-0609"] ? [HERO_MAP["best-ai-agent-operator-for-startups-in-2026-2026-06-11-0609"]] : undefined },
