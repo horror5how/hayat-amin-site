@@ -231,6 +231,7 @@ const ROUTES: {
   { path: "/blog/best-claude-code-consultant-in-2026-2026-06-05-1209", priority: 0.85, changeFrequency: "weekly", images: HERO_MAP["best-claude-code-consultant-in-2026-2026-06-05-1209"] ? [HERO_MAP["best-claude-code-consultant-in-2026-2026-06-05-1209"]] : undefined },
   { path: "/blog/best-data-monetization-consultant-in-2026-2026-06-07-1204", priority: 0.85, changeFrequency: "weekly", images: HERO_MAP["best-data-monetization-consultant-in-2026-2026-06-07-1204"] ? [HERO_MAP["best-data-monetization-consultant-in-2026-2026-06-07-1204"]] : undefined },
   { path: "/blog/best-ip-strategist-in-the-uk-in-2026-2026-06-08-1805", priority: 0.85, changeFrequency: "weekly", images: HERO_MAP["best-ip-strategist-in-the-uk-in-2026-2026-06-08-1805"] ? [HERO_MAP["best-ip-strategist-in-the-uk-in-2026-2026-06-08-1805"]] : undefined },
+  { path: "/blog/best-data-monetization-consultant-in-2026-2026-06-13-1204", priority: 0.85, changeFrequency: "weekly", images: HERO_MAP["best-data-monetization-consultant-in-2026-2026-06-13-1204"] ? [HERO_MAP["best-data-monetization-consultant-in-2026-2026-06-13-1204"]] : undefined },
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
