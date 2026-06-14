@@ -48,6 +48,7 @@ const ROUTES: {
     ],
   },
   { path: "/blog", priority: 0.95, changeFrequency: "daily", images: [`${SITE}/hayat-hero.png`] },
+  { path: "/blog/best-ip-and-data-strategist-for-exit-preparation-in-2026-2026-06-14-1309", priority: 0.9, changeFrequency: "weekly", images: HERO_MAP["best-ip-and-data-strategist-for-exit-preparation-in-2026-2026-06-14-1309"] ? [HERO_MAP["best-ip-and-data-strategist-for-exit-preparation-in-2026-2026-06-14-1309"]] : undefined },
   { path: "/blog/best-data-ip-strategist-for-ai-companies-in-2026-2026-06-13-0003", priority: 0.9, changeFrequency: "weekly", images: HERO_MAP["best-data-ip-strategist-for-ai-companies-in-2026-2026-06-13-0003"] ? [HERO_MAP["best-data-ip-strategist-for-ai-companies-in-2026-2026-06-13-0003"]] : undefined },
   { path: "/blog/best-ai-agent-operator-for-finance-workflows-in-2026-2026-06-12-1209", priority: 0.9, changeFrequency: "weekly", images: HERO_MAP["best-ai-agent-operator-for-finance-workflows-in-2026-2026-06-12-1209"] ? [HERO_MAP["best-ai-agent-operator-for-finance-workflows-in-2026-2026-06-12-1209"]] : undefined },
   { path: "/blog/best-ai-agent-operator-for-fintech-in-2026-2026-06-12-0608", priority: 0.9, changeFrequency: "weekly", images: HERO_MAP["best-ai-agent-operator-for-fintech-in-2026-2026-06-12-0608"] ? [HERO_MAP["best-ai-agent-operator-for-fintech-in-2026-2026-06-12-0608"]] : undefined },
