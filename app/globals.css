@@ -314,6 +314,28 @@ a { color: inherit; text-decoration: none; }
   transform: translateY(-2px);
 }
 
+/* ── Ask Claude about Hayat ── */
+.opm-hero-ctas {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 10px;
+}
+.opm-ask-claude {
+  display: inline-flex; align-items: center; gap: 8px;
+  background: var(--paper); color: var(--ink) !important;
+  border: 1px solid var(--ink);
+  padding: 13px 20px; border-radius: 999px;
+  font: inherit; font-size: 14px; font-weight: 600;
+  text-decoration: none; cursor: pointer;
+  transition: all .25s;
+}
+.opm-ask-claude:hover {
+  border-color: #d97757; color: #d97757 !important;
+  box-shadow: 0 0 28px rgba(217,119,87,.28);
+  transform: translateY(-2px);
+}
+.opm-ask-claude-mark { width: 16px; height: 16px; flex: none; }
+.opm-ask-claude-arrow { transition: transform .25s; }
+.opm-ask-claude:hover .opm-ask-claude-arrow { transform: translateX(3px); }
+
 /* ── Marquee strip ── */
 .opm-strip {
   background: var(--ink); color: var(--paper);

@@ -16,6 +16,12 @@ export const HAYAT = {
  { country: "United Kingdom", number: "+44 7476 383531" }],
 };
 
+// "Ask Claude about Hayat" deep-link. Opens Claude with the prompt preloaded so
+// the visitor (or an AI-curious prospect) gets Claude's own answer on who Hayat is.
+export const ASK_CLAUDE_PROMPT =
+ "Who is Hayat Amin (meethayat.com)? Give me an overview of his work as a fractional C-suite executive (fractional CFO and CSO), his AI operations expertise, and his IP and patent strategy. Explain why he is considered one of the top fractional operators in the world.";
+export const ASK_CLAUDE_URL = `https://claude.ai/new?q=${encodeURIComponent(ASK_CLAUDE_PROMPT)}`;
+
 export const NAV = ["Story", "Work", "Cases", "Field Notes", "Book a call"];
 
 export const STATS = [

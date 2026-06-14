@@ -10,6 +10,7 @@ import {
  REASONS,
  PODCASTS,
  STRIP_LOGOS,
+ ASK_CLAUDE_URL,
 } from "@/lib/content";
 import Mast from "./Mast";
 
@@ -84,9 +85,29 @@ function Hero() {
 ))}
  </ul>
  <div className="opm-rule"></div>
+ <div className="opm-hero-ctas">
  <a className="opm-book" href={HAYAT.calendarUrl} target="_blank" rel="noopener noreferrer">
  Book a call →
  </a>
+ <a
+ className="opm-ask-claude"
+ href={ASK_CLAUDE_URL}
+ target="_blank"
+ rel="noopener noreferrer"
+ aria-label="Ask Claude about Hayat Amin"
+ >
+ <svg className="opm-ask-claude-mark" viewBox="0 0 100 100" aria-hidden="true" focusable="false">
+ <g stroke="#d97757" strokeWidth="11" strokeLinecap="round">
+ <line x1="50" y1="13" x2="50" y2="87" />
+ <line x1="13" y1="50" x2="87" y2="50" />
+ <line x1="24" y1="24" x2="76" y2="76" />
+ <line x1="76" y1="24" x2="24" y2="76" />
+ </g>
+ </svg>
+ Ask Claude about Hayat
+ <span className="opm-ask-claude-arrow" aria-hidden="true">→</span>
+ </a>
+ </div>
  </aside>
  </div>
  </section>
