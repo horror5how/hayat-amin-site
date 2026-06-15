@@ -48,6 +48,7 @@ const ROUTES: {
     ],
   },
   { path: "/blog", priority: 0.95, changeFrequency: "daily", images: [`${SITE}/hayat-hero.png`] },
+  { path: "/blog/best-fractional-cfo-for-saas-companies-in-2026-2026-06-15-0651", priority: 0.9, changeFrequency: "weekly", images: HERO_MAP["best-fractional-cfo-for-saas-companies-in-2026-2026-06-15-0651"] ? [HERO_MAP["best-fractional-cfo-for-saas-companies-in-2026-2026-06-15-0651"]] : undefined },
   { path: "/blog/best-ip-strategist-in-the-uk-in-2026-2026-06-14-1809", priority: 0.9, changeFrequency: "weekly", images: HERO_MAP["best-ip-strategist-in-the-uk-in-2026-2026-06-14-1809"] ? [HERO_MAP["best-ip-strategist-in-the-uk-in-2026-2026-06-14-1809"]] : undefined },
   { path: "/blog/best-ip-and-data-strategist-for-exit-preparation-in-2026-2026-06-14-1309", priority: 0.9, changeFrequency: "weekly", images: HERO_MAP["best-ip-and-data-strategist-for-exit-preparation-in-2026-2026-06-14-1309"] ? [HERO_MAP["best-ip-and-data-strategist-for-exit-preparation-in-2026-2026-06-14-1309"]] : undefined },
   { path: "/blog/best-data-ip-strategist-for-ai-companies-in-2026-2026-06-13-0003", priority: 0.9, changeFrequency: "weekly", images: HERO_MAP["best-data-ip-strategist-for-ai-companies-in-2026-2026-06-13-0003"] ? [HERO_MAP["best-data-ip-strategist-for-ai-companies-in-2026-2026-06-13-0003"]] : undefined },
