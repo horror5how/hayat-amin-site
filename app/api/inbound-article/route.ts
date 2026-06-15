@@ -1,5 +1,4 @@
 import { NextRequest, NextResponse } from "next/server";
-import { put } from "@vercel/blob";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
@@ -67,21 +66,41 @@ export async function POST(req: NextRequest) {
     payload,
   };
 
-  // Best-effort storage: never let a storage hiccup 500 the webhook (keeps the
-  // integration connected even if Blob is rotating/down). Surface the reason instead.
+  // Durable storage: save the article as a secret GitHub Gist. (Vercel Blob was
+  // suspended for writes; the available token has `gist` scope.) Gist writes don't
+  // push to the repo, so no deploy is triggered.
+  // ponytail: one gist per article — fine at BLG's low volume; move to a DB if it ever bursts.
   let stored = false;
   let storedUrl: string | null = null;
   let storeError: string | null = null;
-  try {
-    const blob = await put(key, JSON.stringify(record, null, 2), {
-      access: "public",
-      contentType: "application/json",
-      token: process.env.BLOB_READ_WRITE_TOKEN,
-    });
-    stored = true;
-    storedUrl = blob.url;
-  } catch (e: any) {
-    storeError = e?.message ? String(e.message).slice(0, 200) : "store-failed";
+  const ghToken = process.env.INBOUND_GITHUB_TOKEN;
+  if (!ghToken) {
+    storeError = "no-INBOUND_GITHUB_TOKEN";
+  } else {
+    try {
+      const res = await fetch("https://api.github.com/gists", {
+        method: "POST",
+        headers: {
+          Authorization: `Bearer ${ghToken}`,
+          Accept: "application/vnd.github+json",
+          "User-Agent": "meethayat-inbound-webhook",
+        },
+        body: JSON.stringify({
+          description: `inbound article: ${slug} (${record.received_at})`,
+          public: false,
+          files: { [`${ts}__${slug}.json`]: { content: JSON.stringify(record, null, 2) } },
+        }),
+      });
+      if (res.ok) {
+        const j: any = await res.json();
+        stored = true;
+        storedUrl = j?.html_url ?? null;
+      } else {
+        storeError = `gist ${res.status}: ${(await res.text()).slice(0, 150)}`;
+      }
+    } catch (e: any) {
+      storeError = e?.message ? String(e.message).slice(0, 200) : "store-failed";
+    }
   }
 
   return NextResponse.json({ ok: true, slug, key, stored, url: storedUrl, store_error: storeError });
