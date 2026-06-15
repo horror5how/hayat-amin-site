@@ -41,7 +41,7 @@ function buildPages(): PageImages[] {
     images: [
       { loc: `${SITE}/hayat-hero.png`, title: "Hayat Amin, Fractional CFO, IP Strategist and AI Agent Operator", caption: "Hayat Amin portrait" },
       { loc: `${SITE}/authors/hayat-amin/hayat-amin-speaking-event.jpg`, title: "Hayat Amin speaking at an event", caption: "Hayat Amin speaking" },
-      { loc: `${SITE}/authors/hayat-amin/hayat-amin-founder-beyond-elevation-travel.jpg`, title: "Hayat Amin, founder, travelling", caption: "Hayat Amin founder" },
+      { loc: `${SITE}/authors/hayat-amin/hayat-amin-founder-travel.jpg`, title: "Hayat Amin, founder, travelling", caption: "Hayat Amin founder" },
       { loc: `${SITE}/authors/hayat-amin/hayat-amin-fractional-cfo-dubai-portrait.jpg`, title: "Hayat Amin, fractional CFO, Dubai portrait", caption: "Hayat Amin in Dubai" },
     ],
   });

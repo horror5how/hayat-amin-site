@@ -65,5 +65,18 @@ jobs:
             echo "No cache change to commit."
           else
             git commit -m "chore(indexing): update indexing cache after deploy [skip ci]"
-            git push origin HEAD:main
+            # The push races concurrent publishers (inbound + scheduled content).
+            # Rebase first, then retry up to 5x with jittered backoff so a transient
+            # non-fast-forward does not hard-fail an otherwise-successful deploy.
+            pushed=0
+            for i in 1 2 3 4 5; do
+              if git pull --rebase --autostash origin main && git push origin HEAD:main; then
+                pushed=1; break
+              fi
+              echo "cache push attempt $i lost the race, retrying..."
+              sleep $((RANDOM % 5 + 2))
+            done
+            if [ "$pushed" != "1" ]; then
+              echo "::warning::indexing cache push could not win the race after 5 attempts; site already deployed, cache will refresh next run."
+            fi
           fi

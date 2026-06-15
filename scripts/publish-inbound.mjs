@@ -164,13 +164,17 @@ async function main() {
       }
 
       const title = payload.title || record.title || "Untitled";
-      const bodyHtml = deDash(payload.content || payload.contentHtml || payload.html || payload.body || payload.body_html || "");
+      // BabyLoveGrowth sends the article body as `content_html` and repeats the
+      // title as a leading <h1>. The template already renders the title as the
+      // page <h1>, so strip the first <h1> to avoid a duplicate heading.
+      const rawHtml = payload.content_html || payload.contentHtml || payload.content || payload.html || payload.body || payload.body_html || "";
+      const bodyHtml = deDash(rawHtml.replace(/<h1\b[^>]*>[\s\S]*?<\/h1>/i, "").trim());
       if (!bodyHtml || bodyHtml.replace(/<[^>]+>/g, "").trim().length < 40) {
         log(`SKIP ${g.id} — no usable content (keys: ${Object.keys(payload).join(",")})`);
         continue;
       }
       const desc = (payload.metaDescription || payload.description || payload.excerpt || payload.summary || firstParaText(bodyHtml)).slice(0, 300);
-      const when = new Date(payload.publishedAt || payload.date || record.received_at || Date.now());
+      const when = new Date(payload.createdAt || payload.publishedAt || payload.date || record.received_at || Date.now());
       const date = when.toISOString().slice(0, 10);
       // Use BabyLoveGrowth's exact slug. The published URL must match the slug
       // BLG expects in the sitemap or it never credits the article as published.
@@ -222,10 +226,21 @@ async function main() {
   try { execSync(`git -C ${JSON.stringify(REPO)} pull --rebase --autostash origin main`, { stdio: "inherit" }); } catch {}
   execSync(`git -C ${JSON.stringify(REPO)} push origin main`, { stdio: "inherit" });
 
-  // mark gists published only after the push succeeds
+  // Mark gists published only after the push succeeds. The article has ALREADY
+  // shipped at this point, so a gist-PATCH failure (e.g. a GitHub rate-limit)
+  // must NEVER fail the run. Retry 3x with backoff, then warn and move on.
   for (const w of written) {
-    try { await gh(token, `/gists/${w.gistId}`, "PATCH", { description: `${w.description} [published]` }); }
-    catch (e) { log(`WARN could not mark gist ${w.gistId} published: ${e.message}`); }
+    let marked = false;
+    for (let attempt = 1; attempt <= 3 && !marked; attempt++) {
+      try {
+        await gh(token, `/gists/${w.gistId}`, "PATCH", { description: `${w.description} [published]` });
+        marked = true;
+      } catch (e) {
+        log(`WARN mark gist ${w.gistId} attempt ${attempt}/3 failed: ${e.message}`);
+        if (attempt < 3) await new Promise((r) => setTimeout(r, attempt * 3000 + Math.floor(Math.random() * 2000)));
+      }
+    }
+    if (!marked) log(`WARN could not mark gist ${w.gistId} published after 3 tries; article already live, will retry next run`);
   }
   log(`DONE — published ${written.length}, pushed to main (deploy.yml will ship)`);
 }

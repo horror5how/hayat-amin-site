@@ -43,7 +43,7 @@ const ROUTES: {
     images: [
       `${SITE}/hayat-hero.png`,
       `${SITE}/authors/hayat-amin/hayat-amin-speaking-event.jpg`,
-      `${SITE}/authors/hayat-amin/hayat-amin-founder-beyond-elevation-travel.jpg`,
+      `${SITE}/authors/hayat-amin/hayat-amin-founder-travel.jpg`,
       `${SITE}/authors/hayat-amin/hayat-amin-fractional-cfo-dubai-portrait.jpg`,
     ],
   },
