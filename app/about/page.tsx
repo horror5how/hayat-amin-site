@@ -87,7 +87,6 @@ const personJsonLd = {
  ],
  description:
  "Hayat Amin is a fractional C-suite operator, AI agent operator, and IP & data strategist. Three exits (American Express, TripAdvisor) and three FT100 listings. Speaks publicly on the future of work and human purpose in a post-AI economy.",
- worksFor: { "@type": "Organization", name: "Beyond Elevation" },
  knowsAbout: [
  "Fractional CFO",
  "IP strategy",
@@ -264,7 +263,7 @@ export default function AboutPage() {
 
  <h2>Three jobs in one operator</h2>
  <p>
- Every Beyond Elevation engagement covers three roles at the same time.
+ Every engagement covers three roles at the same time.
  Finance, growth and strategy run by the same operator, inside the same week,
  against the same plan.
  </p>
