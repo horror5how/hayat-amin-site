@@ -699,5 +699,19 @@
     "description": "Discover what is explainable AI and why it’s essential for decision-makers. Enhance transparency and trust in AI systems today!",
     "date": "2026-06-15",
     "hero": "/what-is-explainable-ai-a-guide-for-decision-makers.jpg"
+  },
+  {
+    "slug": "board-reporting-for-tech-startups-2026-guide",
+    "title": "Board reporting for tech startups: 2026 guide",
+    "description": "Unlock strategic success with our board reporting tech startup guide. Streamline preparation and drive effective governance in your next meeting.",
+    "date": "2026-06-15",
+    "hero": "/board-reporting-for-tech-startups-2026-guide.jpg"
+  },
+  {
+    "slug": "the-role-of-ai-in-software-development-2026-guide",
+    "title": "The role of AI in software development: 2026 guide",
+    "description": "Explore the evolving role of AI in software development by 2026. Discover how AI tools boost productivity and transform developer roles.",
+    "date": "2026-06-15",
+    "hero": "/the-role-of-ai-in-software-development-2026-guide.jpg"
   }
 ]
