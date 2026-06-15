@@ -713,5 +713,12 @@
     "description": "Explore the evolving role of AI in software development by 2026. Discover how AI tools boost productivity and transform developer roles.",
     "date": "2026-06-15",
     "hero": "/the-role-of-ai-in-software-development-2026-guide.jpg"
+  },
+  {
+    "slug": "how-ai-reduces-business-costs-2026-sme-guide",
+    "title": "How AI reduces business costs: 2026 SME guide",
+    "description": "Discover how AI reduces business costs in 2026 with practical strategies for SMEs. Learn ways to save money and boost efficiency!",
+    "date": "2026-06-14",
+    "hero": "/how-ai-reduces-business-costs-2026-sme-guide.jpg"
   }
 ]
