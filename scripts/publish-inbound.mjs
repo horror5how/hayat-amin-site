@@ -172,9 +172,9 @@ async function main() {
       const desc = (payload.metaDescription || payload.description || payload.excerpt || payload.summary || firstParaText(bodyHtml)).slice(0, 300);
       const when = new Date(payload.publishedAt || payload.date || record.received_at || Date.now());
       const date = when.toISOString().slice(0, 10);
-      const stamp = when.toISOString().replace(/[:T]/g, "-").slice(0, 16); // YYYY-MM-DD-HH-MM
-      const base = slugify(record.slug || payload.slug || title);
-      let slug = `${base}-${stamp.replace(/-(\d\d)-(\d\d)$/, "-$1$2")}`; // base-YYYY-MM-DD-HHMM
+      // Use BabyLoveGrowth's exact slug. The published URL must match the slug
+      // BLG expects in the sitemap or it never credits the article as published.
+      const slug = slugify(record.slug || payload.slug || title);
       if (existing.has(slug) || existsSync(resolve(REPO, "app/blog", slug))) {
         log(`SKIP ${g.id} — slug already published: ${slug}`);
         await gh(token, `/gists/${g.id}`, "PATCH", { description: `${g.description} [published]` });

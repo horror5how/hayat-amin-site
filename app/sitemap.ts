@@ -239,9 +239,22 @@ const ROUTES: {
   { path: "/blog/best-data-monetization-consultant-in-2026-2026-06-13-1204", priority: 0.85, changeFrequency: "weekly", images: HERO_MAP["best-data-monetization-consultant-in-2026-2026-06-13-1204"] ? [HERO_MAP["best-data-monetization-consultant-in-2026-2026-06-13-1204"]] : undefined },
 ];
 
+// Auto-include every post in blog-posts.json that is not already an explicit
+// ROUTE above. Guarantees webhook-published articles (BabyLoveGrowth) land in
+// the sitemap — external tools verify the article slug here before crediting it
+// as published. Dedupes against ROUTES so hand-tuned entries keep their config.
+const BLOG_ROUTES = (postsData as PostRecord[])
+  .filter((p) => p.slug && !ROUTES.some((r) => r.path === `/blog/${p.slug}`))
+  .map((p) => ({
+    path: `/blog/${p.slug}`,
+    priority: 0.85,
+    changeFrequency: "weekly" as const,
+    images: HERO_MAP[p.slug] ? [HERO_MAP[p.slug]] : undefined,
+  }));
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
-  return ROUTES.map((r) => ({
+  return [...ROUTES, ...BLOG_ROUTES].map((r) => ({
     url: `${SITE}${r.path}`,
     lastModified: now,
     changeFrequency: r.changeFrequency,
