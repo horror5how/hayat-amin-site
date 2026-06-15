@@ -26,8 +26,13 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ ok: false, error: "server-not-configured" }, { status: 500 });
   }
 
+  // Accept the token three ways so any webhook UI can connect:
+  // Authorization: Bearer <t>, ?token=<t> query param, or x-inbound-token / x-webhook-secret header.
   const auth = req.headers.get("authorization") || "";
-  const token = auth.replace(/^Bearer\s+/i, "").trim();
+  const headerToken = auth.replace(/^Bearer\s+/i, "").trim();
+  const queryToken = (new URL(req.url).searchParams.get("token") || "").trim();
+  const altToken = (req.headers.get("x-inbound-token") || req.headers.get("x-webhook-secret") || "").trim();
+  const token = headerToken || queryToken || altToken;
   if (token !== expected) return unauthorized();
 
   let payload: any;
@@ -62,11 +67,22 @@ export async function POST(req: NextRequest) {
     payload,
   };
 
-  const blob = await put(key, JSON.stringify(record, null, 2), {
-    access: "public",
-    contentType: "application/json",
-    token: process.env.BLOB_READ_WRITE_TOKEN,
-  });
+  // Best-effort storage: never let a storage hiccup 500 the webhook (keeps the
+  // integration connected even if Blob is rotating/down). Surface the reason instead.
+  let stored = false;
+  let storedUrl: string | null = null;
+  let storeError: string | null = null;
+  try {
+    const blob = await put(key, JSON.stringify(record, null, 2), {
+      access: "public",
+      contentType: "application/json",
+      token: process.env.BLOB_READ_WRITE_TOKEN,
+    });
+    stored = true;
+    storedUrl = blob.url;
+  } catch (e: any) {
+    storeError = e?.message ? String(e.message).slice(0, 200) : "store-failed";
+  }
 
-  return NextResponse.json({ ok: true, slug, key, url: blob.url });
+  return NextResponse.json({ ok: true, slug, key, stored, url: storedUrl, store_error: storeError });
 }
