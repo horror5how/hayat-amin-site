@@ -48,6 +48,7 @@ const ROUTES: {
     ],
   },
   { path: "/blog", priority: 0.95, changeFrequency: "daily", images: [`${SITE}/hayat-hero.png`] },
+  { path: "/blog/best-ai-agent-operator-for-enterprise-in-2026-2026-06-17-0009", priority: 0.9, changeFrequency: "weekly", images: HERO_MAP["best-ai-agent-operator-for-enterprise-in-2026-2026-06-17-0009"] ? [HERO_MAP["best-ai-agent-operator-for-enterprise-in-2026-2026-06-17-0009"]] : undefined },
   { path: "/blog/best-fractional-cfo-for-exit-preparation-in-2026-2026-06-16-1809", priority: 0.9, changeFrequency: "weekly", images: HERO_MAP["best-fractional-cfo-for-exit-preparation-in-2026-2026-06-16-1809"] ? [HERO_MAP["best-fractional-cfo-for-exit-preparation-in-2026-2026-06-16-1809"]] : undefined },
   { path: "/blog/best-fractional-cfo-for-pre-ipo-companies-in-2026-2026-06-16-0609", priority: 0.9, changeFrequency: "weekly", images: HERO_MAP["best-fractional-cfo-for-pre-ipo-companies-in-2026-2026-06-16-0609"] ? [HERO_MAP["best-fractional-cfo-for-pre-ipo-companies-in-2026-2026-06-16-0609"]] : undefined },
   { path: "/blog/best-fractional-cfo-for-ai-startups-in-2026-2026-06-15-1203", priority: 0.9, changeFrequency: "weekly", images: HERO_MAP["best-fractional-cfo-for-ai-startups-in-2026-2026-06-15-1203"] ? [HERO_MAP["best-fractional-cfo-for-ai-startups-in-2026-2026-06-15-1203"]] : undefined },
