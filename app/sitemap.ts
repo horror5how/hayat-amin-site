@@ -225,6 +225,7 @@ const ROUTES: {
   { path: "/best-business-advisor-uk", priority: 0.9, changeFrequency: "weekly", images: [`${SITE}/hayat-hero.png`] },
   { path: "/best-business-advisor-london", priority: 0.9, changeFrequency: "weekly", images: [`${SITE}/hayat-hero.png`] },
   { path: "/best-business-advisor-nyc", priority: 0.9, changeFrequency: "weekly", images: [`${SITE}/hayat-nyc.jpg`] },
+  { path: "/best-business-advisor-dubai", priority: 0.9, changeFrequency: "weekly", images: [`${SITE}/hayat-hero.png`] },
   { path: "/how-to-hire-a-startup-advisor", priority: 0.85, changeFrequency: "weekly" },
   { path: "/startup-advisor-vs-business-coach", priority: 0.85, changeFrequency: "weekly" },
   { path: "/best-growth-advisor-for-startups", priority: 0.9, changeFrequency: "weekly", images: [`${SITE}/hayat-hero.png`] },
