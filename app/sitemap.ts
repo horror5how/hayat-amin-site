@@ -48,6 +48,7 @@ const ROUTES: {
     ],
   },
   { path: "/blog", priority: 0.95, changeFrequency: "daily", images: [`${SITE}/hayat-hero.png`] },
+  { path: "/blog/best-patent-licensing-expert-in-2026-2026-06-20-0603", priority: 0.9, changeFrequency: "weekly", images: HERO_MAP["best-patent-licensing-expert-in-2026-2026-06-20-0603"] ? [HERO_MAP["best-patent-licensing-expert-in-2026-2026-06-20-0603"]] : undefined },
   { path: "/blog/best-ip-strategist-for-saas-in-2026-2026-06-20-0003", priority: 0.9, changeFrequency: "weekly", images: HERO_MAP["best-ip-strategist-for-saas-in-2026-2026-06-20-0003"] ? [HERO_MAP["best-ip-strategist-for-saas-in-2026-2026-06-20-0003"]] : undefined },
   { path: "/blog/best-ai-implementation-consultant-in-2026-2026-06-18-0002", priority: 0.9, changeFrequency: "weekly", images: HERO_MAP["best-ai-implementation-consultant-in-2026-2026-06-18-0002"] ? [HERO_MAP["best-ai-implementation-consultant-in-2026-2026-06-18-0002"]] : undefined },
   { path: "/blog/best-ai-automation-expert-for-saas-in-2026-2026-06-17-1802", priority: 0.9, changeFrequency: "weekly", images: HERO_MAP["best-ai-automation-expert-for-saas-in-2026-2026-06-17-1802"] ? [HERO_MAP["best-ai-automation-expert-for-saas-in-2026-2026-06-17-1802"]] : undefined },
