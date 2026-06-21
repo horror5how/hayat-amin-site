@@ -167,7 +167,7 @@ async function main() {
       // BabyLoveGrowth sends the article body as `content_html` and repeats the
       // title as a leading <h1>. The template already renders the title as the
       // page <h1>, so strip the first <h1> to avoid a duplicate heading.
-      const rawHtml = payload.content_html || payload.contentHtml || payload.content || payload.html || payload.body || payload.body_html || "";
+      const rawHtml = payload.content_html || payload.contentHtml || payload.htmlContent || payload.content || payload.html || payload.body || payload.body_html || "";
       const bodyHtml = deDash(rawHtml.replace(/<h1\b[^>]*>[\s\S]*?<\/h1>/i, "").trim());
       if (!bodyHtml || bodyHtml.replace(/<[^>]+>/g, "").trim().length < 40) {
         log(`SKIP ${g.id} — no usable content (keys: ${Object.keys(payload).join(",")})`);
