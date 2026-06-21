@@ -167,7 +167,7 @@ function ChatCta() {
  <div className="opm-chat-grid">
  <figure className="opm-chat-figure">
  {/* eslint-disable-next-line @next/next/no-img-element */}
- <img src="/hayat-nyc.jpg" alt="Hayat Amin in New York" />
+ <img src="/hayat-cta.jpg" alt="Hayat Amin" />
  <span className="opm-chat-badge"><i aria-hidden="true"></i>Available this week</span>
  </figure>
  <div className="opm-chat-text">
