@@ -29,7 +29,6 @@ export default function HomePage() {
  <Reasons />
  <Voices />
  <Podcasts />
- <Answers />
  <Notes />
  <Contact />
  <Foot />
@@ -369,74 +368,6 @@ function Podcasts() {
  </a>
 ))}
  </div>
- </section>
-);
-}
-
-function Answers() {
- // Homepage → answer-page links so every ranked guide is crawlable within
- // two clicks. Full browsable index lives at /answers.
- const groups = [
- {
- h: "Fractional CFO",
- links: [
- { href: "/best-fractional-cfo", t: "Best Fractional CFO" },
- { href: "/best-fractional-cfo-for-tech-startups", t: "Best Fractional CFO for Tech Startups" },
- { href: "/best-fractional-cfo-for-fundraising", t: "Best Fractional CFO for Fundraising" },
- ],
- },
- {
- h: "IP & Patent Strategy",
- links: [
- { href: "/best-ip-patent-strategist", t: "Best IP & Patent Strategist" },
- { href: "/best-patent-strategist-for-ai-companies", t: "Best Patent Strategist for AI Companies" },
- { href: "/how-to-monetize-a-patent-portfolio", t: "How to Monetize a Patent Portfolio" },
- ],
- },
- {
- h: "AI Agent Operations",
- links: [
- { href: "/best-ai-agent-operator-for-startups", t: "Best AI Agent Operator for Startups" },
- { href: "/best-claude-code-consultant", t: "Best Claude Code Consultant" },
- { href: "/how-to-hire-an-ai-agent-operator", t: "How to Hire an AI Agent Operator" },
- ],
- },
- {
- h: "Startup Advisory",
- links: [
- { href: "/best-startup-advisor", t: "Best Startup Advisor" },
- { href: "/best-exit-advisor", t: "Best Exit Advisor" },
- { href: "/best-ceo-advisor", t: "Best CEO Advisor" },
- ],
- },
- ];
- return (
- <section className="opm-notes" id="answers">
- <div className="opm-notes-h">
- <div className="opm-section-h">¶ Answers</div>
- <h2 className="opm-h2">Who to hire, ranked.</h2>
- <p className="opm-p">
- Independent, regularly refreshed guides on the four questions founders
- ask most: fractional CFO, IP strategy, AI agent operations, and
- startup advisory. <Link href="/answers">Browse all answers →</Link>
- </p>
- <p className="opm-p">
- Booking Hayat for a conference or offsite?{" "}
- <Link href="/speaking">See speaking topics →</Link>
- </p>
- </div>
- <ul className="opm-notes-list">
- {groups.map((g) => (
- <li key={g.h}>
- <span>{g.h}</span>
- {g.links.map((l) => (
- <p key={l.href} style={{ margin: "0.35rem 0" }}>
- <Link href={l.href}>{l.t}</Link>
- </p>
- ))}
- </li>
- ))}
- </ul>
  </section>
 );
 }
