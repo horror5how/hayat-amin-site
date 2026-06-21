@@ -1062,5 +1062,26 @@
     "description": "Discover key examples of successful tech exits in 2026. Learn traits from companies like Skio and Confluent to boost your exit strategy.",
     "date": "2026-06-18",
     "hero": "/examples-of-successful-tech-exits-2026-founder-guide.jpg"
+  },
+  {
+    "slug": "how-to-defend-patent-infringement-as-a-tech-startup",
+    "title": "How to defend patent infringement as a tech startup",
+    "description": "Learn how to defend patent infringement as a tech startup. Discover essential strategies and tools to protect your innovations and sustain growth.",
+    "date": "2026-06-21",
+    "hero": "/how-to-defend-patent-infringement-as-a-tech-startup.jpg"
+  },
+  {
+    "slug": "chatbot-vs-ai-agent-what-businesses-need-to-know",
+    "title": "Chatbot vs AI agent: what businesses need to know",
+    "description": "Discover what is a chatbot vs AI agent and how to choose the right tool for your business needs to avoid wasted resources.",
+    "date": "2026-06-20",
+    "hero": "/chatbot-vs-ai-agent-what-businesses-need-to-know.jpg"
+  },
+  {
+    "slug": "what-is-a-foundational-ai-model-the-2026-guide",
+    "title": "What is a foundational AI model: the 2026 guide",
+    "description": "Discover what a foundational AI model is and how it transforms tasks in our 2026 guide. Learn its significance in modern AI advancements!",
+    "date": "2026-06-19",
+    "hero": "/what-is-a-foundational-ai-model-the-2026-guide.jpg"
   }
 ]
