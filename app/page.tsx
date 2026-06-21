@@ -167,8 +167,13 @@ function ChatCta() {
  return (
  <section className="opm-chat">
  <div className="opm-chat-grid">
+ <figure className="opm-chat-figure">
+ {/* eslint-disable-next-line @next/next/no-img-element */}
+ <img src="/hayat-nyc.jpg" alt="Hayat Amin in New York" />
+ <span className="opm-chat-badge"><i aria-hidden="true"></i>Available this week</span>
+ </figure>
  <div className="opm-chat-text">
- <span className="opm-section-h">¶ Direct line</span>
+ <span className="opm-chat-kicker">Direct line</span>
  <h2 className="opm-chat-h">
  Have a chat <em>with me?</em>
  </h2>
@@ -186,10 +191,6 @@ function ChatCta() {
  </div>
  <p className="opm-chat-sig">Hayat Amin · Fractional CFO and AI Operator</p>
  </div>
- <figure className="opm-chat-figure">
- {/* eslint-disable-next-line @next/next/no-img-element */}
- <img src="/hayat-nyc.jpg" alt="Hayat Amin in New York" />
- </figure>
  </div>
  </section>
 );
