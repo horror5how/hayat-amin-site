@@ -13,6 +13,7 @@ import {
  ASK_CLAUDE_URL,
 } from "@/lib/content";
 import Mast from "./Mast";
+import ChatPopup from "./ChatPopup";
 
 export default function HomePage() {
  return (
@@ -32,6 +33,7 @@ export default function HomePage() {
  <Notes />
  <Contact />
  <Foot />
+ <ChatPopup />
  </div>
 );
 }
@@ -55,7 +57,7 @@ function Hero() {
  <dl className="opm-cutout-meta">
  <div><dt>Name</dt><dd>Hayat Amin</dd></div>
  <div><dt>Cities</dt><dd>New York · London</dd></div>
- <div><dt>Profession</dt><dd>Fractional C-Suite &amp; IP Strategist</dd></div>
+ <div><dt>Profession</dt><dd>Fractional C-Suite and AI Operator</dd></div>
  </dl>
  </div>
  <aside className="opm-hero-side">
@@ -67,7 +69,7 @@ function Hero() {
  Hayat removes business pain, risk, and confusion fast.
  </p>
  <p className="opm-lead opm-lead-2">
- 20 years inside high-growth tech. Three exits. Three FT100 listings.
+ 20 years inside high-growth tech, 3 exits as a non-founder, and 3× FT100 listings.
  </p>
  <div className="opm-rule"></div>
  <p className="opm-pillars-intro">
@@ -145,7 +147,7 @@ function Manifesto() {
  Twenty years to build the operator <em>Hayat Amin</em> is.
  </h2>
  <dl className="opm-mani-meta">
- <div><dt>Exits</dt><dd>03</dd></div>
+ <div><dt>Exits</dt><dd>04</dd></div>
  <div><dt>FT100</dt><dd>3×</dd></div>
  <div><dt>Years</dt><dd>20</dd></div>
  <div><dt>Avg y/y</dt><dd>300%</dd></div>
@@ -174,9 +176,15 @@ function ChatCta() {
  Twenty minutes. No deck, no pitch. Just the problem on your desk
  and the operator who has solved it before.
  </p>
+ <div className="opm-chat-ctas">
  <a className="opm-chat-cta" href={HAYAT.calendarUrl} target="_blank" rel="noopener noreferrer">
  Book a call →
  </a>
+ <a className="opm-chat-ask" href={ASK_CLAUDE_URL} target="_blank" rel="noopener noreferrer">
+ Ask Claude about Hayat →
+ </a>
+ </div>
+ <p className="opm-chat-sig">Hayat Amin · Fractional CFO and AI Operator</p>
  </div>
  <figure className="opm-chat-figure">
  {/* eslint-disable-next-line @next/next/no-img-element */}

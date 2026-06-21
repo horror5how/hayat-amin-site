@@ -2,11 +2,11 @@ export const HAYAT = {
  name: "Hayat Amin",
  roles: ["Fractional C-suite", "IP & Data Strategist", "AI Agent Operator"],
  rolesShort: ["Modern CFO", "IP & Data", "AI Agents"],
- oneLiner: "20 years in innovation & tech. 3 exits. 3 FT100 listings.",
+ oneLiner: "20 years in innovation & tech. 4 exits. 3 FT100 listings.",
  tagline: "Hi, I'm Hayat Amin.",
- bio: "Hayat Amin removes business pain, risk, and confusion fast. He is a CFO with twenty years inside high-growth technology, three exits (acquirers include American Express and TripAdvisor), and three FT100 listings.",
+ bio: "Hayat Amin removes business pain, risk, and confusion fast. He is a CFO with twenty years inside high-growth technology, four exits (acquirers include American Express and TripAdvisor), and three FT100 listings.",
  leadBio:
- "Hayat removes business pain, risk, and confusion fast.\n20 years inside high-growth tech. Three exits. Three FT100 listings.",
+ "Hayat removes business pain, risk, and confusion fast.\n20 years inside high-growth tech, 3 exits as a non-founder, and 3× FT100 listings.",
  locations: ["New York", "London", "Dubai"],
  email: "hayat@beyondelevation.com",
  calendar: "usemotion.com/meet/hayat-amin/be",
@@ -25,7 +25,7 @@ export const ASK_CLAUDE_URL = `https://claude.ai/new?q=${encodeURIComponent(ASK_
 export const NAV = ["Story", "Work", "Cases", "Field Notes", "Book a call"];
 
 export const STATS = [
- { n: "3", l: "High-profile exits" },
+ { n: "4", l: "High-profile exits" },
  { n: "3×", l: "FT100 listings" },
  { n: "20", l: "Years in tech" },
  { n: "300%", l: "Avg y/y growth" },
@@ -76,10 +76,10 @@ export const CASES = [
  { tag: "CFO · Fintech", t: "Cake → American Express", b: "Transaction-heavy fintech infrastructure. CFO from very early stage. The diligence team had nothing to attack.", stamp: "EXITED" as const },
  { tag: "Head of Finance · Travel-tech", t: "Tripbod → TripAdvisor", b: "Travel-tech platform built around a mine of proprietary data. Hayat ran finance through to acquisition.", stamp: "EXITED" as const },
  { tag: "Portfolio Finance Director · Accountancy", t: "iHorizon → Cooper Parry", b: "Pioneer in accounting, taxation and advisory for hyper-growth tech in the UK & US. 10× growth since Hayat joined. UK's largest tech-focused accountancy.", stamp: "EXITED" as const },
- { tag: "IP strategy · RF software", t: "DGS (Washington DC unicorn)", b: "Next-gen software platform characterising the radio-frequency environment. Hayat helped DGS build and execute the strategy around their patent portfolio. Exit talks ongoing." },
+ { tag: "CFO · RF software", t: "DGS (Washington DC unicorn)", b: "Next-gen software platform characterising the radio-frequency environment. Hayat served as CFO and helped DGS build and execute the strategy around their patent portfolio. Exit talks ongoing." },
  { tag: "CSO · Grants platform", t: "Grantify (FT100 #46)", b: "One of the largest grant platforms in the world. 66% of all successful UK grants run through it. Hayat led data valuation, fundraise, strategy, and partnerships.", stamp: "SECONDARIES" as const },
  { tag: "CSO · Consumer data", t: "Nxtech (18.5B data points)", b: "85% of the US population. Hayat led data monetisation, valuation, fundraise, and reporting, repositioning the asset from ad-targeting to enterprise licensing." },
- { tag: "Finance leadership · E-commerce", t: "European e-commerce (FT100 #96)", b: "One of the fastest-growing e-commerce companies in Europe. Hayat built inventory and stock-accounting systems, unit-economics models, and led finance through scale." },
+ { tag: "President of IP · Logistic tech", t: "Position Imaging", b: "Has raised around $150m building some of the most exciting and important technology for anything that moves." },
  { tag: "Biotech · Health", t: "Thriva (FT100 #3)", b: "Third fastest-growing company in Europe. Biotech category leader." },
  { tag: "DTC · Hi-tech apparel", t: "L'estrange (FT100 #94)", b: "94th fastest-growing company in Europe. Hi-tech apparel built for the modern operator." }];
 
@@ -111,7 +111,7 @@ export const PODCASTS = [
  href: "https://www.youtube.com/watch?v=1meO4fW7294",
  }];
 
-export const STORY = `Hayat Amin specialises in removing business pain, risk, and confusion fast. He is a CFO with twenty years across high-growth technology, three exits (including to American Express and TripAdvisor), and three FT100 listings.
+export const STORY = `Hayat Amin specialises in removing business pain, risk, and confusion fast. He is a CFO with twenty years across high-growth technology, four exits (including to American Express and TripAdvisor), and three FT100 listings.
 
 Most operators are strong in one discipline. Hayat runs five at once: finance, strategy and GTM, IP and data, investor relations, and hands-on execution. He has done it across Europe, the US, and Sub-Saharan Africa, at an average of 300% year-on-year growth.`;
 
@@ -121,7 +121,7 @@ export const FIELD_NOTES = [
  { d: "No. 045", t: "AI tourism", b: "What separates a deployed agent from a ChatGPT subscription. The difference is not the model." }];
 
 export const REASONS = [
- { n: "01", t: "Billions in company valuations", b: "Exited three separate companies across fintech, AI, travel-tech and big data." },
+ { n: "01", t: "Billions in company valuations", b: "Exited four separate companies across fintech, AI, travel-tech and big data." },
  { n: "02", t: "3× FT100", b: "Took three companies to the top 100 of Europe's fastest-growing companies." },
  { n: "03", t: "20 years of experience", b: "Hard-hitting experience across US and UK companies, at every stage of the journey." },
  { n: "04", t: "60% more likely to fundraise", b: "Companies working with Hayat are 60% more likely to close external funding." },
