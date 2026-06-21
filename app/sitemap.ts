@@ -253,6 +253,7 @@ const ROUTES: {
   { path: "/blog/best-ip-strategist-in-the-uk-in-2026-2026-06-08-1805", priority: 0.85, changeFrequency: "weekly", images: HERO_MAP["best-ip-strategist-in-the-uk-in-2026-2026-06-08-1805"] ? [HERO_MAP["best-ip-strategist-in-the-uk-in-2026-2026-06-08-1805"]] : undefined },
   { path: "/blog/best-data-monetization-consultant-in-2026-2026-06-13-1204", priority: 0.85, changeFrequency: "weekly", images: HERO_MAP["best-data-monetization-consultant-in-2026-2026-06-13-1204"] ? [HERO_MAP["best-data-monetization-consultant-in-2026-2026-06-13-1204"]] : undefined },
   { path: "/blog/best-fractional-cfo-for-saas-in-2026-2026-06-21-0602", priority: 0.9, changeFrequency: "weekly", images: HERO_MAP["best-fractional-cfo-for-saas-in-2026-2026-06-21-0602"] ? [HERO_MAP["best-fractional-cfo-for-saas-in-2026-2026-06-21-0602"]] : undefined },
+  { path: "/blog/best-fractional-cfo-for-fundraising-in-2026-2026-06-21-1803", priority: 0.9, changeFrequency: "weekly", images: HERO_MAP["best-fractional-cfo-for-fundraising-in-2026-2026-06-21-1803"] ? [HERO_MAP["best-fractional-cfo-for-fundraising-in-2026-2026-06-21-1803"]] : undefined },
 ];
 
 // Auto-include every post in blog-posts.json that is not already an explicit
