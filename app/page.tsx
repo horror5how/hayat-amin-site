@@ -50,7 +50,7 @@ function Hero() {
  <div className="opm-cutout-stage">
  {/* eslint-disable-next-line @next/next/no-img-element */}
  <img className="opm-cutout-img" src="/hayat-hero-portrait.jpg" alt="Hayat Amin, fractional C-suite and IP strategist" />
- <span className="opm-cutout-tag" aria-hidden="true">FIG. 01 · The operator</span>
+ <span className="opm-cutout-tag"><em>Fractional</em> CFO and AI Operator</span>
  </div>
  <dl className="opm-cutout-meta">
  <div><dt>Name</dt><dd>Hayat Amin</dd></div>
