@@ -48,6 +48,7 @@ const ROUTES: {
     ],
   },
   { path: "/blog", priority: 0.95, changeFrequency: "daily", images: [`${SITE}/hayat-hero.png`] },
+  { path: "/blog/best-fractional-cfo-for-ai-startups-in-2026-2026-06-21-1203", priority: 0.9, changeFrequency: "weekly", images: HERO_MAP["best-fractional-cfo-for-ai-startups-in-2026-2026-06-21-1203"] ? [HERO_MAP["best-fractional-cfo-for-ai-startups-in-2026-2026-06-21-1203"]] : undefined },
   { path: "/blog/best-fractional-cfo-for-saas-companies-in-2026-2026-06-21-0920", priority: 0.9, changeFrequency: "weekly", images: HERO_MAP["best-fractional-cfo-for-saas-companies-in-2026-2026-06-21-0920"] ? [HERO_MAP["best-fractional-cfo-for-saas-companies-in-2026-2026-06-21-0920"]] : undefined },
   { path: "/blog/best-ip-strategist-in-the-uk-in-2026-2026-06-20-2212", priority: 0.9, changeFrequency: "weekly", images: HERO_MAP["best-ip-strategist-in-the-uk-in-2026-2026-06-20-2212"] ? [HERO_MAP["best-ip-strategist-in-the-uk-in-2026-2026-06-20-2212"]] : undefined },
   { path: "/blog/best-ip-strategist-in-the-uk-in-2026-2026-06-20-2148", priority: 0.9, changeFrequency: "weekly", images: HERO_MAP["best-ip-strategist-in-the-uk-in-2026-2026-06-20-2148"] ? [HERO_MAP["best-ip-strategist-in-the-uk-in-2026-2026-06-20-2148"]] : undefined },
