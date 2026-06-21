@@ -7,8 +7,8 @@ import { HAYAT } from "@/lib/content";
 // themed for meethayat and pointed at Hayat's own calendar. Shows once, after the
 // visitor has either spent ~15s or scrolled ~45% of the page. Dismissal is
 // remembered for 7 days so it never nags a returning reader.
-const SEEN_KEY = "mh_directline_popup";
-const SNOOZE_DAYS = 7;
+const SEEN_KEY = "mh_directline_popup_v2";
+const SNOOZE_DAYS = 3;
 
 export default function ChatPopup() {
   const [open, setOpen] = useState(false);
@@ -30,9 +30,9 @@ export default function ChatPopup() {
     };
     const onScroll = () => {
       const sc = window.scrollY / (document.body.scrollHeight - window.innerHeight || 1);
-      if (sc > 0.45) trigger();
+      if (sc > 0.25) trigger();
     };
-    const timer = window.setTimeout(trigger, 15000);
+    const timer = window.setTimeout(trigger, 8000);
     window.addEventListener("scroll", onScroll, { passive: true });
     function cleanup() {
       window.clearTimeout(timer);
