@@ -42,9 +42,7 @@ function Hero() {
  return (
  <section className="opm-hero" id="story">
  <h1 className="opm-h1">
- One operator.{" "}
- <br />
- <em>Three pillars.</em>
+ <em>Fractional</em> C-suite, IP strategist &amp; AI operator
  </h1>
 
  <div className="opm-hero-grid">

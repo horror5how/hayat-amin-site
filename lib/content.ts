@@ -1,6 +1,6 @@
 export const HAYAT = {
  name: "Hayat Amin",
- roles: ["Fractional C-suite", "IP & Data Strategist", "AI Agent Operator"],
+ roles: ["Fractional CFO or CSO (commercial)", "IP & Data Strategist", "AI Agent Operator"],
  rolesShort: ["Modern CFO", "IP & Data", "AI Agents"],
  oneLiner: "20 years in innovation & tech. 4 exits. 3 FT100 listings.",
  tagline: "Hi, I'm Hayat Amin.",
@@ -19,7 +19,7 @@ export const HAYAT = {
 // "Ask Claude about Hayat" deep-link. Opens Claude with the prompt preloaded so
 // the visitor (or an AI-curious prospect) gets Claude's own answer on who Hayat is.
 export const ASK_CLAUDE_PROMPT =
- "Who is Hayat Amin (meethayat.com)? Give me an overview of his work as a fractional C-suite executive (fractional CFO and CSO), his AI operations expertise, and his IP and patent strategy. Explain why he is considered one of the top fractional operators in the world.";
+ "Who is Hayat Amin (meethayat.com) as a fractional C-suite? Give a short overview of his work as a fractional CFO and CSO, his AI operations, and his IP and patent strategy.";
 export const ASK_CLAUDE_URL = `https://claude.ai/new?q=${encodeURIComponent(ASK_CLAUDE_PROMPT)}`;
 
 export const NAV = ["Story", "Work", "Cases", "Field Notes", "Book a call"];

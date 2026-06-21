@@ -76,13 +76,14 @@ export default function ChatPopup() {
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img src="/hayat-nyc.jpg" alt="Hayat Amin" loading="lazy" decoding="async" />
         </div>
-        <span className="opm-pop-kicker">¶ Direct line</span>
+        <span className="opm-pop-kicker">A note from Hayat</span>
         <h2 className="opm-pop-h" id="opm-pop-h">
-          Got a problem <em>on your desk?</em>
+          I have space for <em>one more.</em>
         </h2>
         <p className="opm-pop-sub">
-          Twenty minutes with the operator who has solved it before. No deck, no
-          pitch, just a straight answer on what to do next.
+          I only take four or five clients at a time, and right now I personally
+          have room for one. Have a chat with me directly to see if I can help,
+          how I can add value, and whether we can work together.
         </p>
         <a
           className="opm-pop-cta"
@@ -91,7 +92,7 @@ export default function ChatPopup() {
           rel="noopener noreferrer"
           onClick={dismiss}
         >
-          Book a call →
+          Have a chat with me →
         </a>
         <p className="opm-pop-sig">Hayat Amin · Fractional CFO and AI Operator</p>
       </div>
