@@ -48,10 +48,9 @@ function Hero() {
  <div className="opm-hero-grid">
  <div className="opm-hero-portrait">
  <div className="opm-cutout-stage">
- <span className="opm-cutout-halo" aria-hidden="true"></span>
- <span className="opm-cutout-pedestal" aria-hidden="true"></span>
  {/* eslint-disable-next-line @next/next/no-img-element */}
- <img className="opm-cutout-img" src="/hayat-hero.png" alt="Hayat Amin, operator" />
+ <img className="opm-cutout-img" src="/hayat-hero-portrait.jpg" alt="Hayat Amin, fractional C-suite and IP strategist" />
+ <span className="opm-cutout-tag" aria-hidden="true">FIG. 01 · The operator</span>
  </div>
  <dl className="opm-cutout-meta">
  <div><dt>Name</dt><dd>Hayat Amin</dd></div>
