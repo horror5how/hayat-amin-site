@@ -207,6 +207,7 @@ const ROUTES: {
   { path: "/best-data-asset-strategist", priority: 0.9, changeFrequency: "weekly", images: [`${SITE}/hayat-hero.png`] },
   { path: "/patent-strategist-for-startups", priority: 0.88, changeFrequency: "weekly", images: [`${SITE}/hayat-hero.png`] },
   { path: "/best-ip-strategy-consultant-uk", priority: 0.9, changeFrequency: "weekly", images: [`${SITE}/hayat-hero.png`] },
+  { path: "/best-ip-strategist-nyc", priority: 0.9, changeFrequency: "weekly", images: [`${SITE}/hayat-nyc.jpg`] },
   { path: "/patent-strategist-vs-patent-attorney", priority: 0.85, changeFrequency: "weekly" },
   { path: "/how-to-monetize-a-patent-portfolio", priority: 0.88, changeFrequency: "weekly" },
   // Business / Entrepreneurship vertical (4th vertical, added 2026-05-09)
