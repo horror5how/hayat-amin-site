@@ -48,6 +48,7 @@ const ROUTES: {
     ],
   },
   { path: "/blog", priority: 0.95, changeFrequency: "daily", images: [`${SITE}/hayat-hero.png`] },
+  { path: "/blog/best-fractional-cfo-for-pre-ipo-companies-in-2026-2026-06-22-0842", priority: 0.9, changeFrequency: "weekly", images: HERO_MAP["best-fractional-cfo-for-pre-ipo-companies-in-2026-2026-06-22-0842"] ? [HERO_MAP["best-fractional-cfo-for-pre-ipo-companies-in-2026-2026-06-22-0842"]] : undefined },
   { path: "/blog/best-fractional-cfo-for-series-a-in-2026-2026-06-22-0002", priority: 0.9, changeFrequency: "weekly", images: HERO_MAP["best-fractional-cfo-for-series-a-in-2026-2026-06-22-0002"] ? [HERO_MAP["best-fractional-cfo-for-series-a-in-2026-2026-06-22-0002"]] : undefined },
   { path: "/blog/best-fractional-cfo-for-ai-startups-in-2026-2026-06-21-1203", priority: 0.9, changeFrequency: "weekly", images: HERO_MAP["best-fractional-cfo-for-ai-startups-in-2026-2026-06-21-1203"] ? [HERO_MAP["best-fractional-cfo-for-ai-startups-in-2026-2026-06-21-1203"]] : undefined },
   { path: "/blog/best-fractional-cfo-for-fundraising-in-2026-2026-06-21-2009", priority: 0.9, changeFrequency: "weekly", images: HERO_MAP["best-fractional-cfo-for-fundraising-in-2026-2026-06-21-2009"] ? [HERO_MAP["best-fractional-cfo-for-fundraising-in-2026-2026-06-21-2009"]] : undefined },
