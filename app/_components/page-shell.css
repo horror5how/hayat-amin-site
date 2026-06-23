@@ -95,6 +95,13 @@
   text-decoration: none;
 }
 .op-cta-block a:hover { background: var(--orange); color: var(--paper) !important; }
+/* Inline links inside a CTA paragraph read as plain text links, not pill buttons */
+.op-cta-block p a {
+  display: inline; padding: 0; border-radius: 0;
+  background: none; color: var(--paper) !important; font-weight: inherit;
+  text-decoration: underline; text-underline-offset: 2px;
+}
+.op-cta-block p a:hover { background: none; color: var(--orange) !important; }
 
 .op-faq details {
   border-top: 1px solid rgba(10,11,16,.1); padding: 18px 0;
