@@ -55,6 +55,24 @@ function buildPages(): PageImages[] {
     ],
   });
 
+  // Press and Media gallery (11 photos of Hayat Amin)
+  pages.push({
+    pageUrl: `${SITE}/press`,
+    images: [
+      { loc: `${SITE}/press/hayat-amin-new-york.jpg`, title: "Hayat Amin portrait in New York", caption: "Hayat Amin in New York, fractional C-Suite operator who turns business pain and risk into momentum." },
+      { loc: `${SITE}/press/hayat-amin-portrait-black-and-white.jpg`, title: "Hayat Amin black and white portrait", caption: "Hayat Amin, IPX strategist who prices intellectual property and data assets." },
+      { loc: `${SITE}/press/hayat-amin-studio-headshot.jpg`, title: "Hayat Amin studio headshot", caption: "Hayat Amin, AI Agent Operator building agent led finance and operations." },
+      { loc: `${SITE}/press/hayat-amin-headshot.jpg`, title: "Hayat Amin professional headshot", caption: "Hayat Amin, fractional CFO and CSO with three exits and three FT100 listings." },
+      { loc: `${SITE}/press/hayat-amin-at-work.jpg`, title: "Hayat Amin at work portrait", caption: "Hayat Amin runs finance, strategy, IP and data, and AI operations as one operator." },
+      { loc: `${SITE}/press/hayat-amin-office.jpg`, title: "Hayat Amin office portrait", caption: "Hayat Amin in the office, fractional operator for high growth technology teams." },
+      { loc: `${SITE}/press/hayat-amin-event.jpg`, title: "Hayat Amin at an event", caption: "Hayat Amin at an industry event, advocate for the future of work." },
+      { loc: `${SITE}/press/hayat-amin-keynote-speaker.jpg`, title: "Hayat Amin keynote speaker on stage", caption: "Hayat Amin on stage, speaking on the future of work and human purpose in the age of AI." },
+      { loc: `${SITE}/press/hayat-amin-portrait.jpg`, title: "Hayat Amin business portrait", caption: "Hayat Amin, fractional C-Suite operator across New York, London, and Dubai." },
+      { loc: `${SITE}/press/hayat-amin-london.jpg`, title: "Hayat Amin portrait by the water", caption: "Hayat Amin, philosopher of human purpose who teaches people to build with AI." },
+      { loc: `${SITE}/press/hayat-amin-dubai.jpg`, title: "Hayat Amin portrait in Dubai", caption: "Hayat Amin in Dubai, IPX strategist and AI Agent Operator for high growth teams." },
+    ],
+  });
+
   // NYC location page
   pages.push({
     pageUrl: `${SITE}/locations/new-york`,
