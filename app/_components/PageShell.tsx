@@ -64,6 +64,7 @@ export function PageShell({
  <Link href="/services">Services</Link>
  <Link href="/answers">Answers</Link>
  <Link href="/speaking">Speaking</Link>
+ <Link href="/press">Press</Link>
  <Link href="/work">Work</Link>
  <Link href="/faq">FAQ</Link>
  <Link href="/future-of-work">Future of Work</Link>
@@ -91,6 +92,7 @@ export function PageShell({
  <Link href="/services">Services</Link>
  <Link href="/answers">Answers</Link>
  <Link href="/speaking">Speaking</Link>
+ <Link href="/press">Press &amp; Media</Link>
  <Link href="/future-of-work">Future of Work</Link>
                 <Link href="/work">Work &amp; exits</Link>
  <Link href="/faq">FAQ</Link>

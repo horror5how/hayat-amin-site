@@ -1,0 +1,70 @@
+/* Press and Media gallery. Inherits op- typography tokens from page-shell.css
+ and globals.css; this file only adds the responsive masonry-style grid and
+ caption styling. Mobile-first: single column, then 2, then 3. */
+
+.press-download-note {
+ margin: 1.25rem 0 2rem;
+ padding: 0.9rem 1.1rem;
+ border-left: 3px solid var(--op-accent, #b8763e);
+ background: rgba(184, 118, 62, 0.06);
+ border-radius: 6px;
+ font-size: 0.95rem;
+ line-height: 1.55;
+}
+
+.press-gallery {
+ display: grid;
+ grid-template-columns: 1fr;
+ gap: 1.5rem;
+ margin: 2rem 0 2.5rem;
+}
+
+@media (min-width: 560px) {
+ .press-gallery {
+ grid-template-columns: repeat(2, 1fr);
+ }
+}
+
+@media (min-width: 920px) {
+ .press-gallery {
+ grid-template-columns: repeat(3, 1fr);
+ }
+}
+
+.press-item {
+ margin: 0;
+ display: flex;
+ flex-direction: column;
+ background: var(--op-card-bg, rgba(255, 255, 255, 0.5));
+ border: 1px solid var(--op-border, rgba(15, 14, 12, 0.1));
+ border-radius: 10px;
+ overflow: hidden;
+ transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.press-item:hover {
+ transform: translateY(-3px);
+ box-shadow: 0 10px 28px rgba(15, 14, 12, 0.14);
+}
+
+.press-item a {
+ display: block;
+ line-height: 0;
+}
+
+.press-item img {
+ width: 100%;
+ height: auto;
+ display: block;
+ aspect-ratio: 4 / 5;
+ object-fit: cover;
+ object-position: center top;
+ background: rgba(15, 14, 12, 0.05);
+}
+
+.press-item figcaption {
+ padding: 0.85rem 1rem 1rem;
+ font-size: 0.9rem;
+ line-height: 1.5;
+ color: var(--op-text, #2a2722);
+}

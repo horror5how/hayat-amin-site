@@ -462,6 +462,7 @@ function Foot() {
  <s>Explore</s>
  <div><Link href="/answers">Answers</Link></div>
  <div><Link href="/speaking">Speaking</Link></div>
+ <div><Link href="/press">Press &amp; Media</Link></div>
  <div><Link href="/work">Work &amp; exits</Link></div>
  <div><Link href="/blog">Field notes</Link></div>
  </div>
