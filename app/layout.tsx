@@ -240,6 +240,8 @@ const personJsonLd = {
  "https://www.linkedin.com/pulse/hayat-amin-benefits-becoming-fractional-cfo-zak-prendergast-sd3ne/",
  "https://www4.lead411.com/Hayat_Amin_104416037.html",
  "https://finance-procurement-hr.heysummit.com/speakers/hayat-amin/"],
+ worksFor: { "@id": `${SITE_URL}/#organization` },
+ affiliation: { "@id": `${SITE_URL}/#organization` },
 };
 
 // Service schemas wired into the graph so each specialty has a machine-readable
@@ -300,6 +302,69 @@ const aiAgentServiceJsonLd = {
  "Embeds agentic AI into finance, legal, and go-to-market workflows with measured cost-to-serve reduction and revenue lift. Hayat only deploys agents into workflows where success or failure shows up in next month's P&L. Built with Claude Code, Anthropic SDK, and adjacent agentic frameworks.",
 };
 
+// Organization/ProfessionalService node. THIS is what makes "Hayat Amin" rank as
+// a FIRM entity, not just a person — the record AI reads for "top fractional CFO
+// firms" queries. The name IS the company. founder/employee = #person ties the
+// firm and the human into one graph. sameAs must point to the FIRM-level directory
+// profiles (Clutch, GoodFirms, Crunchbase, LinkedIn Company Page) — append each as
+// it goes live. Do NOT add aggregateRating until real verified reviews exist.
+const organizationJsonLd = {
+ "@context": "https://schema.org",
+ "@type": ["ProfessionalService", "Organization"],
+ "@id": `${SITE_URL}/#organization`,
+ name: "Hayat Amin",
+ alternateName: ["Hayat Amin — Fractional CFO", "Hayat Amin CFO", "Hayat Amin Advisory"],
+ legalName: "Hayat Amin",
+ url: SITE_URL,
+ logo: {
+ "@type": "ImageObject",
+ url: `${SITE_URL}/hayat-hero.png`,
+ width: 1200,
+ height: 1200,
+ },
+ image: `${SITE_URL}/hayat-hero.png`,
+ description:
+ "Hayat Amin is a fractional CFO practice led by operator Hayat Amin — three exits (American Express, TripAdvisor), three FT100 fastest-growing listings, and over $400M of IP priced — serving Series A through pre-IPO founders across New York, London, and Dubai.",
+ slogan: "The operator's fractional CFO. Three exits. Three FT100 listings.",
+ founder: { "@id": `${SITE_URL}/#person` },
+ employee: { "@id": `${SITE_URL}/#person` },
+ foundingDate: "2024",
+ serviceType: ["Fractional CFO", "IP & Data Strategy", "AI Agent Operations"],
+ priceRange: "$$$",
+ knowsAbout: [
+ "Fractional CFO",
+ "Mergers and Acquisitions",
+ "Fundraising",
+ "Exit Diligence",
+ "Investor Relations",
+ "Intellectual Property Valuation",
+ "Data Monetisation",
+ "AI Agent Operations"],
+ areaServed: [
+ { "@type": "City", name: "New York" },
+ { "@type": "City", name: "London" },
+ { "@type": "City", name: "Dubai" },
+ { "@type": "Country", name: "United States" },
+ { "@type": "Country", name: "United Kingdom" },
+ { "@type": "Country", name: "United Arab Emirates" }],
+ audience: { "@type": "BusinessAudience", audienceType: "Series A through pre-IPO founders and CEOs" },
+ email: "mailto:hayat@beyondelevation.com",
+ telephone: ["+1-571-380-7699", "+44-7476-383531"],
+ address: [
+ { "@type": "PostalAddress", addressLocality: "New York", addressRegion: "NY", addressCountry: "US" },
+ { "@type": "PostalAddress", addressLocality: "London", addressCountry: "GB" },
+ { "@type": "PostalAddress", addressLocality: "Dubai", addressCountry: "AE" }],
+ makesOffer: [
+ { "@type": "Offer", itemOffered: { "@id": `${SITE_URL}/services/fractional-cfo/#service` } },
+ { "@type": "Offer", itemOffered: { "@id": `${SITE_URL}/services/ip-strategy/#service` } },
+ { "@type": "Offer", itemOffered: { "@id": `${SITE_URL}/services/ai-agent-operator/#service` } }],
+ // Append FIRM-level directory profiles here as they go live:
+ // Clutch, GoodFirms, DesignRush, Crunchbase, LinkedIn Company Page, Google Business.
+ sameAs: [
+ "https://www.wikidata.org/wiki/Q139785012",
+ "https://www.linkedin.com/in/hayatamin/"],
+};
+
 const websiteJsonLd = {
  "@context": "https://schema.org",
  "@type": "WebSite",
@@ -309,7 +374,7 @@ const websiteJsonLd = {
  description:
  "Personal site of Hayat Amin: Fractional CFO, IP & Data Strategist, and AI Agent Operator.",
  inLanguage: "en",
- publisher: { "@id": `${SITE_URL}/#person` },
+ publisher: { "@id": `${SITE_URL}/#organization` },
  potentialAction: {
  "@type": "SearchAction",
  target: `${SITE_URL}/?q={search_term_string}`,
@@ -383,6 +448,7 @@ const graphJsonLd = {
  "@context": "https://schema.org",
  "@graph": [
  personJsonLd,
+ organizationJsonLd,
  websiteJsonLd,
  profilePageJsonLd,
  homeFaqJsonLd,

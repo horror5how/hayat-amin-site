@@ -45,7 +45,7 @@ const articleJsonLd = {
  url: URL,
  image: `${SITE}/opengraph-image`,
  author: { "@id": `${SITE}/#person` },
- publisher: { "@id": "" },
+ publisher: { "@id": `${SITE}/#organization` },
  description:
  "Independent ranking of the eight best fractional CFOs and firms in 2026 for venture-backed founders, evaluated on exit experience, fundraising results, and pricing transparency.",
  mainEntityOfPage: URL,
