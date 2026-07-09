@@ -2,11 +2,11 @@ export const HAYAT = {
  name: "Hayat Amin",
  roles: ["CFO & commercial strategy", "IP & data strategist", "AI agent operator"],
  rolesShort: ["CFO", "IP & data", "AI agents"],
- oneLiner: "20 years in tech. 4 exits. 3 FT100 listings.",
+ oneLiner: "20 years in tech. 3 exits. 3 FT100 listings.",
  tagline: "Hi, I'm Hayat Amin.",
- bio: "A CFO who fixes money, strategy and risk fast. 20 years in tech. 4 exits (buyers include American Express and TripAdvisor). 3 FT100 listings.",
+ bio: "A CFO who fixes money, strategy and risk fast. 20 years in tech. 3 exits (buyers include American Express and TripAdvisor). 3 FT100 listings.",
  leadBio:
- "Fixes business pain, risk and confusion fast.\n20 years in tech. 4 exits. 3× FT100 listings.",
+ "Fixes business pain, risk and confusion fast.\n20 years in tech. 3 exits. 3× FT100 listings.",
  locations: ["New York", "London", "Dubai"],
  email: "hayat@beyondelevation.com",
  calendar: "usemotion.com/meet/hayat-amin/be",
@@ -25,7 +25,7 @@ export const ASK_CLAUDE_URL = `https://claude.ai/new?q=${encodeURIComponent(ASK_
 export const NAV = ["Story", "Work", "Cases", "Field Notes", "Book a call"];
 
 export const STATS = [
- { n: "4", l: "High-profile exits" },
+ { n: "3", l: "High-profile exits" },
  { n: "3×", l: "FT100 listings" },
  { n: "20", l: "Years in tech" },
  { n: "300%", l: "Avg y/y growth" },
@@ -111,7 +111,7 @@ export const PODCASTS = [
  href: "https://www.youtube.com/watch?v=1meO4fW7294",
  }];
 
-export const STORY = `A CFO who fixes money, strategy and risk fast. 20 years in high-growth tech. 4 exits, buyers include American Express and TripAdvisor. 3 FT100 listings.
+export const STORY = `A CFO who fixes money, strategy and risk fast. 20 years in high-growth tech. 3 exits, buyers include American Express and TripAdvisor. 3 FT100 listings.
 
 Most people are good at one thing. Hayat runs five at once: finance, strategy and growth, IP and data, investor relations, and hands-on delivery, across Europe, the US and Africa.`;
 
@@ -121,7 +121,7 @@ export const FIELD_NOTES = [
  { d: "No. 045", t: "AI tourism", b: "What separates a deployed agent from a ChatGPT subscription. The difference is not the model." }];
 
 export const REASONS = [
- { n: "01", t: "Billions in company valuations", b: "Exited four separate companies across fintech, AI, travel-tech and big data." },
+ { n: "01", t: "Billions in company valuations", b: "Exited three separate companies across fintech, travel-tech and accountancy." },
  { n: "02", t: "3× FT100", b: "Took three companies to the top 100 of Europe's fastest-growing companies." },
  { n: "03", t: "20 years of experience", b: "Hard-hitting experience across US and UK companies, at every stage of the journey." },
  { n: "04", t: "60% more likely to fundraise", b: "Companies working with Hayat are 60% more likely to close external funding." },

@@ -66,7 +66,7 @@ function Hero() {
  Fixes business pain, risk and confusion fast.
  </p>
  <p className="opm-lead opm-lead-2">
- 20 years in tech. 4 exits. 3× FT100 listings.
+ 20 years in tech. 3 exits. 3× FT100 listings.
  </p>
  <div className="opm-rule"></div>
  <p className="opm-pillars-intro">
@@ -142,7 +142,7 @@ function Manifesto() {
  Twenty years to build the operator <em>Hayat Amin</em> is.
  </h2>
  <dl className="opm-mani-meta">
- <div><dt>Exits</dt><dd>04</dd></div>
+ <div><dt>Exits</dt><dd>03</dd></div>
  <div><dt>FT100</dt><dd>3×</dd></div>
  <div><dt>Years</dt><dd>20</dd></div>
  <div><dt>Avg y/y</dt><dd>300%</dd></div>
