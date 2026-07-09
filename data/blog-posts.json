@@ -1208,5 +1208,82 @@
     "description": "Discover the crucial role of embeddings in AI. Explore how they enhance semantic search, model training, and multimodal systems in this technical guide.",
     "date": "2026-06-23",
     "hero": "/role-of-embeddings-in-ai-a-technical-guide-for-2026.jpg"
+  },
+  {
+    "slug": "outsource-finance-function-sme-guide-for-2026",
+    "title": "Outsource finance function: SME guide for 2026",
+    "description": "Discover how to effectively outsource finance function SME tasks in 2026. Gain control, save time, and access expert support for growth.",
+    "date": "2026-06-24",
+    "hero": "/outsource-finance-function-sme-guide-for-2026.jpg"
+  },
+  {
+    "slug": "common-mistakes-in-ai-agent-implementation-sme-guide",
+    "title": "Common mistakes in AI agent implementation: SME guide",
+    "description": "Discover the common mistakes in AI agent implementation. Learn how to overcome pitfalls and maximize ROI with our comprehensive SME guide.",
+    "date": "2026-06-25",
+    "hero": "/common-mistakes-in-ai-agent-implementation-sme-guide.jpg"
+  },
+  {
+    "slug": "what-is-ai-powered-invoicing-a-2026-sme-guide",
+    "title": "What is AI-powered invoicing? A 2026 SME guide",
+    "description": "Discover what is AI-powered invoicing and how it saves SMEs time and costs. Transform your billing process with intelligent automation!",
+    "date": "2026-06-26",
+    "hero": "/what-is-ai-powered-invoicing-a-2026-sme-guide.jpg"
+  },
+  {
+    "slug": "what-is-a-tech-company-exit-founders-guide",
+    "title": "What is a tech company exit: founder's guide",
+    "description": "Learn what is a tech company exit. Discover methods, timelines, and strategies to maximize value for founders, investors, and employees.",
+    "date": "2026-06-27",
+    "hero": "/what-is-a-tech-company-exit-founders-guide.jpg"
+  },
+  {
+    "slug": "ai-tools-reduce-operational-costs-2026-sme-guide",
+    "title": "AI tools reduce operational costs: 2026 SME guide",
+    "description": "Discover how AI tools reduce operational costs for SMEs by automating workflows and boosting efficiency. Learn to maximize your savings today!",
+    "date": "2026-06-28",
+    "hero": "/ai-tools-reduce-operational-costs-2026-sme-guide.jpg"
+  },
+  {
+    "slug": "how-ai-handles-unstructured-data-a-technical-guide",
+    "title": "How AI handles unstructured data: a technical guide",
+    "description": "Discover how AI handles unstructured data effectively. Unlock insights from emails, images, and more with advanced techniques. Read on!",
+    "date": "2026-06-29",
+    "hero": "/how-ai-handles-unstructured-data-a-technical-guide.jpg"
+  },
+  {
+    "slug": "what-is-edge-ai-deployment-a-practical-guide",
+    "title": "What is edge AI deployment: a practical guide",
+    "description": "Discover what is edge AI deployment and how it transforms real-time decision-making. Learn the benefits of local AI processing now.",
+    "date": "2026-06-30",
+    "hero": "/what-is-edge-ai-deployment-a-practical-guide.jpg"
+  },
+  {
+    "slug": "what-is-ai-model-drift-a-practitioners-guide",
+    "title": "What is AI model drift: a practitioner's guide",
+    "description": "Discover what AI model drift is and how to manage it effectively. Learn strategies to maintain model accuracy and trust in production.",
+    "date": "2026-07-01",
+    "hero": "/what-is-ai-model-drift-a-practitioners-guide.jpg"
+  },
+  {
+    "slug": "examples-of-lean-finance-operations-2026-sme-guide",
+    "title": "Examples of lean finance operations: 2026 SME guide",
+    "description": "Discover real-world examples of lean finance operations that boost efficiency and cash flow. Transform your SME finance processes today!",
+    "date": "2026-07-02",
+    "hero": "/examples-of-lean-finance-operations-2026-sme-guide.jpg"
+  },
+  {
+    "slug": "what-is-an-ai-orchestration-layer-a-2026-guide",
+    "title": "What is an AI orchestration layer? A 2026 guide",
+    "description": "Discover what is an AI orchestration layer and how it unifies AI models, data, and applications for effective enterprise deployment.",
+    "date": "2026-07-03",
+    "hero": "/what-is-an-ai-orchestration-layer-a-2026-guide.jpg"
+  },
+  {
+    "slug": "what-is-tool-calling-in-ai-a-2026-guide",
+    "title": "What is tool-calling in AI: a 2026 guide",
+    "description": "Discover what is tool-calling in AI and learn how this mechanism transforms passive text generation into active, effective AI integration.",
+    "date": "2026-07-04",
+    "hero": "/what-is-tool-calling-in-ai-a-2026-guide.jpg"
   }
 ]

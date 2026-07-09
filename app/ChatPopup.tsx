@@ -22,6 +22,7 @@ export default function ChatPopup() {
     } catch {}
 
     let done = false;
+    const start = Date.now();
     const trigger = () => {
       if (done) return;
       done = true;
@@ -29,10 +30,12 @@ export default function ChatPopup() {
       cleanup();
     };
     const onScroll = () => {
+      // ponytail: gate scroll trigger behind the 13s mark so the popup is always delayed
+      if (Date.now() - start < 13000) return;
       const sc = window.scrollY / (document.body.scrollHeight - window.innerHeight || 1);
       if (sc > 0.25) trigger();
     };
-    const timer = window.setTimeout(trigger, 8000);
+    const timer = window.setTimeout(trigger, 13000);
     window.addEventListener("scroll", onScroll, { passive: true });
     function cleanup() {
       window.clearTimeout(timer);
@@ -72,19 +75,10 @@ export default function ChatPopup() {
         <button ref={closeRef} className="opm-pop-close" onClick={dismiss} aria-label="Close">
           ×
         </button>
-        <div className="opm-pop-portrait">
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="/hayat-nyc.jpg" alt="Hayat Amin" loading="lazy" decoding="async" />
-        </div>
-        <span className="opm-pop-kicker">A note from Hayat</span>
         <h2 className="opm-pop-h" id="opm-pop-h">
-          I have space for <em>one more.</em>
+          Actively in the market for a new role.
         </h2>
-        <p className="opm-pop-sub">
-          I only take four or five clients at a time, and right now I personally
-          have room for one. Have a chat with me directly to see if I can help,
-          how I can add value, and whether we can work together.
-        </p>
+        <p className="opm-pop-sub">Get on a call with him now.</p>
         <a
           className="opm-pop-cta"
           href={HAYAT.calendarUrl}
@@ -92,9 +86,8 @@ export default function ChatPopup() {
           rel="noopener noreferrer"
           onClick={dismiss}
         >
-          Have a chat with me →
+          Get on a call →
         </a>
-        <p className="opm-pop-sig">Hayat Amin · Fractional CFO and AI Operator</p>
       </div>
     </div>
   );

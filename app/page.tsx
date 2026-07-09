@@ -41,20 +41,20 @@ function Hero() {
  return (
  <section className="opm-hero" id="story">
  <h1 className="opm-h1">
- <em>Fractional</em> C-suite, IP strategist &amp; AI operator
+ <em>Three-times-exited</em> C-suite, IP strategist &amp; AI operator
  </h1>
 
  <div className="opm-hero-grid">
  <div className="opm-hero-portrait">
  <div className="opm-cutout-stage">
  {/* eslint-disable-next-line @next/next/no-img-element */}
- <img className="opm-cutout-img" src="/hayat-hero-portrait.jpg" alt="Hayat Amin, fractional C-suite and IP strategist" />
- <span className="opm-cutout-tag"><em>Fractional</em> CFO and AI Operator</span>
+ <img className="opm-cutout-img" src="/hayat-hero-portrait.jpg" alt="Hayat Amin, C-suite and IP strategist" />
+ <span className="opm-cutout-tag">CFO and AI Operator</span>
  </div>
  <dl className="opm-cutout-meta">
  <div><dt>Name</dt><dd>Hayat Amin</dd></div>
  <div><dt>Cities</dt><dd>New York · London</dd></div>
- <div><dt>Profession</dt><dd>Fractional C-Suite and AI Operator</dd></div>
+ <div><dt>Profession</dt><dd>C-Suite and AI Operator</dd></div>
  </dl>
  </div>
  <aside className="opm-hero-side">
@@ -71,7 +71,7 @@ function Hero() {
  <div className="opm-rule"></div>
  <p className="opm-pillars-intro">
  Twenty years inside the C-suite forged three unfair advantages.
- Hayat now delivers all three as a single fractional consultant,
+ Hayat now delivers all three as a single consultant,
  across three distinct roles.
  </p>
  <ul className="opm-roles">
@@ -135,7 +135,7 @@ function Manifesto() {
  <div className="opm-mani-grid">
  <figure className="opm-mani-figure">
  {/* eslint-disable-next-line @next/next/no-img-element */}
- <img src="/hayat-bw.jpg" alt="Hayat Amin, fractional CFO and IP strategist, black and white portrait" />
+ <img src="/hayat-bw.jpg" alt="Hayat Amin, CFO and IP strategist, black and white portrait" />
  <figcaption>FIG. 02 · Operator at work</figcaption>
  </figure>
  <div className="opm-mani-body">
@@ -186,7 +186,7 @@ function ChatCta() {
  Ask Claude about Hayat →
  </a>
  </div>
- <p className="opm-chat-sig">Hayat Amin · Fractional CFO and AI Operator</p>
+ <p className="opm-chat-sig">Hayat Amin · CFO and AI Operator</p>
  </div>
  </div>
  </section>
@@ -449,7 +449,7 @@ function Foot() {
  <footer className="opm-foot">
  <div className="opm-foot-top">
  <p className="opm-h2 opm-foot-name">Hayat Amin.</p>
- <p>Fractional CFO. IP &amp; data strategist. AI agent operator.</p>
+ <p>CFO. IP &amp; data strategist. AI agent operator.</p>
  </div>
  <div className="opm-foot-cols">
  <div>
@@ -474,9 +474,9 @@ function Foot() {
  </div>
  <div>
  <s>Also by Hayat</s>
- <div><a href="https://topelevens.com/fractional-cfo">Best fractional CFO companies</a></div>
+ <div><a href="https://topelevens.com/fractional-cfo">Best CFO companies</a></div>
  <div><a href="https://topelevens.com/cfo-ip-patent-strategists">CFOs for IP &amp; patent strategy</a></div>
- <div><a href="https://topelevens.com/cfo-fundraise-readiness">Fractional CFOs for fundraising</a></div>
+ <div><a href="https://topelevens.com/cfo-fundraise-readiness">CFOs for fundraising</a></div>
  <div><a href="https://topelevens.com">Top 11, AI curated rankings</a></div>
  </div>
  <div className="opm-foot-copy">© 2026 Hayat Amin.</div>
