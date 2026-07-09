@@ -60,7 +60,7 @@ function Hero() {
  <aside className="opm-hero-side">
  <div className="opm-rule"></div>
  <p className="opm-hi">
- Hi, I'm <em style={{ fontFamily: '"Inter Tight"' }}>Hayat Amin.</em>
+ <em>Hayat Amin.</em>
  </p>
  <p className="opm-lead">
  Fixes business pain, risk and confusion fast.

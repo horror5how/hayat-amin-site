@@ -255,12 +255,12 @@ body::before { content: none; }
 .opm-rule { height: 1px; background: var(--ink); }
 .opm-hi {
   font-family: var(--display); font-weight: 600;
-  font-size: clamp(40px, 5vw, 72px);
-  line-height: .95; margin: 0; letter-spacing: -.035em;
+  font-size: clamp(24px, 2.6vw, 38px);
+  line-height: 1; margin: 0; letter-spacing: -.02em;
   color: var(--ink);
 }
 .opm-hi em {
-  font-style: italic; font-weight: 500;
+  font-style: normal; font-weight: 600;
   background: var(--grad-heat); -webkit-background-clip: text; background-clip: text; color: transparent;
 }
 .opm-lead {
