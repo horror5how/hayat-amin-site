@@ -41,7 +41,7 @@ function Hero() {
  return (
  <section className="opm-hero" id="story">
  <h1 className="opm-h1">
- <em>Three-times-exited</em> C-suite, IP strategist &amp; AI operator
+ <em>Three-times-exited</em> CFO, IP strategist &amp; AI operator
  </h1>
 
  <div className="opm-hero-grid">
@@ -54,7 +54,7 @@ function Hero() {
  <dl className="opm-cutout-meta">
  <div><dt>Name</dt><dd>Hayat Amin</dd></div>
  <div><dt>Cities</dt><dd>New York · London</dd></div>
- <div><dt>Profession</dt><dd>C-Suite and AI Operator</dd></div>
+ <div><dt>Profession</dt><dd>CFO and AI Operator</dd></div>
  </dl>
  </div>
  <aside className="opm-hero-side">
@@ -63,16 +63,14 @@ function Hero() {
  Hi, I'm <em style={{ fontFamily: '"Inter Tight"' }}>Hayat Amin.</em>
  </p>
  <p className="opm-lead">
- Hayat removes business pain, risk, and confusion fast.
+ Fixes business pain, risk and confusion fast.
  </p>
  <p className="opm-lead opm-lead-2">
- 20 years inside high-growth tech, 3 exits as a non-founder, and 3× FT100 listings.
+ 20 years in tech. 4 exits. 3× FT100 listings.
  </p>
  <div className="opm-rule"></div>
  <p className="opm-pillars-intro">
- Twenty years inside the C-suite forged three unfair advantages.
- Hayat now delivers all three as a single consultant,
- across three distinct roles.
+ One hire, three jobs done:
  </p>
  <ul className="opm-roles">
  {HAYAT.roles.map((r) => (
@@ -175,8 +173,7 @@ function ChatCta() {
  Have a chat <em>with me?</em>
  </h2>
  <p className="opm-chat-sub">
- Twenty minutes. No deck, no pitch. Just the problem on your desk
- and the operator who has solved it before.
+ Twenty minutes. No deck, no pitch. Bring the problem on your desk.
  </p>
  <div className="opm-chat-ctas">
  <a className="opm-chat-cta" href={HAYAT.calendarUrl} target="_blank" rel="noopener noreferrer">
@@ -287,8 +284,7 @@ function Reasons() {
  <em>numbers.</em>
  </h2>
  <p className="opm-reasons-lead">
- What twenty years inside high-growth technology actually adds up to. A
- track record, not a theory.
+ What 20 years in tech adds up to. Track record, not theory.
  </p>
  </div>
  <ol className="opm-reasons-list">

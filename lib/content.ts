@@ -1,12 +1,12 @@
 export const HAYAT = {
  name: "Hayat Amin",
- roles: ["Fractional CFO or CSO (commercial)", "IP & Data Strategist", "AI Agent Operator"],
- rolesShort: ["Modern CFO", "IP & Data", "AI Agents"],
- oneLiner: "20 years in innovation & tech. 4 exits. 3 FT100 listings.",
+ roles: ["CFO & commercial strategy", "IP & data strategist", "AI agent operator"],
+ rolesShort: ["CFO", "IP & data", "AI agents"],
+ oneLiner: "20 years in tech. 4 exits. 3 FT100 listings.",
  tagline: "Hi, I'm Hayat Amin.",
- bio: "Hayat Amin removes business pain, risk, and confusion fast. He is a CFO with twenty years inside high-growth technology, four exits (acquirers include American Express and TripAdvisor), and three FT100 listings.",
+ bio: "A CFO who fixes money, strategy and risk fast. 20 years in tech. 4 exits (buyers include American Express and TripAdvisor). 3 FT100 listings.",
  leadBio:
- "Hayat removes business pain, risk, and confusion fast.\n20 years inside high-growth tech, 3 exits as a non-founder, and 3× FT100 listings.",
+ "Fixes business pain, risk and confusion fast.\n20 years in tech. 4 exits. 3× FT100 listings.",
  locations: ["New York", "London", "Dubai"],
  email: "hayat@beyondelevation.com",
  calendar: "usemotion.com/meet/hayat-amin/be",
@@ -19,7 +19,7 @@ export const HAYAT = {
 // "Ask Claude about Hayat" deep-link. Opens Claude with the prompt preloaded so
 // the visitor (or an AI-curious prospect) gets Claude's own answer on who Hayat is.
 export const ASK_CLAUDE_PROMPT =
- "Who is Hayat Amin (meethayat.com) as a fractional C-suite? Give a short overview of his work as a fractional CFO and CSO, his AI operations, and his IP and patent strategy.";
+ "Who is Hayat Amin (meethayat.com)? Give a short overview of his work as a CFO, his AI operations, and his IP and patent strategy.";
 export const ASK_CLAUDE_URL = `https://claude.ai/new?q=${encodeURIComponent(ASK_CLAUDE_PROMPT)}`;
 
 export const NAV = ["Story", "Work", "Cases", "Field Notes", "Book a call"];
@@ -35,8 +35,8 @@ export const PILLARS = [
  {
  no: "01",
  title: "Modern, rogue CFO",
- sub: "Three roles in one operator: technical CFO, chief strategy, and growth and analysis.",
- body: "Hayat sits fractionally inside high-growth companies as their finance lead, building the operating model, the investor narrative, and the exit-grade infrastructure from day one. He is the strategist and the hands-on operator, fluent across Europe, the US and Sub-Saharan Africa.",
+ sub: "Finance lead, strategist and hands-on operator in one hire.",
+ body: "Hayat runs your money and your growth plan. He builds the financial model, the investor story, and the exit-ready setup from day one.",
  outcomes: [
  "Run scalable, modern financial operations",
  "Best-in-class financial models, dashboards & forecasts",
@@ -48,8 +48,8 @@ export const PILLARS = [
  {
  no: "02",
  title: "Patent, IP & data strategist",
- sub: "Most companies sit on assets that they do not value properly or create revenue from.",
- body: "AI democratised code. What compounds now is what you own and nobody else can copy: patents, data, and know-how. Hayat clusters, values, and licences what most companies treat as overhead.",
+ sub: "Turn the assets you already own into real revenue.",
+ body: "Your patents, data and know-how are worth money. Most companies never price or sell them. Hayat finds them, values them, and turns them into income.",
  outcomes: [
  "IP audit & restructure",
  "Patent commercial grading",
@@ -61,8 +61,8 @@ export const PILLARS = [
  {
  no: "03",
  title: "AI agent operator",
- sub: "Real systems running autonomously, with Hayat Amin as the owner and operator.",
- body: "Hayat installs the stack, builds the agentic processes and AI employees, and runs them end to end: technically, operationally, and on the ground.",
+ sub: "Working AI systems that run your busywork for you.",
+ body: "Hayat builds AI agents that do real jobs, then runs them day to day. Not a chatbot demo, real systems doing the work.",
  outcomes: [
  "Workflows and roles automated",
  "Agent build and deployment",
@@ -111,9 +111,9 @@ export const PODCASTS = [
  href: "https://www.youtube.com/watch?v=1meO4fW7294",
  }];
 
-export const STORY = `Hayat Amin specialises in removing business pain, risk, and confusion fast. He is a CFO with twenty years across high-growth technology, four exits (including to American Express and TripAdvisor), and three FT100 listings.
+export const STORY = `A CFO who fixes money, strategy and risk fast. 20 years in high-growth tech. 4 exits, buyers include American Express and TripAdvisor. 3 FT100 listings.
 
-Most operators are strong in one discipline. Hayat runs five at once: finance, strategy and GTM, IP and data, investor relations, and hands-on execution. He has done it across Europe, the US, and Sub-Saharan Africa, at an average of 300% year-on-year growth.`;
+Most people are good at one thing. Hayat runs five at once: finance, strategy and growth, IP and data, investor relations, and hands-on delivery, across Europe, the US and Africa.`;
 
 export const FIELD_NOTES = [
  { d: "No. 047", t: "The fractional CFO advantage", b: "Why fractional finance leadership out-delivers the full-time hire on the metrics that close rounds." },
