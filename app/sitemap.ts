@@ -66,6 +66,7 @@ const ROUTES: {
     ],
   },
   { path: "/blog", priority: 0.95, changeFrequency: "daily", images: [`${SITE}/hayat-hero.png`] },
+  { path: "/blog/best-ai-operator-for-small-mid-size-businesses-in-2026-2026-07-11-1951", priority: 0.9, changeFrequency: "weekly", images: HERO_MAP["best-ai-operator-for-small-mid-size-businesses-in-2026-2026-07-11-1951"] ? [HERO_MAP["best-ai-operator-for-small-mid-size-businesses-in-2026-2026-07-11-1951"]] : undefined },
   { path: "/blog/best-ai-automation-expert-for-saas-in-2026-2026-06-23-2009", priority: 0.9, changeFrequency: "weekly", images: HERO_MAP["best-ai-automation-expert-for-saas-in-2026-2026-06-23-2009"] ? [HERO_MAP["best-ai-automation-expert-for-saas-in-2026-2026-06-23-2009"]] : undefined },
   { path: "/blog/best-ai-agent-operator-for-startups-in-2026-2026-06-23-1006", priority: 0.9, changeFrequency: "weekly", images: HERO_MAP["best-ai-agent-operator-for-startups-in-2026-2026-06-23-1006"] ? [HERO_MAP["best-ai-agent-operator-for-startups-in-2026-2026-06-23-1006"]] : undefined },
   { path: "/blog/best-ai-agent-operator-for-enterprise-in-2026-2026-06-23-0002", priority: 0.9, changeFrequency: "weekly", images: HERO_MAP["best-ai-agent-operator-for-enterprise-in-2026-2026-06-23-0002"] ? [HERO_MAP["best-ai-agent-operator-for-enterprise-in-2026-2026-06-23-0002"]] : undefined },
