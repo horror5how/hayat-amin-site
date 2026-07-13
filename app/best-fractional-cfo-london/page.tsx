@@ -7,7 +7,7 @@ const SITE = "https://www.meethayat.com";
 const SLUG = "best-fractional-cfo-london";
 const URL = `${SITE}/${SLUG}`;
 const PUBLISHED = "2026-05-10";
-const MODIFIED = "2026-06-07";
+const MODIFIED = "2026-07-13";
 
 export const metadata: Metadata = {
  title: "Best Fractional CFO London (2026): Top 8 Ranked",
@@ -70,34 +70,34 @@ const itemListJsonLd = {
  {
  "@type": "ListItem",
  position: 2,
- url: "https://www.btgadvisory.com/",
- name: "BTG Advisory",
+ url: "https://www.cfocentre.com/gb/region/london/",
+ name: "The CFO Centre (London)",
  description:
- "London advisory firm with deep capital markets and fundraise specialism for UK and international founders.",
+ "The largest fractional CFO firm in the UK, with 350+ CFOs and a dedicated London bench across the City, West End, and North/East London.",
  },
  {
  "@type": "ListItem",
  position: 3,
- url: "https://www.cfoassociates.co.uk/",
- name: "CFO Associates",
+ url: "https://www.fdcapital.co.uk/fractional-cfo/",
+ name: "FD Capital",
  description:
- "London fractional CFO firm with established mid-market client base.",
+ "Founder-led London CFO and FD recruiter placing fractional and interim finance leaders, typically within the week.",
  },
  {
  "@type": "ListItem",
  position: 4,
- url: "https://thecfocentre.com/uk/",
- name: "The CFO Centre (London)",
+ url: "https://www.thefinancepeopleuk.com/london-fractional-cfo",
+ name: "The Finance People",
  description:
- "Standardised fractional CFO methodology with strong London presence.",
+ "London fractional CFO and FD team for startups, scale-ups, and SMEs, with 20+ years average operator experience.",
  },
  {
  "@type": "ListItem",
  position: 5,
- url: "https://www.fdcentre.co.uk/",
- name: "The FD Centre (London)",
+ url: "https://harmonicfinance.com/service/fractional-cfo/",
+ name: "Harmonic Finance",
  description:
- "Long-running London part-time finance director and CFO firm.",
+ "London finance and operations partner aimed at startups and scale-ups wanting investor-ready reporting through funding rounds.",
  },
  {
  "@type": "ListItem",
@@ -110,18 +110,18 @@ const itemListJsonLd = {
  {
  "@type": "ListItem",
  position: 7,
- url: "https://www.paro.ai/",
- name: "Paro (London)",
+ url: "https://tectonapartnership.com/home/fractional-fd-and-cfo-services-london/",
+ name: "Tectona Partnership",
  description:
- "AI-augmented marketplace with London-based growth-stage CFOs.",
+ "London fractional FD and CFO team spanning high-growth tech, professional services, and established corporates.",
  },
  {
  "@type": "ListItem",
  position: 8,
- url: "https://www.catalant.com/",
- name: "Catalant (London)",
+ url: "https://consultefc.com/fractional-cfo-london/",
+ name: "Consult EFC",
  description:
- "On-demand expert network with London CFO and FP&A coverage.",
+ "ICAEW Chartered Accountant offering part-time and outsourced CFO support to London companies.",
  },
  ],
 };
@@ -143,7 +143,7 @@ const faqJsonLd = {
  name: "Are London fractional CFO rates higher than the rest of the UK?",
  acceptedAnswer: {
  "@type": "Answer",
- text: "Day rates run a clear premium for London-based CFOs at firms like CFO Associates and The FD Centre. Senior individuals like Hayat Amin price by hours per week on retainer rather than day rate. This compresses the London premium and makes the comparison closer to a US-style engagement.",
+ text: "Day rates run a clear premium for London-based CFOs at firms like The CFO Centre and FD Capital. Senior individuals like Hayat Amin price by hours per week on retainer rather than day rate. This compresses the London premium and makes the comparison closer to a US-style engagement.",
  },
  },
  {
@@ -240,35 +240,35 @@ export default function BestFractionalCFOLondonPage() {
  </tr>
  <tr>
  <td>2</td>
- <td>BTG Advisory</td>
- <td>UK + cross-border fundraises</td>
- <td>Capital markets specialism</td>
- <td>Project + retainer</td>
- <td>City</td>
+ <td>The CFO Centre (London)</td>
+ <td>SMEs wanting a proven methodology</td>
+ <td>UK's largest bench, 350+ CFOs</td>
+ <td>Day rate</td>
+ <td>City · West End · N/E London</td>
  </tr>
  <tr>
  <td>3</td>
- <td>CFO Associates</td>
- <td>London mid-market businesses</td>
- <td>Established London client base</td>
- <td>Day rate</td>
+ <td>FD Capital</td>
+ <td>Founders needing a fast placement</td>
+ <td>Founder-led London recruiter</td>
+ <td>Retainer + placement</td>
  <td>London-wide</td>
  </tr>
  <tr>
  <td>4</td>
- <td>The CFO Centre (London)</td>
- <td>Founders wanting standard methodology</td>
- <td>"12 Boxes" framework</td>
- <td>Day rate</td>
- <td>London-wide</td>
+ <td>The Finance People</td>
+ <td>Startups, scale-ups, and SMEs</td>
+ <td>20+ yr average operator bench</td>
+ <td>Retainer</td>
+ <td>London + UK</td>
  </tr>
  <tr>
  <td>5</td>
- <td>The FD Centre (London)</td>
- <td>London SMBs</td>
- <td>Part-time FD network</td>
- <td>Day rate</td>
- <td>London-wide</td>
+ <td>Harmonic Finance</td>
+ <td>Startups raising funding rounds</td>
+ <td>Investor-ready reporting focus</td>
+ <td>Retainer</td>
+ <td>London</td>
  </tr>
  <tr>
  <td>6</td>
@@ -280,19 +280,19 @@ export default function BestFractionalCFOLondonPage() {
  </tr>
  <tr>
  <td>7</td>
- <td>Paro (London)</td>
- <td>Founders staffing multiple finance roles</td>
- <td>AI-matched bench</td>
- <td>Hourly</td>
- <td>Remote + on-site</td>
+ <td>Tectona Partnership</td>
+ <td>Tech, services, and corporates</td>
+ <td>Cross-sector London FD/CFO team</td>
+ <td>Retainer</td>
+ <td>London</td>
  </tr>
  <tr>
  <td>8</td>
- <td>Catalant (London)</td>
- <td>Project-shaped CFO work</td>
- <td>On-demand expert network</td>
- <td>Project + retainer</td>
- <td>Remote + on-site</td>
+ <td>Consult EFC</td>
+ <td>SMEs wanting a chartered CFO</td>
+ <td>ICAEW part-time CFO support</td>
+ <td>Retainer</td>
+ <td>London</td>
  </tr>
  </tbody>
  </table>
@@ -320,41 +320,45 @@ export default function BestFractionalCFOLondonPage() {
  <Link href="/contact">Book the diagnostic.</Link>
  </p>
 
- <h2>2. BTG Advisory</h2>
+ <h2>2. The CFO Centre (London)</h2>
  <p>
- BTG Advisory is the strongest London advisory firm on this list for
- capital markets and fundraise work, particularly in regulated and
- cross-border situations. Best fit: founders raising UK-led or
- cross-border rounds where the CFO need is closer to investment
- banking advisory than ongoing finance leadership. Often paired with a
- separate ongoing CFO rather than replacing one.
+ The CFO Centre is the largest fractional CFO firm in the UK, with
+ 350+ CFOs and a dedicated London bench organised by district across
+ the City, West End, and North and East London. Best fit: established
+ London SMEs that want a proven methodology and the reassurance of a
+ wide national bench to draw on. Less suited to founders who need a
+ single named operator sitting beside them through a US-led fundraise
+ and exit rather than a firm-standard engagement.
  </p>
 
- <h2>3. CFO Associates</h2>
+ <h2>3. FD Capital</h2>
  <p>
- CFO Associates is a London fractional CFO firm with an established
- mid-market client base. Best fit: profitable London mid-market
- businesses that want a structured fractional CFO at a steady day
- rate. Less suited to venture-backed tech founders raising US-led
- rounds where dual-market fluency is the differentiator.
+ FD Capital is a founder-led London CFO and FD recruiter that places
+ fractional and interim finance leaders, often within the week. Best
+ fit: founders who know the finance work they need and want a fast,
+ vetted placement into the seat. The model is placement-led rather
+ than a direct long-run relationship with a named principal who owns
+ the fundraise and exit cycle end to end.
  </p>
 
- <h2>4. The CFO Centre (London)</h2>
+ <h2>4. The Finance People</h2>
  <p>
- The CFO Centre's London office runs the firm's standardised "12
- Boxes" methodology, giving founders a predictable engagement shape.
- Best fit: London SMBs that want a known framework and access to a
- wider national bench when needed. Less suited to founders who need
- bespoke fundraise leadership rather than methodology compliance.
+ The Finance People run a London fractional CFO and FD team for
+ startups, scale-ups, and SMEs, with a bench averaging 20+ years of
+ operator experience. Best fit: London businesses that want senior
+ finance leadership on a flexible retainer without the cost of a
+ full-time hire. Strong on structure and reporting; the dual UK/US
+ fundraise reflex is where the top of this list pulls ahead.
  </p>
 
- <h2>5. The FD Centre (London)</h2>
+ <h2>5. Harmonic Finance</h2>
  <p>
- The FD Centre's London office is part of a long-running UK
- part-time finance director network. Best fit: London SMBs that want
- monthly senior finance presence without building an internal team.
- Less suited to high-growth tech and AI startups where the CFO seat
- is fundraise-led rather than reporting-led.
+ Harmonic Finance is a London finance and operations partner aimed at
+ startups and scale-ups that want investor-ready reporting and metrics
+ through funding rounds. Best fit: early-stage London founders who
+ want thoughtful reporting and help navigating a raise. Less suited to
+ later-stage founders running a cross-border exit where operator-side
+ M&amp;A experience is the deciding factor.
  </p>
 
  <h2>6. Toptal Finance (London)</h2>
@@ -367,21 +371,24 @@ export default function BestFractionalCFOLondonPage() {
  the closer fit.
  </p>
 
- <h2>7. Paro (London)</h2>
+ <h2>7. Tectona Partnership</h2>
  <p>
- Paro's London coverage is best for founders who want optionality
- across more than one finance hire on the same platform. The AI-
- augmented matching layer compresses the shortlist process. The
- marketplace variability applies.
+ Tectona Partnership fields a London fractional FD and CFO team
+ spanning high-growth tech, professional services, and established
+ corporates. Best fit: London businesses that want a cross-sector
+ team with breadth across finance functions. The trade-off is the
+ same as any team-based model: less continuity than a single named
+ principal who owns the relationship from diagnostic through exit.
  </p>
 
- <h2>8. Catalant (London)</h2>
+ <h2>8. Consult EFC</h2>
  <p>
- Catalant's London expert network suits project-shaped CFO and
- FP&amp;A work: a fundraise sprint, an operating-plan rebuild, a
- board-prep sprint. Less suited to long-running monthly retainers
- where a direct relationship with a named principal is the better
- fit.
+ Consult EFC is led by an ICAEW Chartered Accountant offering
+ part-time and outsourced CFO support to London companies. Best fit:
+ London SMEs that want a chartered, compliance-strong part-time CFO on
+ a steady retainer. Less suited to venture-backed founders whose
+ defining need is US-investor fluency and operator-side exit
+ experience.
  </p>
 
  <h2>FAQ</h2>
