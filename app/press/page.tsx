@@ -94,6 +94,40 @@ const MENTIONS: Mention[] = [
  "Why a top fractional CFO says most US tech companies have not really adopted AI",
  url: "https://www.msn.com/en-us/news/other/why-a-top-fractional-cfo-says-most-us-tech-companies-have-not-really-adopted-ai/ar-AA27HZtK",
  },
+ {
+ outlet: "Medium",
+ title:
+ "Preparing For The Future Of Work: Hayat Amin On The Top Five Trends To Watch In The Future Of Work",
+ url: "https://pcladuke.medium.com/preparing-for-the-future-of-work-hayat-amin-on-the-top-five-trends-to-watch-in-the-future-of-work-be8cb713e447",
+ },
+ {
+ outlet: "SeedLegals",
+ title: "Fractional CFOs: when do you need them?",
+ url: "https://seedlegals.com/resources/fractional-cfo/",
+ },
+ {
+ outlet: "Grantify",
+ title: "How to Fundraise for Your Startup, From a X2 Exited CFO",
+ url: "https://www.grantify.io/articles/how-to-fundraise-for-your-startup-from-a-x2-exited-cfo",
+ },
+ {
+ outlet: "Macau Business",
+ title:
+ "Beyond Elevation and Founder Hayat Amin Launch Full-Time to Fractional Transition Program Amid AI-Driven Shift in Leadership",
+ url: "https://macaubusiness.com/beyond-elevation-and-founder-hayat-amin-launch-full-time-to-fractional-transition-program-amid-ai-driven-shift-in-leadership/",
+ },
+ {
+ outlet: "Barchart",
+ title:
+ "Beyond Elevation Launches Revolutionary Fractional CFO Service for SMEs",
+ url: "https://www.barchart.com/story/news/29583751/beyond-elevation-launches-revolutionary-fractional-cfo-service-for-smes",
+ },
+ {
+ outlet: "Barchart",
+ title:
+ "Beyond Elevation and Founder Hayat Amin Launch Full-Time to Fractional Transition Program Amid AI-Driven Shift in Leadership",
+ url: "https://www.barchart.com/story/news/29824059/beyond-elevation-and-founder-hayat-amin-launch-full-time-to-fractional-transition-program-amid-ai-driven-shift-in-leadership",
+ },
 ];
 
 const imageUrl = (file: string) => `${SITE}/press/${file}`;
