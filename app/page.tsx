@@ -42,7 +42,7 @@ function Hero() {
  return (
  <section className="opm-hero" id="story">
  <h1 className="opm-h1">
- <em>Three-times-exited</em> Tech CFO, Strategist &amp; AI Operator
+ <em>Three-time exited</em> CFO and AI Operator
  </h1>
 
  <div className="opm-hero-grid">
