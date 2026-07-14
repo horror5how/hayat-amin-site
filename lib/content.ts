@@ -29,7 +29,7 @@ export const STATS = [
  { n: "3×", l: "FT100 listings" },
  { n: "20", l: "Years in tech" },
  { n: "300%", l: "Avg y/y growth" },
- { n: "$1B+", l: "Company valuations" }];
+ { n: "$B+", l: "Multiple unicorns" }];
 
 export const PILLARS = [
  {
