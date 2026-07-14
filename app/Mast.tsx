@@ -27,7 +27,7 @@ export default function Mast() {
     <header className={`opm-mast ${scrolled ? "is-scrolled" : ""}`}>
       <div className="opm-mast-inner">
         <div className="opm-mast-l">
-          <span className="opm-nav-tag">Hayat Amin · Operator</span>
+          <span className="opm-nav-tag">Hayat Amin</span>
         </div>
         <nav className="opm-mast-r">
           {NAV.map((n, i) => {
