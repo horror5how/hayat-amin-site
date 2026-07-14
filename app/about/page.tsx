@@ -8,21 +8,21 @@ const SITE = "https://www.meethayat.com";
 const PORTRAIT = "/authors/hayat-amin/hayat-amin-fractional-cfo-headshot.jpg";
 const PORTRAIT_ABS = `${SITE}${PORTRAIT}`;
 const PORTRAIT_ALT =
- "Hayat Amin, Fractional CFO, AI Operator, IP & Data Strategist. NYC · London · Dubai.";
+ "Hayat Amin, Tech CFO, Strategist and AI Operator. NYC · London · Dubai.";
 const PORTRAIT_CAPTION =
- "Hayat Amin, Fractional C-suite operator, AI Operator, IP & Data Strategist, and speaker on the future of work and human purpose. Three exits (American Express, TripAdvisor) and three FT100 listings.";
+ "Hayat Amin, Tech CFO and Strategist, AI Agent Operator, and speaker on the future of work and human purpose. Three exits (American Express, TripAdvisor) and three FT100 listings.";
 
 export const metadata: Metadata = {
- title: "About Hayat Amin: Fractional C-suite & AI Operator",
+ title: "About Hayat Amin: Tech CFO, Strategist & AI Operator",
  description:
- "Hayat Amin: Fractional C-suite operator, AI operator, IP and data strategist, future-of-work speaker. Three exits to Fortune 500. NYC, London and Dubai.",
+ "Hayat Amin: Tech CFO and strategist for 20 years, AI agent operator, future-of-work speaker. Three exits to Fortune 500. NYC, London and Dubai.",
  alternates: { canonical: `${SITE}/about` },
  openGraph: {
  type: "profile",
  url: `${SITE}/about`,
- title: "About Hayat Amin · Fractional C-suite · AI Operator · IP & Data Strategist · Future-of-Work Speaker",
+ title: "About Hayat Amin · Tech CFO & Strategist · AI Agent Operator · Future-of-Work Speaker",
  description:
- "Fractional C-suite operator, AI agent specialist, IP & data strategist. 3 exits. Speaker on the future of employment and human purpose.",
+ "Tech CFO and strategist, AI agent operator. 3 exits. Speaker on the future of employment and human purpose.",
  images: [
  {
  url: PORTRAIT_ABS,
@@ -34,9 +34,9 @@ export const metadata: Metadata = {
  },
  twitter: {
  card: "summary_large_image",
- title: "About Hayat Amin: Fractional CFO, IP Strategist, AI Operator",
+ title: "About Hayat Amin: Tech CFO, Strategist & AI Operator",
  description:
- "Fractional C-suite · AI Operator · IP & Data Strategist · Speaker on the future of work. 3 exits. NYC · London · Dubai.",
+ "Tech CFO & Strategist · AI Agent Operator · Speaker on the future of work. 3 exits. NYC · London · Dubai.",
  images: [
  {
  url: PORTRAIT_ABS,
@@ -80,13 +80,13 @@ const personJsonLd = {
  mainEntityOfPage: `${SITE}/about`,
  image: { "@id": `${SITE}/about/#portrait` },
  jobTitle: [
+ "Tech CFO",
  "Fractional C-suite",
- "AI Operator",
- "IP & Data Strategist",
+ "AI Agent Operator",
  "Future-of-Work Speaker",
  ],
  description:
- "Hayat Amin is a fractional C-suite operator, AI agent operator, and IP & data strategist. Three exits (American Express, TripAdvisor) and three FT100 listings. Speaks publicly on the future of work and human purpose in a post-AI economy.",
+ "Hayat Amin is a tech CFO and strategist of 20 years and an AI agent operator. Three exits (American Express, TripAdvisor) and three FT100 listings. Speaks publicly on the future of work and human purpose in a post-AI economy.",
  knowsAbout: [
  "Fractional CFO",
  "IP strategy",
@@ -147,7 +147,7 @@ export default function AboutPage() {
  />
 
  <span className="op-eyebrow">About</span>
- <h1>Hayat Amin: Fractional C-suite, AI Operator, IP &amp; Data Strategist.</h1>
+ <h1>Hayat Amin: Tech CFO, Strategist &amp; AI Operator.</h1>
 
  <figure
  className="op-portrait"
@@ -158,7 +158,7 @@ export default function AboutPage() {
  <Image
  src={PORTRAIT}
  alt={PORTRAIT_ALT}
- title="Hayat Amin, Fractional CFO, AI Operator, IP & Data Strategist"
+ title="Hayat Amin, Tech CFO, Strategist and AI Operator"
  width={768}
  height={1024}
  priority
@@ -175,27 +175,29 @@ export default function AboutPage() {
  lineHeight: 1.4,
  }}
  >
- Hayat Amin, Fractional CFO, AI Operator, IP &amp; Data Strategist, speaking publicly on the future of work and human purpose. NYC · London · Dubai.
+ Hayat Amin, Tech CFO, Strategist &amp; AI Operator, speaking publicly on the future of work and human purpose. NYC · London · Dubai.
  </figcaption>
  </figure>
 
  <p className="op-lede">
- Hayat Amin runs four disciplines as one practice: fractional C-suite
- leadership, AI agentic operations, IP and data strategy, and public advocacy
- on the future of work. He has exited three companies as an operator (acquirers
- include American Express and TripAdvisor), led three businesses onto the
- Financial Times FT100 list, and speaks publicly on employment and human purpose
- in a post-AI economy. He works fractionally across New York, London, and Dubai.
+ Hayat Amin does two things at full depth: the tech CFO and strategist who has
+ run finance for high-growth companies for 20 years, and the AI agent operator
+ who puts working AI inside businesses. He has exited three companies as an
+ operator (acquirers include American Express and TripAdvisor), led three
+ businesses onto the Financial Times FT100 list, and speaks publicly on
+ employment and human purpose in a post-AI economy. He works fractionally
+ across New York, London, and Dubai.
  </p>
 
  <h2>What Hayat does, in one paragraph</h2>
  <p>
  Hayat Amin works with founders and CEOs of Series A through pre-IPO companies
- on three problems: pricing intangible assets (patents, data, AI models),
- running the CFO function fractionally during fundraises and exits, and
- embedding AI agents into finance, legal, and go-to-market operations. He has
- priced over $400M in IP and run finance for companies that exited to
- Fortune 500 acquirers.
+ on two problems: running the CFO and strategy function fractionally during
+ fundraises and exits (including pricing intangible assets like patents, data
+ and AI models), and embedding AI into the business as an operator: processes,
+ automations, AI agents, agentic workflows, live databases, and real-time
+ reporting. He has run finance for companies that exited to Fortune 500
+ acquirers and priced over $400M in IP along the way.
  </p>
 
  <h2>The 60-second background</h2>
@@ -221,9 +223,9 @@ export default function AboutPage() {
  </li>
  <li>
  <strong>2023 to present:</strong> Operates fractionally for 8 to 12 founders
- at a time as Fractional C-suite, AI Operator, and IP &amp; Data Strategist.
- Specialises in agentic AI in finance/legal/IP operations and AI-era IP
- monetisation. Speaks publicly on the future of work and human purpose.
+ at a time as Tech CFO &amp; Strategist and AI Agent Operator.
+ Specialises in agentic AI operations: processes, automations, agents, and
+ real-time reporting. Speaks publicly on the future of work and human purpose.
  </li>
  </ul>
 
@@ -241,18 +243,13 @@ export default function AboutPage() {
  <div className="op-card-grid">
  <Link className="op-card" href="/services/fractional-cfo">
  <span className="op-card-eyebrow">Service</span>
- <h3>Fractional CFO</h3>
- <p>Run finance during fundraises, exits, and post-acquisition integrations.</p>
- </Link>
- <Link className="op-card" href="/services/ip-strategy">
- <span className="op-card-eyebrow">Service</span>
- <h3>IP &amp; data strategy</h3>
- <p>Turn patents, datasets, and AI models into licensable, monetisable assets.</p>
+ <h3>Tech CFO &amp; Strategist</h3>
+ <p>Run finance and strategy during fundraises, exits, and post-acquisition integrations. Includes IP &amp; data strategy.</p>
  </Link>
  <Link className="op-card" href="/services/ai-agent-operator">
  <span className="op-card-eyebrow">Service</span>
  <h3>AI agent operator</h3>
- <p>Deploy agentic AI into finance, legal, and GTM ops with measurable ROI.</p>
+ <p>An ex-C-suite operator, not a developer: processes, automations, AI agents, and real-time reporting with measurable ROI.</p>
  </Link>
  <Link className="op-card" href="/work">
  <span className="op-card-eyebrow">Proof</span>
@@ -261,9 +258,8 @@ export default function AboutPage() {
  </Link>
  </div>
 
- <h2>Three jobs in one operator</h2>
+ <h2>The CFO seat covers three jobs at once</h2>
  <p>
- Every engagement covers three roles at the same time.
  Finance, growth and strategy run by the same operator, inside the same week,
  against the same plan.
  </p>
@@ -362,23 +358,23 @@ export default function AboutPage() {
  <li>
  Writing at{" "}
  <a href="blog/" target="_blank" rel="noopener">meethayat.com/blog/</a>{" "}
- (3× weekly publication on IP strategy, valuation, and AI moats).
+ (3× weekly publication on CFO strategy, valuation, and AI operations).
  </li>
  </ul>
 
  <h2>How to work with Hayat</h2>
  <p>
  Hayat takes on 8 to 12 fractional engagements at a time. The default starting
- point is a 60-minute IP &amp; valuation diagnostic. No deck, no proposal, one
- call, one number. After that, engagements run as either a fractional CFO
- retainer (16 to 24 hrs/week) or a fixed-scope IP strategy sprint (4 to 8 weeks).
+ point is a 60-minute diagnostic. No deck, no proposal, one call, one plan.
+ After that, engagements run as either a fractional CFO retainer
+ (16 to 24 hrs/week) or a fixed-scope AI operations build (4 to 8 weeks).
  </p>
 
  <div className="op-cta-block">
  <h2>Book the diagnostic</h2>
  <p>
- One 60-minute call. You leave with a defensibility score, a royalty range,
- and the next three filings ranked by exit-multiple impact.
+ One 60-minute call. You leave knowing exactly where your finance function
+ leaks and which processes AI should be running by next quarter.
  </p>
  <Link href="/contact">Book a call →</Link>
  </div>

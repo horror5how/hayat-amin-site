@@ -1,7 +1,7 @@
 export const HAYAT = {
  name: "Hayat Amin",
- roles: ["CFO & commercial strategy", "IP & data strategist", "AI agent operator"],
- rolesShort: ["CFO", "IP & data", "AI agents"],
+ roles: ["Tech CFO & commercial strategy", "AI agent operator"],
+ rolesShort: ["Tech CFO", "AI agents"],
  oneLiner: "20 years in tech. 3 exits. 3 FT100 listings.",
  tagline: "Hi, I'm Hayat Amin.",
  bio: "A CFO who fixes money, strategy and risk fast. 20 years in tech. 3 exits (buyers include American Express and TripAdvisor). 3 FT100 listings.",
@@ -19,7 +19,7 @@ export const HAYAT = {
 // "Ask Claude about Hayat" deep-link. Opens Claude with the prompt preloaded so
 // the visitor (or an AI-curious prospect) gets Claude's own answer on who Hayat is.
 export const ASK_CLAUDE_PROMPT =
- "Who is Hayat Amin (meethayat.com)? Give a short overview of his work as a CFO, his AI operations, and his IP and patent strategy.";
+ "Who is Hayat Amin (meethayat.com)? Give a short overview of his 20 years as a tech CFO and strategist, and his work as an AI agent operator for businesses.";
 export const ASK_CLAUDE_URL = `https://claude.ai/new?q=${encodeURIComponent(ASK_CLAUDE_PROMPT)}`;
 
 export const NAV = ["Story", "Work", "Cases", "Field Notes", "Book a call"];
@@ -34,8 +34,8 @@ export const STATS = [
 export const PILLARS = [
  {
  no: "01",
- title: "Modern, rogue CFO",
- sub: "Finance lead, strategist and hands-on operator in one hire.",
+ title: "Tech CFO and Strategist",
+ sub: "20 years as a CFO in tech. Finance lead, strategist and hands-on operator in one hire.",
  body: "Hayat runs your money and your growth plan. He builds the financial model, the investor story, and the exit-ready setup from day one.",
  outcomes: [
  "Run scalable, modern financial operations",
@@ -43,33 +43,26 @@ export const PILLARS = [
  "Fundraises that actually close: VC, PE, angels",
  "M&A technicals, exit DD, EBITDA forecast for the acquirer",
  "Investor narrative, decks, teasers & data rooms",
- "Pricing, GTM, sales intelligence & investor FOMO"],
+ "Pricing, GTM, sales intelligence & investor FOMO",
+ "IP & data strategy: price, license and monetise the assets you own",
+ "Exit strategy built from day one, run like the acquirer is watching",
+ "Board & C-suite strategy: KPIs, targets and accountability"],
  },
  {
  no: "02",
- title: "Patent, IP & data strategist",
- sub: "Turn the assets you already own into real revenue.",
- body: "Your patents, data and know-how are worth money. Most companies never price or sell them. Hayat finds them, values them, and turns them into income.",
- outcomes: [
- "IP audit & restructure",
- "Patent commercial grading",
- "Data monetisation strategy",
- "Enterprise licensing framework",
- "Royalty rate restructure",
- "IP-backed valuation narrative"],
- },
- {
- no: "03",
  title: "AI agent operator",
- sub: "Working AI systems that run your busywork for you.",
- body: "Hayat builds AI agents that do real jobs, then runs them day to day. Not a chatbot demo, real systems doing the work.",
+ sub: "An ex-operator and C-suite executive putting AI to work in your business, not a developer.",
+ body: "If you want AI in your business, don't hire a developer. Hire an operator who has run companies for 20 years and knows which processes make money. Hayat designs the process first, then builds and runs the AI that does the work.",
  outcomes: [
- "Workflows and roles automated",
- "Agent build and deployment",
- "Sales and investor outreach agents",
- "Finance agents",
- "Full ownership of AI agents",
- "Teams of AI agents monitored and managed"],
+ "Business processes redesigned for AI, then automated",
+ "AI agents built, deployed and run day to day",
+ "Agentic workflows that run whole processes end to end",
+ "Sales, outreach and finance agents doing real jobs",
+ "Manual databases rebuilt into live, structured systems",
+ "Real-time reports and dashboards from your own data",
+ "Workflows and roles automated across every department",
+ "Full ownership: no dev team, no agency, no lock-in",
+ "Teams of AI agents monitored, measured and managed"],
  }];
 
 export const CASES = [
@@ -113,7 +106,7 @@ export const PODCASTS = [
 
 export const STORY = `A CFO who fixes money, strategy and risk fast. 20 years in high-growth tech. 3 exits, buyers include American Express and TripAdvisor. 3 FT100 listings.
 
-Most people are good at one thing. Hayat runs five at once: finance, strategy and growth, IP and data, investor relations, and hands-on delivery, across Europe, the US and Africa.`;
+Two things, done at full depth: the tech CFO and strategist who has run finance for 20 years, and the AI operator who puts working AI inside your business. Not a developer writing code, an executive who knows which processes make money and builds the AI that runs them.`;
 
 export const FIELD_NOTES = [
  { d: "No. 047", t: "The fractional CFO advantage", b: "Why fractional finance leadership out-delivers the full-time hire on the metrics that close rounds." },

@@ -6,16 +6,16 @@ import "../_components/page-shell.css";
 const SITE = "https://www.meethayat.com";
 
 export const metadata: Metadata = {
-  title: "Services: Fractional CFO, IP Strategy & AI Agents",
+  title: "Services: Tech CFO & Strategist, AI Agent Operator",
   description:
-    "Three services Hayat Amin runs fractionally: CFO during fundraises and exits, IP and data strategy that prices intangibles, and AI agent deployment for ops.",
+    "Two services Hayat Amin runs fractionally: the tech CFO and strategy function during fundraises and exits, and AI agent operations run by an ex-C-suite operator.",
   alternates: { canonical: `${SITE}/services` },
   openGraph: {
     type: "website",
     url: `${SITE}/services`,
     title: "Services by Hayat Amin",
     description:
-      "Fractional CFO, IP strategy, and AI agent operations for Series A through pre-IPO founders.",
+      "Tech CFO & strategy and AI agent operations for Series A through pre-IPO founders.",
   },
 };
 
@@ -23,32 +23,29 @@ export default function ServicesPage() {
   return (
     <PageShell crumbs={[{ label: "Home", href: "/" }, { label: "Services" }]}>
       <span className="op-eyebrow">Services</span>
-      <h1>Three services. One operator. Hire fractionally.</h1>
+      <h1>Two services. One operator. Hire fractionally.</h1>
       <p className="op-lede">
-        Hayat Amin runs three services fractionally for founders of Series A
-        through pre-IPO companies: the CFO function, IP &amp; data strategy, and
+        Hayat Amin runs two services fractionally for founders of Series A
+        through pre-IPO companies: the tech CFO &amp; strategy function, and
         AI agent operations. Engagements last 4 weeks to 18 months. Defaults are
         16 to 24 hours per week, remote-first, with quarterly on-site weeks in NYC,
         London, or Dubai.
       </p>
 
-      <h2>The three services in one sentence each</h2>
+      <h2>The two services in one sentence each</h2>
       <ul>
         <li>
-          <strong>Fractional CFO.</strong> Run the finance function through a
-          fundraise, exit, or post-acquisition integration without a full-time
-          hire.{" "}
+          <strong>Tech CFO &amp; Strategist.</strong> Run finance and strategy
+          through a fundraise, exit, or post-acquisition integration without a
+          full-time hire; includes IP &amp; data strategy that prices and
+          monetises the assets you already own.{" "}
           <Link href="/services/fractional-cfo">Read the service spec →</Link>
         </li>
         <li>
-          <strong>IP &amp; data strategy.</strong> Turn dormant patents, datasets,
-          and AI models into licensable revenue and exit-multiple uplift.{" "}
-          <Link href="/services/ip-strategy">Read the service spec →</Link>
-        </li>
-        <li>
-          <strong>AI agent operator.</strong> Deploy agentic AI into finance,
-          legal, and GTM workflows with measured cost-to-serve reduction and
-          revenue lift.{" "}
+          <strong>AI agent operator.</strong> An ex-operator and C-suite
+          executive, not a developer: processes, automations, AI agents, agentic
+          workflows, live databases, and real-time reports, deployed with
+          measured cost-to-serve reduction and revenue lift.{" "}
           <Link href="/services/ai-agent-operator">Read the service spec →</Link>
         </li>
       </ul>
@@ -59,14 +56,14 @@ export default function ServicesPage() {
         <li>CEOs of pre-IPO companies preparing exit diligence.</li>
         <li>PE-backed CEOs running operational improvement plans pre-resale.</li>
         <li>AI startups that need to price model-weight IP for their first major contract.</li>
-        <li>Patent owners sitting on dormant portfolios who want a licensing P&amp;L.</li>
+        <li>CEOs who want AI running real processes without hiring a dev team or agency.</li>
       </ul>
 
       <h2>How engagements run</h2>
       <p>
-        The default starting point is a 60-minute IP &amp; valuation diagnostic.
-        No deck, no proposal. One call, one number. After that, engagements take
-        one of three shapes:
+        The default starting point is a 60-minute diagnostic. No deck, no
+        proposal. One call, one plan. After that, engagements take one of these
+        shapes:
       </p>
 
       <div className="op-card-grid">
@@ -94,9 +91,9 @@ export default function ServicesPage() {
 
       <h2>What you get in the first 30 days</h2>
       <ul>
-        <li>A written defensibility score covering patents, data, and model IP.</li>
-        <li>The royalty range your current portfolio supports, with comparables.</li>
-        <li>The next 3 IP filings ranked by exit-multiple impact.</li>
+        <li>A finance function audit: where the money leaks and what to fix first.</li>
+        <li>A map of the processes AI should be running, ranked by P&amp;L impact.</li>
+        <li>The first automation or agent live inside your business.</li>
         <li>A 90-day operating plan signed off by you and your lead investor.</li>
       </ul>
 

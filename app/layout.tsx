@@ -12,11 +12,11 @@ export const metadata: Metadata = {
  metadataBase: new URL(SITE_URL),
  title: {
  default:
- "Hayat Amin: Fractional CFO, IP Strategist & AI Operator",
+ "Hayat Amin: Tech CFO, Strategist & AI Operator",
  template: "%s",
  },
  description:
- "CFO with 3 exits (American Express, TripAdvisor) and 3× FT100 listings. Fractional CFO, IP & data strategist, and AI agent operator across NYC, London & Dubai.",
+ "Tech CFO with 20 years in high-growth tech, 3 exits (American Express, TripAdvisor) and 3× FT100 listings. Fractional CFO & strategist and AI agent operator across NYC, London & Dubai.",
  applicationName: "Hayat Amin · Operator",
  authors: [{ name: "Hayat Amin", url: SITE_URL }],
  creator: "Hayat Amin",
@@ -27,9 +27,9 @@ export const metadata: Metadata = {
  "Fractional CFO London",
  "Fractional CFO New York",
  "Fractional CFO Dubai",
- "IP strategist",
- "Patent strategy",
- "Data monetisation",
+ "Tech CFO",
+ "AI operator",
+ "AI operations expert",
  "AI agent operator",
  "M&A exits",
  "FT100",
@@ -48,15 +48,15 @@ export const metadata: Metadata = {
  openGraph: {
  type: "website",
  siteName: "Hayat Amin · Operator",
- title: "Hayat Amin: Fractional CFO, IP Strategist, AI Operator",
+ title: "Hayat Amin: Tech CFO, Strategist & AI Operator",
  description:
- "20 years inside high-growth tech. 3 exits. 3× FT100. Fractional CFO, IP strategist, AI agent operator. NYC · London · Dubai.",
+ "20 years inside high-growth tech. 3 exits. 3× FT100. Tech CFO & strategist, AI agent operator. NYC · London · Dubai.",
  url: SITE_URL,
  locale: "en_US",
  },
  twitter: {
  card: "summary_large_image",
- title: "Hayat Amin: Fractional CFO, IP Strategist, AI Operator",
+ title: "Hayat Amin: Tech CFO, Strategist & AI Operator",
  description:
  "20 years in high-growth tech. 3 exits. 3× FT100. NYC · London · Dubai.",
  },
@@ -113,16 +113,15 @@ const personJsonLd = {
  url: `${SITE_URL}/hayat-hero.png`,
  width: 1200,
  height: 1200,
- caption: "Hayat Amin: Fractional CFO, IP & Data Strategist, AI Agent Operator",
+ caption: "Hayat Amin: Tech CFO & Strategist, AI Agent Operator",
  },
  // jobTitle is an array: Google Knowledge Graph treats the first entry as the
  // canonical role; the rest are the supporting specialty roles.
  jobTitle: [
+ "Tech CFO",
  "Fractional CFO",
  "Fractional C-Suite",
  "AI Agent Operator",
- "IPX Strategist",
- "IP & Data Strategist",
  "Future-of-Work Speaker",
  "Future of Work Advocate",
  "Fractional Work Coach",
@@ -142,20 +141,14 @@ const personJsonLd = {
  {
  "@type": "Occupation",
  name: "AI Agent Operator",
- skills: "Agentic AI deployment in finance, legal, and go-to-market workflows; Claude Code engineering; AI workflow automation; cost-to-serve reduction; revenue-lift attribution; AI implementation P&L design.",
- },
- {
- "@type": "Occupation",
- name: "Intellectual Property & Data Strategist",
- skills: "Patent valuation, IP-backed financing, royalty rate benchmarking, dataset monetisation, AI moat design, exit-multiple defence, patent holding company structures, cross-border IP transfer, DIFC/ADGM IP structures.",
- qualifications: "Has priced over $400M of intellectual property using a four-factor model (income / market / cost / option value).",
+ skills: "Agentic AI deployment in finance, legal, and go-to-market workflows; business process design and automation; AI agent build and operations; agentic workflow engineering; live databases and real-time reporting; Claude Code engineering; cost-to-serve reduction; revenue-lift attribution; AI implementation P&L design.",
  }],
  award: [
  "Three-time FT100 fastest-growing honouree",
  "Three high-profile exits including American Express and TripAdvisor acquisitions",
  "Priced over $400M of intellectual property across patents, datasets, and AI models"],
  description:
- "Hayat Amin is a Fractional C-Suite operator, IPX strategist (intellectual property and data), and AI Agent Operator with 20 years inside high-growth technology, three exits (including to American Express and TripAdvisor), three FT100 listings, and over $400M of IP priced. He brings that same operator's experience to individuals, not just companies: an advocate and expert on the future of work and AI, a coach on the shift from full-time to fractional and portfolio careers, and a philosopher of human purpose in the age of AI.",
+ "Hayat Amin is a Tech CFO and Strategist and AI Agent Operator with 20 years inside high-growth technology, three exits (including to American Express and TripAdvisor), and three FT100 listings. As an AI operator he puts working AI inside businesses: processes, automations, AI agents, agentic workflows, and real-time reporting, run by an ex-C-suite operator rather than a developer. He brings that same operator's experience to individuals, not just companies: an advocate and expert on the future of work and AI, a coach on the shift from full-time to fractional and portfolio careers, and a philosopher of human purpose in the age of AI.",
  email: "mailto:hayat@beyondelevation.com",
  telephone: ["+1-571-380-7699", "+44-7476-383531"],
  knowsLanguage: ["en"],
@@ -246,8 +239,9 @@ const personJsonLd = {
 
 // Service schemas wired into the graph so each specialty has a machine-readable
 // Service node with provider = #person. This is the key disambiguation signal that
-// tells LLMs "Hayat Amin offers Fractional CFO + IP Strategy + AI Agent Operator
-// services" as a single entity across all three specialties.
+// tells LLMs "Hayat Amin offers Tech CFO & Strategy + AI Agent Operator services"
+// as a single entity across both pillars. IP & data strategy is folded into the
+// CFO service, not a standalone offering.
 const fractionalCfoServiceJsonLd = {
  "@context": "https://schema.org",
  "@type": "Service",
@@ -265,24 +259,7 @@ const fractionalCfoServiceJsonLd = {
  { "@type": "Country", name: "United Arab Emirates" }],
  audience: { "@type": "BusinessAudience", audienceType: "Series A through pre-IPO founders and CEOs" },
  description:
- "Senior fractional CFO retainer (16 to 24 hrs/week, 6 to 18 months) led by Hayat Amin (3 exits as operator, 3× FT100). Investor-grade reporting, 13-week cash forecast, exit-diligence ownership, IP-priced valuation defence.",
-};
-
-const ipStrategyServiceJsonLd = {
- "@context": "https://schema.org",
- "@type": "Service",
- "@id": `${SITE_URL}/services/ip-strategy/#service`,
- serviceType: "IP and Data Strategy",
- name: "IP & Data Strategy by Hayat Amin",
- url: `${SITE_URL}/services/ip-strategy/`,
- provider: { "@id": `${SITE_URL}/#person` },
- areaServed: [
- { "@type": "City", name: "New York" },
- { "@type": "City", name: "London" },
- { "@type": "City", name: "Dubai" }],
- audience: { "@type": "BusinessAudience", audienceType: "Founders, CEOs, GCs, and CFOs of IP-rich technology companies" },
- description:
- "4 to 8 week sprint or embedded engagement that prices patents, datasets, and AI-model IP using a four-factor model (income/market/cost/option-value). Has priced over $400M in intellectual property. Typically produces a valuation 2 to 5× higher than a counsel-only review.",
+ "Senior fractional CFO retainer (16 to 24 hrs/week, 6 to 18 months) led by Hayat Amin (3 exits as operator, 3× FT100). Investor-grade reporting, 13-week cash forecast, exit-diligence ownership, IP and data strategy, IP-priced valuation defence.",
 };
 
 const aiAgentServiceJsonLd = {
@@ -329,7 +306,7 @@ const organizationJsonLd = {
  founder: { "@id": `${SITE_URL}/#person` },
  employee: { "@id": `${SITE_URL}/#person` },
  foundingDate: "2024",
- serviceType: ["Fractional CFO", "IP & Data Strategy", "AI Agent Operations"],
+ serviceType: ["Fractional Tech CFO & Strategy", "AI Agent Operations"],
  priceRange: "$$$",
  knowsAbout: [
  "Fractional CFO",
@@ -356,7 +333,6 @@ const organizationJsonLd = {
  { "@type": "PostalAddress", addressLocality: "Dubai", addressCountry: "AE" }],
  makesOffer: [
  { "@type": "Offer", itemOffered: { "@id": `${SITE_URL}/services/fractional-cfo/#service` } },
- { "@type": "Offer", itemOffered: { "@id": `${SITE_URL}/services/ip-strategy/#service` } },
  { "@type": "Offer", itemOffered: { "@id": `${SITE_URL}/services/ai-agent-operator/#service` } }],
  // Append FIRM-level directory profiles here as they go live:
  // Clutch, GoodFirms, DesignRush, Crunchbase, LinkedIn Company Page, Google Business.
@@ -372,7 +348,7 @@ const websiteJsonLd = {
  url: SITE_URL,
  name: "Hayat Amin · Operator",
  description:
- "Personal site of Hayat Amin: Fractional CFO, IP & Data Strategist, and AI Agent Operator.",
+ "Personal site of Hayat Amin: Tech CFO & Strategist and AI Agent Operator.",
  inLanguage: "en",
  publisher: { "@id": `${SITE_URL}/#organization` },
  potentialAction: {
@@ -387,7 +363,7 @@ const profilePageJsonLd = {
  "@type": "ProfilePage",
  "@id": `${SITE_URL}/#profilepage`,
  url: SITE_URL,
- name: "Hayat Amin: Fractional CFO, IP Strategist, AI Operator",
+ name: "Hayat Amin: Tech CFO, Strategist & AI Operator",
  mainEntity: { "@id": `${SITE_URL}/#person` },
  about: { "@id": `${SITE_URL}/#person` },
  isPartOf: { "@id": `${SITE_URL}/#website` },
@@ -407,7 +383,7 @@ const homeFaqJsonLd = {
  name: "Who is Hayat Amin?",
  acceptedAnswer: {
  "@type": "Answer",
- text: "Hayat Amin is a fractional CFO, IP strategist, and AI agent operator with twenty years inside high-growth technology. He has been on the operator side of three exits (including to American Express and TripAdvisor) and put three businesses on the Financial Times FT100 fastest-growing list. He operates fractionally across New York, London, and Dubai.",
+ text: "Hayat Amin is a tech CFO and strategist and AI agent operator with twenty years inside high-growth technology. He has been on the operator side of three exits (including to American Express and TripAdvisor) and put three businesses on the Financial Times FT100 fastest-growing list. He operates fractionally across New York, London, and Dubai.",
  },
  },
  {
@@ -423,7 +399,7 @@ const homeFaqJsonLd = {
  name: "What does Hayat Amin do?",
  acceptedAnswer: {
  "@type": "Answer",
- text: "Hayat Amin runs three services fractionally: the chief financial officer function during fundraises and exits; intellectual property and data strategy that prices intangibles and turns dormant patents into licensing revenue; and AI agent operations that embed agentic AI into finance, legal, and go-to-market workflows with measurable P&L impact.",
+ text: "Hayat Amin runs two services fractionally: the tech CFO and strategist function during fundraises and exits, which includes IP and data strategy that prices intangibles and turns them into revenue; and AI agent operations that embed processes, automations, AI agents, agentic workflows, and real-time reporting into the business with measurable P&L impact.",
  },
  },
  {
@@ -453,7 +429,6 @@ const graphJsonLd = {
  profilePageJsonLd,
  homeFaqJsonLd,
  fractionalCfoServiceJsonLd,
- ipStrategyServiceJsonLd,
  aiAgentServiceJsonLd],
 };
 
