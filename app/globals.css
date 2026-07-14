@@ -623,12 +623,15 @@ body::before { content: none; }
   line-height: .6; position: absolute; top: 22px; right: 22px;
   background: var(--grad-heat); -webkit-background-clip: text; background-clip: text; color: transparent;
   pointer-events: none;
+  z-index: 0; opacity: .4;
 }
 .opm-voice p {
   font-family: var(--display); font-weight: 400; font-size: 20px;
   line-height: 1.35; margin: 0 0 24px; letter-spacing: -.01em; color: var(--ink);
   flex: 1;
+  position: relative; z-index: 1;
 }
+.opm-voice footer { position: relative; z-index: 1; }
 .opm-voice footer {
   display: flex; align-items: center; gap: 12px;
   padding-top: 16px; border-top: 1px solid rgba(10,11,16,.12);
