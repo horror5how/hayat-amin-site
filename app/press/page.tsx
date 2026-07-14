@@ -128,6 +128,12 @@ const MENTIONS: Mention[] = [
  "Beyond Elevation and Founder Hayat Amin Launch Full-Time to Fractional Transition Program Amid AI-Driven Shift in Leadership",
  url: "https://www.barchart.com/story/news/29824059/beyond-elevation-and-founder-hayat-amin-launch-full-time-to-fractional-transition-program-amid-ai-driven-shift-in-leadership",
  },
+ {
+ outlet: "IssueWire",
+ title:
+ "Beyond Elevation Launches AI-Powered IP and Patent Valuation Service for Technology Companies",
+ url: "https://www.issuewire.com/beyond-elevation-launches-ai-powered-ip-and-patent-valuation-service-for-technology-companies-1861844498292563",
+ },
 ];
 
 const imageUrl = (file: string) => `${SITE}/press/${file}`;
