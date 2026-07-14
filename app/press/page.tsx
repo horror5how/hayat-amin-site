@@ -81,6 +81,21 @@ const PHOTOS: Photo[] = [
  },
 ];
 
+// Third-party media mentions. Each entry is a real published feature that
+// names Hayat Amin. Rendered as a visible "Featured In" list and emitted as
+// subjectOf Article citations on the Person schema so Google and AI answer
+// engines tie the coverage to the canonical Hayat Amin entity.
+type Mention = { outlet: string; title: string; url: string };
+
+const MENTIONS: Mention[] = [
+ {
+ outlet: "MSN",
+ title:
+ "Why a top fractional CFO says most US tech companies have not really adopted AI",
+ url: "https://www.msn.com/en-us/news/other/why-a-top-fractional-cfo-says-most-us-tech-companies-have-not-really-adopted-ai/ar-AA27HZtK",
+ },
+];
+
 const imageUrl = (file: string) => `${SITE}/press/${file}`;
 
 export const metadata: Metadata = {
@@ -113,6 +128,13 @@ const personJsonLd = {
  jobTitle:
  "Fractional C-Suite operator, IPX strategist (IP and data), and AI Agent Operator",
  image: PHOTOS.map((p) => imageUrl(p.file)),
+ subjectOf: MENTIONS.map((m) => ({
+ "@type": "NewsArticle",
+ headline: m.title,
+ url: m.url,
+ about: { "@id": `${SITE}/#person` },
+ publisher: { "@type": "Organization", name: m.outlet },
+ })),
  sameAs: [
  "https://www.wikidata.org/wiki/Q139785012",
  "https://www.linkedin.com/in/hayatamin/",
@@ -199,6 +221,20 @@ export default function PressPage() {
  </figure>
  ))}
  </div>
+
+ <section className="press-mentions">
+ <h2>Featured in</h2>
+ <ul className="press-mentions-list">
+ {MENTIONS.map((m) => (
+ <li key={m.url}>
+ <span className="press-mentions-outlet">{m.outlet}</span>
+ <a href={m.url} target="_blank" rel="noopener noreferrer">
+ {m.title}
+ </a>
+ </li>
+ ))}
+ </ul>
+ </section>
 
  <div className="op-cta-block">
  <h2>Booking and media requests</h2>

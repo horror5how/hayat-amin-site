@@ -68,3 +68,11 @@
  line-height: 1.5;
  color: var(--op-text, #2a2722);
 }
+
+/* Featured in / media mentions */
+.press-mentions { margin: 2.5rem 0 1rem; }
+.press-mentions h2 { margin-bottom: 0.75rem; }
+.press-mentions-list { list-style: none; padding: 0; margin: 0; display: grid; gap: 0.75rem; }
+.press-mentions-list li { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.5rem 0.75rem; padding-bottom: 0.75rem; border-bottom: 1px solid rgba(0,0,0,0.08); }
+.press-mentions-outlet { font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em; font-size: 0.8rem; opacity: 0.7; min-width: 4rem; }
+.press-mentions-list a { text-decoration: underline; }
