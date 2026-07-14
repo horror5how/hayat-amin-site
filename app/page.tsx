@@ -21,8 +21,8 @@ export default function HomePage() {
  <Mast />
  <Hero />
  <Strip />
- <PressStrip />
  <Manifesto />
+ <PressStrip />
  <Stats />
  <Pillars />
  <Cases />
@@ -131,12 +131,18 @@ function Strip() {
 // to the live article. Distinct from the client-logo Strip above.
 const PRESS_STRIP = [
  {
- mark: "MSN",
+ name: "MSN",
+ logo: "/press-logos/msn.svg",
  url: "https://www.msn.com/en-us/news/other/why-a-top-fractional-cfo-says-most-us-tech-companies-have-not-really-adopted-ai/ar-AA27HZtK",
  },
- { mark: "SEEDLEGALS", url: "https://seedlegals.com/resources/fractional-cfo/" },
  {
- mark: "BARCHART",
+ name: "SeedLegals",
+ logo: "/press-logos/seedlegals.svg",
+ url: "https://seedlegals.com/resources/fractional-cfo/",
+ },
+ {
+ name: "Barchart",
+ logo: "/press-logos/barchart.svg",
  url: "https://www.barchart.com/story/news/29583751/beyond-elevation-launches-revolutionary-fractional-cfo-service-for-smes",
  },
 ];
@@ -148,13 +154,15 @@ function PressStrip() {
  <div className="opm-press-strip-logos">
  {PRESS_STRIP.map((l) => (
  <a
- key={l.mark}
+ key={l.name}
  className="opm-press-strip-logo"
  href={l.url}
  target="_blank"
  rel="noopener noreferrer"
+ aria-label={l.name}
  >
- {l.mark}
+ {/* eslint-disable-next-line @next/next/no-img-element */}
+ <img src={l.logo} alt={`${l.name} logo`} />
  </a>
  ))}
  </div>

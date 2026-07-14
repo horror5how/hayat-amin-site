@@ -1128,21 +1128,28 @@ body::before { content: none; }
 /* ponytail: global square-corners mandate — one rule beats editing 300 blog pages; !important overrides inline borderRadius too */
 *, *::before, *::after { border-radius: 0 !important; }
 
-/* As featured in — press strip (verified media, linked) */
+/* As featured in — press strip (color logos, linked). Spacey + minimal. */
 .opm-press-strip {
-  display: flex; flex-wrap: wrap; align-items: center; justify-content: center;
-  gap: 14px 28px; padding: 22px 24px; text-align: center;
-  border-top: 1px solid rgba(0,0,0,0.07); border-bottom: 1px solid rgba(0,0,0,0.07);
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  gap: 40px; text-align: center;
+  padding: 100px 24px;
 }
 .opm-press-strip-label {
-  font-size: 12px; letter-spacing: 0.14em; text-transform: uppercase;
-  font-weight: 600; opacity: 0.55;
+  font-size: 12px; letter-spacing: 0.18em; text-transform: uppercase;
+  font-weight: 600; opacity: 0.45;
 }
-.opm-press-strip-logos { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 26px; }
+.opm-press-strip-logos {
+  display: flex; flex-wrap: wrap; align-items: center; justify-content: center;
+  gap: 40px 64px;
+}
 .opm-press-strip-logo {
-  font-weight: 800; letter-spacing: 0.04em; font-size: 18px;
-  opacity: 0.72; text-decoration: none; color: inherit;
-  transition: opacity 0.15s ease;
+  display: inline-flex; align-items: center;
+  opacity: 0.9; transition: opacity 0.18s ease, transform 0.18s ease;
 }
-.opm-press-strip-logo:hover { opacity: 1; text-decoration: underline; }
-@media (max-width: 640px) { .opm-press-strip-logo { font-size: 15px; } }
+.opm-press-strip-logo:hover { opacity: 1; transform: translateY(-2px); }
+.opm-press-strip-logo img { display: block; height: 30px; width: auto; }
+@media (max-width: 640px) {
+  .opm-press-strip { padding: 64px 20px; gap: 30px; }
+  .opm-press-strip-logos { gap: 30px 40px; }
+  .opm-press-strip-logo img { height: 24px; }
+}
