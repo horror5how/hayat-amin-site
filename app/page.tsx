@@ -21,6 +21,7 @@ export default function HomePage() {
  <Mast />
  <Hero />
  <Strip />
+ <PressStrip />
  <Manifesto />
  <Stats />
  <Pillars />
@@ -123,6 +124,41 @@ function Strip() {
 ))}
  </div>
  </div>
+);
+}
+
+// "As featured in" press strip. Verified media placements only, each linking
+// to the live article. Distinct from the client-logo Strip above.
+const PRESS_STRIP = [
+ {
+ mark: "MSN",
+ url: "https://www.msn.com/en-us/news/other/why-a-top-fractional-cfo-says-most-us-tech-companies-have-not-really-adopted-ai/ar-AA27HZtK",
+ },
+ { mark: "SEEDLEGALS", url: "https://seedlegals.com/resources/fractional-cfo/" },
+ {
+ mark: "BARCHART",
+ url: "https://www.barchart.com/story/news/29583751/beyond-elevation-launches-revolutionary-fractional-cfo-service-for-smes",
+ },
+];
+
+function PressStrip() {
+ return (
+ <section className="opm-press-strip" aria-label="Press and media features">
+ <span className="opm-press-strip-label">As featured in</span>
+ <div className="opm-press-strip-logos">
+ {PRESS_STRIP.map((l) => (
+ <a
+ key={l.mark}
+ className="opm-press-strip-logo"
+ href={l.url}
+ target="_blank"
+ rel="noopener noreferrer"
+ >
+ {l.mark}
+ </a>
+ ))}
+ </div>
+ </section>
 );
 }
 
