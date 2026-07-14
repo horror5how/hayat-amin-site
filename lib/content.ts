@@ -1,6 +1,6 @@
 export const HAYAT = {
  name: "Hayat Amin",
- roles: ["Tech CFO & commercial strategy", "AI agent operator"],
+ roles: ["Fast-growing tech company CFO & commercial strategy", "AI agent operator for automation & intelligence"],
  rolesShort: ["Tech CFO", "AI agents"],
  oneLiner: "20 years in tech. 3 exits. 3 FT100 listings.",
  tagline: "Hi, I'm Hayat Amin.",

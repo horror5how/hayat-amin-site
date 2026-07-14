@@ -71,7 +71,7 @@ function Hero() {
  </p>
  <div className="opm-rule"></div>
  <p className="opm-pillars-intro">
- One hire, two jobs done:
+ Unfair advantage and experience in two specialised categories:
  </p>
  <ul className="opm-roles">
  {HAYAT.roles.map((r) => (
