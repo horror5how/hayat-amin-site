@@ -144,7 +144,7 @@ body::before { content: none; }
   background-size: 200% 100%; animation: shimmer 7s linear infinite;
 }
 
-.opm-hero-grid { display: grid; grid-template-columns: 1.05fr 1fr; gap: 56px; align-items: stretch; }
+.opm-hero-grid { display: grid; grid-template-columns: 1.05fr 1fr; gap: 64px; align-items: center; }
 .opm-hero-portrait { display: flex; flex-direction: column; gap: 18px; max-width: 520px; width: 100%; justify-self: start; }
 /* ── Hero portrait: framed editorial plate (black-bg studio shot) ── */
 .opm-cutout-stage {
@@ -307,7 +307,7 @@ body::before { content: none; }
 /* ── Ask Claude about Hayat ── */
 .opm-hero-ctas {
   display: flex; flex-wrap: wrap; align-items: center; gap: 10px;
-  margin-top: auto;
+  margin-top: 8px;
 }
 .opm-ask-claude {
   display: inline-flex; align-items: center; gap: 8px;
