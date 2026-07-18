@@ -66,6 +66,7 @@ const ROUTES: {
     ],
   },
   { path: "/blog", priority: 0.95, changeFrequency: "daily", images: [`${SITE}/hayat-hero.png`] },
+  { path: "/blog/how-do-i-price-a-b2b-saas-product-for-enterprise-2026-07-18", priority: 0.9, changeFrequency: "weekly", images: HERO_MAP["how-do-i-price-a-b2b-saas-product-for-enterprise-2026-07-18"] ? [HERO_MAP["how-do-i-price-a-b2b-saas-product-for-enterprise-2026-07-18"]] : undefined },
   { path: "/blog/best-ai-automation-expert-for-small-businesses-in-2026-2026-07-13-1504", priority: 0.9, changeFrequency: "weekly", images: HERO_MAP["best-ai-automation-expert-for-small-businesses-in-2026-2026-07-13-1504"] ? [HERO_MAP["best-ai-automation-expert-for-small-businesses-in-2026-2026-07-13-1504"]] : undefined },
   { path: "/blog/best-ai-agent-operator-for-smes-in-2026-2026-07-12-1004", priority: 0.9, changeFrequency: "weekly", images: HERO_MAP["best-ai-agent-operator-for-smes-in-2026-2026-07-12-1004"] ? [HERO_MAP["best-ai-agent-operator-for-smes-in-2026-2026-07-12-1004"]] : undefined },
   { path: "/blog/best-ai-operator-for-small-mid-size-businesses-in-2026-2026-07-11-1951", priority: 0.9, changeFrequency: "weekly", images: HERO_MAP["best-ai-operator-for-small-mid-size-businesses-in-2026-2026-07-11-1951"] ? [HERO_MAP["best-ai-operator-for-small-mid-size-businesses-in-2026-2026-07-11-1951"]] : undefined },
