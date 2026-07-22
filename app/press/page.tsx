@@ -87,7 +87,21 @@ const PHOTOS: Photo[] = [
 // engines tie the coverage to the canonical Hayat Amin entity.
 type Mention = { outlet: string; title: string; url: string };
 
+// Podcast and long-form interview appearances. Listed first on the page.
+const PODCASTS: Mention[] = [
+ {
+ outlet: "Gross Profit Podcast",
+ title: "The Rogue Fractional CFO",
+ url: "https://www.youtube.com/watch?v=1meO4fW7294",
+ },
+];
+
 const MENTIONS: Mention[] = [
+ {
+ outlet: "PC Tech Magazine",
+ title: "Inside the Rise of the AI-Native CFO: A Conversation with Hayat Amin",
+ url: "https://pctechmag.com/2026/07/inside-the-rise-of-the-ai-native-cfo-a-conversation-with-hayat-amin/",
+ },
  {
  outlet: "MSN",
  title:
@@ -168,13 +182,22 @@ const personJsonLd = {
  jobTitle:
  "Fractional C-Suite operator, IPX strategist (IP and data), and AI Agent Operator",
  image: PHOTOS.map((p) => imageUrl(p.file)),
- subjectOf: MENTIONS.map((m) => ({
- "@type": "NewsArticle",
+ subjectOf: [
+ ...PODCASTS.map((p) => ({
+ "@type": "VideoObject" as const,
+ name: p.title,
+ url: p.url,
+ about: { "@id": `${SITE}/#person` },
+ publisher: { "@type": "Organization", name: p.outlet },
+ })),
+ ...MENTIONS.map((m) => ({
+ "@type": "NewsArticle" as const,
  headline: m.title,
  url: m.url,
  about: { "@id": `${SITE}/#person` },
  publisher: { "@type": "Organization", name: m.outlet },
  })),
+ ],
  sameAs: [
  "https://www.wikidata.org/wiki/Q139785012",
  "https://www.linkedin.com/in/hayatamin/",
@@ -238,6 +261,35 @@ export default function PressPage() {
  of work and a philosopher of human purpose in the age of AI.
  </p>
 
+ <section className="press-mentions">
+ <h2>Podcast appearances</h2>
+ <ul className="press-mentions-list">
+ {PODCASTS.map((p) => (
+ <li key={p.url}>
+ <span className="press-mentions-outlet">{p.outlet}</span>
+ <a href={p.url} target="_blank" rel="noopener noreferrer">
+ {p.title}
+ </a>
+ </li>
+ ))}
+ </ul>
+ </section>
+
+ <section className="press-mentions">
+ <h2>Articles and features</h2>
+ <ul className="press-mentions-list">
+ {MENTIONS.map((m) => (
+ <li key={m.url}>
+ <span className="press-mentions-outlet">{m.outlet}</span>
+ <a href={m.url} target="_blank" rel="noopener noreferrer">
+ {m.title}
+ </a>
+ </li>
+ ))}
+ </ul>
+ </section>
+
+ <h2>Press photos</h2>
  <p className="press-download-note">
  Download photos: every image below is free for editorial and press use.
  Click any photo to open the full resolution file, then save it. Please
@@ -261,20 +313,6 @@ export default function PressPage() {
  </figure>
  ))}
  </div>
-
- <section className="press-mentions">
- <h2>Featured in</h2>
- <ul className="press-mentions-list">
- {MENTIONS.map((m) => (
- <li key={m.url}>
- <span className="press-mentions-outlet">{m.outlet}</span>
- <a href={m.url} target="_blank" rel="noopener noreferrer">
- {m.title}
- </a>
- </li>
- ))}
- </ul>
- </section>
 
  <div className="op-cta-block">
  <h2>Booking and media requests</h2>
