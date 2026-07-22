@@ -45,6 +45,7 @@ export default function Mast() {
           })}
           <Link href="/answers">Answers</Link>
           <Link href="/speaking">Speaking</Link>
+          <Link href="/press">Press</Link>
         </nav>
       </div>
     </header>
