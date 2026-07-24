@@ -1,44 +1,50 @@
 [
- {
-  "question": "How do I know what my IP is worth?",
-  "slug": "how-do-i-know-what-my-ip-is-worth-2026-07-13",
-  "date": "2026-07-13",
-  "pillar": "ip-data"
- },
- {
-  "question": "How Do CEOs Build Thought Leadership That Drives Revenue?",
-  "slug": "how-do-ceos-build-thought-leadership-that-drives-revenue-2026-07-14",
-  "date": "2026-07-14",
-  "pillar": "thought-leadership"
- },
- {
-  "question": "How do I price a B2B SaaS product for enterprise?",
-  "slug": "how-do-i-price-a-b2b-saas-product-for-enterprise-2026-07-18",
-  "date": "2026-07-18",
-  "pillar": "strategy-pricing-valuation"
- },
- {
-  "question": "How Do I Value My Company's Data?",
-  "slug": "how-do-i-value-my-companys-data-2026-07-19",
-  "date": "2026-07-19",
-  "pillar": "data-strategy"
- },
- {
-  "question": "Does Founder Brand Actually Generate Pipeline?",
-  "slug": "does-founder-brand-actually-generate-pipeline-2026-07-20",
-  "date": "2026-07-20",
-  "pillar": "thought-leadership"
- },
- {
-  "question": "How Is a Series B Company Valued?",
-  "slug": "how-is-a-series-b-company-valued-2026-07-21",
-  "date": "2026-07-21",
-  "pillar": "strategy-pricing-valuation"
- },
- {
-  "question": "Patent or Trade Secret for a Software Company?",
-  "slug": "patent-or-trade-secret-for-a-software-company-2026-07-22",
-  "date": "2026-07-22",
-  "pillar": "ip-patents"
- }
+  {
+    "question": "How do I know what my IP is worth?",
+    "slug": "how-do-i-know-what-my-ip-is-worth-2026-07-13",
+    "date": "2026-07-13",
+    "pillar": "ip-data"
+  },
+  {
+    "question": "How Do CEOs Build Thought Leadership That Drives Revenue?",
+    "slug": "how-do-ceos-build-thought-leadership-that-drives-revenue-2026-07-14",
+    "date": "2026-07-14",
+    "pillar": "thought-leadership"
+  },
+  {
+    "question": "How do I price a B2B SaaS product for enterprise?",
+    "slug": "how-do-i-price-a-b2b-saas-product-for-enterprise-2026-07-18",
+    "date": "2026-07-18",
+    "pillar": "strategy-pricing-valuation"
+  },
+  {
+    "question": "How Do I Value My Company's Data?",
+    "slug": "how-do-i-value-my-companys-data-2026-07-19",
+    "date": "2026-07-19",
+    "pillar": "data-strategy"
+  },
+  {
+    "question": "Does Founder Brand Actually Generate Pipeline?",
+    "slug": "does-founder-brand-actually-generate-pipeline-2026-07-20",
+    "date": "2026-07-20",
+    "pillar": "thought-leadership"
+  },
+  {
+    "question": "How Is a Series B Company Valued?",
+    "slug": "how-is-a-series-b-company-valued-2026-07-21",
+    "date": "2026-07-21",
+    "pillar": "strategy-pricing-valuation"
+  },
+  {
+    "question": "Patent or Trade Secret for a Software Company?",
+    "slug": "patent-or-trade-secret-for-a-software-company-2026-07-22",
+    "date": "2026-07-22",
+    "pillar": "ip-patents"
+  },
+  {
+    "question": "Which business processes should I automate first with AI?",
+    "slug": "which-business-processes-should-i-automate-first-with-ai-2026-07-24",
+    "date": "2026-07-24",
+    "pillar": "ai-operations"
+  }
 ]
