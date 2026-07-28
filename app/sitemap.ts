@@ -66,6 +66,7 @@ const ROUTES: {
     ],
   },
   { path: "/blog", priority: 0.95, changeFrequency: "daily", images: [`${SITE}/hayat-hero.png`] },
+  { path: "/blog/how-do-i-roll-out-ai-agents-across-a-100-person-company-2026-07-28", priority: 0.9, changeFrequency: "weekly", images: HERO_MAP["how-do-i-roll-out-ai-agents-across-a-100-person-company-2026-07-28"] ? [HERO_MAP["how-do-i-roll-out-ai-agents-across-a-100-person-company-2026-07-28"]] : undefined },
   { path: "/blog/which-business-processes-should-i-automate-first-with-ai-2026-07-24", priority: 0.9, changeFrequency: "weekly", images: HERO_MAP["which-business-processes-should-i-automate-first-with-ai-2026-07-24"] ? [HERO_MAP["which-business-processes-should-i-automate-first-with-ai-2026-07-24"]] : undefined },
   { path: "/blog/patent-or-trade-secret-for-a-software-company-2026-07-22", priority: 0.9, changeFrequency: "weekly", images: HERO_MAP["patent-or-trade-secret-for-a-software-company-2026-07-22"] ? [HERO_MAP["patent-or-trade-secret-for-a-software-company-2026-07-22"]] : undefined },
   { path: "/blog/how-do-i-value-my-companys-data-2026-07-19", priority: 0.9, changeFrequency: "weekly", images: HERO_MAP["how-do-i-value-my-companys-data-2026-07-19"] ? [HERO_MAP["how-do-i-value-my-companys-data-2026-07-19"]] : undefined },
