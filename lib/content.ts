@@ -9,8 +9,8 @@ export const HAYAT = {
  "Fixes business pain, risk and confusion fast.\n20 years in tech. 3 exits. 3× FT100 listings.",
  locations: ["New York", "London", "Dubai"],
  email: "hayat@beyondelevation.com",
- calendar: "usemotion.com/meet/hayat-amin/be",
- calendarUrl: "https://usemotion.com/meet/hayat-amin/be",
+ calendar: "meethayat.com/call/web",
+ calendarUrl: "https://www.meethayat.com/call/web",
  phones: [
  { country: "United States", number: "+1 (571) 380-7699" },
  { country: "United Kingdom", number: "+44 7476 383531" }],

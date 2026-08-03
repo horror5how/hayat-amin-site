@@ -3,7 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import { HAYAT } from "@/lib/content";
 
-// Direct-line popup — same idea as the Beyond Elevation "Alexandra" prompt, but
+// Direct-line popup — same idea as the Beyond Elevation direct-line prompt, but
 // themed for meethayat and pointed at Hayat's own calendar. Shows once, after the
 // visitor has either spent ~15s or scrolled ~45% of the page. Dismissal is
 // remembered for 7 days so it never nags a returning reader.
