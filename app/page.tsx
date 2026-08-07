@@ -42,20 +42,21 @@ function Hero() {
  return (
  <section className="opm-hero" id="story">
  <h1 className="opm-h1">
- <em>Three-time exited</em> CFO and AI Operator
+ <em>Exit specialist.</em> Three-time exited CFO.
  </h1>
 
  <div className="opm-hero-grid">
  <div className="opm-hero-portrait">
  <div className="opm-cutout-stage">
  {/* eslint-disable-next-line @next/next/no-img-element */}
- <img className="opm-cutout-img" src="/hayat-hero-portrait.jpg" alt="Hayat Amin, Tech CFO and AI Operator" />
- <span className="opm-cutout-tag">Tech CFO and AI Operator</span>
+ <img className="opm-cutout-img" src="/hayat-hero-portrait.jpg" alt="Hayat Amin, exit specialist and three-time exited tech CFO" />
+ <span className="opm-cutout-tag">Exit specialist · 3 companies sold</span>
  </div>
  <dl className="opm-cutout-meta">
  <div><dt>Name</dt><dd>Hayat Amin</dd></div>
  <div><dt>Cities</dt><dd>New York · London</dd></div>
- <div><dt>Profession</dt><dd>Tech CFO and AI Operator</dd></div>
+ <div><dt>Profession</dt><dd>Exit specialist &amp; tech CFO</dd></div>
+ <div><dt>Exits</dt><dd>Amex · TripAdvisor · Cooper Parry</dd></div>
  </dl>
  </div>
  <aside className="opm-hero-side">
@@ -64,14 +65,14 @@ function Hero() {
  <em>Hayat Amin.</em>
  </p>
  <p className="opm-lead">
- Fixes business pain, risk and confusion fast.
+ Takes companies through the exit, and holds the founder&apos;s hand the whole way.
  </p>
  <p className="opm-lead opm-lead-2">
  20 years in tech. 3 exits. 3× FT100 listings.
  </p>
  <div className="opm-rule"></div>
  <p className="opm-pillars-intro">
- Unfair advantage and experience in two specialised categories:
+ Unfair advantage and experience in three specialised categories:
  </p>
  <ul className="opm-roles">
  {HAYAT.roles.map((r) => (
@@ -177,13 +178,13 @@ function Manifesto() {
  <div className="opm-mani-grid">
  <figure className="opm-mani-figure">
  {/* eslint-disable-next-line @next/next/no-img-element */}
- <img src="/hayat-bw.jpg" alt="Hayat Amin, Tech CFO and AI Operator, black and white portrait" />
+ <img src="/hayat-bw.jpg" alt="Hayat Amin, exit specialist and tech CFO, black and white portrait" />
  <figcaption>FIG. 02 · Operator at work</figcaption>
  </figure>
  <div className="opm-mani-body">
  <div className="opm-section-h">¶ The premise</div>
  <h2 className="opm-mani-h">
- Twenty years to build the operator <em>Hayat Amin</em> is.
+ Three exits to learn what a buyer <em>actually pays for.</em>
  </h2>
  <dl className="opm-mani-meta">
  <div><dt>Exits</dt><dd>03</dd></div>
@@ -217,7 +218,7 @@ function ChatCta() {
  Have a chat <em>with me?</em>
  </h2>
  <p className="opm-chat-sub">
- Twenty minutes. No deck, no pitch. Bring the problem on your desk.
+ Twenty minutes. No deck, no pitch. Bring the exit you are thinking about.
  </p>
  <div className="opm-chat-ctas">
  <a className="opm-chat-cta" href={HAYAT.calendarUrl} target="_blank" rel="noopener noreferrer">
@@ -227,7 +228,7 @@ function ChatCta() {
  Ask Claude about Hayat →
  </a>
  </div>
- <p className="opm-chat-sig">Hayat Amin · Tech CFO and AI Operator</p>
+ <p className="opm-chat-sig">Hayat Amin · Exit specialist and tech CFO</p>
  </div>
  </div>
  </section>
@@ -254,7 +255,7 @@ function Pillars() {
  <section className="opm-pillars" id="pillars">
  <div className="opm-section-h">¶ The unfair operator</div>
  <h2 className="opm-pillars-h">
- The <em>two pillars</em> that make
+ The <em>three pillars</em> that make
  <br />
  Hayat Amin an unfair operator.
  </h2>
@@ -489,7 +490,7 @@ function Foot() {
  <footer className="opm-foot">
  <div className="opm-foot-top">
  <p className="opm-h2 opm-foot-name">Hayat Amin.</p>
- <p>Tech CFO &amp; strategist. AI agent operator.</p>
+ <p>Exit specialist. Tech CFO &amp; strategist. IP and data valuation.</p>
  </div>
  <div className="opm-foot-cols">
  <div>

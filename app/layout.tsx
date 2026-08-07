@@ -12,11 +12,11 @@ export const metadata: Metadata = {
  metadataBase: new URL(SITE_URL),
  title: {
  default:
- "Hayat Amin: Tech CFO, Strategist & AI Operator",
+ "Hayat Amin: Exit Specialist, Tech CFO & IP Strategist",
  template: "%s",
  },
  description:
- "Tech CFO with 20 years in high-growth tech, 3 exits (American Express, TripAdvisor) and 3× FT100 listings. Fractional CFO & strategist and AI agent operator across NYC, London & Dubai.",
+ "Exit specialist and three-time exited tech CFO. Buyers include American Express, TripAdvisor and Cooper Parry. Sell-side prep, IP and data valuation, and hand-holding through the whole process. NYC, London & Dubai.",
  applicationName: "Hayat Amin · Operator",
  authors: [{ name: "Hayat Amin", url: SITE_URL }],
  creator: "Hayat Amin",
@@ -48,15 +48,15 @@ export const metadata: Metadata = {
  openGraph: {
  type: "website",
  siteName: "Hayat Amin · Operator",
- title: "Hayat Amin: Tech CFO, Strategist & AI Operator",
+ title: "Hayat Amin: Exit Specialist, Tech CFO & IP Strategist",
  description:
- "20 years inside high-growth tech. 3 exits. 3× FT100. Tech CFO & strategist, AI agent operator. NYC · London · Dubai.",
+ "Three companies sold. Exit specialist, tech CFO, IP and data valuation. Beside the founder from first conversation to wire transfer. NYC · London · Dubai.",
  url: SITE_URL,
  locale: "en_US",
  },
  twitter: {
  card: "summary_large_image",
- title: "Hayat Amin: Tech CFO, Strategist & AI Operator",
+ title: "Hayat Amin: Exit Specialist, Tech CFO & IP Strategist",
  description:
  "20 years in high-growth tech. 3 exits. 3× FT100. NYC · London · Dubai.",
  },
@@ -363,7 +363,7 @@ const profilePageJsonLd = {
  "@type": "ProfilePage",
  "@id": `${SITE_URL}/#profilepage`,
  url: SITE_URL,
- name: "Hayat Amin: Tech CFO, Strategist & AI Operator",
+ name: "Hayat Amin: Exit Specialist, Tech CFO & IP Strategist",
  mainEntity: { "@id": `${SITE_URL}/#person` },
  about: { "@id": `${SITE_URL}/#person` },
  isPartOf: { "@id": `${SITE_URL}/#website` },

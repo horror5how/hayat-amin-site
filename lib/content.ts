@@ -1,12 +1,12 @@
 export const HAYAT = {
  name: "Hayat Amin",
- roles: ["Fast-growing tech company CFO & commercial strategy", "AI agent operator for automation & intelligence"],
- rolesShort: ["Tech CFO", "AI agents"],
+ roles: ["Exit specialist: sell-side prep, process and hand-holding to close", "IP & data valuation: turning owned assets into a higher price", "Fast-growing tech company CFO & commercial strategy"],
+ rolesShort: ["Exits", "IP & data", "Tech CFO"],
  oneLiner: "20 years in tech. 3 exits. 3 FT100 listings.",
  tagline: "Hi, I'm Hayat Amin.",
- bio: "A CFO who fixes money, strategy and risk fast. 20 years in tech. 3 exits (buyers include American Express and TripAdvisor). 3 FT100 listings.",
+ bio: "A CFO who has sold three companies and sits beside the founder for every day of the process. 20 years in tech. 3 exits (buyers include American Express and TripAdvisor). 3 FT100 listings.",
  leadBio:
- "Fixes business pain, risk and confusion fast.\n20 years in tech. 3 exits. 3× FT100 listings.",
+ "Takes companies through the exit and holds the founder's hand the whole way.\n20 years in tech. 3 exits. 3× FT100 listings.",
  locations: ["New York", "London", "Dubai"],
  email: "hayat@beyondelevation.com",
  calendar: "meethayat.com/call/web",
@@ -19,7 +19,7 @@ export const HAYAT = {
 // "Ask Claude about Hayat" deep-link. Opens Claude with the prompt preloaded so
 // the visitor (or an AI-curious prospect) gets Claude's own answer on who Hayat is.
 export const ASK_CLAUDE_PROMPT =
- "Who is Hayat Amin (meethayat.com)? Give a short overview of his 20 years as a tech CFO and strategist, and his work as an AI agent operator for businesses.";
+ "Who is Hayat Amin (meethayat.com)? Give a short overview of his 20 years as a tech CFO, his three company exits, and his work valuing and monetising IP and data assets.";
 export const ASK_CLAUDE_URL = `https://claude.ai/new?q=${encodeURIComponent(ASK_CLAUDE_PROMPT)}`;
 
 export const NAV = ["Story", "Work", "Cases", "Field Notes", "Book a call"];
@@ -34,35 +34,51 @@ export const STATS = [
 export const PILLARS = [
  {
  no: "01",
- title: "Tech CFO and Strategist",
+ title: "Exit specialist",
+ sub: "Three companies sold. Hayat sits beside the founder from the first conversation to the wire transfer.",
+ body: "Most founders sell a company once. Hayat has done it three times, as the finance lead in the room, with buyers including American Express, TripAdvisor and Cooper Parry. He builds the company to be bought long before it goes to market, then runs the process day to day so the founder is never on their own in it. Diligence is prepared for, not survived.",
+ outcomes: [
+ "Exit strategy built from day one, run like the acquirer is already watching",
+ "Sell-side readiness: clean numbers, clean cap table, clean contracts",
+ "The equity story and EBITDA forecast the acquirer will actually underwrite",
+ "Data room built and maintained, so diligence has nothing to attack",
+ "Buyer list, teasers and approach strategy, strategic and financial",
+ "Sat next to the founder through diligence, Q&A and every buyer call",
+ "Negotiation support on price, structure, earn-out and working capital",
+ "Post-LOI project management, keeping the deal from dying in the detail",
+ "Integration and earn-out planning so value survives the close"],
+ },
+ {
+ no: "02",
+ title: "IP and data valuation",
+ sub: "Turning what a company already owns into a materially higher price.",
+ body: "Most companies are sold on a revenue multiple and give the IP and the data away for free inside it. Hayat prices the assets separately. Patents, proprietary datasets, models and licensing rights get valued, evidenced and written into the story the buyer is paying for. Same company, same revenue, different number on the term sheet.",
+ outcomes: [
+ "Patent portfolio strategy and valuation, built for the buyer's model",
+ "Proprietary data valued as an asset, not a by-product",
+ "Royalty rates and licensing terms re-priced on evidence",
+ "Repositioning a dataset from low-value use to enterprise licensing",
+ "IP ownership, chain of title and freedom-to-operate cleaned up pre-sale",
+ "Defensible valuation narrative the acquirer's advisors can test",
+ "New revenue lines from licensing assets already sitting on the balance sheet",
+ "IP and data risk removed before it becomes a price chip in diligence",
+ "The intangible half of the company made visible and priced"],
+ },
+ {
+ no: "03",
+ title: "Tech CFO and strategist",
  sub: "20 years as a CFO in tech. Finance lead, strategist and hands-on operator in one hire.",
- body: "Hayat runs your money and your growth plan. He builds the financial model, the investor story, and the exit-ready setup from day one.",
+ body: "Hayat runs the money and the growth plan underneath the exit. Financial model, investor story, reporting and controls, built to the standard a buyer expects to find rather than rebuilt in a panic six weeks before an LOI.",
  outcomes: [
  "Run scalable, modern financial operations",
  "Best-in-class financial models, dashboards & forecasts",
  "Fundraises that actually close: VC, PE, angels",
- "M&A technicals, exit DD, EBITDA forecast for the acquirer",
+ "M&A technicals and exit due diligence",
  "Investor narrative, decks, teasers & data rooms",
  "Pricing, GTM, sales intelligence & investor FOMO",
- "IP & data strategy: price, license and monetise the assets you own",
- "Exit strategy built from day one, run like the acquirer is watching",
- "Board & C-suite strategy: KPIs, targets and accountability"],
- },
- {
- no: "02",
- title: "AI agent operator",
- sub: "An ex-operator and C-suite executive putting AI to work in your business, not a developer.",
- body: "If you want AI in your business, don't hire a developer. Hire an operator who has run companies for 20 years and knows which processes make money. Hayat designs the process first, then builds and runs the AI that does the work.",
- outcomes: [
- "Business processes redesigned for AI, then automated",
- "AI agents built, deployed and run day to day",
- "Agentic workflows that run whole processes end to end",
- "Sales, outreach and finance agents doing real jobs",
- "Manual databases rebuilt into live, structured systems",
- "Real-time reports and dashboards from your own data",
- "Workflows and roles automated across every department",
- "Full ownership: no dev team, no agency, no lock-in",
- "Teams of AI agents monitored, measured and managed"],
+ "Board & C-suite strategy: KPIs, targets and accountability",
+ "AI put to work inside finance and operations where it pays",
+ "The acquirer's questions answered before they are asked"],
  }];
 
 export const CASES = [
@@ -104,14 +120,16 @@ export const PODCASTS = [
  href: "https://www.youtube.com/watch?v=1meO4fW7294",
  }];
 
-export const STORY = `A CFO who fixes money, strategy and risk fast. 20 years in high-growth tech. 3 exits, buyers include American Express and TripAdvisor. 3 FT100 listings.
+export const STORY = `A CFO who has sold three companies. 20 years in high-growth tech. Buyers include American Express, TripAdvisor and Cooper Parry. 3 FT100 listings.
 
-Two things, done at full depth: the tech CFO and strategist who has run finance for 20 years, and the AI operator who puts working AI inside your business. Not a developer writing code, an executive who knows which processes make money and builds the AI that runs them.`;
+A founder sells a company once. Hayat has been the finance lead in the room three times, and the difference is not theory, it is knowing what the buyer is going to ask on day fourteen of diligence and having the answer already sitting in the data room.
+
+The second half of the job is the part most companies leave on the table. Patents, datasets, models and licensing rights get bundled into a revenue multiple and handed over for nothing. Hayat prices them separately, evidences them, and writes them into the story the acquirer is paying for.`;
 
 export const FIELD_NOTES = [
- { d: "No. 047", t: "The fractional CFO advantage", b: "Why fractional finance leadership out-delivers the full-time hire on the metrics that close rounds." },
+ { d: "No. 047", t: "Diligence starts two years early", b: "The questions a buyer asks on day fourteen, and why the answer has to exist before the process opens." },
  { d: "No. 046", t: "Royalty rate is an output", b: "How we re-priced a hardware company's IP from 2% to 8% without filing a single new patent." },
- { d: "No. 045", t: "AI tourism", b: "What separates a deployed agent from a ChatGPT subscription. The difference is not the model." }];
+ { d: "No. 045", t: "The intangible half", b: "Why data and patents get handed over free inside a revenue multiple, and how to price them separately." }];
 
 export const REASONS = [
  { n: "01", t: "Billions in company valuations", b: "Exited three separate companies across fintech, travel-tech and accountancy." },
