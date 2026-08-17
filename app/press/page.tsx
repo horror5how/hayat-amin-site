@@ -88,11 +88,28 @@ const PHOTOS: Photo[] = [
 type Mention = { outlet: string; title: string; url: string };
 
 // Podcast and long-form interview appearances. Listed first on the page.
-const PODCASTS: Mention[] = [
+// Video fields are required by Google's VideoObject spec: without embedUrl,
+// description, thumbnailUrl and uploadDate, Search Console flags the page.
+// All values below are taken from the YouTube watch page for each video.
+type Podcast = Mention & {
+ description: string;
+ embedUrl: string;
+ thumbnailUrl: string;
+ uploadDate: string;
+ duration: string;
+};
+
+const PODCASTS: Podcast[] = [
  {
  outlet: "Gross Profit Podcast",
  title: "The Rogue Fractional CFO",
  url: "https://www.youtube.com/watch?v=1meO4fW7294",
+ description:
+ "Hayat Amin joins James on the Gross Profit Podcast to talk about working as a fractional CFO with high-growth startups, why finance can be a creative discipline, and the peer-to-peer review system he built to reshape workplace culture.",
+ embedUrl: "https://www.youtube.com/embed/1meO4fW7294",
+ thumbnailUrl: "https://i.ytimg.com/vi/1meO4fW7294/maxresdefault.jpg",
+ uploadDate: "2024-07-31T15:53:38-07:00",
+ duration: "PT28M45S",
  },
 ];
 
@@ -187,6 +204,11 @@ const personJsonLd = {
  "@type": "VideoObject" as const,
  name: p.title,
  url: p.url,
+ description: p.description,
+ embedUrl: p.embedUrl,
+ thumbnailUrl: [p.thumbnailUrl],
+ uploadDate: p.uploadDate,
+ duration: p.duration,
  about: { "@id": `${SITE}/#person` },
  publisher: { "@type": "Organization", name: p.outlet },
  })),
