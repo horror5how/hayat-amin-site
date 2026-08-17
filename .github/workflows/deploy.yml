@@ -42,16 +42,13 @@ jobs:
       - name: Deploy to production
         run: vercel deploy --prod --yes --token=${{ secrets.VERCEL_TOKEN }}
 
-      # ---- Search-engine indexing (IndexNow + Google Indexing API) ----
+      # ---- Search-engine indexing (IndexNow + Search Console sitemap resubmit) ----
       - name: Restore Google indexing key
         run: printf '%s' "$GCP_INDEXING_KEY" > .gcp-indexing-key.json
         env:
           GCP_INDEXING_KEY: ${{ secrets.GCP_INDEXING_KEY }}
 
-      - name: Install indexing dependency
-        run: npm install --no-save --silent googleapis@^144
-
-      - name: Notify Google Indexing API + IndexNow
+      - name: Notify IndexNow + resubmit sitemaps to Search Console
         run: node scripts/notify-indexing.js
         continue-on-error: true
 

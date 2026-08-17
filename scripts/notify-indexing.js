@@ -2,12 +2,15 @@
 /**
  * notify-indexing.js — meethayat.com post-deploy indexer.
  *
- * Mirrors beyond-elevation/scripts/notify-indexing.js. After each Vercel
- * deploy it pings search engines so new/updated pages get crawled fast:
+ * After each Vercel deploy it pings search engines so new/updated pages get
+ * crawled fast:
  *   1. IndexNow (Bing/Yandex/Seznam/Naver) — batch, instant, unmetered.
- *   2. Google Indexing API (service account) — per-URL POST.
- *      Shared 200/day quota with beyondelevation.com (GCP project be-indexing-2),
- *      so we dedupe against .indexing-cache.json and only push NEW urls.
+ *      Deduped against .indexing-cache.json so only NEW urls are pushed.
+ *   2. Search Console sitemap resubmit — the only Google-side nudge that is
+ *      actually recorded. Runs every deploy, not just for new urls.
+ *
+ * Google's Indexing API is deliberately NOT used: it only queues JobPosting and
+ * BroadcastEvent, and answers 200 for everything else without recording it.
  *
  * meethayat.com's sitemap is generated dynamically (app/sitemap.ts), so we fetch
  * the LIVE sitemap rather than read a file from disk.
@@ -21,7 +24,7 @@
 const fs = require('fs');
 const path = require('path');
 const https = require('https');
-const { google } = (() => { try { return require('googleapis'); } catch { return { google: null }; } })();
+const crypto = require('node:crypto');
 
 const ROOT = path.resolve(__dirname, '..');
 const CACHE = path.join(ROOT, '.indexing-cache.json');
@@ -30,8 +33,8 @@ const SITE = 'https://www.meethayat.com';
 const HOST = 'www.meethayat.com';
 const INDEXNOW_KEY = 'be8a1f3c2d4e5f6a7b8c9d0e1f2a3b4c';
 const TIMEOUT_MS = 10000;
-const INDEXING_API_QUOTA = 150; // safe ceiling (Google quota = 200/day, shared with BE)
 const SITEMAP_RETRIES = 3;
+const SITEMAPS = [`${SITE}/sitemap.xml`, `${SITE}/image-sitemap.xml`];
 
 const args = new Set(process.argv.slice(2));
 const FORCE_ALL = args.has('--all');
@@ -90,25 +93,63 @@ async function submitIndexNow(urls) {
   console.log(`  IndexNow: ${r.status} — ${urls.length} URLs (${r.body?.slice(0, 80) || 'no body'})`);
 }
 
-async function submitIndexingAPI(urls) {
-  if (!google) { console.log('  google-indexing: googleapis not installed — skipping'); return; }
-  if (!fs.existsSync(GCP_KEY_PATH)) { console.log('  google-indexing: no service account key — skipping'); return; }
-  const auth = new google.auth.GoogleAuth({ keyFile: GCP_KEY_PATH, scopes: ['https://www.googleapis.com/auth/indexing'] });
-  const idx = google.indexing({ version: 'v3', auth });
-  const target = urls.slice(0, INDEXING_API_QUOTA);
-  console.log(`  google-indexing: submitting ${target.length}/${urls.length} URLs (quota cap ${INDEXING_API_QUOTA})`);
-  let ok = 0, fail = 0; const errs = new Set();
-  const CONCURRENCY = 4;
-  for (let i = 0; i < target.length; i += CONCURRENCY) {
-    const batch = target.slice(i, i + CONCURRENCY);
-    await Promise.all(batch.map(async (url) => {
-      try { await idx.urlNotifications.publish({ requestBody: { url, type: 'URL_UPDATED' } }); ok++; }
-      catch (e) { fail++; errs.add(String(e?.message || e).slice(0, 120)); }
-    }));
-    if ((i % 20) === 0) console.log(`    ...${i + batch.length}/${target.length}`);
+// Google has no working "recrawl this URL" API for ordinary pages. The Indexing
+// API (urlNotifications:publish) only records JobPosting and BroadcastEvent —
+// for these pages it answers 200 with an empty urlNotificationMetadata and the
+// metadata GET then 404s, i.e. nothing was queued. It used to be called here and
+// reported ok=N, which was a false success. Removed 2026-08-17.
+//
+// Resubmitting the sitemap through the Search Console API is the one Google-side
+// nudge that is actually recorded, so that is what runs now. Verify with
+// sitemaps.get: lastSubmitted moves and errors/warnings come back.
+const b64url = (b) => Buffer.from(b).toString('base64').replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
+
+// Service-account JWT -> OAuth token, by hand. Avoids pulling googleapis (~50MB)
+// into every deploy for two HTTP calls, and lets this run locally with no install.
+async function gscToken() {
+  const key = JSON.parse(fs.readFileSync(GCP_KEY_PATH, 'utf8'));
+  const now = Math.floor(Date.now() / 1000);
+  const claim = {
+    iss: key.client_email,
+    scope: 'https://www.googleapis.com/auth/webmasters',
+    aud: 'https://oauth2.googleapis.com/token',
+    iat: now, exp: now + 3600,
+  };
+  const input = `${b64url(JSON.stringify({ alg: 'RS256', typ: 'JWT' }))}.${b64url(JSON.stringify(claim))}`;
+  const sig = crypto.createSign('RSA-SHA256').update(input).sign(key.private_key);
+  const res = await fetch('https://oauth2.googleapis.com/token', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+    body: new URLSearchParams({
+      grant_type: 'urn:ietf:params:oauth:grant-type:jwt-bearer',
+      assertion: `${input}.${b64url(sig)}`,
+    }),
+  });
+  if (!res.ok) throw new Error(`token ${res.status}: ${(await res.text()).slice(0, 120)}`);
+  return (await res.json()).access_token;
+}
+
+async function resubmitSitemaps() {
+  if (!fs.existsSync(GCP_KEY_PATH)) { console.log('  gsc-sitemap: no service account key — skipping'); return; }
+  let token;
+  try { token = await gscToken(); }
+  catch (e) { console.log(`  gsc-sitemap: auth FAILED — ${String(e.message).slice(0, 140)}`); return; }
+
+  const base = `https://www.googleapis.com/webmasters/v3/sites/${encodeURIComponent(`${SITE}/`)}/sitemaps`;
+  const auth = { Authorization: `Bearer ${token}` };
+  for (const feedpath of SITEMAPS) {
+    const url = `${base}/${encodeURIComponent(feedpath)}`;
+    try {
+      const put = await fetch(url, { method: 'PUT', headers: auth });
+      if (!put.ok) throw new Error(`submit ${put.status}: ${(await put.text()).slice(0, 120)}`);
+      // Read it back — a 2xx on the PUT alone does not prove Google recorded it.
+      const got = await fetch(url, { headers: auth });
+      const d = got.ok ? await got.json() : {};
+      console.log(`  gsc-sitemap: ${feedpath} — lastSubmitted ${d.lastSubmitted || '?'}, errors ${d.errors ?? 0}, warnings ${d.warnings ?? 0}`);
+    } catch (e) {
+      console.log(`  gsc-sitemap: ${feedpath} FAILED — ${String(e.message).slice(0, 140)}`);
+    }
   }
-  console.log(`  google-indexing: ok=${ok} fail=${fail}`);
-  if (errs.size) console.log(`    sample errors: ${Array.from(errs).slice(0, 3).join(' | ')}`);
 }
 
 async function main() {
@@ -119,9 +160,11 @@ async function main() {
   const newUrls = FORCE_ALL ? allUrls : allUrls.filter((u) => !prev.has(u));
   console.log(`Indexing: ${allUrls.length} total, ${newUrls.length} ${FORCE_ALL ? '(forced --all)' : 'new'}`);
   if (DRY) { console.log('DRY — exiting'); return; }
-  if (!newUrls.length) { console.log('No new URLs.'); saveCache(allUrls); return; }
+  // Sitemaps are resubmitted on every deploy, not just when URLs are new — a
+  // changed page needs the recrawl nudge as much as a brand-new one does.
+  await resubmitSitemaps();
+  if (!newUrls.length) { console.log('No new URLs for IndexNow.'); saveCache(allUrls); return; }
   await submitIndexNow(newUrls);
-  await submitIndexingAPI(newUrls);
   saveCache(allUrls);
   console.log(`Done. Cache updated with ${allUrls.length} URLs.`);
 }
