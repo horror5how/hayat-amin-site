@@ -149,6 +149,14 @@ async function main() {
   const postsPath = resolve(REPO, "data/blog-posts.json");
   const posts = JSON.parse(readFileSync(postsPath, "utf8"));
   const existing = new Set(posts.map((p) => p.slug));
+  // BabyLoveGrowth appends a timestamp to every slug it sends, so the slug is
+  // unique even when it re-sends a topic it has already written. Deduping on
+  // slug alone let the same article publish over and over: by 2026-08-17 the
+  // site had 117 pages sharing 24 titles, one topic published seven times, and
+  // Google had flagged 33 of them "Duplicate without user-selected canonical".
+  // Dedupe on the normalised title as well so a repeat topic never lands twice.
+  const titleKey = (s) => s.toLowerCase().replace(/&amp;/g, "&").replace(/[^a-z0-9]+/g, " ").trim();
+  const existingTitles = new Set(posts.map((p) => titleKey(p.title || "")));
   const written = [];
 
   for (const g of inbound) {
@@ -184,6 +192,11 @@ async function main() {
         await gh(token, `/gists/${g.id}`, "PATCH", { description: `${g.description} [published]` });
         continue;
       }
+      if (existingTitles.has(titleKey(title))) {
+        log(`SKIP ${g.id} — topic already published under another slug: "${title}"`);
+        await gh(token, `/gists/${g.id}`, "PATCH", { description: `${g.description} [published]` });
+        continue;
+      }
 
       // hero: real photo per HERO_PHOTO_POLICY (no AI faces)
       try {
@@ -202,6 +215,7 @@ async function main() {
       writeFileSync(resolve(dir, "page.tsx"), pageTsx({ slug, title, desc, date, bodyHtml }));
       posts.push({ slug, title, description: desc, date, hero: `/${slug}.jpg` });
       existing.add(slug);
+      existingTitles.add(titleKey(title));
       written.push({ slug, gistId: g.id, description: g.description });
       log(`BUILT ${slug}`);
     } catch (e) {
