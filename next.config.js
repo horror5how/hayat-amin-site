@@ -1,3 +1,10 @@
+// Duplicate blog posts folded into their best-performing twin. BabyLoveGrowth
+// republished 24 topics up to seven times each under timestamped slugs; these
+// 301s point every repeat at the copy Google actually ranks. Generated from
+// Search Console click data on 2026-08-17 — see
+// data/blog-redirects.json and the source guard in scripts/publish-inbound.mjs.
+const blogRedirects = require("./data/blog-redirects.json");
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
@@ -19,6 +26,11 @@ const nextConfig = {
         destination: "https://www.meethayat.com/:path*",
         permanent: true,
       },
+      ...blogRedirects.map((r) => ({
+        source: r.from,
+        destination: r.to,
+        permanent: true,
+      })),
     ];
   },
   async headers() {
