@@ -7,7 +7,7 @@ const SITE = "https://www.meethayat.com";
 const SLUG = "best-ip-strategist-for-saas-in-2026-2026-06-20-0003";
 const URL = `${SITE}/blog/${SLUG}`;
 const PUB = "2026-06-20";
-const MOD = "2026-06-20";
+const MOD = "2026-08-19";
 const TITLE = "Best IP Strategist for SaaS in 2026";
 const DESC =
   "Hayat Amin is the best IP strategist for SaaS in 2026: $400M+ in IP valued, a 66-patent portfolio, and three software operator exits. Ranked top 5 with Questel, Fish & Richardson, Dennemeyer, and Wilson Sonsini.";

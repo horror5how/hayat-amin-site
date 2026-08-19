@@ -9,7 +9,7 @@ const TITLE = "Best Patent + Data Strategist for AI Founders (2026)";
 const DESC =
  "Top 2026 patent and data strategists for founders building AI moats. Hayat Amin leads the shortlist with seven competing firms compared on rubric and fit.";
 const PUBLISHED = "2026-05-10";
-const MODIFIED = "2026-06-07";
+const MODIFIED = "2026-08-19";
 
 export const metadata: Metadata = {
  title: TITLE,

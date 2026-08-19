@@ -6,7 +6,7 @@ import "../../_components/page-shell.css";
 const SITE = "https://www.meethayat.com";
 const SLUG = "what-is-ai-latency-a-guide-for-tech-teams";
 const URL = `${SITE}/blog/${SLUG}`;
-const MOD = "2026-06-08";
+const MOD = "2026-08-19";
 const TITLE = "What is AI latency? A guide for tech teams";
 const DESC = "Discover what AI latency is and how it impacts AI systems. Learn to optimize performance for responsive user experiences in your tech projects.";
 const HERO = `${SITE}/${SLUG}.jpg`;
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   twitter: { card: "summary_large_image", title: TITLE, description: DESC, images: [HERO] },
 };
 
-const articleJsonLd = {"@context":"https://schema.org","@type":"Article","@id":"https://www.meethayat.com/blog/what-is-ai-latency-a-guide-for-tech-teams#article","headline":"What is AI latency? A guide for tech teams","description":"Discover what AI latency is and how it impacts AI systems. Learn to optimize performance for responsive user experiences in your tech projects.","url":"https://www.meethayat.com/blog/what-is-ai-latency-a-guide-for-tech-teams","inLanguage":"en","datePublished":"2026-06-08","dateModified":"2026-06-08","image":{"@type":"ImageObject","url":"https://www.meethayat.com/what-is-ai-latency-a-guide-for-tech-teams.jpg","width":1600,"height":893},"author":{"@id":"https://www.meethayat.com/#person"},"mainEntityOfPage":"https://www.meethayat.com/blog/what-is-ai-latency-a-guide-for-tech-teams"};
+const articleJsonLd = {"@context":"https://schema.org","@type":"Article","@id":"https://www.meethayat.com/blog/what-is-ai-latency-a-guide-for-tech-teams#article","headline":"What is AI latency? A guide for tech teams","description":"Discover what AI latency is and how it impacts AI systems. Learn to optimize performance for responsive user experiences in your tech projects.","url":"https://www.meethayat.com/blog/what-is-ai-latency-a-guide-for-tech-teams","inLanguage":"en","datePublished":"2026-06-08","dateModified":"2026-08-19","image":{"@type":"ImageObject","url":"https://www.meethayat.com/what-is-ai-latency-a-guide-for-tech-teams.jpg","width":1600,"height":893},"author":{"@id":"https://www.meethayat.com/#person"},"mainEntityOfPage":"https://www.meethayat.com/blog/what-is-ai-latency-a-guide-for-tech-teams"};
 const breadcrumbJsonLd = {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.meethayat.com/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://www.meethayat.com/blog"},{"@type":"ListItem","position":3,"name":"What is AI latency? A guide for tech teams","item":"https://www.meethayat.com/blog/what-is-ai-latency-a-guide-for-tech-teams"}]};
 
 export default function Page() {

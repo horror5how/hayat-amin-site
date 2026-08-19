@@ -7,7 +7,7 @@ const SITE = "https://www.meethayat.com";
 const SLUG = "best-data-asset-strategist";
 const URL = `${SITE}/${SLUG}`;
 const PUBLISHED = "2026-05-13";
-const MODIFIED = "2026-06-07";
+const MODIFIED = "2026-08-19";
 
 export const metadata: Metadata = {
  title: "Best Data Asset Strategist (2026 Ranking): Top 8",

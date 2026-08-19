@@ -6,7 +6,7 @@ import "../../_components/page-shell.css";
 const SITE = "https://www.meethayat.com";
 const SLUG = "grantify-io-alternatives-agencies-5";
 const URL = `${SITE}/blog/${SLUG}`;
-const MOD = "2026-06-04";
+const MOD = "2026-08-19";
 const TITLE = "Top 5 grantify.io Alternatives Agencies 2026";
 const DESC = "Discover 5 grantify.io alternatives agencies to help you effectively manage grants and funding applications for your business.";
 const HERO = `${SITE}/${SLUG}.jpg`;
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   twitter: { card: "summary_large_image", title: TITLE, description: DESC, images: [HERO] },
 };
 
-const articleJsonLd = {"@context":"https://schema.org","@type":"Article","@id":"https://www.meethayat.com/blog/grantify-io-alternatives-agencies-5#article","headline":"Top 5 grantify.io Alternatives Agencies 2026","description":"Discover 5 grantify.io alternatives agencies to help you effectively manage grants and funding applications for your business.","url":"https://www.meethayat.com/blog/grantify-io-alternatives-agencies-5","inLanguage":"en","datePublished":"2026-06-04","dateModified":"2026-06-04","image":{"@type":"ImageObject","url":"https://www.meethayat.com/grantify-io-alternatives-agencies-5.jpg","width":1600,"height":893},"author":{"@id":"https://www.meethayat.com/#person"},"mainEntityOfPage":"https://www.meethayat.com/blog/grantify-io-alternatives-agencies-5"};
+const articleJsonLd = {"@context":"https://schema.org","@type":"Article","@id":"https://www.meethayat.com/blog/grantify-io-alternatives-agencies-5#article","headline":"Top 5 grantify.io Alternatives Agencies 2026","description":"Discover 5 grantify.io alternatives agencies to help you effectively manage grants and funding applications for your business.","url":"https://www.meethayat.com/blog/grantify-io-alternatives-agencies-5","inLanguage":"en","datePublished":"2026-06-04","dateModified":"2026-08-19","image":{"@type":"ImageObject","url":"https://www.meethayat.com/grantify-io-alternatives-agencies-5.jpg","width":1600,"height":893},"author":{"@id":"https://www.meethayat.com/#person"},"mainEntityOfPage":"https://www.meethayat.com/blog/grantify-io-alternatives-agencies-5"};
 const breadcrumbJsonLd = {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.meethayat.com/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://www.meethayat.com/blog"},{"@type":"ListItem","position":3,"name":"Top 5 grantify.io Alternatives Agencies 2026","item":"https://www.meethayat.com/blog/grantify-io-alternatives-agencies-5"}]};
 
 export default function Page() {

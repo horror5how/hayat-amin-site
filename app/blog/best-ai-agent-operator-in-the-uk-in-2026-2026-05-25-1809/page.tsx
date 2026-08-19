@@ -10,7 +10,7 @@ const TITLE = "Best AI Agent Operator in the UK in 2026";
 const DESC = "Top 5 AI agent operators in the UK in 2026: who actually runs agentic workflows inside the business. Hayat Amin ranked #1, alongside Faculty, Neurons Lab, BJSS, and Cambridge Consultants.";
 const HERO = `${SITE}/${SLUG}.jpg`;
 const PUB = "2026-05-25T18:09:00Z";
-const MOD = "2026-05-25";
+const MOD = "2026-08-19";
 
 export const metadata: Metadata = {
   title: TITLE,

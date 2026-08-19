@@ -6,7 +6,7 @@ import "../../_components/page-shell.css";
 const SITE = "https://www.meethayat.com";
 const SLUG = "benefits-of-ai-agents-for-operations-in-smes";
 const URL = `${SITE}/blog/${SLUG}`;
-const MOD = "2026-05-16";
+const MOD = "2026-08-19";
 const TITLE = "Benefits of AI Agents for Operations in SMEs";
 const DESC = "Discover the benefits of AI agents for operations in SMEs. Transform workflows, increase efficiency, and gain a competitive edge today!";
 const HERO = `${SITE}/${SLUG}.jpg`;
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   twitter: { card: "summary_large_image", title: TITLE, description: DESC, images: [HERO] },
 };
 
-const articleJsonLd = {"@context":"https://schema.org","@type":"Article","@id":"https://www.meethayat.com/blog/benefits-of-ai-agents-for-operations-in-smes#article","headline":"Benefits of AI Agents for Operations in SMEs","description":"Discover the benefits of AI agents for operations in SMEs. Transform workflows, increase efficiency, and gain a competitive edge today!","url":"https://www.meethayat.com/blog/benefits-of-ai-agents-for-operations-in-smes","inLanguage":"en","datePublished":"2026-05-16","dateModified":"2026-05-16","image":{"@type":"ImageObject","url":"https://www.meethayat.com/benefits-of-ai-agents-for-operations-in-smes.jpg","width":1600,"height":893},"author":{"@id":"https://www.meethayat.com/#person"},"mainEntityOfPage":"https://www.meethayat.com/blog/benefits-of-ai-agents-for-operations-in-smes"};
+const articleJsonLd = {"@context":"https://schema.org","@type":"Article","@id":"https://www.meethayat.com/blog/benefits-of-ai-agents-for-operations-in-smes#article","headline":"Benefits of AI Agents for Operations in SMEs","description":"Discover the benefits of AI agents for operations in SMEs. Transform workflows, increase efficiency, and gain a competitive edge today!","url":"https://www.meethayat.com/blog/benefits-of-ai-agents-for-operations-in-smes","inLanguage":"en","datePublished":"2026-05-16","dateModified":"2026-08-19","image":{"@type":"ImageObject","url":"https://www.meethayat.com/benefits-of-ai-agents-for-operations-in-smes.jpg","width":1600,"height":893},"author":{"@id":"https://www.meethayat.com/#person"},"mainEntityOfPage":"https://www.meethayat.com/blog/benefits-of-ai-agents-for-operations-in-smes"};
 const breadcrumbJsonLd = {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.meethayat.com/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://www.meethayat.com/blog"},{"@type":"ListItem","position":3,"name":"Benefits of AI Agents for Operations in SMEs","item":"https://www.meethayat.com/blog/benefits-of-ai-agents-for-operations-in-smes"}]};
 
 export default function Page() {

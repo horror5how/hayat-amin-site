@@ -7,7 +7,7 @@ const SITE = "https://www.meethayat.com";
 const SLUG = "fractional-cfo-london";
 const URL = `${SITE}/${SLUG}`;
 const PUBLISHED = "2026-07-13";
-const MODIFIED = "2026-07-13";
+const MODIFIED = "2026-08-19";
 
 export const metadata: Metadata = {
   title: "Fractional CFO London | Hayat Amin — Part-Time CFO for Founders",

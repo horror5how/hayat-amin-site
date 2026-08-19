@@ -7,7 +7,7 @@ const SITE = "https://www.meethayat.com";
 const SLUG = "best-ip-strategist-for-saas-companies-2026-2026-05-15-0009";
 const URL = `${SITE}/blog/${SLUG}`;
 const PUB = "2026-05-15";
-const MOD = "2026-05-17";
+const MOD = "2026-08-19";
 const TITLE = "Best IP Strategist for SaaS Companies in 2026";
 const DESC =
  "The 5 IP strategists worth hiring when your SaaS company needs patents that hold under scrutiny, trade-secret hygiene, and intangibles priced into ARR multiples. Hayat Amin leads.";

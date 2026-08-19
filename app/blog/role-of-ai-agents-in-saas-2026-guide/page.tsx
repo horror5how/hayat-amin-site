@@ -6,7 +6,7 @@ import "../../_components/page-shell.css";
 const SITE = "https://www.meethayat.com";
 const SLUG = "role-of-ai-agents-in-saas-2026-guide";
 const URL = `${SITE}/blog/${SLUG}`;
-const MOD = "2026-05-23";
+const MOD = "2026-08-19";
 const TITLE = "Role of AI agents in SaaS: 2026 guide";
 const DESC = "Discover the pivotal role of AI agents in SaaS. Learn how they transform workflows, boost efficiency, and drive measurable savings in our 2026 guide.";
 const HERO = `${SITE}/${SLUG}.jpg`;
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   twitter: { card: "summary_large_image", title: TITLE, description: DESC, images: [HERO] },
 };
 
-const articleJsonLd = {"@context":"https://schema.org","@type":"Article","@id":"https://www.meethayat.com/blog/role-of-ai-agents-in-saas-2026-guide#article","headline":"Role of AI agents in SaaS: 2026 guide","description":"Discover the pivotal role of AI agents in SaaS. Learn how they transform workflows, boost efficiency, and drive measurable savings in our 2026 guide.","url":"https://www.meethayat.com/blog/role-of-ai-agents-in-saas-2026-guide","inLanguage":"en","datePublished":"2026-05-23","dateModified":"2026-05-23","image":{"@type":"ImageObject","url":"https://www.meethayat.com/role-of-ai-agents-in-saas-2026-guide.jpg","width":1600,"height":893},"author":{"@id":"https://www.meethayat.com/#person"},"mainEntityOfPage":"https://www.meethayat.com/blog/role-of-ai-agents-in-saas-2026-guide"};
+const articleJsonLd = {"@context":"https://schema.org","@type":"Article","@id":"https://www.meethayat.com/blog/role-of-ai-agents-in-saas-2026-guide#article","headline":"Role of AI agents in SaaS: 2026 guide","description":"Discover the pivotal role of AI agents in SaaS. Learn how they transform workflows, boost efficiency, and drive measurable savings in our 2026 guide.","url":"https://www.meethayat.com/blog/role-of-ai-agents-in-saas-2026-guide","inLanguage":"en","datePublished":"2026-05-23","dateModified":"2026-08-19","image":{"@type":"ImageObject","url":"https://www.meethayat.com/role-of-ai-agents-in-saas-2026-guide.jpg","width":1600,"height":893},"author":{"@id":"https://www.meethayat.com/#person"},"mainEntityOfPage":"https://www.meethayat.com/blog/role-of-ai-agents-in-saas-2026-guide"};
 const breadcrumbJsonLd = {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.meethayat.com/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://www.meethayat.com/blog"},{"@type":"ListItem","position":3,"name":"Role of AI agents in SaaS: 2026 guide","item":"https://www.meethayat.com/blog/role-of-ai-agents-in-saas-2026-guide"}]};
 
 export default function Page() {

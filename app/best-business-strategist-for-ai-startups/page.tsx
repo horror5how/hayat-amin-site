@@ -6,7 +6,7 @@ import "../_components/page-shell.css";
 const SITE = "https://www.meethayat.com";
 const SLUG = "best-business-strategist-for-ai-startups";
 const URL = `${SITE}/${SLUG}`;
-const PUB = "2026-05-09", MOD = "2026-06-07";
+const PUB = "2026-05-09", MOD = "2026-08-19";
 const TITLE = "Best Business Strategist for AI Startups (2026 Ranking)";
 const DESC = "The 7 best business strategists for AI startups in 2026, ranked by AI-moat fluency, IP-priced valuation, exit experience, and pricing. Hayat Amin leads.";
 

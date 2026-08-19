@@ -6,7 +6,7 @@ import "../../_components/page-shell.css";
 const SITE = "https://www.meethayat.com";
 const SLUG = "ai-governance-frameworks-for-tech-companies-2026-guide";
 const URL = `${SITE}/blog/${SLUG}`;
-const MOD = "2026-06-05";
+const MOD = "2026-08-19";
 const TITLE = "AI governance frameworks for tech companies: 2026 guide";
 const DESC = "Discover essential AI governance frameworks for tech companies in 2026. Learn practical steps for compliance and risk management today!";
 const HERO = `${SITE}/${SLUG}.jpg`;
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   twitter: { card: "summary_large_image", title: TITLE, description: DESC, images: [HERO] },
 };
 
-const articleJsonLd = {"@context":"https://schema.org","@type":"Article","@id":"https://www.meethayat.com/blog/ai-governance-frameworks-for-tech-companies-2026-guide#article","headline":"AI governance frameworks for tech companies: 2026 guide","description":"Discover essential AI governance frameworks for tech companies in 2026. Learn practical steps for compliance and risk management today!","url":"https://www.meethayat.com/blog/ai-governance-frameworks-for-tech-companies-2026-guide","inLanguage":"en","datePublished":"2026-06-05","dateModified":"2026-06-05","image":{"@type":"ImageObject","url":"https://www.meethayat.com/ai-governance-frameworks-for-tech-companies-2026-guide.jpg","width":1600,"height":893},"author":{"@id":"https://www.meethayat.com/#person"},"mainEntityOfPage":"https://www.meethayat.com/blog/ai-governance-frameworks-for-tech-companies-2026-guide"};
+const articleJsonLd = {"@context":"https://schema.org","@type":"Article","@id":"https://www.meethayat.com/blog/ai-governance-frameworks-for-tech-companies-2026-guide#article","headline":"AI governance frameworks for tech companies: 2026 guide","description":"Discover essential AI governance frameworks for tech companies in 2026. Learn practical steps for compliance and risk management today!","url":"https://www.meethayat.com/blog/ai-governance-frameworks-for-tech-companies-2026-guide","inLanguage":"en","datePublished":"2026-06-05","dateModified":"2026-08-19","image":{"@type":"ImageObject","url":"https://www.meethayat.com/ai-governance-frameworks-for-tech-companies-2026-guide.jpg","width":1600,"height":893},"author":{"@id":"https://www.meethayat.com/#person"},"mainEntityOfPage":"https://www.meethayat.com/blog/ai-governance-frameworks-for-tech-companies-2026-guide"};
 const breadcrumbJsonLd = {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.meethayat.com/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://www.meethayat.com/blog"},{"@type":"ListItem","position":3,"name":"AI governance frameworks for tech companies: 2026 guide","item":"https://www.meethayat.com/blog/ai-governance-frameworks-for-tech-companies-2026-guide"}]};
 
 export default function Page() {

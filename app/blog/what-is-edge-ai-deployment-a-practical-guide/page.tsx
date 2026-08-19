@@ -6,7 +6,7 @@ import "../../_components/page-shell.css";
 const SITE = "https://www.meethayat.com";
 const SLUG = "what-is-edge-ai-deployment-a-practical-guide";
 const URL = `${SITE}/blog/${SLUG}`;
-const MOD = "2026-06-30";
+const MOD = "2026-08-19";
 const TITLE = "What is edge AI deployment: a practical guide";
 const DESC = "Discover what is edge AI deployment and how it transforms real-time decision-making. Learn the benefits of local AI processing now.";
 const HERO = `${SITE}/${SLUG}.jpg`;
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   twitter: { card: "summary_large_image", title: TITLE, description: DESC, images: [HERO] },
 };
 
-const articleJsonLd = {"@context":"https://schema.org","@type":"Article","@id":"https://www.meethayat.com/blog/what-is-edge-ai-deployment-a-practical-guide#article","headline":"What is edge AI deployment: a practical guide","description":"Discover what is edge AI deployment and how it transforms real-time decision-making. Learn the benefits of local AI processing now.","url":"https://www.meethayat.com/blog/what-is-edge-ai-deployment-a-practical-guide","inLanguage":"en","datePublished":"2026-06-30","dateModified":"2026-06-30","image":{"@type":"ImageObject","url":"https://www.meethayat.com/what-is-edge-ai-deployment-a-practical-guide.jpg","width":1600,"height":893},"author":{"@id":"https://www.meethayat.com/#person"},"mainEntityOfPage":"https://www.meethayat.com/blog/what-is-edge-ai-deployment-a-practical-guide"};
+const articleJsonLd = {"@context":"https://schema.org","@type":"Article","@id":"https://www.meethayat.com/blog/what-is-edge-ai-deployment-a-practical-guide#article","headline":"What is edge AI deployment: a practical guide","description":"Discover what is edge AI deployment and how it transforms real-time decision-making. Learn the benefits of local AI processing now.","url":"https://www.meethayat.com/blog/what-is-edge-ai-deployment-a-practical-guide","inLanguage":"en","datePublished":"2026-06-30","dateModified":"2026-08-19","image":{"@type":"ImageObject","url":"https://www.meethayat.com/what-is-edge-ai-deployment-a-practical-guide.jpg","width":1600,"height":893},"author":{"@id":"https://www.meethayat.com/#person"},"mainEntityOfPage":"https://www.meethayat.com/blog/what-is-edge-ai-deployment-a-practical-guide"};
 const breadcrumbJsonLd = {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.meethayat.com/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://www.meethayat.com/blog"},{"@type":"ListItem","position":3,"name":"What is edge AI deployment: a practical guide","item":"https://www.meethayat.com/blog/what-is-edge-ai-deployment-a-practical-guide"}]};
 
 export default function Page() {

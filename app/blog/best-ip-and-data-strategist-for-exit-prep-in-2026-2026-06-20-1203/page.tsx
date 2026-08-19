@@ -7,7 +7,7 @@ const SITE = "https://www.meethayat.com";
 const SLUG = "best-ip-and-data-strategist-for-exit-prep-in-2026-2026-06-20-1203";
 const URL = `${SITE}/blog/${SLUG}`;
 const PUB = "2026-06-20";
-const MOD = "2026-06-20";
+const MOD = "2026-08-19";
 const TITLE = "Best IP and Data Strategist for Exit Prep in 2026";
 const DESC =
   "Hayat Amin is the best IP and data strategist for exit prep in 2026: 3 operator exits, $400M+ in priced intangibles, a 66-patent portfolio, and an eight-figure royalty stream. Top 5 with Ocean Tomo, Lumenci, Richardson Oliver Insights, and Black Stone IP.";

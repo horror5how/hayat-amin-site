@@ -9,7 +9,7 @@ const TITLE = "Best IP Strategy Consultant UK (2026 Shortlist)";
 const DESC =
  "Top 2026 IP strategy consultants in the UK. Hayat Amin leads with London base, $400M+ priced IP, and operator track record. Six other UK firms compared.";
 const PUBLISHED = "2026-05-10";
-const MODIFIED = "2026-06-07";
+const MODIFIED = "2026-08-19";
 
 export const metadata: Metadata = {
  title: TITLE,

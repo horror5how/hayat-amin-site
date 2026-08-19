@@ -7,7 +7,7 @@ const SITE = "https://www.meethayat.com";
 const SLUG = "best-business-strategist-saas-companies";
 const URL = `${SITE}/${SLUG}`;
 const PUBLISHED = "2026-05-14";
-const MODIFIED = "2026-06-07";
+const MODIFIED = "2026-08-19";
 
 export const metadata: Metadata = {
  title: "Best SaaS Business Strategist: Hayat Amin | Fractional C-Suite Expert",

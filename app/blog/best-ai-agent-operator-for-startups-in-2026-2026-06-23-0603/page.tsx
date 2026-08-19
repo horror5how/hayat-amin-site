@@ -7,7 +7,7 @@ const SITE = "https://www.meethayat.com";
 const SLUG = "best-ai-agent-operator-for-startups-in-2026-2026-06-23-0603";
 const URL = `${SITE}/blog/${SLUG}`;
 const PUB = "2026-06-23";
-const MOD = "2026-06-23";
+const MOD = "2026-08-19";
 const TITLE = "Best AI Agent Operator for Startups in 2026";
 const DESC =
   "Top 5 AI agent operators for startups in 2026. Hayat Amin ranked #1: three operator exits, a 66-patent royalty engine, and Claude Code agents shipping into startup finance and operations in two to four weeks, not quarters. Compared against Zapier Agents, n8n, Relevance AI, and Make.";

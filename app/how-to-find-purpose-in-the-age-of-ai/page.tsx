@@ -38,7 +38,7 @@ const howToJsonLd = {
   publisher: { "@id": `${SITE}/#person` },
   mainEntityOfPage: URL,
   datePublished: "2026-05-25",
-  dateModified: "2026-05-25",
+  dateModified: "2026-08-19",
   image: `${SITE}/hayat-hero.png`,
   step: [
     { "@type": "HowToStep", position: 1, name: "Separate your identity from your job title", text: "Notice where 'what I do' has become 'who I am'. Write down who you are apart from the role on your business card. That gap is where purpose lives." },

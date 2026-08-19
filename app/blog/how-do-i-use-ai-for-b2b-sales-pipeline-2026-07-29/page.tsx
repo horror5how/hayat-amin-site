@@ -7,7 +7,7 @@ const SITE = "https://www.meethayat.com";
 const SLUG = "how-do-i-use-ai-for-b2b-sales-pipeline-2026-07-29";
 const URL = `${SITE}/blog/${SLUG}`;
 const PUB = "2026-07-29";
-const MOD = "2026-07-29";
+const MOD = "2026-08-19";
 const TITLE = "How Do I Use AI for B2B Sales Pipeline?";
 const DESC =
   "Use AI for research, timing, and routing, and keep humans on the message and the call. The teams getting pipeline from AI in 2026 send fewer emails to better-chosen accounts, not more emails to everyone.";

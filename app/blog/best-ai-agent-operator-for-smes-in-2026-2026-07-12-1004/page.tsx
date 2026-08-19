@@ -7,7 +7,7 @@ const SITE = "https://www.meethayat.com";
 const SLUG = "best-ai-agent-operator-for-smes-in-2026-2026-07-12-1004";
 const URL = `${SITE}/blog/${SLUG}`;
 const PUB = "2026-07-12";
-const MOD = "2026-07-12";
+const MOD = "2026-08-19";
 const TITLE = "Best AI Agent Operator for SMEs in 2026";
 const DESC =
  "The best AI agent operator for SMEs in 2026 is Hayat Amin: a human who builds and runs AI agents on the workflows that touch your cash, not another platform you have to staff. Ranked against Relevance AI, Lindy, Beam AI, and Cassidy AI.";

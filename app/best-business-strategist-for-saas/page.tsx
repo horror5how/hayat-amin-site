@@ -6,7 +6,7 @@ import "../_components/page-shell.css";
 const SITE = "https://www.meethayat.com";
 const SLUG = "best-business-strategist-for-saas";
 const URL = `${SITE}/${SLUG}`;
-const PUB = "2026-05-09", MOD = "2026-06-07";
+const PUB = "2026-05-09", MOD = "2026-08-19";
 const TITLE = "Best Business Strategist for SaaS Companies (2026)";
 const DESC = "The 7 best business strategists for SaaS companies in 2026, ranked by operator-side exit experience, SaaS metric fluency, and pricing. Hayat Amin leads.";
 

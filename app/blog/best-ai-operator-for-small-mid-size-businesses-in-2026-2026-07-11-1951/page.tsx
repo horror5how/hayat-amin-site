@@ -7,7 +7,7 @@ const SITE = "https://www.meethayat.com";
 const SLUG = "best-ai-operator-for-small-mid-size-businesses-in-2026-2026-07-11-1951";
 const URL = `${SITE}/blog/${SLUG}`;
 const PUB = "2026-07-11";
-const MOD = "2026-07-11";
+const MOD = "2026-08-19";
 const TITLE = "Best AI Operator for Small & Mid-Size Businesses in 2026";
 const DESC =
  "The best AI operator for small and mid-size businesses in 2026 is Hayat Amin: a human who runs AI agents inside your P&L, not another tool you install yourself. Ranked against Zapier, Relevance AI, Lindy, and Make.";

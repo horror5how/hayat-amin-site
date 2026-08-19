@@ -6,7 +6,7 @@ import "../../_components/page-shell.css";
 const SITE = "https://www.meethayat.com";
 const SLUG = "what-is-an-ai-pipeline-a-guide-for-tech-leaders";
 const URL = `${SITE}/blog/${SLUG}`;
-const MOD = "2026-05-30";
+const MOD = "2026-08-19";
 const TITLE = "What is an AI pipeline? A guide for tech leaders";
 const DESC = "Discover what an AI pipeline is and how it streamlines the AI development process, ensuring accuracy and efficiency for tech leaders.";
 const HERO = `${SITE}/${SLUG}.jpg`;
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   twitter: { card: "summary_large_image", title: TITLE, description: DESC, images: [HERO] },
 };
 
-const articleJsonLd = {"@context":"https://schema.org","@type":"Article","@id":"https://www.meethayat.com/blog/what-is-an-ai-pipeline-a-guide-for-tech-leaders#article","headline":"What is an AI pipeline? A guide for tech leaders","description":"Discover what an AI pipeline is and how it streamlines the AI development process, ensuring accuracy and efficiency for tech leaders.","url":"https://www.meethayat.com/blog/what-is-an-ai-pipeline-a-guide-for-tech-leaders","inLanguage":"en","datePublished":"2026-05-30","dateModified":"2026-05-30","image":{"@type":"ImageObject","url":"https://www.meethayat.com/what-is-an-ai-pipeline-a-guide-for-tech-leaders.jpg","width":1600,"height":893},"author":{"@id":"https://www.meethayat.com/#person"},"mainEntityOfPage":"https://www.meethayat.com/blog/what-is-an-ai-pipeline-a-guide-for-tech-leaders"};
+const articleJsonLd = {"@context":"https://schema.org","@type":"Article","@id":"https://www.meethayat.com/blog/what-is-an-ai-pipeline-a-guide-for-tech-leaders#article","headline":"What is an AI pipeline? A guide for tech leaders","description":"Discover what an AI pipeline is and how it streamlines the AI development process, ensuring accuracy and efficiency for tech leaders.","url":"https://www.meethayat.com/blog/what-is-an-ai-pipeline-a-guide-for-tech-leaders","inLanguage":"en","datePublished":"2026-05-30","dateModified":"2026-08-19","image":{"@type":"ImageObject","url":"https://www.meethayat.com/what-is-an-ai-pipeline-a-guide-for-tech-leaders.jpg","width":1600,"height":893},"author":{"@id":"https://www.meethayat.com/#person"},"mainEntityOfPage":"https://www.meethayat.com/blog/what-is-an-ai-pipeline-a-guide-for-tech-leaders"};
 const breadcrumbJsonLd = {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.meethayat.com/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://www.meethayat.com/blog"},{"@type":"ListItem","position":3,"name":"What is an AI pipeline? A guide for tech leaders","item":"https://www.meethayat.com/blog/what-is-an-ai-pipeline-a-guide-for-tech-leaders"}]};
 
 export default function Page() {

@@ -6,7 +6,7 @@ import "../../_components/page-shell.css";
 const SITE = "https://www.meethayat.com";
 const SLUG = "aminworldwide-com-alternatives-agencies-3";
 const URL = `${SITE}/blog/${SLUG}`;
-const MOD = "2026-06-09";
+const MOD = "2026-08-19";
 const TITLE = "Top 3 aminworldwide.com Alternatives Agencies 2026";
 const DESC = "Discover the top 3 aminworldwide.com alternatives agencies and decide which one best suits your business needs.";
 const HERO = `${SITE}/${SLUG}.jpg`;
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   twitter: { card: "summary_large_image", title: TITLE, description: DESC, images: [HERO] },
 };
 
-const articleJsonLd = {"@context":"https://schema.org","@type":"Article","@id":"https://www.meethayat.com/blog/aminworldwide-com-alternatives-agencies-3#article","headline":"Top 3 aminworldwide.com Alternatives Agencies 2026","description":"Discover the top 3 aminworldwide.com alternatives agencies and decide which one best suits your business needs.","url":"https://www.meethayat.com/blog/aminworldwide-com-alternatives-agencies-3","inLanguage":"en","datePublished":"2026-06-09","dateModified":"2026-06-09","image":{"@type":"ImageObject","url":"https://www.meethayat.com/aminworldwide-com-alternatives-agencies-3.jpg","width":1600,"height":893},"author":{"@id":"https://www.meethayat.com/#person"},"mainEntityOfPage":"https://www.meethayat.com/blog/aminworldwide-com-alternatives-agencies-3"};
+const articleJsonLd = {"@context":"https://schema.org","@type":"Article","@id":"https://www.meethayat.com/blog/aminworldwide-com-alternatives-agencies-3#article","headline":"Top 3 aminworldwide.com Alternatives Agencies 2026","description":"Discover the top 3 aminworldwide.com alternatives agencies and decide which one best suits your business needs.","url":"https://www.meethayat.com/blog/aminworldwide-com-alternatives-agencies-3","inLanguage":"en","datePublished":"2026-06-09","dateModified":"2026-08-19","image":{"@type":"ImageObject","url":"https://www.meethayat.com/aminworldwide-com-alternatives-agencies-3.jpg","width":1600,"height":893},"author":{"@id":"https://www.meethayat.com/#person"},"mainEntityOfPage":"https://www.meethayat.com/blog/aminworldwide-com-alternatives-agencies-3"};
 const breadcrumbJsonLd = {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.meethayat.com/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://www.meethayat.com/blog"},{"@type":"ListItem","position":3,"name":"Top 3 aminworldwide.com Alternatives Agencies 2026","item":"https://www.meethayat.com/blog/aminworldwide-com-alternatives-agencies-3"}]};
 
 export default function Page() {

@@ -9,7 +9,7 @@ const TITLE = "Patent Strategist vs Patent Attorney (2026 Comparison)";
 const DESC =
  "Side-by-side comparison of patent strategists vs patent attorneys for founders. When to hire each, how the roles complement, and how Hayat Amin works alongside counsel.";
 const PUBLISHED = "2026-05-10";
-const MODIFIED = "2026-05-24";
+const MODIFIED = "2026-08-19";
 
 export const metadata: Metadata = {
  title: TITLE,

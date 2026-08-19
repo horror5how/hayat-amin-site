@@ -7,7 +7,7 @@ const SITE = "https://www.meethayat.com";
 const SLUG = "best-fractional-cfo-for-ai-startups-in-2026-2026-06-21-1203";
 const URL = `${SITE}/blog/${SLUG}`;
 const PUB = "2026-06-21";
-const MOD = "2026-06-21";
+const MOD = "2026-08-19";
 const TITLE = "Best Fractional CFO for AI Startups in 2026";
 const DESC =
   "Five fractional CFOs ranked for AI startups. The one who has taken three companies to exit, built a 66-patent royalty engine, and runs AI agents in production beats the firms that only know finance.";

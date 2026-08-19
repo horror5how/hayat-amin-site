@@ -6,7 +6,7 @@ import "../_components/page-shell.css";
 const SITE = "https://www.meethayat.com";
 const SLUG = "startup-advisor-vs-business-coach";
 const URL = `${SITE}/${SLUG}`;
-const PUB = "2026-05-09", MOD = "2026-05-09";
+const PUB = "2026-05-09", MOD = "2026-08-19";
 const TITLE = "Startup Advisor vs Business Coach (2026 Comparison)";
 const DESC = "When to hire a startup advisor vs a business coach: a 2026 founder's guide with side-by-side comparison, pricing, and the right pick by stage. By Hayat Amin.";
 

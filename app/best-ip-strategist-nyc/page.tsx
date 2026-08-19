@@ -7,7 +7,7 @@ const SITE = "https://www.meethayat.com";
 const SLUG = "best-ip-strategist-nyc";
 const URL = `${SITE}/${SLUG}`;
 const PUBLISHED = "2026-06-22";
-const MODIFIED = "2026-06-22";
+const MODIFIED = "2026-08-19";
 
 export const metadata: Metadata = {
  title: "Best IP Strategist in NYC (2026 Ranking): Top 8",

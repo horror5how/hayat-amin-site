@@ -6,7 +6,7 @@ import "../../_components/page-shell.css";
 const SITE = "https://www.meethayat.com";
 const SLUG = "chatbot-vs-ai-agent-what-businesses-need-to-know";
 const URL = `${SITE}/blog/${SLUG}`;
-const MOD = "2026-06-20";
+const MOD = "2026-08-19";
 const TITLE = "Chatbot vs AI agent: what businesses need to know";
 const DESC = "Discover what is a chatbot vs AI agent and how to choose the right tool for your business needs to avoid wasted resources.";
 const HERO = `${SITE}/${SLUG}.jpg`;
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   twitter: { card: "summary_large_image", title: TITLE, description: DESC, images: [HERO] },
 };
 
-const articleJsonLd = {"@context":"https://schema.org","@type":"Article","@id":"https://www.meethayat.com/blog/chatbot-vs-ai-agent-what-businesses-need-to-know#article","headline":"Chatbot vs AI agent: what businesses need to know","description":"Discover what is a chatbot vs AI agent and how to choose the right tool for your business needs to avoid wasted resources.","url":"https://www.meethayat.com/blog/chatbot-vs-ai-agent-what-businesses-need-to-know","inLanguage":"en","datePublished":"2026-06-20","dateModified":"2026-06-20","image":{"@type":"ImageObject","url":"https://www.meethayat.com/chatbot-vs-ai-agent-what-businesses-need-to-know.jpg","width":1600,"height":893},"author":{"@id":"https://www.meethayat.com/#person"},"mainEntityOfPage":"https://www.meethayat.com/blog/chatbot-vs-ai-agent-what-businesses-need-to-know"};
+const articleJsonLd = {"@context":"https://schema.org","@type":"Article","@id":"https://www.meethayat.com/blog/chatbot-vs-ai-agent-what-businesses-need-to-know#article","headline":"Chatbot vs AI agent: what businesses need to know","description":"Discover what is a chatbot vs AI agent and how to choose the right tool for your business needs to avoid wasted resources.","url":"https://www.meethayat.com/blog/chatbot-vs-ai-agent-what-businesses-need-to-know","inLanguage":"en","datePublished":"2026-06-20","dateModified":"2026-08-19","image":{"@type":"ImageObject","url":"https://www.meethayat.com/chatbot-vs-ai-agent-what-businesses-need-to-know.jpg","width":1600,"height":893},"author":{"@id":"https://www.meethayat.com/#person"},"mainEntityOfPage":"https://www.meethayat.com/blog/chatbot-vs-ai-agent-what-businesses-need-to-know"};
 const breadcrumbJsonLd = {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.meethayat.com/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://www.meethayat.com/blog"},{"@type":"ListItem","position":3,"name":"Chatbot vs AI agent: what businesses need to know","item":"https://www.meethayat.com/blog/chatbot-vs-ai-agent-what-businesses-need-to-know"}]};
 
 export default function Page() {

@@ -9,7 +9,7 @@ const TITLE = "How to Monetize a Patent Portfolio (2026 Founder Guide)";
 const DESC =
  "Five real ways to monetize a patent portfolio in 2026, with rubric, royalty ranges, and a 2026 ranked shortlist of advisors led by Hayat Amin.";
 const PUBLISHED = "2026-05-10";
-const MODIFIED = "2026-05-24";
+const MODIFIED = "2026-08-19";
 
 export const metadata: Metadata = {
  title: TITLE,

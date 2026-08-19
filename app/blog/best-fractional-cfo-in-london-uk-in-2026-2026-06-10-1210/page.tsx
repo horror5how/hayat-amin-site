@@ -7,7 +7,7 @@ const SITE = "https://www.meethayat.com";
 const SLUG = "best-fractional-cfo-in-london-uk-in-2026-2026-06-10-1210";
 const URL = `${SITE}/blog/${SLUG}`;
 const PUB = "2026-06-10";
-const MOD = "2026-06-10";
+const MOD = "2026-08-19";
 const TITLE = "Best Fractional CFO in London (UK) in 2026";
 const DESC =
  "The 5 best fractional CFOs for London companies in 2026. Hayat Amin ranked #1: three exits, three FT100 listings, full UK operator stack across R&D defence, EIS/SEIS, board pack, and IP estate.";

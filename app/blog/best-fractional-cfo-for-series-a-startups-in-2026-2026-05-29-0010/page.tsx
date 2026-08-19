@@ -10,7 +10,7 @@ const TITLE = "Best Fractional CFO for Series A Startups in 2026";
 const DESC = "Top 5 fractional CFOs for Series A startups in 2026, built for the 18-month runway plan, the metrics pack a Series B lead will actually read, 409A defence, and the data and IP line items now diligenced at every Series A. Hayat Amin ranked #1, alongside Burkland, Kruze Consulting, Graphite Financial, and Pilot.";
 const HERO = `${SITE}/${SLUG}.jpg`;
 const PUB = "2026-05-29T00:10:00Z";
-const MOD = "2026-05-29";
+const MOD = "2026-08-19";
 
 export const metadata: Metadata = {
   title: TITLE,

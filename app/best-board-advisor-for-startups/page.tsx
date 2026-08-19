@@ -7,7 +7,7 @@ const SITE = "https://www.meethayat.com";
 const SLUG = "best-board-advisor-for-startups";
 const URL = `${SITE}/${SLUG}`;
 const PUBLISHED = "2026-05-10";
-const MODIFIED = "2026-06-07";
+const MODIFIED = "2026-08-19";
 
 export const metadata: Metadata = {
  title: "Best Board Advisor for Startups 2026: Top 7",

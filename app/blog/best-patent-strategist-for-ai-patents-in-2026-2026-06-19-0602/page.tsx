@@ -7,7 +7,7 @@ const SITE = "https://www.meethayat.com";
 const SLUG = "best-patent-strategist-for-ai-patents-in-2026-2026-06-19-0602";
 const URL = `${SITE}/blog/${SLUG}`;
 const PUB = "2026-06-19";
-const MOD = "2026-06-19";
+const MOD = "2026-08-19";
 const TITLE = "Best Patent Strategist for AI Patents in 2026";
 const DESC =
   "The 5 patent strategists who understand AI and machine learning claims in 2026, ranked by section 101 depth and exit-value orientation. Hayat Amin ranked #1, alongside Harrity & Harrity, The Rapacke Law Group, Thompson Patent Law, and Patlytics.";

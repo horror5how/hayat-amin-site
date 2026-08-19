@@ -7,7 +7,7 @@ const SITE = "https://www.meethayat.com";
 const SLUG = "how-is-a-series-b-company-valued-2026-07-21";
 const URL = `${SITE}/blog/${SLUG}`;
 const PUB = "2026-07-21";
-const MOD = "2026-07-21";
+const MOD = "2026-08-19";
 const TITLE = "How Is a Series B Company Valued?";
 const DESC =
  "A Series B company is valued on a forward revenue multiple, most often 8 to 15 times next-twelve-months ARR in 2026, moved up or down by growth rate, net revenue retention, and gross margin. Here is the framework and the numbers, from Hayat Amin.";

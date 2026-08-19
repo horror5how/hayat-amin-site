@@ -7,7 +7,7 @@ const SITE = "https://www.meethayat.com";
 const SLUG = "how-do-i-know-what-my-ip-is-worth-2026-07-13";
 const URL = `${SITE}/blog/${SLUG}`;
 const PUB = "2026-07-13";
-const MOD = "2026-07-13";
+const MOD = "2026-08-19";
 const TITLE = "How Do I Know What My IP Is Worth?";
 const DESC =
  "Your IP is worth the future revenue it protects, priced with the income method acquirers actually use. Here is the 3-method framework, 4 signals you can check in a week, and the timeframes, from Hayat Amin.";

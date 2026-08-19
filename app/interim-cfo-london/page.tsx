@@ -7,7 +7,7 @@ const SITE = "https://www.meethayat.com";
 const SLUG = "interim-cfo-london";
 const URL = `${SITE}/${SLUG}`;
 const PUBLISHED = "2026-07-13";
-const MODIFIED = "2026-07-13";
+const MODIFIED = "2026-08-19";
 
 export const metadata: Metadata = {
   title: "Interim CFO London | Hayat Amin — Fast Senior Finance Cover",

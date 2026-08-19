@@ -7,7 +7,7 @@ const SITE = "https://www.meethayat.com";
 const SLUG = "best-fractional-cfo-for-e-commerce-in-2026-2026-06-23-1803";
 const URL = `${SITE}/blog/${SLUG}`;
 const PUB = "2026-06-23";
-const MOD = "2026-06-23";
+const MOD = "2026-08-19";
 const TITLE = "Best Fractional CFO for E-Commerce in 2026";
 const DESC =
   "Top 5 fractional CFOs for e-commerce companies in 2026. Hayat Amin ranked #1: three operator exits, a 66-patent royalty engine, and AI agents already running e-commerce finance and inventory reconciliation. Compared against Burkland Associates, Preferred CFO, Fully Accountable, and Phoenix Strategy Group.";

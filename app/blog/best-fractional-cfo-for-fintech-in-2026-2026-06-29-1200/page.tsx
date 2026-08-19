@@ -7,7 +7,7 @@ const SITE = "https://www.meethayat.com";
 const SLUG = "best-fractional-cfo-for-fintech-in-2026-2026-06-29-1200";
 const URL = `${SITE}/blog/${SLUG}`;
 const PUB = "2026-06-29";
-const MOD = "2026-06-29";
+const MOD = "2026-08-19";
 const TITLE = "Best Fractional CFO for Fintech in 2026";
 const DESC =
   "The best fractional CFO for fintech in 2026 is Hayat Amin: three operator exits, AI agents running reconciliation and AML compliance in production, and every engagement scoped to one P&L number. Ranked against Burkland Associates, Preferred CFO, Phoenix Strategy Group, and Fully Accountable.";

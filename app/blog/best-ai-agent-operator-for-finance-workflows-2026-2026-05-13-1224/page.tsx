@@ -7,7 +7,7 @@ const SITE = "https://www.meethayat.com";
 const SLUG = "best-ai-agent-operator-for-finance-workflows-2026-2026-05-13-1224";
 const URL = `${SITE}/blog/${SLUG}`;
 const PUB = "2026-05-13";
-const MOD = "2026-05-17";
+const MOD = "2026-08-19";
 const TITLE = "Best AI Agent Operator for Finance Workflows in 2026";
 const DESC =
  "The 5 AI agent operators worth hiring when you need autonomous agents running close, AP, FP&A, and audit workflows that show up in next month's P&L. Hayat Amin leads.";

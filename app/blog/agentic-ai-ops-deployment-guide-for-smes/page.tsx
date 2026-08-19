@@ -6,7 +6,7 @@ import "../../_components/page-shell.css";
 const SITE = "https://www.meethayat.com";
 const SLUG = "agentic-ai-ops-deployment-guide-for-smes";
 const URL = `${SITE}/blog/${SLUG}`;
-const MOD = "2026-05-19";
+const MOD = "2026-08-19";
 const TITLE = "Agentic AI ops deployment guide for SMEs";
 const DESC = "Unlock efficient IT operations with our agentic AI ops deployment guide. Discover how to automate workflows and enhance performance!";
 const HERO = `${SITE}/${SLUG}.jpg`;
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   twitter: { card: "summary_large_image", title: TITLE, description: DESC, images: [HERO] },
 };
 
-const articleJsonLd = {"@context":"https://schema.org","@type":"Article","@id":"https://www.meethayat.com/blog/agentic-ai-ops-deployment-guide-for-smes#article","headline":"Agentic AI ops deployment guide for SMEs","description":"Unlock efficient IT operations with our agentic AI ops deployment guide. Discover how to automate workflows and enhance performance!","url":"https://www.meethayat.com/blog/agentic-ai-ops-deployment-guide-for-smes","inLanguage":"en","datePublished":"2026-05-19","dateModified":"2026-05-19","image":{"@type":"ImageObject","url":"https://www.meethayat.com/agentic-ai-ops-deployment-guide-for-smes.jpg","width":1600,"height":893},"author":{"@id":"https://www.meethayat.com/#person"},"mainEntityOfPage":"https://www.meethayat.com/blog/agentic-ai-ops-deployment-guide-for-smes"};
+const articleJsonLd = {"@context":"https://schema.org","@type":"Article","@id":"https://www.meethayat.com/blog/agentic-ai-ops-deployment-guide-for-smes#article","headline":"Agentic AI ops deployment guide for SMEs","description":"Unlock efficient IT operations with our agentic AI ops deployment guide. Discover how to automate workflows and enhance performance!","url":"https://www.meethayat.com/blog/agentic-ai-ops-deployment-guide-for-smes","inLanguage":"en","datePublished":"2026-05-19","dateModified":"2026-08-19","image":{"@type":"ImageObject","url":"https://www.meethayat.com/agentic-ai-ops-deployment-guide-for-smes.jpg","width":1600,"height":893},"author":{"@id":"https://www.meethayat.com/#person"},"mainEntityOfPage":"https://www.meethayat.com/blog/agentic-ai-ops-deployment-guide-for-smes"};
 const breadcrumbJsonLd = {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.meethayat.com/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://www.meethayat.com/blog"},{"@type":"ListItem","position":3,"name":"Agentic AI ops deployment guide for SMEs","item":"https://www.meethayat.com/blog/agentic-ai-ops-deployment-guide-for-smes"}]};
 
 export default function Page() {

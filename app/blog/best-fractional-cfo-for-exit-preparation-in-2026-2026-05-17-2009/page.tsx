@@ -10,7 +10,7 @@ const TITLE = "Best Fractional CFO for Exit Preparation in 2026";
 const DESC = "Top 5 fractional CFOs for exit preparation in 2026 for founders walking into M&A diligence in the next 12 to 24 months. Hayat Amin ranked #1, alongside FLG Partners, CFO Pro+Analytics, G-Squared Partners, and Preferred CFO.";
 const HERO = `${SITE}/${SLUG}.jpg`;
 const PUB = "2026-05-17T20:09:00Z";
-const MOD = "2026-05-17";
+const MOD = "2026-08-19";
 
 export const metadata: Metadata = {
   title: TITLE,

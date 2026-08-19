@@ -6,7 +6,7 @@ import "../../_components/page-shell.css";
 const SITE = "https://www.meethayat.com";
 const SLUG = "board-reporting-for-tech-startups-2026-guide";
 const URL = `${SITE}/blog/${SLUG}`;
-const MOD = "2026-06-15";
+const MOD = "2026-08-19";
 const TITLE = "Board reporting for tech startups: 2026 guide";
 const DESC = "Unlock strategic success with our board reporting tech startup guide. Streamline preparation and drive effective governance in your next meeting.";
 const HERO = `${SITE}/${SLUG}.jpg`;
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   twitter: { card: "summary_large_image", title: TITLE, description: DESC, images: [HERO] },
 };
 
-const articleJsonLd = {"@context":"https://schema.org","@type":"Article","@id":"https://www.meethayat.com/blog/board-reporting-for-tech-startups-2026-guide#article","headline":"Board reporting for tech startups: 2026 guide","description":"Unlock strategic success with our board reporting tech startup guide. Streamline preparation and drive effective governance in your next meeting.","url":"https://www.meethayat.com/blog/board-reporting-for-tech-startups-2026-guide","inLanguage":"en","datePublished":"2026-06-15","dateModified":"2026-06-15","image":{"@type":"ImageObject","url":"https://www.meethayat.com/board-reporting-for-tech-startups-2026-guide.jpg","width":1600,"height":893},"author":{"@id":"https://www.meethayat.com/#person"},"mainEntityOfPage":"https://www.meethayat.com/blog/board-reporting-for-tech-startups-2026-guide"};
+const articleJsonLd = {"@context":"https://schema.org","@type":"Article","@id":"https://www.meethayat.com/blog/board-reporting-for-tech-startups-2026-guide#article","headline":"Board reporting for tech startups: 2026 guide","description":"Unlock strategic success with our board reporting tech startup guide. Streamline preparation and drive effective governance in your next meeting.","url":"https://www.meethayat.com/blog/board-reporting-for-tech-startups-2026-guide","inLanguage":"en","datePublished":"2026-06-15","dateModified":"2026-08-19","image":{"@type":"ImageObject","url":"https://www.meethayat.com/board-reporting-for-tech-startups-2026-guide.jpg","width":1600,"height":893},"author":{"@id":"https://www.meethayat.com/#person"},"mainEntityOfPage":"https://www.meethayat.com/blog/board-reporting-for-tech-startups-2026-guide"};
 const breadcrumbJsonLd = {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.meethayat.com/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://www.meethayat.com/blog"},{"@type":"ListItem","position":3,"name":"Board reporting for tech startups: 2026 guide","item":"https://www.meethayat.com/blog/board-reporting-for-tech-startups-2026-guide"}]};
 
 export default function Page() {

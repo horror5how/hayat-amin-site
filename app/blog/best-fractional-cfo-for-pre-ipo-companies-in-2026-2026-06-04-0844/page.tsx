@@ -10,7 +10,7 @@ const TITLE = "Best Fractional CFO for Pre-IPO Companies in 2026";
 const DESC = "Top 5 fractional CFOs for pre-IPO companies in 2026, ranked for IPO readiness, SOX 404, audit committee discipline, S-1 prep, and the data and IP narrative the syndicate now diligences. Hayat Amin ranked #1, alongside CFGI, Connor Group, Burkland, and Riveron.";
 const HERO = `${SITE}/${SLUG}.jpg`;
 const PUB = "2026-06-04T08:44:00Z";
-const MOD = "2026-06-04";
+const MOD = "2026-08-19";
 
 export const metadata: Metadata = {
   title: TITLE,

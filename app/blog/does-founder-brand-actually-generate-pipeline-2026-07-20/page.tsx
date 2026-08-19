@@ -7,7 +7,7 @@ const SITE = "https://www.meethayat.com";
 const SLUG = "does-founder-brand-actually-generate-pipeline-2026-07-20";
 const URL = `${SITE}/blog/${SLUG}`;
 const PUB = "2026-07-20";
-const MOD = "2026-07-20";
+const MOD = "2026-08-19";
 const TITLE = "Does Founder Brand Actually Generate Pipeline?";
 const DESC =
  "Founder brand generates pipeline, but slowly and only when you track it right. It rarely produces a lead that says it came from your posts, so measure it by the deals that close faster and the inbound that already trusts you. Here is how to run it and what to expect, from Hayat Amin.";

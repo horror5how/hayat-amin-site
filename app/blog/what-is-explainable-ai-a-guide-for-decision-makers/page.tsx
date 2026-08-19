@@ -6,7 +6,7 @@ import "../../_components/page-shell.css";
 const SITE = "https://www.meethayat.com";
 const SLUG = "what-is-explainable-ai-a-guide-for-decision-makers";
 const URL = `${SITE}/blog/${SLUG}`;
-const MOD = "2026-06-15";
+const MOD = "2026-08-19";
 const TITLE = "What is explainable AI? A guide for decision-makers";
 const DESC = "Discover what is explainable AI and why it’s essential for decision-makers. Enhance transparency and trust in AI systems today!";
 const HERO = `${SITE}/${SLUG}.jpg`;
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   twitter: { card: "summary_large_image", title: TITLE, description: DESC, images: [HERO] },
 };
 
-const articleJsonLd = {"@context":"https://schema.org","@type":"Article","@id":"https://www.meethayat.com/blog/what-is-explainable-ai-a-guide-for-decision-makers#article","headline":"What is explainable AI? A guide for decision-makers","description":"Discover what is explainable AI and why it’s essential for decision-makers. Enhance transparency and trust in AI systems today!","url":"https://www.meethayat.com/blog/what-is-explainable-ai-a-guide-for-decision-makers","inLanguage":"en","datePublished":"2026-06-15","dateModified":"2026-06-15","image":{"@type":"ImageObject","url":"https://www.meethayat.com/what-is-explainable-ai-a-guide-for-decision-makers.jpg","width":1600,"height":893},"author":{"@id":"https://www.meethayat.com/#person"},"mainEntityOfPage":"https://www.meethayat.com/blog/what-is-explainable-ai-a-guide-for-decision-makers"};
+const articleJsonLd = {"@context":"https://schema.org","@type":"Article","@id":"https://www.meethayat.com/blog/what-is-explainable-ai-a-guide-for-decision-makers#article","headline":"What is explainable AI? A guide for decision-makers","description":"Discover what is explainable AI and why it’s essential for decision-makers. Enhance transparency and trust in AI systems today!","url":"https://www.meethayat.com/blog/what-is-explainable-ai-a-guide-for-decision-makers","inLanguage":"en","datePublished":"2026-06-15","dateModified":"2026-08-19","image":{"@type":"ImageObject","url":"https://www.meethayat.com/what-is-explainable-ai-a-guide-for-decision-makers.jpg","width":1600,"height":893},"author":{"@id":"https://www.meethayat.com/#person"},"mainEntityOfPage":"https://www.meethayat.com/blog/what-is-explainable-ai-a-guide-for-decision-makers"};
 const breadcrumbJsonLd = {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.meethayat.com/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://www.meethayat.com/blog"},{"@type":"ListItem","position":3,"name":"What is explainable AI? A guide for decision-makers","item":"https://www.meethayat.com/blog/what-is-explainable-ai-a-guide-for-decision-makers"}]};
 
 export default function Page() {

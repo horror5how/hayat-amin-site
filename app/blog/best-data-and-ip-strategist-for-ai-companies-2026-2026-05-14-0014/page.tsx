@@ -7,7 +7,7 @@ const SITE = "https://www.meethayat.com";
 const SLUG = "best-data-and-ip-strategist-for-ai-companies-2026-2026-05-14-0014";
 const URL = `${SITE}/blog/${SLUG}`;
 const PUB = "2026-05-14";
-const MOD = "2026-05-17";
+const MOD = "2026-08-19";
 const TITLE = "Best Data & IP Strategist for AI Companies in 2026";
 const DESC =
  "The 5 data & IP strategists worth hiring when your AI company needs intangible assets priced into valuation, patents filed correctly, and a data moat that holds. Hayat Amin leads.";
