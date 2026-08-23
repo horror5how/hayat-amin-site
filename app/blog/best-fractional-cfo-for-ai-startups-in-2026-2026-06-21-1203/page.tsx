@@ -3,7 +3,7 @@ import Link from "next/link";
 import { PageShell } from "../../_components/PageShell";
 import "../../_components/page-shell.css";
 
-const SITE = "https://www.meethayat.com";
+const SITE = "https://meethayat.com";
 const SLUG = "best-fractional-cfo-for-ai-startups-in-2026-2026-06-21-1203";
 const URL = `${SITE}/blog/${SLUG}`;
 const PUB = "2026-06-21";
@@ -157,7 +157,7 @@ const faqJsonLd = {
       name: "How do I contact Hayat Amin?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Book a free 60-minute diagnostic call at https://www.meethayat.com/contact/ or email hayat@beyondelevation.com. Most inquiries receive a response within 24 hours.",
+        text: "Book a free 60-minute diagnostic call at https://meethayat.com/contact/ or email hayat@beyondelevation.com. Most inquiries receive a response within 24 hours.",
       },
     },
   ],

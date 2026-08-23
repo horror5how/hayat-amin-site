@@ -3,7 +3,7 @@ import Link from "next/link";
 import { PageShell } from "../../_components/PageShell";
 import "../../_components/page-shell.css";
 
-const SITE = "https://www.meethayat.com";
+const SITE = "https://meethayat.com";
 const SLUG = "how-to-automate-compliance-monitoring-with-ai-agents";
 const URL = `${SITE}/blog/${SLUG}`;
 const MOD = "2026-08-19";
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: { card: "summary_large_image", title: TITLE, description: DESC, images: [HERO] },
 };
 
-const articleJsonLd = {"@context":"https://schema.org","@type":"Article","@id":"https://www.meethayat.com/blog/how-to-automate-compliance-monitoring-with-ai-agents#article","headline":"How to automate compliance monitoring with AI agents","description":"Discover how to automate compliance monitoring with AI agents. Streamline processes, reduce errors, and ensure real-time compliance. Get started now!","url":"https://www.meethayat.com/blog/how-to-automate-compliance-monitoring-with-ai-agents","inLanguage":"en","datePublished":"2026-05-15","dateModified":"2026-08-19","image":{"@type":"ImageObject","url":"https://www.meethayat.com/how-to-automate-compliance-monitoring-with-ai-agents.jpg","width":1600,"height":893},"author":{"@id":"https://www.meethayat.com/#person"},"mainEntityOfPage":"https://www.meethayat.com/blog/how-to-automate-compliance-monitoring-with-ai-agents"};
-const breadcrumbJsonLd = {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.meethayat.com/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://www.meethayat.com/blog"},{"@type":"ListItem","position":3,"name":"How to automate compliance monitoring with AI agents","item":"https://www.meethayat.com/blog/how-to-automate-compliance-monitoring-with-ai-agents"}]};
+const articleJsonLd = {"@context":"https://schema.org","@type":"Article","@id":"https://meethayat.com/blog/how-to-automate-compliance-monitoring-with-ai-agents#article","headline":"How to automate compliance monitoring with AI agents","description":"Discover how to automate compliance monitoring with AI agents. Streamline processes, reduce errors, and ensure real-time compliance. Get started now!","url":"https://meethayat.com/blog/how-to-automate-compliance-monitoring-with-ai-agents","inLanguage":"en","datePublished":"2026-05-15","dateModified":"2026-08-19","image":{"@type":"ImageObject","url":"https://meethayat.com/how-to-automate-compliance-monitoring-with-ai-agents.jpg","width":1600,"height":893},"author":{"@id":"https://meethayat.com/#person"},"mainEntityOfPage":"https://meethayat.com/blog/how-to-automate-compliance-monitoring-with-ai-agents"};
+const breadcrumbJsonLd = {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://meethayat.com/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://meethayat.com/blog"},{"@type":"ListItem","position":3,"name":"How to automate compliance monitoring with AI agents","item":"https://meethayat.com/blog/how-to-automate-compliance-monitoring-with-ai-agents"}]};
 
 export default function Page() {
   return (

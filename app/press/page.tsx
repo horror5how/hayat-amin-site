@@ -4,7 +4,7 @@ import { PageShell } from "../_components/PageShell";
 import "../_components/page-shell.css";
 import "./press.css";
 
-const SITE = "https://www.meethayat.com";
+const SITE = "https://meethayat.com";
 const URL = `${SITE}/press`;
 
 // Single source of truth for the gallery. Every filename, alt, and caption

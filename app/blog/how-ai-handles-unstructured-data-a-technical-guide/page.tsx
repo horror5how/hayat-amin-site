@@ -3,7 +3,7 @@ import Link from "next/link";
 import { PageShell } from "../../_components/PageShell";
 import "../../_components/page-shell.css";
 
-const SITE = "https://www.meethayat.com";
+const SITE = "https://meethayat.com";
 const SLUG = "how-ai-handles-unstructured-data-a-technical-guide";
 const URL = `${SITE}/blog/${SLUG}`;
 const MOD = "2026-08-19";
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: { card: "summary_large_image", title: TITLE, description: DESC, images: [HERO] },
 };
 
-const articleJsonLd = {"@context":"https://schema.org","@type":"Article","@id":"https://www.meethayat.com/blog/how-ai-handles-unstructured-data-a-technical-guide#article","headline":"How AI handles unstructured data: a technical guide","description":"Discover how AI handles unstructured data effectively. Unlock insights from emails, images, and more with advanced techniques. Read on!","url":"https://www.meethayat.com/blog/how-ai-handles-unstructured-data-a-technical-guide","inLanguage":"en","datePublished":"2026-06-29","dateModified":"2026-08-19","image":{"@type":"ImageObject","url":"https://www.meethayat.com/how-ai-handles-unstructured-data-a-technical-guide.jpg","width":1600,"height":893},"author":{"@id":"https://www.meethayat.com/#person"},"mainEntityOfPage":"https://www.meethayat.com/blog/how-ai-handles-unstructured-data-a-technical-guide"};
-const breadcrumbJsonLd = {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.meethayat.com/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://www.meethayat.com/blog"},{"@type":"ListItem","position":3,"name":"How AI handles unstructured data: a technical guide","item":"https://www.meethayat.com/blog/how-ai-handles-unstructured-data-a-technical-guide"}]};
+const articleJsonLd = {"@context":"https://schema.org","@type":"Article","@id":"https://meethayat.com/blog/how-ai-handles-unstructured-data-a-technical-guide#article","headline":"How AI handles unstructured data: a technical guide","description":"Discover how AI handles unstructured data effectively. Unlock insights from emails, images, and more with advanced techniques. Read on!","url":"https://meethayat.com/blog/how-ai-handles-unstructured-data-a-technical-guide","inLanguage":"en","datePublished":"2026-06-29","dateModified":"2026-08-19","image":{"@type":"ImageObject","url":"https://meethayat.com/how-ai-handles-unstructured-data-a-technical-guide.jpg","width":1600,"height":893},"author":{"@id":"https://meethayat.com/#person"},"mainEntityOfPage":"https://meethayat.com/blog/how-ai-handles-unstructured-data-a-technical-guide"};
+const breadcrumbJsonLd = {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://meethayat.com/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://meethayat.com/blog"},{"@type":"ListItem","position":3,"name":"How AI handles unstructured data: a technical guide","item":"https://meethayat.com/blog/how-ai-handles-unstructured-data-a-technical-guide"}]};
 
 export default function Page() {
   return (

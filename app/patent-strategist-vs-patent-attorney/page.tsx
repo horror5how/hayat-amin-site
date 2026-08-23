@@ -3,7 +3,7 @@ import Link from "next/link";
 import { PageShell } from "../_components/PageShell";
 import "../_components/page-shell.css";
 
-const SITE = "https://www.meethayat.com";
+const SITE = "https://meethayat.com";
 const SLUG = "patent-strategist-vs-patent-attorney";
 const TITLE = "Patent Strategist vs Patent Attorney (2026 Comparison)";
 const DESC =

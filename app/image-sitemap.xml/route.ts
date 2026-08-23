@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 import postsData from "../../data/blog-posts.json";
 
-const SITE = "https://www.meethayat.com";
+const SITE = "https://meethayat.com";
 
 type PostRecord = { slug: string; title: string; hero?: string };
 

@@ -7,6 +7,10 @@ const blogRedirects = require("./data/blog-redirects.json");
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  // meethayat.com proxies unknown paths here (fallback rewrite in the
+  // meethayat-fde project), but /_next/* never falls through a proxy, so all
+  // build assets must load from this project's own stable domain.
+  assetPrefix: "https://hayat-amin-site.vercel.app",
   reactStrictMode: true,
   poweredByHeader: false,
   compress: true,
@@ -19,13 +23,9 @@ const nextConfig = {
   },
   async redirects() {
     return [
-      // Force naked-domain to www (single canonical host).
-      {
-        source: "/:path*",
-        has: [{ type: "host", value: "meethayat.com" }],
-        destination: "https://www.meethayat.com/:path*",
-        permanent: true,
-      },
+      // Canonical host is now the naked domain, served by the meethayat-fde
+      // project. This project is reached only via its fallback proxy, so no
+      // host redirect belongs here.
       ...blogRedirects.map((r) => ({
         source: r.from,
         destination: r.to,

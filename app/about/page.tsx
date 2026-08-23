@@ -4,7 +4,7 @@ import Image from "next/image";
 import { PageShell } from "../_components/PageShell";
 import "../_components/page-shell.css";
 
-const SITE = "https://www.meethayat.com";
+const SITE = "https://meethayat.com";
 const PORTRAIT = "/authors/hayat-amin/hayat-amin-fractional-cfo-headshot.jpg";
 const PORTRAIT_ABS = `${SITE}${PORTRAIT}`;
 const PORTRAIT_ALT =

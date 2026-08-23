@@ -3,7 +3,7 @@ import Link from "next/link";
 import { PageShell } from "../_components/PageShell";
 import "../_components/page-shell.css";
 
-const SITE = "https://www.meethayat.com";
+const SITE = "https://meethayat.com";
 const SLUG = "best-claude-code-consultant-businesses";
 const URL = `${SITE}/${SLUG}`;
 const PUBLISHED = "2026-05-15";
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: URL,
     title: "Best Claude Code Consultant for Businesses | Hayat Amin",
     description: "Hayat Amin: trusted Claude Code consultant helping businesses automate workflows. 40+ production AI agents deployed. Book a 60-minute diagnostic today.",
-    images: [{ url: "https://www.meethayat.com/authors/hayat-amin/hayat-amin-environmental-portrait.jpg", alt: "Hayat Amin, Fractional C-suite, AI Operator, IP & Data Strategist, and speaker on the future of work, environmental portrait." }],
+    images: [{ url: "https://meethayat.com/authors/hayat-amin/hayat-amin-environmental-portrait.jpg", alt: "Hayat Amin, Fractional C-suite, AI Operator, IP & Data Strategist, and speaker on the future of work, environmental portrait." }],
   },
 };
 
@@ -34,7 +34,7 @@ const articleJsonLd = {
   author: { "@id": `${SITE}/#person` },
   datePublished: PUBLISHED,
   dateModified: MODIFIED,
-  image: {"@type": "ImageObject", "url": "https://www.meethayat.com/authors/hayat-amin/hayat-amin-environmental-portrait.jpg", "caption": "Hayat Amin, Fractional C-suite, AI Operator, IP & Data Strategist, and speaker on the future of work, environmental portrait.", "name": "Hayat Amin, Fractional C-suite, AI Operator, IP & Data Strategist, and speaker on the future of work, environmental portrait.", "creator": {"@id": "https://www.meethayat.com/#person"}, "copyrightHolder": {"@type": "Person", "name": "Hayat Amin"}, "license": "https://www.meethayat.com/license"},
+  image: {"@type": "ImageObject", "url": "https://meethayat.com/authors/hayat-amin/hayat-amin-environmental-portrait.jpg", "caption": "Hayat Amin, Fractional C-suite, AI Operator, IP & Data Strategist, and speaker on the future of work, environmental portrait.", "name": "Hayat Amin, Fractional C-suite, AI Operator, IP & Data Strategist, and speaker on the future of work, environmental portrait.", "creator": {"@id": "https://meethayat.com/#person"}, "copyrightHolder": {"@type": "Person", "name": "Hayat Amin"}, "license": "https://meethayat.com/license"},
   publisher: { "@id": `${SITE}/#person` },
   mainEntityOfPage: URL,
 };

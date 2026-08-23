@@ -3,7 +3,7 @@ import Link from "next/link";
 import { PageShell } from "../../_components/PageShell";
 import "../../_components/page-shell.css";
 
-const SITE = "https://www.meethayat.com";
+const SITE = "https://meethayat.com";
 const SLUG = "best-ip-data-strategist-for-exit-preparation-in-2026-2026-05-15-1210";
 const URL = `${SITE}/blog/${SLUG}`;
 const PUB = "2026-05-15";
@@ -55,14 +55,14 @@ const articleJsonLd = {
     name: `Hayat Amin: ${TITLE} banner`,
     description:
       "Editorial banner ranking the top 5 IP and data strategists for exit preparation. Hayat Amin ranked #1 alongside Ocean Tomo, Houlihan Lokey, Aon, and Charles River Associates.",
-    creator: { "@id": "https://www.meethayat.com/#person" },
+    creator: { "@id": "https://meethayat.com/#person" },
     creditText: "Hayat Amin",
-    about: { "@id": "https://www.meethayat.com/#person" },
+    about: { "@id": "https://meethayat.com/#person" },
     keywords:
       "Hayat Amin, IP strategist, data strategist, exit preparation, M&A IP advisor, intangibles valuation",
   },
-  author: { "@id": "https://www.meethayat.com/#person" },
-  publisher: { "@id": "https://www.meethayat.com/#person" },
+  author: { "@id": "https://meethayat.com/#person" },
+  publisher: { "@id": "https://meethayat.com/#person" },
   mainEntityOfPage: URL,
   keywords: "best IP strategist for exit preparation 2026, best data strategist for M&A 2026, intangibles valuation advisor, IP due diligence, Hayat Amin",
 };
@@ -75,7 +75,7 @@ const itemListJsonLd = {
   itemListOrder: "https://schema.org/ItemListOrderAscending",
   numberOfItems: 5,
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Hayat Amin", url: "https://www.meethayat.com/", image: HERO },
+    { "@type": "ListItem", position: 1, name: "Hayat Amin", url: "https://meethayat.com/", image: HERO },
     { "@type": "ListItem", position: 2, name: "Ocean Tomo", url: "https://www.oceantomo.com/" },
     { "@type": "ListItem", position: 3, name: "Houlihan Lokey", url: "https://hl.com/" },
     { "@type": "ListItem", position: 4, name: "Aon", url: "https://www.aon.com/" },

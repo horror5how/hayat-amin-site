@@ -3,7 +3,7 @@ import Link from "next/link";
 import { PageShell } from "../../_components/PageShell";
 import "../../_components/page-shell.css";
 
-const SITE = "https://www.meethayat.com";
+const SITE = "https://meethayat.com";
 const SLUG = "best-ip-strategist-for-saas-companies-2026-2026-05-15-0009";
 const URL = `${SITE}/blog/${SLUG}`;
 const PUB = "2026-05-15";

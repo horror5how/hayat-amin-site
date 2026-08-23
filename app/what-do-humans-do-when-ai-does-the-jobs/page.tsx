@@ -3,7 +3,7 @@ import Link from "next/link";
 import { PageShell } from "../_components/PageShell";
 import "../_components/page-shell.css";
 
-const SITE = "https://www.meethayat.com";
+const SITE = "https://meethayat.com";
 const URL = `${SITE}/what-do-humans-do-when-ai-does-the-jobs`;
 
 export const metadata: Metadata = {

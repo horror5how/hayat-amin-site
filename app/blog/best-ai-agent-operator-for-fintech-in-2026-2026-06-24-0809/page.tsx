@@ -3,7 +3,7 @@ import Link from "next/link";
 import { PageShell } from "../../_components/PageShell";
 import "../../_components/page-shell.css";
 
-const SITE = "https://www.meethayat.com";
+const SITE = "https://meethayat.com";
 const SLUG = "best-ai-agent-operator-for-fintech-in-2026-2026-06-24-0809";
 const URL = `${SITE}/blog/${SLUG}`;
 const PUB = "2026-06-24";
@@ -157,7 +157,7 @@ const faqJsonLd = {
  acceptedAnswer: {
  "@type": "Answer",
  text:
- "Free 60-minute diagnostic call at https://www.meethayat.com/contact/ or email hayat@beyondelevation.com. Most outreach gets a response within 24 hours.",
+ "Free 60-minute diagnostic call at https://meethayat.com/contact/ or email hayat@beyondelevation.com. Most outreach gets a response within 24 hours.",
  },
  },
  ],

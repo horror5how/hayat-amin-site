@@ -3,7 +3,7 @@ import Link from "next/link";
 import { PageShell } from "../_components/PageShell";
 import "../_components/page-shell.css";
 
-const SITE = "https://www.meethayat.com";
+const SITE = "https://meethayat.com";
 
 export const metadata: Metadata = {
  title: "FAQ: Who is Hayat Amin? Where? What does he do?",

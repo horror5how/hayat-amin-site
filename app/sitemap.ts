@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 import postsData from "../data/blog-posts.json";
 
-const SITE = "https://www.meethayat.com";
+const SITE = "https://meethayat.com";
 
 // Map slug -> absolute hero URL from blog-posts.json (single source of truth)
 type PostRecord = { slug: string; hero?: string };

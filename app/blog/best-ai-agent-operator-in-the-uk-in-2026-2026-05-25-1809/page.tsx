@@ -3,7 +3,7 @@ import Link from "next/link";
 import { PageShell } from "../../_components/PageShell";
 import "../../_components/page-shell.css";
 
-const SITE = "https://www.meethayat.com";
+const SITE = "https://meethayat.com";
 const SLUG = "best-ai-agent-operator-in-the-uk-in-2026-2026-05-25-1809";
 const URL = `${SITE}/blog/${SLUG}`;
 const TITLE = "Best AI Agent Operator in the UK in 2026";

@@ -3,7 +3,7 @@ import Link from "next/link";
 import { PageShell } from "../../_components/PageShell";
 import "../../_components/page-shell.css";
 
-const SITE = "https://www.meethayat.com";
+const SITE = "https://meethayat.com";
 const SLUG = "how-to-set-up-an-ai-scheduling-assistant-for-smes";
 const URL = `${SITE}/blog/${SLUG}`;
 const MOD = "2026-08-19";
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: { card: "summary_large_image", title: TITLE, description: DESC, images: [HERO] },
 };
 
-const articleJsonLd = {"@context":"https://schema.org","@type":"Article","@id":"https://www.meethayat.com/blog/how-to-set-up-an-ai-scheduling-assistant-for-smes#article","headline":"How to set up an AI scheduling assistant for SMEs","description":"Learn how to set up an AI scheduling assistant effectively for SMEs. Save time and boost productivity with our step-by-step guide!","url":"https://www.meethayat.com/blog/how-to-set-up-an-ai-scheduling-assistant-for-smes","inLanguage":"en","datePublished":"2026-05-21","dateModified":"2026-08-19","image":{"@type":"ImageObject","url":"https://www.meethayat.com/how-to-set-up-an-ai-scheduling-assistant-for-smes.jpg","width":1600,"height":893},"author":{"@id":"https://www.meethayat.com/#person"},"mainEntityOfPage":"https://www.meethayat.com/blog/how-to-set-up-an-ai-scheduling-assistant-for-smes"};
-const breadcrumbJsonLd = {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.meethayat.com/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://www.meethayat.com/blog"},{"@type":"ListItem","position":3,"name":"How to set up an AI scheduling assistant for SMEs","item":"https://www.meethayat.com/blog/how-to-set-up-an-ai-scheduling-assistant-for-smes"}]};
+const articleJsonLd = {"@context":"https://schema.org","@type":"Article","@id":"https://meethayat.com/blog/how-to-set-up-an-ai-scheduling-assistant-for-smes#article","headline":"How to set up an AI scheduling assistant for SMEs","description":"Learn how to set up an AI scheduling assistant effectively for SMEs. Save time and boost productivity with our step-by-step guide!","url":"https://meethayat.com/blog/how-to-set-up-an-ai-scheduling-assistant-for-smes","inLanguage":"en","datePublished":"2026-05-21","dateModified":"2026-08-19","image":{"@type":"ImageObject","url":"https://meethayat.com/how-to-set-up-an-ai-scheduling-assistant-for-smes.jpg","width":1600,"height":893},"author":{"@id":"https://meethayat.com/#person"},"mainEntityOfPage":"https://meethayat.com/blog/how-to-set-up-an-ai-scheduling-assistant-for-smes"};
+const breadcrumbJsonLd = {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://meethayat.com/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://meethayat.com/blog"},{"@type":"ListItem","position":3,"name":"How to set up an AI scheduling assistant for SMEs","item":"https://meethayat.com/blog/how-to-set-up-an-ai-scheduling-assistant-for-smes"}]};
 
 export default function Page() {
   return (

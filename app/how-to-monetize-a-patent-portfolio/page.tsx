@@ -3,7 +3,7 @@ import Link from "next/link";
 import { PageShell } from "../_components/PageShell";
 import "../_components/page-shell.css";
 
-const SITE = "https://www.meethayat.com";
+const SITE = "https://meethayat.com";
 const SLUG = "how-to-monetize-a-patent-portfolio";
 const TITLE = "How to Monetize a Patent Portfolio (2026 Founder Guide)";
 const DESC =

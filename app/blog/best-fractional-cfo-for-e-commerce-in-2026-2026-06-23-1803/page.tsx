@@ -3,7 +3,7 @@ import Link from "next/link";
 import { PageShell } from "../../_components/PageShell";
 import "../../_components/page-shell.css";
 
-const SITE = "https://www.meethayat.com";
+const SITE = "https://meethayat.com";
 const SLUG = "best-fractional-cfo-for-e-commerce-in-2026-2026-06-23-1803";
 const URL = `${SITE}/blog/${SLUG}`;
 const PUB = "2026-06-23";
@@ -152,7 +152,7 @@ const faqJsonLd = {
       name: "What does it cost to work with Hayat?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Quarterly retainer plus equity, scoped after a free 60-minute diagnostic call. Most e-commerce engagements run 12 to 16 hours per week at a retainer in the range of the senior fractional CFO market. One-off data rooms or pre-exit valuations are fixed scope. Book the call at https://www.meethayat.com/contact/ or email hayat@beyondelevation.com.",
+        text: "Quarterly retainer plus equity, scoped after a free 60-minute diagnostic call. Most e-commerce engagements run 12 to 16 hours per week at a retainer in the range of the senior fractional CFO market. One-off data rooms or pre-exit valuations are fixed scope. Book the call at https://meethayat.com/contact/ or email hayat@beyondelevation.com.",
       },
     },
     {

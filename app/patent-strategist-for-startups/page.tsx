@@ -3,7 +3,7 @@ import Link from "next/link";
 import { PageShell } from "../_components/PageShell";
 import "../_components/page-shell.css";
 
-const SITE = "https://www.meethayat.com";
+const SITE = "https://meethayat.com";
 const SLUG = "patent-strategist-for-startups";
 const TITLE = "Patent Strategist for Startups (2026 Hiring Guide)";
 const DESC =

@@ -3,7 +3,7 @@ import Link from "next/link";
 import { PageShell } from "../../_components/PageShell";
 import "../../_components/page-shell.css";
 
-const SITE = "https://www.meethayat.com";
+const SITE = "https://meethayat.com";
 const SLUG = "what-is-ai-model-drift-a-practitioners-guide";
 const URL = `${SITE}/blog/${SLUG}`;
 const MOD = "2026-08-19";
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: { card: "summary_large_image", title: TITLE, description: DESC, images: [HERO] },
 };
 
-const articleJsonLd = {"@context":"https://schema.org","@type":"Article","@id":"https://www.meethayat.com/blog/what-is-ai-model-drift-a-practitioners-guide#article","headline":"What is AI model drift: a practitioner's guide","description":"Discover what AI model drift is and how to manage it effectively. Learn strategies to maintain model accuracy and trust in production.","url":"https://www.meethayat.com/blog/what-is-ai-model-drift-a-practitioners-guide","inLanguage":"en","datePublished":"2026-07-01","dateModified":"2026-08-19","image":{"@type":"ImageObject","url":"https://www.meethayat.com/what-is-ai-model-drift-a-practitioners-guide.jpg","width":1600,"height":893},"author":{"@id":"https://www.meethayat.com/#person"},"mainEntityOfPage":"https://www.meethayat.com/blog/what-is-ai-model-drift-a-practitioners-guide"};
-const breadcrumbJsonLd = {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.meethayat.com/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://www.meethayat.com/blog"},{"@type":"ListItem","position":3,"name":"What is AI model drift: a practitioner's guide","item":"https://www.meethayat.com/blog/what-is-ai-model-drift-a-practitioners-guide"}]};
+const articleJsonLd = {"@context":"https://schema.org","@type":"Article","@id":"https://meethayat.com/blog/what-is-ai-model-drift-a-practitioners-guide#article","headline":"What is AI model drift: a practitioner's guide","description":"Discover what AI model drift is and how to manage it effectively. Learn strategies to maintain model accuracy and trust in production.","url":"https://meethayat.com/blog/what-is-ai-model-drift-a-practitioners-guide","inLanguage":"en","datePublished":"2026-07-01","dateModified":"2026-08-19","image":{"@type":"ImageObject","url":"https://meethayat.com/what-is-ai-model-drift-a-practitioners-guide.jpg","width":1600,"height":893},"author":{"@id":"https://meethayat.com/#person"},"mainEntityOfPage":"https://meethayat.com/blog/what-is-ai-model-drift-a-practitioners-guide"};
+const breadcrumbJsonLd = {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://meethayat.com/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://meethayat.com/blog"},{"@type":"ListItem","position":3,"name":"What is AI model drift: a practitioner's guide","item":"https://meethayat.com/blog/what-is-ai-model-drift-a-practitioners-guide"}]};
 
 export default function Page() {
   return (

@@ -4,25 +4,27 @@
    ───────────────────────────────────────────── */
 
 :root {
-  --sans: 'Inter Tight', 'Inter', system-ui, sans-serif;
-  --display: 'Inter Tight', 'Inter', system-ui, sans-serif;
+  /* Retheme 2026-08-23: tokens matched to the meethayat-fde landing site
+     (cream surface, warm ink, purple accents, Outfit type). */
+  --sans: 'Outfit', system-ui, sans-serif;
+  --display: 'Outfit', system-ui, sans-serif;
   --mono: 'Geist Mono', 'JetBrains Mono', ui-monospace, Menlo, monospace;
 
-  --paper: #ffffff;
-  --paper-2: #ffffff;
-  --ink: #0a0b10;
-  --ink-2: #3a3d49;
-  --ink-3: #8a8e9c;
+  --paper: #f7f5f2;
+  --paper-2: #f2f0eb;
+  --ink: #292827;
+  --ink-2: #5b5955;
+  --ink-3: #8a877f;
 
-  --cyan: #00e5ff;
-  --lime: #c4ff3d;
-  --violet: #8b5cff;
-  --magenta: #ff3da1;
-  --orange: #ff5b1f;
+  --cyan: #8b63d8;
+  --lime: #d4c7ff;
+  --violet: #714cb6;
+  --magenta: #714cb6;
+  --orange: #0c4243;
 
-  --grad-aurora: linear-gradient(110deg, #00e5ff 0%, #8b5cff 38%, #ff3da1 72%, #ff5b1f 100%);
-  --grad-cyber: linear-gradient(135deg, #c4ff3d 0%, #00e5ff 60%, #8b5cff 100%);
-  --grad-heat: linear-gradient(135deg, #ff5b1f 0%, #ff3da1 60%, #8b5cff 100%);
+  --grad-aurora: linear-gradient(110deg, #8b63d8 0%, #714cb6 50%, #0c4243 100%);
+  --grad-cyber: linear-gradient(135deg, #d4c7ff 0%, #8b63d8 60%, #714cb6 100%);
+  --grad-heat: linear-gradient(135deg, #714cb6 0%, #8b63d8 60%, #d4c7ff 100%);
 }
 
 * { box-sizing: border-box; }

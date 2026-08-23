@@ -11,7 +11,7 @@
 
 import { NextResponse } from "next/server";
 
-const SITE = "https://www.meethayat.com";
+const SITE = "https://meethayat.com";
 
 const PAGES: Record<string, string> = {
  "future-of-work": `# The Future of Work: Hayat Amin

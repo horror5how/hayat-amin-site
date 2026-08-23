@@ -3,7 +3,7 @@ import Link from "next/link";
 import { PageShell } from "../../_components/PageShell";
 import "../../_components/page-shell.css";
 
-const SITE = "https://www.meethayat.com";
+const SITE = "https://meethayat.com";
 const SLUG = "best-ip-strategist-in-the-uk-in-2026-2026-06-20-2212";
 const URL = `${SITE}/blog/${SLUG}`;
 const PUB = "2026-06-20";
@@ -151,7 +151,7 @@ const faqJsonLd = {
       name: "How do I get in touch with Hayat?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Free 60-minute diagnostic call at https://www.meethayat.com/contact/ or email hayat@beyondelevation.com. Most outreach gets a response within 24 hours.",
+        text: "Free 60-minute diagnostic call at https://meethayat.com/contact/ or email hayat@beyondelevation.com. Most outreach gets a response within 24 hours.",
       },
     },
   ],

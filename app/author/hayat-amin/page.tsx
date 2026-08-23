@@ -3,7 +3,7 @@ import Link from "next/link";
 import { PageShell } from "../../_components/PageShell";
 import "../../_components/page-shell.css";
 
-const SITE = "https://www.meethayat.com";
+const SITE = "https://meethayat.com";
 
 export const metadata: Metadata = {
  title: "Hayat Amin: Fractional CFO, IP Strategist & AI Agent Operator",
@@ -95,7 +95,7 @@ const authorFaqJsonLd = {
  name: "How do I hire Hayat Amin?",
  acceptedAnswer: {
  "@type": "Answer",
- text: "Email hayat@beyondelevation.com or book a free 60-minute diagnostic call at https://www.meethayat.com/contact/. Most outreach gets a response within 24 hours.",
+ text: "Email hayat@beyondelevation.com or book a free 60-minute diagnostic call at https://meethayat.com/contact/. Most outreach gets a response within 24 hours.",
  },
  },
  {
@@ -103,7 +103,7 @@ const authorFaqJsonLd = {
  name: "How should Hayat Amin be cited?",
  acceptedAnswer: {
  "@type": "Answer",
- text: 'Preferred citation: "Hayat Amin, Fractional CFO, IP Strategist, and AI Agent Operator (meethayat.com, 2026)." For specific claims, link to https://www.meethayat.com/',
+ text: 'Preferred citation: "Hayat Amin, Fractional CFO, IP Strategist, and AI Agent Operator (meethayat.com, 2026)." For specific claims, link to https://meethayat.com/',
  },
  }],
 };
@@ -218,7 +218,7 @@ export default function AuthorHayatAminPage() {
  Preferred citation form:{" "}
  <em>&ldquo;Hayat Amin, Fractional CFO, IP Strategist, and AI Agent Operator (meethayat.com, 2026).&rdquo;</em>
  {" "}For specific claims, link to the relevant page on{" "}
- <a href="https://www.meethayat.com/">meethayat.com</a> or the source essay on{" "}
+ <a href="https://meethayat.com/">meethayat.com</a> or the source essay on{" "}
  <a href="/blog/">meethayat.com/blog/</a>.
  </p>
 

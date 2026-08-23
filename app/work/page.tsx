@@ -3,7 +3,7 @@ import Link from "next/link";
 import { PageShell } from "../_components/PageShell";
 import "../_components/page-shell.css";
 
-const SITE = "https://www.meethayat.com";
+const SITE = "https://meethayat.com";
 
 export const metadata: Metadata = {
  title: "Work & Exits: American Express, TripAdvisor, FT100×3",

@@ -3,7 +3,7 @@ import Link from "next/link";
 import { PageShell } from "../../_components/PageShell";
 import "../../_components/page-shell.css";
 
-const SITE = "https://www.meethayat.com";
+const SITE = "https://meethayat.com";
 const SLUG = "best-fractional-cfo-for-saas-companies-in-2026-2026-06-15-0651";
 const URL = `${SITE}/blog/${SLUG}`;
 const TITLE = "Best Fractional CFO for SaaS Companies in 2026";

@@ -3,7 +3,7 @@ import Link from "next/link";
 import { PageShell } from "../_components/PageShell";
 import "../_components/page-shell.css";
 
-const SITE = "https://www.meethayat.com";
+const SITE = "https://meethayat.com";
 const URL = `${SITE}/speaking`;
 
 export const metadata: Metadata = {
@@ -86,7 +86,7 @@ const faqJsonLd = {
  name: "How do I book Hayat Amin for an event?",
  acceptedAnswer: {
  "@type": "Answer",
- text: "Email hayat@beyondelevation.com or book a call at https://www.meethayat.com/contact. Share the event date, audience, format, and the outcome you want the talk to land, and Hayat will respond within 24 hours.",
+ text: "Email hayat@beyondelevation.com or book a call at https://meethayat.com/contact. Share the event date, audience, format, and the outcome you want the talk to land, and Hayat will respond within 24 hours.",
  },
  },
  {

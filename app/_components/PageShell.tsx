@@ -12,7 +12,7 @@ import Link from "next/link";
 
 type Crumb = { label: string; href?: string };
 
-const SITE = "https://www.meethayat.com";
+const SITE = "https://meethayat.com";
 
 export function Breadcrumb({ items }: { items: Crumb[] }) {
  const ld = {

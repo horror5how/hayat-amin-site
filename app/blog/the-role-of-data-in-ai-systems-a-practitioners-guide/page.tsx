@@ -3,7 +3,7 @@ import Link from "next/link";
 import { PageShell } from "../../_components/PageShell";
 import "../../_components/page-shell.css";
 
-const SITE = "https://www.meethayat.com";
+const SITE = "https://meethayat.com";
 const SLUG = "the-role-of-data-in-ai-systems-a-practitioners-guide";
 const URL = `${SITE}/blog/${SLUG}`;
 const MOD = "2026-08-19";
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: { card: "summary_large_image", title: TITLE, description: DESC, images: [HERO] },
 };
 
-const articleJsonLd = {"@context":"https://schema.org","@type":"Article","@id":"https://www.meethayat.com/blog/the-role-of-data-in-ai-systems-a-practitioners-guide#article","headline":"The role of data in AI systems: a practitioner's guide","description":"Discover the crucial role of data in AI systems and how focusing on data quality can enhance model performance in production.","url":"https://www.meethayat.com/blog/the-role-of-data-in-ai-systems-a-practitioners-guide","inLanguage":"en","datePublished":"2026-05-29","dateModified":"2026-08-19","image":{"@type":"ImageObject","url":"https://www.meethayat.com/the-role-of-data-in-ai-systems-a-practitioners-guide.jpg","width":1600,"height":893},"author":{"@id":"https://www.meethayat.com/#person"},"mainEntityOfPage":"https://www.meethayat.com/blog/the-role-of-data-in-ai-systems-a-practitioners-guide"};
-const breadcrumbJsonLd = {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.meethayat.com/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://www.meethayat.com/blog"},{"@type":"ListItem","position":3,"name":"The role of data in AI systems: a practitioner's guide","item":"https://www.meethayat.com/blog/the-role-of-data-in-ai-systems-a-practitioners-guide"}]};
+const articleJsonLd = {"@context":"https://schema.org","@type":"Article","@id":"https://meethayat.com/blog/the-role-of-data-in-ai-systems-a-practitioners-guide#article","headline":"The role of data in AI systems: a practitioner's guide","description":"Discover the crucial role of data in AI systems and how focusing on data quality can enhance model performance in production.","url":"https://meethayat.com/blog/the-role-of-data-in-ai-systems-a-practitioners-guide","inLanguage":"en","datePublished":"2026-05-29","dateModified":"2026-08-19","image":{"@type":"ImageObject","url":"https://meethayat.com/the-role-of-data-in-ai-systems-a-practitioners-guide.jpg","width":1600,"height":893},"author":{"@id":"https://meethayat.com/#person"},"mainEntityOfPage":"https://meethayat.com/blog/the-role-of-data-in-ai-systems-a-practitioners-guide"};
+const breadcrumbJsonLd = {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://meethayat.com/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://meethayat.com/blog"},{"@type":"ListItem","position":3,"name":"The role of data in AI systems: a practitioner's guide","item":"https://meethayat.com/blog/the-role-of-data-in-ai-systems-a-practitioners-guide"}]};
 
 export default function Page() {
   return (

@@ -6,7 +6,7 @@ import "./globals.css";
 
 const GA_MEASUREMENT_ID = "G-R0DDV4S5BV";
 
-const SITE_URL = "https://www.meethayat.com";
+const SITE_URL = "https://meethayat.com";
 
 export const metadata: Metadata = {
  metadataBase: new URL(SITE_URL),
@@ -80,7 +80,7 @@ export const metadata: Metadata = {
  },
  category: "business",
  // Search engine verification: set values via Vercel env vars after registering each property.
- // Google Search Console: search.google.com/search-console → Add property www.meethayat.com → "HTML tag" → copy content="..." into NEXT_PUBLIC_GSC_VERIFICATION
+ // Google Search Console: search.google.com/search-console → Add property meethayat.com → "HTML tag" → copy content="..." into NEXT_PUBLIC_GSC_VERIFICATION
  // Bing Webmaster: bing.com/webmasters → Add site → meta-tag → copy content="..." into NEXT_PUBLIC_BING_VERIFICATION
  verification: {
  google: process.env.NEXT_PUBLIC_GSC_VERIFICATION || undefined,
@@ -415,7 +415,7 @@ const homeFaqJsonLd = {
  name: "How do I contact Hayat Amin?",
  acceptedAnswer: {
  "@type": "Answer",
- text: "Email hayat@beyondelevation.com or book a call at https://www.meethayat.com/contact/. Most outreach gets a response within 24 hours.",
+ text: "Email hayat@beyondelevation.com or book a call at https://meethayat.com/contact/. Most outreach gets a response within 24 hours.",
  },
  }],
 };
@@ -441,7 +441,7 @@ export default function RootLayout({
  <link rel="preconnect" href="https://fonts.googleapis.com" />
  <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
  <link
- href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,300..800;1,300..800&family=Inter:wght@300..700&family=Geist+Mono:wght@400;500&family=JetBrains+Mono:wght@400;500&display=swap"
+ href="https://fonts.googleapis.com/css2?family=Outfit:wght@300..700&family=Geist+Mono:wght@400;500&family=JetBrains+Mono:wght@400;500&display=swap"
  rel="stylesheet"
  />
  <script
