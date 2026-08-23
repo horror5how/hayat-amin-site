@@ -29,12 +29,17 @@ const crypto = require('node:crypto');
 const ROOT = path.resolve(__dirname, '..');
 const CACHE = path.join(ROOT, '.indexing-cache.json');
 const GCP_KEY_PATH = path.join(ROOT, '.gcp-indexing-key.json');
-const SITE = 'https://www.meethayat.com';
-const HOST = 'www.meethayat.com';
+// Canonical host moved to the naked domain 2026-08-23. meethayat.com fronts
+// the meethayat-fde landing project; this estate's pages reach the public via
+// its fallback proxy. /sitemap.xml on the domain is the landing site's small
+// sitemap; this estate's full sitemap is exposed as /sitemap-pages.xml.
+const SITE = 'https://meethayat.com';
+const HOST = 'meethayat.com';
 const INDEXNOW_KEY = 'be8a1f3c2d4e5f6a7b8c9d0e1f2a3b4c';
 const TIMEOUT_MS = 10000;
 const SITEMAP_RETRIES = 3;
-const SITEMAPS = [`${SITE}/sitemap.xml`, `${SITE}/image-sitemap.xml`];
+const URL_SITEMAPS = [`${SITE}/sitemap.xml`, `${SITE}/sitemap-pages.xml`];
+const SITEMAPS = [`${SITE}/sitemap.xml`, `${SITE}/sitemap-pages.xml`, `${SITE}/image-sitemap.xml`];
 
 const args = new Set(process.argv.slice(2));
 const FORCE_ALL = args.has('--all');
@@ -75,12 +80,15 @@ function extractUrls(xml) {
 }
 
 async function fetchSitemapUrls() {
-  for (let i = 0; i < SITEMAP_RETRIES; i++) {
-    const r = await httpGet(`${SITE}/sitemap.xml`);
-    if (r.status === 200 && r.body) return extractUrls(r.body);
-    await new Promise((s) => setTimeout(s, 4000));
+  const all = [];
+  for (const sm of URL_SITEMAPS) {
+    for (let i = 0; i < SITEMAP_RETRIES; i++) {
+      const r = await httpGet(sm);
+      if (r.status === 200 && r.body) { all.push(...extractUrls(r.body)); break; }
+      await new Promise((s) => setTimeout(s, 4000));
+    }
   }
-  return [];
+  return [...new Set(all)];
 }
 
 function loadCache() { try { return JSON.parse(fs.readFileSync(CACHE, 'utf8')); } catch { return { urls: [], lastRun: null }; } }
