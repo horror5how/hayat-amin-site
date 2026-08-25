@@ -66,6 +66,7 @@ const ROUTES: {
     ],
   },
   { path: "/blog", priority: 0.95, changeFrequency: "daily", images: [`${SITE}/hayat-hero.png`] },
+  { path: "/blog/how-do-i-get-my-companys-data-ready-for-ai-agents-2026-08-25", priority: 0.9, changeFrequency: "weekly", images: HERO_MAP["how-do-i-get-my-companys-data-ready-for-ai-agents-2026-08-25"] ? [HERO_MAP["how-do-i-get-my-companys-data-ready-for-ai-agents-2026-08-25"]] : undefined },
   { path: "/blog/why-do-my-ai-pilots-never-reach-production-2026-08-24", priority: 0.9, changeFrequency: "weekly", images: HERO_MAP["why-do-my-ai-pilots-never-reach-production-2026-08-24"] ? [HERO_MAP["why-do-my-ai-pilots-never-reach-production-2026-08-24"]] : undefined },
   { path: "/blog/can-an-ai-sdr-replace-my-outbound-sales-team-2026-08-23", priority: 0.9, changeFrequency: "weekly", images: HERO_MAP["can-an-ai-sdr-replace-my-outbound-sales-team-2026-08-23"] ? [HERO_MAP["can-an-ai-sdr-replace-my-outbound-sales-team-2026-08-23"]] : undefined },
   { path: "/blog/how-do-i-use-ai-for-b2b-sales-pipeline-2026-07-29", priority: 0.9, changeFrequency: "weekly", images: HERO_MAP["how-do-i-use-ai-for-b2b-sales-pipeline-2026-07-29"] ? [HERO_MAP["how-do-i-use-ai-for-b2b-sales-pipeline-2026-07-29"]] : undefined },
