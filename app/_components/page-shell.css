@@ -153,3 +153,13 @@
 .odd-card a b { display: block; font-size: 0.92rem; font-weight: 600; }
 .odd-card a span { display: block; font-size: 0.8rem; color: var(--ink-2); margin-top: 2px; opacity: 0.85; }
 .odd-card a:hover { background: #f2f0eb; color: var(--ink); }
+
+/* services mega dropdown with testimonial panel */
+.odd-card.odd-mega { display: flex; gap: 12px; padding: 12px; width: 560px; }
+.odd-mega .odd-links { flex: 1; display: flex; flex-direction: column; }
+.odd-head { font-size: 0.68rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--ink-2); opacity: 0.7; padding: 8px 12px 2px; }
+.odd-quote { width: 200px; background: #f2f0eb; border: 1px solid var(--line, #e2ded6); border-radius: 12px; padding: 16px; display: flex; flex-direction: column; }
+.odd-quote img { width: 100%; height: 110px; border-radius: 9px; object-fit: cover; object-position: top; margin-bottom: 12px; }
+.odd-quote p { font-size: 0.82rem; line-height: 1.45; color: var(--ink); font-style: italic; margin: 0 0 12px; }
+.odd-quote b { font-size: 0.78rem; color: var(--ink); margin-top: auto; }
+.odd-quote i { font-size: 0.72rem; color: var(--ink-2); font-style: normal; }

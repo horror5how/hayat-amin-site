@@ -63,10 +63,19 @@ export function PageShell({
  <a href="/#who" className="op-hot">Who is Hayat?</a>
  <div className="odd">
   <button type="button" aria-haspopup="true">Services <span className="odd-arw">▾</span></button>
-  <div className="odd-menu"><div className="odd-card">
-   <a href="/services/fde"><b>FDE, AI Operations</b><span>AI built and run inside your company</span></a>
-   <a href="/services/fractional-cfo"><b>Fractional CFO and C-suite</b><span>The finance chair, one or two days a week</span></a>
-   <a href="/#map"><b>How it works</b><span>The operating loop, start to live</span></a>
+  <div className="odd-menu"><div className="odd-card odd-mega">
+   <div className="odd-links">
+    <p className="odd-head">Two ways to work with Hayat</p>
+    <a href="/services/fde"><b>FDE, AI Operations</b><span>AI built and run inside your company</span></a>
+    <a href="/services/fractional-cfo"><b>Fractional CFO and C-suite</b><span>The finance chair, one or two days a week</span></a>
+    <a href="/#map"><b>How it works</b><span>The operating loop, start to live</span></a>
+   </div>
+   <a className="odd-quote" href="/testimonials">
+    <img src="/testimonials/ceo-mat.webp" alt="Mat Westergreen" loading="lazy" />
+    <p>“A key part of our exit, data strategy and overall growth.”</p>
+    <b>Mat Westergreen</b>
+    <i>CEO, Grantify</i>
+   </a>
   </div></div>
  </div>
  <div className="odd">
