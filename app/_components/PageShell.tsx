@@ -60,14 +60,38 @@ export function PageShell({
  <span>Hayat Amin · Operator</span>
  </Link>
  <nav className="op-mast-nav" aria-label="Primary">
- <Link href="/about">About</Link>
- <Link href="/services">Services</Link>
- <Link href="/answers">Answers</Link>
- <Link href="/speaking">Speaking</Link>
- <Link href="/press">Press</Link>
- <Link href="/work">Work</Link>
- <Link href="/faq">FAQ</Link>
- <Link href="/future-of-work">Future of Work</Link>
+ <a href="/#who" className="op-hot">Who is Hayat?</a>
+ <div className="odd">
+  <button type="button" aria-haspopup="true">Services <span className="odd-arw">▾</span></button>
+  <div className="odd-menu"><div className="odd-card">
+   <Link href="/services"><b>All services</b><span>Everything Hayat takes on</span></Link>
+   <a href="/#map"><b>How it works</b><span>The operating loop, start to live</span></a>
+   <a href="/#work-with"><b>Ways of working</b><span>Fractional, project, advisory</span></a>
+  </div></div>
+ </div>
+ <div className="odd">
+  <button type="button" aria-haspopup="true">Proof <span className="odd-arw">▾</span></button>
+  <div className="odd-menu"><div className="odd-card">
+   <Link href="/work"><b>Client work</b><span>What was built, for whom</span></Link>
+   <Link href="/press"><b>Press</b><span>Coverage and mentions</span></Link>
+   <Link href="/speaking"><b>Speaking</b><span>Talks and panels</span></Link>
+  </div></div>
+ </div>
+ <div className="odd">
+  <button type="button" aria-haspopup="true">Writing <span className="odd-arw">▾</span></button>
+  <div className="odd-menu"><div className="odd-card">
+   <Link href="/blog"><b>Blog</b><span>Essays and founder answers</span></Link>
+   <Link href="/answers"><b>Answers</b><span>Straight replies to real questions</span></Link>
+   <Link href="/future-of-work"><b>Future of Work</b><span>Where all this is heading</span></Link>
+  </div></div>
+ </div>
+ <div className="odd">
+  <button type="button" aria-haspopup="true">About <span className="odd-arw">▾</span></button>
+  <div className="odd-menu"><div className="odd-card">
+   <Link href="/about"><b>About Hayat</b><span>The long version</span></Link>
+   <Link href="/faq"><b>FAQ</b><span>Common questions, answered</span></Link>
+  </div></div>
+ </div>
               <Link href="/contact" className="op-cta">Book a call</Link>
  </nav>
  </div>

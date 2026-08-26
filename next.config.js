@@ -10,7 +10,11 @@ const nextConfig = {
   // meethayat.com proxies unknown paths here (fallback rewrite in the
   // meethayat-fde project), but /_next/* never falls through a proxy, so all
   // build assets must load from this project's own stable domain.
-  assetPrefix: "https://hayat-amin-site.vercel.app",
+  // (dev builds skip the prefix so local previews can load their own assets)
+  assetPrefix:
+    process.env.NODE_ENV === "production"
+      ? "https://hayat-amin-site.vercel.app"
+      : undefined,
   reactStrictMode: true,
   poweredByHeader: false,
   compress: true,

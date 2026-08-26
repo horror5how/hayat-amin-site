@@ -132,3 +132,24 @@
   .op-footer-inner { grid-template-columns: 1fr; }
   .op-footer-cols { grid-template-columns: 1fr 1fr; }
 }
+
+/* grouped dropdown nav (matches the meethayat.com homepage menu) */
+.op-mast-nav .op-hot { font-weight: 600; color: var(--ink); }
+.op-mast-nav .odd { position: relative; }
+.op-mast-nav .odd > button {
+  background: none; border: 0; padding: 0; font: inherit; font-weight: 500;
+  color: var(--ink-2); cursor: pointer; display: flex; align-items: center; gap: 5px;
+}
+.op-mast-nav .odd > button:hover { color: var(--ink); }
+.odd-arw { font-size: 9px; transition: transform 0.15s; }
+.odd:hover .odd-arw, .odd:focus-within .odd-arw { transform: rotate(180deg); }
+.odd-menu { position: absolute; top: 100%; left: -18px; padding-top: 14px; display: none; z-index: 80; }
+.odd:hover .odd-menu, .odd:focus-within .odd-menu { display: block; }
+.odd-card {
+  background: #fff; border: 1px solid var(--line, #e2ded6); border-radius: 14px;
+  box-shadow: 0 22px 55px rgba(30, 25, 20, 0.14); padding: 8px; min-width: 260px;
+}
+.odd-card a { display: block; padding: 10px 12px; border-radius: 9px; color: var(--ink); }
+.odd-card a b { display: block; font-size: 0.92rem; font-weight: 600; }
+.odd-card a span { display: block; font-size: 0.8rem; color: var(--ink-2); margin-top: 2px; opacity: 0.85; }
+.odd-card a:hover { background: #f2f0eb; color: var(--ink); }
