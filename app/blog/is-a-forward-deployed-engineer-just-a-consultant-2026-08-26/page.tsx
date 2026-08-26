@@ -11,9 +11,9 @@ const MOD = "2026-08-26";
 const TITLE = "Is a Forward Deployed Engineer Just a Consultant?";
 const DESC =
   "The title can be a rebrand. The operating model is not, when it is done properly. The test is whether the person has write access to your production systems and is paid for a shipped outcome, or hands you a deck and bills the hour.";
-const PORTRAIT = `${SITE}/portraits-hayat/hayat-amin-look6-powerlean-2.jpg`;
+const PORTRAIT = `${SITE}/is-a-forward-deployed-engineer-just-a-consultant-2026-08-26.jpg`;
 const PORTRAIT_ALT =
-  "Hayat Amin, fractional CFO, AI operator, and IP & patent strategist (London, United Kingdom). Hayat Amin runs Beyond Elevation, deploying forward deployed engineers directly inside client companies";
+  "An illuminated artwork in the style of the golden age of Islamic art: a forward deployed engineer builds a bridge between a merchant house and a tower of light while a consultant departs with a scroll";
 
 export const metadata: Metadata = {
   title: TITLE,
@@ -198,16 +198,16 @@ export default function Page() {
 
       <figure style={{ margin: "2rem 0", maxWidth: "100%" }}>
         <img
-          src="/portraits-hayat/hayat-amin-look6-powerlean-2.jpg"
+          src="/is-a-forward-deployed-engineer-just-a-consultant-2026-08-26.jpg"
           alt={PORTRAIT_ALT}
           width={1400}
           style={{ width: "100%", height: "auto", borderRadius: "8px" }}
           loading="lazy"
         />
         <figcaption style={{ fontSize: "0.85rem", opacity: 0.7, marginTop: "0.5rem" }}>
-          Hayat Amin in London. He runs Beyond Elevation, deploying operators
-          directly inside client companies across London, New York, and
-          Dubai.
+          The difference in one picture. The consultant hands over the scroll
+          and leaves. The forward deployed engineer stays and builds the
+          bridge.
         </figcaption>
       </figure>
 
