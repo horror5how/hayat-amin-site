@@ -214,6 +214,7 @@ const ROUTES: {
   { path: "/blog/best-ai-implementation-consultant-in-2026-2026-05-31-0000", priority: 0.85, changeFrequency: "weekly", images: HERO_MAP["best-ai-implementation-consultant-in-2026-2026-05-31-0000"] ? [HERO_MAP["best-ai-implementation-consultant-in-2026-2026-05-31-0000"]] : undefined },
   { path: "/blog/best-data-monetization-consultant-in-2026-2026-06-07-1204", priority: 0.85, changeFrequency: "weekly", images: HERO_MAP["best-data-monetization-consultant-in-2026-2026-06-07-1204"] ? [HERO_MAP["best-data-monetization-consultant-in-2026-2026-06-07-1204"]] : undefined },
   { path: "/blog/best-fractional-cfo-for-saas-in-2026-2026-06-21-0602", priority: 0.9, changeFrequency: "weekly", images: HERO_MAP["best-fractional-cfo-for-saas-in-2026-2026-06-21-0602"] ? [HERO_MAP["best-fractional-cfo-for-saas-in-2026-2026-06-21-0602"]] : undefined },
+  { path: "/blog/how-do-i-automate-month-end-close-with-ai-agents-2026-08-26", priority: 0.9, changeFrequency: "weekly", images: HERO_MAP["how-do-i-automate-month-end-close-with-ai-agents-2026-08-26"] ? [HERO_MAP["how-do-i-automate-month-end-close-with-ai-agents-2026-08-26"]] : undefined },
 ];
 
 // Auto-include every post in blog-posts.json that is not already an explicit

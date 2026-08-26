@@ -701,5 +701,12 @@
     "date": "2026-08-23",
     "category": "Founder Q&A",
     "hero": "/portraits-hayat/hayat-amin-look3-fortune-3.jpg"
+  },
+  {
+    "slug": "how-do-i-automate-month-end-close-with-ai-agents-2026-08-26",
+    "title": "How Do I Automate Month End Close With AI Agents?",
+    "description": "You do not automate the close. You automate four tasks inside it: reconciliation matching, accrual drafting, flux commentary, and chasing the people who owe you numbers. Do those four and a ten day close becomes a four day close, with the controller still signing.",
+    "date": "2026-08-26",
+    "category": "Founder Q&A"
   }
 ]
