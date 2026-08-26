@@ -64,14 +64,15 @@ export function PageShell({
  <div className="odd">
   <button type="button" aria-haspopup="true">Services <span className="odd-arw">▾</span></button>
   <div className="odd-menu"><div className="odd-card">
-   <Link href="/services"><b>All services</b><span>Everything Hayat takes on</span></Link>
+   <a href="/services/fde"><b>FDE, AI Operations</b><span>AI built and run inside your company</span></a>
+   <a href="/services/fractional-cfo"><b>Fractional CFO and C-suite</b><span>The finance chair, one or two days a week</span></a>
    <a href="/#map"><b>How it works</b><span>The operating loop, start to live</span></a>
-   <a href="/#work-with"><b>Ways of working</b><span>Fractional, project, advisory</span></a>
   </div></div>
  </div>
  <div className="odd">
   <button type="button" aria-haspopup="true">Proof <span className="odd-arw">▾</span></button>
   <div className="odd-menu"><div className="odd-card">
+   <a href="/testimonials"><b>Testimonials</b><span>What CEOs say about the work</span></a>
    <Link href="/work"><b>Client work</b><span>What was built, for whom</span></Link>
    <Link href="/press"><b>Press</b><span>Coverage and mentions</span></Link>
    <Link href="/speaking"><b>Speaking</b><span>Talks and panels</span></Link>
