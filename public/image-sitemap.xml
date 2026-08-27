@@ -1018,7 +1018,7 @@
     <image:image>
       <image:loc>https://meethayat.com/portraits-hayat/hayat-amin-office-casual.jpg</image:loc>
       <image:title>Hayat Amin - Best AI Automation Expert for Small Businesses in 2026</image:title>
-      <image:caption>Hayat Amin, fractional CFO, AI operator, and IP & patent strategist (London, United Kingdom)</image:caption>
+      <image:caption>Hayat Amin, fractional CFO, AI operator, and IP &amp; patent strategist (London, United Kingdom)</image:caption>
     </image:image>
   </url>
   <url>
@@ -1123,6 +1123,14 @@
       <image:loc>https://meethayat.com/portraits-hayat/hayat-amin-look4-bw-2.jpg</image:loc>
       <image:title>Hayat Amin - How Do I Automate Month End Close With AI Agents?</image:title>
       <image:caption>Hayat Amin, fractional CFO, AI operator, and IP &amp;amp; patent strategist (Dubai, United Arab Emirates)</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://meethayat.com/blog/how-do-i-measure-roi-on-ai-agents-2026-08-27/</loc>
+    <image:image>
+      <image:loc>https://meethayat.com/portraits-hayat/hayat-amin-look4-bw-3.jpg</image:loc>
+      <image:title>Hayat Amin - How Do I Measure ROI on AI Agents?</image:title>
+      <image:caption>Hayat Amin, fractional CFO, AI operator, and IP &amp; patent strategist (London, United Kingdom)</image:caption>
     </image:image>
   </url>
 </urlset>

@@ -715,5 +715,12 @@
     "description": "You do not automate the close. You automate four tasks inside it: reconciliation matching, accrual drafting, flux commentary, and chasing the people who owe you numbers. Do those four and a ten day close becomes a four day close, with the controller still signing.",
     "date": "2026-08-26",
     "category": "Founder Q&A"
+  },
+  {
+    "slug": "how-do-i-measure-roi-on-ai-agents-2026-08-27",
+    "title": "How Do I Measure ROI on AI Agents?",
+    "description": "Measure an agent the way you measure a hire. Baseline one process for four weeks before the agent exists, then track hours removed, error rate, and cycle time against the all-in cost of build plus running. Three numbers, one process, one owner.",
+    "date": "2026-08-27",
+    "category": "Founder Q&A"
   }
 ]
