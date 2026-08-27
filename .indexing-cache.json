@@ -2,11 +2,26 @@
   "urls": [
     "https://meethayat.com",
     "https://meethayat.com/departments",
+    "https://meethayat.com/services/fde",
+    "https://meethayat.com/services/fractional-cfo",
     "https://meethayat.com/experience",
+    "https://meethayat.com/testimonials",
     "https://meethayat.com/press",
+    "https://meethayat.com/departments/finance",
+    "https://meethayat.com/departments/sales",
+    "https://meethayat.com/departments/operations",
+    "https://meethayat.com/departments/people",
+    "https://meethayat.com/departments/compliance",
+    "https://meethayat.com/departments/strategy",
+    "https://meethayat.com/departments/data",
+    "https://meethayat.com/departments/ip",
+    "https://meethayat.com/experience/cake",
+    "https://meethayat.com/experience/tripbod",
+    "https://meethayat.com/experience/grantify",
     "https://meethayat.com/",
     "https://meethayat.com/author/hayat-amin",
     "https://meethayat.com/blog",
+    "https://meethayat.com/blog/how-do-i-measure-roi-on-ai-agents-2026-08-27",
     "https://meethayat.com/blog/how-do-i-get-my-companys-data-ready-for-ai-agents-2026-08-25",
     "https://meethayat.com/blog/why-do-my-ai-pilots-never-reach-production-2026-08-24",
     "https://meethayat.com/blog/can-an-ai-sdr-replace-my-outbound-sales-team-2026-08-23",
@@ -37,7 +52,6 @@
     "https://meethayat.com/blog/best-ai-agent-operator-for-finance-workflows-2026-2026-05-13-1224",
     "https://meethayat.com/about",
     "https://meethayat.com/services",
-    "https://meethayat.com/services/fractional-cfo",
     "https://meethayat.com/services/ip-strategy",
     "https://meethayat.com/services/ai-agent-operator",
     "https://meethayat.com/speaking",
@@ -215,5 +229,5 @@
     "https://meethayat.com/blog/what-is-tool-calling-in-ai-a-2026-guide",
     "https://meethayat.com/blog/does-founder-brand-actually-generate-pipeline-2026-07-20"
   ],
-  "lastRun": "2026-08-26T21:40:16.440Z"
+  "lastRun": "2026-08-27T14:16:42.685Z"
 }
