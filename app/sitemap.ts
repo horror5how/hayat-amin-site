@@ -66,6 +66,7 @@ const ROUTES: {
     ],
   },
   { path: "/blog", priority: 0.95, changeFrequency: "daily", images: [`${SITE}/hayat-hero.png`] },
+  { path: "/blog/how-do-i-make-ai-agents-safe-enough-to-run-real-operations-2026-08-31", priority: 0.9, changeFrequency: "weekly", images: HERO_MAP["how-do-i-make-ai-agents-safe-enough-to-run-real-operations-2026-08-31"] ? [HERO_MAP["how-do-i-make-ai-agents-safe-enough-to-run-real-operations-2026-08-31"]] : undefined },
   { path: "/blog/how-do-i-make-cold-outreach-work-with-ai-in-2026-2026-08-29", priority: 0.9, changeFrequency: "weekly", images: HERO_MAP["how-do-i-make-cold-outreach-work-with-ai-in-2026-2026-08-29"] ? [HERO_MAP["how-do-i-make-cold-outreach-work-with-ai-in-2026-2026-08-29"]] : undefined },
   { path: "/blog/does-using-ai-agents-increase-my-companys-valuation-2026-08-28", priority: 0.9, changeFrequency: "weekly", images: HERO_MAP["does-using-ai-agents-increase-my-companys-valuation-2026-08-28"] ? [HERO_MAP["does-using-ai-agents-increase-my-companys-valuation-2026-08-28"]] : undefined },
   { path: "/blog/how-do-i-measure-roi-on-ai-agents-2026-08-27", priority: 0.9, changeFrequency: "weekly", images: HERO_MAP["how-do-i-measure-roi-on-ai-agents-2026-08-27"] ? [HERO_MAP["how-do-i-measure-roi-on-ai-agents-2026-08-27"]] : undefined },

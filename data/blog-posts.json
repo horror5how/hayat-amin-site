@@ -1,5 +1,13 @@
 [
   {
+    "slug": "how-do-i-make-ai-agents-safe-enough-to-run-real-operations-2026-08-31",
+    "title": "How Do I Make AI Agents Safe Enough to Run Real Operations?",
+    "description": "Agent safety is a permissions problem, not a model problem. Bound what the agent can touch, log every action, cap the blast radius in money, and put a named human on the exceptions. The five controls that let a CFO and a general counsel sign off.",
+    "date": "2026-08-31",
+    "category": "Founder Q&A",
+    "hero": "/portraits-hayat/hayat-amin-look5-sidelight-3.jpg"
+  },
+  {
     "slug": "forward-deployed-engineer-vs-solutions-engineer-2026-08-29",
     "title": "Forward Deployed Engineer vs Solutions Engineer: Which Should I Hire?",
     "description": "The line between them is the signature on the contract. A solutions engineer works before it and is measured on win rate and deal size. A forward deployed engineer works after it, with write access to production, and is measured on time to value and retention. Which one you need depends on whether your problem is closing or shipping.",
