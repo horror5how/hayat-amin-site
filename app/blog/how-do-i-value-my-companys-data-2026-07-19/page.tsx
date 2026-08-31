@@ -7,7 +7,7 @@ const SITE = "https://meethayat.com";
 const SLUG = "how-do-i-value-my-companys-data-2026-07-19";
 const URL = `${SITE}/blog/${SLUG}`;
 const PUB = "2026-07-19";
-const MOD = "2026-08-19";
+const MOD = "2026-08-31";
 const TITLE = "How Do I Value My Company's Data?";
 const DESC =
  "Value your company's data by the profit it produces, not the terabytes you hold. Multiply the cash flow a dataset drives by a multiple set by how rare, clean, and legally usable it is. Here is the framework and the numbers, from Hayat Amin.";

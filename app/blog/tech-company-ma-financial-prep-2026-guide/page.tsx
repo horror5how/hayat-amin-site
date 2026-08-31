@@ -6,7 +6,7 @@ import "../../_components/page-shell.css";
 const SITE = "https://meethayat.com";
 const SLUG = "tech-company-ma-financial-prep-2026-guide";
 const URL = `${SITE}/blog/${SLUG}`;
-const MOD = "2026-08-19";
+const MOD = "2026-08-31";
 const TITLE = "Tech company M&A financial prep: 2026 guide";
 const DESC = "Master tech company M&A financial prep with our 2026 guide. Ensure successful deals, boost shareholder value, and avoid costly pitfalls!";
 const HERO = `${SITE}/${SLUG}.jpg`;

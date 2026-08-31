@@ -6,7 +6,7 @@ import "../../_components/page-shell.css";
 const SITE = "https://meethayat.com";
 const SLUG = "responsible-ai-framework-a-2026-practitioners-guide";
 const URL = `${SITE}/blog/${SLUG}`;
-const MOD = "2026-08-19";
+const MOD = "2026-08-31";
 const TITLE = "Responsible AI framework: a 2026 practitioner's guide";
 const DESC = "Discover what a responsible AI framework is and how to implement it effectively. Transform your AI practices from policy to action with our guide.";
 const HERO = `${SITE}/${SLUG}.jpg`;

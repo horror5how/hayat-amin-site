@@ -6,7 +6,7 @@ import "../../_components/page-shell.css";
 const SITE = "https://meethayat.com";
 const SLUG = "examples-of-lean-finance-operations-2026-sme-guide";
 const URL = `${SITE}/blog/${SLUG}`;
-const MOD = "2026-08-19";
+const MOD = "2026-08-31";
 const TITLE = "Examples of lean finance operations: 2026 SME guide";
 const DESC = "Discover real-world examples of lean finance operations that boost efficiency and cash flow. Transform your SME finance processes today!";
 const HERO = `${SITE}/${SLUG}.jpg`;

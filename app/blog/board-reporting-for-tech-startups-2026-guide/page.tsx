@@ -6,7 +6,7 @@ import "../../_components/page-shell.css";
 const SITE = "https://meethayat.com";
 const SLUG = "board-reporting-for-tech-startups-2026-guide";
 const URL = `${SITE}/blog/${SLUG}`;
-const MOD = "2026-08-19";
+const MOD = "2026-08-31";
 const TITLE = "Board reporting for tech startups: 2026 guide";
 const DESC = "Unlock strategic success with our board reporting tech startup guide. Streamline preparation and drive effective governance in your next meeting.";
 const HERO = `${SITE}/${SLUG}.jpg`;

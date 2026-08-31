@@ -7,7 +7,7 @@ const SITE = "https://meethayat.com";
 const SLUG = "best-ai-implementation-lead-non-technical-founders";
 const URL = `${SITE}/${SLUG}`;
 const PUBLISHED = "2026-05-13";
-const MODIFIED = "2026-08-19";
+const MODIFIED = "2026-08-31";
 
 export const metadata: Metadata = {
  title: "Best AI Implementation Lead for Non-Technical Founders | Hayat Amin",

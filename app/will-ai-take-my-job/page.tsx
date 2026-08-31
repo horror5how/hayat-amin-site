@@ -39,7 +39,7 @@ const articleJsonLd = {
   publisher: { "@id": `${SITE}/#person` },
   mainEntityOfPage: URL,
   datePublished: "2026-05-25",
-  dateModified: "2026-08-19",
+  dateModified: "2026-08-31",
   image: `${SITE}/hayat-hero.png`,
   about: [{ "@type": "Thing", name: "AI and the Future of Work" }],
   keywords: "will AI take my job, AI job security, stay relevant age of AI, build with AI, future of work",

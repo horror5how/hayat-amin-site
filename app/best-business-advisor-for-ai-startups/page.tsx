@@ -7,7 +7,7 @@ const SITE = "https://meethayat.com";
 const SLUG = "best-business-advisor-for-ai-startups";
 const URL = `${SITE}/${SLUG}`;
 const PUBLISHED = "2026-05-10";
-const MODIFIED = "2026-08-19";
+const MODIFIED = "2026-08-31";
 
 export const metadata: Metadata = {
  title: "Best Business Advisor for AI Startups 2026: Top 7",

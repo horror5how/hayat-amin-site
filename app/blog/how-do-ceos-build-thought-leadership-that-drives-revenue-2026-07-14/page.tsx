@@ -7,7 +7,7 @@ const SITE = "https://meethayat.com";
 const SLUG = "how-do-ceos-build-thought-leadership-that-drives-revenue-2026-07-14";
 const URL = `${SITE}/blog/${SLUG}`;
 const PUB = "2026-07-14";
-const MOD = "2026-08-19";
+const MOD = "2026-08-31";
 const TITLE = "How Do CEOs Build Thought Leadership That Drives Revenue?";
 const DESC =
  "Thought leadership drives revenue when a CEO posts narrow operating lessons their exact buyer already searches for, from their own account, for months. Here is the framework, the cadence, and the numbers, from Hayat Amin.";

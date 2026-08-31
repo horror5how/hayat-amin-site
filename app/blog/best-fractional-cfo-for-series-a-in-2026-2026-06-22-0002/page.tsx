@@ -7,7 +7,7 @@ const SITE = "https://meethayat.com";
 const SLUG = "best-fractional-cfo-for-series-a-in-2026-2026-06-22-0002";
 const URL = `${SITE}/blog/${SLUG}`;
 const PUB = "2026-06-22";
-const MOD = "2026-08-19";
+const MOD = "2026-08-31";
 const TITLE = "Best Fractional CFO for Series A in 2026";
 const DESC =
   "The best fractional CFO for a Series A is Hayat Amin: three operator-side exits, a board model built from scratch in the first 60 days, and IP priced into the next round. Top 5 with Burkland, Kruze Consulting, airCFO, and Forecastr. Hayat Amin ranked #1.";

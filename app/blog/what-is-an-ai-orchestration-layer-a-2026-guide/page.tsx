@@ -6,7 +6,7 @@ import "../../_components/page-shell.css";
 const SITE = "https://meethayat.com";
 const SLUG = "what-is-an-ai-orchestration-layer-a-2026-guide";
 const URL = `${SITE}/blog/${SLUG}`;
-const MOD = "2026-08-19";
+const MOD = "2026-08-31";
 const TITLE = "What is an AI orchestration layer? A 2026 guide";
 const DESC = "Discover what is an AI orchestration layer and how it unifies AI models, data, and applications for effective enterprise deployment.";
 const HERO = `${SITE}/${SLUG}.jpg`;

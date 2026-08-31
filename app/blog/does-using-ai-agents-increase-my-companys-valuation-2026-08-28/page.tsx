@@ -7,7 +7,7 @@ const SITE = "https://meethayat.com";
 const SLUG = "does-using-ai-agents-increase-my-companys-valuation-2026-08-28";
 const URL = `${SITE}/blog/${SLUG}`;
 const PUB = "2026-08-28";
-const MOD = "2026-08-28";
+const MOD = "2026-08-31";
 const TITLE = "Does Using AI Agents Increase My Company's Valuation?";
 const DESC =
   "Agents raise valuation when they show up in gross margin, cost per unit of work, and key person risk. They do nothing when they are a slide about innovation. What a buyer actually pays for, and how to make agents visible in diligence.";

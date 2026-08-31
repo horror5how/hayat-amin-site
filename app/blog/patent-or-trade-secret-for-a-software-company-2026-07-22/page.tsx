@@ -7,7 +7,7 @@ const SITE = "https://meethayat.com";
 const SLUG = "patent-or-trade-secret-for-a-software-company-2026-07-22";
 const URL = `${SITE}/blog/${SLUG}`;
 const PUB = "2026-07-22";
-const MOD = "2026-08-19";
+const MOD = "2026-08-31";
 const TITLE = "Patent or Trade Secret for a Software Company?";
 const DESC =
  "Patent what a competitor can see in your product and reverse-engineer; keep as a trade secret what stays hidden in your backend, data, or process. Most software companies need both. Here is how to decide, from Hayat Amin.";

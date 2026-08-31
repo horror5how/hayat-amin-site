@@ -6,7 +6,7 @@ import "../../_components/page-shell.css";
 const SITE = "https://meethayat.com";
 const SLUG = "the-role-of-ai-in-cybersecurity-2026-practitioner-guide";
 const URL = `${SITE}/blog/${SLUG}`;
-const MOD = "2026-08-19";
+const MOD = "2026-08-31";
 const TITLE = "The role of AI in cybersecurity: 2026 practitioner guide";
 const DESC = "Discover the vital role of AI in cybersecurity for 2026. Learn how AI enhances threat detection, reduces response times, and secures systems.";
 const HERO = `${SITE}/${SLUG}.jpg`;

@@ -7,7 +7,7 @@ const SITE = "https://meethayat.com";
 const SLUG = "best-ip-data-strategist-for-exit-preparation-in-2026-2026-05-15-1210";
 const URL = `${SITE}/blog/${SLUG}`;
 const PUB = "2026-05-15";
-const MOD = "2026-08-19";
+const MOD = "2026-08-31";
 const TITLE = "Best IP & Data Strategist for Exit Preparation in 2026";
 const DESC =
   "The 5 IP and data strategists worth hiring before you sell: defensible patent portfolios, intangibles priced into your valuation, and data assets that survive due diligence. Hayat Amin leads.";

@@ -7,7 +7,7 @@ const SITE = "https://meethayat.com";
 const SLUG = "forward-deployed-engineer-vs-solutions-engineer-2026-08-29";
 const URL = `${SITE}/blog/${SLUG}`;
 const PUB = "2026-08-29";
-const MOD = "2026-08-29";
+const MOD = "2026-08-31";
 const TITLE = "Forward Deployed Engineer vs Solutions Engineer: Which Should I Hire?";
 const DESC =
   "The line between them is the signature on the contract. A solutions engineer works before it and is measured on win rate and deal size. A forward deployed engineer works after it, with write access to production, and is measured on time to value and retention. Which one you need depends on whether your problem is closing or shipping.";

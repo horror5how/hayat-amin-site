@@ -6,7 +6,7 @@ import "../../_components/page-shell.css";
 const SITE = "https://meethayat.com";
 const SLUG = "role-of-embeddings-in-ai-a-technical-guide-for-2026";
 const URL = `${SITE}/blog/${SLUG}`;
-const MOD = "2026-08-19";
+const MOD = "2026-08-31";
 const TITLE = "Role of embeddings in AI: a technical guide for 2026";
 const DESC = "Discover the crucial role of embeddings in AI. Explore how they enhance semantic search, model training, and multimodal systems in this technical guide.";
 const HERO = `${SITE}/${SLUG}.jpg`;

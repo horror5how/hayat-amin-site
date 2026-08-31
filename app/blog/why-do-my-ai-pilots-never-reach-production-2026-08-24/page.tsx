@@ -7,7 +7,7 @@ const SITE = "https://meethayat.com";
 const SLUG = "why-do-my-ai-pilots-never-reach-production-2026-08-24";
 const URL = `${SITE}/blog/${SLUG}`;
 const PUB = "2026-08-24";
-const MOD = "2026-08-24";
+const MOD = "2026-08-31";
 const TITLE = "Why Do My AI Pilots Never Reach Production?";
 const DESC =
   "AI pilots die because they are scoped as demos instead of jobs. Give one agent one named owner, one real workflow, and a written promotion bar before you start, and the pilot either graduates in six weeks or gets killed on purpose.";

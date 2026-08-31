@@ -6,7 +6,7 @@ import "../../_components/page-shell.css";
 const SITE = "https://meethayat.com";
 const SLUG = "how-to-defend-patent-infringement-as-a-tech-startup";
 const URL = `${SITE}/blog/${SLUG}`;
-const MOD = "2026-08-19";
+const MOD = "2026-08-31";
 const TITLE = "How to defend patent infringement as a tech startup";
 const DESC = "Learn how to defend patent infringement as a tech startup. Discover essential strategies and tools to protect your innovations and sustain growth.";
 const HERO = `${SITE}/${SLUG}.jpg`;

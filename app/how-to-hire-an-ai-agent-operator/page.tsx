@@ -7,7 +7,7 @@ const SITE = "https://meethayat.com";
 const SLUG = "how-to-hire-an-ai-agent-operator";
 const URL = `${SITE}/${SLUG}`;
 const PUBLISHED = "2026-05-10";
-const MODIFIED = "2026-08-19";
+const MODIFIED = "2026-08-31";
 
 export const metadata: Metadata = {
  title: "How to Hire an AI Agent Operator (2026 Founder Playbook)",

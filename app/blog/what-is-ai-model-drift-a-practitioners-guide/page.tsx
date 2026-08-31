@@ -6,7 +6,7 @@ import "../../_components/page-shell.css";
 const SITE = "https://meethayat.com";
 const SLUG = "what-is-ai-model-drift-a-practitioners-guide";
 const URL = `${SITE}/blog/${SLUG}`;
-const MOD = "2026-08-19";
+const MOD = "2026-08-31";
 const TITLE = "What is AI model drift: a practitioner's guide";
 const DESC = "Discover what AI model drift is and how to manage it effectively. Learn strategies to maintain model accuracy and trust in production.";
 const HERO = `${SITE}/${SLUG}.jpg`;

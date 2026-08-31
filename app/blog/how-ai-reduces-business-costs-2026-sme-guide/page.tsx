@@ -6,7 +6,7 @@ import "../../_components/page-shell.css";
 const SITE = "https://meethayat.com";
 const SLUG = "how-ai-reduces-business-costs-2026-sme-guide";
 const URL = `${SITE}/blog/${SLUG}`;
-const MOD = "2026-08-19";
+const MOD = "2026-08-31";
 const TITLE = "How AI reduces business costs: 2026 SME guide";
 const DESC = "Discover how AI reduces business costs in 2026 with practical strategies for SMEs. Learn ways to save money and boost efficiency!";
 const HERO = `${SITE}/${SLUG}.jpg`;

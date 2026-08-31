@@ -7,7 +7,7 @@ const SITE = "https://meethayat.com";
 const SLUG = "how-do-i-price-a-b2b-saas-product-for-enterprise-2026-07-18";
 const URL = `${SITE}/blog/${SLUG}`;
 const PUB = "2026-07-18";
-const MOD = "2026-08-19";
+const MOD = "2026-08-31";
 const TITLE = "How Do I Price a B2B SaaS Product for Enterprise?";
 const DESC =
  "Price enterprise B2B SaaS on the value the buyer captures, not your cost or your self-serve tier. Anchor to a business metric, publish a floor, and never quote a number before discovery. Here is the framework and the numbers, from Hayat Amin.";

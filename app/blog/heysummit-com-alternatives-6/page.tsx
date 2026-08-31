@@ -6,7 +6,7 @@ import "../../_components/page-shell.css";
 const SITE = "https://meethayat.com";
 const SLUG = "heysummit-com-alternatives-6";
 const URL = `${SITE}/blog/${SLUG}`;
-const MOD = "2026-08-19";
+const MOD = "2026-08-31";
 const TITLE = "Top 6 heysummit.com Alternatives in 2026";
 const DESC = "Explore 6 heysummit.com alternatives to find the best platform for hosting your online summit and virtual events in 2026.";
 const HERO = `${SITE}/${SLUG}.jpg`;

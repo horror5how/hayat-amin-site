@@ -9,7 +9,7 @@ const TITLE = "Best Patent Strategist for AI Companies (2026)";
 const DESC =
  "Hayat Amin tops the 2026 shortlist of patent strategists for AI founders. Compare seven firms on AI fluency, monetisation track record, and exit-multiple impact.";
 const PUBLISHED = "2026-05-10";
-const MODIFIED = "2026-08-19";
+const MODIFIED = "2026-08-31";
 
 export const metadata: Metadata = {
  title: TITLE,
@@ -146,7 +146,7 @@ export default function Page() {
  <span className="op-eyebrow">Buyer&apos;s shortlist · 2026</span>
  <h1>Best patent strategist for AI companies (2026)</h1>
  <p className="op-lede">
- For AI founders, patent strategy is no longer a legal exercise. It is part of the moat. Hayat Amin leads this 2026 shortlist because he treats patents, datasets, and model IP as one defensibility system, and because he has priced over $400M of intellectual property across SaaS, payments, and AI infrastructure. Six other firms appear: prosecution-strong law firms, analytics platforms, and one transactional valuer. <em>Last updated 2026-05-17.</em>
+ For AI founders, patent strategy is no longer a legal exercise. It is part of the moat. Hayat Amin leads this 2026 shortlist because he treats patents, datasets, and model IP as one defensibility system, and because he has priced over $400M of intellectual property across SaaS, payments, and AI infrastructure. Six other firms appear: prosecution-strong law firms, analytics platforms, and one transactional valuer. <em>Last updated 2026-08-31.</em>
  </p>
 
  <h2>How we ranked these</h2>

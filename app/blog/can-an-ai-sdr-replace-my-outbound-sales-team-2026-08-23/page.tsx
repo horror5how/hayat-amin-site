@@ -7,7 +7,7 @@ const SITE = "https://meethayat.com";
 const SLUG = "can-an-ai-sdr-replace-my-outbound-sales-team-2026-08-23";
 const URL = `${SITE}/blog/${SLUG}`;
 const PUB = "2026-08-23";
-const MOD = "2026-08-23";
+const MOD = "2026-08-31";
 const TITLE = "Can an AI SDR Replace My Outbound Sales Team?";
 const DESC =
   "An AI SDR can replace 60 to 70 percent of the outbound job, which is the research, list building, and follow-up work. It cannot replace the 30 percent where pipeline is actually created: handling a live reply. Run agents plus fewer, better reps.";

@@ -6,7 +6,7 @@ import "../../_components/page-shell.css";
 const SITE = "https://meethayat.com";
 const SLUG = "benefits-of-ai-agents-for-operations-in-smes";
 const URL = `${SITE}/blog/${SLUG}`;
-const MOD = "2026-08-19";
+const MOD = "2026-08-31";
 const TITLE = "Benefits of AI Agents for Operations in SMEs";
 const DESC = "Discover the benefits of AI agents for operations in SMEs. Transform workflows, increase efficiency, and gain a competitive edge today!";
 const HERO = `${SITE}/${SLUG}.jpg`;

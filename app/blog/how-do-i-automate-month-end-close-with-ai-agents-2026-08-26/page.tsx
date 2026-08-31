@@ -7,7 +7,7 @@ const SITE = "https://meethayat.com";
 const SLUG = "how-do-i-automate-month-end-close-with-ai-agents-2026-08-26";
 const URL = `${SITE}/blog/${SLUG}`;
 const PUB = "2026-08-26";
-const MOD = "2026-08-26";
+const MOD = "2026-08-31";
 const TITLE = "How Do I Automate Month End Close With AI Agents?";
 const DESC =
   "You do not automate the close. You automate four tasks inside it: reconciliation matching, accrual drafting, flux commentary, and chasing the people who owe you numbers. Do those four and a ten day close becomes a four day close, with the controller still signing.";

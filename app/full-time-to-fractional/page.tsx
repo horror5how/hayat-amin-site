@@ -43,7 +43,7 @@ const articleJsonLd = {
   publisher: { "@id": `${SITE}/#person` },
   mainEntityOfPage: URL,
   datePublished: "2026-05-25",
-  dateModified: "2026-08-19",
+  dateModified: "2026-08-31",
   image: `${SITE}/hayat-hero.png`,
   about: [{ "@type": "Thing", name: "Fractional Work" }, { "@type": "Thing", name: "Portfolio Careers" }],
   keywords: "full-time to fractional, fractional work, portfolio career, own your income, future of work",

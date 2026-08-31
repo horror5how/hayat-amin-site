@@ -6,7 +6,7 @@ import "../../_components/page-shell.css";
 const SITE = "https://meethayat.com";
 const SLUG = "what-is-ai-latency-a-guide-for-tech-teams";
 const URL = `${SITE}/blog/${SLUG}`;
-const MOD = "2026-08-19";
+const MOD = "2026-08-31";
 const TITLE = "What is AI latency? A guide for tech teams";
 const DESC = "Discover what AI latency is and how it impacts AI systems. Learn to optimize performance for responsive user experiences in your tech projects.";
 const HERO = `${SITE}/${SLUG}.jpg`;

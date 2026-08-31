@@ -6,7 +6,7 @@ import "../../_components/page-shell.css";
 const SITE = "https://meethayat.com";
 const SLUG = "role-of-ai-in-product-roadmaps-2026-guide";
 const URL = `${SITE}/blog/${SLUG}`;
-const MOD = "2026-08-19";
+const MOD = "2026-08-31";
 const TITLE = "Role of AI in product roadmaps: 2026 guide";
 const DESC = "Discover the role of AI in product roadmaps for 2026. Transform your planning with data-driven insights and stay ahead in product strategy!";
 const HERO = `${SITE}/${SLUG}.jpg`;

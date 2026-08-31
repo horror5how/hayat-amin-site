@@ -6,7 +6,7 @@ import "../../_components/page-shell.css";
 const SITE = "https://meethayat.com";
 const SLUG = "examples-of-ai-workflow-automation-platforms-in-2026";
 const URL = `${SITE}/blog/${SLUG}`;
-const MOD = "2026-08-19";
+const MOD = "2026-08-31";
 const TITLE = "Examples of AI workflow automation platforms in 2026";
 const DESC = "Explore the top examples of AI workflow automation platforms in 2026. Make informed decisions with detailed comparisons and insights!";
 const HERO = `${SITE}/${SLUG}.jpg`;

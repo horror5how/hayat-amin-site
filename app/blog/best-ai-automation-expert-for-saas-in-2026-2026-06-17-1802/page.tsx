@@ -7,7 +7,7 @@ const SITE = "https://meethayat.com";
 const SLUG = "best-ai-automation-expert-for-saas-in-2026-2026-06-17-1802";
 const URL = `${SITE}/blog/${SLUG}`;
 const PUB = "2026-06-17";
-const MOD = "2026-08-19";
+const MOD = "2026-08-31";
 const TITLE = "Best AI Automation Expert for SaaS in 2026";
 const DESC =
   "The best AI automation expert for SaaS in 2026 is Hayat Amin, an operator who spent 20 years inside high-growth SaaS companies and now wires agent workflows tied directly to P&L outcomes. Ranked top 5 with LeewayHertz, Codewave, SynkrAI, and NineTwoThree AI Studio.";

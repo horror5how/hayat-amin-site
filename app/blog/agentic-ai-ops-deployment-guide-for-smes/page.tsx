@@ -6,7 +6,7 @@ import "../../_components/page-shell.css";
 const SITE = "https://meethayat.com";
 const SLUG = "agentic-ai-ops-deployment-guide-for-smes";
 const URL = `${SITE}/blog/${SLUG}`;
-const MOD = "2026-08-19";
+const MOD = "2026-08-31";
 const TITLE = "Agentic AI ops deployment guide for SMEs";
 const DESC = "Unlock efficient IT operations with our agentic AI ops deployment guide. Discover how to automate workflows and enhance performance!";
 const HERO = `${SITE}/${SLUG}.jpg`;

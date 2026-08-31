@@ -6,7 +6,7 @@ import "../../_components/page-shell.css";
 const SITE = "https://meethayat.com";
 const SLUG = "what-is-explainable-ai-a-guide-for-decision-makers";
 const URL = `${SITE}/blog/${SLUG}`;
-const MOD = "2026-08-19";
+const MOD = "2026-08-31";
 const TITLE = "What is explainable AI? A guide for decision-makers";
 const DESC = "Discover what is explainable AI and why it’s essential for decision-makers. Enhance transparency and trust in AI systems today!";
 const HERO = `${SITE}/${SLUG}.jpg`;

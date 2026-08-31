@@ -6,7 +6,7 @@ import "../../_components/page-shell.css";
 const SITE = "https://meethayat.com";
 const SLUG = "what-is-an-ai-pipeline-a-guide-for-tech-leaders";
 const URL = `${SITE}/blog/${SLUG}`;
-const MOD = "2026-08-19";
+const MOD = "2026-08-31";
 const TITLE = "What is an AI pipeline? A guide for tech leaders";
 const DESC = "Discover what an AI pipeline is and how it streamlines the AI development process, ensuring accuracy and efficiency for tech leaders.";
 const HERO = `${SITE}/${SLUG}.jpg`;

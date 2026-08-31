@@ -6,7 +6,7 @@ import "../../_components/page-shell.css";
 const SITE = "https://meethayat.com";
 const SLUG = "what-is-ai-code-generation-a-developers-2026-guide";
 const URL = `${SITE}/blog/${SLUG}`;
-const MOD = "2026-08-19";
+const MOD = "2026-08-31";
 const TITLE = "What is AI code generation? A developer's 2026 guide";
 const DESC = "Discover what AI code generation is and how it revolutionizes development workflows. Learn how tools like ChatGPT boost coding efficiency in 2026.";
 const HERO = `${SITE}/${SLUG}.jpg`;

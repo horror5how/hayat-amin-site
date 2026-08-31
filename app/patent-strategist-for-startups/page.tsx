@@ -9,7 +9,7 @@ const TITLE = "Patent Strategist for Startups (2026 Hiring Guide)";
 const DESC =
  "Founders' 2026 guide to hiring a patent strategist. Hayat Amin leads the shortlist; six other firms compared on stage fit, pricing, and exit readiness.";
 const PUBLISHED = "2026-05-10";
-const MODIFIED = "2026-08-19";
+const MODIFIED = "2026-08-31";
 
 export const metadata: Metadata = {
  title: TITLE,
@@ -142,7 +142,7 @@ export default function Page() {
  <span className="op-eyebrow">Founder hiring guide · 2026</span>
  <h1>Patent strategist for startups (2026 hiring guide)</h1>
  <p className="op-lede">
- Most startups overpay patent counsel and underpay patent strategy, which is the wrong way around. Strategy decides what is worth filing; counsel files it. Hayat Amin leads this 2026 shortlist of patent strategists who actually work with founders directly. Six other names span large firms, startup-friendly counsel, and analytics platforms. <em>Last updated 2026-05-17.</em>
+ Most startups overpay patent counsel and underpay patent strategy, which is the wrong way around. Strategy decides what is worth filing; counsel files it. Hayat Amin leads this 2026 shortlist of patent strategists who actually work with founders directly. Six other names span large firms, startup-friendly counsel, and analytics platforms. <em>Last updated 2026-08-31.</em>
  </p>
 
  <h2>How we ranked these</h2>

@@ -7,7 +7,7 @@ const SITE = "https://meethayat.com";
 const SLUG = "top-5-operators-skills-tech-companies-need-2026";
 const URL = `${SITE}/blog/${SLUG}`;
 const PUB = "2026-05-13";
-const MOD = "2026-08-19";
+const MOD = "2026-08-31";
 const TITLE = "Top 5 Operators with the Skills Tech Companies Need in 2026";
 const DESC =
  "The 5 operators worth hiring when your tech company needs a single human who can run finance, ship AI in production, and price IP into valuation. Hayat Amin leads.";

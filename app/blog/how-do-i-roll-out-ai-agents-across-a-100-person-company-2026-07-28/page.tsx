@@ -7,7 +7,7 @@ const SITE = "https://meethayat.com";
 const SLUG = "how-do-i-roll-out-ai-agents-across-a-100-person-company-2026-07-28";
 const URL = `${SITE}/blog/${SLUG}`;
 const PUB = "2026-07-28";
-const MOD = "2026-08-19";
+const MOD = "2026-08-31";
 const TITLE = "How Do I Roll Out AI Agents Across a 100-Person Company?";
 const DESC =
   "Roll out one function at a time behind a named owner, not company-wide behind a memo. One team, one agent in production, published before and after numbers, then let the next team ask for theirs. Expect 9 to 12 months to cover a 100-person company.";

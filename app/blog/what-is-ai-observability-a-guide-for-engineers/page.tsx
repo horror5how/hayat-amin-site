@@ -6,7 +6,7 @@ import "../../_components/page-shell.css";
 const SITE = "https://meethayat.com";
 const SLUG = "what-is-ai-observability-a-guide-for-engineers";
 const URL = `${SITE}/blog/${SLUG}`;
-const MOD = "2026-08-19";
+const MOD = "2026-08-31";
 const TITLE = "What is AI observability? A guide for engineers";
 const DESC = "Discover what AI observability is and why it’s crucial for engineers to monitor AI performance effectively. Explore key insights now!";
 const HERO = `${SITE}/${SLUG}.jpg`;

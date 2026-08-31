@@ -6,7 +6,7 @@ import "../../_components/page-shell.css";
 const SITE = "https://meethayat.com";
 const SLUG = "how-ai-handles-unstructured-data-a-technical-guide";
 const URL = `${SITE}/blog/${SLUG}`;
-const MOD = "2026-08-19";
+const MOD = "2026-08-31";
 const TITLE = "How AI handles unstructured data: a technical guide";
 const DESC = "Discover how AI handles unstructured data effectively. Unlock insights from emails, images, and more with advanced techniques. Read on!";
 const HERO = `${SITE}/${SLUG}.jpg`;

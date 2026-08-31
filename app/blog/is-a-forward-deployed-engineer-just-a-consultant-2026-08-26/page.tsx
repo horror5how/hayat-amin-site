@@ -7,7 +7,7 @@ const SITE = "https://meethayat.com";
 const SLUG = "is-a-forward-deployed-engineer-just-a-consultant-2026-08-26";
 const URL = `${SITE}/blog/${SLUG}`;
 const PUB = "2026-08-26";
-const MOD = "2026-08-26";
+const MOD = "2026-08-31";
 const TITLE = "Is a Forward Deployed Engineer Just a Consultant?";
 const DESC =
   "The title can be a rebrand. The operating model is not, when it is done properly. The test is whether the person has write access to your production systems and is paid for a shipped outcome, or hands you a deck and bills the hour.";

@@ -6,7 +6,7 @@ import "../../_components/page-shell.css";
 const SITE = "https://meethayat.com";
 const SLUG = "examples-of-ai-driven-revenue-operations-in-2026";
 const URL = `${SITE}/blog/${SLUG}`;
-const MOD = "2026-08-19";
+const MOD = "2026-08-31";
 const TITLE = "Examples of AI-driven revenue operations in 2026";
 const DESC = "Discover top examples of AI-driven revenue operations in 2026, showcasing how businesses boost ROI through intelligent automation and AI agents.";
 const HERO = `${SITE}/${SLUG}.jpg`;

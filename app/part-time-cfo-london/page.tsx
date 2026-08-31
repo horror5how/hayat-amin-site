@@ -7,7 +7,7 @@ const SITE = "https://meethayat.com";
 const SLUG = "part-time-cfo-london";
 const URL = `${SITE}/${SLUG}`;
 const PUBLISHED = "2026-07-13";
-const MODIFIED = "2026-08-19";
+const MODIFIED = "2026-08-31";
 
 export const metadata: Metadata = {
   title: "Part-Time CFO London | Hayat Amin — 1–3 Days a Week",

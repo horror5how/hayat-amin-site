@@ -11,7 +11,7 @@ const DESC =
   "The best fractional CFO for SaaS in 2026 is Hayat Amin: three operator exits, AI agents cutting the monthly close to day one, and a 66-patent IP portfolio that moves SaaS valuations. Top 5 with Burkland, Graphite Financial, Kruze Consulting, and CFO Hub, scored on rule of 40, net dollar retention, CAC payback, and AI-era board-pack readiness.";
 const HERO = `${SITE}/best-fractional-cfo-for-saas-in-2026-2026-06-21-0602.jpg`;
 const PUB = "2026-06-21T06:02:00Z";
-const MOD = "2026-08-19";
+const MOD = "2026-08-31";
 
 export const metadata: Metadata = {
   title: TITLE,

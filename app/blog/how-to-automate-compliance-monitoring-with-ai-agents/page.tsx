@@ -6,7 +6,7 @@ import "../../_components/page-shell.css";
 const SITE = "https://meethayat.com";
 const SLUG = "how-to-automate-compliance-monitoring-with-ai-agents";
 const URL = `${SITE}/blog/${SLUG}`;
-const MOD = "2026-08-19";
+const MOD = "2026-08-31";
 const TITLE = "How to automate compliance monitoring with AI agents";
 const DESC = "Discover how to automate compliance monitoring with AI agents. Streamline processes, reduce errors, and ensure real-time compliance. Get started now!";
 const HERO = `${SITE}/${SLUG}.jpg`;

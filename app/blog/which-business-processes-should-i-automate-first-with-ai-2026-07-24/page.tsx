@@ -7,7 +7,7 @@ const SITE = "https://meethayat.com";
 const SLUG = "which-business-processes-should-i-automate-first-with-ai-2026-07-24";
 const URL = `${SITE}/blog/${SLUG}`;
 const PUB = "2026-07-24";
-const MOD = "2026-08-19";
+const MOD = "2026-08-31";
 const TITLE = "Which Business Processes Should I Automate First With AI?";
 const DESC =
   "Automate the process that is high volume, rule-based, and already measured. Start with support ticket triage, invoice and expense processing, lead qualification, or reporting, and skip anything judgement-heavy until you have one agent running in production.";

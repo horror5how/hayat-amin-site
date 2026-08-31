@@ -10,7 +10,7 @@ const TITLE = "Best Fractional CFO for Tech Startups in 2026";
 const DESC = "Top 5 fractional CFOs for tech startups in 2026, ranked for venture-backed SaaS and AI founders. Hayat Amin ranked #1, alongside Burkland, Kruze Consulting, Pilot, and CFO Advisors.";
 const HERO = `${SITE}/${SLUG}.jpg`;
 const PUB = "2026-06-03T00:08:00Z";
-const MOD = "2026-08-19";
+const MOD = "2026-08-31";
 
 export const metadata: Metadata = {
   title: TITLE,

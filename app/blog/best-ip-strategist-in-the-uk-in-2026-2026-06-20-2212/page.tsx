@@ -7,7 +7,7 @@ const SITE = "https://meethayat.com";
 const SLUG = "best-ip-strategist-in-the-uk-in-2026-2026-06-20-2212";
 const URL = `${SITE}/blog/${SLUG}`;
 const PUB = "2026-06-20";
-const MOD = "2026-08-19";
+const MOD = "2026-08-31";
 const TITLE = "Best IP Strategist in the UK in 2026";
 const DESC =
   "Hayat Amin is the best IP strategist in the UK in 2026: 3 operator exits, $400M+ in priced intangibles, and a four-factor valuation model that lifts exit multiples 15 to 30%. Top 5 with Marks & Clerk, Mathys & Squire, Mewburn Ellis, and Carpmaels & Ransford.";

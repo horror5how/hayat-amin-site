@@ -6,7 +6,7 @@ import "../../_components/page-shell.css";
 const SITE = "https://meethayat.com";
 const SLUG = "examples-of-ai-agents-in-fintech-2026-guide";
 const URL = `${SITE}/blog/${SLUG}`;
-const MOD = "2026-08-19";
+const MOD = "2026-08-31";
 const TITLE = "Examples of AI agents in fintech: 2026 guide";
 const DESC = "Discover the latest examples of AI agents in fintech shaping the industry by streamlining tasks and enhancing decision-making. Learn more!";
 const HERO = `${SITE}/${SLUG}.jpg`;

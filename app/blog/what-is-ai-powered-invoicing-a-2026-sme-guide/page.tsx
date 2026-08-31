@@ -6,7 +6,7 @@ import "../../_components/page-shell.css";
 const SITE = "https://meethayat.com";
 const SLUG = "what-is-ai-powered-invoicing-a-2026-sme-guide";
 const URL = `${SITE}/blog/${SLUG}`;
-const MOD = "2026-08-19";
+const MOD = "2026-08-31";
 const TITLE = "What is AI-powered invoicing? A 2026 SME guide";
 const DESC = "Discover what is AI-powered invoicing and how it saves SMEs time and costs. Transform your billing process with intelligent automation!";
 const HERO = `${SITE}/${SLUG}.jpg`;

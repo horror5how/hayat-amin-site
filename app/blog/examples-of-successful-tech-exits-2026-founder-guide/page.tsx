@@ -6,7 +6,7 @@ import "../../_components/page-shell.css";
 const SITE = "https://meethayat.com";
 const SLUG = "examples-of-successful-tech-exits-2026-founder-guide";
 const URL = `${SITE}/blog/${SLUG}`;
-const MOD = "2026-08-19";
+const MOD = "2026-08-31";
 const TITLE = "Examples of successful tech exits: 2026 founder guide";
 const DESC = "Discover key examples of successful tech exits in 2026. Learn traits from companies like Skio and Confluent to boost your exit strategy.";
 const HERO = `${SITE}/${SLUG}.jpg`;

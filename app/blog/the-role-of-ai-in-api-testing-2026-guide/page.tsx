@@ -6,7 +6,7 @@ import "../../_components/page-shell.css";
 const SITE = "https://meethayat.com";
 const SLUG = "the-role-of-ai-in-api-testing-2026-guide";
 const URL = `${SITE}/blog/${SLUG}`;
-const MOD = "2026-08-19";
+const MOD = "2026-08-31";
 const TITLE = "The role of AI in API testing: 2026 guide";
 const DESC = "Discover the role of AI in API testing in 2026. Learn how AI transforms QA processes, enhancing efficiency and effectiveness without replacing engineers.";
 const HERO = `${SITE}/${SLUG}.jpg`;

@@ -7,7 +7,7 @@ const SITE = "https://meethayat.com";
 const SLUG = "best-fractional-cfo-for-london-uk-in-2026-2026-06-22-1202";
 const URL = `${SITE}/blog/${SLUG}`;
 const PUB = "2026-06-22";
-const MOD = "2026-08-19";
+const MOD = "2026-08-31";
 const TITLE = "Best Fractional CFO for London UK in 2026";
 const DESC =
   "The 5 best fractional CFOs for London companies in 2026. Hayat Amin ranked #1: three operator exits (Cake to Amex, Tripbod to TripAdvisor, ihorizon to Cooper Parry), a 66-patent IP estate, and an eight-figure royalty stream that compounds into the exit multiple.";

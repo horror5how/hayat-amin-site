@@ -6,7 +6,7 @@ import "../../_components/page-shell.css";
 const SITE = "https://meethayat.com";
 const SLUG = "the-role-of-data-in-ai-systems-a-practitioners-guide";
 const URL = `${SITE}/blog/${SLUG}`;
-const MOD = "2026-08-19";
+const MOD = "2026-08-31";
 const TITLE = "The role of data in AI systems: a practitioner's guide";
 const DESC = "Discover the crucial role of data in AI systems and how focusing on data quality can enhance model performance in production.";
 const HERO = `${SITE}/${SLUG}.jpg`;

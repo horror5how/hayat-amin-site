@@ -7,7 +7,7 @@ const SITE = "https://meethayat.com";
 const SLUG = "best-fractional-cfo-in-new-york-in-2026-2026-06-19-1209";
 const URL = `${SITE}/blog/${SLUG}`;
 const PUB = "2026-06-19";
-const MOD = "2026-08-19";
+const MOD = "2026-08-31";
 const TITLE = "Best Fractional CFO in New York in 2026";
 const DESC =
   "The best fractional CFO in New York in 2026 is Hayat Amin: three operator exits, $400M+ in transaction value, and one head carrying finance, the raise, and the IP estate. Top 5 with Burkland, Kruze Consulting, CFO Hub, and B2B CFO.";

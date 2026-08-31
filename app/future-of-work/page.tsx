@@ -42,7 +42,7 @@ const articleJsonLd = {
   publisher: { "@id": `${SITE}/#person` },
   mainEntityOfPage: URL,
   datePublished: "2026-05-25",
-  dateModified: "2026-08-19",
+  dateModified: "2026-08-31",
   image: `${SITE}/hayat-hero.png`,
   about: [
     { "@type": "Thing", name: "The Future of Work" },

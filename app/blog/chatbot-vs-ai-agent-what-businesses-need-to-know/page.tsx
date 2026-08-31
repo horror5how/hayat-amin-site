@@ -6,7 +6,7 @@ import "../../_components/page-shell.css";
 const SITE = "https://meethayat.com";
 const SLUG = "chatbot-vs-ai-agent-what-businesses-need-to-know";
 const URL = `${SITE}/blog/${SLUG}`;
-const MOD = "2026-08-19";
+const MOD = "2026-08-31";
 const TITLE = "Chatbot vs AI agent: what businesses need to know";
 const DESC = "Discover what is a chatbot vs AI agent and how to choose the right tool for your business needs to avoid wasted resources.";
 const HERO = `${SITE}/${SLUG}.jpg`;

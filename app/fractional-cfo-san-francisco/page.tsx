@@ -3,7 +3,7 @@ import Link from "next/link";
 import { PageShell } from "../_components/PageShell";
 import "../_components/page-shell.css";
 
-const MODIFIED = "2026-08-19";
+const MODIFIED = "2026-08-31";
 
 export const metadata: Metadata = {
   title: "Fractional CFO SF | Hayat Amin — Part-Time CFO for Founders",

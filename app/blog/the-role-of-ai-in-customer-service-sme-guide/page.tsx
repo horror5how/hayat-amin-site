@@ -6,7 +6,7 @@ import "../../_components/page-shell.css";
 const SITE = "https://meethayat.com";
 const SLUG = "the-role-of-ai-in-customer-service-sme-guide";
 const URL = `${SITE}/blog/${SLUG}`;
-const MOD = "2026-08-19";
+const MOD = "2026-08-31";
 const TITLE = "The role of AI in customer service: SME guide";
 const DESC = "Discover the role of AI in customer service and how SMEs can automate interactions, enhance efficiency, and scale support like never before.";
 const HERO = `${SITE}/${SLUG}.jpg`;

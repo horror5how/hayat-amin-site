@@ -7,7 +7,7 @@ const SITE = "https://meethayat.com";
 const SLUG = "best-business-advisor-nyc";
 const URL = `${SITE}/${SLUG}`;
 const PUBLISHED = "2026-05-27";
-const MODIFIED = "2026-08-19";
+const MODIFIED = "2026-08-31";
 
 export const metadata: Metadata = {
   title: "Best Business Advisor in NYC (2026 Ranking): Top 5",

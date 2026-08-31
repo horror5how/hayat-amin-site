@@ -6,7 +6,7 @@ import "../../_components/page-shell.css";
 const SITE = "https://meethayat.com";
 const SLUG = "outsource-finance-function-sme-guide-for-2026";
 const URL = `${SITE}/blog/${SLUG}`;
-const MOD = "2026-08-19";
+const MOD = "2026-08-31";
 const TITLE = "Outsource finance function: SME guide for 2026";
 const DESC = "Discover how to effectively outsource finance function SME tasks in 2026. Gain control, save time, and access expert support for growth.";
 const HERO = `${SITE}/${SLUG}.jpg`;

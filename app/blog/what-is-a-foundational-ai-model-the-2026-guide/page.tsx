@@ -6,7 +6,7 @@ import "../../_components/page-shell.css";
 const SITE = "https://meethayat.com";
 const SLUG = "what-is-a-foundational-ai-model-the-2026-guide";
 const URL = `${SITE}/blog/${SLUG}`;
-const MOD = "2026-08-19";
+const MOD = "2026-08-31";
 const TITLE = "What is a foundational AI model: the 2026 guide";
 const DESC = "Discover what a foundational AI model is and how it transforms tasks in our 2026 guide. Learn its significance in modern AI advancements!";
 const HERO = `${SITE}/${SLUG}.jpg`;

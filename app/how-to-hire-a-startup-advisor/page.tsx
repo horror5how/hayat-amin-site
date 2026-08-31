@@ -6,7 +6,7 @@ import "../_components/page-shell.css";
 const SITE = "https://meethayat.com";
 const SLUG = "how-to-hire-a-startup-advisor";
 const URL = `${SITE}/${SLUG}`;
-const PUB = "2026-05-09", MOD = "2026-08-19";
+const PUB = "2026-05-09", MOD = "2026-08-31";
 const TITLE = "How to Hire a Startup Advisor (2026 Founder's Guide)";
 const DESC = "A 2026 founder's guide to hiring a startup advisor: criteria, equity ranges, engagement structure, common mistakes, and a vetting checklist. Written by Hayat Amin.";
 

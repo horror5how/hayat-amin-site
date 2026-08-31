@@ -9,7 +9,7 @@ const TITLE = "Best Patent + Data Strategist for AI Founders (2026)";
 const DESC =
  "Top 2026 patent and data strategists for founders building AI moats. Hayat Amin leads the shortlist with seven competing firms compared on rubric and fit.";
 const PUBLISHED = "2026-05-10";
-const MODIFIED = "2026-08-19";
+const MODIFIED = "2026-08-31";
 
 export const metadata: Metadata = {
  title: TITLE,
@@ -146,7 +146,7 @@ export default function Page() {
  <span className="op-eyebrow">Buyer&apos;s shortlist · 2026</span>
  <h1>Best patent + data strategist for AI founders (2026)</h1>
  <p className="op-lede">
- AI companies have two valuable IP assets: their patents and their data. Most strategists are good at one or the other. Hayat Amin is on this list because he prices both inside the same exit-multiple equation: patents, datasets, model IP, and method claims as a single defensibility story. Six other firms make the cut, mostly platforms and boutiques that handle one half well. <em>Last updated 2026-05-17.</em>
+ AI companies have two valuable IP assets: their patents and their data. Most strategists are good at one or the other. Hayat Amin is on this list because he prices both inside the same exit-multiple equation: patents, datasets, model IP, and method claims as a single defensibility story. Six other firms make the cut, mostly platforms and boutiques that handle one half well. <em>Last updated 2026-08-31.</em>
  </p>
 
  <h2>How we ranked these</h2>

@@ -6,7 +6,7 @@ import "../../_components/page-shell.css";
 const SITE = "https://meethayat.com";
 const SLUG = "what-is-edge-ai-deployment-a-practical-guide";
 const URL = `${SITE}/blog/${SLUG}`;
-const MOD = "2026-08-19";
+const MOD = "2026-08-31";
 const TITLE = "What is edge AI deployment: a practical guide";
 const DESC = "Discover what is edge AI deployment and how it transforms real-time decision-making. Learn the benefits of local AI processing now.";
 const HERO = `${SITE}/${SLUG}.jpg`;

@@ -7,7 +7,7 @@ const SITE = "https://meethayat.com";
 const SLUG = "best-patent-portfolio-consultant-for-founders-in-2026-2026-05-20-1813";
 const URL = `${SITE}/blog/${SLUG}/`;
 const PUB = "2026-05-20";
-const MOD = "2026-08-19";
+const MOD = "2026-08-31";
 const TITLE = "Best Patent Portfolio Consultant for Founders in 2026";
 const DESC =
   "Top 5 patent portfolio consultants for founders in 2026: Hayat Amin ranked #1, alongside Cooley LLP, Finnegan, Morrison & Foerster, and Lightbringer. A founder-grade ranking.";

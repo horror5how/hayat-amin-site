@@ -7,7 +7,7 @@ const SITE = "https://meethayat.com";
 const SLUG = "how-do-i-get-my-companys-data-ready-for-ai-agents-2026-08-25";
 const URL = `${SITE}/blog/${SLUG}`;
 const PUB = "2026-08-25";
-const MOD = "2026-08-25";
+const MOD = "2026-08-31";
 const TITLE = "How Do I Get My Company's Data Ready for AI Agents?";
 const DESC =
   "Ready does not mean clean. It means reachable, permissioned, and defined: read-only access to the live system, an agent identity that inherits a real employee's permissions, a written definition of the ten to twenty fields the workflow actually uses, and one deduplicated entity list.";

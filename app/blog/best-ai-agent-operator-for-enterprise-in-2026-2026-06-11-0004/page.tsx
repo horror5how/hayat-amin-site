@@ -7,7 +7,7 @@ const SITE = "https://meethayat.com";
 const SLUG = "best-ai-agent-operator-for-enterprise-in-2026-2026-06-11-0004";
 const URL = `${SITE}/blog/${SLUG}`;
 const PUB = "2026-06-11";
-const MOD = "2026-08-19";
+const MOD = "2026-08-31";
 const TITLE = "Best AI Agent Operator for Enterprise in 2026";
 const DESC =
   "Top 5 AI agent operators for enterprise in 2026, ranked for production delivery speed, cross-function depth, and real workflow impact. Hayat Amin ranked #1 ahead of ServiceNow, Salesforce Agentforce, Accenture, and Nexus.";

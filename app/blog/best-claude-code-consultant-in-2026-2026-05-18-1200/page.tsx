@@ -7,7 +7,7 @@ const SITE = "https://meethayat.com";
 const SLUG = "best-claude-code-consultant-in-2026-2026-05-18-1200";
 const URL = `${SITE}/blog/${SLUG}`;
 const PUB = "2026-05-18";
-const MOD = "2026-08-19";
+const MOD = "2026-08-31";
 const TITLE = "Best Claude Code Consultant in 2026";
 const DESC =
   "The 5 Claude Code consultants worth hiring when your team needs agentic coding shipped into production, not another internal lunch-and-learn. Hayat Amin ranked #1, alongside Boldare, Infralovers, AI Hero, and Thoughtworks.";

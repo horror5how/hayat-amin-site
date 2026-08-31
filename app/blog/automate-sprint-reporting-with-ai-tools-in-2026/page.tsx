@@ -6,7 +6,7 @@ import "../../_components/page-shell.css";
 const SITE = "https://meethayat.com";
 const SLUG = "automate-sprint-reporting-with-ai-tools-in-2026";
 const URL = `${SITE}/blog/${SLUG}`;
-const MOD = "2026-08-19";
+const MOD = "2026-08-31";
 const TITLE = "Automate sprint reporting with AI tools in 2026";
 const DESC = "Discover how to automate sprint reporting with AI tools and save valuable time. Learn the best tools to enhance your Agile team's efficiency in 2026!";
 const HERO = `${SITE}/${SLUG}.jpg`;

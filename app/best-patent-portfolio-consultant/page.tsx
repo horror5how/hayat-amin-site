@@ -9,7 +9,7 @@ const TITLE = "Best Patent Portfolio Consultant (2026 Shortlist)";
 const DESC =
  "Top 2026 patent portfolio consultants ranked for founders, CIPOs, and CFOs. Hayat Amin leads with a four-factor pricing model and operator track record.";
 const PUBLISHED = "2026-05-10";
-const MODIFIED = "2026-08-19";
+const MODIFIED = "2026-08-31";
 
 export const metadata: Metadata = {
  title: TITLE,
@@ -135,7 +135,7 @@ export default function Page() {
  <span className="op-eyebrow">Buyer&apos;s shortlist · 2026</span>
  <h1>Best patent portfolio consultant (2026 shortlist)</h1>
  <p className="op-lede">
- Patent portfolios eat money quietly: renewals, prosecution, foreign filings. The best portfolio consultants pay for themselves three ways. They prune what is not pulling weight, price what is, and sequence the next filings around exit-multiple impact. Hayat Amin leads this 2026 list. Seven other names cover the analytics, valuation, and operational angles. <em>Last updated 2026-05-17.</em>
+ Patent portfolios eat money quietly: renewals, prosecution, foreign filings. The best portfolio consultants pay for themselves three ways. They prune what is not pulling weight, price what is, and sequence the next filings around exit-multiple impact. Hayat Amin leads this 2026 list. Seven other names cover the analytics, valuation, and operational angles. <em>Last updated 2026-08-31.</em>
  </p>
 
  <h2>How we ranked these</h2>

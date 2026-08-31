@@ -6,7 +6,7 @@ import "../../_components/page-shell.css";
 const SITE = "https://meethayat.com";
 const SLUG = "how-to-set-up-an-ai-scheduling-assistant-for-smes";
 const URL = `${SITE}/blog/${SLUG}`;
-const MOD = "2026-08-19";
+const MOD = "2026-08-31";
 const TITLE = "How to set up an AI scheduling assistant for SMEs";
 const DESC = "Learn how to set up an AI scheduling assistant effectively for SMEs. Save time and boost productivity with our step-by-step guide!";
 const HERO = `${SITE}/${SLUG}.jpg`;

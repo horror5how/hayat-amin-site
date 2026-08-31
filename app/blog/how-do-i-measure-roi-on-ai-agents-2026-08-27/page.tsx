@@ -7,7 +7,7 @@ const SITE = "https://meethayat.com";
 const SLUG = "how-do-i-measure-roi-on-ai-agents-2026-08-27";
 const URL = `${SITE}/blog/${SLUG}`;
 const PUB = "2026-08-27";
-const MOD = "2026-08-27";
+const MOD = "2026-08-31";
 const TITLE = "How Do I Measure ROI on AI Agents?";
 const DESC =
   "Measure an agent the way you measure a hire. Baseline one process for four weeks before the agent exists, then track hours removed, error rate, and cycle time against the all-in cost of build plus running. Three numbers, one process, one owner.";

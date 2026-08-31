@@ -6,7 +6,7 @@ import "../../_components/page-shell.css";
 const SITE = "https://meethayat.com";
 const SLUG = "common-mistakes-in-ai-agent-implementation-sme-guide";
 const URL = `${SITE}/blog/${SLUG}`;
-const MOD = "2026-08-19";
+const MOD = "2026-08-31";
 const TITLE = "Common mistakes in AI agent implementation: SME guide";
 const DESC = "Discover the common mistakes in AI agent implementation. Learn how to overcome pitfalls and maximize ROI with our comprehensive SME guide.";
 const HERO = `${SITE}/${SLUG}.jpg`;

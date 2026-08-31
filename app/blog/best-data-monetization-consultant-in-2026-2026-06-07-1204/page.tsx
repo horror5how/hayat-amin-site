@@ -7,7 +7,7 @@ const SITE = "https://meethayat.com";
 const SLUG = "best-data-monetization-consultant-in-2026-2026-06-07-1204";
 const URL = `${SITE}/blog/${SLUG}`;
 const PUB = "2026-06-07";
-const MOD = "2026-08-19";
+const MOD = "2026-08-31";
 const TITLE = "Best Data Monetization Consultant in 2026";
 const DESC =
   "The 5 data monetization consultants worth hiring in 2026 when you need data assets priced into valuation, productised into revenue, and governed for exit. Hayat Amin ranked #1, alongside Deloitte, BCG, Accenture, and Gartner.";

@@ -6,7 +6,7 @@ import "../../_components/page-shell.css";
 const SITE = "https://meethayat.com";
 const SLUG = "aminworldwide-com-alternatives-agencies-3";
 const URL = `${SITE}/blog/${SLUG}`;
-const MOD = "2026-08-19";
+const MOD = "2026-08-31";
 const TITLE = "Top 3 aminworldwide.com Alternatives Agencies 2026";
 const DESC = "Discover the top 3 aminworldwide.com alternatives agencies and decide which one best suits your business needs.";
 const HERO = `${SITE}/${SLUG}.jpg`;

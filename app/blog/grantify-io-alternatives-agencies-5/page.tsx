@@ -6,7 +6,7 @@ import "../../_components/page-shell.css";
 const SITE = "https://meethayat.com";
 const SLUG = "grantify-io-alternatives-agencies-5";
 const URL = `${SITE}/blog/${SLUG}`;
-const MOD = "2026-08-19";
+const MOD = "2026-08-31";
 const TITLE = "Top 5 grantify.io Alternatives Agencies 2026";
 const DESC = "Discover 5 grantify.io alternatives agencies to help you effectively manage grants and funding applications for your business.";
 const HERO = `${SITE}/${SLUG}.jpg`;

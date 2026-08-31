@@ -6,7 +6,7 @@ import "../../_components/page-shell.css";
 const SITE = "https://meethayat.com";
 const SLUG = "what-is-ai-token-economics-a-guide-for-entrepreneurs";
 const URL = `${SITE}/blog/${SLUG}`;
-const MOD = "2026-08-19";
+const MOD = "2026-08-31";
 const TITLE = "What is AI token economics: a guide for entrepreneurs";
 const DESC = "Discover what AI token economics is and learn how to leverage it for your business. Understand the frameworks that guide effective decision-making.";
 const HERO = `${SITE}/${SLUG}.jpg`;

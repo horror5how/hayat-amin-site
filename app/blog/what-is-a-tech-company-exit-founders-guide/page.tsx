@@ -6,7 +6,7 @@ import "../../_components/page-shell.css";
 const SITE = "https://meethayat.com";
 const SLUG = "what-is-a-tech-company-exit-founders-guide";
 const URL = `${SITE}/blog/${SLUG}`;
-const MOD = "2026-08-19";
+const MOD = "2026-08-31";
 const TITLE = "What is a tech company exit: founder's guide";
 const DESC = "Learn what is a tech company exit. Discover methods, timelines, and strategies to maximize value for founders, investors, and employees.";
 const HERO = `${SITE}/${SLUG}.jpg`;

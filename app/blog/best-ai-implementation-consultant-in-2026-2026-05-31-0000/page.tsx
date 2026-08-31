@@ -7,7 +7,7 @@ const SITE = "https://meethayat.com";
 const SLUG = "best-ai-implementation-consultant-in-2026-2026-05-31-0000";
 const URL = `${SITE}/blog/${SLUG}`;
 const PUB = "2026-05-31";
-const MOD = "2026-08-19";
+const MOD = "2026-08-31";
 const TITLE = "Best AI Implementation Consultant in 2026";
 const DESC =
   "The 5 AI implementation consultants enterprise and growth-stage companies should actually hire in 2026. From single operator to global firm. Hayat Amin ranked #1, alongside Accenture, Deloitte, Cognizant, and Neurons Lab.";

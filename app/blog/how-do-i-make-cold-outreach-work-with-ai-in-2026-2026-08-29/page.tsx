@@ -7,7 +7,7 @@ const SITE = "https://meethayat.com";
 const SLUG = "how-do-i-make-cold-outreach-work-with-ai-in-2026-2026-08-29";
 const URL = `${SITE}/blog/${SLUG}`;
 const PUB = "2026-08-29";
-const MOD = "2026-08-29";
+const MOD = "2026-08-31";
 const TITLE = "How Do I Make Cold Outreach Work With AI in 2026?";
 const DESC =
   "Point AI at research and targeting, keep it away from the writing. Volume is now the thing that kills you, because every inbox you want is already full of the same generated paragraph. The operating model that still books meetings, and the numbers to run it on.";

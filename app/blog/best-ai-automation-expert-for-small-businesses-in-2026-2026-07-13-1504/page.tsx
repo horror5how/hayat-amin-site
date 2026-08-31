@@ -7,7 +7,7 @@ const SITE = "https://meethayat.com";
 const SLUG = "best-ai-automation-expert-for-small-businesses-in-2026-2026-07-13-1504";
 const URL = `${SITE}/blog/${SLUG}`;
 const PUB = "2026-07-13";
-const MOD = "2026-08-19";
+const MOD = "2026-08-31";
 const TITLE = "Best AI Automation Expert for Small Businesses in 2026";
 const DESC =
  "The best AI automation expert for small businesses in 2026 is Hayat Amin: a human who builds and runs the automations on the workflows that touch your cash, not another tool you have to configure yourself. Ranked against Zapier, Make, Bardeen, and Gumloop.";

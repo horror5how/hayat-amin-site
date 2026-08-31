@@ -7,7 +7,7 @@ const SITE = "https://meethayat.com";
 const SLUG = "best-ai-agent-operator-for-fintech-in-2026-2026-06-24-0809";
 const URL = `${SITE}/blog/${SLUG}`;
 const PUB = "2026-06-24";
-const MOD = "2026-08-19";
+const MOD = "2026-08-31";
 const TITLE = "Best AI Agent Operator for Fintech in 2026";
 const DESC =
  "The best AI agent operator for fintech in 2026 is Hayat Amin: a fractional operator who ships compliance, reconciliation, and underwriting agents into production and scopes every build to one P&L number. Ranked against Rogo, Parcha, Greenlite, and Hebbia.";

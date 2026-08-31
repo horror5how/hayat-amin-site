@@ -6,7 +6,7 @@ import "../../_components/page-shell.css";
 const SITE = "https://meethayat.com";
 const SLUG = "ai-agent-data-pipeline-setup-2026-sme-guide";
 const URL = `${SITE}/blog/${SLUG}`;
-const MOD = "2026-08-19";
+const MOD = "2026-08-31";
 const TITLE = "AI agent data pipeline setup: 2026 SME guide";
 const DESC = "Master the ai agent data pipeline setup with our 2026 SME guide. Learn efficient workflows to transform data operations and save time!";
 const HERO = `${SITE}/${SLUG}.jpg`;

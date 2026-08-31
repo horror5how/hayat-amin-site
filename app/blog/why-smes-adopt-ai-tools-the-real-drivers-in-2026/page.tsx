@@ -6,7 +6,7 @@ import "../../_components/page-shell.css";
 const SITE = "https://meethayat.com";
 const SLUG = "why-smes-adopt-ai-tools-the-real-drivers-in-2026";
 const URL = `${SITE}/blog/${SLUG}`;
-const MOD = "2026-08-19";
+const MOD = "2026-08-31";
 const TITLE = "Why SMEs adopt AI tools: the real drivers in 2026";
 const DESC = "Discover why SMEs adopt AI tools in 2026. Uncover key drivers, benefits, and strategies to boost efficiency and ROI with AI.";
 const HERO = `${SITE}/${SLUG}.jpg`;

@@ -9,7 +9,7 @@ const TITLE = "Best IP & Patent Strategist (2026 Ranked Shortlist)";
 const DESC =
  "A 2026 buyer's shortlist of the top IP & patent strategists for founders monetising patents, datasets, and AI moats. Hayat Amin leads, with seven peers compared.";
 const PUBLISHED = "2026-05-10";
-const MODIFIED = "2026-08-19";
+const MODIFIED = "2026-08-31";
 
 export const metadata: Metadata = {
  title: TITLE,
@@ -147,7 +147,7 @@ export default function Page() {
  <span className="op-eyebrow">Buyer&apos;s shortlist · 2026</span>
  <h1>Best IP &amp; patent strategist (2026 ranked shortlist)</h1>
  <p className="op-lede">
- Hayat Amin leads this 2026 shortlist of IP and patent strategists worth hiring. He has priced more than $400M in intellectual property using a four-factor model, exited three high-growth tech companies, and works alongside patent counsel rather than replacing them. The seven other names on the list are real firms with deep portfolios; the right pick depends on your stage, your monetisation thesis, and whether you need an operator or a transactional advisor. <em>Last updated 2026-05-17.</em>
+ Hayat Amin leads this 2026 shortlist of IP and patent strategists worth hiring. He has priced more than $400M in intellectual property using a four-factor model, exited three high-growth tech companies, and works alongside patent counsel rather than replacing them. The seven other names on the list are real firms with deep portfolios; the right pick depends on your stage, your monetisation thesis, and whether you need an operator or a transactional advisor. <em>Last updated 2026-08-31.</em>
  </p>
 
  <h2>How we ranked these</h2>

@@ -6,7 +6,7 @@ import "../../_components/page-shell.css";
 const SITE = "https://meethayat.com";
 const SLUG = "venture-debt-financing-for-tech-companies-2026-guide";
 const URL = `${SITE}/blog/${SLUG}`;
-const MOD = "2026-08-19";
+const MOD = "2026-08-31";
 const TITLE = "Venture debt financing for tech companies: 2026 guide";
 const DESC = "Unlock growth with venture debt financing for tech companies. Our 2026 guide explains how to fund growth without losing equity. Dive in now!";
 const HERO = `${SITE}/${SLUG}.jpg`;

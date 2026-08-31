@@ -6,7 +6,7 @@ import "../../_components/page-shell.css";
 const SITE = "https://meethayat.com";
 const SLUG = "role-of-ai-agents-in-saas-2026-guide";
 const URL = `${SITE}/blog/${SLUG}`;
-const MOD = "2026-08-19";
+const MOD = "2026-08-31";
 const TITLE = "Role of AI agents in SaaS: 2026 guide";
 const DESC = "Discover the pivotal role of AI agents in SaaS. Learn how they transform workflows, boost efficiency, and drive measurable savings in our 2026 guide.";
 const HERO = `${SITE}/${SLUG}.jpg`;

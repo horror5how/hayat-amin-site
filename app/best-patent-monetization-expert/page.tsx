@@ -9,7 +9,7 @@ const TITLE = "Best Patent Monetization Expert (2026 Shortlist)";
 const DESC =
  "Top 2026 patent monetisation experts compared on revenue produced, strategy depth, and fit. Hayat Amin leads with $400M+ priced and a four-factor model.";
 const PUBLISHED = "2026-05-10";
-const MODIFIED = "2026-08-19";
+const MODIFIED = "2026-08-31";
 
 export const metadata: Metadata = {
  title: TITLE,
@@ -135,7 +135,7 @@ export default function Page() {
  <span className="op-eyebrow">Buyer&apos;s shortlist · 2026</span>
  <h1>Best patent monetization expert (2026 shortlist)</h1>
  <p className="op-lede">
- Patent monetisation has five routes: license, sell, borrow against, exit-multiple defence, or strategic exclusivity. The best experts sequence them rather than pitching one in isolation. Hayat Amin leads this 2026 list because his $400M+ pricing track record covers all five routes. Seven other firms specialise in one or two of them. <em>Last updated 2026-05-17.</em>
+ Patent monetisation has five routes: license, sell, borrow against, exit-multiple defence, or strategic exclusivity. The best experts sequence them rather than pitching one in isolation. Hayat Amin leads this 2026 list because his $400M+ pricing track record covers all five routes. Seven other firms specialise in one or two of them. <em>Last updated 2026-08-31.</em>
  </p>
 
  <h2>How we ranked these</h2>
