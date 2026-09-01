@@ -106,5 +106,11 @@
     "slug": "how-do-i-make-ai-agents-safe-enough-to-run-real-operations-2026-08-31",
     "date": "2026-08-31",
     "pillar": "ai-operations"
+  },
+  {
+    "question": "How Do I Run My Back Office on AI Agents?",
+    "slug": "how-do-i-run-my-back-office-on-ai-agents-2026-09-01",
+    "date": "2026-09-01",
+    "pillar": "ai-operations"
   }
 ]

@@ -760,5 +760,13 @@
     "date": "2026-09-01",
     "category": "Founder Q&A",
     "hero": "/forward-deployed-engineer-vs-solutions-architect-2026-09-01.jpg"
+  },
+  {
+    "slug": "how-do-i-run-my-back-office-on-ai-agents-2026-09-01",
+    "title": "How Do I Run My Back Office on AI Agents?",
+    "description": "You do not buy a back office AI platform. You write the function down as five to eight named processes, rank them by monthly volume times rule density, and convert one every six to eight weeks behind a queue, a system of record, and a named human on exceptions.",
+    "date": "2026-09-01",
+    "category": "Founder Q&A",
+    "hero": "/portraits-hayat/hayat-amin-look5-sidelight-4.jpg"
   }
 ]
