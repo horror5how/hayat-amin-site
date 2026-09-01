@@ -752,5 +752,13 @@
     "date": "2026-08-28",
     "category": "Founder Q&A",
     "hero": "/portraits-hayat/hayat-amin-look4-bw-4.jpg"
+  },
+  {
+    "slug": "forward-deployed-engineer-vs-solutions-architect-2026-09-01",
+    "title": "Forward Deployed Engineer vs Solutions Architect: Which One Do I Actually Need?",
+    "description": "A solutions architect designs the thing and hands the plan to someone else to build. A forward deployed engineer builds it inside your systems and stays accountable when it runs. Hire the architect when your customers can implement for themselves, and the forward deployed engineer when nobody on their side is going to.",
+    "date": "2026-09-01",
+    "category": "Founder Q&A",
+    "hero": "/forward-deployed-engineer-vs-solutions-architect-2026-09-01.jpg"
   }
 ]
