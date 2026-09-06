@@ -768,5 +768,13 @@
     "date": "2026-09-01",
     "category": "Founder Q&A",
     "hero": "/portraits-hayat/hayat-amin-look5-sidelight-4.jpg"
+  },
+  {
+    "slug": "forward-deployed-engineer-vs-sales-engineer-2026-09-06",
+    "title": "Forward Deployed Engineer vs Sales Engineer: Which One Do You Hire?",
+    "description": "A sales engineer is paid to win the deal. A forward deployed engineer is paid to make what you sold actually run. The line between the two is the signature. Hire the sales engineer when deals die in the evaluation, and the forward deployed engineer when deals close and nothing goes live.",
+    "date": "2026-09-06",
+    "category": "Founder Q&A",
+    "hero": "/forward-deployed-engineer-vs-sales-engineer-2026-09-06.jpg"
   }
 ]
