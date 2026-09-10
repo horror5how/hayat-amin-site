@@ -776,5 +776,13 @@
     "date": "2026-09-06",
     "category": "Founder Q&A",
     "hero": "/forward-deployed-engineer-vs-sales-engineer-2026-09-06.jpg"
+  },
+  {
+    "slug": "forward-deployed-engineer-vs-project-manager-2026-09-11",
+    "title": "Forward Deployed Engineer vs Project Manager: Who Actually Builds It?",
+    "description": "A project manager coordinates the people who build. A forward deployed engineer is one of the people who build. The federal definition of the project management job is to lead and guide the work of technical staff, so if you have no technical staff on the problem, there is nothing to coordinate. Hire on that, not on the titles.",
+    "date": "2026-09-11",
+    "category": "Founder Q&A",
+    "hero": "/forward-deployed-engineer-vs-project-manager-2026-09-11.jpg"
   }
 ]
