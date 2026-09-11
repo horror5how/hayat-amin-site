@@ -784,5 +784,13 @@
     "date": "2026-09-11",
     "category": "Founder Q&A",
     "hero": "/forward-deployed-engineer-vs-project-manager-2026-09-11.jpg"
+  },
+  {
+    "slug": "what-is-a-forward-deployed-engineer-2026-09-12",
+    "title": "What Is a Forward Deployed Engineer? I Read All 240 Open Roles at 10 Companies",
+    "description": "A forward deployed engineer is a senior engineer who stops building inside their own company and starts building inside yours, with write access, in production, still accountable after the invoice. I counted every open role at ten companies on 12 September 2026: 3,723 open jobs, 240 of them forward deployed, and read what each one actually asks for.",
+    "date": "2026-09-12",
+    "category": "Founder Q&A",
+    "hero": "/what-is-a-forward-deployed-engineer-2026-09-12.jpg"
   }
 ]
