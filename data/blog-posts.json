@@ -792,5 +792,13 @@
     "date": "2026-09-12",
     "category": "Founder Q&A",
     "hero": "/what-is-a-forward-deployed-engineer-2026-09-12.jpg"
+  },
+  {
+    "slug": "what-is-ai-operations-2026-09-12",
+    "title": "What Is AI Operations? The Work 64% of Companies Using AI Have Skipped",
+    "description": "AI operations is the work of making artificial intelligence part of how a company actually runs: choosing the functions it touches, rebuilding the workflows around it, owning its data, and keeping the result alive in production. The United States Census Bureau measured that work in early 2026 and found 64 percent of AI-using businesses had made no organisational adjustment at all.",
+    "date": "2026-09-12",
+    "category": "Founder Q&A",
+    "hero": "/what-is-ai-operations-2026-09-12.jpg"
   }
 ]
