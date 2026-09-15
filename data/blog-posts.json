@@ -800,5 +800,13 @@
     "date": "2026-09-12",
     "category": "Founder Q&A",
     "hero": "/what-is-ai-operations-2026-09-12.jpg"
+  },
+  {
+    "slug": "construction-company-kpis-live-dashboard-2026-09-15",
+    "title": "Construction Company KPIs: The 9 Numbers I Would Put on a Live Dashboard",
+    "description": "Nine construction KPIs worth wiring to a live dashboard, and the system each one is currently trapped in: cost to complete, percent complete by cost, the over and under billing position, committed cost not yet invoiced, unapproved change orders and their age, field hours by cost code, days from pay application to cash by general contractor, retainage by age, and gross margin in backlog. Why the month end version of each one arrives too late to change anything.",
+    "date": "2026-09-15",
+    "category": "AI Operator for SMEs",
+    "hero": "/construction-company-kpis-live-dashboard-2026-09-15.jpg"
   }
 ]
