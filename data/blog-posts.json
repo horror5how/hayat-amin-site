@@ -808,5 +808,13 @@
     "date": "2026-09-15",
     "category": "AI Operator for SMEs",
     "hero": "/construction-company-kpis-live-dashboard-2026-09-15.jpg"
+  },
+  {
+    "slug": "do-forward-deployed-engineers-code-2026-09-16",
+    "title": "Do Forward Deployed Engineers Code? I Read 7 Live Job Postings and Counted",
+    "description": "Yes, and every forward deployed engineer posting I read on 16 September 2026 asks for a strong coder who ships production code inside the customer's systems. Palantir wants a strong coder in Python, Java, C++ or TypeScript. Anthropic wants production applications built with Claude models inside customer systems. Datadog wants an engineer who writes code with customers rather than advising them, and Databricks wants production-grade systems from someone billable. The confusion comes from a seventh job Palantir advertises into the same account that does not code, pays $25,000 less at the floor, and travels more.",
+    "date": "2026-09-16",
+    "category": "Founder Q&A",
+    "hero": "/do-forward-deployed-engineers-code-2026-09-16.jpg"
   }
 ]
