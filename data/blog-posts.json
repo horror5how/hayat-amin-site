@@ -816,5 +816,13 @@
     "date": "2026-09-16",
     "category": "Founder Q&A",
     "hero": "/do-forward-deployed-engineers-code-2026-09-16.jpg"
+  },
+  {
+    "slug": "do-forward-deployed-engineers-travel-2026-09-17",
+    "title": "Do Forward Deployed Engineers Travel? I Counted the Travel Line in 108 Live Postings",
+    "description": "Yes, and the median ceiling is half your time. On 17 September 2026 I read 108 live forward deployed job postings at Palantir, OpenAI, Anthropic, Datadog, Databricks and Sitreps. 71 name a travel figure, 50 of those 71 stop at 50 percent, the lowest is 10 to 20 percent in Vilnius and the highest is 70 to 90 percent on a NATO account in London. The travel sits on top of an office rather than instead of one: 20 of OpenAI's 21 postings require 3 days a week in the office as well, and exactly one posting in 105 at the three biggest names mentions remote work.",
+    "date": "2026-09-17",
+    "category": "Founder Q&A",
+    "hero": "/do-forward-deployed-engineers-travel-2026-09-17.jpg"
   }
 ]
