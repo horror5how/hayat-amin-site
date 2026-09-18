@@ -824,5 +824,13 @@
     "date": "2026-09-17",
     "category": "Founder Q&A",
     "hero": "/do-forward-deployed-engineers-travel-2026-09-17.jpg"
+  },
+  {
+    "slug": "how-is-ai-implemented-2026-09-18",
+    "title": "How Is AI Implemented? The 9 Steps, Counted Across 5 Published Frameworks",
+    "description": "In nine steps, and five of them happen before anybody writes a prompt. On 18 September 2026 I read the five most cited published frameworks end to end: Microsoft's Cloud Adoption Framework for AI, Google Cloud's AI Adoption Framework, the AWS Well-Architected Machine Learning Lens, the NIST AI Risk Management Framework and CRISP-DM. Between them they name 28 stages. Three of the five open with the business problem, 2 of the 28 use the word deployment, and none of the 28 uses the word integration, which is what MIT's NANDA study blames for 95 percent of enterprise pilots returning nothing measurable.",
+    "date": "2026-09-18",
+    "category": "AI Operator for SMEs",
+    "hero": "/how-is-ai-implemented-2026-09-18.jpg"
   }
 ]
