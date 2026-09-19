@@ -316,9 +316,8 @@ export default function Page() {
       <p>
         So Palantir is hiring 76 engineers to build its product and 64 engineers to
         go and build inside its customers. That ratio is the answer to what a
-        forward deployed engineer is at Palantir. It is not a support function
-        bolted onto a software company. It is half the engineering organisation,
-        and it has its own name.
+        forward deployed engineer is at Palantir. Half the engineering
+        organisation does this job, and it has its own name inside the building.
       </p>
       <p>
         Palantir has described Delta in its own words before. The Pragmatic
@@ -335,7 +334,7 @@ export default function Page() {
         product vendor sells you one by default.
       </p>
 
-      <h2>It is not one job, it is seven disciplines and 42 titles</h2>
+      <h2>Seven engineering disciplines and 42 separate titles</h2>
       <p>
         The 77 postings break into seven named engineering disciplines. Software is
         56 of them. Then Infrastructure at 9, Enablement at 3, AI at 2,
@@ -394,7 +393,7 @@ export default function Page() {
 
       <h2>Six months of experience, not fifteen years</h2>
       <p>
-        Here is the number that should change how you buy this work. 64 of the 77
+        This is the number that should change how you buy the work. 64 of the 77
         postings name no years-of-experience requirement at all. The New York
         Forward Deployed Software Engineer asks for 1+ years of relevant
         post-college work experience. The London one asks for 6+ months. Only 2
@@ -412,8 +411,8 @@ export default function Page() {
         buys a very sharp graduate and then puts them in a room with a customer,
         which works because Palantir supplies the platform, the playbook and the
         senior cover around them. That is the part people miss when they try to
-        reproduce it. The role is not a person you hire, it is a system you have to
-        already own.
+        reproduce it. The system around the engineer is what makes the engineer
+        work, and you cannot hire the system.
       </p>
 
       <h2>Two thirds of it happens behind a security gate</h2>
