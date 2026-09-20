@@ -1,5 +1,13 @@
 [
   {
+    "slug": "what-is-a-forward-deployed-product-manager-2026-09-20",
+    "title": "What Is a Forward Deployed Product Manager? All 9 Live Jobs, Counted",
+    "description": "A forward deployed product manager owns the product outcome inside one customer's building, and the forward deployed engineer builds it. On 20 September 2026 I read 6,034 live postings from 29 employers' own job feeds. 299 are forward deployed, 186 are product manager roles, and exactly 9 are both, at Scale AI, Cresta, Ode with Anthropic and Abridge. Palantir, which invented forward deployment, has 313 live roles and not one product manager of any kind. The published pay runs from $130,000 to $345,000.",
+    "date": "2026-09-20",
+    "category": "Founder Q&A",
+    "hero": "/what-is-a-forward-deployed-product-manager-2026-09-20.jpg"
+  },
+  {
     "slug": "how-do-i-make-ai-agents-safe-enough-to-run-real-operations-2026-08-31",
     "title": "How Do I Make AI Agents Safe Enough to Run Real Operations?",
     "description": "Agent safety is a permissions problem, not a model problem. Bound what the agent can touch, log every action, cap the blast radius in money, and put a named human on the exceptions. The five controls that let a CFO and a general counsel sign off.",
