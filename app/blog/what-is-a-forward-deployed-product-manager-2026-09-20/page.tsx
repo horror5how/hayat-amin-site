@@ -575,18 +575,19 @@ export default function Page() {
         deployed or otherwise, is zero. Not one, in 313.
       </p>
       <p>
-        That is not an oversight. Palantir has 35 live Deployment Strategist
-        roles, and the Deployment Strategist is the same chair under an older
-        name: the person who works out what the customer needs while the
-        Forward Deployed Software Engineer builds it. The New York bands, read
-        this morning, are $110,000 to $170,000 for the Deployment Strategist and
-        $135,000 to $200,000 for the engineer.
+        Palantir uses an older name for the chair. It has 35 live Deployment
+        Strategist roles, and the Deployment Strategist is the person who works
+        out what the customer needs while the Forward Deployed Software
+        Engineer builds it. The New York bands, read this morning, are $110,000
+        to $170,000 for the Deployment Strategist and $135,000 to $200,000 for
+        the engineer.
       </p>
       <p>
         Hold that against Scale AI paying $240,000 to $300,000 base for the same
-        chair in the same city. The gap is not a pay rise. It is a different
-        buyer. Palantir hires young into a twenty year old apprenticeship and
-        promotes through it. Scale, Abridge and Ode are buying someone who has
+        chair in the same city. The two bands sit exactly $130,000 apart at both
+        ends, which is my subtraction off their published numbers. That distance
+        measures a different buyer. Palantir hires young into a twenty year old
+        apprenticeship and promotes through it. Scale, Abridge and Ode are buying someone who has
         already carried an enterprise deployment to production somewhere else,
         because they do not have twenty years to train one. That is what the
         new title is actually signalling, and it is why it arrived at
