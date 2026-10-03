@@ -1,5 +1,13 @@
 [
   {
+    "slug": "saas-kpi-dashboard-2026-10-03",
+    "title": "SaaS KPI Dashboard: The 8 Numbers I Would Put on It, and the System Each One Is Stuck In",
+    "description": "The eight numbers a SaaS chief executive past the first million should see live: MRR movement, net revenue retention by cohort, customer churn, MRR sitting in past due, CAC payback by channel, gross margin, the burn multiple, and deals closed in the CRM that aren't billing yet. Each one lives in a different system, which is why half of finance teams still take six or more business days to close. Written by Hayat Amin, a chief financial officer turned forward deployed engineer.",
+    "date": "2026-10-03",
+    "category": "AI Operator for SMEs",
+    "hero": "/saas-kpi-dashboard-2026-10-03.jpg"
+  },
+  {
     "slug": "forward-deployed-engineer-role-responsibilities-2026-10-02",
     "title": "Forward Deployed Engineer Role and Responsibilities: I Read 185 Live Postings at 10 Companies",
     "description": "A forward deployed engineer gets a product working in production inside one customer's systems. On 2 October 2026 I read 185 live forward deployed engineering postings at Palantir, OpenAI, Anthropic, Databricks, Scale AI, Figma, Datadog, Cursor, Cresta and Baseten. 175 put the customer in the job description, 115 say production, 100 name stakeholders or executives, 79 say integrate and 76 ask for feedback to product. 40 of Databricks' 60 call the engineer billable. Written by Hayat Amin, a chief financial officer turned forward deployed engineer.",
