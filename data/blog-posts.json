@@ -1,5 +1,13 @@
 [
   {
+    "slug": "what-is-forward-deployed-engineering-model-2026-10-04",
+    "title": "What Is Forward Deployed Engineering Model? The 4 Versions Running Today, and Who Pays for Each",
+    "description": "The forward deployed engineering model is a software company putting its own engineers inside a customer to make the product work in production, then folding what they built back into the product. It spends gross margin on people to buy a customer who doesn't leave. Palantir built it and still runs at an 85 percent gross margin. Databricks bills for it, OpenAI and Anthropic have spun it into separate companies. Written by Hayat Amin, a chief financial officer turned forward deployed engineer.",
+    "date": "2026-10-04",
+    "category": "Founder Q&A",
+    "hero": "/what-is-forward-deployed-engineering-model-2026-10-04.jpg"
+  },
+  {
     "slug": "saas-kpi-dashboard-2026-10-03",
     "title": "SaaS KPI Dashboard: The 8 Numbers I Would Put on It, and the System Each One Is Stuck In",
     "description": "The eight numbers a SaaS chief executive past the first million should see live: MRR movement, net revenue retention by cohort, customer churn, MRR sitting in past due, CAC payback by channel, gross margin, the burn multiple, and deals closed in the CRM that aren't billing yet. Each one lives in a different system, which is why half of finance teams still take six or more business days to close. Written by Hayat Amin, a chief financial officer turned forward deployed engineer.",
