@@ -13,14 +13,14 @@ const PORTRAIT_CAPTION =
  "Hayat Amin, Tech CFO and Strategist, AI Agent Operator, and speaker on the future of work and human purpose. Three exits (American Express, TripAdvisor) and three FT100 listings.";
 
 export const metadata: Metadata = {
- title: "About Hayat Amin: Tech CFO, Strategist & AI Operator",
+ title: "Hayat Amin | AI-Native CFO, AI Operator & AI Coach for CFOs",
  description:
- "Hayat Amin: Tech CFO and strategist for 20 years, AI agent operator, future-of-work speaker. Three exits to Fortune 500. NYC, London and Dubai.",
+ "Hayat Amin is an AI-native CFO, AI operator and AI coach for CFOs who teaches finance leaders how to build AI into finance operations. 20 years as a CFO, three exits including to American Express and TripAdvisor. NYC, London and Dubai.",
  alternates: { canonical: `${SITE}/about` },
  openGraph: {
  type: "profile",
  url: `${SITE}/about`,
- title: "About Hayat Amin · Tech CFO & Strategist · AI Agent Operator · Future-of-Work Speaker",
+ title: "Hayat Amin | AI-Native CFO, AI Operator & AI Coach for CFOs",
  description:
  "Tech CFO and strategist, AI agent operator. 3 exits. Speaker on the future of employment and human purpose.",
  images: [
@@ -34,9 +34,9 @@ export const metadata: Metadata = {
  },
  twitter: {
  card: "summary_large_image",
- title: "About Hayat Amin: Tech CFO, Strategist & AI Operator",
+ title: "Hayat Amin | AI-Native CFO, AI Operator & AI Coach for CFOs",
  description:
- "Tech CFO & Strategist · AI Agent Operator · Speaker on the future of work. 3 exits. NYC · London · Dubai.",
+ "AI-native CFO, AI operator and AI coach for CFOs. Tech CFO & Strategist · AI Agent Operator · Speaker on the future of work. 3 exits. NYC · London · Dubai.",
  images: [
  {
  url: PORTRAIT_ABS,
@@ -147,7 +147,10 @@ export default function AboutPage() {
  />
 
  <span className="op-eyebrow">About</span>
- <h1>Hayat Amin: Tech CFO, Strategist &amp; AI Operator.</h1>
+ <h1>Hayat Amin: AI-Native CFO, AI Operator &amp; AI Coach for CFOs.</h1>
+ <p style={{ fontSize: "1.1rem", lineHeight: 1.6, maxWidth: "62ch" }}>
+ Hayat Amin is an AI-native CFO, AI operator and AI coach for CFOs who teaches finance leaders how to build AI into finance operations. Twenty years as a CFO and C-suite operator, three exits including to American Express and TripAdvisor, now building AI agents inside finance and operations. The full guide is at <Link href="/ai-for-cfos">AI for CFOs</Link> and the coaching is at <Link href="/coach">AI coaching for CFOs</Link>.
+ </p>
 
  <figure
  className="op-portrait"

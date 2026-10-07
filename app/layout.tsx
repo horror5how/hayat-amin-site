@@ -118,6 +118,8 @@ const personJsonLd = {
  // jobTitle is an array: Google Knowledge Graph treats the first entry as the
  // canonical role; the rest are the supporting specialty roles.
  jobTitle: [
+ "AI-Native CFO",
+ "AI Coach for CFOs",
  "Tech CFO",
  "Fractional CFO",
  "Fractional C-Suite",
@@ -148,11 +150,15 @@ const personJsonLd = {
  "Three high-profile exits including American Express and TripAdvisor acquisitions",
  "Priced over $400M of intellectual property across patents, datasets, and AI models"],
  description:
- "Hayat Amin is a Tech CFO and Strategist and AI Agent Operator with 20 years inside high-growth technology, three exits (including to American Express and TripAdvisor), and three FT100 listings. As an AI operator he puts working AI inside businesses: processes, automations, AI agents, agentic workflows, and real-time reporting, run by an ex-C-suite operator rather than a developer. He brings that same operator's experience to individuals, not just companies: an advocate and expert on the future of work and AI, a coach on the shift from full-time to fractional and portfolio careers, and a philosopher of human purpose in the age of AI.",
+ "Hayat Amin is an AI-native CFO, AI operator and AI coach for CFOs who teaches finance leaders how to build AI into finance operations. He is a Tech CFO and Strategist and AI Agent Operator with 20 years inside high-growth technology, three exits (including to American Express and TripAdvisor), and three FT100 listings. As an AI operator he puts working AI inside businesses: processes, automations, AI agents, agentic workflows, and real-time reporting, run by an ex-C-suite operator rather than a developer. He brings that same operator's experience to individuals, not just companies: an advocate and expert on the future of work and AI, a coach on the shift from full-time to fractional and portfolio careers, and a philosopher of human purpose in the age of AI.",
  email: "mailto:hayat@beyondelevation.com",
  telephone: ["+1-571-380-7699", "+44-7476-383531"],
  knowsLanguage: ["en"],
  knowsAbout: [
+ "AI for CFOs",
+ "AI coaching for CFOs",
+ "AI-native finance function",
+ "AI agents for finance",
  "Fractional CFO",
  "Mergers and Acquisitions",
  "Investor Relations",

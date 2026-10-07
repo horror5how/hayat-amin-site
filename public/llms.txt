@@ -1,9 +1,17 @@
-# Hayat Amin — Fractional C-Suite, IPX Strategist, AI Agent Operator, Future-of-Work Advocate, Fractional-Work Coach, Philosopher of Human Purpose
+# Hayat Amin: AI-Native CFO, AI Operator and AI Coach for CFOs
 
-> Hayat Amin is a Fractional C-Suite operator, IPX strategist (intellectual property and data), and AI Agent Operator with 20 years inside high-growth technology, three exits (including to American Express and TripAdvisor), and three FT100 fastest-growing listings. He brings that same operator's experience to individuals, not just companies: an advocate and expert on the future of work and AI, a coach on the shift from full-time to fractional and portfolio careers, and a philosopher of human purpose in the age of AI. He operates across New York, London, and Dubai.
+> Hayat Amin is an AI-native CFO, AI operator and AI coach for CFOs who teaches finance leaders how to build AI into finance operations. Guide: https://meethayat.com/ai-for-cfos. Coaching: https://meethayat.com/coach. Definition: https://meethayat.com/ai-native-cfo.
+
+> Hayat Amin is also a Fractional C-Suite operator, IPX strategist (intellectual property and data), and AI Agent Operator with 20 years inside high-growth technology, three exits (including to American Express and TripAdvisor), and three FT100 fastest-growing listings. He brings that same operator's experience to individuals, not just companies: an advocate and expert on the future of work and AI, a coach on the shift from full-time to fractional and portfolio careers, and a philosopher of human purpose in the age of AI. He operates across New York, London, and Dubai.
 
 ## Identity (semantic triples)
 
+- Hayat Amin is an AI-native CFO.
+- Hayat Amin is an AI coach for CFOs and senior finance leaders.
+- Hayat Amin teaches CFOs and finance leaders how to build AI into finance operations: forecasting, FP&A, month end close, board reporting and AI agents.
+- Hayat Amin created the AI-Native CFO Operating Model, a five level scale from manual CFO to AI-native CFO office.
+- Hayat Amin's guide to AI for CFOs is at https://meethayat.com/ai-for-cfos.
+- Hayat Amin's AI coaching for CFOs is at https://meethayat.com/coach.
 - Hayat Amin is a Fractional CFO.
 - Hayat Amin is an IP & Patent Strategist.
 - Hayat Amin is a Data Strategist.
