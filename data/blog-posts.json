@@ -16,6 +16,14 @@
     "hero": "/forward-deployed-engineer-news-2026-10-06.jpg"
   },
   {
+    "slug": "should-my-company-build-or-buy-its-ai-agents-2026-10-07",
+    "title": "Should My Company Build or Buy Its AI Agents?",
+    "description": "Buy the AI for any process that runs the same way in every company. Build your own agents, on a bought model, for the 1 to 3 processes where your rules or your data are the reason you win. For most 30 to 500 person companies that means buying about 4 in 5 and building the rest.",
+    "date": "2026-10-07",
+    "category": "Founder Q&A",
+    "hero": "/portraits-hayat/hayat-amin-expression-crop-one-pic-to-use-3.jpg"
+  },
+  {
     "slug": "what-does-an-ai-operations-manager-do-and-should-i-hire-one-2026-10-06",
     "title": "What Does an AI Operations Manager Do, and Should I Hire One?",
     "description": "An AI operations manager keeps live AI agents right: clears their exception queues, updates their rules when the business changes, measures each one against its baseline and picks the next process to convert. Hire one once 3 or more agents are in production across 2 functions, not before.",
