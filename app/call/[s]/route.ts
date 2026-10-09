@@ -1,12 +1,12 @@
 import { NextRequest, NextResponse } from "next/server";
 
-// Booking link source tracker. Logs the click to PostHog, then 302s to Motion.
+// Booking link source tracker. Logs the click to PostHog, then 302s to the booking page on meethayat.com.
 // One handler serves every channel: /call/li, /call/web, /call/me.
 // PostHog project key is public (write-only capture) — shared with beyondelevation so all bookings land in one dashboard.
 
 export const dynamic = "force-dynamic";
 
-const MOTION_URL = "https://usemotion.com/meet/hayat-amin/be";
+const BOOK_URL = "https://meethayat.com/call";
 const POSTHOG_KEY = "phc_CDKFjeVGfuEEid74UGx5CNwNFaqaijF8b6e9A6QhLruM";
 const POSTHOG_CAPTURE = "https://us.i.posthog.com/capture/";
 const SOURCES: Record<string, string> = { li: "LinkedIn", web: "Website", me: "Personal (Gmail)" };
@@ -35,5 +35,5 @@ export async function GET(req: NextRequest, { params }: { params: { s: string } 
     });
   } catch (_) { /* tracking must never break the booking */ }
 
-  return NextResponse.redirect(`${MOTION_URL}?ref=mh-${encodeURIComponent(code)}`, 302);
+  return NextResponse.redirect(`${BOOK_URL}?s=mh-${encodeURIComponent(code)}`, 302);
 }
