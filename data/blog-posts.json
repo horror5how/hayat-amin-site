@@ -952,5 +952,13 @@
     "date": "2026-09-19",
     "category": "Founder Q&A",
     "hero": "/what-is-a-forward-deployed-engineer-at-palantir-2026-09-19.jpg"
+  },
+  {
+    "slug": "palantir-delta-vs-echo-2026-10-11",
+    "title": "Palantir Delta vs Echo: I Read All 98 Live Roles on the Two Teams",
+    "description": "Delta is Palantir's team of Forward Deployed Software Engineers, who build inside the customer's systems. Echo is its team of Deployment Strategists, who find the problem, work the data with the users and present to the executives. On 11 October 2026 Palantir had 309 live roles: 66 on Delta, 32 on Echo and 85 on Dev. In New York Delta pays $135,000 to $200,000 and Echo $110,000 to $170,000, and Echo asks for up to three times the travel. Written by Hayat Amin, a chief financial officer turned forward deployed engineer.",
+    "date": "2026-10-11",
+    "category": "Founder Q&A",
+    "hero": "/palantir-delta-vs-echo-2026-10-11.jpg"
   }
 ]
