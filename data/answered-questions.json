@@ -130,5 +130,11 @@
     "slug": "should-my-company-build-or-buy-its-ai-agents-2026-10-07",
     "date": "2026-10-07",
     "pillar": "strategy-valuation"
+  },
+  {
+    "question": "How Do I Use Claude Agents to Run Business Operations?",
+    "slug": "how-do-i-use-claude-agents-to-run-business-operations-2026-10-12",
+    "date": "2026-10-12",
+    "pillar": "ai-operations"
   }
 ]

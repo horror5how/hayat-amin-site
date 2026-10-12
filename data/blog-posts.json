@@ -968,5 +968,13 @@
     "date": "2026-10-12",
     "category": "Founder Q&A",
     "hero": "/anthropic-forward-deployed-engineer-2026-10-12.jpg"
+  },
+  {
+    "slug": "how-do-i-use-claude-agents-to-run-business-operations-2026-10-12",
+    "title": "How Do I Use Claude Agents to Run Business Operations?",
+    "description": "Use Claude agents on one back office process at a time: run each one on a schedule through Claude Code or the Agent SDK, connect it to your systems over MCP with read access first, write its rules into files it loads every run, and give a named person its exception queue. Expect 6 to 8 weeks per process from shadow to live.",
+    "date": "2026-10-12",
+    "category": "Founder Q&A",
+    "hero": "/portraits-hayat/hayat-amin-pick1-founder-goldenhour-whitetee.jpg"
   }
 ]
