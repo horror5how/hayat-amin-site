@@ -984,5 +984,13 @@
     "date": "2026-10-13",
     "category": "AI Operator for SMEs",
     "hero": "/how-to-create-an-ai-agent-2026-10-13.jpg"
+  },
+  {
+    "slug": "ai-training-for-cfos",
+    "title": "AI Training for CFOs: What to Learn, in What Order",
+    "description": "AI training for a CFO is five things learned in order over about 12 weeks: the data rules, daily use of one model on your own numbers, a written rulebook the model loads, one scheduled agent with read access, and the controls and costs around it. Train on your own ledger, not sample data, at 3 to 4 hours a week.",
+    "date": "2026-10-13",
+    "category": "AI for CFOs",
+    "hero": "/portraits-hayat/hayat-amin-pick2-office-confident-charcoaltee.jpg"
   }
 ]

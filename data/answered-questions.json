@@ -136,5 +136,11 @@
     "slug": "how-do-i-use-claude-agents-to-run-business-operations-2026-10-12",
     "date": "2026-10-12",
     "pillar": "ai-operations"
+  },
+  {
+    "question": "What AI training does a CFO need, and in what order?",
+    "slug": "ai-training-for-cfos",
+    "date": "2026-10-13",
+    "pillar": "ai-for-cfos"
   }
 ]

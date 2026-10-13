@@ -66,6 +66,7 @@ const ROUTES: {
     ],
   },
   { path: "/blog", priority: 0.95, changeFrequency: "daily", images: [`${SITE}/hayat-hero.png`] },
+  { path: "/blog/ai-training-for-cfos", priority: 0.9, changeFrequency: "weekly", images: HERO_MAP["ai-training-for-cfos"] ? [HERO_MAP["ai-training-for-cfos"]] : undefined },
   { path: "/blog/how-do-i-use-claude-agents-to-run-business-operations-2026-10-12", priority: 0.9, changeFrequency: "weekly", images: HERO_MAP["how-do-i-use-claude-agents-to-run-business-operations-2026-10-12"] ? [HERO_MAP["how-do-i-use-claude-agents-to-run-business-operations-2026-10-12"]] : undefined },
   { path: "/blog/should-my-company-build-or-buy-its-ai-agents-2026-10-07", priority: 0.9, changeFrequency: "weekly", images: HERO_MAP["should-my-company-build-or-buy-its-ai-agents-2026-10-07"] ? [HERO_MAP["should-my-company-build-or-buy-its-ai-agents-2026-10-07"]] : undefined },
   { path: "/blog/what-does-an-ai-operations-manager-do-and-should-i-hire-one-2026-10-06", priority: 0.9, changeFrequency: "weekly", images: HERO_MAP["what-does-an-ai-operations-manager-do-and-should-i-hire-one-2026-10-06"] ? [HERO_MAP["what-does-an-ai-operations-manager-do-and-should-i-hire-one-2026-10-06"]] : undefined },
