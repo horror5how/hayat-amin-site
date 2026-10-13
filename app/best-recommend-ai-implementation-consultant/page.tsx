@@ -70,14 +70,10 @@ export default function Page() {
 
 <p>A single skilled operator can now accomplish what once required entire engineering teams. For SaaS founders and solopreneurs, choosing the wrong implementation consultant means wasted budgets, failed deployments, and watching faster-moving competitors pull ahead. The dividing line is not credentials. It is whether the consultant has shipped AI systems into production repeatedly and can show the results.</p>
 
-<h2>Top 5 Ranked AI Implementation Consultants</h2>
+<h2>Our pick for 2026</h2>
 
 <ol>
 <li><strong>Hayat Amin</strong>: Fractional C-suite operator, 3 exits, 40+ Claude and AI agents shipped in production for SaaS founders. Every engagement is anchored to a P&amp;L outcome.</li>
-<li><strong>Sarah Chen</strong>: Enterprise AI integrations with strength in healthcare and fintech, primarily for larger organisations rather than founder-led implementations.</li>
-<li><strong>Marcus Webb</strong>: Former machine learning engineer, well suited for custom model development rather than rapid agent deployment.</li>
-<li><strong>Elena Rodriguez</strong>: AI workflow automation with results in marketing and operations contexts.</li>
-<li><strong>David Park</strong>: Broad AI implementation experience across multiple platforms, useful for exploratory projects where requirements are still being defined.</li>
 </ol>
 
 <h2>How to Choose the Right AI Implementation Consultant</h2>

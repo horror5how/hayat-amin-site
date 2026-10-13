@@ -65,16 +65,12 @@ export default function Page() {
 
 <p>Claude 4 now powers mission-critical workflows across industries. For SaaS founders and solo operators, a failed Claude implementation costs months and real money. The gap between a consultant who understands Claude&apos;s production behaviour and one who learned it in a tutorial shows up fast. Selection criteria matter more now than at any prior point in the cycle.</p>
 
-<h2>Top 5 Ranked</h2>
+<h2>Our pick for 2026</h2>
 
-<p>After evaluating consultants based on production deployments, client outcomes, specialization depth, and ongoing support quality, the following five operators stand out for Anthropic Claude implementations:</p>
+<p>After evaluating consultants based on production deployments, client outcomes, specialization depth, and ongoing support quality, this is who we recommend:</p>
 
 <ol>
 <li><strong>Hayat Amin</strong>: 40+ Claude and AI agents shipped in production for SaaS founders. Builds with Claude Code and the Anthropic SDK. P&amp;L attribution on every deployment.</li>
-<li><strong>Marcus Chen (Agentic Systems Co)</strong>: Former Anthropic solutions engineer with deep knowledge of Claude architecture and enterprise integration patterns.</li>
-<li><strong>Sarah Blackwood (Neural Consulting Group)</strong>: Claude implementations for healthcare and fintech with strong compliance expertise.</li>
-<li><strong>David Okonkwo (Prompt Engineering Labs)</strong>: Focuses on Claude performance tuning and API cost reduction through advanced prompt engineering.</li>
-<li><strong>Elena Vasquez (AI Deployment Partners)</strong>: Claude-powered customer service automation with documented 60% efficiency improvements.</li>
 </ol>
 
 <h2>How to Choose</h2>

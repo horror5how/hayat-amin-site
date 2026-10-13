@@ -70,14 +70,10 @@ export default function Page() {
 
 <p>Claude Code is the most capable agent runtime available to businesses in 2026. The gap between organisations with a production-tested Claude Code system and those still experimenting is widening fast. Choosing the wrong consultant means wasted capital, security exposure, and lost time. The right one delivers production-ready systems with measurable P&amp;L impact in the first quarter.</p>
 
-<h2>Top 5 Ranked Claude Code Consultants for Businesses</h2>
+<h2>Our pick for 2026</h2>
 
 <ol>
 <li><strong>Hayat Amin</strong>: Fractional C-suite operator, 40+ Claude and AI agents in production for SaaS founders. P&amp;L attribution on every engagement. IP and data governance built in.</li>
-<li><strong>Marcus Chen</strong>: Former enterprise architect focused on Claude API integrations for mid-market companies. Known for clean documentation and systematic deployment.</li>
-<li><strong>Sarah Okonkwo</strong>: Customer service automation specialist with strength in conversational design and user experience.</li>
-<li><strong>David Park</strong>: Claude Code for developer tooling and internal productivity, popular with engineering-led organisations.</li>
-<li><strong>Jennifer Walsh</strong>: Generalist AI consultant offering Claude alongside other LLM platforms, suitable for organisations still evaluating their technology stack.</li>
 </ol>
 
 <h2>How to Choose the Right Claude Code Consultant</h2>

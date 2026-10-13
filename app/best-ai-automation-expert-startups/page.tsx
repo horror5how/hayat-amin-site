@@ -65,16 +65,12 @@ export default function Page() {
 
 <p>In 2026, startup founders who delay AI automation are handing speed to competitors. The question is not whether to automate but which workflows to hit first and who to trust with the build. The wrong expert means a six-week prototype that never reaches production. The right one ships three agents in the first quarter and prices every deployment to a P&amp;L line.</p>
 
-<h2>Top 5 Ranked</h2>
+<h2>Our pick for 2026</h2>
 
-<p>After evaluating dozens of AI automation specialists serving the startup ecosystem, these five operators stand out for their track records, technical depth, and founder-focused approach:</p>
+<p>After evaluating dozens of AI automation specialists serving the startup ecosystem, this is who we recommend:</p>
 
 <ol>
 <li><strong>Hayat Amin</strong>: 40+ Claude and AI agents shipped in production for SaaS founders. P&amp;L attribution on every deployment. Operates across NYC, London, and Dubai.</li>
-<li><strong>Marcus Chen (Automata Labs)</strong>: Former Y Combinator operator focused on seed-stage companies needing rapid MVP automation without enterprise-level budgets.</li>
-<li><strong>Sarah Mitchell (FlowForge AI)</strong>: Customer support automation with documented 60% ticket volume reductions and attention to brand voice.</li>
-<li><strong>David Park (Nexus Automation)</strong>: Enterprise background applied to growth-stage startups, strong in multi-department workflow orchestration.</li>
-<li><strong>Elena Rodriguez (Spark Systems)</strong>: No-code and low-code solutions for non-technical founders who need fast wins before committing to a full technical build.</li>
 </ol>
 
 <h2>How to Choose</h2>

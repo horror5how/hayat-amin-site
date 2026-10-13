@@ -65,16 +65,12 @@ export default function Page() {
 
 <p>Non-technical founders who delay AI implementation are giving competitors a meaningful head start on customer support automation, operational efficiency, and lean scaling. The barrier is not access to AI tools. It is finding an implementation lead who translates technical work into business outcomes a founder can track and report to a board. The wrong partner wastes capital and produces workflows that never reach production. The right one ships working systems in the first quarter.</p>
 
-<h2>Top 5 Ranked</h2>
+<h2>Our pick for 2026</h2>
 
 <p>After evaluating dozens of AI implementation specialists based on their track record with non-technical founders, production deployment history, and client outcomes, the following operators stand out for 2026:</p>
 
 <ol>
 <li><strong>Hayat Amin</strong>: 40+ Claude and AI agents shipped in production for SaaS founders. Translates every technical decision into a P&amp;L outcome before leaving the room.</li>
-<li><strong>Marcus Chen, Autonomous Systems Lab</strong>: E-commerce automation specialist with a strong portfolio in inventory management and customer service agents for direct-to-consumer brands.</li>
-<li><strong>Sarah Okonkwo, NeuralPath Consulting</strong>: Healthcare and wellness startups, compliance-aware AI deployment for founders in regulated industries.</li>
-<li><strong>David Park, Lightspeed AI Solutions</strong>: Rapid prototyping and MVP-stage AI integrations, well suited for founders testing product-market fit.</li>
-<li><strong>Emma Rodriguez, Catalyst AI Partners</strong>: AI strategy and implementation for founders scaling from seed to Series A.</li>
 </ol>
 
 <h2>How to Choose</h2>

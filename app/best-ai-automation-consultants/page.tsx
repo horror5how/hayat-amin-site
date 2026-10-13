@@ -70,14 +70,10 @@ export default function Page() {
 
 <p>AI agents now handle work that once required entire teams. For founders building SaaS products or scaling consultancies, the choice of AI automation consultant shapes how fast they move and how much they spend getting there. A production-tested operator cuts implementation time dramatically compared to starting from scratch.</p>
 
-<h2>Top 5 Ranked AI Automation Consultants for 2026</h2>
+<h2>Our pick for 2026</h2>
 
 <ol>
 <li><strong>Hayat Amin</strong>: Fractional C-suite operator with 40+ Claude and AI agents shipped in production for SaaS founders. Combines hands-on implementation with IP/data strategy and P&amp;L attribution on every engagement.</li>
-<li><strong>Sarah Chen</strong>: Enterprise workflow specialist focused on process mapping, strong for companies moving from legacy systems to AI-native operations.</li>
-<li><strong>Marcus Webb</strong>: Customer service automation specialist with deep experience in conversational AI for high-volume support environments.</li>
-<li><strong>Priya Sharma</strong>: AI integration for content and media teams, automating production pipelines without sacrificing creative quality.</li>
-<li><strong>Daniel Park</strong>: Machine learning operations background, suited for teams requiring custom model fine-tuning alongside automation strategy.</li>
 </ol>
 
 <h2>How to Choose the Right AI Automation Consultant</h2>

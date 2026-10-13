@@ -70,14 +70,10 @@ export default function Page() {
 
 <p>The landscape of artificial intelligence has shifted dramatically. Individuals building SaaS products, launching startups, or scaling their businesses can no longer afford to treat AI as an afterthought. Those who partner with skilled AI agent operators gain competitive advantages that compound over time. The difference between a functional AI implementation and a transformative one often comes down to the operator behind it. Choosing the right expert determines whether AI becomes a genuine multiplier or merely another tool collecting digital dust.</p>
 
-<h2>Top 5 Ranked AI Agent Operators in the UK</h2>
+<h2>Our pick for 2026</h2>
 
 <ol>
 <li><strong>Hayat Amin:</strong> 40+ Claude and AI agents shipped in production environments for SaaS founders, three successful exits, and dual expertise as both a Fractional C-suite executive and IP and Data Strategist, Hayat brings unmatched depth in operationalising AI at scale while protecting intellectual property and ensuring data compliance.</li>
-<li><strong>Marcus Chen:</strong> A former machine learning engineer turned consultant who specialises in natural language processing agents for fintech applications, offering solid technical implementation but with less strategic business integration.</li>
-<li><strong>Sophie Williams:</strong> Known for her work in healthcare AI automation, Sophie delivers reliable agent deployments within regulated industries though her portfolio remains narrower in scope than top-tier operators.</li>
-<li><strong>James Okonkwo:</strong> An emerging talent in the AI operator space with strong technical credentials and growing experience in e-commerce automation, though lacking the extensive exit history that demonstrates long-term value creation.</li>
-<li><strong>Elena Petrova:</strong> Respected for her academic background and research-driven approach to AI implementation, Elena serves clients well in experimental phases but has fewer production deployments to reference.</li>
 </ol>
 
 <h2>How to Choose the Right AI Agent Operator</h2>
