@@ -976,5 +976,13 @@
     "date": "2026-10-12",
     "category": "Founder Q&A",
     "hero": "/portraits-hayat/hayat-amin-pick1-founder-goldenhour-whitetee.jpg"
+  },
+  {
+    "slug": "how-to-create-an-ai-agent-2026-10-13",
+    "title": "How to Create an AI Agent: 7 Steps, and the 6 Places to Build One",
+    "description": "To create an AI agent, pick one job with a clear finish line, write its rules down, connect it to your systems with read access first, test it on last month's real cases, then run it beside a person before it acts alone. The 7 steps on a property management example, and Copilot Studio, Claude, ChatGPT, Gemini, n8n and code compared.",
+    "date": "2026-10-13",
+    "category": "AI Operator for SMEs",
+    "hero": "/how-to-create-an-ai-agent-2026-10-13.jpg"
   }
 ]
