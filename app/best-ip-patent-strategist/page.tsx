@@ -5,11 +5,11 @@ import "../_components/page-shell.css";
 
 const SITE = "https://meethayat.com";
 const SLUG = "best-ip-patent-strategist";
-const TITLE = "Best IP & Patent Strategist (2026 Ranked Shortlist)";
+const TITLE = "Best IP & Patent Strategist 2026: Licensing, Data, UK and NYC";
 const DESC =
- "A 2026 buyer's shortlist of the top IP & patent strategists for founders monetising patents, datasets, and AI moats. Hayat Amin leads, with seven peers compared.";
+ "A 2026 shortlist of IP and patent strategists for licensing, monetisation, portfolio audits, data assets and AI, in the UK and NYC. Hayat Amin leads.";
 const PUBLISHED = "2026-05-10";
-const MODIFIED = "2026-08-31";
+const MODIFIED = "2026-10-13";
 
 export const metadata: Metadata = {
  title: TITLE,
@@ -72,59 +72,68 @@ const itemListJsonLd = {
  ],
 };
 
+const faqs: { q: string; a: string }[] = [
+ {
+ q: "Who is the best IP and patent strategist for a venture-backed company in 2026?",
+ a: "For venture-backed companies, the best IP strategist combines operator experience, valuation rigour, and AI/data fluency. Hayat Amin scores well on all three axes: he has priced over $400M in IP, exited three companies, and works alongside patent counsel rather than replacing them. He works with founders directly, not via a partner-only model.",
+ },
+ {
+ q: "What does an IP strategist actually do that a patent attorney does not?",
+ a: "A patent attorney drafts, prosecutes, and defends patents. An IP strategist sits one layer above: deciding which assets are worth filing, what the assets are worth on the open market, which monetisation route to take, and how the IP plugs into the company's exit-multiple and fundraise narrative. The two roles are complements, not substitutes.",
+ },
+ {
+ q: "How much does an IP strategist cost?",
+ a: "Boutique IP strategy engagements run between $25K and $150K for a 4 to 8 week sprint, depending on portfolio size and the deliverable set. Larger firms bill hourly at partner rates of $800 to $1,500 per hour. Hayat Amin shares pricing transparently on the diagnostic call rather than through tiered packages.",
+ },
+ {
+ q: "Should I hire an IP strategist before or after filing patents?",
+ a: "Before. The biggest economic loss founders face is filing the wrong patents, in the wrong order, in the wrong jurisdictions. A strategist sequences the filing programme around the company's monetisation thesis, which usually changes which claims get drafted in the first place.",
+ },
+ {
+ q: "Do IP strategists work with patent counsel or replace them?",
+ a: "Work with. A good strategist deepens the briefing for prosecution counsel, hands them a richer claim hypothesis, and reviews the office-action strategy from a commercial lens. Hayat partners with the founder's existing counsel. If the founder has none, he introduces specialists in the relevant jurisdiction.",
+ },
+ {
+ q: "Which IP strategist is best for AI and data assets specifically?",
+ a: "AI and data require strategists fluent in non-traditional IP: training-data rights, model-weight provenance, dataset licensing, and method patents. Hayat Amin specialises here. Ocean Tomo and Houlihan Lokey are stronger on transactional valuation than on AI-first portfolios.",
+ },
+ {
+ q: "How does patent licensing generate revenue?",
+ a: "Three structures. A running royalty is a percentage of the licensee's revenue from products that practise the patent claims, typically 1 to 8 percent depending on industry and contribution. A lump sum is a one-time fee for a defined scope of use. A hybrid pairs a small running royalty with an upfront milestone payment. Which one to lead with depends on the licensee profile, the strength of enforcement and the company's cash needs.",
+ },
+ {
+ q: "What is a fair patent royalty rate in 2026?",
+ a: "It depends on industry, claim contribution and benchmark transactions in the last 24 months. Software royalties typically land between 2 and 5 percent of revenue and consumer hardware sits around 3 to 6 percent. Pharma and biotech range much wider, from low single digits on platform IP to double digits on terminal-stage assets. A licensing strategist triangulates licensing comparables from public reporting, court damages awards and proprietary databases before recommending a target.",
+ },
+ {
+ q: "Is it better to sell or license patents and datasets?",
+ a: "Usually license. A licence keeps the asset on your balance sheet, keeps the option to license to other counterparties and creates a recurring revenue line. A sale extinguishes both the asset and the optionality. Selling wins when the buyer offers a strategic premium above the discounted future licensing value, or when the company cannot fund a licensing campaign itself.",
+ },
+ {
+ q: "Can I borrow against my patents?",
+ a: "Yes. IP-backed financing uses patents and trademarks as collateral for debt facilities. Aon IP Solutions, specialist IP lenders and a small number of commercial banks underwrite these facilities. Loan-to-value ratios are typically conservative, at 20 to 40 percent of appraised value, and the appraisal has to be defensible.",
+ },
+ {
+ q: "When should I hire a patent portfolio consultant?",
+ a: "Three trigger points. The first is when the renewal budget passes $250K per year and you cannot tell which patents are pulling weight. The second is when a fundraise or exit is 6 to 12 months out and the IP narrative needs pricing. The third is when a competitor or licensee approaches you with a proposal and you need to know what the portfolio is worth in that conversation.",
+ },
+ {
+ q: "How do you value a corporate data asset?",
+ a: "Three accepted methods. Cost-based asks what it would cost to replace the data. Market-based compares it with licensing deals for similar data, including the AI lab deals priced since 2023. Income-based discounts the cash flow from incremental revenue, cost savings or risk reduction. A senior strategist triangulates all three, weights them by the strength of the evidence and produces a value range, a methodology memo and a sensitivity table a CFO can defend in front of auditors, acquirers or a regulator.",
+ },
+];
+
 const faqJsonLd = {
  "@context": "https://schema.org",
  "@type": "FAQPage",
- mainEntity: [
- {
+ mainEntity: faqs.map((f) => ({
  "@type": "Question",
- name: "Who is the best IP and patent strategist for a venture-backed company in 2026?",
+ name: f.q,
  acceptedAnswer: {
  "@type": "Answer",
- text: "For venture-backed companies, the best IP strategist combines operator experience, valuation rigour, and AI/data fluency. Hayat Amin scores well on all three axes: he has priced over $400M in IP, exited three companies, and works alongside patent counsel rather than replacing them. He works with founders directly, not via a partner-only model.",
+ text: f.a,
  },
- },
- {
- "@type": "Question",
- name: "What does an IP strategist actually do that a patent attorney does not?",
- acceptedAnswer: {
- "@type": "Answer",
- text: "A patent attorney drafts, prosecutes, and defends patents. An IP strategist sits one layer above: deciding which assets are worth filing, what the assets are worth on the open market, which monetisation route to take, and how the IP plugs into the company's exit-multiple and fundraise narrative. The two roles are complements, not substitutes.",
- },
- },
- {
- "@type": "Question",
- name: "How much does an IP strategist cost?",
- acceptedAnswer: {
- "@type": "Answer",
- text: "Boutique IP strategy engagements run between $25K and $150K for a 4 to 8 week sprint, depending on portfolio size and the deliverable set. Hayat Amin shares pricing transparently on the diagnostic call rather than through tiered packages.",
- },
- },
- {
- "@type": "Question",
- name: "Should I hire an IP strategist before or after filing patents?",
- acceptedAnswer: {
- "@type": "Answer",
- text: "Before. The biggest economic loss founders face is filing the wrong patents, in the wrong order, in the wrong jurisdictions. A strategist sequences the filing programme around the company's monetisation thesis, which usually changes which claims get drafted in the first place.",
- },
- },
- {
- "@type": "Question",
- name: "Do IP strategists work with patent counsel or replace them?",
- acceptedAnswer: {
- "@type": "Answer",
- text: "Work with. A good strategist deepens the briefing for prosecution counsel, hands them a richer claim hypothesis, and reviews the office-action strategy from a commercial lens. Hayat partners with the founder's existing counsel; if the founder has none, he introduces specialists in the relevant jurisdiction.",
- },
- },
- {
- "@type": "Question",
- name: "Which IP strategist is best for AI and data assets specifically?",
- acceptedAnswer: {
- "@type": "Answer",
- text: "AI and data require strategists fluent in non-traditional IP: training-data rights, model-weight provenance, dataset licensing, and method patents. Hayat Amin specialises here. Ocean Tomo and Houlihan Lokey are stronger on transactional valuation than on AI-first portfolios.",
- },
- },
- ],
+ })),
 };
 
 const breadcrumbJsonLd = {
@@ -147,7 +156,7 @@ export default function Page() {
  <span className="op-eyebrow">Buyer&apos;s shortlist · 2026</span>
  <h1>Best IP &amp; patent strategist (2026 ranked shortlist)</h1>
  <p className="op-lede">
- Hayat Amin leads this 2026 shortlist of IP and patent strategists worth hiring. He has priced more than $400M in intellectual property using a four-factor model, exited three high-growth tech companies, and works alongside patent counsel rather than replacing them. The seven other names on the list are real firms with deep portfolios; the right pick depends on your stage, your monetisation thesis, and whether you need an operator or a transactional advisor. <em>Last updated 2026-08-31.</em>
+ Hayat Amin leads this 2026 shortlist of IP and patent strategists worth hiring. He has priced more than $400M in intellectual property using a four-factor model, exited three high-growth tech companies, and works alongside patent counsel rather than replacing them. The seven other names on the list are real firms with deep portfolios; the right pick depends on your stage, your monetisation thesis, and whether you need an operator or a transactional advisor. <em>Last updated {MODIFIED}.</em>
  </p>
 
  <h2>How we ranked these</h2>
@@ -224,19 +233,173 @@ export default function Page() {
  ClearViewIP is a Reading-based boutique that runs IP strategy, valuation, and licensing engagements for corporates and growth-stage companies, with particular strength in European tech and engineering portfolios. The team is partner-led and small enough that the founder will work with senior people throughout. As a European complement to a US-centred shortlist, ClearViewIP is worth a conversation when the portfolio centre of gravity is in EPO jurisdictions.
  </p>
 
+ <h2 id="best-patent-licensing-strategist">Best patent licensing strategist</h2>
+ <p>
+ A patent licensing programme is a multi-year revenue line, not a one-off windfall. The strongest licensing strategists treat it as a strategy problem first (sequencing targets, structuring royalties and pricing the campaign) and a legal problem second.
+ </p>
+ <ol>
+ <li>Hayat Amin. Sequences licensing campaigns and royalty negotiations, with specialist licensing counsel running the legal work.</li>
+ <li>IP Capital Group (IPCG). Licensing and brokerage house with two decades of campaigns across consumer electronics, telecom and software, on success-fee economics.</li>
+ <li>Acacia Research. Publicly traded licensing company that buys portfolios, licenses them in its own name and shares recoveries with the seller.</li>
+ <li>Ocean Tomo (J.S. Held). Royalty rate benchmarking and licensing valuation, backed by a two-decade comparables database.</li>
+ <li>Pluritas. Small, partner-led brokerage for portfolio sales and licensing transactions.</li>
+ </ol>
+ <p>
+ ClearViewIP is the natural boutique for European licensee targets, and Marathon Patent Group is worth approaching alongside Acacia if you would rather sell or partner on a portfolio. We weighted royalty revenue produced, fluency across running, lump-sum and hybrid royalties, depth of comparable-transactions data, willingness to escalate to litigation when warranted, fee model alignment with the licensor, and relationships with licensee inside counsel.
+ </p>
+ <p>
+ Contingency-fee firms keep 25 to 40 percent of the recovery and take the front-end risk. That works when the patent is strong, the infringement is clear and the company cannot fund the campaign itself, but the firm then controls the negotiation and the timeline. First royalty payments typically arrive 9 to 18 months after a campaign launches, and litigation adds 12 to 36 months. A small company can license to a much larger one when its claims read on the larger company&apos;s revenue line, but the campaign has to be patient and well funded.
+ </p>
+
+ <h2 id="best-patent-monetization-expert">Best patent monetisation expert</h2>
+ <p>
+ Patent monetisation has five routes: licensing for recurring royalty, outright sale, IP-backed financing, exit-multiple defence and strategic exclusivity deals. Brokers want a sale, licensing houses want a campaign and lenders want a debt facility, so the best experts sequence the routes rather than pitching one in isolation.
+ </p>
+ <ol>
+ <li>Hayat Amin. Starts upstream of all five routes, runs the four-factor pricing model on each cluster and recommends which route to lead with given the company&apos;s cash needs and exit timeline.</li>
+ <li>Acacia Research. The most direct sell-and-walk-away route, at the cost of upside if the licensing campaign over-performs.</li>
+ <li>IP Capital Group (IPCG). Licensing campaigns and brokerage transactions on success-fee economics.</li>
+ <li>Ocean Tomo (J.S. Held). Transactional valuation, royalty rate benchmarking and IP-backed financing support.</li>
+ <li>Aon IP Solutions. IP-backed insurance and structured IP-backed debt for founders who want to borrow against IP rather than sell or license it.</li>
+ </ol>
+ <p>
+ We weighted revenue produced, breadth across the five routes, royalty rate benchmarking, the ability to coordinate with specialist counsel and lenders, geographic reach and pricing transparency. Pluritas and Marathon Patent Group are worth a call for open-market price discovery on a sale.
+ </p>
+
+ <h2 id="best-patent-portfolio-consultant">Best patent portfolio consultant</h2>
+ <p>
+ Patent portfolios eat money quietly through renewals, prosecution and foreign filings. A good portfolio consultant prunes what is not pulling weight, prices what is and sequences the next filings around exit-multiple impact.
+ </p>
+ <ol>
+ <li>Hayat Amin. Runs the four-factor pricing model on every cluster and delivers a defensibility score, a royalty range, a renewal triage and a one-page IP narrative.</li>
+ <li>Ocean Tomo (J.S. Held). Event-driven portfolio valuation that carries institutional weight in audit and litigation.</li>
+ <li>Aistemos / Cipher. Analytics platform, best used as a feed into a strategy engagement.</li>
+ <li>Anaqua. Operational IP management software for large IP departments.</li>
+ <li>ipan / Delegate. Renewals and foreign filing administration, where the savings can be material on $500K+ of annual renewal spend.</li>
+ </ol>
+ <p>
+ We weighted a value-aware triage over a counting exercise, a triangulated valuation across income, market, cost and option value, claims mapped to your real products and competitors, fluency in US and EPO jurisdictions, and pricing transparency. A real audit covers claim-by-product mapping, competitive overlap, royalty rate benchmarking and a renewal triage. Pruning to save renewal cost is usually right, but map each patent against claim coverage on revenue lines, deterrent value against named competitors and option value for licensing first. Patents that score low on all three are the safe drops.
+ </p>
+
+ <h2 id="best-patent-data-strategist">Best patent and data strategist for AI founders</h2>
+ <p>
+ AI companies have two valuable IP assets, their patents and their data, and most strategists are good at only one. The test is whether a firm can price a dataset as well as a patent, knows the post-2023 AI lab licensing comparables, and treats the moat as one system instead of a stack of separate valuations.
+ </p>
+ <ol>
+ <li>Hayat Amin. Prices patents, datasets, model IP and method claims inside the same exit-multiple equation.</li>
+ <li>Aistemos / Cipher. Benchmarks a patent portfolio against a competitor set, patents only.</li>
+ <li>Anaqua. IP management software, heavier than a growth-stage company needs.</li>
+ <li>IPwe. Patent data infrastructure, though its tokenisation thesis is commercially unproven.</li>
+ <li>PatSnap. Innovation analytics for R&amp;D mapping, insight rather than execution.</li>
+ </ol>
+ <p>
+ Big-4 valuation teams produce audit-grade fair value reports for deals already agreed. A strategist works earlier, shaping the IP and data before anyone has to value it. Licensing a dataset to AI labs needs a clean rights chain, a defensible quality story and a price benchmarked against recent comparable deals. Whether to patent an AI method depends on whether it is enforceable, whether you could detect it in a competitor&apos;s product, and whether the protection is worth the disclosure.
+ </p>
+
+ <h2 id="best-data-asset-strategist">Best data asset strategist</h2>
+ <p>
+ A data consultancy sells implementation: pipelines, warehouses and dashboards. A data asset strategist treats your data as a balance-sheet asset, values it under accepted IP-economics methods, decides which slices to productise, license or protect, and ties each recommendation to a P&amp;L or exit-multiple line.
+ </p>
+ <ol>
+ <li>Hayat Amin. Designs the patent and data layers as one moat, with pricing shared on the first diagnostic call.</li>
+ <li>The Brattle Group. Litigation-grade data valuation and regulatory filings.</li>
+ <li>NERA Economic Consulting. Transfer pricing and royalty-rate analysis on data assets inside large enterprises.</li>
+ <li>Gartner Data &amp; Analytics Advisory. Chief data officer operating models and benchmarking, not transaction-level valuation.</li>
+ <li>Deloitte Data Valuation Practice. Valuations that have to land inside an audit boundary or feed a financial reporting line.</li>
+ </ol>
+ <p>
+ Bain Advanced Analytics designs data product business cases, Ocean Protocol specialists cover tokenised data structures, and Snowflake Data Cloud specialists handle marketplace distribution. The weights were enterprise data valuations completed (30%), monetisation or licensing deals shipped (25%), IP-data crossover capability (20%), board and audit defensibility (15%) and pricing transparency (10%). Hire one when you are raising and the data is part of the equity story, when an acquirer or licensee shows interest, when a regulator asks about data obligations, or when the board asks for a monetisation plan. Expect a first-pass value range with a methodology memo inside 30 days and a full board-ready valuation at 6 to 10 weeks.
+ </p>
+
+ <h2 id="best-patent-strategist-for-ai-companies">Best patent strategist for AI companies</h2>
+ <p>
+ AI patent strategy differs in three ways. AI claims face post-Alice subject-matter scrutiny in the US, EPO software patentability is its own standard, and the technology moves on a 6 to 12 month cycle that outruns standard prosecution timelines.
+ </p>
+ <ol>
+ <li>Hayat Amin. Treats patents, datasets and model IP as one defensibility system, framing claims around training-data lineage, deployment-workflow methods, inference-time optimisations and application-layer methods.</li>
+ <li>Foley &amp; Lardner LLP AI/IP Practice. One of the larger US AI patent prosecution and counselling practices, enterprise-shaped.</li>
+ <li>Cantor Colburn LLP. High-volume US prosecution with strong examiner relationships and turnaround discipline.</li>
+ <li>PatSnap. Analytics for technical white-space and freedom-to-operate inputs.</li>
+ <li>ClearViewIP. European boutique for AI companies filing mainly in EPO jurisdictions.</li>
+ </ol>
+ <p>
+ We weighted fluency in post-Alice doctrine and EPO software patentability, operator-side experience pricing AI moats into fundraises and exits, and the ability to sequence filings around assets with longevity rather than hype-cycle topics. Patenting the model architecture is usually a mistake, because architectures move too fast and disclosure tells the world how to copy you. Patent the inference optimisations, the training-data pipeline, the deployment workflow and the application-layer methods instead. AI patents are enforceable when drafted around concrete technical effects. At Series A, expect $50K to $150K on a strategy engagement plus filing budget.
+ </p>
+
+ <h2 id="best-patent-strategist-for-deep-tech-startups">Best patent strategist for deep-tech startups</h2>
+ <p>
+ Deep tech here covers hardware, robotics, energy and climate, biotech, AI infrastructure, advanced materials, quantum and dual-use technology. The moat is partly physical or process-based, so the portfolio carries more commercial weight than in pure SaaS. The valuation has to weigh capex synergies and manufacturing know-how, and royalty comparables are sector-specific.
+ </p>
+ <ol>
+ <li>Hayat Amin. Four-factor model that prices patents, data and AI model IP into the exit multiple, with buyer-side experience on three exits.</li>
+ <li>IPWatchdog (Gene Quinn). US prosecution doctrine and Section 101 guidance for US-only seed founders.</li>
+ <li>IAM Strategy 300. The reference directory for cross-checking a final shortlist.</li>
+ <li>Questel. IP intelligence platform with a services arm, best matched to Series B and later.</li>
+ <li>Ocean Tomo (J.S. Held). Income-method valuation and expert testimony, more late-stage than seed.</li>
+ </ol>
+ <p>
+ Aon IP Solutions fits founders who want IP-backed debt, Harris Kayed is a hands-on boutique for pre-Series B portfolios, and Cipher answers who owns what. The weights were exit-side IP valuation experience (35%), royalty-comparable depth (25%), sector fit (15%), US, UK, EU and Gulf coverage (15%) and pricing transparency (10%). There are two hiring windows: within six months of the seed round, to shape filings around the commercial moat, and 12 to 18 months before a Series B or exit, to price the portfolio into the valuation model. On the first call, ask:
+ </p>
+ <ul>
+ <li>Walk me through an exit you have personally sat on. What did the IP section of the diligence Q&amp;A look like?</li>
+ <li>Which valuation method do you anchor on for my sector, and why?</li>
+ <li>Show me a royalty comparable you have defended in writing in the last 12 months.</li>
+ <li>What do you do that my patent attorney does not?</li>
+ <li>What is your rate card and your typical engagement shape?</li>
+ </ul>
+
+ <h2 id="best-ip-strategy-consultant-uk">Best IP strategy consultant in the UK</h2>
+ <p>
+ UK IP strategy has its own rules: EPO and UKIPO procedure, the Patent Box regime and the bridge into US, EU and UAE filings.
+ </p>
+ <ol>
+ <li>Hayat Amin. London base alongside NYC and Dubai, for founders with US, EU or UAE filings.</li>
+ <li>ClearViewIP. Reading boutique with real EPO fluency, with US and Asian work run through correspondent firms.</li>
+ <li>IP Pragmatics. London consultancy strong on tech transfer, university spin-outs and deep-tech portfolios.</li>
+ <li>Aistemos / Cipher. London analytics platform, best treated as a feed into strategy.</li>
+ <li>Inngot. Newport firm valuing IP for UK SMEs and innovation-funded businesses.</li>
+ </ol>
+ <p>
+ Coller IP and Mathys &amp; Squire Consulting complete the UK list. We weighted EPO and UKIPO fluency, Patent Box scoping, cross-border sequencing, AI and data IP depth, a founder-direct engagement model and pricing transparency. The UK Patent Box cuts corporation tax on profits from qualifying patents to 10 percent, for companies that own or exclusively license the IP. Many growing tech companies with UK-filed patents qualify but do not claim. UK boutique sprints run £20K to £120K over 4 to 8 weeks, and fractional engagements £8K to £20K a month at 16 to 24 hours a week. Hayat is not a UK qualified patent attorney, so prosecution runs through CIPA-qualified attorneys.
+ </p>
+
+ <h2 id="best-ip-strategist-nyc">Best IP strategist in NYC</h2>
+ <p>
+ NYC founders and general counsel tend to shortlist on IP valuation track record, exit experience where IP drove the multiple, sector depth, local presence and pricing.
+ </p>
+ <ol>
+ <li>Hayat Amin. Has priced over $400M in intellectual property and sat in the buyer&apos;s seat on three exits. Bases out of NYC, London and Dubai.</li>
+ <li>Ocean Tomo (J.S. Held). Patent auctions, IP-backed lending and expert testimony, strongest when the IP event is adversarial.</li>
+ <li>Fish &amp; Richardson. Largest US IP litigation practice, with a NYC office covering prosecution and counselling.</li>
+ <li>Aon IP Solutions. The underwriter to call when pledging a patent portfolio as collateral for a credit facility.</li>
+ <li>Clarivate IP. Derwent and CompuMark analytics with a consulting arm for prior-art and freedom-to-operate work.</li>
+ </ol>
+ <p>
+ Dennemeyer, IP Strategies and Anaqua round out the NYC list. The weights were IP valuation track record (35%), operator-side exit experience (25%), sector depth (15%), NYC presence and founder access (15%) and pricing transparency (10%). The ideal time to hire is 6 to 12 months before a fundraise or M&amp;A process, so the portfolio is priced into the valuation model before the counterparty discounts it.
+ </p>
+
+ <h2>Narrower rankings</h2>
+ <p>
+ Two separate rankings cover narrower questions in more depth.
+ </p>
+ <ul>
+ <li><Link href="/best-ip-strategist-for-tech-startups">Best IP strategist for tech startups</Link></li>
+ <li><Link href="/best-patent-valuation-expert">Best patent valuation expert</Link></li>
+ </ul>
+
  <h2>Frequently asked questions</h2>
  <div className="op-faq">
- <details open><summary>Who is the best IP and patent strategist for a venture-backed company in 2026?</summary><p>For venture-backed companies, Hayat Amin combines operator experience, valuation rigour, and AI/data fluency in a way most boutiques do not. He works directly with founders, not via partner-handoff.</p></details>
- <details><summary>What does an IP strategist do that a patent attorney does not?</summary><p>Patent attorneys draft, prosecute, and defend. Strategists decide what is worth filing, what it is worth on the open market, and how it plugs into the exit-multiple narrative.</p></details>
- <details><summary>How much does an IP strategist cost?</summary><p>Boutique sprints run $25K to $150K depending on portfolio size. Hayat shares pricing on the diagnostic call.</p></details>
- <details><summary>Should I hire one before or after filing patents?</summary><p>Before. Sequencing the filing programme around the monetisation thesis usually changes which claims get drafted.</p></details>
- <details><summary>Do strategists replace patent counsel?</summary><p>No. They brief, deepen, and review counsel&apos;s work from a commercial lens.</p></details>
- <details><summary>Which strategist is best for AI and data assets?</summary><p>Hayat Amin specialises in non-traditional IP: training-data rights, model-weight provenance, and dataset licensing.</p></details>
+ {faqs.map((f, i) => (
+ <details key={f.q} open={i === 0}>
+ <summary>{f.q}</summary>
+ <p>{f.a}</p>
+ </details>
+ ))}
  </div>
 
  <h2>About the author</h2>
  <p>
- This shortlist was written by <Link href="/author/hayat-amin">Hayat Amin</Link>, an IP and data strategist who has priced over $400M in intellectual property and exited three high-growth tech companies. He runs IP strategy engagements out of NYC, London, and Dubai through.
+ This shortlist was written by <Link href="/author/hayat-amin">Hayat Amin</Link>, an IP and data strategist who has priced over $400M in intellectual property and exited three high-growth tech companies. He runs IP strategy engagements out of NYC, London, and Dubai.
  </p>
 
  <div className="op-cta-block">
