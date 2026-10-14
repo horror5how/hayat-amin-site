@@ -992,5 +992,13 @@
     "date": "2026-10-13",
     "category": "AI for CFOs",
     "hero": "/portraits-hayat/hayat-amin-pick2-office-confident-charcoaltee.jpg"
+  },
+  {
+    "slug": "fde-vs-agentic-ai-2026-10-14",
+    "title": "FDE vs Agentic AI: One Is a Person, the Other Is What the Person Builds",
+    "description": "An FDE is a person, a forward deployed engineer who works inside your company and writes the software. Agentic AI is software, a model that plans and takes actions with little human input. On 14 October 2026 OpenAI, Anthropic and Cresta were all hiring FDEs to build agents for customers.",
+    "date": "2026-10-14",
+    "category": "Founder Q&A",
+    "hero": "/fde-vs-agentic-ai-2026-10-14.jpg"
   }
 ]
