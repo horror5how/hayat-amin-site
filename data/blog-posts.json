@@ -1008,5 +1008,13 @@
     "date": "2026-10-14",
     "category": "Founder Q&A",
     "hero": "/portraits-hayat/hayat-amin-pick-coffee-talking-v3.jpg"
+  },
+  {
+    "slug": "fde-vs-sde-2026-10-15",
+    "title": "FDE vs SDE: 9 Differences in Amazon's Own Job Postings",
+    "description": "An SDE builds and runs software for their own employer. An FDE builds production software inside a customer's company and travels to do it. At Amazon, which posts both titles, the base pay band is the same at each level. All 14 of its US FDE postings mention travel, against 16 of 919 SDE postings.",
+    "date": "2026-10-15",
+    "category": "Founder Q&A",
+    "hero": "/fde-vs-sde-2026-10-15.jpg"
   }
 ]
