@@ -1016,5 +1016,13 @@
     "date": "2026-10-15",
     "category": "Founder Q&A",
     "hero": "/fde-vs-sde-2026-10-15.jpg"
+  },
+  {
+    "slug": "ai-agents-for-finance",
+    "title": "AI Agents for Finance: The First Five a CFO Should Build",
+    "description": "The first five AI agents for a finance team, in build order: overnight bank matching, a daily cash runway figure, supplier invoice coding, collections chasers and variance commentary. Start read only, add one agent a month, and keep a named person on every payment and every number that leaves the building.",
+    "date": "2026-10-15",
+    "category": "AI for CFOs",
+    "hero": "/portraits-hayat/hayat-amin-pick-coffeeshop-candid-v2.jpg"
   }
 ]
