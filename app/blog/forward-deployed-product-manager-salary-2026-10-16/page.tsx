@@ -44,7 +44,7 @@ const FAQ = [
   },
   {
     q: "Is a forward deployed product manager paid more than a normal product manager?",
-    a: "Not at Scale AI, the one employer that posts both titles with bands. Its Forward Deployed Product Manager, Enterprise and its Product Manager, Enterprise Core Platform both list $240,000 to $300,000. The forward deployed label changes the work and the travel, and the level sets the pay.",
+    a: "Not at Scale AI, which posts both titles with bands. Its Forward Deployed Product Manager, Enterprise and its Product Manager, Enterprise Core Platform both list $240,000 to $300,000. The forward deployed label changes where the person sits, and the level sets the pay.",
   },
   {
     q: "What is the forward deployed product manager salary in London?",
@@ -153,7 +153,7 @@ export default function Page() {
       <span className="op-eyebrow">Founder Q&amp;A &middot; Updated {MOD}</span>
       <h1>Forward deployed product manager salary</h1>
 
-      <p className="op-lede">A forward deployed product manager in the US is paid $130,000 to $345,000, on the six bands four employers published on 16 October 2026. Most of the range sits between $170,000 and $300,000, and all six postings mention equity on top.</p>
+      <p className="op-lede">A forward deployed product manager in the US is paid $130,000 to $345,000, on the six bands four employers published on 16 October 2026. Four of the six bands start at $170,000 or more, and all six postings mention equity on top.</p>
 
       <p>I&apos;m Hayat Amin. I spent twenty years as a technology chief financial officer, sold three companies from that seat, and I now work as a forward deployed engineer myself. This morning I typed forward deployed product manager into Google from the US. Salary was the third completion, and cresta forward deployed product manager salary completes on its own. So instead of quoting an aggregator, I read every band the employers printed on their own job boards today.</p>
 
@@ -182,7 +182,7 @@ export default function Page() {
         <li>Scale AI, Forward Deployed Product Manager, Public Sector, New York and Washington, DC. $210,000 to $345,000 in San Francisco, New York and Seattle, and $200,000 to $311,000 in Washington, DC, Texas, Colorado and Hawaii.</li>
       </ul>
 
-      <p>Take the midpoint of each and the middle of the six lands at about $231,000. That&apos;s the number I&apos;d use as a first anchor for a mid level hire in New York. It isn&apos;t a market average, because six postings at four companies is a small sample and every one of them is an AI or defence company paying to win people.</p>
+      <p>Take the midpoint of each and the middle of the six lands at about $231,000. That&apos;s the number I&apos;d use as a first anchor for a mid level hire in New York. It isn&apos;t a market average, because six postings at four companies is a small sample and every one of them is an AI or defence company.</p>
 
       <p>Two names are missing on purpose. OpenAI had 802 open roles on its board this morning and none with forward deployed product manager in the title. Anthropic&apos;s main board had 654 and none either. Anthropic&apos;s version of the job sits at Ode, its services arm, which is where the $200,000 to $275,000 comes from. I wrote up what the role involves in <Link href="/blog/what-is-a-forward-deployed-product-manager-2026-09-20/">what is a forward deployed product manager</Link>.</p>
 
