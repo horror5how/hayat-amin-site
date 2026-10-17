@@ -154,5 +154,11 @@
     "slug": "ai-agents-for-finance",
     "date": "2026-10-15",
     "pillar": "ai-for-cfos"
+  },
+  {
+    "question": "What is ChatGPT good for as a CFO, and what should never go into it?",
+    "slug": "chatgpt-for-cfos",
+    "date": "2026-10-17",
+    "pillar": "ai-for-cfos"
   }
 ]

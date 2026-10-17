@@ -1040,5 +1040,13 @@
     "date": "2026-10-17",
     "category": "AI Operator for SMEs",
     "hero": "/property-management-kpis-2026-10-17.jpg"
+  },
+  {
+    "slug": "chatgpt-for-cfos",
+    "title": "ChatGPT for CFOs: What It Is Good For and What Never Goes In",
+    "description": "What a CFO should use ChatGPT for (board and investor drafts, formula checks, contract summaries, pressure testing a decision) and the five things that never go in: personal data, price sensitive numbers, bank and customer details, credentials, and any figure nobody has tied back to the ledger.",
+    "date": "2026-10-17",
+    "category": "AI for CFOs",
+    "hero": "/portraits-hayat/hayat-amin-pick-office-talking-v3.jpg"
   }
 ]
