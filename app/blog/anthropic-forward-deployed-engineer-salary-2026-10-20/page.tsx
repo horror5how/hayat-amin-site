@@ -227,11 +227,11 @@ export default function Page() {
 
       <h2>What the salary tells a founder</h2>
 
-      <p>Here&apos;s the CFO read. Take the Staff band midpoint, $300,000. Divide by 52 and it&apos;s about $5,770 a week in base salary, before payroll tax, benefits or anything else on top. That&apos;s what the market leader pays for one senior person who can walk in with a business problem and leave with a production system.</p>
+      <p>Here&apos;s the CFO read. Take the Staff band midpoint, $300,000. Divide by 52 and it&apos;s about $5,770 a week in base salary, before payroll tax, benefits or anything else on top. That&apos;s what Anthropic pays for one senior person who can walk in with a business problem and leave with a production system.</p>
 
       <p>You aren&apos;t competing with that number to hire one. You couldn&apos;t keep one busy if you did, unless you have a dozen workflows that need rebuilding. What you need is the work, a few weeks at a time, from someone who has done it before. Anthropic&apos;s own GTM Strategy &amp; Operations posting says demand for FDE is well ahead of the team&apos;s capacity, and that part of the job is moving more of the work to partners. Even the company paying $320,000 can&apos;t hire fast enough to serve everyone itself.</p>
 
-      <p>An Anthropic FDE also works on Claude, for Anthropic&apos;s most strategic customers. If you run a company of 30 or 300 people in New York, Chicago or London, none of them is coming to connect your CRM to your accounting system.</p>
+      <p>An Anthropic FDE also works on Claude, for Anthropic&apos;s most strategic customers. If you run a company of 30 or 300 people in New York, Chicago or London, that FDE isn&apos;t coming to connect your CRM to your accounting system.</p>
 
       <p>That is the gap I fill through Beyond Elevation, my firm. I sit inside your business, connect the systems that don&apos;t talk to each other, build the agents and the live dashboard on top, and stay until your team runs on it. The scope is at <a href="https://meethayat.com/services/fde" target="_blank" rel="noopener noreferrer">meethayat.com/services/fde</a>. The pay picture for the product side of this job is in <Link href="/blog/forward-deployed-product-manager-salary-2026-10-16/">forward deployed product manager salary</Link>.</p>
 
