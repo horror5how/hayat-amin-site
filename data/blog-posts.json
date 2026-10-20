@@ -1072,5 +1072,13 @@
     "date": "2026-10-20",
     "category": "Founder Q&A",
     "hero": "/anthropic-forward-deployed-engineer-salary-2026-10-20.jpg"
+  },
+  {
+    "slug": "how-does-a-company-that-doesnt-sell-ai-build-an-ai-moat-2026-10-20",
+    "title": "How Does a Company That Doesn't Sell AI Build an AI Moat?",
+    "description": "A company that doesn't sell AI builds an AI moat from what its own operations produce: outcome data from every human correction, written rules from years of exceptions, and integrations that took a year to earn. Hayat Amin's replication clock: under 6 months to copy is a feature, over 24 months on data you own is a moat.",
+    "date": "2026-10-20",
+    "category": "Founder Q&A",
+    "hero": "/portraits-hayat/hayat-amin-alt-office-armscrossed.jpg"
   }
 ]
