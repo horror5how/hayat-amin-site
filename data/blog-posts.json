@@ -1088,5 +1088,13 @@
     "date": "2026-10-21",
     "category": "Founder Q&A",
     "hero": "/forward-deployed-engineer-vs-data-engineer-2026-10-21.jpg"
+  },
+  {
+    "slug": "claude-for-finance",
+    "title": "Claude for Finance Teams: How I Use It to Run Close, Cash and Reporting",
+    "description": "How a finance team should use Claude: write the finance rulebook as a skill first, then run three scheduled jobs against the ledger (overnight bank matching, one cash runway figure every morning, variance commentary with every number tagged to its source line), read only for 30 days and a named person on every journal and payment.",
+    "date": "2026-10-21",
+    "category": "AI for CFOs",
+    "hero": "/portraits-hayat/hayat-amin-alt-office-heavier-v2.jpg"
   }
 ]

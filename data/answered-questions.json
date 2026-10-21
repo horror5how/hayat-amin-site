@@ -166,5 +166,11 @@
     "slug": "how-does-a-company-that-doesnt-sell-ai-build-an-ai-moat-2026-10-20",
     "date": "2026-10-20",
     "pillar": "strategy-valuation"
+  },
+  {
+    "question": "How should a finance team use Claude to run close, cash and reporting?",
+    "slug": "claude-for-finance",
+    "date": "2026-10-21",
+    "pillar": "ai-for-cfos"
   }
 ]
