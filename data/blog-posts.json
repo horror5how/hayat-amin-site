@@ -1080,5 +1080,13 @@
     "date": "2026-10-20",
     "category": "Founder Q&A",
     "hero": "/portraits-hayat/hayat-amin-alt-office-armscrossed.jpg"
+  },
+  {
+    "slug": "forward-deployed-engineer-vs-data-engineer-2026-10-21",
+    "title": "Forward Deployed Engineer vs Data Engineer: 11 Companies Hiring Both, Compared",
+    "description": "A forward deployed engineer goes into a customer and builds until the system runs there. A data engineer stays home and builds the pipelines and tables the company runs its own numbers on. On 21 October 2026 I read 18,244 live postings from 108 employers' own job feeds: 140 of 170 forward deployed titles mention customers five or more times against 5 of 60 data engineer titles, and the median US bands are $182,000 to $253,000 against $180,000 to $258,000. Written by Hayat Amin, a chief financial officer turned forward deployed engineer.",
+    "date": "2026-10-21",
+    "category": "Founder Q&A",
+    "hero": "/forward-deployed-engineer-vs-data-engineer-2026-10-21.jpg"
   }
 ]
