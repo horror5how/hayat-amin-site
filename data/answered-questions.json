@@ -172,5 +172,11 @@
     "slug": "claude-for-finance",
     "date": "2026-10-21",
     "pillar": "ai-for-cfos"
+  },
+  {
+    "question": "Should I Replace My RPA Bots With AI Agents?",
+    "slug": "should-i-replace-my-rpa-bots-with-ai-agents-2026-10-22",
+    "date": "2026-10-22",
+    "pillar": "ai-operations"
   }
 ]

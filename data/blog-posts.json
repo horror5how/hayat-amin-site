@@ -1104,5 +1104,13 @@
     "date": "2026-10-22",
     "category": "Founder Q&A",
     "hero": "/ai-agents-vs-workflows-2026-10-22.jpg"
+  },
+  {
+    "slug": "should-i-replace-my-rpa-bots-with-ai-agents-2026-10-22",
+    "title": "Should I Replace My RPA Bots With AI Agents?",
+    "description": "Replace an RPA bot with an AI agent only where the bot breaks on input it can't read: PDFs in changing layouts, free text emails, exceptions a person clears by judgement. Keep the bots that key fixed fields, put an agent in front of them, and retire a bot only after 30 days of matched output.",
+    "date": "2026-10-22",
+    "category": "Founder Q&A",
+    "hero": "/portraits-hayat/hayat-amin-alt-office-wave-v3.jpg"
   }
 ]
