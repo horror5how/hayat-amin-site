@@ -1096,5 +1096,13 @@
     "date": "2026-10-21",
     "category": "AI for CFOs",
     "hero": "/portraits-hayat/hayat-amin-alt-office-heavier-v2.jpg"
+  },
+  {
+    "slug": "ai-agents-vs-workflows-2026-10-22",
+    "title": "AI Agents vs Workflows: Which One Your Company Needs, From Someone Who Builds Both",
+    "description": "A workflow runs a model and tools through steps a person wrote in advance. An AI agent chooses its own next step and its own tools. Most company work needs the workflow. From Anthropic, OpenAI and LangChain's definitions and 33 live FDE postings, by Hayat Amin, a chief financial officer turned forward deployed engineer.",
+    "date": "2026-10-22",
+    "category": "Founder Q&A",
+    "hero": "/ai-agents-vs-workflows-2026-10-22.jpg"
   }
 ]
