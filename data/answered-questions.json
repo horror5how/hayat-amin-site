@@ -178,5 +178,11 @@
     "slug": "should-i-replace-my-rpa-bots-with-ai-agents-2026-10-22",
     "date": "2026-10-22",
     "pillar": "ai-operations"
+  },
+  {
+    "question": "How should a CFO use AI for financial forecasting?",
+    "slug": "ai-financial-forecasting",
+    "date": "2026-10-27",
+    "pillar": "ai-for-cfos"
   }
 ]

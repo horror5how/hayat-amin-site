@@ -1112,5 +1112,13 @@
     "date": "2026-10-22",
     "category": "Founder Q&A",
     "hero": "/portraits-hayat/hayat-amin-alt-office-wave-v3.jpg"
+  },
+  {
+    "slug": "ai-financial-forecasting",
+    "title": "AI Financial Forecasting: A CFO's Build Guide",
+    "description": "How a CFO should build AI financial forecasting: score the last 12 months of forecasts first, split the forecast into drivers, let an agent own only the drivers with 24 months of history and a rule, keep the maths in a model the agent can't change, and reforecast every Monday with a change log that names what moved.",
+    "date": "2026-10-27",
+    "category": "Founder Q&A",
+    "hero": "/portraits-hayat/hayat-amin-look1-time-4.jpg"
   }
 ]
