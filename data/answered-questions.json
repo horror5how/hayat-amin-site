@@ -184,5 +184,11 @@
     "slug": "ai-financial-forecasting",
     "date": "2026-10-27",
     "pillar": "ai-for-cfos"
+  },
+  {
+    "question": "How do I map a business process so an AI agent can run it?",
+    "slug": "how-do-i-map-a-business-process-for-an-ai-agent-2026-10-28",
+    "date": "2026-10-28",
+    "pillar": "ai-operations"
   }
 ]

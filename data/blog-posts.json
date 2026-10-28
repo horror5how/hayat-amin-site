@@ -1120,5 +1120,13 @@
     "date": "2026-10-27",
     "category": "Founder Q&A",
     "hero": "/portraits-hayat/hayat-amin-look1-time-4.jpg"
+  },
+  {
+    "slug": "how-do-i-map-a-business-process-for-an-ai-agent-2026-10-28",
+    "title": "How Do I Map a Business Process for an AI Agent?",
+    "description": "Map a process for an AI agent from 20 real cases, not from the SOP. Sit with the person who runs it, write down what arrives, every decision as a rule with a number, every system the agent touches and who clears each exception, then test the map against 50 past cases before anyone writes a prompt.",
+    "date": "2026-10-28",
+    "category": "Founder Q&A",
+    "hero": "/portraits-hayat/hayat-amin-look2-forbes-1.jpg"
   }
 ]
