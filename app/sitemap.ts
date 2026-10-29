@@ -73,6 +73,7 @@ const ROUTES: {
   { path: "/blog/ai-agents-for-finance", priority: 0.9, changeFrequency: "weekly", images: HERO_MAP["ai-agents-for-finance"] ? [HERO_MAP["ai-agents-for-finance"]] : undefined },
   { path: "/blog/chatgpt-for-cfos", priority: 0.9, changeFrequency: "weekly", images: HERO_MAP["chatgpt-for-cfos"] ? [HERO_MAP["chatgpt-for-cfos"]] : undefined },
   { path: "/blog/how-do-i-map-a-business-process-for-an-ai-agent-2026-10-28", priority: 0.9, changeFrequency: "weekly", images: HERO_MAP["how-do-i-map-a-business-process-for-an-ai-agent-2026-10-28"] ? [HERO_MAP["how-do-i-map-a-business-process-for-an-ai-agent-2026-10-28"]] : undefined },
+  { path: "/blog/ai-fp-and-a", priority: 0.9, changeFrequency: "weekly", images: HERO_MAP["ai-fp-and-a"] ? [HERO_MAP["ai-fp-and-a"]] : undefined },
   { path: "/blog/ai-financial-forecasting", priority: 0.9, changeFrequency: "weekly", images: HERO_MAP["ai-financial-forecasting"] ? [HERO_MAP["ai-financial-forecasting"]] : undefined },
   { path: "/blog/claude-for-finance", priority: 0.9, changeFrequency: "weekly", images: HERO_MAP["claude-for-finance"] ? [HERO_MAP["claude-for-finance"]] : undefined },
   { path: "/blog/how-do-i-use-claude-agents-to-run-business-operations-2026-10-12", priority: 0.9, changeFrequency: "weekly", images: HERO_MAP["how-do-i-use-claude-agents-to-run-business-operations-2026-10-12"] ? [HERO_MAP["how-do-i-use-claude-agents-to-run-business-operations-2026-10-12"]] : undefined },

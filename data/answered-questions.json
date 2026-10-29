@@ -190,5 +190,11 @@
     "slug": "how-do-i-map-a-business-process-for-an-ai-agent-2026-10-28",
     "date": "2026-10-28",
     "pillar": "ai-operations"
+  },
+  {
+    "question": "How should an FP&A team start using AI?",
+    "slug": "ai-fp-and-a",
+    "date": "2026-10-29",
+    "pillar": "ai-for-cfos"
   }
 ]

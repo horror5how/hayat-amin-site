@@ -1136,5 +1136,13 @@
     "date": "2026-10-29",
     "category": "Founder Q&A",
     "hero": "/fde-salary-2026-10-29.jpg"
+  },
+  {
+    "slug": "ai-fp-and-a",
+    "title": "AI for FP&A: Start With the Commentary, Not the Model",
+    "description": "How an FP&A team should start with AI: time one month end, write the commentary rulebook with a materiality line, have an agent draft source-tagged variance commentary by working day 3, measure the controller's keep rate until 8 of 10 lines survive, then move to budget holder questions and scenarios on a copy of the model.",
+    "date": "2026-10-29",
+    "category": "Founder Q&A",
+    "hero": "/portraits-hayat/hayat-amin-look2-forbes-2.jpg"
   }
 ]
