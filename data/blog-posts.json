@@ -1128,5 +1128,13 @@
     "date": "2026-10-28",
     "category": "Founder Q&A",
     "hero": "/portraits-hayat/hayat-amin-look2-forbes-1.jpg"
+  },
+  {
+    "slug": "fde-salary-2026-10-29",
+    "title": "FDE Salary: What 10 Companies Pay Forward Deployed Engineers in the USA and London",
+    "description": "FDE salary in the US runs from $117,200 to $330,000 base on the postings of 10 companies read on 29 October 2026: Ramp, Cohere, OpenAI, Anthropic, Scale AI, Google, Salesforce, Databricks, Cresta and Palantir. In London, 2 of 31 FDE postings print a band, both Anthropic at £225,000 to £255,000. Ranked by Hayat Amin, a CFO turned forward deployed engineer.",
+    "date": "2026-10-29",
+    "category": "Founder Q&A",
+    "hero": "/fde-salary-2026-10-29.jpg"
   }
 ]
