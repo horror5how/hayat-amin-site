@@ -65,6 +65,7 @@ const ROUTES: {
       `${SITE}/press/hayat-amin-dubai.jpg`,
     ],
   },
+  { path: "/hire", priority: 0.9, changeFrequency: "weekly" },
   { path: "/blog", priority: 0.95, changeFrequency: "daily", images: [`${SITE}/hayat-hero.png`] },
   { path: "/blog/should-i-replace-my-rpa-bots-with-ai-agents-2026-10-22", priority: 0.9, changeFrequency: "weekly", images: HERO_MAP["should-i-replace-my-rpa-bots-with-ai-agents-2026-10-22"] ? [HERO_MAP["should-i-replace-my-rpa-bots-with-ai-agents-2026-10-22"]] : undefined },
   { path: "/blog/how-does-a-company-that-doesnt-sell-ai-build-an-ai-moat-2026-10-20", priority: 0.9, changeFrequency: "weekly", images: HERO_MAP["how-does-a-company-that-doesnt-sell-ai-build-an-ai-moat-2026-10-20"] ? [HERO_MAP["how-does-a-company-that-doesnt-sell-ai-build-an-ai-moat-2026-10-20"]] : undefined },

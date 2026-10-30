@@ -163,3 +163,8 @@
 .odd-quote p { font-size: 0.82rem; line-height: 1.45; color: var(--ink); font-style: italic; margin: 0 0 12px; }
 .odd-quote b { font-size: 0.78rem; color: var(--ink); margin-top: auto; }
 .odd-quote i { font-size: 0.72rem; color: var(--ink-2); font-style: normal; }
+
+/* /hire directory: dense two column index, one line per page. */
+.op-dir { columns: 2; column-gap: 32px; list-style: none; padding: 0; margin: 0 0 28px; }
+.op-dir li { break-inside: avoid; margin: 0 0 6px; }
+@media (max-width: 640px) { .op-dir { columns: 1; } }

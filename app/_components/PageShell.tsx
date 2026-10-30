@@ -124,6 +124,7 @@ export function PageShell({
  <span className="op-footer-h">Site</span>
  <Link href="/about">About Hayat</Link>
  <Link href="/services">Services</Link>
+ <Link href="/hire">Every way to hire him</Link>
  <Link href="/answers">Answers</Link>
  <Link href="/speaking">Speaking</Link>
  <Link href="/press">Press &amp; Media</Link>
