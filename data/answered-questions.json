@@ -196,5 +196,11 @@
     "slug": "ai-fp-and-a",
     "date": "2026-10-29",
     "pillar": "ai-for-cfos"
+  },
+  {
+    "question": "What data governance do AI agents need in a mid-size company?",
+    "slug": "what-data-governance-do-ai-agents-need-in-a-mid-size-company-2026-10-30",
+    "date": "2026-10-30",
+    "pillar": "data-strategy"
   }
 ]

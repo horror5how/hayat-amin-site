@@ -1144,5 +1144,13 @@
     "date": "2026-10-29",
     "category": "Founder Q&A",
     "hero": "/portraits-hayat/hayat-amin-look2-forbes-2.jpg"
+  },
+  {
+    "slug": "what-data-governance-do-ai-agents-need-in-a-mid-size-company-2026-10-30",
+    "title": "What Data Governance Do AI Agents Need in a Mid-Size Company?",
+    "description": "AI agents in a 30 to 500 person company need five things before they touch live data: a one page access register per agent, four sensitivity classes, a separate login for every agent, a log of every read and write kept 12 months, and a named owner who signs off each dataset.",
+    "date": "2026-10-30",
+    "category": "Founder Q&A",
+    "hero": "/portraits-hayat/hayat-amin-look2-forbes-3.jpg"
   }
 ]
