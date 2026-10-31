@@ -1122,5 +1122,13 @@
     "date": "2026-10-30",
     "category": "Founder Q&A",
     "hero": "/portraits-hayat/hayat-amin-look2-forbes-3.jpg"
+  },
+  {
+    "slug": "ai-board-reporting",
+    "title": "AI Board Reporting: Drafting the Pack From Source Data",
+    "description": "How a CFO should use AI for board reporting: map every number in the pack to a source query, let the ledger do the arithmetic, have an agent draft the narrative and the actions log against last quarter's promises, tie out every figure before a person reads it, and cut close to pack from 10 working days to 4 within 3 cycles.",
+    "date": "2026-10-31",
+    "category": "Founder Q&A",
+    "hero": "/portraits-hayat/hayat-amin-look2-forbes-4.jpg"
   }
 ]

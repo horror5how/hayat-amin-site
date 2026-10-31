@@ -202,5 +202,11 @@
     "slug": "what-data-governance-do-ai-agents-need-in-a-mid-size-company-2026-10-30",
     "date": "2026-10-30",
     "pillar": "data-strategy"
+  },
+  {
+    "question": "How should a CFO use AI for board reporting?",
+    "slug": "ai-board-reporting",
+    "date": "2026-10-31",
+    "pillar": "ai-for-cfos"
   }
 ]
