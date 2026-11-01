@@ -1146,5 +1146,13 @@
     "date": "2026-11-01",
     "category": "Founder Q&A",
     "hero": "/fractional-forward-deployed-engineer-2026-11-01.jpg"
+  },
+  {
+    "slug": "which-hr-operations-should-i-hand-to-ai-agents-first-2026-11-01",
+    "title": "Which HR Operations Should I Hand to AI Agents First?",
+    "description": "Hand AI agents the HR admin that runs on written rules: the policy inbox, onboarding paperwork, absence records and the payroll input check before cut off. Keep every decision about a person (hiring, pay, performance, dismissal) with a named human. Four agents, one at a time, 30 days in shadow each, in a 100 to 300 person company that is usually 2 to 3 days a week of HR time back.",
+    "date": "2026-11-01",
+    "category": "Founder Q&A",
+    "hero": "/portraits-hayat/hayat-amin-look3-fortune-1.jpg"
   }
 ]

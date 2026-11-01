@@ -208,5 +208,11 @@
     "slug": "ai-board-reporting",
     "date": "2026-10-31",
     "pillar": "ai-for-cfos"
+  },
+  {
+    "question": "Which HR operations should I hand to AI agents first?",
+    "slug": "which-hr-operations-should-i-hand-to-ai-agents-first-2026-11-01",
+    "date": "2026-11-01",
+    "pillar": "ai-operations"
   }
 ]
