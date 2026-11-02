@@ -1154,5 +1154,13 @@
     "date": "2026-11-01",
     "category": "Founder Q&A",
     "hero": "/portraits-hayat/hayat-amin-look3-fortune-1.jpg"
+  },
+  {
+    "slug": "forward-deployed-engineer-interview-questions-2026-11-02",
+    "title": "Forward Deployed Engineer Interview Questions: The 9 I'd Ask Before You Hire One",
+    "description": "The forward deployed engineer interview questions that matter ask for proof: a system still running in someone else's company, a week one plan for your own broken process, and a named owner after they leave. Nine questions, the red flags, and a paid working session that beats a fifth interview round.",
+    "date": "2026-11-02",
+    "category": "Founder Q&A",
+    "hero": "/forward-deployed-engineer-interview-questions-2026-11-02.jpg"
   }
 ]
