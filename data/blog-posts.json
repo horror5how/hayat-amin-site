@@ -1162,5 +1162,13 @@
     "date": "2026-11-02",
     "category": "Founder Q&A",
     "hero": "/forward-deployed-engineer-interview-questions-2026-11-02.jpg"
+  },
+  {
+    "slug": "forward-deployed-engineer-vs-contractor-2026-11-03",
+    "title": "Forward Deployed Engineer vs Contractor: Which One Gets Your AI Into Production",
+    "description": "A contractor builds what you specify and leaves. A forward deployed engineer works inside your company until the system runs on your real data, then hands it to someone on your team. Hire the contractor when you can write the spec, and the FDE when you can't. Written by Hayat Amin, a CFO turned forward deployed engineer.",
+    "date": "2026-11-03",
+    "category": "Founder Q&A",
+    "hero": "/forward-deployed-engineer-vs-contractor-2026-11-03.jpg"
   }
 ]
