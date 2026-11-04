@@ -1170,5 +1170,13 @@
     "date": "2026-11-03",
     "category": "Founder Q&A",
     "hero": "/forward-deployed-engineer-vs-contractor-2026-11-03.jpg"
+  },
+  {
+    "slug": "hire-forward-deployed-engineer-2026-11-04",
+    "title": "Hire a Forward Deployed Engineer: Do You Need One, and Which Kind?",
+    "description": "Hire a forward deployed engineer when AI has to work inside real, messy systems and nobody on your team can write the spec. Decide which kind first: one who fits your product into customers' stacks, or one who builds AI into your own company. Written by Hayat Amin, a CFO turned forward deployed engineer.",
+    "date": "2026-11-04",
+    "category": "Founder Q&A",
+    "hero": "/hire-forward-deployed-engineer-2026-11-04.jpg"
   }
 ]
