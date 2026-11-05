@@ -1178,5 +1178,13 @@
     "date": "2026-11-04",
     "category": "Founder Q&A",
     "hero": "/hire-forward-deployed-engineer-2026-11-04.jpg"
+  },
+  {
+    "slug": "fde-vs-ai-architect-2026-11-05",
+    "title": "FDE vs AI Architect: 7 Differences That Decide Which One You Hire",
+    "description": "An AI architect designs how your AI systems fit together and sets the standards. A forward deployed engineer goes inside your company and builds the first system until it runs on your real data. If nothing is in production yet, hire the FDE first. Written by Hayat Amin, a CFO turned forward deployed engineer.",
+    "date": "2026-11-05",
+    "category": "Founder Q&A",
+    "hero": "/fde-vs-ai-architect-2026-11-05.jpg"
   }
 ]
