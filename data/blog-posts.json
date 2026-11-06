@@ -1186,5 +1186,13 @@
     "date": "2026-11-05",
     "category": "Founder Q&A",
     "hero": "/fde-vs-ai-architect-2026-11-05.jpg"
+  },
+  {
+    "slug": "do-you-really-need-a-chief-ai-officer-2026-11-06",
+    "title": "Do You Really Need a Chief AI Officer? Not Before Your First System Runs",
+    "description": "Most companies under a few hundred people don't need a chief AI officer yet. They need one AI system running on real data, owned by an executive they already have. Hire the CAIO when several teams are building at once. Written by Hayat Amin, a CFO turned forward deployed engineer.",
+    "date": "2026-11-06",
+    "category": "Founder Q&A",
+    "hero": "/do-you-really-need-a-chief-ai-officer-2026-11-06.jpg"
   }
 ]
