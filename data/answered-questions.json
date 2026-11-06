@@ -214,5 +214,11 @@
     "slug": "which-hr-operations-should-i-hand-to-ai-agents-first-2026-11-01",
     "date": "2026-11-01",
     "pillar": "ai-operations"
+  },
+  {
+    "question": "How does AI speed up month end close by matching the bank before the team arrives?",
+    "slug": "ai-month-end-close",
+    "date": "2026-11-06",
+    "pillar": "ai-for-cfos"
   }
 ]

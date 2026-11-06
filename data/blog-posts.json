@@ -1194,5 +1194,13 @@
     "date": "2026-11-06",
     "category": "Founder Q&A",
     "hero": "/do-you-really-need-a-chief-ai-officer-2026-11-06.jpg"
+  },
+  {
+    "slug": "ai-month-end-close",
+    "title": "AI Month End Close: How an Agent Matches the Bank Before Your Team Arrives",
+    "description": "How AI runs the bank side of month end close: an agent pulls every feed at 5am, matches in four passes from exact to remittance reading, leaves the controller 30 to 80 ranked exceptions instead of 3,000 lines, posts nothing, and reconciles daily so the bank is 95% done before month end starts.",
+    "date": "2026-11-06",
+    "category": "Founder Q&A",
+    "hero": "/portraits-hayat/hayat-amin-look4-bw-2.jpg"
   }
 ]

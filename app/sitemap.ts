@@ -77,6 +77,7 @@ const ROUTES: {
   { path: "/blog/how-do-i-map-a-business-process-for-an-ai-agent-2026-10-28", priority: 0.9, changeFrequency: "weekly", images: HERO_MAP["how-do-i-map-a-business-process-for-an-ai-agent-2026-10-28"] ? [HERO_MAP["how-do-i-map-a-business-process-for-an-ai-agent-2026-10-28"]] : undefined },
   { path: "/blog/ai-fp-and-a", priority: 0.9, changeFrequency: "weekly", images: HERO_MAP["ai-fp-and-a"] ? [HERO_MAP["ai-fp-and-a"]] : undefined },
   { path: "/blog/which-hr-operations-should-i-hand-to-ai-agents-first-2026-11-01", priority: 0.9, changeFrequency: "weekly", images: HERO_MAP["which-hr-operations-should-i-hand-to-ai-agents-first-2026-11-01"] ? [HERO_MAP["which-hr-operations-should-i-hand-to-ai-agents-first-2026-11-01"]] : undefined },
+  { path: "/blog/ai-month-end-close", priority: 0.9, changeFrequency: "weekly", images: HERO_MAP["ai-month-end-close"] ? [HERO_MAP["ai-month-end-close"]] : undefined },
   { path: "/blog/ai-board-reporting", priority: 0.9, changeFrequency: "weekly", images: HERO_MAP["ai-board-reporting"] ? [HERO_MAP["ai-board-reporting"]] : undefined },
   { path: "/blog/ai-financial-forecasting", priority: 0.9, changeFrequency: "weekly", images: HERO_MAP["ai-financial-forecasting"] ? [HERO_MAP["ai-financial-forecasting"]] : undefined },
   { path: "/blog/claude-for-finance", priority: 0.9, changeFrequency: "weekly", images: HERO_MAP["claude-for-finance"] ? [HERO_MAP["claude-for-finance"]] : undefined },
