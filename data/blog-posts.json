@@ -1202,5 +1202,13 @@
     "date": "2026-11-06",
     "category": "Founder Q&A",
     "hero": "/portraits-hayat/hayat-amin-look4-bw-2.jpg"
+  },
+  {
+    "slug": "how-to-build-your-first-forward-deployed-engineering-team-2026-11-07",
+    "title": "How to Build Your First Forward Deployed Engineering Team",
+    "description": "Build your first forward deployed engineering team one engineer at a time: hire after three repeatable enterprise pilots, report into engineering, pay $160,000 to $185,000 base at seed, and measure pilot to production in 90 days. Written by Hayat Amin, a CFO turned forward deployed engineer.",
+    "date": "2026-11-07",
+    "category": "Founder Q&A",
+    "hero": "/how-to-build-your-first-forward-deployed-engineering-team-2026-11-07.jpg"
   }
 ]
