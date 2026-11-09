@@ -1218,5 +1218,13 @@
     "date": "2026-11-08",
     "category": "Founder Q&A",
     "hero": "/is-a-forward-deployed-engineer-worth-it-2026-11-08.jpg"
+  },
+  {
+    "slug": "forward-deployed-engineer-vs-ai-engineer-2026-11-09",
+    "title": "Forward Deployed Engineer vs AI Engineer: Which One Should a CEO Hire First?",
+    "description": "An AI engineer builds the AI. A forward deployed engineer makes it work inside your business and answers for the result. Hire the AI engineer when the model is the problem, the FDE when the demo works and production doesn't. Written by Hayat Amin, a CFO turned forward deployed engineer.",
+    "date": "2026-11-09",
+    "category": "Founder Q&A",
+    "hero": "/forward-deployed-engineer-vs-ai-engineer-2026-11-09.jpg"
   }
 ]
