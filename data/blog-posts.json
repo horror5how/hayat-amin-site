@@ -1226,5 +1226,13 @@
     "date": "2026-11-09",
     "category": "Founder Q&A",
     "hero": "/forward-deployed-engineer-vs-ai-engineer-2026-11-09.jpg"
+  },
+  {
+    "slug": "why-ai-agents-fail-in-production-2026-11-10",
+    "title": "Why AI Agents Fail in Production, and What a CEO Can Fix This Week",
+    "description": "AI agents fail in production because production isn't the demo: messy data, systems nobody joined, errors that compound, no log and no owner. The model is rarely the cause. Seven reasons and the fix, in order. Written by Hayat Amin, a CFO turned forward deployed engineer.",
+    "date": "2026-11-10",
+    "category": "Founder Q&A",
+    "hero": "/why-ai-agents-fail-in-production-2026-11-10.jpg"
   }
 ]
