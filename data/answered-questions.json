@@ -220,5 +220,11 @@
     "slug": "ai-month-end-close",
     "date": "2026-11-06",
     "pillar": "ai-for-cfos"
+  },
+  {
+    "question": "How should a CFO use AI for cash flow forecasting?",
+    "slug": "ai-cash-flow-forecasting",
+    "date": "2026-11-10",
+    "pillar": "ai-for-cfos"
   }
 ]

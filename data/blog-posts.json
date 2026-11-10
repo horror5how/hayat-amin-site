@@ -1234,5 +1234,13 @@
     "date": "2026-11-10",
     "category": "Founder Q&A",
     "hero": "/why-ai-agents-fail-in-production-2026-11-10.jpg"
+  },
+  {
+    "slug": "ai-cash-flow-forecasting",
+    "title": "AI Cash Flow Forecasting: One Live Runway Figure Every Morning",
+    "description": "How a CFO should build AI cash flow forecasting: reconcile every bank account each morning, build 13 weeks from known receipts and payments, let an agent predict when each customer pays from their last 12 invoices, send one runway figure with the 3 lines that moved it, and score the forecast weekly for 8 weeks before the spreadsheet goes.",
+    "date": "2026-11-10",
+    "category": "Founder Q&A",
+    "hero": "/portraits-hayat/hayat-amin-look5-sidelight-2.jpg"
   }
 ]
