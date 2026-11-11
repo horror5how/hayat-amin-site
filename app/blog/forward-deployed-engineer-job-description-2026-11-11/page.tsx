@@ -251,7 +251,7 @@ export default function Page() {
 
       <h2>The template</h2>
 
-      <p>Copy this and fill the brackets. It runs to about 250 words, which is shorter than any of the three postings above, on purpose.</p>
+      <p>Copy this and fill the brackets. It runs to under 200 words, which is shorter than any of the three postings above, on purpose.</p>
 
       <div style={{ border: "1px solid rgba(212,170,82,0.5)", borderRadius: "8px", padding: "1.25rem 1.5rem", margin: "1.5rem 0" }}>
         <p><strong>Forward Deployed Engineer, [company], [city], [hybrid or on site]</strong></p>
