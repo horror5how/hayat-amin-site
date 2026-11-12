@@ -1250,5 +1250,13 @@
     "date": "2026-11-11",
     "category": "Founder Q&A",
     "hero": "/forward-deployed-engineer-job-description-2026-11-11.jpg"
+  },
+  {
+    "slug": "ai-readiness-assessment-2026-11-12",
+    "title": "AI Readiness Assessment: The 8 Checks I Run Before Anything Gets Built",
+    "description": "An AI readiness assessment answers one question: can this company put an AI system into production in the next 90 days? Here are the 8 checks I run, a 16 point score, and what to fix this week before you hire anyone. Written by Hayat Amin, a CFO turned forward deployed engineer.",
+    "date": "2026-11-12",
+    "category": "Founder Q&A",
+    "hero": "/ai-readiness-assessment-2026-11-12.jpg"
   }
 ]
