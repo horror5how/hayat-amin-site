@@ -226,5 +226,11 @@
     "slug": "ai-cash-flow-forecasting",
     "date": "2026-11-10",
     "pillar": "ai-for-cfos"
+  },
+  {
+    "question": "Where does AI help in financial modelling, and where does it get it wrong?",
+    "slug": "ai-financial-modelling",
+    "date": "2026-11-12",
+    "pillar": "ai-for-cfos"
   }
 ]

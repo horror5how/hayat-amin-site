@@ -1258,5 +1258,13 @@
     "date": "2026-11-12",
     "category": "Founder Q&A",
     "hero": "/ai-readiness-assessment-2026-11-12.jpg"
+  },
+  {
+    "slug": "ai-financial-modelling",
+    "title": "AI Financial Modelling: Where It Helps and Where It Lies",
+    "description": "Where AI helps in financial modelling and where it lies: let it build the structure from a one page spec, write and audit formulas, draft the assumptions book and run scenarios on a copy, but never let it supply an assumption without a source or do arithmetic in chat. Four checks before anyone opens the file, and a 12 month backtest before the board sees it.",
+    "date": "2026-11-12",
+    "category": "Founder Q&A",
+    "hero": "/portraits-hayat/hayat-amin-look5-sidelight-4.jpg"
   }
 ]
