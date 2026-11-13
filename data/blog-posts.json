@@ -1274,5 +1274,13 @@
     "date": "2026-11-13",
     "category": "Founder Q&A",
     "hero": "/forward-deployed-engineer-skills-required-2026-11-13.jpg"
+  },
+  {
+    "slug": "how-do-i-set-up-ai-lead-scoring-for-a-b2b-company-2026-11-13",
+    "title": "How Do I Set Up AI Lead Scoring for a B2B Company?",
+    "description": "Set up AI lead scoring from won revenue, not from form fills: pull 24 months of closed deals, write fit rules before any model, let an agent read intent signals overnight and give a one line reason for every score, and ship only when last quarter's top 20% of scores holds 60% of won revenue. Written by Hayat Amin.",
+    "date": "2026-11-13",
+    "category": "Founder Q&A",
+    "hero": "/portraits-hayat/hayat-amin-look6-powerlean-1.jpg"
   }
 ]
