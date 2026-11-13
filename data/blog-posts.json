@@ -1266,5 +1266,13 @@
     "date": "2026-11-12",
     "category": "Founder Q&A",
     "hero": "/portraits-hayat/hayat-amin-look5-sidelight-4.jpg"
+  },
+  {
+    "slug": "forward-deployed-engineer-skills-required-2026-11-13",
+    "title": "Forward Deployed Engineer Skills Required: The 6 a CEO Should Test Before Hiring One",
+    "description": "The forward deployed engineer skills required are six: Python and SQL on your own data, joining systems, building with language models, discovery, talking to executives and handing over. What 1,000 job posts ask for, how to test each skill in an hour, and what it costs. Written by Hayat Amin, a CFO turned forward deployed engineer.",
+    "date": "2026-11-13",
+    "category": "Founder Q&A",
+    "hero": "/forward-deployed-engineer-skills-required-2026-11-13.jpg"
   }
 ]
