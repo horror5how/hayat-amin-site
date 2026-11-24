@@ -1290,5 +1290,13 @@
     "date": "2026-11-24",
     "category": "Founder Q&A",
     "hero": "/set-up-an-fde-function-in-india-or-the-middle-east-2026-11-24.jpg"
+  },
+  {
+    "slug": "ai-finance-governance",
+    "title": "AI Governance for Finance: The Four Rules and the Policy Page",
+    "description": "AI governance for a finance team comes down to four rules and one page: every AI use has a named owner, restricted data never leaves the approved tools, the model never posts, pays or does the arithmetic, and every output carries its source and a log kept for 12 months. The policy page fits on one side of A4 and gets reviewed every quarter.",
+    "date": "2026-11-24",
+    "category": "Founder Q&A",
+    "hero": "/portraits-hayat/hayat-amin-portrait-picture-use-this-a-lot-its-nice.jpg"
   }
 ]
