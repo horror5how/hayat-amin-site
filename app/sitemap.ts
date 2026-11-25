@@ -80,6 +80,7 @@ const ROUTES: {
   { path: "/blog/ai-month-end-close", priority: 0.9, changeFrequency: "weekly", images: HERO_MAP["ai-month-end-close"] ? [HERO_MAP["ai-month-end-close"]] : undefined },
   { path: "/blog/how-do-i-set-up-ai-lead-scoring-for-a-b2b-company-2026-11-13", priority: 0.9, changeFrequency: "weekly", images: HERO_MAP["how-do-i-set-up-ai-lead-scoring-for-a-b2b-company-2026-11-13"] ? [HERO_MAP["how-do-i-set-up-ai-lead-scoring-for-a-b2b-company-2026-11-13"]] : undefined },
   { path: "/blog/ai-finance-governance", priority: 0.9, changeFrequency: "weekly", images: HERO_MAP["ai-finance-governance"] ? [HERO_MAP["ai-finance-governance"]] : undefined },
+  { path: "/blog/what-is-an-ai-operator-and-does-my-company-need-one-2026-11-25", priority: 0.9, changeFrequency: "weekly", images: HERO_MAP["what-is-an-ai-operator-and-does-my-company-need-one-2026-11-25"] ? [HERO_MAP["what-is-an-ai-operator-and-does-my-company-need-one-2026-11-25"]] : undefined },
   { path: "/blog/ai-financial-modelling", priority: 0.9, changeFrequency: "weekly", images: HERO_MAP["ai-financial-modelling"] ? [HERO_MAP["ai-financial-modelling"]] : undefined },
   { path: "/blog/ai-cash-flow-forecasting", priority: 0.9, changeFrequency: "weekly", images: HERO_MAP["ai-cash-flow-forecasting"] ? [HERO_MAP["ai-cash-flow-forecasting"]] : undefined },
   { path: "/blog/ai-board-reporting", priority: 0.9, changeFrequency: "weekly", images: HERO_MAP["ai-board-reporting"] ? [HERO_MAP["ai-board-reporting"]] : undefined },

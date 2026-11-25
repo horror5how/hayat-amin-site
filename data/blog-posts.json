@@ -1306,5 +1306,13 @@
     "date": "2026-11-25",
     "category": "Founder Q&A",
     "hero": "/ai-for-professional-services-firms-2026-11-25.jpg"
+  },
+  {
+    "slug": "what-is-an-ai-operator-and-does-my-company-need-one-2026-11-25",
+    "title": "What Is an AI Operator, and Does My Company Need One?",
+    "description": "An AI operator builds the AI agents that run parts of your company and then runs them after go-live: picks the process, wires the agent into your systems, sets what it may and may not do, and owns its output every week. You need one once you're past 30 people, have a process eating 20 or more hours a week, and nobody owns getting AI from pilot to production.",
+    "date": "2026-11-25",
+    "category": "Founder Q&A",
+    "hero": "/portraits-hayat/hayat-amin-portrait-with-background.jpg"
   }
 ]

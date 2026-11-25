@@ -244,5 +244,11 @@
     "slug": "ai-finance-governance",
     "date": "2026-11-24",
     "pillar": "ai-for-cfos"
+  },
+  {
+    "question": "What is an AI operator, and does my company need one?",
+    "slug": "what-is-an-ai-operator-and-does-my-company-need-one-2026-11-25",
+    "date": "2026-11-25",
+    "pillar": "operator-positioning"
   }
 ]
