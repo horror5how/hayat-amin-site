@@ -35,7 +35,7 @@ const FAQ = [
   },
   {
     q: "How much does a forward deployed engineer cost?",
-    a: "It depends on the route. A full time hire at an AI lab posts a base of roughly $185K to $350K in New York, and Anthropic's staff role posts $280K to $320K. A fractional engagement through Beyond Elevation starts from $5,800 a month for one to two days a week, and a fixed project starts from $30k over 8 to 14 weeks.",
+    a: "It depends on the route. Full time FDE roles at OpenAI, Ramp and Harvey in New York post a base of $185K to $350K between them, and Anthropic's staff role posts $280K to $320K. A fractional engagement through Beyond Elevation starts from $5,800 a month for one to two days a week, and a fixed project starts from $30k over 8 to 14 weeks.",
   },
   {
     q: "What is the forward deployed engineer salary in the US?",
@@ -152,7 +152,7 @@ export default function Page() {
       <span className="op-eyebrow">Founder Q&amp;A &middot; Updated {MOD}</span>
       <h1>Forward deployed engineer hourly rate: what a CEO actually pays in 2026</h1>
 
-      <p className="op-lede">A forward deployed engineer costs $95 to $235 an hour on contract in the US, by Second Talent&apos;s November 2026 rate card. Salaried at OpenAI in New York, the posted base works out at $89 to $144 an hour, before benefits and equity. Fractional sits in between.</p>
+      <p className="op-lede">A forward deployed engineer costs $95 to $235 an hour on contract in the US, by Second Talent&apos;s November 2026 rate card. Salaried at OpenAI in New York, the posted base works out at $89 to $144 an hour, before benefits and equity. Fractional through a firm works out at about $84 to $167 an hour.</p>
 
       <p>I&apos;m Hayat Amin. I spent twenty years in technology as a chief financial officer and sold three companies from that seat, so I read an engineering quote the way a finance director does. Now I build AI operations inside companies as a forward deployed engineer. Below is every route priced per hour, from postings I read this morning, and what I&apos;d do this week before paying anyone.</p>
 
