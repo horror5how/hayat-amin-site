@@ -1330,5 +1330,13 @@
     "date": "2026-11-27",
     "category": "Founder Q&A",
     "hero": "/forward-deployed-engineer-for-small-business-2026-11-27.jpg"
+  },
+  {
+    "slug": "how-many-people-does-an-ai-back-office-need-2026-11-27",
+    "title": "How Many People Does an AI Back Office Need?",
+    "description": "A 100 person company running its back office on AI agents usually needs 4 to 6 people where it had 8 to 12: one named owner per function, an exceptions desk sized to the queue, and approvers for anything that moves money. Plan the headcount from the exception rate, not from the vendor's promise, by Hayat Amin.",
+    "date": "2026-11-27",
+    "category": "Founder Q&A",
+    "hero": "/portraits-hayat/hayat-amin-work-pic.jpg"
   }
 ]
