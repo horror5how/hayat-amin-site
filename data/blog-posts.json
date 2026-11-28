@@ -1346,5 +1346,13 @@
     "date": "2026-11-28",
     "category": "Founder Q&A",
     "hero": "/what-does-an-ai-operations-specialist-do-2026-11-28.jpg"
+  },
+  {
+    "slug": "ai-finance-stack",
+    "title": "The CFO's AI Stack in 2026: Ledger First, Model Second",
+    "description": "A CFO's AI stack in 2026 has five layers, built in this order: a clean ledger, read only access to it, one approved model workspace, a few agents with named owners, and a log under all of it. Buy the model first and it fails on a ledger with 400 unmatched lines. The gates, the tools and what it costs a 100 person company. By Hayat Amin.",
+    "date": "2026-11-28",
+    "category": "Founder Q&A",
+    "hero": "/portraits-hayat/hayat-amin-portrait-dubai-2.jpg"
   }
 ]
